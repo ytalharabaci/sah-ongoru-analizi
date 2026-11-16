@@ -547,15 +547,504 @@
           "iddia_ozeti": "Utku, yapay zekanın ses ve görüntü gecikmelerinin her geçen gün azalarak sahteciliğin anlaşılmaz hale geleceğini, bu suistimaller yüzünden uzaktan mülakatların tarihe karışacağını ve şirketlerin herkesi mecburen ofise çağıracağını söylüyor.",
           "orijinal_baglam": "Adayların iş mülakatlarında arka planda yapay zeka ve deepfake kullanmasını kendi işe alım tecrübesi üzerinden anlatan Utku Şen, bu teknolojilerin hızla geliştiğini ve gecikmelerin yakında tamamen kaybolacağını vurguluyor. Uzaktan mülakatın çok daha pratik olduğunu ancak bu sahtecilikler nedeniyle ileride tamamen biteceğini kendi tahmini olarak ekliyor.",
           "arama_sorgusu_en": "AI cheating ending remote job interviews return in-person",
-          "arama_sorgusu_tr": "yapay zeka online mülakat bitişi ofise dönüş"
+          "arama_sorgusu_tr": "yapay zeka online mülakat bitişi ofise dönüş",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "AI Is Forcing the Return of the In-Person Job Interview: Here’s Why It’s Actually a Good Thing | Gogotechy",
+              "icerik": "Yes, AI is forcing the return of the in-person job interview. Major companies in the U.S. are returning to in-person interviews to combat the use of AI for cheating, such as generating answers or even impersonating candidates during virtual interviews. This trend is a direct reaction to AI tools making it easier for job seekers to appear more skilled than they really are. According to a recent Wall Street Journal article, employers are now using face-to-face meetings to verify genuine skills, [...] The return of in-person interviews is a human correction to an AI-distorted process. For candidates with real skills, strong communication, and collaborative instincts, this trend is an advantage, not a threat.\n\nThat said, stepping into an in-person interview can still feel intimidating, especially when so much of hiring has shifted online. [...] Most companies aren’t abandoning AI completely. Instead, the emerging model looks like this:\n\n Early rounds: remote & AI-assisted\n Mid rounds: structured video interviews\n Final round: in-person\n\nThe in-person stage isn’t just another step, it’s a verification checkpoint. Employers evaluate not only technical skills but also:\n\n Cultural fit\n Real-time communication\n Collaboration and teamwork\n Confidence under pressure",
+              "link": "https://gogotechy.com/blog/ai-is-forcing-the-return-of-the-in-person-job-interview"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "To counter AI cheating, companies bring back in-person job interviews – Computerworld",
+              "icerik": "AI-enabled cheating has surged, particularly in virtual technical job interviews. Would-be job candidates increasingly use AI tools off-camera to feed them answers, such as responses to coding challenges, and in some cases turning to deepfake technology to impersonate applicants.\n\nTo battle that trend, more and more companies are ditching screens for handshakes — bringing back in-person job interviews. [...] Google, Cisco and McKinsey & Co. have all re-instituted in-person interviews for some job candidates over the past year. “Remote work and advancements in AI have made it easier than ever for fake candidates to infiltrate the hiring process,” said Scott McGuckin, vice president of global talent acquisition at Cisco. “Identifying these threats is our priority, which is why we are adapting our hiring process to include increased verification steps and enhanced background checks that may involve an [...] Hirevue data shows that ChatGPT and other forms of genAI tend to perform poorly on virtual job tryouts — and only average on AI-scored assessments, according Zuloaga. “This means top candidates still stand out,” she said.\n\nCheating in hiring is hard to define because preparation and deception often blur — like using job coaches or notes versus allowing AI to write your answers.",
+              "link": "https://www.computerworld.com/article/4044734/to-counter-ai-cheating-companies-bring-back-in-person-job-interviews.html"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "AI cheating in interviews: the 2026 state of play (and what to actually do about it) - Expert Hire Blog",
+              "icerik": "Hiring teams are starting to react, unevenly. Google's Sundar Pichai reportedly told an internal town hall in February 2025 that the company would return to in-person interviews for some roles to address the rise in candidates using AI in interviews, and Deloitte reinstated in-person interviews for parts of its UK graduate program. Specific founder anecdotes circulating in 2026 include one technology startup reporting that \"more than 50%\" of candidates cheated on a recorded coding challenge. [...] The honest summary is that the equilibrium has shifted. A 2023 HireVue survey found more than 85% of HR leaders worried about candidates cheating during virtual interviews. The 2026 reality is that the worry was justified, the tooling has caught up to it, and the hiring systems most companies still run were not built for this environment.\n\n## The three responses hiring teams are choosing between",
+              "link": "https://www.experthire.io/blog/ai-cheating-in-interviews"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "AI Is Bringing Back In-Person Job Interviews - WSJ",
+              "icerik": "Virtual interviews have become the new normal in hiring in recent years, driven by the rise of remote work and companies’ desire to speed up hiring. Trouble is, more candidates are using AI tools to cheat by feeding them answers off screen, especially in technical interviews, recruiters say. In rarer cases, AI-enabled scammers are impersonating job seekers with the aim of stealing data or money once they are hired. [...] Artificial intelligence has taken over so much of the job search that employers are resorting to a retro move: the in-person job interview. [...] Copyright ©2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8",
+              "link": "https://www.wsj.com/lifestyle/careers/ai-job-interview-virtual-in-person-305f9fd0"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "In-Person Interviews Make a Comeback to Combat AI Fraud",
+              "icerik": "Jun 25, 2026 · In this article, you’ll discover how companies like Google, Cisco, and McKinsey are responding to AI fraud, why in-person interviews are making a strategic comeback, and most importantly, how this shift creates new opportunities for authentic job seekers to stand out.",
+              "link": "https://blog.theinterviewguys.com/in-person-interviews-make-a-comeback/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI cheating ending remote job interviews return in-person",
+              "baslik": "72% of Companies Are Fighting AI Fraud With In-Person ...",
+              "icerik": "Jun 25, 2026 · Companies bring back in-person interviews as 72% fight AI fraud. Learn why Google and McKinsey demand face-to-face meetings and how to prepare.",
+              "link": "https://blog.theinterviewguys.com/72-of-companies-are-fighting-ai-fraud/"
+            }
+          ],
+          "karar": {
+            "sinif": "KISMEN TUTTU",
+            "guven_skoru": 6.5,
+            "olasiliklar": {
+              "KISMEN TUTTU": 0.649,
+              "TUTMADI": 0.023,
+              "TUTTU": 0.245,
+              "BELIRSIZ": 0.082
+            }
+          }
         },
         {
           "iddia_ozeti": "Utku, devletle özel sektörü ayıran disiplin ve kuralcılığın ortadan kalkmasıyla kamu veri tabanlarının genç hackerlara açılmasının sonunun çok kötü olacağını, devlet ciddiyetinin zayıflamasının büyük bir felakete yol açacağını söylüyor.",
           "orijinal_baglam": "Elon Musk'ın DOGE yapılanmasına 19 yaşında yeraltı hacker bağlantıları olan bir genci dahil edip devlet veri tabanlarına yetki vermesini değerlendiren Utku Şen, çocuk yaştaki hackerlara sınırsız yetki verilmesinin kırmızı çizgiyi aştığını belirtiyor. Devlet ciddiyetinin yok olduğu ve disiplinin kaybolduğu bu gidişatın sonunun asla iyi bir yere varmayacağını kendi endişesi ve öngörüsü olarak paylaşıyor.",
           "arama_sorgusu_en": "DOGE teenage hacker government database security fallout",
-          "arama_sorgusu_tr": "DOGE genç hacker devlet veritabanı güvenlik riski"
+          "arama_sorgusu_tr": "DOGE genç hacker devlet veritabanı güvenlik riski",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "DOGE Put Critical Social Security Data at Risk, Whistle-Blower Says",
+              "icerik": "The account by the whistle-blower, Charles Borges, underscores concerns that have led to lawsuits seeking to block young software engineers at the agency built by Elon Musk from having access to confidential government data. In his complaint, Mr. Borges said DOGE members copied the data to an internal agency server that only DOGE could access, forgoing the type of “independent security monitoring” normally required under agency policy for such sensitive data and creating “enormous [...] Listen to this article · 10:29 min Learn more By Nicholas Nehamas Reporting from Washington Aug. 26, 2025 Members of the Department of Government Efficiency uploaded a copy of a crucial Social Security database in June to a vulnerable cloud server, putting the personal information of hundreds of millions of Americans at risk of being leaked or hacked, according to a whistle-blower complaint filed by the Social Security Administration’s chief data officer. [...] DOGE team members uploaded a database with the personal information of hundreds of millions of Americans to a vulnerable cloud server, according to the agency’s chief data officer.",
+              "link": "https://www.congress.gov/119/meeting/house/118875/documents/HHRG-119-JU13-20260121-SD002-U2.pdf"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "DOGE is putting the country’s data and computing infrastructure at risk, HKS expert argues | Harvard Kennedy School",
+              "icerik": "are the effects of DOGE’s unprecedent access to many highly sensitive federal databases and payment tools. Bruce Schneier, a security technologist and lecturer at the Kennedy School, wrote about this for The Atlantic and Foreign Policy. We spoke with him to learn more about the risks to federal data. [...] These government systems are now less secure than they were because of DOGE’s actions. And here again, we don’t know the full extent of what is going on. We hear that systems are being modified, that unsecured mail servers are being attached to networks. This is an even bigger security issue. Attackers could potentially gain access through vulnerabilities in these new changes—whether hardware or software. And this level of access also means the potential to control. So, could Russia threaten to [...] ## Q: Staffers with DOGE have accessed the internal computer systems and other databases of numerous federal agencies and offices to look for evidence of what they claim is waste, fraud, and abuse, as well as to identify areas for greater efficiency. On the surface, why does this pose a problem?\n\nBruce Schneier: My concern is less with their goals and more with their tactics.",
+              "link": "https://www.hks.harvard.edu/faculty-research/policy-topics/science-technology-data/doge-putting-countrys-data-and-computing"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "Ranking Member Robert Garcia Expands DOGE Social Security Data Leak Investigation Following Explosive New Whistleblower Allegations | The U.S. House Committee on Oversight",
+              "icerik": "In September 2025, Ranking Member Garcia sent a letter to the Acting Inspector General at the Social Security Administration demanding an investigation after a whistleblower revealed claims that members of DOGE copied the entire Social Security database, which contains the sensitive personal information of over 300 million Americans, and illegally moved the information to an unsecure cloud server in violation of security protocols. [...] “The deeply disturbing whistleblower information obtained by the Committee shows the Trump Administration’s callous disregard for the safety and security of Americans’ most sensitive information. Not only has an ex-DOGE bro been accused of running around with the social security information of every American on a flash drive, he also may have the ability to edit and manipulate data at the Social Security Administration at will. This is dangerous and outrageous, and Oversight Committee Democrats [...] In April 2025, then-Ranking Member Gerald E. Connolly, opened the Committee’s first investigation into DOGE’s security and privacy violations at the Social Security Administration after whistleblower reports of DOGE’s collection of Americans’ sensitive data.",
+              "link": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-expands-doge-social-security-data-leak-investigation-following-explosive-new-whistleblower-allegations"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "Why Elon Musk's DOGE is amassing sensitive government data - The Washington Post",
+              "icerik": ",\n\nLisa Rein\n\n and\n\nRachel Siegel\n\nThe U.S. DOGE Service is racing to build a single centralized database with vast troves of personal information about millions of U.S. citizens and residents, a campaign that often violates or disregards core privacy and security protections meant to keep such information safe, government workers say.\n\npixel [...] Democracy Dies in Darkness\n\n# DOGE aims to pool federal data, putting personal information at risk\n\nThe goal — a centralized system with unprecedented access to data about Social Security, taxes, medical diagnoses and other private information — would create a multitude of vulnerabilities, experts say.\n\n9 min\n\nElon Musk listens to President Donald Trump during a Cabinet meeting at the White House on March 24. (Jabin Botsford/The Washington Post)\n\nBy Hannah Natanson\n\n,\n\nJoseph Menn\n\n,\n\nLisa Rein",
+              "link": "https://www.washingtonpost.com/business/2025/05/07/doge-government-data-immigration-social-security"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "2026 FBI data breach - Wikipedia",
+              "icerik": "The 2026 FBI data breach was a cyberattack on the Federal Bureau of Investigation 's recruitment portal, FBIJobs.gov, in September 2026, in which the extortion group ShinyHunters claimed to have stolen personal data on nearly all current and former FBI employees and job applicants. [1][2] The FBI designated the matter a cybersecurity incident on September 22, 2026, [3] and later attributed the ...",
+              "link": "https://en.wikipedia.org/wiki/2026_FBI_data_breach"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "DOGE Got Inside America's Most Critical Databases — The ...",
+              "icerik": "Mar 4, 2026 · The most alarming single technical incident: DOGE employees at the Social Security Administration transferred a live copy of the entire SSA database to a cloud server that lacked independent security controls.",
+              "link": "https://abhs.in/blog/doge-hacked-us-government-databases-social-security-treasury-2026"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE teenage hacker government database security fallout",
+              "baslik": "How DOGE improperly accessed and shared Social Security data ...",
+              "icerik": "Jan 23, 2026 · New court documents reveal even more ways DOGE improperly accessed and shared sensitive personal data last year — and how that data appears to have been used to advance dubious fraud claims.",
+              "link": "https://www.npr.org/2026/01/23/nx-s1-5684185/doge-data-social-security-privacy"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE genç hacker devlet veritabanı güvenlik riski",
+              "baslik": "DOGE'nin Hassas Veri Entegrasyonu Çabaları: Güvenlik ...",
+              "icerik": "Apr 19, 2025 · DOGE projesi, çeşitli federal ajansların elindeki hassas bilgileri bir araya getirme çabasında. Ancak bu çabalar, önemli siber güvenlik ve gizlilik ilkelerini ihlal etme riski taşıyor.",
+              "link": "https://teknomers.com/2025/04/19/dogenin-hassas-veri-entegrasyonu-cabalari-guvenlik-endiseleri-ve-yasal-ihlaller/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE genç hacker devlet veritabanı güvenlik riski",
+              "baslik": "2025 yılında DOGE'nin güvenlik açıkları, devlet verileri ...",
+              "icerik": "Dec 7, 2025 · Bu makalede, DOGE'nin güvenlik açıklarının ABD hükümeti verileri üzerindeki etkileri ayrıntılı olarak ele alınıyor. Özellikle, yetkisiz erişimlerle Hazine sistemlerinin hedef alınması ve ulusal güvenlik açısından doğan tehditler vurgulanıyor.",
+              "link": "https://miniapp.gate.com/tr/crypto-wiki/article/how-did-doge-s-security-breaches-impact-government-data-in-2025-20251207"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "DOGE genç hacker devlet veritabanı güvenlik riski",
+              "baslik": "Etkili Veritabanı Güvenliği Çözümleri | Oracle Türkiye",
+              "icerik": "Kullanıcı hesapları, kimlik doğrulaması, ayrıcalıklar, uygulama yazılımı güvenliği, bekleme ve hareket halinde şifreleme, denetim ve daha fazlasını yönetmek için Oracle Veritabanı'nın zengin güvenlik özellikleri ve seçenekleri hakkında bilgi edinin.",
+              "link": "https://www.oracle.com/tr/security/database-security/"
+            }
+          ],
+          "karar": {
+            "sinif": "TUTTU",
+            "guven_skoru": 6.7,
+            "olasiliklar": {
+              "KISMEN TUTTU": 0.259,
+              "TUTMADI": 0.029,
+              "BELIRSIZ": 0.042,
+              "TUTTU": 0.67
+            }
+          }
         }
       ]
+    },
+    "f79612f8-642f-4a9c-b87f-8e1dc365d61f": {
+      "title": "AI Fikirlerimizi Manipüle Edebilir Mi? - S.A.H E123",
+      "url": "https://www.youtube.com/watch?v=BrL2o1e6uAY",
+      "publish_date": "2025-05-04",
+      "extracted": true,
+      "claims": [
+        {
+          "iddia_ozeti": "Utku, yapay zekanın fotoğraftan konum bulma (Geoguessr) ve görsel akıl yürütmede insanla olan rekabetinin 5-10 yıl sürmeyeceğini, en fazla 6 ay içinde yapay zekanın arayı inanılmaz açarak bu rekabeti tamamen bitireceğini söylüyor.",
+          "orijinal_baglam": "ChatGPT'nin profesyonel bir Geoguessr oyuncusunu yenmesi haberini yorumlayan Utku Şen, satrançtaki Kasparov ve Deep Blue sürecini hatırlatıyor. Bilgisayarın insanı geçtikten sonra arayı açmasının bu sefer yıllar değil sadece birkaç ay alacağını, 6 ay sonra bu rekabetin tamamen biteceğini kendi tahmini olarak ekliyor.",
+          "arama_sorgusu_en": "AI Geoguessr beating human players benchmark",
+          "arama_sorgusu_tr": "yapay zeka Geoguessr insan rekabeti",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "AI Geoguessr beating human players benchmark",
+              "baslik": "GeoGuessr AI - Use AI to Find Where Any Street View Was Taken | GeoAxis",
+              "icerik": "## FAQ - GeoGuessr AI\n\n### Is there an AI that plays GeoGuessr?\n\nYes - several, but they vary in accuracy. GeoAxis is the public-benchmark leader on street-level imagery, so “the AI for GeoGuessr” is functionally what GeoAxis is.\n\n### Can AI beat top human GeoGuessr players?\n\nOn unfamiliar regions and across a long round set, yes. Top human players still win on familiar regions and on rounds with rare local cues they recognize that the AI hasn’t generalized yet. The gap is narrowing. [...] If you play GeoGuessr, you already know the cues. Yellow bollards = France. White-on-blue Cyrillic = Russia. Red-and-white-striped curbs = Switzerland. You’ve probably trained yourself to spot a dozen of them at a glance. GeoAxis is an AI that has trained itself on all of them, plus thousands more - and on the public street-level benchmark it now finds the correct spot more often than any of the frontier general-purpose models, including GPT 5.4, Grok 4, the model 3.1 Pro, and Claude Opus 4.7. [...] That’s exactly what GeoAxis was built for. On the public Dataset-GSS benchmark (615 street-level images across 396 cities and 123 countries - the closest public proxy for a serious GeoGuessr test set), GeoAxis V3 ranks first against every leading general-purpose AI. Full breakdown in the GeoAxis Version 3.0 post.\n\n## How to Use GeoAxis as a GeoGuessr AI",
+              "link": "https://geoaxis.ai/geoguessr-ai"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI Geoguessr beating human players benchmark",
+              "baslik": "GeoGuessr AI: How PIGEON Beat a Pro, and Is It Cheating?",
+              "icerik": "Short answer\n\nThe best GeoGuessr AI already outplays almost every human player. Stanford’s PIGEON model ranked in the top 0.01% of players in a blind experiment and won six out of six games against professional Trevor Rainbolt. Using AI for help during play is cheating under GeoGuessr’s rules; reviewing finished rounds with it is a fair way to learn. [...] The live test is what made it more than a benchmark score. A Chrome extension took a screenshot in each of the four compass directions, sent the images to the model and placed its guess. Across 458 matches in Competitive Duels, it beat players of every skill level. The authors even built in an optional random delay before each guess, to make its behaviour “seem more human-like”. [...] Yes. Stanford’s PIGEON won six of six games against professional Trevor Rainbolt and outperformed GeoGuessr’s Champion Division, the top 0.01% of players, across 458 blind matches. In a 2025 test, a general chat assistant also outscored a Master I–ranked player over five rounds.",
+              "link": "https://geospys.com/blog/geoguessr-ai"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI Geoguessr beating human players benchmark",
+              "baslik": "Sony's AI robot is beating the best human ping pong players",
+              "icerik": "1. Deirdre Bosa Live!\n\n   Deirdre Bosa Live!\n2. AI\n\nTrending \n\n FAA grounds flights\n Stock market today\n Live: Nvidia updates\n Social Security cuts: 28 states could lose $500 or more per month\n\nYahoo Finance Video\n\n# Sony's AI robot is beating the best human ping pong players\n\nYahoo Finance Video\n\nYahoo Finance Video\n\n 6758.T\n\nSony (SONY) has built a \"ping pong robot\" that uses agentic artificial intelligence (AI) to beat expert human players. [...] Yahoo Finance Tech Editor Dan Howley explains more.\n\n00:00  Speaker A\n\nSony has built a ping-pong robot, Dan Halley,\n\n00:04  Speaker A\n\nthat can beat human players. I was reading reports on this.\n\n00:07  Speaker A\n\nIt won seven out of 13 games against, not like Josh and Dan,\n\n00:12  Dan Halley\n\nbut Well, well, first of all, you don't know how good I am.\n\n00:14  Speaker A\n\nYou're right. That was that was an assumption, insulting. Seven out of 13 against\n\n00:19  Speaker A [...] 00:19  Speaker A\n\nhighly ranked players, you know, experienced players. Are you impressed? Real AI breakthrough or gimmick?\n\n00:26  Dan Halley\n\nUh gimmick. Um, you know, it's cool. It's got great uh computer vision then. It's obviously the articulation is there. Uh, you get a couple of white claws in me and I'll dominate this thing.\n\n00:37  Dan Halley\n\nAll right? I'm saying. Oh, that is fast. I'll still I'll still I'll be slower for sure.\n\n00:43  Dan Halley",
+              "link": "https://finance.yahoo.com/video/sonys-ai-robot-beating-best-103000301.html"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI Geoguessr beating human players benchmark",
+              "baslik": "Sony's AI robot is beating the best human ping pong players",
+              "icerik": "Yahoo Finance Video\n\n# Sony's AI robot is beating the best human ping pong players\n\nYahoo Finance Video\n\nYahoo Finance Video\n\n 6758.T\n\nSony (SONY) has built a \"ping pong robot\" that uses agentic artificial intelligence (AI) to beat expert human players.\n\nYahoo Finance Tech Editor Dan Howley explains more.\n\nTerms  and Privacy Policy\n\nPrivacy Dashboard\n\n## Recommended Stories [...] Oops, something went wrong\n\nSkip to navigation  Skip to right column \n\nSign in [...] 1. My Portfolio\n   1. Watchlists\n   2. Portfolios\n2. 1. Housing\n   2. Technology\n3. Markets\n   1. Stocks: Most Actives\n   2. Stocks: Gainers\n   3. Stocks: Losers\n   4. Trending Tickers\n   5. Futures\n   6. World Indices\n   7. Treasury Bonds\n   8. Currencies\n   9. Cryptocurrencies\n   10. Top ETFs\n   11. Top Mutual Funds\n   12. Options: Highest Open Interest\n   13. Options: Highest Implied Volatility\n   14. Private Companies\n4. Research\n   1. Screeners\n   2. Earnings Calendar",
+              "link": "https://ca.finance.yahoo.com/video/sonys-ai-robot-beating-best-103000301.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI Geoguessr beating human players benchmark",
+              "baslik": "GitHub - Nutlope/geoguessbench: An open GeoGuessr benchmark ...",
+              "icerik": "Oct 6, 2026 · An open GeoGuessr benchmark for AI models. Contribute to Nutlope/geoguessbench development by creating an account on GitHub.",
+              "link": "https://github.com/Nutlope/geoguessbench"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka Geoguessr insan rekabeti",
+              "baslik": "YAPAY ZEKAYA KARŞI OYNADIM | GeoGuessr Türkçe - YouTubeYAPAY ZEKA vs İNSAN (Bölüm 2) | GeoGuessr TürkçeGeoGuess - Gerçek Fotoğraflarla Ücretsiz Online Coğrafya OyunuGeoGuessr - Let's explore the world!Yapay Zeka İnsanlaştırıcı | AI Metinlerini Çevrimiçi Ücretsiz ...Yapay Zeka Hakimiyeti ve Yumuşak Güç Rekabeti: Uygur Meselesi ...GeoTips – Tips and tricks for Geoguessr",
+              "icerik": "Jun 6, 2026 · Geoguessr'da bugün heyecan dolu bir meydan okuma ile karşınızdayım: İnsan vs Yapay Zeka! 👍 Videoyu beğenerek destek olmayı ve kanala abone olmayı unutmayın! Jun 27, 2026 · Geoguessr'da bugün heyecan dolu bir meydan okumanın ikinci videosu ile karşınızdayım: İnsan vs Yapay Zeka! 👍 Videoyu beğenerek destek olmayı ve kanala abone olmayı unutmayın! GeoGuess'te oyna, gerçek fotoğraflar kullanan ücretsiz coğrafya oyunu ile dünyanın dört bir yanındaki otantik yerleri keşet. Bu sınırsız coğrafya oyununda arkadaşlarınla çok oyunculu oyna, bire bir mücadele et veya yapay zekaya karşı yeteneklerini test et - abonelik gereksiz. Looking to play GeoGuessr together with friends, co-workers or in another context? With a GeoGuessr Pro subscription, you can invite people without subscriptions to play with you in a party or challenge. Solvely'nin yapay zeka insanlaştırıcısı akademik yazımı anlar. Dilinizin doğal ve insan elinden çıkmış gibi okunmasını sağlarken alıntılarınızı, teknik terimlerinizi ve argüman yapınızı korur. Dec 2, 2025 · Yapay zeka, insan gücünün yetmeyeceği milyonlarca sayfalık materyali kısa sürede okuyup, içindeki gizli bilgileri bulabilir. Bu sayede, soykırımın yeni kanıtlarını uluslararası mahkemelere sunma süreci hızlanır. Tips and tricks for GeoGuessr game Welcome to Geotips, your #1 resource for becoming better at Geoguessr! This website is made by a selected team of the best players in the GeoGuessr community, all for free. On the map below, click the region you want to expand or use the list on the top of the page.",
+              "link": "https://www.youtube.com/watch?v=HjlwraRvPrw"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka Geoguessr insan rekabeti",
+              "baslik": "YAPAY ZEKA vs İNSAN (Bölüm 2) | GeoGuessr TürkçeGeoGuess - Gerçek Fotoğraflarla Ücretsiz Online Coğrafya OyunuGeoGuessr - Let's explore the world!Yapay Zeka İnsanlaştırıcı | AI Metinlerini Çevrimiçi Ücretsiz ...Yapay Zeka Hakimiyeti ve Yumuşak Güç Rekabeti: Uygur Meselesi ...GeoTips – Tips and tricks for Geoguessr",
+              "icerik": "Jun 27, 2026 · Geoguessr'da bugün heyecan dolu bir meydan okumanın ikinci videosu ile karşınızdayım: İnsan vs Yapay Zeka! 👍 Videoyu beğenerek destek olmayı ve kanala abone olmayı unutmayın! GeoGuess'te oyna, gerçek fotoğraflar kullanan ücretsiz coğrafya oyunu ile dünyanın dört bir yanındaki otantik yerleri keşet. Bu sınırsız coğrafya oyununda arkadaşlarınla çok oyunculu oyna, bire bir mücadele et veya yapay zekaya karşı yeteneklerini test et - abonelik gereksiz. Looking to play GeoGuessr together with friends, co-workers or in another context? With a GeoGuessr Pro subscription, you can invite people without subscriptions to play with you in a party or challenge. Solvely'nin yapay zeka insanlaştırıcısı akademik yazımı anlar. Dilinizin doğal ve insan elinden çıkmış gibi okunmasını sağlarken alıntılarınızı, teknik terimlerinizi ve argüman yapınızı korur. Dec 2, 2025 · Yapay zeka, insan gücünün yetmeyeceği milyonlarca sayfalık materyali kısa sürede okuyup, içindeki gizli bilgileri bulabilir. Bu sayede, soykırımın yeni kanıtlarını uluslararası mahkemelere sunma süreci hızlanır. Tips and tricks for GeoGuessr game Welcome to Geotips, your #1 resource for becoming better at Geoguessr! This website is made by a selected team of the best players in the GeoGuessr community, all for free. On the map below, click the region you want to expand or use the list on the top of the page.",
+              "link": "https://www.youtube.com/watch?v=cQQkX8ZXyV0"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka Geoguessr insan rekabeti",
+              "baslik": "GeoGuessr - Let's explore the world!",
+              "icerik": "Looking to play GeoGuessr together with friends, co-workers or in another context? With a GeoGuessr Pro subscription, you can invite people without subscriptions to play with you in a party or challenge.",
+              "link": "https://www.geoguessr.com/"
+            }
+          ],
+          "karar": {
+            "sinif": "TUTTU",
+            "guven_skoru": 5.1,
+            "olasiliklar": {
+              "TUTMADI": 0.07,
+              "KISMEN TUTTU": 0.29,
+              "TUTTU": 0.509,
+              "BELIRSIZ": 0.13
+            }
+          }
+        },
+        {
+          "iddia_ozeti": "Utku, yapay zeka botlarıyla insanları ikna etmenin maliyetsiz hale gelmesiyle birlikte ileride büyük platform sahiplerinin devletlere gizlice bot ordusu servisi satacağını ve bu sistemlerin kitle manipülasyonunda mutlaka kullanılacağını söylüyor.",
+          "orijinal_baglam": "Zürih Üniversitesi'nin yapay zeka botlarının insan fikirlerini değiştirmede 6 kat daha başarılı olduğunu gösteren araştırmasını değerlendiren Utku Şen, bot maliyetlerinin çok düşmesine dikkat çekiyor. İleride Elon Musk gibi platform sahiplerinin devletlere el altından bot servisi satacağını ve bu gücün algı operasyonlarında kesinlikle kullanılacağını kendi tezi olarak anlatıyor.",
+          "arama_sorgusu_en": "AI bot networks state manipulation elections",
+          "arama_sorgusu_tr": "yapay zeka bot orduları algı manipülasyonu",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "The Second AI Election: Testing the Safeguards Before November | Brennan Center for Justice",
+              "icerik": "battlefield by foreign nations. Chinese actors have been credibly accused of standing up at least 5,000 inauthentic X accounts controlled by an AI large language model system, according to recentreports. This operation, nicknamed “Green Cicada,” was deployed to influence political narratives and sow discord in the United States and other countries. Even more recently, new reporting alleges that Russia has turned its Matryoshka bot network on the midterm elections, using it to spread [...] that identified and countered election-related influence campaigns. With the potential for AI-driven misinformation campaigns to escalate sharply in this year’s midterms, we tested some of the most popular AI models to learn how they can be exploited to peddle false election narratives. The results are clear: AI companies, lawmakers, and civil society must do more to blunt the threat ahead of elections this November and in 2028 to help ensure free and fair elections. We outline the steps they [...] The 2024 U.S. presidential election was supposed to be the “first AI election.” Experts warned that generative AI could flood voters with deepfakes and fabricated evidence of fraud, U.S. intelligence officials declassified intel reports on foreign influence operations already experimenting with the technology, and leading AI companies pledged to combat deceptive election content. But foreign nations faced significant barriers to deploying AI to influence that election, according to the",
+              "link": "https://www.brennancenter.org/our-work/analysis-opinion/second-ai-election-testing-safeguards-november"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "How AI chatbots can mislead with election advice : NPR",
+              "icerik": "Meta, Anthropic, OpenAI and Google said they are working to prevent their chatbots from producing disinformation about the elections, such as incorrect information about poll site locations and opening times or misleading deepfake images, consistent with longstanding industry efforts that began after Russia's influence campaign during the 2016 elections.\n\n### Americans increasingly use chatbots for political information [...] In the months leading up to the midterms, Anthropic, OpenAI and Google all published policies about safeguarding elections that described how their chatbots are supposed to respond to questions about elections. Elon Musk's SpaceX and Microsoft did not publish policies and Meta's midterm election policy does not mention its Meta AI chatbot.\n\nCampaigns and political influence operations are now writing content specifically so that chatbots will pick it up and repeat it. [...] NPR tested five of the most popular chatbots — Meta AI, Claude, SpaceX's Grok and ChatGPT, and Google Gemini — to see if they could be forced into providing recommendations for candidates to vote for. All but Gemini provided lists of candidates to consider voting for based on the voter's stated political preferences in New York races for governor, attorney general, comptroller, state senate, and state assembly, after NPR gave them two or three prompts.",
+              "link": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "Chatbots and deepfakes in the 2026 midterms: An evidence-based AI guide for journalists - SciLine",
+              "icerik": "2016 and 2020, the authors found. The bots trained to shift opinion in Trump’s favor moved voters 1.5 points in that direction for likely Harris voters. Across all three countries, the AI models nudging participants on the right made less accurate claims. [...] “The chatbots we tested resisted election misinformation because accurate, well-sourced information was easy to find online,” writes Lawrence Norden, a co-author of the report and vice president of the elections and government program at the Brennan Center, in an August 2026 Washington Post op-ed. “As merchants of disinformation learn to manipulate the bots, it will be increasingly important for chatbots to reliably access information from quality sources.” [...] In the Nature study, thousands of participants had conversations with chatbots trained to persuade voters to shift their stance in three presidential elections: 2024 U.S. presidential election, the 2025 Canadian election and the 2025 presidential election in Poland. In the U.S., opinions of 2,300 voters using the pro-Harris chatbot shifted Trump-voter opinion some 3.9 points in her favor on a scale of 100 points. That’s about four times more than conventional ads during 2016 and 2020, the",
+              "link": "https://www.sciline.org/elections/ai-artificial-intelligence-chatbots"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "A.I. and Its Dangers Are Embedded In the Midterm Elections - The New York Times",
+              "icerik": "A.I. tools, some introduced just months before the election, have contributed to biased and inaccurate information about the polls and amplified foreign influence operations. They have also elevated low-quality slop content, which is now tainting the training data that informs chatbot responses, according to researchers. [...] Ahead of the midterms next month, chatbots, media generation services and automated content moderation systems are increasingly shaping voter choices, according to political experts and new research, even as A.I. enables new forms of toxic content.",
+              "link": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "UNMASKING THE THREAT: How Automated Bot Networks Manipulate ...",
+              "icerik": "Early uses were relatively benign, but recent advancements have enabled complex disinformation campaigns and direct attacks on electoral systems. The 2016 U.S. presidential election marked a pivotal moment, showcasing the power of state-sponsored bots in shaping political discourse.",
+              "link": "https://www.humansecurity.com/learn/resources/how-automated-bot-networks-manipulate-elections-globally/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "Election disinformation: how AI‑powered bots work and how you ...Bots And Fake Accounts In Elections: The State Of Research in ...Artificial Intelligence (AI) in Elections and CampaignsFrom Bots to Ballots: Democratic Integrity in the Era of ...Experts warn of threat to democracy from ‘AI bot swarms ...",
+              "icerik": "Apr 9, 2024 · It’s a place where disinformation campaigns thrive, perpetuated by armies of AI-powered bots programmed to sway public opinion and manipulate narratives. Mar 17, 2026 · This article is aimed at communications professionals, authorities, and political organizations who want to know what current research says about the real influence of bots and fake accounts on elections and referendums – and what this means for direct democracy in Switzerland. Oct 13, 2026 · The table below captures statutes explicitly governing the use of AI in campaigns and elections, including when the law was first enacted, what type of regulation it is, a summary and any penalties for violating the provisions. Among these challenges is the proliferation of political bots—automated accounts programmed to mimic human behavior, manipulate public opinion, and amplify divisive narratives. Jan 22, 2026 · Political leaders could soon launch swarms of human-imitating AI agents to reshape public opinion in a way that threatens to undermine democracy, a high profile group of experts in AI and...",
+              "link": "https://theconversation.com/election-disinformation-how-ai-powered-bots-work-and-how-you-can-protect-yourself-from-their-influence-227174"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI bot networks state manipulation elections",
+              "baslik": "Bots And Fake Accounts In Elections: The State Of Research in ...",
+              "icerik": "Mar 17, 2026 · This article is aimed at communications professionals, authorities, and political organizations who want to know what current research says about the real influence of bots and fake accounts on elections and referendums – and what this means for direct democracy in Switzerland.",
+              "link": "https://www.evai.ai/en/post/bots-and-fake-accounts-in-elections-the-state-of-research-in-2026"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka bot orduları algı manipülasyonu",
+              "baslik": "Yapay Zekâ ve Algı Yönetimi: Algoritmalar, Manipülasyon ve ...",
+              "icerik": "Dec 30, 2025 · Yapay Zekâ ve Algı Yönetimi: Algoritmalar, Manipülasyon ve Toplumsal Güven Bu çalışma, yapay zekâ (YZ) ve algoritmik karar verme sistemlerinin bireysel ve toplumsal gerçekliği algılama biçimimiz üzerindeki dönüştürücü etkisini incelemektedir.",
+              "link": "https://dergipark.org.tr/tr/pub/insanat/article/1832337"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka bot orduları algı manipülasyonu",
+              "baslik": "Algı Yönetimi ve Yapay Zekâ: Medya Manipülasyonunda Yeni ...",
+              "icerik": "Jan 25, 2026 · Bu makale, yapay zekânın (YZ) medya ve algı yönetimi üzerindeki dönüştürücü etkilerini inceleyerek, faydalarını, etik zorluklarını ve toplumsal etkilerini analiz etmektedir.",
+              "link": "https://dergipark.org.tr/tr/pub/igdirsosbilder/article/1637527"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka bot orduları algı manipülasyonu",
+              "baslik": "Algı Yönetimi ve Yapay Zekâ: Medya Manipülasyonunda Yeni ...",
+              "icerik": "Algı Yönetimi ve Yapay Zekâ: Medya Manipülasyonunda Yeni Döneme Dair Teorik Bir Analiz. Yazarlar (1) Doç. Dr. Nuriye ÇELİK Sinop Üniversitesi, Türkiye ... BM Sürdürülebilir Kalkınma Amaçları",
+              "link": "https://unis.sinop.edu.tr/yayin-detay/2_D30pDpG_30/algi-yonetimi-ve-yapay-zeka-medya-manipulasyonunda-yeni-doneme-dair-teorik-bir-analiz"
+            }
+          ],
+          "karar": {
+            "sinif": "KISMEN TUTTU",
+            "guven_skoru": 4.1,
+            "olasiliklar": {
+              "TUTTU": 0.304,
+              "BELIRSIZ": 0.256,
+              "TUTMADI": 0.03,
+              "KISMEN TUTTU": 0.41
+            }
+          }
+        },
+        {
+          "iddia_ozeti": "Utku, kameraları fiziksel olarak kapatılamayan akıllı gözlüklerin gizli kayıt ve mahremiyet endişeleri yüzünden toplum tarafından asla kabul görmeyeceğini söylüyor.",
+          "orijinal_baglam": "Meta'nın akıllı gözlük projelerini ve kameralı gözlük takan insanlara karşı oluşan rahatsızlığı yorumlayan Utku Şen, karşısındaki insanın kendisini kaydedip kaydetmediğini bilememenin büyük sorun olduğunu belirtiyor. Kameraların fiziksel bir kapakla kapanmadığı sürece toplumun bu gözlükleri kabul etmeyeceğini kendi tahmini olarak vurguluyor.",
+          "arama_sorgusu_en": "smart glasses camera privacy social acceptance",
+          "arama_sorgusu_tr": "akıllı gözlükler gizli kayıt toplum tepkisi",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever",
+              "icerik": "\"There are some pretty dark places we could go here,\" Kessler said. \"I'm not anti-technology in any sense, but as a societal matter...will I need to think [of being recorded] anytime I go out in public?\"\n\nAnd Meta reportedly plans to add facial recognition technology in an updated version of its glasses, meaning wearers could not only have the ability to surreptitiously record anyone, but quickly identify them, as well. [...] If such a prediction becomes reality, the ability of institutions to enforce norms and laws that typically prohibit recording in places like courthouses, museums, movie theatres, hospitals and bathrooms will be difficult when suddenly millions of eyeglasses are also cameras.\n\nDavid Kessler, an attorney who heads the US privacy practice at Norton Rose Fulbright, said many of his corporate clients are already having to grapple with this. [...] PA Wire A man on stage wearing Google's initial attempt at smart glasses, which feature a prominent wire across the brow and a small camera in fromt of one eye.\n\nMeta markets its glasses under the tagline: \"Designed for privacy, controlled by you.\" It suggests to users of the glasses that they do not record people who state they do not want to be recorded, and that users turn the glasses off completely \"in sensitive spaces\".\n\nThose suggestions often seem to go ignored.",
+              "link": "https://www.bbc.com/news/articles/cj37z8357e5o"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Why smart glasses are about to create a major privacy crisis | Nature",
+              "icerik": "In an egregious example of the growing risks posed by camera-equipped wearables, an August 2026 Boston police report alleges that a registered sex offender used smart sunglasses to film children at a public spray pool (see go.nature.com/471zlwm). The incident illustrates how such devices can subject bystanders to intrusive surveillance without their knowledge or consent. The scale of the problem will only be compounded as the devices become integrated with artificial intelligence and the market",
+              "link": "https://www.nature.com/articles/d41586-026-03131-x"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Smart glasses are back, privacy issues included - Help Net Security",
+              "icerik": "Two Harvard University students demonstrated that footage from Meta’s Ray-Ban smart glasses could be connected to external facial recognition systems to identify strangers in public.\n\nMeta chose not to include facial recognition in the first generation of Ray-Ban Meta glasses, citing ethical concerns. Recent reports suggest the company may revisit that decision for future models. [...] Meta Ray-Ban smart glasses include an LED that signals recording, though reports suggest some wearers can pay third parties to disable it. Researchers are working on ways to give bystanders more control and visibility when camera-enabled devices are in use.\n\n### Smart glasses enter the workplace\n\nUse in workplaces and organizations raises additional questions, since these spaces fall outside public settings. [...] What features will be introduced in the future remains to be seen. Encouraged by Meta’s success, other major players have entered the race. Apple and Samsung could be developing similar products.\n\n### Recording in public spaces is a slippery area\n\nThe Washington Post reports that devices like Meta Ray-Bans are drawing pushback from Generation Z, who see them as a threat to personal privacy. The issue is not the technology itself, it is how it is used.",
+              "link": "https://www.helpnetsecurity.com/2026/02/05/ai-smart-glasses-privacy-risk"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Privacy Settings for Ray-Ban Meta AI Glasses | Meta (en-BR)",
+              "icerik": "Show others how the capture LED works so they know when you're recording. If the capture LED is covered, you’ll be notified to clear it before taking a photo or video or going live.\n\nBe a good community member\n\nObey the law. Don’t use your glasses to engage in harmful activities like harassment, infringing on privacy rights, or capturing sensitive information like pin codes.\n\nKeep your eyes on the road\n\nUse caution when operating a motor vehicle while wearing glasses, stay focused on driving. [...] Not everyone loves being photographed. Stop recording if anyone expresses that they would rather opt out, and be particularly mindful of others before going live.\n\nPower off in private spaces\n\nTurn off your glasses in sensitive spaces like the doctor’s office, locker room, public bathroom, school or place of worship.\n\nLet that capture LED light shine [...] Show others when you’re capturing\n\nBe respectful of people nearby. Use your voice or a clear gesture when controlling your glasses to let them know you’re about to capture, particularly before going Live.\n\n## How can we help you?\n\nSearch help articles, product support and more via our Meta Help Center.\n\nGet support\n\n## Shop all Ray-Ban Meta glasses\n\nShop now",
+              "link": "https://www.meta.com/ai-glasses/privacy"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Smart Glasses, Cameras, and Privacy: A Balanced Guide",
+              "icerik": "A camera on your face changes the social contract, whether or not you record. Here's what the hardware actually does, what the law says, and how thoughtful owners behave — no panic, no dismissal.",
+              "link": "https://smartglassesdecoded.com/learn/privacy/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Privacy fears we're forced to accept | Cybernews",
+              "icerik": "Aug 19, 2026 · Everyone's up in arms about Meta glasses and Flock cameras, a type of surveillance we're likely to eventually accept, much like others big tech has thrust upon us.",
+              "link": "https://cybernews.com/editorial/meta-glasses-flock-cameras-surveillance-acceptance/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "smart glasses camera privacy social acceptance",
+              "baslik": "Smart Glasses And The Collision Of Privacy And Consent - Forbes",
+              "icerik": "Feb 27, 2026 · AI is transforming smart glasses, but their hidden cameras risk eroding privacy and trust—threatening the social contract that once governed technology use.",
+              "link": "https://www.forbes.com/sites/timbajarin/2026/02/27/smart-glasses-and-the-collision-of-privacy-and-consent/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "akıllı gözlükler gizli kayıt toplum tepkisi",
+              "baslik": "Meta’nın akıllı gözlüklerine 'mahremiyet' tepkisi",
+              "icerik": "Jul 21, 2026 · Mahremiyet ihlalleri ve gizli kayıt endişeleri nedeniyle eleştirilen Meta'nın akıllı gözlükleri, Londra'da sahte reklam afişleriyle protesto edildi. Aktivistler, şirketi gözetim teknolojilerini normalleştirmekle suçladı.",
+              "link": "https://www.birgun.net/haber/metanin-akilli-gozluklerine-mahremiyet-tepkisi-724896"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "akıllı gözlükler gizli kayıt toplum tepkisi",
+              "baslik": "Akıllı gözlüklere gizli kayıt freni: Yakalanan üreticiye ceza ...",
+              "icerik": "Jun 13, 2026 · Giyilebilir teknolojilerin hızla yayılması gizlilik tartışmalarını yeniden alevlendirdi. Pennsylvania meclisine sunulan yeni bir yasa tasarısı, akıllı gözlüklerle izinsiz ses ve görüntü alınmasını engellemek için üretici ve satıcılara çok ağır cezalar getirmeye hazırlanıyor.",
+              "link": "https://www.chip.com.tr/guncel/akilli-gozluklere-gizli-kayit-freni-yakalanan-ureticiye-ceza-yagacak_181068.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "akıllı gözlükler gizli kayıt toplum tepkisi",
+              "baslik": "Meta'dan flaş karar: Akıllı gözlükle gizli kayıt alan ...",
+              "icerik": "Jul 24, 2026 · Meta, ürettiği akıllı gözlüklerle insanları rızaları dışında gizlice kaydedip içerik üreten Instagram kullanıcılarının hesaplarını askıya almaya başladı. Tepkilerin ardından açıklama yapan Instagram Başkanı Adam Mosseri, taciz içerikli videoların platformdan tamamen kaldırılacağını duyurdu.",
+              "link": "https://www.gzt.com/teknoloji/metadan-flas-karar-akilli-gozlukle-gizli-kayit-alan-instagram-hesaplari-yasaklaniyor-4244442"
+            }
+          ],
+          "karar": {
+            "sinif": "TUTMADI",
+            "guven_skoru": 9.0,
+            "olasiliklar": {
+              "TUTTU": 0.036,
+              "BELIRSIZ": 0.024,
+              "TUTMADI": 0.896,
+              "KISMEN TUTTU": 0.045
+            }
+          }
+        },
+        {
+          "iddia_ozeti": "Utku, metnini tamamen yapay zekanın yazdığı ve seslendirdiği podcast formatının arkasında insani bir düşünce ve özen olmadığı için dinleyiciler tarafından asla tutulmayacağını söylüyor.",
+          "orijinal_baglam": "NotebookLM'e Türkçe seslendirme desteği gelmesini ve yapay zeka ile otomatik podcast yapma hevesini değerlendiren Utku Şen, insanların yapay zekanın oluşturduğu rastgele metinleri dinlemeyeceğini söylüyor. Bu tip projelerin samimi ve anlamlı bulunmayacağını, kimsenin metroda giderken yapay zeka podcasti dinlemeyeceğini kendi görüşü olarak ekliyor.",
+          "arama_sorgusu_en": "AI generated podcast listener adoption trends",
+          "arama_sorgusu_tr": "yapay zeka podcast dinleyici ilgisi",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "Podcasting Fact Sheet - Content Science Review",
+              "icerik": "AI narrates many podcasts, but consumers don’t prefer it. 22% of U.S. weekly podcast consumers 13+ have ever listened to a podcast narrated by an artificially or AI generated voice. However, they prefer narration by a human. — Edison Research\n\n78% of professional podcasters use at least one AI tool in their workflow. — Wondercraft\n\nFor the first time ever, Americans now listen to podcasts (40%) more than talk radio (39%). — Edison Research [...] This podcasting fact sheet reviews key statistics and trends as you consider with podcasting or podcast advertising is right for your organization. \n\n## Key Statistics and Trends\n\nPodcast familiarity and listenership are up, possibly replacing social media time; AI and video are coming into play; and new demographic trends are emerging.",
+              "link": "https://review.content-science.com/podcasting-fact-sheet"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "33 Podcast Statistics 2026 (Number of Podcasts & Viewership)",
+              "icerik": "Podcast listenership has grown by 45% due to personalized AI-driven recommendations.\n 50% increase is observed in podcast ad targeting accuracy due to AI.\n The AI in Podcast industry is anticipated to grow at an annual rate of 25%\n 15% of the podcast producers use AI-generated content.\n 20% of the reduction is recorded in the podcast production costs due to the adoption of AI.\n AI is used to create 10% of the new podcast episodes.\n\nSource: Gitnux\n\n## Popular Podcast Genres [...] 28. Approximately 40% of podcasters utilize AI tools to enhance their podcasts.\n\nAI adoption can be seen majorly in areas such as episode transcription and personalized content generation. AI helps streamline the podcast production process and provides listeners with a tailored experience.\n\nSource: LinkedIn.\n\n29. The global AI in podcasting market is expected to reach $2.82 billion in 2024.\n\nComparatively, in 2023, the global AI in podcasting market was valued at $2.2 billion. [...] | Year | Global AI in Podcasting Market |\n --- |\n| 2023 | $2.2 billion |\n| 2024 | $2.82 billion |\n| 2025 | $3.62 billion |\n| 2026 | $4.64 billion |\n| 2027 | $5.96 billion |\n| 2028 | $7.65 billion |\n| 2029 | $9.81 billion |\n| 2030 | $12.59 billion |\n| 2031 | $16.16 billion |\n| 2032 | $20.73 billion |\n| 2033 | $26.6 billion |\n\nSource: LinkedIn.\n\nAdditional Stats on the Adoption of AI in Podcasts:",
+              "link": "https://podcastatistics.com"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "Debating the AI-Generated Podcast Trend",
+              "icerik": "What is completely obvious to me is the rational on why Google chose to enter the “text -to-podcast” space and showcase this feature within NotebookLM in additional to separately on marketing channels is the sheer consumer focus of podcasts. One sourceclaims that 67% of US customers listen to podcasts and 23.5% of all internet users, translating to roughly 500 million people. With a medium so familiar and common to individuals, exploring this space would invoke a hype-cycle-like media wave [...] Interestingly, Google is angling for the content transformation narrative centered around helping people understand content better by translating it into a different and more engaging medium. Many people are auditory learners over reading/writing learners, an area I explored in one of my initial posts: [...] Strategically speaking, tackling the AI-generated podcast space will be highly compelling from a consumer perspective! I will leave the exercise to the reader to extract the myriad of obstacles and pushback received as a result. Most importantly, I am excited to play around with the podcasting space more. Over the coming weeks, I am going to be generating Podcasts for nearly all of my blog posts to be a self-consumer of this technology and may update this blog as a result! Happy listening!",
+              "link": "https://medium.com/@sam.r.bobo/debating-the-ai-generated-podcast-trend-220d10fa243f"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "AI can make podcasts. But can it make anyone care? — amplifi media",
+              "icerik": "Skip to Content \n\namplifi media\n\namplifi media\n\n# AI can make podcasts. But can it make anyone care?\n\nWritten by Steven Goldstein, Amplifi Media\n\nAI podcasts have quickly gone from curiosity to flood.\n\nOver one recent nine-day stretch, nearly 40% of new podcasts were likely AI-generated, according to Podcast Index, as reported by Bloomberg. One company alone, Inception Point AI, now claims to have more than 10,000 active shows, with hundreds more appearing almost overnight. [...] That’s why my students’ response is so important. This is not a group that is frightened by technology or nostalgic for the old way of doing things. If anything, they are the most AI-native audience we have. Yet they still recognized the gap between useful summaries and a satisfying listening experience.\n\n### Trust Is the Real Battleground\n\nWhat surprised me most was not simply that students criticized robotic voices. It was how quickly they moved to questions of authenticity and credibility. [...] One student listened to a mystery podcast, searched for the real case afterward, and concluded the story appeared to be fabricated. Her reaction was not just that the show was weak. It was that she did not understand why anyone would want to listen to a made-up story presented in that way. It’s a fair point.\n\nOnce trust erodes, rebuilding it is hard.\n\n### Start with Disclosure\n\nThe industry response to AI-generated podcasts is still early and uneven.",
+              "link": "https://www.amplifimedia.com/blogstein-1/ai-can-make-podcasts-but-can-it-make-anyone-care"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "Top 105 AI Podcast Statistics, Data & Trends in 2026",
+              "icerik": "Jan 3, 2026 · This comprehensive collection of the Top 105 AI Podcast Statistics, Data & Trends in 2026 is designed to offer a clear, evidence-based view of how artificial intelligence is reshaping the podcast industry at every level.",
+              "link": "https://blog.9cv9.com/top-105-ai-podcast-statistics-data-trends-in-2026/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "State of AI Podcasting 2026: What the Data Actually Shows",
+              "icerik": "Comprehensive 2026 report on the state of AI podcasting. Discover data-driven insights on listener growth, AI creator adoption, synthetic voice quality, and EU AI act compliance.",
+              "link": "https://zenmic.com/guide/state-of-ai-podcasting-2026/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "AI generated podcast listener adoption trends",
+              "baslik": "97 Future-Shaping Podcast Industry Stats & Trends (2026 ...",
+              "icerik": "Jun 6, 2026 · Artificial intelligence, changing audience habits, and new cross-platform behaviors are reshaping what it means to host a podcast. What used to feel like a slow, steady climb has turned into a wave of transformation.",
+              "link": "https://www.learningrevolution.net/podcast-stats/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka podcast dinleyici ilgisi",
+              "baslik": "Adobe Podcast | Yapay zeka destekli ses kaydetme ve düzenleme ...",
+              "icerik": "Sesinize seviye atlatan yapay zeka destekli ses araçları Adobe Podcast ile kulağa profesyonel gelen yüksek kaliteli podcast'ler ve seslendirmeler oluşturun.",
+              "link": "https://podcast.adobe.com/tr"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka podcast dinleyici ilgisi",
+              "baslik": "Doğal sesli yapay zeka podcast’leri oluşturun | Speechify",
+              "icerik": "Speechify; gerçek sohbetleri destekler, karmaşık içerikleri anlar ve yapay zekâ destekli okuma, yazma, sesli yazım, AI ile not alma ve AI podcast oluşturma gibi özellikler sunar.",
+              "link": "https://speechify.com/tr/podcasts/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "yapay zeka podcast dinleyici ilgisi",
+              "baslik": "PodRise - Yapay Zeka ile Dinle",
+              "icerik": "Tarihten biyolojiye, sınav konularından kariyere: yapay zekanın hazırladığı 100 bine yakın podcasti dinle. Notundan, PDF'inden ya da YouTube videosundan kendi podcastini saniyeler içinde oluştur. iOS ve Android'de ücretsiz.",
+              "link": "https://podrise.ai/"
+            }
+          ],
+          "karar": {
+            "sinif": "TUTMADI",
+            "guven_skoru": 3.3,
+            "olasiliklar": {
+              "BELIRSIZ": 0.188,
+              "TUTMADI": 0.326,
+              "KISMEN TUTTU": 0.242,
+              "TUTTU": 0.244
+            }
+          }
+        }
+      ]
+    },
+    "62787bd1-0329-4f20-bce2-95a0d7801bad": {
+      "title": "Ajanların Verilerini Herkes Satın Alabilir - S.A.H E105",
+      "url": "https://www.youtube.com/watch?v=2PKq9gVrSG4",
+      "publish_date": "2024-11-24",
+      "extracted": false,
+      "claims": []
     }
   }
 }

@@ -42,10 +42,11 @@ flowchart TD
 
 ## Aşamaların Detayları
 
-### 1. Aşama: Tekil Bağlam Taraması (NotebookLM)
+### 1. Aşama: Tekil Bağlam Taraması (notebooklm-py ve Kaynak İzolasyonu)
 
-- **İzolasyon:** 179 video aynı anda modele verildiğinde bağlamlar karışabildiği için her bölüm tek tek ele alınıyor.
-- **Haber ve Tahmin Ayrımı:** Akamai'nin Linode'u satın alması veya bir şirketin güvenlik yaması yayınlaması gibi gelişmeler birer haberdir ve elenir. Yalnızca Utku'nun haberler üzerine eklediği şahsi tezler ve gelecek projeksiyonları toplanır.
+- **Context Window Sorunu:** 179 video ve 200 saati aşkın transkript tek bir modele verildiğinde hem token limitleri zorlanır hem de model bölümleri birbirine karıştırarak hayali bağlantılar kurabilir.
+- **Kaynak İzolasyonu (`source_ids=[vid_id]`):** Açık kaynaklı `notebooklm-py` kütüphanesiyle Google NotebookLM defterindeki her videoya tek tek istek atıldı. Model her defasında yalnızca tek bir videonun tam transkriptine odaklandı, diğer 178 bölümün gürültüsünden izole edildi.
+- **Haber ve Tahmin Ayrımı:** Akamai'nin Linode'u satın alması veya bir şirketin güvenlik yaması yayınlaması gibi gelişmeler birer haberdir ve elendi. Yalnızca Utku'nun haberler üzerine eklediği şahsi tezler ve gelecek projeksiyonları ayıklandı.
 
 ### 2. Aşama: Hibrit Arama (Tavily + DuckDuckGo)
 
