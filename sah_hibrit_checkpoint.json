@@ -7,8 +7,8 @@
       "extracted": true,
       "claims": [
         {
-          "iddia_ozeti": "Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağı, Belçika'nın ardından bu sistemi sırasıyla Fransa, Almanya ve Hollanda'nın takip edeceği tahmin ediliyor.",
-          "orijinal_baglam": "Belçika'nın haftada 4 gün çalışma hakkını yasalaştırmasını değerlendiren Utku Şen, 'bu haftada dört gün çalışma Muhtemelen ben şey diyordum yani beş sene içinde Avrupa Birliği ülkeleri geçer buna falan Muhtemelen beş sene kalmayacak gibi gözüküyor... Belçika bunu ilk yapan ülke oldu Belki onun Fransa takip edebilir Muhtemelen Almanya takip eder Muhtemelen Hollanda takip eder yavaş yavaş' sözleriyle 4 gün çalışma sisteminin AB genelinde yayılma takvimine dair şahsi tahminini söylüyor.",
+          "iddia_ozeti": "Utku, Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağını, Belçika'nın ardından sırasıyla Fransa, Almanya ve Hollanda'nın da bu sisteme geçeceğini söylüyor.",
+          "orijinal_baglam": "Belçika'nın çalışanlara yasal olarak haftada 4 gün çalışma hakkı tanıması haberini yorumlayan Utku Şen, daha önce AB ülkelerinin 5 yıl içinde buna geçeceğini tahmin ettiğini ama sürecin 5 yılı bile bulmayacağını belirtiyor. Belçika'yı muhtemelen Fransa, Almanya ve Hollanda'nın takip edeceğini kendi öngörüsü olarak ekliyor.",
           "arama_sorgusu_en": "four day work week European Union adoption",
           "arama_sorgusu_tr": "haftada dört gün çalışma Avrupa Birliği",
           "web_bulgulari": [
@@ -22,23 +22,44 @@
             {
               "motor": "Tavily",
               "sorgu": "four day work week European Union adoption",
+              "baslik": "Four-Day Week Adoption Accelerates in the UK | MultiUnion",
+              "icerik": "In 2025 alone, more than 50 UK organisations employing over 1,400 people transitioned to a four-day working week with no loss of pay. The newly accredited employers span a broad range of sectors, including UK business, consulting, tech, retail, engineering, and healthcare.\n\nRegional data shows London with the highest number of new accreditations, followed by significant adoption in Scotland and the North West of England. [...] New UK figures reveal a significant surge in businesses permanently adopting a four-day work week, with over 6,000 employees across 253 accredited companies now benefiting from the shorter hours model.\n\n  \n\n## UK Employers Lead the Change [...] With the practical barriers removed, the conversation in the UK is moving from trial to widespread implementation. \"The question is no longer whether the four-day week works,\" says Ryle, \"but how quickly other UK employers will follow.\"\n\nThe model is proving to be a powerful tool for UK talent retention and competitive advantage, signalling a permanent shift in the British workplace.\n\n  \n\nSource: Independent",
+              "link": "https://multiunion.org.uk/reforms/uk-four-day-work-week-adoption-accelerates-as-benefits-become-clear"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "four day work week European Union adoption",
+              "baslik": "Four-day work week jobs: Three companies that are case studies",
+              "icerik": "The Covid-19 pandemic appears to have sped up the adoption of a shorter working week, with workers increasingly demanding better work-life balance.\n\nSo, what can we learn from the companies and workers that have taken the plunge?\n\nWatch the video above to learn how three companies have adopted the four-day work week and what it means for their employees.\n\nVIDEO09:20\n\nI’m a dumpster diver—and I bring in $140K/year\n\nVIDEO07:33 [...] Originals\n\nShare\n\nOriginals\n\n# How these companies cracked the four-day work week\n\nA growing number of businesses are embracing the four-day work week, which was considered radical just a few years ago.\n\n08:24\n\nSun, Jun 19 20229:55 PM EDT\n\nVicky McKeever\n\nA growing number of businesses are embracing the four-day work week — an idea that was considered radical just a few years ago.",
+              "link": "https://www.cnbc.com/video/2022/06/20/four-day-work-week-jobs-three-companies-that-are-case-studies.html"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "four day work week European Union adoption",
+              "baslik": "Volkswagen union backs four-day week to avoid job losses",
+              "icerik": "She added that the union was \"open\" to any constructive proposals.\n\nThe four-day week suggestion comes a day after the boss of Deutsche Bank urged Germans to work harder to help revive the country's struggling economy.\n\nChristian Sewing told the Handelsblatt banking summit in Frankfurt: \"Investors are already doubting our ability to reform, but especially our ability and our will to perform. [...] \"More growth in Germany will come only if we also change our attitude to work; if we are prepared to work differently, but overall to work more and harder.\"\n\nThe IFO Institute said on Thursday that the German economy will not grow at all this year, before expanding by 0.9pc next year. That is down from previous forecasts of 0.4pc growth in 2024 and 1.5pc next year.\n\nThe downgrade was driven by rising unemployment and households saving more instead of spending as the economy slows. [...] Germany's largest union has proposed shortening the working week at Volkswagen in an effort to save jobs.\n\nThe head of the powerful IG Metall union on Thursday proposed switching to a four-day week after Volkswagen said on Monday it may have to close factories in Germany for the first time in its 87-year history.\n\nThe carmaker said it was also looking to end the group's job security programme, which has been in place since 1994 and prevented job cuts until 2029.",
+              "link": "https://finance.yahoo.com/news/volkswagen-union-backs-four-day-124906012.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "four day work week European Union adoption",
+              "baslik": "Eight-hour day movement - Wikipedia",
+              "icerik": "At that time, the working day could range from 10 to 16 hours, the work week was typically six days, and child labour was common. [1][2] Since the 19th century, the eight-hour workday has been gradually adopted in various countries and industries, with widespread adoption occurring in the first half of the 20th century.",
+              "link": "https://en.wikipedia.org/wiki/Eight-hour_day_movement"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "four day work week European Union adoption",
               "baslik": "4 Day Work Week in the EU: Countries & Trends | Protime",
-              "icerik": "Across the EU, governments are funding pilot programs, labor unions are pushing for reform, and forward-thinking employers are leading by example. The 4-day model is influencing how businesses think about productivity, well-being, and flexibility, not as trade-offs, but as interconnected drivers of performance and engagement.\n\nThe question is no longer if this model will grow, but how far and how fast it will spread.\n\n### Trends and Predictions for 2026 and Beyond [...] Productivity per hour frequently increases, offsetting the reduction in working time. In some sectors, companies have even reported revenue growth after transitioning to a shorter week.\n\nUltimately, the economic viability of a 4-day model depends on planning, adaptability, and aligning outcomes with business goals.\n\n### 4. Legal Frameworks:\n\nWhile there is no EU-wide mandate for a 4-day work week, European institutions consistently promote: [...] As momentum builds, 2026 is expected to be a turning point for the 4-day work week across Europe. \n\nMore governments are likely to launch national pilot schemes, while existing trials could inform broader labor reforms. Legislative discussions will increasingly focus on flexible working rights, especially as public demand grows.",
+              "icerik": "Mar 23, 2026 · Discover which EU countries are adopting the 4-day work week, how it works, its pros and cons, and examples shaping the future of work in Europe.",
               "link": "https://www.protime.eu/en/news/4-day-work-week-eu"
             },
             {
-              "motor": "Tavily",
+              "motor": "DuckDuckGo",
               "sorgu": "four day work week European Union adoption",
-              "baslik": "Four days a week? Europe debates shorter working times | Eurofound",
-              "icerik": "not to bail out struggling firms. Employer groups supported the measure, calling it vital for labour market stability and urging swift adoption. This scheme was adopted in July 2025 and will be described in detail in the next working time development update. [...] an agreement in December 2024. However, this agreement did not receive employers’ support due to concerns about the economic impact. In February 2025, the Council of Ministers approved the proposal and initiated the legislative process. If approved, the new law is expected to impact approximately 12 million workers. The proposal was blocked in September of 2025, with the government stating it will bring the proposal back to the table. [...] The most important changes in the regulation of working time in Europe in 2021 and 2022 were related to the transposition of two European directives: the Work–life Balance Directive and the Transparent and Predictable Working Conditions Directive. The reduction of working time and more specifically the four-day working week have been increasingly debated in many EU Member States. In 2022, the average collectively agreed working week in the EU stood at 38.1 hours. Of the sectors analysed, agreed",
-              "link": "https://www.eurofound.europa.eu/en/publications/all/four-days-a-week-europe-debates-shorter-working-times"
-            },
-            {
-              "motor": "Tavily",
-              "sorgu": "four day work week European Union adoption",
-              "baslik": "Which Countries Have a 4-Day Work Week? (2026) | 4dayweek.io",
-              "icerik": "Which countries have a 4-day work week?\n:   No country has adopted a 4-day work week nationwide by law, but many are leading through government-backed pilots and progressive policy. Iceland, the UK, Spain, Portugal, Belgium, Germany, South Africa and Australia have all run major trials, and 4 Day Week Global has coordinated pilots across dozens of countries. [...] ## Europe\n\n17 countries\n\nAustria flag\n\n### Austria\n\nNo government 4-day week policy, but Austrian labour law permits compressed 4x10-hour schedules through employer-employee agreements.\n\nShort average workweek (36hrs)Limited Govt. Support\n\n33.6 hrs/wk·25 days PTO·1 pilotView countryBelgium flag\n\n### Belgium\n\nThe Labour Deal Act (2022) gives employees the legal right to request a compressed 4-day week. Employers must justify any refusal in writing. [...] Which countries have run 4-day work week trials?\n:   The UK ran the largest four-day-week trial in the world (61 companies, around 2,900 staff), with most keeping the four-day week afterwards. Iceland, Spain, Portugal, Germany, South Africa, Australia, New Zealand and the US and Canada have also run coordinated pilots, most reporting steady or higher output alongside significant wellbeing gains.",
-              "link": "https://4dayweek.io/countries"
+              "baslik": "Countries With 4-Day Work Weeks in 2026: Complete Global Guide",
+              "icerik": "If you're wondering which countries have embraced the 4-day work week—or where you might find a job with this schedule—this comprehensive guide covers everything you need to know about the global state of the 4-day work week movement.",
+              "link": "https://www.4dayjob.com/blog/countries-with-4-day-work-week"
             },
             {
               "motor": "DuckDuckGo",
@@ -50,78 +71,120 @@
             {
               "motor": "DuckDuckGo",
               "sorgu": "haftada dört gün çalışma Avrupa Birliği",
-              "baslik": "Haftada 4 gün çalışma dünyaya yayılıyor, hangi ülkede nasıl ...",
-              "icerik": "May 4, 2023 · Haftada 4 gün çalışma dünyaya yayılıyor, hangi ülkede nasıl uygulanıyor? Dünya genelinde henüz hiçbir ülke 4 günlük çalışma haftasına tamamıyla geçmiş olmasa da, başta haftalık çalışma saatleri zaten kısa olan Avrupa olmak üzere birçok ülkede pilot çalışmalar yürütülüyor.",
-              "link": "https://kisadalga.net/haber/detay/haftada-4-gun-calisma-dunyaya-yayiliyor-hangi-ulkede-nasil-uygulaniyor_66857"
+              "baslik": "Avrupa Birliği Ülkelerinde Haftalık Çalışma Saatleri Kaçtır?",
+              "icerik": "Bu yazıda, her ülkenin çalışma saatlerini keşfedecek ve bu saatlerin iş yaşamına, verimliliğe ve bireylerin sosyal hayatına nasıl etki ettiğini öğreneceksiniz. Almanya, Fransa, İtalya, İspanya ve İsveç gibi ülkelerdeki çalışma saatlerini detaylı bir şekilde inceleyeceğiz.",
+              "link": "https://madalyon.web.tr/avrupa-birligi-ulkelerinde-haftalik-calisma-saatleri-kactir/"
             },
             {
               "motor": "DuckDuckGo",
               "sorgu": "haftada dört gün çalışma Avrupa Birliği",
-              "baslik": "Avrupa Birliği Ülkelerinde Haftalık Çalışma Saatleri Kaçtır?",
-              "icerik": "Bu yazıda, her ülkenin çalışma saatlerini keşfedecek ve bu saatlerin iş yaşamına, verimliliğe ve bireylerin sosyal hayatına nasıl etki ettiğini öğreneceksiniz. Almanya, Fransa, İtalya, İspanya ve İsveç gibi ülkelerdeki çalışma saatlerini detaylı bir şekilde inceleyeceğiz.",
-              "link": "https://madalyon.web.tr/avrupa-birligi-ulkelerinde-haftalik-calisma-saatleri-kactir/"
+              "baslik": "Haftada 4 gün çalışma dünyaya yayılıyor, hangi ülkede nasıl ...",
+              "icerik": "May 4, 2023 · Haftada 4 gün çalışma dünyaya yayılıyor, hangi ülkede nasıl uygulanıyor? Dünya genelinde henüz hiçbir ülke 4 günlük çalışma haftasına tamamıyla geçmiş olmasa da, başta haftalık çalışma saatleri zaten kısa olan Avrupa olmak üzere birçok ülkede pilot çalışmalar yürütülüyor.",
+              "link": "https://kisadalga.net/haber/detay/haftada-4-gun-calisma-dunyaya-yayiliyor-hangi-ulkede-nasil-uygulaniyor_66857"
             }
           ],
           "karar": {
             "sinif": "TUTMADI",
-            "guven_skoru": 5.6,
+            "guven_skoru": 7.2,
             "olasiliklar": {
-              "KISMEN TUTTU": 0.177,
-              "TUTTU": 0.023,
-              "TUTMADI": 0.558,
-              "BELIRSIZ": 0.242
+              "TUTTU": 0.025,
+              "KISMEN TUTTU": 0.099,
+              "TUTMADI": 0.715,
+              "BELIRSIZ": 0.161
             }
           }
         },
         {
-          "iddia_ozeti": "Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu, ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği tahmin ediliyor.",
-          "orijinal_baglam": "Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen, 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını belirtiyor.",
+          "iddia_ozeti": "Utku, arabaların uzaktan API ile kontrol edilmesinin büyük risk taşıdığını, ileride çıkacak bir zafiyet ya da bellek taşması (buffer overflow) ile bir hackerın dünyadaki on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceğini veya araçları bozabileceğini söylüyor.",
+          "orijinal_baglam": "Üçüncü parti TeslaMate yazılımındaki zafiyet yüzünden 25 Tesla aracın uzaktan kontrol edilebilmesi olayını anlatan Utku Şen, arabaların API üzerinden internete bağlı olmasını korkutucu bulduğunu ifade ediyor. İleride Tesla'nın kendi sisteminde bir açık ya da buffer overflow çıkarsa bir hackerın on binlerce araca aynı anda müdahale edip frenlerini durdurabileceği tehlikesini şahsi tahmini olarak paylaşıyor.",
           "arama_sorgusu_en": "Tesla remote exploit vulnerability fleet hack",
           "arama_sorgusu_tr": "Tesla uzaktan hackleme güvenlik açığı fren",
           "web_bulgulari": [
             {
               "motor": "Tavily",
               "sorgu": "Tesla remote exploit vulnerability fleet hack",
-              "baslik": "Two Security Researchers Hack Tesla Car Using a Drone | Trend Micro (US)",
-              "icerik": "In November 2020, Consumer Watchdog also listed Tesla as the \"world's most hackable car\". According to the report, despite Tesla's claims about their connected cars' security, a hacker was able to access the company's fleet and remotely control the safety-critical system of every car.\n\nDue to the arrival of 5G, connected cars are evolving a lot more quickly. Demand is also on the rise. The market is predicted to grow by 10.4% in sales by 2026, according to ABI Research. [...] arrow\\_back\n\nsearch\nclose\n\nContent has been added to your Folio\n\nExploits & Vulnerabilities\n\n# Two Security Researchers Hack Tesla Car Using a Drone\n\nThe exploit called TBONE targeted most Tesla Model 3 vehicles. According to the hackers, it attack the ConMann connection to remotely access the cars' infotainment systems.\n\nBy: Ericka Pingol Read time:  ( words)\n\nShare  Print\n\nSave to Folio [...] Save to Folio\n\nTwo security researchers managed to hack and remotely access parked Tesla vehicles. The duo released their findings last May 4, 2021, with a detailed description of how they compromised parked Teslas and controlled the infotainment systems over WiFi using a drone.",
-              "link": "https://www.trendmicro.com/en_us/research/21/e/two-security-researchers-hack-tesla-using-a-drone.html"
+              "baslik": "Key Lessons for Auto Manufacturers from the 2021 Tesla Hack | Mayhem",
+              "icerik": "In 2021, researchers Ralf-Philipp Weinmann and Benedikt Schmotzle demonstrated a remote, zero-click exploit against a fully up-to-date and patched Tesla. Their method involved deploying the exploit on a quadcopter drone, requiring only proximity to a vulnerable car to execute the attack, manipulate doors, and gain control.\n\nHow do the world's best hackers unearth zero-day vulnerabilities like this? Their process usually involves three key steps: [...] The drone advertises a fake Tesla service access point using credentials scraped from the underlying firmware. When the Tesla attaches to the drone, the car requests a DHCP address, and the drone provides a malicious reply. The malicious reply exploits the connman vulnerability and creates a remote shell back to the drone. At that point, the drone can send arbitrary commands to the car, like to open the doors.\n\nGame over.\n\n‍\n\n## Takeaways from the Tesla Hack [...] ‍\n\n### Developing an Initial Proof of Concept Exploit: The Tesla Hack\n\nThe Tesla hack was primarily due to a typical buffer overflow vulnerability. When connman receives a DHCP reply, it calls an uncompressed routine and copies the uncompressed data to a new buffer. However, the program does not perform sufficient bounds checking, which an attacker can use to perform a full control flow hijack exploit.\n\n‍\n\n## Step 3: Weaponize the Exploit.",
+              "link": "https://www.mayhem.security/blog/3-security-takeaways-from-the-2021-tesla-hack-for-vehicle-manufacturers"
             },
             {
               "motor": "Tavily",
               "sorgu": "Tesla remote exploit vulnerability fleet hack",
-              "baslik": "Two Tesla Hacks Triumph at Pwn2Own Vancouver 2023 | VicOne",
-              "icerik": "The combination of the two zero-day exploits into one exploit chain in this event achieved remote penetration of the vehicle. Synacktiv was able to break into the IVI system from a remote location, and then further break into the Gateway inside the car, completing the entire attack path and realizing the dream scenario for hackers: remote control over the car.\n\n> Figure 4. Synacktiv combining both exploits to gain access to the IVI system and send CAN bus messages\n\n## Takeaway [...] The second attack, however, is the opposite. It involves a vulnerability that is harder for the vendor to mitigate, but it relies on a long and complex chain of exploits and is thus difficult to replicate. The second attack is also of particular note for being a successful remote attack that can lead to complete control over the car, despite the limiting initial conditions making successful attack even more difficult for an attacker.\n\n  \n  \n> Pwn2Own Vancouver 2023 recap [...] Last year, Synacktiv landed a win in Pwn2Own 2022 when the team successfully demonstrated an attack exploiting two vulnerabilities in the ConnMan binary used by the in-vehicle infotainment (IVI) system and two additional kernel vulnerabilities that ultimately allowed for remote code execution. Once the team had control of the system, Synacktiv demonstrated the attack by issuing CAN bus messages that affected the operation of other Tesla electronic control unit (ECU) components.",
-              "link": "https://vicone.com/blog/two-tesla-hacks-triumph-at-pwn2own-2023"
+              "baslik": "Tesla Model 3 VCSEC Vulnerability Allows Remote Code Execution via TPMS Exploit - Intrucept",
+              "icerik": "Conclusion:   \nThis vulnerability demonstrates how auxiliary vehicle systems like TPMS can serve as entry points for serious security breaches. While Tesla’s prompt patch release, reflects good incident response, this case underscores the urgency for ongoing scrutiny of wireless automotive components. Owners must apply the firmware update and maintain secure update practices to reduce the risk of exploitation.\n\nReferences: [...] Overview\n\nThis provides potentiality in giving access to critical vehicle controls; Tesla has addressed the issue in firmware version 2024.14.\n\n|  |  |  |  |  |\n ---  --- \n| Vulnerability Name | CVE ID | Product Affected | Severity | CVSS Score |\n| ​Remote Code Execution vulnerability | CVE-2025-2082 | Tesla Model 3 | High | 7.5 |\n\nTechnical Summary\n\nThe vulnerability lies in the VCSEC module, responsible for security functions like immobilization, door locking, and TPMS monitoring. [...] Zack\n 2 May 2025\n\nSummary of Security Advisory\n\nA high-severity vulnerability (CVE-2025-2082) in Tesla Model 3’s Vehicle Controller Security (VCSEC) module allows attackers within wireless range to remotely execute arbitrary code by exploiting a flaw in the Tire Pressure Monitoring System (TPMS)\n\n|  |  |\n --- |\n| OEM | Tesla |\n| Severity | High |\n| CVSS Score | 7.5 |\n| CVEs | CVE-2025-2082 |\n| Actively Exploited | No |\n| Exploited in Wild | No |\n| Advisory Version | 1.0 |\n\nOverview",
+              "link": "https://intruceptlabs.com/2025/05/tesla-model-3-vcsec-vulnerability-allows-remote-code-execution-via-tpms-exploit"
             },
             {
               "motor": "Tavily",
               "sorgu": "Tesla remote exploit vulnerability fleet hack",
-              "baslik": "[PDF] FREE-FALL: HACKING TESLA FROM WIRELESS TO CAN BUS",
-              "icerik": "implemented a remote attack on the Tesla Model S in both Parking and Driving mode.[1-3] This remote attack utilized a complex chain of vulnerabilities. We have proved that we can gain entrance from wireless (Wi-Fi/Cellular), compromise many in-vehicle systems like IC, CID, and Gateway, and then inject malicious CAN messages into the CAN Bus. Just 10 days after we submitted our research to Tesla, Tesla responded with an update using their OTA mechanism and introduced the code signing protection [...] we revealed all the vulnerabilities we utilized to achieve the remote control on Tesla Model S in both Parking and Driving Mode. as far as we know, this is the first case of remote attack which compromises CAN Bus to achieve remote control on Tesla cars. After we submitted our report to Tesla, they responded our report and fixed the vulnerabilities efficiently, we are glad to coordinate with Tesla to ensure the driving safety, and we are glad to make the connected cars more secure. [...] auto connected in normal mode. At that time, Tesla Guest came into our sight, this is a Wi-Fi hotspot provided by Tesla body shop and superchargers. The information of this SSID is saved in many customers’ cars in order to auto connecting in the future. If we fake this Wi-Fi hotspot and redirect the traffic of QtCarBrowser to our own domain, remotely hacking Tesla cars can be feasible. Besides Wi-Fi tricks, when in cellular mode we believe that phishing and user mistyping can also lead to",
-              "link": "https://blackhat.com/docs/us-17/thursday/us-17-Nie-Free-Fall-Hacking-Tesla-From-Wireless-To-CAN-Bus-wp.pdf"
+              "baslik": "Tesla",
+              "icerik": "# Tesla\nID: jhbNmWAZiXj6\nWebsite: www.tesla.com\nLegal name: Tesla, Inc.\nHeadquarters: Austin, Texas, United States\nLinkedIn: www.linkedin.com/company/tesla-motors · 12,405,100 followers\nIndustry: Motor Vehicle Manufacturing\nCompany type: Public Company\nBusiness model: B2C\nSaaS: no\nSocial profiles: www.facebook.com/teslamotorscorp, www.twitter.com/tesla, www.crunchbase.com/organization/tesla-motors, www.instagram.com/teslamotors, www.youtube.com/@tesla\nEmail: reservations@teslamotors.com [...] ## Technology\n- Detected: 1,108\n- oracle · last seen 2026-09-20\n- aos · last seen 2026-09-20\n- sketchup · last seen 2026-09-20\n- intercom · last seen 2026-09-20\n- fortinet · last seen 2026-09-20\n- autocad electrical · last seen 2026-09-20\n- kibana · last seen 2026-09-20\n- gradle · last seen 2026-09-20\n\n## Reputation\n- Employee review score: 3.5999999046325684 from 15,838 reviews\n- Open roles: 7,389 [...] ## Similar companies\n- bmw group\n- mercedes-benz\n- vinfast\n- vinfast auto\n- byd\n- ford\n- gm\n- hyundai",
+              "link": "https://tavily.com/knowledge/company/jhbNmWAZiXj6"
             },
             {
               "motor": "Tavily",
               "sorgu": "Tesla remote exploit vulnerability fleet hack",
-              "baslik": "CVE-2025-2082 - CVE-2025-2082: Tesla Model 3 Firmware RCE Vulnerability",
-              "icerik": "Establish baseline CAN bus communication patterns to identify deviations that may indicate compromise\n   Monitor fleet-wide for VCSEC module anomalies that could indicate active exploitation campaigns\n   Implement logging of all TPMS certificate exchanges where diagnostic capabilities allow\n   Consider physical security measures to limit attacker proximity to high-value vehicles\n\n## How to Mitigate CVE-2025-2082\n\n### Immediate Actions Required [...] > ### Critical Impact\n> \n> \n> Network-adjacent attackers can achieve remote code execution on Tesla Model 3 vehicles without authentication, gaining the ability to send arbitrary messages to the vehicle CAN bus and potentially compromise vehicle security functions.\n\n### Affected Products\n\n   Tesla Model 3 Firmware (all versions prior to patch)\n   Tesla Model 3 Hardware\n\n### Discovery Timeline\n\n   2025-04-30 - CVE-2025-2082 published to NVD\n   2025-08-12 - Last updated in NVD database [...] Apply Tesla firmware updates as soon as they become available through over-the-air (OTA) updates\n   Park vehicles in secure locations with limited public wireless access where possible\n   Monitor Tesla security bulletins and advisories for patch availability\n   For fleet operators, prioritize patch deployment and consider restricting vehicle exposure until patched\n\n### Patch Information",
-              "link": "https://www.sentinelone.com/vulnerability-database/cve-2025-2082"
+              "baslik": "New Bluetooth vulnerability can be exploited to silently hack Android phones",
+              "icerik": "This morning, Armis security published details of a new Bluetooth vulnerability that could potentially expose millions of devices to remote attack. Dubbed Blueborne, the attack works by masquerading as a Bluetooth device and exploiting weaknesses in the protocol to deploy malicious code, similar to the Broadcom Wi-Fi attack disclosed earlier this year. Because Bluetooth devices have high privileges in most operating systems, the attack can be executed without any input from the user. Blueborne [...] remotely without user permission. [...] Any iPhones running iOS 10 are immune to the attack, and Microsoft deployed a patch to fix the bug in July. That leaves Android devices as the most vulnerable, thanks in part to longstanding issues deploying patches through partners. Google told Motherboard that it has sent a fix to device manufacturers, although it's unclear when that patch will actually reach phones. In the meantime, Armis was able to demonstrate the attack on an unpatched Pixel, running malicious software remotely without",
+              "link": "https://www.cnbc.com/2017/09/12/new-bluetooth-vulnerability-can-be-exploited-to-silently-hack-android-phones.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla remote exploit vulnerability fleet hack",
+              "baslik": "Why Tesla and Connected Cars Can Easily Be Hacked",
+              "icerik": "Feb 18, 2026 · Hackers could exploit wireless systems in Tesla’s Model 3 and Cybertruck to track vehicles, disrupt communications and interfere with network performance, according to research from Northeastern University. The research highlights the broader security risks facing all modern connected cars, which ...",
+              "link": "https://news.northeastern.edu/2026/02/18/connected-cars-hacking-research/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla remote exploit vulnerability fleet hack",
+              "baslik": "Security vulnerabilities in Tesla's Model 3 and Cybertruck ...",
+              "icerik": "Feb 19, 2026 · Hackers could exploit wireless systems in Tesla's Model 3 and Cybertruck to track vehicles, disrupt communications, and interfere with network performance, according to research from Northeastern University posted to the arXiv preprint server. The study highlights the broader security risks facing all modern connected cars, which have increasingly become \"computers on wheels.\"",
+              "link": "https://techxplore.com/news/2026-02-vulnerabilities-tesla-cybertruck-reveal-cars.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla remote exploit vulnerability fleet hack",
+              "baslik": "Tesla Car Hacked Remotely From Drone via Zero-Click ExploitHackers Used Default admin:admin Credentials to Exploit ...This Tesla Hack Could Give Someone 'Full Remote Control' Of ...Tesla CVEs and Security Vulnerabilities - OpenCVEHackers can remotely unlock Tesla by exploiting a Bluetooth ...",
+              "icerik": "May 3, 2021 · Two researchers have shown how a Tesla — and possibly other cars — can be hacked remotely without any user interaction. They carried out the attack from a drone. This was the result of research conducted last year by Ralf-Philipp Weinmann of Kunnamon and Benedikt Schmotzle of Comsecuris. Nov 9, 2026 · Researchers used default admin:admin credentials as part of a vulnerability chain that let them run code on two automakers’ production ForgeRock servers and remotely unlock connected cars. Jan 15, 2022 · A vulnerability allowed one hacker to take remote control of at least 25 executive Tesla functions, but maintains the fault is not with Tesla. Explore the latest vulnerabilities and security issues of Tesla in the CVE database May 18, 2022 · Threat actors can conduct a relay attack to unlock and operate Tesla Model 3 or Model Y without the car owner’s permission.",
+              "link": "https://www.securityweek.com/tesla-car-hacked-remotely-drone-zero-click-exploit/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla uzaktan hackleme güvenlik açığı fren",
+              "baslik": "Araç Emniyet ve Güvenlik Özellikleri | Tesla Desteği Türkiye",
+              "icerik": "Tesla aracınızda, etkinleştirebileceğiniz birkaç gelişmiş güvenlik özelliği bulunur. Bu özelliklerden herhangi birini etkinleştirmek için aracınızın dokunmatik ekranında \"Kontroller\" > \"Emniyet ve Güvenlik\" kısmına gidin.",
+              "link": "https://www.tesla.com/tr_TR/support/vehicle-safety-security-features"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla uzaktan hackleme güvenlik açığı fren",
+              "baslik": "Çarpışma Önleme Yardımı - Tesla",
+              "icerik": "Bu özellik, fren uygulamaya veya Model Y aracınızı yavaşlatmaya çalışmaz. Uyarıyı gördüğünde ve/veya duyduğunda derhal düzeltici eylem uygulamak sürücünün sorumluluğundadır.",
+              "link": "https://www.tesla.com/ownersmanual/modely/tr_tr/GUID-8EA7EF10-7D27-42AC-A31A-96BCE5BC0A85.html"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Tesla uzaktan hackleme güvenlik açığı fren",
+              "baslik": "Tesla Özel Güvenlik - Uzaktan Kamera İzleme SistemiTesla Model S'in frenlerini uzaktan hack'lediler! - CHIP OnlineFren Sıvısı Kontrolü - TeslaMobil Uygulama Kilidini Açma ve Başlatma - TeslaTesla’nın Model S aracı uzaktan hacklenebiliyor - Kaspersky",
+              "icerik": "Dec 4, 2023 · Bu videomuzda, Tesla'nın en son güvenlik özelliklerinden biri olan \"Uzaktan Kamera İzleme Sistemi\"ni inceliyoruz. Sep 21, 2016 · Hackerlar aracın kontrolünü aldıktan sonra uzaktan silecekleri çalıştırabiliyor, kilitli kapıları açabiliyor, bagajı açabiliyor, dikiz aynalarını kapatabiliyor ve hatta araç hareket halindeyken frenleri bile devreye sokabiliyor. Keen'e göre Tesla bu gösterimi çok olgun karşıladı. Fren pedalının hareketinde artış veya fren sıvısında önemli düzeyde kayıp fark ederseniz derhal Tesla'ya başvurun. Bu koşullarda sürüş durma mesafenizi artırabilir veya frenlerin tamamen arıza vermesine neden olabilir. Mobil uygulamayı kullanarak aracınızı başlatmak için: Telefonunuzdaki Tesla mobil uygulamasını açın. Kontroller > Başlat seçeneklerine dokunun. Sep 21, 2016 · Çin güvenlik firması olan Keen Lab’ın araştırmacıları, modifiye edilmemiş ve en güncel yazılıma sahip Tesla Model S araçlarını uzaktan hacklemeyi başardıklarını belirtti.",
+              "link": "https://www.youtube.com/watch?v=0xr3mM6hVx8"
             }
           ],
           "karar": {
-            "sinif": "TUTTU",
-            "guven_skoru": 5.4,
+            "sinif": "BELIRSIZ",
+            "guven_skoru": 4.0,
             "olasiliklar": {
-              "TUTTU": 0.543,
-              "BELIRSIZ": 0.038,
-              "TUTMADI": 0.027,
-              "KISMEN TUTTU": 0.392
+              "TUTTU": 0.128,
+              "TUTMADI": 0.196,
+              "KISMEN TUTTU": 0.28,
+              "BELIRSIZ": 0.396
             }
           }
         },
         {
-          "iddia_ozeti": "Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği tahmin ediliyor.",
-          "orijinal_baglam": "Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen, 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü anlatıyor.",
+          "iddia_ozeti": "Utku, mavi takım (Blue Team / SOC) rollerinin asla bitmeyeceğini fakat ekiplerin çalışma odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut log analizine kayacağını söylüyor.",
+          "orijinal_baglam": "Bir izleyicinin Blue Team ve SOC tarafının geleceği olup olmadığı yönündeki sorusunu yanıtlayan Utku Şen, savunma tarafının asla ölmeyeceğini vurguluyor. Ancak ekiplerin odak noktasının değiştiğini, eskiden Active Directory ağırlıklı çalışan mavi takımların artık tamamen bulut ortamındaki saldırıları ve logları incelemeye evrildiğini kendi gözlemi ve tahmini olarak dile getiriyor.",
           "arama_sorgusu_en": "blue team shift from active directory cloud",
           "arama_sorgusu_tr": "mavi takım siber güvenlik bulut dönüşümü",
           "web_bulgulari": [
@@ -156,9 +219,9 @@
             {
               "motor": "DuckDuckGo",
               "sorgu": "blue team shift from active directory cloud",
-              "baslik": "Active Directory Management - Windows AD Management Tool",
-              "icerik": "280,000 organizations across 190 countries trust ManageEngine to manage their IT. Powershell script free Active Directory Manager Tool with built-in actionable reports Starts at $595 · Intuitive UI · See Excessive Permissions · 30-day Free Trial Service catalog: AD Management, AD Bulk User Management, AD Password Management",
-              "link": "https://www.bing.com/aclick?ld=e863EAGN4tfRlzGpo1csSurTVUCUx7lz6vn7XIF_ajrAYWhTKRIDbYf1jHv87YqY1OMK3SXhs5n7-1UPXOV1g0lA5Zfc1E8_9lGSQFfjTpXhrSkyQUPhuZMXiy12w98czwWVkohyl8iMkIrNOeOgtadQ2kgebRmxIctnRQFmuxT0cF6fVfd2FgsSxTFgxf5Gg90P14nPLjLYvYVUdnWj7x5XIEIaU&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFuYWdlZW5naW5lLmNvbSUyZnByb2R1Y3RzJTJmYWQtbWFuYWdlciUyZnNlbSUyZndpbmRvd3MtYWN0aXZlLWRpcmVjdG9yeS1tYW5hZ2VtZW50LXRvb2wuaHRtbCUzZmNhbWlkJTNkNDcxMzIyNDkwJTI2YWRnaWQlM2QxMjk3NDI0OTM0NDQ5ODEwJTI2a3dkJTNkd2luZG93cyUyNTIwYWN0aXZlJTI1MjBkaXJlY3RvcnklMjUyMG1hbmFnZW1lbnQlMjZtYXRjaHR5cGUlM2RwJTI2YWRpZCUzZCUyNm5ldHdvcmslM2RvJTI2YWRwb3NpdGlvbiUzZCUyNmxvYyUzZDEzODA3MiUyNnBsYWNlbWVudCUzZCUyNnRhcmdldCUzZCUyNm1zY2xraWQlM2Q0NGM5OWYxMDQxYzExMTEzZDYwZWY1ZWIwODQ3NDhkYiUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEFETVAlMjUyMFNlYXJjaCUyNTIwVHVya2V5JTI1MjAtJTI1MjBQaHJhc2UlMjZ1dG1fdGVybSUzZHdpbmRvd3MlMjUyMGFjdGl2ZSUyNTIwZGlyZWN0b3J5JTI1MjBtYW5hZ2VtZW50JTI2dXRtX2NvbnRlbnQlM2RBRCUyNTIwTWFuYWdlbWVudCUyNTIwLSUyNTIwV2luZG93cw&rlid=44c99f1041c11113d60ef5eb084748db"
+              "baslik": "Active Directory Auditor - AD Security Tool",
+              "icerik": "Analyze the root-cause of your critical AD changes from detailed reports of ADAudit plus. It gives you a centralized view of your systems, so that you can track and monitor users",
+              "link": "https://www.bing.com/aclick?ld=e84KLKFqOOoUC5xl0hC9LhfzVUCUxTlt4dZfmEkTeE6gMHY75UFkfkweJ88mhlHB3WXquMIzXQPHiMLe1xC1CnbEiCAmC9cmRYzT81WgO8FS_oZbmSdAanaTfJRBzUzbQW6aF4Ac-EKQJPmrzsoxlBGLHTHExPbpq2VqXTb019tBWoxwgAVBseDw3oRDe4Zj6ai06EJsxpycltiOUAh1mZDm4AASA&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFuYWdlZW5naW5lLmNvbSUyZnByb2R1Y3RzJTJmYWN0aXZlLWRpcmVjdG9yeS1hdWRpdCUyZnNlbSUyZmxwJTJmYWN0aXZlLWRpcmVjdG9yeS1hdWRpdGluZy5odG1sJTNmY2FtaWQlM2Q0NzEzMTkxMjclMjZhZGdpZCUzZDEzMDI5MjI0ODgxNTI3MjclMjZrd2QlM2RhZCUyNTIwdG9vbCUyNm1hdGNodHlwZSUzZHAlMjZhZGlkJTNkJTI2bmV0d29yayUzZG8lMjZhZHBvc2l0aW9uJTNkJTI2bG9jJTNkMTM4MDcyJTI2cGxhY2VtZW50JTNkJTI2dGFyZ2V0JTNkJTI2c2VhcmNocXVlcnklM2RibHVlJTI1MjB0ZWFtJTI1MjBzaGlmdCUyNTIwZnJvbSUyNTIwYWN0aXZlJTI1MjBkaXJlY3RvcnklMjUyMGNsb3VkJTI2bXNjbGtpZCUzZGU5Nzg5YTIzNDViYjE2ODg1NTMwZjBkODBmMTQwMmJhJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQURBUCUyNTIwU2VhcmNoJTI1MjBUdXJrZXklMjUyMC0lMjUyMEltcCUyNnV0bV90ZXJtJTNkYWQlMjUyMHRvb2wlMjZ1dG1fY29udGVudCUzZEFEJTI1MjBBdWRpdCUyNTIwVG9vbA&rlid=e9789a2345bb16885530f0d80f1402ba"
             },
             {
               "motor": "DuckDuckGo",
@@ -191,12 +254,12 @@
           ],
           "karar": {
             "sinif": "KISMEN TUTTU",
-            "guven_skoru": 4.4,
+            "guven_skoru": 5.4,
             "olasiliklar": {
-              "TUTMADI": 0.029,
-              "KISMEN TUTTU": 0.436,
-              "BELIRSIZ": 0.107,
-              "TUTTU": 0.428
+              "KISMEN TUTTU": 0.54,
+              "TUTTU": 0.419,
+              "TUTMADI": 0.006,
+              "BELIRSIZ": 0.035
             }
           }
         }
@@ -209,8 +272,8 @@
       "extracted": true,
       "claims": [
         {
-          "iddia_ozeti": "Avrupa Birliği'nin mesajlaşma platformları arasında birlikte çalışabilirlik (interoperability) getiren yasa tasarısının, uçtan uca şifrelemeyi (E2EE) teknik olarak neredeyse imkansız hale getirerek mekanizmaları bozacağı ve şifrelemeyi tarihe karıştırabileceği tahmin ediliyor.",
-          "orijinal_baglam": "Avrupa Birliği'nin teknoloji tekellerini dizginlemek amacıyla WhatsApp, Telegram ve Signal gibi mesajlaşma uygulamalarının birbirine mesaj gönderebilmesini şart koşan tasarısını değerlendiren Utku Şen, 'bu işin ucu şuraya gidiyor abi yani Bu entertain kışın kullanmayı imkansız hale getiriyor nerdeyse... Dolayısıyla en kışın mekanizmaları bozulur hale gelecek... Avrupa Birliği'nin verdiği yine bu kararlar belki uçtan uca şifrelemeyi tarihe karıştırabilir ne yazık ki. Belki de Avrupa Birliği bunun olacağını tam olarak biliyor, biz bunu bu maske altında yok edelim diyorlar belki' sözleriyle şifrelemenin geleceğine dair şahsi teknik tezini belirtiyor.",
+          "iddia_ozeti": "Utku, Avrupa Birliği'nin mesajlaşma uygulamalarını birbiriyle konuşturma zorunluluğunun teknik olarak uçtan uca şifrelemeyi imkansız kılacağını ve bu kuralın şifrelemeyi tamamen tarihe karıştırabileceğini söylüyor.",
+          "orijinal_baglam": "Avrupa Birliği'nin WhatsApp, Telegram ve Signal gibi uygulamaların birbiriyle mesajlaşabilmesini zorunlu kılan yasa tasarısını değerlendiren Utku Şen, mesajların üçüncü parti platformlara iletilmesinin şifreleme mekanizmasını bozacağını savunuyor. Hatta AB'nin bunu bilerek yaptığını ve şifrelemeyi bu maske altında yok etmeyi amaçlıyor olabileceğini kendi tezi olarak anlatıyor.",
           "arama_sorgusu_en": "EU DMA messaging interoperability breaking encryption",
           "arama_sorgusu_tr": "AB mesajlaşma birlikte çalışabilirlik şifreleme",
           "web_bulgulari": [
@@ -273,41 +336,41 @@
             {
               "motor": "DuckDuckGo",
               "sorgu": "AB mesajlaşma birlikte çalışabilirlik şifreleme",
-              "baslik": "AB Chat Control: Şifreleme Nelerin Taranacağını Belirliyor",
-              "icerik": "Jul 30, 2026 · Uçtan uca şifreleme, hizmet sağlayıcının bile mesaj içeriğini okuyamayacağı şekilde tasarlanmıştır. Dolayısıyla şifreli bir hizmete uygulanan herhangi bir tarama sistemi, şifreleme gerçekleşmeden önce, doğrudan kullanıcının cihazında çalışmalı ve henüz korunmamış içeriği incelemelidir.",
-              "link": "https://vpn.social/tr/eu-chat-control-encryption-determines-what-gets-scanned"
+              "baslik": "AB'de Whatsapp ve Messenger birlikte çalışabilir - Küresel Geek",
+              "icerik": "Mar 8, 2024 · WhatsApp ve Messenger ile entegre olmak isteyen üçüncü taraf mesajlaşma sağlayıcıları Meta'nın katı güvenlik standartlarına uymalıdır. Meta sinyal protokolünün kullanımını teşvik ederken, eşdeğer güvenlik garantilerini gösteren alternatif şifreleme yöntemlerine de izin verir.",
+              "link": "https://tr.whileint.com/tech/velda/whatsapp-and-messenger-to-become-interoperable-in-the-eu.html"
             },
             {
               "motor": "DuckDuckGo",
               "sorgu": "AB mesajlaşma birlikte çalışabilirlik şifreleme",
-              "baslik": "AB'de Whatsapp ve Messenger birlikte çalışabilir - Küresel Geek",
-              "icerik": "Mar 8, 2024 · WhatsApp ve Messenger ile entegre olmak isteyen üçüncü taraf mesajlaşma sağlayıcıları Meta'nın katı güvenlik standartlarına uymalıdır. Meta sinyal protokolünün kullanımını teşvik ederken, eşdeğer güvenlik garantilerini gösteren alternatif şifreleme yöntemlerine de izin verir.",
-              "link": "https://tr.whileint.com/tech/velda/whatsapp-and-messenger-to-become-interoperable-in-the-eu.html"
+              "baslik": "Birlikte çalışabilirlik - WhatsApp Docs",
+              "icerik": "Interop, bir WhatsApp hesabının diğer mesajlaşma uygulamalarının (\"integrator'lar\") hesaplarıyla 1:1 ve grup mesajları alıp vermesini sağlar. İstemci bu uygulamalarla hiç konuşmaz.",
+              "link": "https://docs.baron0.com/tr/WA_INTEROP/"
             }
           ],
           "karar": {
             "sinif": "TUTMADI",
-            "guven_skoru": 7.7,
+            "guven_skoru": 8.1,
             "olasiliklar": {
-              "TUTTU": 0.023,
-              "KISMEN TUTTU": 0.116,
-              "TUTMADI": 0.767,
-              "BELIRSIZ": 0.094
+              "KISMEN TUTTU": 0.136,
+              "TUTTU": 0.017,
+              "BELIRSIZ": 0.035,
+              "TUTMADI": 0.813
             }
           }
         },
         {
-          "iddia_ozeti": "Devletlerin büyük teknoloji şirketlerini (Meta, Amazon, Apple vb.) regülasyonlarla dizginlememesi halinde, önümüzdeki 50-100 yıl içinde şirketlerin devletlerden daha güçlü hale gelip kendi silahlı ordularını kuracağı ve kölelik düzenine dönüleceği distopik bir geleceğin ortaya çıkacağı tahmin ediliyor.",
-          "orijinal_baglam": "Avrupa Birliği'nin Amerikan teknoloji devlerine yönelik antitröst ve piyasa kısıtlamalarını savunan Utku Şen, 'Bu firmalar çok güçlenirse gerçekten dünyayı çok kötü günler bekler Önümüzdeki 50 sene yüz sene falan. Dolayısıyla devletlerin biraz bu şirketlerin tasmasını tutması lazım bence... kolluk kuvvetlerini de şirketler yapsın diyorlar, Amazon silahlı askerler olacak, Facebook silahlı askerler olacak falan böyle bir gelecek hayal ediyorlar ve bu gelecek Bence kesinlikle çok korkunç bir gelecek, kölelik döneminin geri dönüşüne şahit oluruz muhtemelen' diyerek teknoloji tekellerinin gelecekteki tehlikelerine dair şahsi distopik tezini açıklamıştır.",
+          "iddia_ozeti": "Utku, devletlerin teknoloji tekellerini dizginlememesi halinde önümüzdeki 50-100 yıl içinde şirketlerin devletlerden bile güçlü hale geleceğini, kendi silahlı ordularını kuracağını ve kölelik düzenine geri dönüleceğini söylüyor.",
+          "orijinal_baglam": "Avrupa Birliği'nin teknoloji devlerine yönelik kısıtlamalarını savunan Utku Şen, liberteryenlerin savunduğu devletsiz ve şirketlerin yönettiği düzeni korkunç bir distopya olarak tanımlıyor. Büyük şirketlerin önü kesilmezse Amazon ve Facebook gibi devlerin kendi polis ve askerlerini kuracağı bir kölelik döneminin başlayacağını kendi öngörüsü olarak paylaşıyor.",
           "arama_sorgusu_en": "tech monopolies corporate armies future regulation",
           "arama_sorgusu_tr": "teknoloji tekelleri distopya şirket orduları",
           "web_bulgulari": [
             {
               "motor": "Tavily",
               "sorgu": "tech monopolies corporate armies future regulation",
-              "baslik": "Breaking Big Tech Companies Monopoly Power - SOMO",
-              "icerik": "It is clear that Big Tech’s monopoly power needs to be reined in. In the short term, this means more control over mergers and acquisitions, effective diligence laws, and stronger protections for the consumers, workers, and smaller companies that have become dependent on the platforms. [...] However, tackling the root problem over the long term will be more challenging: reining in Big Tech’s power will require more ambitious structural solutions that break up the company’s monopoly hold on the economy.\n\nWe are calling for investment policy approaches from governments to encourage digital infrastructure that is in the public interest, as well as promoting alternatives to the Big Tech platforms.\n\n## Do you need more information?\n\n \n\n  ### Margarida Silva\n\n  Senior Tech Researcher [...] All of these issues are exacerbated by minimal regulatory checks within the industry.\n\nBig Technology companies’ expansion into financial services further threatens to solidify their monopoly market power, increase their control over data, and lead to the deterioration of financial services.\n\n Fintechs Red Flags (pdf, 9.96 MB)\n\n  Download\n\n### Breaking up Big Tech’s monopoly and rentier power",
-              "link": "https://www.somo.nl/our-work/sectors/big-tech"
+              "baslik": "Breaking the Big Tech Monopoly - CIRSD",
+              "icerik": "Big Tech regulation is new territory for legislatures all over the world—not just in China, the EU, and the United States. There is thus a great deal of uncertainty as to the eventual form of governmental policy and its impact on global business operations. While there is a general consensus that heightened regulation is needed, a major risk lies in the failure of the Chinese regulatory framework (or the EU’s recently proposed Digital Markets Act and Digital Services Act) to become an effective [...] the power of Big Tech, how Chinese actions could be a catalyst for a global regulatory drive of Big Tech companies (especially in the United States), and what global collaboration is needed for what is arguably one of the most important policy initiatives in the coming decade. [...] Thus, China’s regulatory actions must be viewed in the context of a global push for more Big Tech regulations. Although geopolitical tensions are ever-present in the emerging post-pandemic world, all the major powers seem to share a consensus on at least one important issue, namely that Big Tech firms (irrespective of where they may be headquartered) are too big, too powerful, and too profitable. And that global focus is only likely to intensify, driving governments everywhere to take such",
+              "link": "https://cirsd.org/horizon-article/breaking-the-big-tech-monopoly"
             },
             {
               "motor": "Tavily",
@@ -375,20 +438,122 @@
           ],
           "karar": {
             "sinif": "BELIRSIZ",
-            "guven_skoru": 8.5,
+            "guven_skoru": 9.0,
             "olasiliklar": {
-              "TUTTU": 0.035,
-              "TUTMADI": 0.04,
-              "KISMEN TUTTU": 0.078,
-              "BELIRSIZ": 0.846
+              "TUTMADI": 0.026,
+              "BELIRSIZ": 0.898,
+              "TUTTU": 0.033,
+              "KISMEN TUTTU": 0.043
             }
           }
         },
         {
-          "iddia_ozeti": "Okta sızıntı raporunu paylaştığı için Zoom'dan kovulan genç araştırmacı Bill Demirkapı'nın siber güvenlik alanında gelmiş geçmiş en büyük dahilerden biri olduğu ve gelecekte sektörde çok üst düzey konumlara geleceği tahmin ediliyor.",
-          "orijinal_baglam": "Okta'nın hacklenme sürecine dair Mandiant raporunu sızdırdığı gerekçesiyle Zoom'un araştırmacı Bill Demirkapı'yı işten çıkarmasını yorumlayan Utku Şen, 'Bence siber güvenlikteki gelmiş geçmiş en büyük dahilerden biri, biri de böyle olacak yani... Gerçekten dahi seviyesinde zeki bir insan, çok çok önemli yerlere geleceğini düşünüyorum gelecekte' sözleriyle Demirkapı'nın mesleki geleceğine dair şahsi inancını ve öngörüsünü belirtmiştir.",
+          "iddia_ozeti": "Utku, Okta raporunu sızdırdığı için Zoom'dan kovulan genç araştırmacı Bill Demirkapı'nın siber güvenlik tarihinin en büyük dahilerinden biri olduğunu ve gelecekte sektörde çok önemli yerlere geleceğini söylüyor.",
+          "orijinal_baglam": "Okta'nın hacklenme sürecine dair Mandiant raporunu paylaştığı için Zoom tarafından işine son verilen Bill Demirkapı olayını yorumlayan Utku Şen, Zoom'un çok büyük bir aptallık yaptığını söylüyor. Bu kalibredeki yetenekleri şirketlerin değil bizzat araştırmacıların seçtiğini belirterek Bill'in ileride çok büyük başarılara imza atacağını kendi inancı ve tahmini olarak dile getiriyor.",
           "arama_sorgusu_en": "Bill Demirkapi security research career accomplishments",
-          "arama_sorgusu_tr": "Bill Demirkapı siber güvenlik başarıları"
+          "arama_sorgusu_tr": "Bill Demirkapı siber güvenlik başarıları",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Thousands of Corporate Secrets Were Left Exposed. This Guy Found Them All | WIRED",
+              "icerik": "If you know where to look, plenty of secrets can be found online. Since the fall of 2021, independent security researcher Bill Demirkapi has been building ways to tap into huge data sources, which are often overlooked by researchers, to find masses of security problems. This includes automatically finding developer secrets—such as passwords, API keys, and authentication tokens—that could give cybercriminals access to company systems and the ability to steal data. [...] While the two security issues he looked into are well-known among researchers, Demirkapi says that turning to unconventional datasets, which are usually reserved for other purposes, allowed thousands of issues to be identified en masse and, if expanded, offers the potential to help protect the web at large. “The goal has been to find ways to discover trivial vulnerability classes at scale,” Demirkapi tells WIRED. “I think that there’s a gap for creative solutions.” [...] During his research, Demirkapi, who first found prominence for his teenage school-hacking exploits five years ago, hunted for these secret keys at scale—as opposed to selecting a company and looking specifically for its secrets. To do this, he turned to VirusTotal, the Google-owned website, which allows developers to upload files—such as apps—and have them scanned for potential malware.",
+              "link": "https://www.wired.com/story/secret-hunting-bill-demirkapi"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Bill Demirkapi",
+              "icerik": "# Bill Demirkapi\n\nHeadline: Member of Technical Staff\nCurrent role: Member Of Technical Staff\nSeniority: Specialist, Engineering and Technical\nLocation: San Francisco, California, United States\nExperience: 6 years 5 months\nLinkedIn: www.linkedin.com/in/bill-demirkapi-171054135 · 1,576 followers\nDescription: Hi 👋, my name is Bill Demirkapi, and I'm a researcher with a passion for scaling security. [...] ## Publications\n- Reading Physical Memory using Carbon Black's Endpoint driver, Bill Demirkapi (2019)\n- Remote Code Execution on most Dell computers, Bill Demirkapi (2019)\n- Hacking College Admissions, Bill Demirkapi (2019)\n- Reversing the CyberPatriot National Competition Scoring Engine, Bill Demirkapi (2019)\n- Local Privilege Escalation on Dell machines running Windows, Bill Demirkapi (2019)\n\nLanguages: turkish, english [...] ## Experience\n- Member of Technical Staff at OpenAI (Mar 2026 to present)\n- Member of Technical Staff at xAI (Oct 2025 to Feb 2026)\n- Member of Technical Staff at Stealth Startup (May 2025 to Oct 2025)\n- Security Engineer II at Microsoft (May 2022 to Apr 2025)\n- Senior Security Engineer at Zoom (Nov 2021 to Mar 2022)\n- Application Security Engineer at Zoom (Aug 2020 to Nov 2021)",
+              "link": "https://linkedin.com/in/bill-demirkapi-171054135"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Bill Demirkapi's Blog",
+              "icerik": "In May, I published a blog post detailing a Remote Code Execution vulnerability in Dell SupportAssist. Since then, my research has continued and I have been finding more and more vulnerabilities. I strongly suggest that you read my previous blog post, not only because it provides a solid conceptual understanding\n\nRemote Code Execution on most Dell computers \n\nSecurity Research\n\n## Remote Code Execution on most Dell computers [...] The opinions expressed in this publication are those of the authors. They do not reflect the opinions or views of my employer. All research was conducted independently. For a recent project, I had to do research into methods rootkits are detected and the most effective measures to catch them when\n\nSeveral Critical Vulnerabilities on most HP machines running Windows \n\nSecurity Research\n\n## Several Critical Vulnerabilities on most HP machines running Windows [...] In the middle of August 2021, a special Word document was uploaded to VirusTotal by a user from Argentina. Although it was only detected by a single antivirus engine at the time, this sample turned out to be exploiting a zero day vulnerability in Microsoft Office to gain remote code\n\nAbusing Windows’ Implementation of Fork() for Stealthy Memory Operations \n\nSecurity Research\n\n## Abusing Windows’ Implementation of Fork() for Stealthy Memory Operations",
+              "link": "https://billdemirkapi.me"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Secrets and Shadows: Leveraging Big Data for Vulnerability Discovery at Scale",
+              "icerik": "Security Research\n\n# Secrets and Shadows: Leveraging Big Data for Vulnerability Discovery at Scale\n\nModern technologies like the cloud have made rapidly developing scalable software more accessible than ever. What risks has cloud computing introduced for the sake of convenience?\n\n Bill Demirkapi\n\n#### Bill Demirkapi\n\n• 36 min read\n\n Secrets and Shadows: Leveraging Big Data for Vulnerability Discovery at Scale",
+              "link": "https://billdemirkapi.me/leveraging-big-data-for-vulnerability-discovery-at-scale"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Bill Demirkapi - grokipedia.com",
+              "icerik": "Bill Demirkapi has established himself as an independent security researcher through self-directed investigations into system vulnerabilities, often leveraging publicly available or leaked data to probe for weaknesses beyond his professional duties at Microsoft.",
+              "link": "https://grokipedia.com/page/bill-demirkapi"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "BILL DEMIRKAPI https://billdemirkapi.me Education Experience",
+              "icerik": "Security Integration Engineer High School Intern IBM Resilient • Integrated security products with the Resilient incident response platform.",
+              "link": "https://billdemirkapi.me/content/images/2021/02/resume.pdf"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapi security research career accomplishments",
+              "baslik": "Bill Demirkapi - InfoconDB",
+              "icerik": "Aug 9, 2025 · Bill is a security researcher with a passion for finding bugs at scale. His interests include reverse engineering and vulnerability research, ranging from low-level memory corruption to systemic flaws with catastrophic consequences.",
+              "link": "https://infocondb.org/presenter/bill-demirkapi"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapı siber güvenlik başarıları",
+              "baslik": "Bill Demirkapi's Blog",
+              "icerik": "Jan 30, 2023 · Bill Demirkapi's Blog The adventures of an independent security researcher.",
+              "link": "https://billdemirkapi.me/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapı siber güvenlik başarıları",
+              "baslik": "T.C. Siber Güvenlik Başkanlığı - Bilgi ve İletişim Güvenliği",
+              "icerik": "Rehber uyum çalışmaları kapsamında yürütülen faaliyetlerin ve alınan tedbirlerin uygunluğunu belirlemek amacıyla kurum ve kuruluşların \" yılda en az bir kez denetim çalışmalarını iç denetim usulü \" ile gerçekleştirmesi ve sonuçlarını Siber Güvenlik Başkanlığı’na iletmesi beklenmektedir.",
+              "link": "https://siberguvenlik.gov.tr/bigdes"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "Bill Demirkapı siber güvenlik başarıları",
+              "baslik": "Bill Demirkapı İsimli 17 Yaşındaki Genç, - TeknoSeyir",
+              "icerik": "Bill Demirkapı İsimli 17 Yaşındaki Genç, Dell'de Önemli Bir Güvenlik Açığı Tespit Etmiş. #HaftalıkGündemeMalzeme https://gadgets.ndtv.com/laptops/news/dell-supportassist-flaw-bill-demirkapi-exposed-vulnerability-fix-2033658",
+              "link": "https://teknoseyir.com/durum/1077844"
+            }
+          ],
+          "karar": {
+            "sinif": "TUTTU",
+            "guven_skoru": 8.0,
+            "olasiliklar": {
+              "TUTTU": 0.804,
+              "TUTMADI": 0.005,
+              "KISMEN TUTTU": 0.162,
+              "BELIRSIZ": 0.029
+            }
+          }
+        }
+      ]
+    },
+    "ff55d838-0044-45e1-9d9c-e12f5c24b1fd": {
+      "title": "ABD Devleti, 19 Yaşındaki Hacker Çocuğa Emanet - S.A.H E113",
+      "url": "https://www.youtube.com/watch?v=qzsoRNCcWyU",
+      "publish_date": "2025-02-09",
+      "extracted": true,
+      "claims": [
+        {
+          "iddia_ozeti": "Utku, yapay zekanın ses ve görüntü gecikmelerinin her geçen gün azalarak sahteciliğin anlaşılmaz hale geleceğini, bu suistimaller yüzünden uzaktan mülakatların tarihe karışacağını ve şirketlerin herkesi mecburen ofise çağıracağını söylüyor.",
+          "orijinal_baglam": "Adayların iş mülakatlarında arka planda yapay zeka ve deepfake kullanmasını kendi işe alım tecrübesi üzerinden anlatan Utku Şen, bu teknolojilerin hızla geliştiğini ve gecikmelerin yakında tamamen kaybolacağını vurguluyor. Uzaktan mülakatın çok daha pratik olduğunu ancak bu sahtecilikler nedeniyle ileride tamamen biteceğini kendi tahmini olarak ekliyor.",
+          "arama_sorgusu_en": "AI cheating ending remote job interviews return in-person",
+          "arama_sorgusu_tr": "yapay zeka online mülakat bitişi ofise dönüş"
+        },
+        {
+          "iddia_ozeti": "Utku, devletle özel sektörü ayıran disiplin ve kuralcılığın ortadan kalkmasıyla kamu veri tabanlarının genç hackerlara açılmasının sonunun çok kötü olacağını, devlet ciddiyetinin zayıflamasının büyük bir felakete yol açacağını söylüyor.",
+          "orijinal_baglam": "Elon Musk'ın DOGE yapılanmasına 19 yaşında yeraltı hacker bağlantıları olan bir genci dahil edip devlet veri tabanlarına yetki vermesini değerlendiren Utku Şen, çocuk yaştaki hackerlara sınırsız yetki verilmesinin kırmızı çizgiyi aştığını belirtiyor. Devlet ciddiyetinin yok olduğu ve disiplinin kaybolduğu bu gidişatın sonunun asla iyi bir yere varmayacağını kendi endişesi ve öngörüsü olarak paylaşıyor.",
+          "arama_sorgusu_en": "DOGE teenage hacker government database security fallout",
+          "arama_sorgusu_tr": "DOGE genç hacker devlet veritabanı güvenlik riski"
         }
       ]
     }

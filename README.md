@@ -92,9 +92,21 @@ GEMINI_API_KEY=your_key_here
 ### 4. Analizi Başlatın
 
 ```bash
-python sah_hibrit_final.py
+python sah_karar.py
 ```
 *İşlem yarıda kesilirse endişelenmeyin, script kaldığı videodan devam edecek şekilde tasarlandı.*
+
+---
+
+## 💸 Sıfır Maliyet Mimarisi (Tamamen Free Tier)
+
+Bu projeyi tasarlarken temel amaçlardan biri de devasa dil modellerine veya ücretli API'lara yüzlerce dolar token parası kaptırmadan bu analizi bitirmekti. Tüm sistem tamamen ücretsiz katman sınırları (free tier) içinde kalacak şekilde optimize edildi:
+
+- **NotebookLM:** 179 bölümün saatlerce süren video transkriptleri doğrudan Google NotebookLM'in ücretsiz arayüzü üzerinden tarandı, milyonlarca tokenlik transkript okuma maliyeti sıfırlandı.
+- **Tavily AI (Aylık 1.000 Ücretsiz Kredi):** İddia başına sadece 1 kredi harcayacak şekilde kurgulandı. Tavily yalnızca en kritik İngilizce teknik sorguda derin paragraf çekmek için kullanılıyor, kotayı zorlamadan yüzlerce iddiaya fazlasıyla yetiyor.
+- **DuckDuckGo:** Hem Türkçe yerel haberleri hem de alternatif kaynakları yakalamak için tamamen ücretsiz bir destekçi olarak çalışıyor, herhangi bir API ücreti yok.
+- **Google Gemini Decision 1:** Google AI Studio'nun ücretsiz katmanında (200 RPM) çalışıyor. Üstelik metin üretimi yapmayıp sadece doğrudan olasılık dağılımı döndürdüğü için çıktı token maliyeti sıfır.
+- **GitHub Pages:** Sitenin derlenmesi ve yayını GitHub Actions ve GitHub Pages'in ücretsiz kaynaklarıyla sağlanıyor.
 
 ### 5. Web Sitesini Önizleyin
 

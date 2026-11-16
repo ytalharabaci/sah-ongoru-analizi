@@ -62,6 +62,16 @@ flowchart TD
   - **BELİRSİZ:** Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz veya vadesi henüz dolmadı.
 - **Negatif İddia Kuralı:** Eğer Utku bir teknolojinin tutmayacağını veya engelleneceğini söylediyse ve aradan geçen zamanda o şey gerçekten tutmadıysa, iddia haklı olarak `TUTTU` kabul edilir.
 
+### 4. Aşama: Sıfır Maliyet ve Free Tier Mimarisi
+
+Bu analizi yürütürken pahalı kurumsal API'lara veya yüksek token faturalarına girmeden tamamen ücretsiz katmanlar (free tier) kullanıldı:
+
+- **NotebookLM:** 179 bölümün tüm transkriptleri ücretsiz oturum üzerinden tarandı, böylece milyonlarca tokenlik girdi maliyeti sıfırlandı.
+- **Tavily AI (1.000 Ücretsiz Kredi):** İddia başına yalnızca 1 kredi harcandı, en kritik İngilizce teknik sorguyla zengin kanıtlar çekildi.
+- **DuckDuckGo:** Tamamen ücretsiz arama altyapısı sayesinde ek yerel kaynaklar tek kuruş ödemeden toplandı.
+- **Gemini Decision 1:** Google AI Studio'nun ücretsiz katmanında çalıştırıldı, metin üretimi yerine ayrık olasılık döndürdüğü için çıktı token maliyeti sıfır oldu.
+- **GitHub Pages:** Sitenin barındırılması ve otomatik derlenmesi GitHub'ın ücretsiz açık kaynak altyapısıyla sağlandı.
+
 ---
 
 ## ⚠️ Önemli Not (Yapay Zeka Uyarısı)
