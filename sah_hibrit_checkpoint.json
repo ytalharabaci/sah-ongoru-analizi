@@ -7,8 +7,8 @@
       "extracted": true,
       "claims": [
         {
-          "iddia_ozeti": "Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağı; Belçika'nın ardından bu sistemi sırasıyla Fransa, Almanya ve Hollanda'nın takip edeceği öngörülmektedir.",
-          "orijinal_baglam": "Belçika'nın haftada 4 gün çalışma hakkını yasalaştırmasını değerlendiren Utku Şen; 'bu haftada dört gün çalışma Muhtemelen ben şey diyordum yani beş sene içinde Avrupa Birliği ülkeleri geçer buna falan Muhtemelen beş sene kalmayacak gibi gözüküyor... Belçika bunu ilk yapan ülke oldu Belki onun Fransa takip edebilir Muhtemelen Almanya takip eder Muhtemelen Hollanda takip eder yavaş yavaş' sözleriyle 4 gün çalışma sisteminin AB genelinde yayılma takvimine dair şahsi tahminini dile getirmiştir.",
+          "iddia_ozeti": "Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağı, Belçika'nın ardından bu sistemi sırasıyla Fransa, Almanya ve Hollanda'nın takip edeceği tahmin ediliyor.",
+          "orijinal_baglam": "Belçika'nın haftada 4 gün çalışma hakkını yasalaştırmasını değerlendiren Utku Şen, 'bu haftada dört gün çalışma Muhtemelen ben şey diyordum yani beş sene içinde Avrupa Birliği ülkeleri geçer buna falan Muhtemelen beş sene kalmayacak gibi gözüküyor... Belçika bunu ilk yapan ülke oldu Belki onun Fransa takip edebilir Muhtemelen Almanya takip eder Muhtemelen Hollanda takip eder yavaş yavaş' sözleriyle 4 gün çalışma sisteminin AB genelinde yayılma takvimine dair şahsi tahminini söylüyor.",
           "arama_sorgusu_en": "four day work week European Union adoption",
           "arama_sorgusu_tr": "haftada dört gün çalışma Avrupa Birliği",
           "web_bulgulari": [
@@ -74,8 +74,8 @@
           }
         },
         {
-          "iddia_ozeti": "Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu; ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği öngörülmektedir.",
-          "orijinal_baglam": "Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen; 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını ifade etmiştir.",
+          "iddia_ozeti": "Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu, ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği tahmin ediliyor.",
+          "orijinal_baglam": "Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen, 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını belirtiyor.",
           "arama_sorgusu_en": "Tesla remote exploit vulnerability fleet hack",
           "arama_sorgusu_tr": "Tesla uzaktan hackleme güvenlik açığı fren",
           "web_bulgulari": [
@@ -120,8 +120,8 @@
           }
         },
         {
-          "iddia_ozeti": "Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği öngörülmektedir.",
-          "orijinal_baglam": "Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen; 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü aktarmıştır.",
+          "iddia_ozeti": "Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği tahmin ediliyor.",
+          "orijinal_baglam": "Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen, 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü anlatıyor.",
           "arama_sorgusu_en": "blue team shift from active directory cloud",
           "arama_sorgusu_tr": "mavi takım siber güvenlik bulut dönüşümü",
           "web_bulgulari": [
@@ -209,8 +209,8 @@
       "extracted": true,
       "claims": [
         {
-          "iddia_ozeti": "Avrupa Birliği'nin mesajlaşma platformları arasında birlikte çalışabilirlik (interoperability) getiren yasa tasarısının, uçtan uca şifrelemeyi (E2EE) teknik olarak neredeyse imkansız hale getirerek mekanizmaları bozacağı ve şifrelemeyi tarihe karıştırabileceği öngörülmektedir.",
-          "orijinal_baglam": "Avrupa Birliği'nin teknoloji tekellerini dizginlemek amacıyla WhatsApp, Telegram ve Signal gibi mesajlaşma uygulamalarının birbirine mesaj gönderebilmesini şart koşan tasarısını değerlendiren Utku Şen; 'bu işin ucu şuraya gidiyor abi yani Bu entertain kışın kullanmayı imkansız hale getiriyor nerdeyse... Dolayısıyla en kışın mekanizmaları bozulur hale gelecek... Avrupa Birliği'nin verdiği yine bu kararlar belki uçtan uca şifrelemeyi tarihe karıştırabilir ne yazık ki. Belki de Avrupa Birliği bunun olacağını tam olarak biliyor, biz bunu bu maske altında yok edelim diyorlar belki' sözleriyle şifrelemenin geleceğine dair şahsi teknik tezini ifade etmiştir.",
+          "iddia_ozeti": "Avrupa Birliği'nin mesajlaşma platformları arasında birlikte çalışabilirlik (interoperability) getiren yasa tasarısının, uçtan uca şifrelemeyi (E2EE) teknik olarak neredeyse imkansız hale getirerek mekanizmaları bozacağı ve şifrelemeyi tarihe karıştırabileceği tahmin ediliyor.",
+          "orijinal_baglam": "Avrupa Birliği'nin teknoloji tekellerini dizginlemek amacıyla WhatsApp, Telegram ve Signal gibi mesajlaşma uygulamalarının birbirine mesaj gönderebilmesini şart koşan tasarısını değerlendiren Utku Şen, 'bu işin ucu şuraya gidiyor abi yani Bu entertain kışın kullanmayı imkansız hale getiriyor nerdeyse... Dolayısıyla en kışın mekanizmaları bozulur hale gelecek... Avrupa Birliği'nin verdiği yine bu kararlar belki uçtan uca şifrelemeyi tarihe karıştırabilir ne yazık ki. Belki de Avrupa Birliği bunun olacağını tam olarak biliyor, biz bunu bu maske altında yok edelim diyorlar belki' sözleriyle şifrelemenin geleceğine dair şahsi teknik tezini belirtiyor.",
           "arama_sorgusu_en": "EU DMA messaging interoperability breaking encryption",
           "arama_sorgusu_tr": "AB mesajlaşma birlikte çalışabilirlik şifreleme",
           "web_bulgulari": [
@@ -297,14 +297,96 @@
           }
         },
         {
-          "iddia_ozeti": "Devletlerin büyük teknoloji şirketlerini (Meta, Amazon, Apple vb.) regülasyonlarla dizginlememesi halinde; önümüzdeki 50-100 yıl içinde şirketlerin devletlerden daha güçlü hale gelip kendi silahlı ordularını kuracağı ve kölelik düzenine dönüleceği distopik bir geleceğin ortaya çıkacağı öngörülmektedir.",
-          "orijinal_baglam": "Avrupa Birliği'nin Amerikan teknoloji devlerine yönelik antitröst ve piyasa kısıtlamalarını savunan Utku Şen; 'Bu firmalar çok güçlenirse gerçekten dünyayı çok kötü günler bekler Önümüzdeki 50 sene yüz sene falan. Dolayısıyla devletlerin biraz bu şirketlerin tasmasını tutması lazım bence... kolluk kuvvetlerini de şirketler yapsın diyorlar; Amazon silahlı askerler olacak, Facebook silahlı askerler olacak falan böyle bir gelecek hayal ediyorlar ve bu gelecek Bence kesinlikle çok korkunç bir gelecek, kölelik döneminin geri dönüşüne şahit oluruz muhtemelen' diyerek teknoloji tekellerinin gelecekteki tehlikelerine dair şahsi distopik tezini açıklamıştır.",
+          "iddia_ozeti": "Devletlerin büyük teknoloji şirketlerini (Meta, Amazon, Apple vb.) regülasyonlarla dizginlememesi halinde, önümüzdeki 50-100 yıl içinde şirketlerin devletlerden daha güçlü hale gelip kendi silahlı ordularını kuracağı ve kölelik düzenine dönüleceği distopik bir geleceğin ortaya çıkacağı tahmin ediliyor.",
+          "orijinal_baglam": "Avrupa Birliği'nin Amerikan teknoloji devlerine yönelik antitröst ve piyasa kısıtlamalarını savunan Utku Şen, 'Bu firmalar çok güçlenirse gerçekten dünyayı çok kötü günler bekler Önümüzdeki 50 sene yüz sene falan. Dolayısıyla devletlerin biraz bu şirketlerin tasmasını tutması lazım bence... kolluk kuvvetlerini de şirketler yapsın diyorlar, Amazon silahlı askerler olacak, Facebook silahlı askerler olacak falan böyle bir gelecek hayal ediyorlar ve bu gelecek Bence kesinlikle çok korkunç bir gelecek, kölelik döneminin geri dönüşüne şahit oluruz muhtemelen' diyerek teknoloji tekellerinin gelecekteki tehlikelerine dair şahsi distopik tezini açıklamıştır.",
           "arama_sorgusu_en": "tech monopolies corporate armies future regulation",
-          "arama_sorgusu_tr": "teknoloji tekelleri distopya şirket orduları"
+          "arama_sorgusu_tr": "teknoloji tekelleri distopya şirket orduları",
+          "web_bulgulari": [
+            {
+              "motor": "Tavily",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Breaking Big Tech Companies Monopoly Power - SOMO",
+              "icerik": "It is clear that Big Tech’s monopoly power needs to be reined in. In the short term, this means more control over mergers and acquisitions, effective diligence laws, and stronger protections for the consumers, workers, and smaller companies that have become dependent on the platforms. [...] However, tackling the root problem over the long term will be more challenging: reining in Big Tech’s power will require more ambitious structural solutions that break up the company’s monopoly hold on the economy.\n\nWe are calling for investment policy approaches from governments to encourage digital infrastructure that is in the public interest, as well as promoting alternatives to the Big Tech platforms.\n\n## Do you need more information?\n\n \n\n  ### Margarida Silva\n\n  Senior Tech Researcher [...] All of these issues are exacerbated by minimal regulatory checks within the industry.\n\nBig Technology companies’ expansion into financial services further threatens to solidify their monopoly market power, increase their control over data, and lead to the deterioration of financial services.\n\n Fintechs Red Flags (pdf, 9.96 MB)\n\n  Download\n\n### Breaking up Big Tech’s monopoly and rentier power",
+              "link": "https://www.somo.nl/our-work/sectors/big-tech"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Will regulating big tech stifle innovation? | MIT Sloan",
+              "icerik": "With such scale and influence, to what extent, if at all, have these companies become monopolies, and should they be more closely regulated? Could stricter regulation have unintended effects on the pace of innovation? The answer is more complex than it was for past industries that became the target of antitrust action, like telecommunications, oil, and railroads, experts say, but the companies have certainly been raising some eyebrows in recent months.MIT Sloan economist John Van Reenen said [...] But some forms of antitrust regulation could take aim at the scale of those companies and their ability to retain market dominance. Take, for example, antitrust policy around mergers and acquisitions, Schmalensee said. Large companies often snap up smaller companies that could one day become a major competitor, acquiring their technology while eliminating the future threat. [...] If the effect of mergers and acquisitions by large tech titans is that they’re blocking off future competition and innovation, then some regulation of the strategy could actually stimulate more innovation by giving small firms a chance to sink or swim instead of being immediately bought up by their larger competitors, Van Reenen said.",
+              "link": "https://mitsloan.mit.edu/ideas-made-to-matter/will-regulating-big-tech-stifle-innovation"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Big Tech and the US Digital-Military-Industrial Complex - Intereconomics",
+              "icerik": "Europe should put forth an alternative to such a dangerous convergence between the power of big corporations and the militarisation of digital technologies. It is not inevitable to use such technologies for conditioning consumers’ behaviour, surveillance, or to make war. Nor is it inevitable that the control and development of digital technologies ends up in seemingly unbreakable private monopolies, contributing to the growth of inequalities and the weakening of democratic systems. On the",
+              "link": "https://www.intereconomics.eu/contents/year/2025/number/2/article/big-tech-and-the-us-digital-military-industrial-complex.html"
+            },
+            {
+              "motor": "Tavily",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Captured Innovation: Technology Monopoly Response to Transformational Development | The University of Chicago Business Law Review",
+              "icerik": "Likewise, regulators with competition or innovation equities should note how critically important their role has historically been in allowing innovation to flourish. Regulation can be actively harmful to innovation when it ossifies markets and entrenches dominant technology. The story of AT&T shows especially how the short-term protection of existing monopoly and oligopoly market structures can delay the emergence of hugely important innovations. But that same history shows that affirmatively [...] Government action has a demonstrable track record of righting markets where innovation was not being fully deployed in ways that delivered transformative new technology to Americans. Looking to the future, we do not take an explicit position on which types of regulatory intervention best serve competition in a technology market. Our case studies show that different tools of competition enforcers, or competition itself can be effective in different circumstances. When considering how to promote [...] a posture that is entirely antithetical to our basic traditions. The burden and the benefit of regulation have shifted: The would-be provider of a new communications service, rather than the monopolist, is now required to justify his existence, and the monopolist, rather than the would-be customer of that new service, receives the benefits of the regulatory machinery” and that the “regulatory apparatus has become a barrier to competition and innovation required for the future direction of",
+              "link": "https://businesslawreview.uchicago.edu/print-archive/captured-innovation-technology-monopoly-response-transformational-development"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Big Tech Regulation: Are Antitrust Laws Catching Up? | Global ...",
+              "icerik": "Feb 27, 2026 · Global antitrust regulation of Big Tech reached unprecedented intensity in 2025-2026, combining traditional enforcement with new frameworks like the EU's Digital Markets Act. Discover how regulators worldwide are tackling tech monopolies.",
+              "link": "https://informedclearly.com/en/politics/42071/big-tech-antitrust-regulation-2026"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Regulating Tech Monopolies by 2026: Challenges & Solutions",
+              "icerik": "Aug 17, 2026 · Can regulators rein in tech giants? Learn why it's hard, what the EU's Digital Markets Act does, and what's next for antitrust by 2026.",
+              "link": "https://newssnook.com/tech-monopolies-can-regulators-rein-them-in-by-2026/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "tech monopolies corporate armies future regulation",
+              "baslik": "Tech Monopolies: Antitrust in 2026? - codeandcoffe.com",
+              "icerik": "Mar 22, 2026 · Antitrust enforcement, designed to curb monopolistic practices, faces an uphill battle against the rapid innovation and global reach of these giants. How effective will antitrust measures be in ensuring a fair and competitive tech landscape by the end of 2026?",
+              "link": "https://codeandcoffe.com/tech-monopolies-antitrust-in-2026/"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "teknoloji tekelleri distopya şirket orduları",
+              "baslik": "Teknoloji şirketi - Vikipedi",
+              "icerik": "Forbes 'e göre 2015'in en büyük teknoloji şirketleri Apple, Samsung Electronics, Microsoft, Google ve IBM 'dir. Bilişim teknolojileri alanında faaliyet gösteren şirketlerin teknoloji şirketleri arasında önemli bir paya sahip olduğu görülmektedir.",
+              "link": "https://tr.wikipedia.org/wiki/Teknoloji_şirketi"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "teknoloji tekelleri distopya şirket orduları",
+              "baslik": "En büyük bilgi teknolojisi şirketleri listesi - Vikipedi",
+              "icerik": "Bu listede dünyanın gelirlerine göre bilgi teknolojisi şirketler bulunmaktadır. [1] Listede temel faaliyetleri bilgisayar donanımı, yazılım, elektronik, yarı iletken, e-ticaret, bilgisayar hizmetleri, internet ve telekomünikasyon ekipmanları üreten bilgi teknolojisi sanayi ile ilişkili olan şirketler bulunmaktadır. Not: Bu liste yıllık geliri 50 milyar Amerikan doları aşan ...",
+              "link": "https://tr.wikipedia.org/wiki/En_büyük_bilgi_teknolojisi_şirketleri_listesi"
+            },
+            {
+              "motor": "DuckDuckGo",
+              "sorgu": "teknoloji tekelleri distopya şirket orduları",
+              "baslik": "Teknoloji Sektöründeki Şirketler ve Profilleri",
+              "icerik": "Techcareer.net ile teknoloji sektöründeki şirketlerin kuruluş yılı, konumu, çalışan sayısı ve sektör bilgilerine ulaşarak şirketler hakkında detayları keşfedin!",
+              "link": "https://www.techcareer.net/sirketler"
+            }
+          ],
+          "karar": {
+            "sinif": "BELIRSIZ",
+            "guven_skoru": 8.5,
+            "olasiliklar": {
+              "TUTTU": 0.035,
+              "TUTMADI": 0.04,
+              "KISMEN TUTTU": 0.078,
+              "BELIRSIZ": 0.846
+            }
+          }
         },
         {
-          "iddia_ozeti": "Okta sızıntı raporunu paylaştığı için Zoom'dan kovulan genç araştırmacı Bill Demirkapı'nın siber güvenlik alanında gelmiş geçmiş en büyük dahilerden biri olduğu ve gelecekte sektörde çok üst düzey konumlara geleceği öngörülmektedir.",
-          "orijinal_baglam": "Okta'nın hacklenme sürecine dair Mandiant raporunu sızdırdığı gerekçesiyle Zoom'un araştırmacı Bill Demirkapı'yı işten çıkarmasını yorumlayan Utku Şen; 'Bence siber güvenlikteki gelmiş geçmiş en büyük dahilerden biri, biri de böyle olacak yani... Gerçekten dahi seviyesinde zeki bir insan, çok çok önemli yerlere geleceğini düşünüyorum gelecekte' sözleriyle Demirkapı'nın mesleki geleceğine dair şahsi inancını ve öngörüsünü belirtmiştir.",
+          "iddia_ozeti": "Okta sızıntı raporunu paylaştığı için Zoom'dan kovulan genç araştırmacı Bill Demirkapı'nın siber güvenlik alanında gelmiş geçmiş en büyük dahilerden biri olduğu ve gelecekte sektörde çok üst düzey konumlara geleceği tahmin ediliyor.",
+          "orijinal_baglam": "Okta'nın hacklenme sürecine dair Mandiant raporunu sızdırdığı gerekçesiyle Zoom'un araştırmacı Bill Demirkapı'yı işten çıkarmasını yorumlayan Utku Şen, 'Bence siber güvenlikteki gelmiş geçmiş en büyük dahilerden biri, biri de böyle olacak yani... Gerçekten dahi seviyesinde zeki bir insan, çok çok önemli yerlere geleceğini düşünüyorum gelecekte' sözleriyle Demirkapı'nın mesleki geleceğine dair şahsi inancını ve öngörüsünü belirtmiştir.",
           "arama_sorgusu_en": "Bill Demirkapi security research career accomplishments",
           "arama_sorgusu_tr": "Bill Demirkapı siber güvenlik başarıları"
         }

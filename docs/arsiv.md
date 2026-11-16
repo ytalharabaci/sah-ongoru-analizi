@@ -1,16 +1,18 @@
-# Siber Alemden Havadisler - Tüm İddialar ve Karar Arşivi
+# Tüm Karar Arşivi
 
-> **Özet İstatistik (Tavily + DuckDuckGo + Gemini Decision 1):** 🟢 Tuttu: **1** | 🟡 Kısmen Tuttu: **1** | 🔴 Tutmadı: **2** | ⚪ Belirsiz: **0**
+179 bölümlük seride yapılan tüm tahminler ve güncel durumları.
+
+> **Genel Durum:** 🟢 Tuttu: **1** | 🟡 Kısmen Tuttu: **1** | 🔴 Tutmadı: **2** | ⚪ Belirsiz: **1**
 
 ---
 
 ## 📺 50.bölüm özel intro, haftada 4 gün çalışma, rusya'dan saldırılar -siber alemden havadisler 50. bölüm | 📅 2022-02-18
 
-### 1. Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağı; Belçika'nın ardından bu sistemi sırasıyla Fransa, Almanya ve Hollanda'nın takip edeceği öngörülmektedir.
-- **Karar:** **<span class="badge-tutmadi">TUTMADI</span>** (Güven Skoru: **5.6/10**)
+### 1. Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağı, Belçika'nın ardından bu sistemi sırasıyla Fransa, Almanya ve Hollanda'nın takip edeceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %17.7 | TUTTU: %2.3 | TUTMADI: %55.8 | BELIRSIZ: %24.2`
-- **Videodaki Bağlam:** Belçika'nın haftada 4 gün çalışma hakkını yasalaştırmasını değerlendiren Utku Şen; 'bu haftada dört gün çalışma Muhtemelen ben şey diyordum yani beş sene içinde Avrupa Birliği ülkeleri geçer buna falan Muhtemelen beş sene kalmayacak gibi gözüküyor... Belçika bunu ilk yapan ülke oldu Belki onun Fransa takip edebilir Muhtemelen Almanya takip eder Muhtemelen Hollanda takip eder yavaş yavaş' sözleriyle 4 gün çalışma sisteminin AB genelinde yayılma takvimine dair şahsi tahminini dile getirmiştir.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Belçika'nın haftada 4 gün çalışma hakkını yasalaştırmasını değerlendiren Utku Şen, 'bu haftada dört gün çalışma Muhtemelen ben şey diyordum yani beş sene içinde Avrupa Birliği ülkeleri geçer buna falan Muhtemelen beş sene kalmayacak gibi gözüküyor... Belçika bunu ilk yapan ülke oldu Belki onun Fransa takip edebilir Muhtemelen Almanya takip eder Muhtemelen Hollanda takip eder yavaş yavaş' sözleriyle 4 gün çalışma sisteminin AB genelinde yayılma takvimine dair şahsi tahminini söylüyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [The Four Day Work Week in the EU](https://www.timecraftadvisory.com/blog/four-day-work-week-the-european-perspective)
     > 💬 *"No, the four day work week is not legally mandated across the entire EU. While countries like Belgium have introduced legislation allowing employees to request a compressed four day week, and Spain has funded pilot programmes, there is no overarching EU directive requiring its adoption. Implementation remains largely at the discretion of individual member states and organisations, often influenced..."*
   - `[Tavily]` [4 Day Work Week in the EU: Countries & Trends | Protime](https://www.protime.eu/en/news/4-day-work-week-eu)
@@ -22,11 +24,11 @@
   - `[DuckDuckGo]` [Belçika'da haftada 4 gün çalışmaya rağbet neredeyse yok](https://www.aa.com.tr/tr/dunya/belcikada-haftada-4-gun-calismaya-ragbet-neredeyse-yok-/2875334)
     > 💬 *"Apr 18, 2023 · Belçika, Kasım 2022'de başlayan uygulamayla çalışanlara haftalık mesai saatlerini 5 gün yerine 4 günde tamamlama imkanını Avrupa Birliği (AB) içinde tanıyan ilk ülke oldu."*
 
-### 2. Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu; ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği öngörülmektedir.
-- **Karar:** **<span class="badge-tuttu">TUTTU</span>** (Güven Skoru: **5.4/10**)
+### 2. Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu, ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %54.3 | BELIRSIZ: %3.8 | TUTMADI: %2.7 | KISMEN TUTTU: %39.2`
-- **Videodaki Bağlam:** Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen; 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını ifade etmiştir.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen, 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını belirtiyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [Two Security Researchers Hack Tesla Car Using a Drone | Trend Micro (US)](https://www.trendmicro.com/en_us/research/21/e/two-security-researchers-hack-tesla-using-a-drone.html)
     > 💬 *"In November 2020, Consumer Watchdog also listed Tesla as the "world's most hackable car". According to the report, despite Tesla's claims about their connected cars' security, a hacker was able to access the company's fleet and remotely control the safety-critical system of every car. Due to the arrival of 5G, connected cars are evolving a lot more quickly. Demand is also on the rise. The market i..."*
   - `[Tavily]` [Two Tesla Hacks Triumph at Pwn2Own Vancouver 2023 | VicOne](https://vicone.com/blog/two-tesla-hacks-triumph-at-pwn2own-2023)
@@ -36,11 +38,11 @@
   - `[Tavily]` [CVE-2025-2082 - CVE-2025-2082: Tesla Model 3 Firmware RCE Vulnerability](https://www.sentinelone.com/vulnerability-database/cve-2025-2082)
     > 💬 *"Establish baseline CAN bus communication patterns to identify deviations that may indicate compromise Monitor fleet-wide for VCSEC module anomalies that could indicate active exploitation campaigns Implement logging of all TPMS certificate exchanges where diagnostic capabilities allow Consider physical security measures to limit attacker proximity to high-value vehicles ## How to Mitigate CVE-2025..."*
 
-### 3. Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği öngörülmektedir.
-- **Karar:** **<span class="badge-kismen">KISMEN TUTTU</span>** (Güven Skoru: **4.4/10**)
+### 3. Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.9 | KISMEN TUTTU: %43.6 | BELIRSIZ: %10.7 | TUTTU: %42.8`
-- **Videodaki Bağlam:** Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen; 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü aktarmıştır.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen, 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü anlatıyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [From On-Prem Active Directory to Cloud-Native Entra ID: Why IT Teams Are Making the Shift - BitTitan MigrationWiz](https://www.bittitan.com/blog/from-the-experts/from-on-prem-active-directory-to-cloud-native-entra-id-why-it-teams-are-making-the-shift)
     > 💬 *"March 24, 2026 For decades, on-premises Active Directory (AD) has been the backbone of identity and device management in enterprise environments. But as infrastructure, applications, and users increasingly move beyond the traditional network perimeter, the limitations of legacy AD become more pronounced. IT teams are now under pressure to support distributed workforces, strengthen security posture..."*
   - `[Tavily]` [Microsoft Urges Organizations to Move Beyond Active Directory](https://petri.com/microsoft-organizations-move-beyond-active-directory)
@@ -56,11 +58,11 @@
 
 ## 📺 AB'den teknoloji tekellerine çelme, cybertakeoff sınavında sorun -siber alemden havadisler 55. bölüm | 📅 2022-04-01
 
-### 1. Avrupa Birliği'nin mesajlaşma platformları arasında birlikte çalışabilirlik (interoperability) getiren yasa tasarısının, uçtan uca şifrelemeyi (E2EE) teknik olarak neredeyse imkansız hale getirerek mekanizmaları bozacağı ve şifrelemeyi tarihe karıştırabileceği öngörülmektedir.
-- **Karar:** **<span class="badge-tutmadi">TUTMADI</span>** (Güven Skoru: **7.7/10**)
+### 1. Avrupa Birliği'nin mesajlaşma platformları arasında birlikte çalışabilirlik (interoperability) getiren yasa tasarısının, uçtan uca şifrelemeyi (E2EE) teknik olarak neredeyse imkansız hale getirerek mekanizmaları bozacağı ve şifrelemeyi tarihe karıştırabileceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **7.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %2.3 | KISMEN TUTTU: %11.6 | TUTMADI: %76.7 | BELIRSIZ: %9.4`
-- **Videodaki Bağlam:** Avrupa Birliği'nin teknoloji tekellerini dizginlemek amacıyla WhatsApp, Telegram ve Signal gibi mesajlaşma uygulamalarının birbirine mesaj gönderebilmesini şart koşan tasarısını değerlendiren Utku Şen; 'bu işin ucu şuraya gidiyor abi yani Bu entertain kışın kullanmayı imkansız hale getiriyor nerdeyse... Dolayısıyla en kışın mekanizmaları bozulur hale gelecek... Avrupa Birliği'nin verdiği yine bu kararlar belki uçtan uca şifrelemeyi tarihe karıştırabilir ne yazık ki. Belki de Avrupa Birliği bunun olacağını tam olarak biliyor, biz bunu bu maske altında yok edelim diyorlar belki' sözleriyle şifrelemenin geleceğine dair şahsi teknik tezini ifade etmiştir.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Avrupa Birliği'nin teknoloji tekellerini dizginlemek amacıyla WhatsApp, Telegram ve Signal gibi mesajlaşma uygulamalarının birbirine mesaj gönderebilmesini şart koşan tasarısını değerlendiren Utku Şen, 'bu işin ucu şuraya gidiyor abi yani Bu entertain kışın kullanmayı imkansız hale getiriyor nerdeyse... Dolayısıyla en kışın mekanizmaları bozulur hale gelecek... Avrupa Birliği'nin verdiği yine bu kararlar belki uçtan uca şifrelemeyi tarihe karıştırabilir ne yazık ki. Belki de Avrupa Birliği bunun olacağını tam olarak biliyor, biz bunu bu maske altında yok edelim diyorlar belki' sözleriyle şifrelemenin geleceğine dair şahsi teknik tezini belirtiyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [The EU Digital Markets Act’s Interoperability Rule Addresses An Important Need, But Raises Difficult Security Problems for Encrypted Messaging | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2022/04/eu-digital-markets-acts-interoperability-rule-addresses-important-need-raises)
     > 💬 *"word “preserved” encompasses both ensuring that connecting services must live up to the gatekeeper’s level of security and allowing for continued progress in security and privacy. The Commission should make clear that any service that breaks the promise of end-to-end encryption through any means—including by scanning messages in the client-side app or adding “ghost” participants to chats—will not ..."*
   - `[Tavily]` [DMA and interoperability of encrypted messaging](https://www.internetsociety.org/wp-content/uploads/2022/03/ISOC-EU-DMA-interoperability-encrypted-messaging-20220311.pdf)
@@ -71,6 +73,22 @@
     > 💬 *"By Dick Brouwer To comply with a new EU law, the Digital Markets Act (DMA), which comes into force on March 7th, we’ve made major changes to WhatsApp and Messenger to enable interoperability with third-party messaging services. We’re sharing how we enabled third-party interoperability (interop) while maintaining end-to-end encryption (E2EE) and other privacy guarantees in our services as far as po..."*
   - `[DuckDuckGo]` [Messaging Interoperability - Digital Markets Act (DMA)](https://digital-markets-act.ec.europa.eu/businesses-portal/messaging-interoperability_en)
     > 💬 *"The applicable deadlines for compliance with the interoperability requirements under the DMA’s three-phase system (please see above) are set out in the table below."*
+
+### 2. Devletlerin büyük teknoloji şirketlerini (Meta, Amazon, Apple vb.) regülasyonlarla dizginlememesi halinde, önümüzdeki 50-100 yıl içinde şirketlerin devletlerden daha güçlü hale gelip kendi silahlı ordularını kuracağı ve kölelik düzenine dönüleceği distopik bir geleceğin ortaya çıkacağı tahmin ediliyor.
+- **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.5/10**)
+- **Olasılık Dağılımı:** `TUTTU: %3.5 | TUTMADI: %4.0 | KISMEN TUTTU: %7.8 | BELIRSIZ: %84.6`
+- **Videoda Ne Demişti:** Avrupa Birliği'nin Amerikan teknoloji devlerine yönelik antitröst ve piyasa kısıtlamalarını savunan Utku Şen, 'Bu firmalar çok güçlenirse gerçekten dünyayı çok kötü günler bekler Önümüzdeki 50 sene yüz sene falan. Dolayısıyla devletlerin biraz bu şirketlerin tasmasını tutması lazım bence... kolluk kuvvetlerini de şirketler yapsın diyorlar, Amazon silahlı askerler olacak, Facebook silahlı askerler olacak falan böyle bir gelecek hayal ediyorlar ve bu gelecek Bence kesinlikle çok korkunç bir gelecek, kölelik döneminin geri dönüşüne şahit oluruz muhtemelen' diyerek teknoloji tekellerinin gelecekteki tehlikelerine dair şahsi distopik tezini açıklamıştır.
+- **İncelenen Web Kanıtları:**
+  - `[Tavily]` [Breaking Big Tech Companies Monopoly Power - SOMO](https://www.somo.nl/our-work/sectors/big-tech)
+    > 💬 *"It is clear that Big Tech’s monopoly power needs to be reined in. In the short term, this means more control over mergers and acquisitions, effective diligence laws, and stronger protections for the consumers, workers, and smaller companies that have become dependent on the platforms. [...] However, tackling the root problem over the long term will be more challenging: reining in Big Tech’s power ..."*
+  - `[Tavily]` [Will regulating big tech stifle innovation? | MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/will-regulating-big-tech-stifle-innovation)
+    > 💬 *"With such scale and influence, to what extent, if at all, have these companies become monopolies, and should they be more closely regulated? Could stricter regulation have unintended effects on the pace of innovation? The answer is more complex than it was for past industries that became the target of antitrust action, like telecommunications, oil, and railroads, experts say, but the companies hav..."*
+  - `[Tavily]` [Big Tech and the US Digital-Military-Industrial Complex - Intereconomics](https://www.intereconomics.eu/contents/year/2025/number/2/article/big-tech-and-the-us-digital-military-industrial-complex.html)
+    > 💬 *"Europe should put forth an alternative to such a dangerous convergence between the power of big corporations and the militarisation of digital technologies. It is not inevitable to use such technologies for conditioning consumers’ behaviour, surveillance, or to make war. Nor is it inevitable that the control and development of digital technologies ends up in seemingly unbreakable private monopolie..."*
+  - `[Tavily]` [Captured Innovation: Technology Monopoly Response to Transformational Development | The University of Chicago Business Law Review](https://businesslawreview.uchicago.edu/print-archive/captured-innovation-technology-monopoly-response-transformational-development)
+    > 💬 *"Likewise, regulators with competition or innovation equities should note how critically important their role has historically been in allowing innovation to flourish. Regulation can be actively harmful to innovation when it ossifies markets and entrenches dominant technology. The story of AT&T shows especially how the short-term protection of existing monopoly and oligopoly market structures can d..."*
+  - `[DuckDuckGo]` [Big Tech Regulation: Are Antitrust Laws Catching Up? | Global ...](https://informedclearly.com/en/politics/42071/big-tech-antitrust-regulation-2026)
+    > 💬 *"Feb 27, 2026 · Global antitrust regulation of Big Tech reached unprecedented intensity in 2025-2026, combining traditional enforcement with new frameworks like the EU's Digital Markets Act. Discover how regulators worldwide are tackling tech monopolies."*
 
 ---
 

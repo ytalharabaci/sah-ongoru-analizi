@@ -1,15 +1,17 @@
-# Siber Alemden Havadisler - 'Ben Demiştim' Raporu (Tutan & Kısmen Tutanlar)
+# Tutan Öngörüler (Vitrin)
 
-> **Özet İstatistik (Tavily + DuckDuckGo + Gemini Decision 1):** 🟢 Tuttu: **1** | 🟡 Kısmen Tuttu: **1** | 🔴 Tutmadı: **2** | ⚪ Belirsiz: **0**
+Utku Şen'in S.A.H yayınlarında önceden haber verip haklı çıktığı tahminler.
+
+> **Genel Durum:** 🟢 Tuttu: **1** | 🟡 Kısmen Tuttu: **1** | 🔴 Tutmadı: **2** | ⚪ Belirsiz: **1**
 
 ---
 
 ## <span class="badge-tuttu">TUTTU</span> | 50.bölüm özel intro, haftada 4 gün çalışma, rusya'dan saldırılar -siber alemden havadisler 50. bölüm | 📅 2022-02-18
-### 2. Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu; ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği öngörülmektedir.
-- **Karar:** **<span class="badge-tuttu">TUTTU</span>** (Güven Skoru: **5.4/10**)
+### 2. Otomobillerin API'larla uzaktan kontrol edilmesinin ve üçüncü parti yazılımların büyük bir güvenlik riski oluşturduğu, ileride çıkabilecek bir zafiyet veya bellek taşması (buffer overflow) ile bir hackerın on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceği veya kaza yaptırabileceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %54.3 | BELIRSIZ: %3.8 | TUTMADI: %2.7 | KISMEN TUTTU: %39.2`
-- **Videodaki Bağlam:** Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen; 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını ifade etmiştir.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Üçüncü parti TeslaMate yazılımındaki zafiyet nedeniyle 25 Tesla aracın uzaktan kontrol edilebilmesi haberini değerlendiren Utku Şen, 'arabanın uzaktan kontrol edilebilir olması bana biraz Açıkçası bu korkutucu geliyor... yarın bir gün teslada bir güvenlik açığı çıkarsa atıyorum bir hacker dünyadaki belki onbinlerce Tesla'nın belki ne bileyim frenini durdurabilir... Başka bir güvenlik açığı çıkar bir buffer overflow çıkar... Tesla bir anda bozuldu ne verebilirsin falan Dolayısıyla bana bir tehlikeli geliyor' diyerek akıllı araçların uzaktan hacklenme riskine dair şahsi tehdit çıkarımını belirtiyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [Two Security Researchers Hack Tesla Car Using a Drone | Trend Micro (US)](https://www.trendmicro.com/en_us/research/21/e/two-security-researchers-hack-tesla-using-a-drone.html)
     > 💬 *"In November 2020, Consumer Watchdog also listed Tesla as the "world's most hackable car". According to the report, despite Tesla's claims about their connected cars' security, a hacker was able to access the company's fleet and remotely control the safety-critical system of every car. Due to the arrival of 5G, connected cars are evolving a lot more quickly. Demand is also on the rise. The market i..."*
   - `[Tavily]` [Two Tesla Hacks Triumph at Pwn2Own Vancouver 2023 | VicOne](https://vicone.com/blog/two-tesla-hacks-triumph-at-pwn2own-2023)
@@ -22,11 +24,11 @@
 ---
 
 ## <span class="badge-kismen">KISMEN TUTTU</span> | 50.bölüm özel intro, haftada 4 gün çalışma, rusya'dan saldırılar -siber alemden havadisler 50. bölüm | 📅 2022-02-18
-### 3. Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği öngörülmektedir.
-- **Karar:** **<span class="badge-kismen">KISMEN TUTTU</span>** (Güven Skoru: **4.4/10**)
+### 3. Mavi takım (Blue Team / SOC) uzmanlığının ve defansif pozisyonların hiçbir zaman bitmeyeceği, ancak savunma ekiplerinin odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut saldırı analizine evrileceği tahmin ediliyor.
+- **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.9 | KISMEN TUTTU: %43.6 | BELIRSIZ: %10.7 | TUTTU: %42.8`
-- **Videodaki Bağlam:** Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen; 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü aktarmıştır.
-- **İncelenen Kanıtlar (Tavily & DDG):**
+- **Videoda Ne Demişti:** Bir izleyicinin Blue Team / SOC alanında kariyer geleceği olup olmadığı sorusunu yanıtlayan Utku Şen, 'blueteam hiçbir zaman bitecek bir şey değil her zaman bir defansif pozisyonda bir şeyler incelemem lazım... ama Blue team'in biraz yapısı değişecek yani... Eskiden blueteam daha çok böyle Active directory bazlı bir fokusu varken mesela şu an Avrupa'daki Blue team'ler daha Cloud bazlı bir odağı var... kılavuttaki saldırılara bakıyorlar oradaki logları inceliyorlar' diyerek savunma ekiplerinin yapısal dönüşümüne dair şahsi teknik öngörüsünü anlatıyor.
+- **İncelenen Web Kanıtları:**
   - `[Tavily]` [From On-Prem Active Directory to Cloud-Native Entra ID: Why IT Teams Are Making the Shift - BitTitan MigrationWiz](https://www.bittitan.com/blog/from-the-experts/from-on-prem-active-directory-to-cloud-native-entra-id-why-it-teams-are-making-the-shift)
     > 💬 *"March 24, 2026 For decades, on-premises Active Directory (AD) has been the backbone of identity and device management in enterprise environments. But as infrastructure, applications, and users increasingly move beyond the traditional network perimeter, the limitations of legacy AD become more pronounced. IT teams are now under pressure to support distributed workforces, strengthen security posture..."*
   - `[Tavily]` [Microsoft Urges Organizations to Move Beyond Active Directory](https://petri.com/microsoft-organizations-move-beyond-active-directory)
