@@ -1,50 +1,46 @@
-# Siber Alemden Havadisler — Gelecek Öngörüleri Analizi
+# Siber Alemden Havadisler (S.A.H) — Gelecek Öngörüleri Analizi
 
-Bu proje, **Utku Şen** tarafından hazırlanan ve sunulan haftalık siber güvenlik programı **"Siber Alemden Havadisler" (S.A.H)** yayınlarındaki şahsi teknoloji ve güvenlik öngörülerinin incelendiği açık kaynaklı bir doğrulama çalışmasıdır.
+Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** yayınlarını takip edenler bilir, haftalık siber güvenlik haberlerini yorumlarken geleceğe dair sık sık şahsi tahminlerde bulunur.
 
-179 bölümden oluşan video serisinin transkriptleri otonom yapay zeka boru hattı ile taranmış; konuşmacının haberler üzerine yaptığı şahsi gelecek projeksiyonları ayıklanarak güncel web kanıtlarıyla denetlenmiştir.
+Bu sitede 179 bölümlük video serisinin transkriptleri yapay zekaya taratıldı. Utku'nun anlattığı haberlerin ötesinde kendi tecrübesiyle yaptığı şahsi tahminler ayıklandı ve güncel internet haberleriyle doğrulanıp doğrulanmadığı kontrol edildi.
 
 ---
 
-## 📊 Güncel Değerlendirme Özeti
+## 📊 Değerlendirme Kategorileri
 
-Aşağıdaki tablo, analiz edilen bölümlerden çıkarılan iddiaların güncel doğrulama durumunu göstermektedir:
-
-| Durum | Açıklama |
+| Kategori | Anlamı |
 | :--- | :--- |
-| <span class="badge-tuttu">TUTTU</span> | İddia somut olarak gerçekleşti; teknik haberlerde ve web kanıtlarında net delili var. |
-| <span class="badge-kismen">KISMEN TUTTU</span> | İddianın ana istikameti doğru çıktı ancak zamanlama, hedef veya kapsamda kısmi sapma mevcut. |
-| <span class="badge-tutmadi">TUTMADI</span> | İddianın tam tersi gerçekleşti veya aradan geçen zamana rağmen beklenti gerçekleşmedi. |
-| <span class="badge-belirsiz">BELİRSİZ</span> | Web bulguları iddiayı doğrulamak/çürütmek için yetersiz ya da iddianın vadesi henüz dolmadı. |
+| <span class="badge-tuttu">TUTTU</span> | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
+| <span class="badge-kismen">KISMEN TUTTU</span> | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
+| <span class="badge-tutmadi">TUTMADI</span> | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
+| <span class="badge-belirsiz">BELİRSİZ</span> | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
 
-- Doğrulanan başarılı öngörüler için: **[Tutan Öngörüler (Vitrin)](vitrin.md)**
-- Tüm bölümler ve değerlendirmeler için: **[Tüm Karar Arşivi](arsiv.md)**
+- Doğrulanan tahminler için: **[Tutan Öngörüler (Vitrin)](vitrin.md)**
+- Tüm bölümler ve detaylar için: **[Tüm Karar Arşivi](arsiv.md)**
 
 ---
 
-## 🏗️ Doğrulama Mimarisi
-
-Sistem, 4 bağımsız aşamadan oluşan deterministik ve olasılıksal bir boru hattı üzerinden çalışır:
+## 🏗️ Nasıl Çalışıyor?
 
 ```mermaid
 flowchart LR
-    A["Transkript Taraması<br/>(NotebookLM)"] --> B["Hibrit Arama<br/>(Tavily + DDG)"]
-    B --> C["Olasılık Kararı<br/>(Gemini Decision 1)"]
-    C --> D["Canlı Raporlama<br/>(GitHub Pages)"]
+    A["Transkript Taraması<br/>(NotebookLM)"] --> B["Web Araması<br/>(Tavily + DDG)"]
+    B --> C["Karar Modeli<br/>(Gemini Decision 1)"]
+    C --> D["Canlı Site<br/>(GitHub Pages)"]
 ```
 
-1. **Aşama 1 (NotebookLM):** Videolar tek tek taranır. Şirket bültenleri elenir, sadece konuşmacının kendi gelecek tahminleri ayıklanır.
-2. **Aşama 2 (Tavily + DuckDuckGo):** Tavily ile teknik haber sitelerinden derin kanıt paragrafları çekilir; DuckDuckGo ile yerel kaynaklar taranır.
-3. **Aşama 3 (Gemini Decision 1):** Toplanan kanıtlar ve video bağlamı Bayesçi karar modeline gönderilerek kalibre edilmiş olasılıklar hesaplanır.
-4. **Aşama 4 (Statik Site):** Bulgular atomik olarak kaydedilir ve MkDocs ile GitHub Pages üzerinden yayınlanır.
+1. **NotebookLM:** Videolar birbirine karışmadan tek tek taranıyor. Şirketlerin resmi duyuruları elenip sadece Utku'nun kendi tahminleri toplanıyor.
+2. **Tavily ve DuckDuckGo:** Teknik sitelerden doğrudan ilgili makale paragrafları çekiliyor, Türkçe yerel haberlerle kanıt havuzu tamamlanıyor.
+3. **Gemini Decision 1:** Model, iddiayı ve web bulgularını inceleyerek olasılık dağılımı üzerinden nihai kararını veriyor.
+4. **MkDocs:** Sonuçlar anında web sayfalarına işleniyor.
 
-Detaylı teknik akış şeması ve prompt yapısı için **[Metodoloji ve Şeffaflık](metodoloji.md)** sayfasını inceleyebilirsiniz.
+Daha fazla teknik detay için **[Metodoloji ve Şeffaflık](metodoloji.md)** sayfasına göz atabilirsiniz.
 
 ---
 
-## ⚠️ Önemli Sorumluluk Reddi (Yasal ve Metodolojik Beyan)
+## ⚠️ Önemli Not (Yapay Zeka Uyarısı)
 
-!!! warning "Yapay Zeka Değerlendirmesi Hakkında Bilgilendirme"
-    - **Tamamen Yapay Zeka Tarafından Üretilmiştir:** Bu sitede sunulan tüm iddia özetleri, web aramaları, kanıt alıntıları ve doğruluk kararları insan editör müdahalesi olmadan otonom yapay zeka modelleri tarafından oluşturulmuştur.
-    - **Yüzde Yüz Güvenilirlik Garantisi Yoktur:** Doğal dil işleme modelleri konuşma dilindeki mecazları, şakaları veya ironiyi bazen kaçırabilir; arama motorları ise konuyu tam yansıtmayan kaynaklar döndürebilir. Bu nedenle sonuçlar mutlak gerçeklik değil, bir model değerlendirmesidir.
-    - **Amaç ve Nitelik:** Bu çalışma kişisel bir karne veya bağlayıcı bir doğruluk sicili değildir; açık kaynaklı siber güvenlik arşivciliği ve yapay zeka doğrulama deneyidir.
+!!! warning "Sonuçlara körü körüne güvenmeyin!"
+    - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
+    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan alakasız sayfalar getirebiliyor. Sonuçlar mutlak gerçeklik değil, bir model değerlendirmesidir.
+    - **Amaç:** Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Siber güvenlik muhabbetlerini hatırlamak ve yapay zeka ajanlarının araştırma kabiliyetini eğlenceli bir projede denemek için hazırlandı.

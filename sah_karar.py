@@ -56,6 +56,10 @@ KURALLAR (KESİNLİKLE UYULACAK):
    - "Bu teknoloji asla tutmaz, ileride çok başları ağrıyacak..."
 3. ZORLAMA İDDİA ÇIKARMA:
    - Eğer konuşmacı videoda sadece haberleri düz anlatmış ve geleceğe dair hiçbir şahsi öngörüde bulunmamışsa KESİNLİKLE boş liste `[]` döndür.
+4. DİL VE ÜSLUP (ÇOK ÖNEMLİ):
+   - KESİNLİKLE noktalı virgül (;) kullanma.
+   - "öngörülmektedir", "ifade etmiştir", "dile getirmiştir" gibi robotik yapay zeka kalıplarını KESİNLİKLE kullanma.
+   - Sanki bir arkadaşına anlatır gibi akıcı, net ve günlük doğal Türkçe kullan (Örn: "Utku, önümüzdeki 5 yıl içinde çoğu AB ülkesinin 4 gün çalışmaya geçeceğini söylüyor").
 
 Çıktıyı SADECE aşağıdaki JSON dizisi formatında ver, başka tek kelime yazma:
 ```json
@@ -317,10 +321,37 @@ def natural_sort_key(s):
     return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
 
 
+def clean_natural_text(text):
+    """Metinleri yapay zeka jargonu ve noktalı virgüllerden arındırıp doğal Türkçeye çevirir."""
+    if not text:
+        return ""
+    t = text.replace(";", ",")
+    t = re.sub(r",\s*,+", ",", t)
+    t = re.sub(r",\s*\.", ".", t)
+    replacements = [
+        (r"\böngörülmektedir\b", "tahmin ediliyor"),
+        (r"\böngörülmüştür\b", "tahmin ediliyor"),
+        (r"\bdile getirilmiştir\b", "söyleniyor"),
+        (r"\bdile getirmiştir\b", "söylüyor"),
+        (r"\bifade etmiştir\b", "belirtiyor"),
+        (r"\bifade edilmektedir\b", "belirtiliyor"),
+        (r"\baktarmıştır\b", "anlatıyor"),
+        (r"\baktarılmıştır\b", "anlatılıyor"),
+        (r"\bvurgulanmıştır\b", "vurgulanıyor"),
+        (r"\bvurgulamıştır\b", "vurguluyor"),
+        (r"\bbildirilmiştir\b", "söyleniyor"),
+        (r"\bbildirmiştir\b", "söylüyor"),
+        (r"\biddia edilmektedir\b", "iddia ediliyor"),
+    ]
+    for pat, rep in replacements:
+        t = re.sub(pat, rep, t, flags=re.IGNORECASE)
+    return t.strip()
+
+
 def write_reports(state):
     """Sonuçları Vitrin ve Tüm Arşiv olarak iki ayrı Markdown dosyasına günceller."""
-    vitrin = ["# Siber Alemden Havadisler - 'Ben Demiştim' Raporu (Tutan & Kısmen Tutanlar)\n\n"]
-    arsiv = ["# Siber Alemden Havadisler - Tüm İddialar ve Karar Arşivi\n\n"]
+    vitrin = ["# Tutan Öngörüler (Vitrin)\n\nUtku Şen'in S.A.H yayınlarında önceden haber verip haklı çıktığı tahminler.\n\n"]
+    arsiv = ["# Tüm Karar Arşivi\n\n179 bölümlük seride yapılan tüm tahminler ve güncel durumları.\n\n"]
 
     sayac = {"TUTTU": 0, "KISMEN TUTTU": 0, "TUTMADI": 0, "BELIRSIZ": 0}
 
@@ -330,7 +361,7 @@ def write_reports(state):
     )
 
     for vid_id, vdata in sorted_videos:
-        title = vdata.get("title", "Bilinmeyen Video")
+        title = clean_natural_text(vdata.get("title", "Bilinmeyen Video"))
         vdate = vdata.get("publish_date")
         date_str = f" | 📅 {vdate}" if vdate else ""
         claims = vdata.get("claims", [])
@@ -360,8 +391,8 @@ def write_reports(state):
                 if not link:
                     continue
                 motor = w.get("motor", "Web")
-                baslik = w.get("baslik", "Bağlantı")
-                icerik = w.get("icerik", "").strip()
+                baslik = clean_natural_text(w.get("baslik", "Bağlantı"))
+                icerik = clean_natural_text(w.get("icerik", "").strip())
                 icerik_temiz = re.sub(r"\s+", " ", icerik)
                 if len(icerik_temiz) > 400:
                     icerik_temiz = icerik_temiz[:400] + "..."
@@ -380,12 +411,15 @@ def write_reports(state):
                 "BELIRSIZ": '<span class="badge-belirsiz">BELİRSİZ</span>'
             }.get(sinif, sinif)
 
+            ozet = clean_natural_text(c.get("iddia_ozeti", ""))
+            baglam = clean_natural_text(c.get("orijinal_baglam", ""))
+
             blok = (
-                f"### {idx}. {c.get('iddia_ozeti')}\n"
-                f"- **Karar:** **{badge}** (Güven Skoru: **{skor}/10**)\n"
+                f"### {idx}. {ozet}\n"
+                f"- **Sonuç:** {badge} (Güven Skoru: **{skor}/10**)\n"
                 f"- **Olasılık Dağılımı:** `{prob_str}`\n"
-                f"- **Videodaki Bağlam:** {c.get('orijinal_baglam')}\n"
-                f"- **İncelenen Kanıtlar (Tavily & DDG):**\n{link_md}\n\n"
+                f"- **Videoda Ne Demişti:** {baglam}\n"
+                f"- **İncelenen Web Kanıtları:**\n{link_md}\n\n"
             )
             arsiv.append(blok)
 
@@ -397,7 +431,7 @@ def write_reports(state):
         arsiv.append("---\n\n")
 
     ozet_ust = (
-        f"> **Özet İstatistik (Tavily + DuckDuckGo + Gemini Decision 1):** "
+        f"> **Genel Durum:** "
         f"🟢 Tuttu: **{sayac['TUTTU']}** | "
         f"🟡 Kısmen Tuttu: **{sayac['KISMEN TUTTU']}** | "
         f"🔴 Tutmadı: **{sayac['TUTMADI']}** | "
