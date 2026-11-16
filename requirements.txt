@@ -1,0 +1,8 @@
+notebooklm-py[browser]>=0.3.0
+tavily-python>=0.8.0
+duckduckgo-search>=7.0.0
+ddgs>=0.1.0
+google-genai>=1.0.0
+requests>=2.31.0
+mkdocs-material>=9.5.0
+python-dotenv>=1.0.0

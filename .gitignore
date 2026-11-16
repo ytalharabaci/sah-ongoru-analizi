@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.tmp
+*.bak
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# MkDocs build directory
+site/
+
+# NotebookLM local profiles / secrets
+.notebooklm/
+storage_state.json
+
+# Environment files
+.env
+.env.local
+
+# Backup directory
+yedek/
