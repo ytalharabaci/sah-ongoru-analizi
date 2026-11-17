@@ -312,18 +312,63 @@ blockquote {
 }
 
 /* --------------------------------------------------------------------------
-   Arama Çubuğu
+   Arama Çubuğu ve Sonuçları (Kompakt ve Temiz Görünüm)
    -------------------------------------------------------------------------- */
 .md-search__inner {
   border-radius: 8px;
 }
 
 .md-search-result__item {
-  padding: 0.4rem 0.6rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 6px;
+  border-bottom: 1px solid #f1f5f9;
   transition: background-color 0.1s ease;
 }
 
 .md-search-result__item:hover {
   background-color: #f8fafc;
+}
+
+/* Arama sonucu kartını sınırla, devasa duvar metinlerini önle */
+.md-search-result__article {
+  max-height: 110px;
+  overflow: hidden;
+  position: relative;
+}
+
+.md-search-result__article h1,
+.md-search-result__article h2 {
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #0f172a;
+  margin: 0 0 0.35rem 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Arama sonuçlarındaki 5 adet web alıntısını ve uzun paragrafları gizle */
+.md-search-result__article ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.78rem;
+  color: #64748b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Sadece ilk 2 li elemanı (Sonuç ve Olasılık) görünsün, Videoda Ne Demişti ve Web Kanıtları gizlensin */
+.md-search-result__article ul > li:nth-child(n+3) {
+  display: none !important;
+}
+
+.md-search-result__article ul > li {
+  margin: 0;
+  padding: 0.1rem 0.4rem;
+  background-color: #f1f5f9;
+  border-radius: 4px;
 }

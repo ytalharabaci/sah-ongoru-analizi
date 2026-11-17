@@ -1,4 +1,4 @@
-# Tahminler Arşivi
+# Tahminler
 
 179 bölümlük seride yapılan tüm şahsi tahminler, web bulguları ve değerlendirme sonuçları.
 

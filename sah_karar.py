@@ -349,8 +349,8 @@ def clean_natural_text(text):
 
 
 def write_reports(state):
-    """Sonuçları Tüm Tahminler Arşivi olarak Markdown dosyalarına yazar."""
-    arsiv = ["# Tahminler Arşivi\n\n179 bölümlük seride yapılan tüm şahsi tahminler, web bulguları ve değerlendirme sonuçları.\n\n"]
+    """Sonuçları Tahminler sayfası olarak Markdown dosyalarına yazar."""
+    arsiv = ["# Tahminler\n\n179 bölümlük seride yapılan tüm şahsi tahminler, web bulguları ve değerlendirme sonuçları.\n\n"]
 
     sayac = {"TUTTU": 0, "KISMEN TUTTU": 0, "TUTMADI": 0, "BELIRSIZ": 0}
 

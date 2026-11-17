@@ -1,4 +1,4 @@
-# Doğrulama Metodolojisi ve Yapay Zeka Mimarisi
+# Doğrulama Metodolojisi
 
 Bu çalışma, **Utku Şen** tarafından hazırlanan haftalık siber güvenlik programı **"Siber Alemden Havadisler" (S.A.H)** serisindeki şahsi tahminlerin incelendiği 4 adımlı bir yapay zeka akışıdır.
 

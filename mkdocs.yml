@@ -12,7 +12,6 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.top
-    - search.suggest
     - content.code.copy
   palette:
     scheme: default
