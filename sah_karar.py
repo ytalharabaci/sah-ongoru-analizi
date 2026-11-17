@@ -362,12 +362,12 @@ def write_reports(state):
     for vid_id, vdata in sorted_videos:
         title = clean_natural_text(vdata.get("title", "Bilinmeyen Video"))
         vdate = vdata.get("publish_date")
-        date_str = f" | 📅 {vdate}" if vdate else ""
+        date_str = f" - {vdate}" if vdate else ""
         claims = vdata.get("claims", [])
         if not claims:
             continue
 
-        arsiv.append(f"## 📺 {title}{date_str}\n\n")
+        arsiv.append(f"## {title}{date_str}\n\n")
 
         for idx, c in enumerate(claims, 1):
             karar = c.get("karar")
@@ -391,15 +391,21 @@ def write_reports(state):
                     continue
                 motor = w.get("motor", "Web")
                 baslik = clean_natural_text(w.get("baslik", "Bağlantı"))
+                baslik = re.sub(r"[\r\n]+", " ", baslik).strip()
+                baslik = baslik.replace("[", "(").replace("]", ")").replace("#", "").strip()
+                if len(baslik) > 130:
+                    baslik = baslik[:130].strip() + "..."
+
                 icerik = clean_natural_text(w.get("icerik", "").strip())
-                icerik_temiz = re.sub(r"\s+", " ", icerik)
+                icerik = icerik.replace("#", "")
+                icerik_temiz = re.sub(r"\s+", " ", icerik).strip()
                 icerik_temiz = icerik_temiz.replace("[", "(").replace("]", ")").replace('"', "'")
                 if len(icerik_temiz) > 350:
-                    icerik_temiz = icerik_temiz[:350] + "..."
+                    icerik_temiz = icerik_temiz[:350].strip() + "..."
 
                 item_str = f"  - `[{motor}]` [{baslik}]({link})"
                 if icerik_temiz:
-                    item_str += f"\n    > 💬 *\"{icerik_temiz}\"*"
+                    item_str += f"\n    > *\"{icerik_temiz}\"*"
                 evidence_lines.append(item_str)
 
             link_md = "\n".join(evidence_lines) if evidence_lines else "  - Kanıt linki bulunamadı"
@@ -427,10 +433,10 @@ def write_reports(state):
 
     ozet_ust = (
         f"> **Genel Durum:** "
-        f"🟢 Tuttu: **{sayac['TUTTU']}** | "
-        f"🟡 Kısmen Tuttu: **{sayac['KISMEN TUTTU']}** | "
-        f"🔴 Tutmadı: **{sayac['TUTMADI']}** | "
-        f"⚪ Belirsiz: **{sayac['BELIRSIZ']}**\n\n---\n\n"
+        f"Tuttu: **{sayac['TUTTU']}** | "
+        f"Kısmen Tuttu: **{sayac['KISMEN TUTTU']}** | "
+        f"Tutmadı: **{sayac['TUTMADI']}** | "
+        f"Belirsiz: **{sayac['BELIRSIZ']}**\n\n---\n\n"
     )
 
     os.makedirs("docs", exist_ok=True)
