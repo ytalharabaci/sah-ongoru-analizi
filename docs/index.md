@@ -6,14 +6,17 @@ Bu sitede 179 bölümlük video serisinin transkriptleri yapay zekaya taratıld�
 
 ---
 
-## 📊 Değerlendirme Kategorileri
+## 📊 Genel Sonuç Tablosu (179 Bölümün Özeti)
 
-| Kategori | Anlamı |
-| :--- | :--- |
-| <span class="badge-tuttu">TUTTU</span> | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
-| <span class="badge-kismen">KISMEN TUTTU</span> | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
-| <span class="badge-tutmadi">TUTMADI</span> | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
-| <span class="badge-belirsiz">BELİRSİZ</span> | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
+179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
+
+| Durum | Adet | Oran | Ortalama Güven | Anlamı |
+| :--- | :---: | :---: | :---: | :--- |
+| <span class="badge-tuttu">TUTTU</span> | **150** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
+| <span class="badge-kismen">KISMEN TUTTU</span> | **77** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
+| <span class="badge-tutmadi">TUTMADI</span> | **45** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
+| <span class="badge-belirsiz">BELİRSİZ</span> | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
+| **Toplam** | **370** | **%100** | - | **Doğrulanan Toplam Başarı (Tuttu + Kısmen): %61.3** |
 
 - Doğrulanan tahminler için: **[Tutan Öngörüler (Vitrin)](vitrin.md)**
 - Tüm bölümler ve detaylar için: **[Tüm Karar Arşivi](arsiv.md)**

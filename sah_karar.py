@@ -394,8 +394,9 @@ def write_reports(state):
                 baslik = clean_natural_text(w.get("baslik", "Bağlantı"))
                 icerik = clean_natural_text(w.get("icerik", "").strip())
                 icerik_temiz = re.sub(r"\s+", " ", icerik)
-                if len(icerik_temiz) > 400:
-                    icerik_temiz = icerik_temiz[:400] + "..."
+                icerik_temiz = icerik_temiz.replace("[", "(").replace("]", ")").replace('"', "'")
+                if len(icerik_temiz) > 350:
+                    icerik_temiz = icerik_temiz[:350] + "..."
 
                 item_str = f"  - `[{motor}]` [{baslik}]({link})"
                 if icerik_temiz:
