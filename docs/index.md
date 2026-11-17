@@ -1,4 +1,4 @@
-# Siber Alemden Havadisler (S.A.H) — Gelecek Tahminleri Analizi
+# Gelecek Öngörüleri Analizi
 
 Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** serisini takip edenler bilir, haftalık siber güvenlik haberlerini yorumlarken geleceğe dair sık sık şahsi öngörülerde bulunur.
 
