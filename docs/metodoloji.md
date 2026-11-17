@@ -4,38 +4,13 @@ Bu çalışma, **Utku Şen** tarafından hazırlanan haftalık siber güvenlik p
 
 ---
 
-## 🏗️ 4 Adımlı Doğrulama Akışı
+## Doğrulama Akışı
 
 ```mermaid
-flowchart TD
-    subgraph S1["1. Transkript ve Öngörü Taraması"]
-        A1["179 Bölüm Transkripti"] --> A2["NotebookLM"]
-        A2 --> A3["Tekil Video Bağlamı"]
-        A3 --> A4["Haber / Tahmin Ayrımı"]
-        A4 --> A5["Çıkarılan İddialar (JSON)"]
-    end
-
-    subgraph S2["2. Web Araması"]
-        A5 --> B1["Tavily (Teknik Siteler)"]
-        A5 --> B2["DuckDuckGo (Yerel & Global)"]
-        B1 --> B3["İlgili Makale Paragrafları"]
-        B2 --> B4["Ek Kanıtlar ve Haberler"]
-        B3 --> B5["Kanıt Havuzu"]
-        B4 --> B5
-    end
-
-    subgraph S3["3. Karar Modeli"]
-        B5 --> C1["Google Gemini Decision 1"]
-        A5 --> C1
-        C1 --> C2["TUTTU / KISMEN TUTTU / TUTMADI / BELİRSİZ"]
-        C2 --> C3["Güven Skoru (0 - 10)"]
-    end
-
-    subgraph S4["4. Web Sitesi"]
-        C3 --> D1["JSON Kayıt"]
-        D1 --> D2["Markdown Sayfaları"]
-        D2 --> D3["GitHub Pages Yayını"]
-    end
+flowchart LR
+    A["1. Transkript Taraması<br/>(NotebookLM)"] --> B["2. Web Araması<br/>(Tavily + DDG)"]
+    B --> C["3. Karar Modeli<br/>(Gemini Decision 1)"]
+    C --> D["4. Canlı Site<br/>(GitHub Pages)"]
 ```
 
 ---
@@ -75,7 +50,7 @@ Bu analizi yürütürken pahalı kurumsal API'lara veya yüksek token faturalar�
 
 ---
 
-## ⚠️ Önemli Not (Yapay Zeka Uyarısı)
+## Önemli Not (Yapay Zeka Uyarısı)
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
     - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.

@@ -349,9 +349,8 @@ def clean_natural_text(text):
 
 
 def write_reports(state):
-    """Sonuçları Vitrin ve Tüm Arşiv olarak iki ayrı Markdown dosyasına günceller."""
-    vitrin = ["# Tutan Tahminler (Gerçekleşenler)\n\nUtku Şen'in S.A.H yayınlarında önceden dile getirip haklı çıktığı tahminler (Tuttu ve Kısmen Tuttu olarak sınıflandırılan 227 iddia).\n\n"]
-    arsiv = ["# Tüm Karar Arşivi\n\n179 bölümlük seride yapılan tüm tahminler ve güncel durumları.\n\n"]
+    """Sonuçları Tüm Tahminler Arşivi olarak Markdown dosyalarına yazar."""
+    arsiv = ["# Tahminler Arşivi\n\n179 bölümlük seride yapılan tüm şahsi tahminler, web bulguları ve değerlendirme sonuçları.\n\n"]
 
     sayac = {"TUTTU": 0, "KISMEN TUTTU": 0, "TUTMADI": 0, "BELIRSIZ": 0}
 
@@ -424,11 +423,6 @@ def write_reports(state):
             )
             arsiv.append(blok)
 
-            if sinif in ("TUTTU", "KISMEN TUTTU"):
-                vitrin.append(f"## {badge} | {title}{date_str}\n")
-                vitrin.append(blok)
-                vitrin.append("---\n\n")
-
         arsiv.append("---\n\n")
 
     ozet_ust = (
@@ -440,12 +434,7 @@ def write_reports(state):
     )
 
     os.makedirs("docs", exist_ok=True)
-    vitrin_content = vitrin[0] + ozet_ust + "".join(vitrin[1:])
     arsiv_content = arsiv[0] + ozet_ust + "".join(arsiv[1:])
-
-    for p in ["docs/tutanlar.md", RAPOR_VITRIN]:
-        with open(p, "w", encoding="utf-8") as f:
-            f.write(vitrin_content)
 
     for p in ["docs/arsiv.md", RAPOR_TUM_ARSIV]:
         with open(p, "w", encoding="utf-8") as f:

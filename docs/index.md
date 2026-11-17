@@ -21,21 +21,20 @@ Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkrip
     <div class="kpi-sub">150 Tuttu + 77 Kısmen Tuttu</div>
   </div>
   <div class="kpi-card kpi-indigo">
-    <div class="kpi-value">0 ₺</div>
+    <div class="kpi-value">0 TL</div>
     <div class="kpi-label">Token Maliyeti</div>
-    <div class="kpi-sub">NotebookLM + Gemini 1 (Free)</div>
+    <div class="kpi-sub">NotebookLM + Gemini 1 (Free Tier)</div>
   </div>
 </div>
 
 <div class="hero-actions">
-  <a href="tutanlar/" class="btn-primary">🎯 Tutan Tahminleri İncele (227 İddia)</a>
-  <a href="arsiv/" class="btn-secondary">📚 Tüm Arşive Göz At (179 Bölüm)</a>
-  <a href="metodoloji/" class="btn-secondary">🔬 Metodoloji ve Detaylar</a>
+  <a href="arsiv/" class="btn-primary">Tüm Tahminleri İncele (370 İddia)</a>
+  <a href="metodoloji/" class="btn-secondary">Metodoloji ve Detaylar</a>
 </div>
 
 ---
 
-## 📊 Genel Sonuç Tablosu (179 Bölümün Özeti)
+## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
 179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
 
@@ -49,7 +48,7 @@ Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkrip
 
 ---
 
-## 🏗️ Nasıl Çalışıyor?
+## Nasıl Çalışıyor?
 
 ```mermaid
 flowchart LR
@@ -67,7 +66,7 @@ Daha fazla teknik detay için **[Metodoloji ve Şeffaflık](metodoloji.md)** say
 
 ---
 
-## ⚠️ Önemli Not (Yapay Zeka Uyarısı)
+## Önemli Not (Yapay Zeka Uyarısı)
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
     - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.

@@ -5,58 +5,31 @@ Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** serisini
 Bu projede 179 bölümlük serinin tüm transkriptlerini yapay zekaya tarattık. Utku'nun anlattığı haber bültenleri haricinde kendi tecrübesiyle ortaya attığı tahminleri çıkardık, ardından Tavily ve DuckDuckGo ile güncel web kaynaklarını tarayarak hangilerinin tutup hangilerinin tutmadığını test ettik.
 
 Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsiniz:  
-👉 **[Canlı Site: ytalharabaci.github.io/sah-ongoru-analizi](https://ytalharabaci.github.io/sah-ongoru-analizi/)**
+**[Canlı Site: ytalharabaci.github.io/sah-ongoru-analizi](https://ytalharabaci.github.io/sah-ongoru-analizi/)**
 
 ---
 
-## 📊 Genel Sonuç Tablosu (179 Bölümün Özeti)
+## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
 179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
 
 | Durum | Adet | Oran | Ortalama Güven | Anlamı |
 | :--- | :---: | :---: | :---: | :--- |
-| 🟢 **TUTTU** | **150** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
-| 🟡 **KISMEN TUTTU** | **77** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
-| 🔴 **TUTMADI** | **45** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
-| ⚪ **BELİRSİZ** | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
+| **TUTTU** | **150** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
+| **KISMEN TUTTU** | **77** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
+| **TUTMADI** | **45** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
+| **BELİRSİZ** | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
 | **Toplam** | **370** | **%100** | - | **Doğrulanan Toplam Başarı (Tuttu + Kısmen): %61.3** |
 
 ---
 
-## 🏗️ Nasıl Çalışıyor?
-
-Süreç birbirini takip eden 4 adımdan oluşuyor:
+## Nasıl Çalışıyor?
 
 ```mermaid
-flowchart TD
-    subgraph S1["1. Transkript Taraması"]
-        A1["179 Bölüm Transkripti"] --> A2["NotebookLM"]
-        A2 --> A3["Tekil Video Bağlamı"]
-        A3 --> A4["Haber / Tahmin Ayrımı"]
-        A4 --> A5["Çıkarılan İddialar (JSON)"]
-    end
-
-    subgraph S2["2. Web Araması"]
-        A5 --> B1["Tavily (Teknik Siteler)"]
-        A5 --> B2["DuckDuckGo (Yerel & Global)"]
-        B1 --> B3["İlgili Makale Paragrafları"]
-        B2 --> B4["Ek Kanıtlar ve Haberler"]
-        B3 --> B5["Kanıt Havuzu"]
-        B4 --> B5
-    end
-
-    subgraph S3["3. Karar Modeli"]
-        B5 --> C1["Google Gemini Decision 1"]
-        A5 --> C1
-        C1 --> C2["TUTTU / KISMEN TUTTU / TUTMADI / BELİRSİZ"]
-        C2 --> C3["Güven Skoru (0 - 10)"]
-    end
-
-    subgraph S4["4. Web Sitesi"]
-        C3 --> D1["JSON Kayıt"]
-        D1 --> D2["Markdown Sayfaları"]
-        D2 --> D3["GitHub Pages Yayını"]
-    end
+flowchart LR
+    A["Transkript Taraması<br/>(NotebookLM)"] --> B["Web Araması<br/>(Tavily + DDG)"]
+    B --> C["Karar Modeli<br/>(Gemini Decision 1)"]
+    C --> D["Canlı Site<br/>(GitHub Pages)"]
 ```
 
 ### Adım Adım İşleyiş
@@ -68,7 +41,7 @@ flowchart TD
 
 ---
 
-## 🧠 Devasa Bağlam (Context Window) Sorununu Nasıl Çözdük?
+## Devasa Bağlam (Context Window) Sorununu Nasıl Çözdük?
 
 179 bölümlük video serisinin toplam transkripti 200 saatin üzerinde konuşma, yüz binlerce satır metin ve on milyonlarca token tutuyor. 
 
@@ -88,7 +61,7 @@ Bu sayede:
 
 ---
 
-## 💸 Sıfır Maliyet Mimarisi (Tamamen Free Tier)
+## Sıfır Maliyet Mimarisi (Tamamen Free Tier)
 
 Bu projeyi tasarlarken temel amaçlardan biri de devasa dil modellerine veya ücretli API'lara yüzlerce dolar token parası kaptırmadan bu analizi bitirmekti. Tüm sistem tamamen ücretsiz katman sınırları (free tier) içinde kalacak şekilde optimize edildi:
 
@@ -100,7 +73,7 @@ Bu projeyi tasarlarken temel amaçlardan biri de devasa dil modellerine veya üc
 
 ---
 
-## ⚠️ Önemli Not (Yapay Zeka Uyarısı)
+## Önemli Not (Yapay Zeka Uyarısı)
 
 > [!WARNING]
 > **Sonuçlara körü körüne güvenmeyin!**
@@ -111,7 +84,7 @@ Bu projeyi tasarlarken temel amaçlardan biri de devasa dil modellerine veya üc
 
 ---
 
-## 🚀 Yerel Kurulum ve Çalıştırma
+## Yerel Kurulum ve Çalıştırma
 
 ### 1. Gereksinimleri Yükleyin
 
