@@ -20,11 +20,6 @@ Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkrip
     <div class="kpi-label">Doğrulanan Başarı Oranı</div>
     <div class="kpi-sub">150 Tuttu + 77 Kısmen Tuttu</div>
   </div>
-  <div class="kpi-card kpi-indigo">
-    <div class="kpi-value">0 TL</div>
-    <div class="kpi-label">Token Maliyeti</div>
-    <div class="kpi-sub">NotebookLM + Gemini 1 (Free Tier)</div>
-  </div>
 </div>
 
 <div class="hero-actions">
