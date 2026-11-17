@@ -1,6 +1,6 @@
-# Tutan Öngörüler (Vitrin)
+# Tutan Tahminler (Gerçekleşenler)
 
-Utku Şen'in S.A.H yayınlarında önceden haber verip haklı çıktığı tahminler.
+Utku Şen'in S.A.H yayınlarında önceden dile getirip haklı çıktığı tahminler (Tuttu ve Kısmen Tuttu olarak sınıflandırılan 227 iddia).
 
 > **Genel Durum:** 🟢 Tuttu: **150** | 🟡 Kısmen Tuttu: **77** | 🔴 Tutmadı: **45** | ⚪ Belirsiz: **98**
 

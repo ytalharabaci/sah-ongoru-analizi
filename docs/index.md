@@ -1,8 +1,37 @@
-# Siber Alemden Havadisler (S.A.H) — Gelecek Öngörüleri Analizi
+# Siber Alemden Havadisler (S.A.H) — Gelecek Tahminleri Analizi
 
-Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** yayınlarını takip edenler bilir, haftalık siber güvenlik haberlerini yorumlarken geleceğe dair sık sık şahsi tahminlerde bulunur.
+Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** serisini takip edenler bilir, haftalık siber güvenlik haberlerini yorumlarken geleceğe dair sık sık şahsi öngörülerde bulunur.
 
-Bu sitede 179 bölümlük video serisinin transkriptleri yapay zekaya taratıldı. Utku'nun anlattığı haberlerin ötesinde kendi tecrübesiyle yaptığı şahsi tahminler ayıklandı ve güncel internet haberleriyle doğrulanıp doğrulanmadığı kontrol edildi.
+Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkriptleri yapay zekaya taratıldı. Utku'nun haberler haricinde kendi tecrübesiyle dile getirdiği şahsi tahminler ayıklandı ve güncel internet kanıtlarıyla hangilerinin tutup hangilerinin tutmadığı test edildi.
+
+<div class="kpi-grid">
+  <div class="kpi-card">
+    <div class="kpi-value">179</div>
+    <div class="kpi-label">Taranan Video</div>
+    <div class="kpi-sub">Bölüm Başına Tekil Bağlam</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-value">370</div>
+    <div class="kpi-label">Şahsi Gelecek Tahmini</div>
+    <div class="kpi-sub">Haberlerden Ayıklanan İddia</div>
+  </div>
+  <div class="kpi-card kpi-success">
+    <div class="kpi-value">%61.3</div>
+    <div class="kpi-label">Doğrulanan Başarı Oranı</div>
+    <div class="kpi-sub">150 Tuttu + 77 Kısmen Tuttu</div>
+  </div>
+  <div class="kpi-card kpi-indigo">
+    <div class="kpi-value">0 ₺</div>
+    <div class="kpi-label">Token Maliyeti</div>
+    <div class="kpi-sub">NotebookLM + Gemini 1 (Free)</div>
+  </div>
+</div>
+
+<div class="hero-actions">
+  <a href="tutanlar/" class="btn-primary">🎯 Tutan Tahminleri İncele (227 İddia)</a>
+  <a href="arsiv/" class="btn-secondary">📚 Tüm Arşive Göz At (179 Bölüm)</a>
+  <a href="metodoloji/" class="btn-secondary">🔬 Metodoloji ve Detaylar</a>
+</div>
 
 ---
 
@@ -18,9 +47,6 @@ Bu sitede 179 bölümlük video serisinin transkriptleri yapay zekaya taratıld�
 | <span class="badge-belirsiz">BELİRSİZ</span> | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
 | **Toplam** | **370** | **%100** | - | **Doğrulanan Toplam Başarı (Tuttu + Kısmen): %61.3** |
 
-- Doğrulanan tahminler için: **[Tutan Öngörüler (Vitrin)](vitrin.md)**
-- Tüm bölümler ve detaylar için: **[Tüm Karar Arşivi](arsiv.md)**
-
 ---
 
 ## 🏗️ Nasıl Çalışıyor?
@@ -32,10 +58,10 @@ flowchart LR
     C --> D["Canlı Site<br/>(GitHub Pages)"]
 ```
 
-1. **NotebookLM:** Videolar birbirine karışmadan tek tek taranıyor. Şirketlerin resmi duyuruları elenip sadece Utku'nun kendi tahminleri toplanıyor.
+1. **NotebookLM:** Videolar birbirine karışmadan tek tek taranıyor. Şirketlerin basın bültenleri elenip sadece Utku'nun kendi tahminleri toplanıyor.
 2. **Tavily ve DuckDuckGo:** Teknik sitelerden doğrudan ilgili makale paragrafları çekiliyor, Türkçe yerel haberlerle kanıt havuzu tamamlanıyor.
 3. **Gemini Decision 1:** Model, iddiayı ve web bulgularını inceleyerek olasılık dağılımı üzerinden nihai kararını veriyor.
-4. **MkDocs:** Sonuçlar anında web sayfalarına işleniyor.
+4. **MkDocs:** Sonuçlar anında web sayfalarına işleniyor ve GitHub Pages üzerinden yayınlanıyor.
 
 Daha fazla teknik detay için **[Metodoloji ve Şeffaflık](metodoloji.md)** sayfasına göz atabilirsiniz.
 
@@ -45,5 +71,5 @@ Daha fazla teknik detay için **[Metodoloji ve Şeffaflık](metodoloji.md)** say
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
     - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
-    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan alakasız sayfalar getirebiliyor. Sonuçlar mutlak gerçeklik değil, bir model değerlendirmesidir.
-    - **Amaç:** Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Siber güvenlik muhabbetlerini hatırlamak ve yapay zeka ajanlarının araştırma kabiliyetini eğlenceli bir projede denemek için hazırlandı.
+    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan alakasız sayfalar getirebiliyor. Sonuçlar mutlak bir hakikat değil, model değerlendirmesidir.
+    - **Amaç:** Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Siber güvenlik muhabbetlerini yad etmek ve yapay zeka ajanlarının araştırma kabiliyetini eğlenceli bir senaryoda denemek için hazırlandı.

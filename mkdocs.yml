@@ -10,15 +10,39 @@ theme:
   language: tr
   features:
     - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - search.suggest
-    - search.highlight
     - content.code.copy
   palette:
-    scheme: default
-    primary: white
-    accent: indigo
+    # Aydınlık Mod (Clean Modern Slate)
+    - scheme: default
+      primary: slate
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Karanlık moda geç
+    # Karanlık Mod (Dark Mode)
+    - scheme: slate
+      primary: slate
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Aydınlık moda geç
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - en
+        - tr
 
 extra_css:
   - stylesheets/extra.css
@@ -39,6 +63,6 @@ markdown_extensions:
 
 nav:
   - "Genel Bakış": index.md
-  - "Tutan Öngörüler (Vitrin)": vitrin.md
+  - "Tutan Tahminler": tutanlar.md
   - "Tüm Karar Arşivi": arsiv.md
   - "Metodoloji ve Uyarı": metodoloji.md
