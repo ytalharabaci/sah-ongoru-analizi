@@ -9,6 +9,17 @@ Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsini
 
 ---
 
+## Önemli Not (Yapay Zeka Uyarısı)
+
+> [!WARNING]
+> **Sonuçlara körü körüne güvenmeyin!**
+> 
+> Bu depodaki tüm iddia ayıklamaları, web aramaları ve doğruluk kararları **tamamen yapay zeka modelleri tarafından** üretildi. Modeller konuşma dilindeki esprileri, ironiyi ya da bağlamı bazen yanlış anlayabiliyor. Arama motorları da her zaman doğru haberi getiremeyebiliyor. 
+> 
+> Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Hem siber güvenlik muhabbetlerini yad etmek hem de yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda test etmek için yapıldı. Hatalı gördüğünüz bir karar olursa Issue veya PR açarak katkıda bulunabilirsiniz.
+
+---
+
 ## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
 179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
@@ -70,17 +81,6 @@ Bu projeyi tasarlarken temel amaçlardan biri de devasa dil modellerine veya üc
 - **DuckDuckGo:** Hem Türkçe yerel haberleri hem de alternatif kaynakları yakalamak için tamamen ücretsiz bir destekçi olarak çalışıyor, herhangi bir API ücreti yok.
 - **Google Gemini Decision 1:** Google AI Studio'nun ücretsiz katmanında (200 RPM) çalışıyor. Üstelik metin üretimi yapmayıp sadece doğrudan olasılık dağılımı döndürdüğü için çıktı token maliyeti sıfır.
 - **GitHub Pages:** Sitenin derlenmesi ve yayını GitHub Actions ve GitHub Pages'in ücretsiz kaynaklarıyla sağlanıyor.
-
----
-
-## Önemli Not (Yapay Zeka Uyarısı)
-
-> [!WARNING]
-> **Sonuçlara körü körüne güvenmeyin!**
-> 
-> Bu depodaki tüm iddia ayıklamaları, web aramaları ve doğruluk kararları **tamamen yapay zeka modelleri tarafından** üretildi. Modeller konuşma dilindeki esprileri, ironiyi ya da bağlamı bazen yanlış anlayabiliyor. Arama motorları da her zaman doğru haberi getiremeyebiliyor. 
-> 
-> Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Hem siber güvenlik muhabbetlerini yad etmek hem de yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda test etmek için yapıldı. Hatalı gördüğünüz bir karar olursa Issue veya PR açarak katkıda bulunabilirsiniz.
 
 ---
 
