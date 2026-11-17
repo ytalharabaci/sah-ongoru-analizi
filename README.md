@@ -5,7 +5,7 @@ Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** serisini
 Bu projede 179 bölümlük serinin tüm transkriptlerini yapay zekaya tarattık. Utku'nun anlattığı haber bültenleri haricinde kendi tecrübesiyle ortaya attığı tahminleri çıkardık, ardından Tavily ve DuckDuckGo ile güncel web kaynaklarını tarayarak hangilerinin tutup hangilerinin tutmadığını test ettik.
 
 Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsiniz:  
-**[Canlı Site: ytalharabaci.github.io/sah-ongoru-analizi](https://ytalharabaci.github.io/sah-ongoru-analizi/)**
+**[Canlı Site: ytalharabaci.github.io/sah-ongoru-analizi](https://ytalharabaci.github.io/sah-ongoru-analizi/)** | **[NotebookLM Kaynak Defteri](https://notebook.google.com/notebook/f2e75aa1-ef9d-4e1c-a281-95885383785a)**
 
 ---
 
@@ -34,7 +34,7 @@ flowchart LR
 
 ### Adım Adım İşleyiş
 
-1. **Öngörüleri Ayıklama (notebooklm-py):** Google NotebookLM'in resmi bir geliştirici API'si bulunmuyor. Bu engeli aşmak için açık kaynaklı [notebooklm-py](https://github.com/tomaarsen/notebooklm-py) kütüphanesini kullandık. Kütüphane sayesinde tarayıcı oturumu üzerinden defterdeki 179 videonun transkriptini Python kodumuzla tek tek taratabildik. Videolar birbirine karışmasın diye her bölüm izole edildi. "Akamai Linode'u satın aldı" gibi şirket haberleri elendi, sadece Utku'nun kendi şahsi tahminleri toplandı.
+1. **Öngörüleri Ayıklama (notebooklm-py):** Google NotebookLM'in resmi bir geliştirici API'si bulunmuyor. Bu engeli aşmak için açık kaynaklı [notebooklm-py](https://github.com/tomaarsen/notebooklm-py) kütüphanesini kullandık. Kütüphane sayesinde tarayıcı oturumu üzerinden defterdeki 179 videonun transkriptini Python kodumuzla tek tek taratabildik. Videolar birbirine karışmasın diye her bölüm izole edildi. Taranan 179 videonun transkriptlerini barındıran açık deftere buradan ulaşabilirsiniz: [Google NotebookLM Defteri](https://notebook.google.com/notebook/f2e75aa1-ef9d-4e1c-a281-95885383785a). "Akamai Linode'u satın aldı" gibi şirket haberleri elendi, sadece Utku'nun kendi şahsi tahminleri toplandı.
 2. **Kanıt Toplama (Tavily + DuckDuckGo):** İddia başına Tavily ile teknik sitelerden (BleepingComputer, The Hacker News vb.) doğrudan kanıt paragrafları çekiliyor. DuckDuckGo ile de Türkçe yerel kaynaklar taranarak havuz tamamlanıyor.
 3. **Değerlendirme (Gemini Decision 1):** Model, iddiayı ve bulunan web kanıtlarını okuyup kararını veriyor. Olasılık dağılımına göre iddia `TUTTU`, `KISMEN TUTTU`, `TUTMADI` veya `BELİRSİZ` olarak sınıflandırılıyor. Eğer Utku "bu iş tutmaz" dediyse ve aradan geçen zamanda tutmadıysa, model bunu doğru şekilde `TUTTU` sayıyor.
 4. **Siteye Dönüştürme (MkDocs Material):** Üretilen kanıtlar ve kararlar doğrudan Markdown dosyalarına yazılıyor, GitHub Actions ise siteyi derleyip yayına alıyor.
