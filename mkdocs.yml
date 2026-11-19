@@ -1,8 +1,8 @@
-site_name: Siber Alemden Havadisler (S.A.H)
+site_name: Siber Alemden Havadisler
 site_url: https://ytalharabaci.github.io/sah-ongoru-analizi/
 repo_url: https://github.com/ytalharabaci/sah-ongoru-analizi
 repo_name: ytalharabaci/sah-ongoru-analizi
-site_description: Utku Şen'in S.A.H yayınlarındaki gelecek tahminlerinin açık kaynaklı yapay zeka doğrulama arşivi
+site_description: Utku Şen'in Siber Alemden Havadisler yayınlarındaki gelecek tahminlerinin açık kaynaklı yapay zeka doğrulama çalışması
 site_author: Yusuf Talha ARABACI
 
 theme:
