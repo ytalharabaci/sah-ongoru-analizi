@@ -12,56 +12,56 @@ Bu çalışma, **Utku Şen** tarafından hazırlanan haftalık siber güvenlik p
 
 ## Aşamaların Detayları
 
-### 1. Aşama: Tekil Bağlam Taraması (notebooklm-py ve Kaynak İzolasyonu)
+### 1. Aşama: Videoları Tek Tek Tarama (notebooklm-py ve Kaynak İzolasyonu)
 
-- **Context Window Sorunu:** 179 video ve 200 saati aşkın transkript tek bir modele verildiğinde hem token limitleri zorlanır hem de model bölümleri birbirine karıştırarak hayali bağlantılar kurabilir.
-- **Kaynak İzolasyonu (`source_ids=[vid_id]`):** Açık kaynaklı `notebooklm-py` kütüphanesiyle Google NotebookLM defterindeki her videoya tek tek istek atıldı. Model her defasında yalnızca tek bir videonun tam transkriptine odaklandı, diğer 178 bölümün gürültüsünden izole edildi.
-- **Haber ve Tahmin Ayrımı:** Akamai'nin Linode'u satın alması veya bir şirketin güvenlik yaması yayınlaması gibi gelişmeler birer haberdir ve elendi. Yalnızca Utku'nun haberler üzerine eklediği şahsi tezler ve gelecek projeksiyonları ayıklandı.
-- **Oynatma Listesini Deftere Aktarma:** YouTube oynatma listesindeki 179 videonun bağlantılarını tek tek elle eklemek yerine [TunePocket Playlist to Text Converter](https://www.tunepocket.com/youtube-playlist-to-text-converter/) aracı kullanıldı. Tüm video bağlantıları tek seferde çıkarılıp NotebookLM'e topluca yapıştırıldı ve sistem transkriptleri otomatik olarak içe aktardı.
-- **Açık Kaynak Defter:** Analizde taranan 179 YouTube videosunun tam transkriptlerini barındıran halka açık defteri doğrudan inceleyebilirsiniz: **[Google NotebookLM Defteri](https://notebook.google.com/notebook/f2e75aa1-ef9d-4e1c-a281-95885383785a)**
+- **Bağlam Karışıklığı Sorunu:** 179 video ve 200 saati aşkın konuşma metni tek bir yapay zeka oturumuna verildiğinde, model bölümleri birbirine karıştırabilir ve hayali bağlantılar kurabilir.
+- **Kaynak İzolasyonu (`source_ids=[vid_id]`):** Açık kaynaklı `notebooklm-py` kütüphanesiyle Google NotebookLM defterindeki her videoya tek tek istek atıldı. Model her adımda yalnızca incelediği videonun konuşma metnine odaklandı, diğer bölümlerin gürültüsünden tamamen uzak tutuldu.
+- **Haber ve Tahmin Ayrımı:** Akamai'nin Linode'u satın alması veya bir şirketin güvenlik güncellemesi yayınlaması gibi gelişmeler haberdir, bu yüzden elendi. Sadece Utku'nun bu haberleri yorumlarken kendi tecrübesiyle dile getirdiği şahsi tahmin ve öngörüler toplandı.
+- **Videoları Deftere Ekleme:** YouTube oynatma listesindeki 179 videonun linklerini tek tek elle kopyalamak yerine [TunePocket Playlist to Text Converter](https://www.tunepocket.com/youtube-playlist-to-text-converter/) aracıyla topluca çıkardık. Ardından NotebookLM'e yapıştırarak konuşma metinlerinin otomatik olarak deftere çekilmesini sağladık.
+- **Kaynak NotebookLM Defteri:** Taramada kullanılan 179 YouTube videosunun konuşma metinlerini içeren Google NotebookLM defterine buradan doğrudan göz atabilirsiniz: **[Google NotebookLM Defteri](https://notebook.google.com/notebook/f2e75aa1-ef9d-4e1c-a281-95885383785a)**
 
-### 2. Aşama: Hibrit Arama (Tavily + DuckDuckGo)
+### 2. Aşama: Web Araması (Tavily + DuckDuckGo)
 
-- **Tavily (Birincil):** İngilizce aramayla BleepingComputer, The Hacker News gibi kaynaklardan doğrudan kanıt paragraflarını çeker.
-- **DuckDuckGo (İkincil):** Yerel Türkçe haberleri ve alternatif kaynakları tarar, aynı bağlantıları eleyerek kanıt havuzunu tamamlar.
+- **Tavily:** Yabancı teknik kaynaklarda (BleepingComputer, The Hacker News vb.) iddiayla ilgili en güncel haber paragraflarını çekmek için kullanıldı.
+- **DuckDuckGo:** Türkçe yerel haberleri ve alternatif siteleri tarayarak kanıt listesini zenginleştirmek için devreye girdi.
 
 ### 3. Aşama: Karar Modeli (`gemini-decision-1`)
 
-- Geleneksel metin üreten modeller yerine, doğrudan ayrık kategoriler üzerinden olasılık dağılımı üreten Google Gemini Decision 1 modeli kullanılır.
-- **Karar Sınıfları:**
-  - **TUTTU:** Öngörü somut olarak gerçekleşti ve web kanıtlarında net delili var.
-  - **KISMEN TUTTU:** Öngörünün ana yönü doğru çıktı ancak kapsam veya zamanlamada kısmi sapma oldu.
-  - **TUTMADI:** Öngörünün tam tersi gerçekleşti veya aradan geçen makul zamana rağmen beklenti gerçekleşmedi.
-  - **BELİRSİZ:** Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz veya vadesi henüz dolmadı.
-- **Negatif İddia Kuralı:** Eğer Utku bir teknolojinin tutmayacağını veya engelleneceğini söylediyse ve aradan geçen zamanda o şey gerçekten tutmadıysa, iddia haklı olarak `TUTTU` kabul edilir.
+- Uzun metinler üreten klasik sohbet modelleri yerine, doğrudan sonuç sınıfları üzerinden kesin yüzdeler veren Google Gemini Decision 1 modeli tercih edildi.
+- **Sonuç Sınıfları:**
+  - **TUTTU:** Öngörü somut olarak gerçekleşti ve internette açık delili var.
+  - **KISMEN TUTTU:** Öngörünün temel fikri doğru çıktı ancak zamanlama veya kapsamda kısmi sapma oldu.
+  - **TUTMADI:** Öngörünün tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti boşa çıktı.
+  - **BELİRSİZ:** İnternetteki bulgular iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı.
+- **Ters Köşe Tahminler:** Eğer Utku bir teknolojinin tutmayacağını ya da bir projenin yasaklanacağını söylediyse ve aradan geçen zamanda o şey gerçekten tutmadıysa, bu iddia haklı olarak `TUTTU` kabul edildi.
 
-### 4. Aşama: Başarı Oranı Hesaplama Mantığı
+### 4. Aşama: Başarı Oranı Nasıl Hesaplandı?
 
-Tahmin platformlarında (Metaculus, Polymarket gibi) vadesi henüz dolmamış veya doğrulanma koşulları henüz oluşmamış sorular, bir başarısızlık göstergesi sayılmaz.
+Tahmin platformlarında (Metaculus veya Polymarket gibi) süresi henüz dolmamış veya gerçekleşip gerçekleşmediği şu an bilinemeyen iddialar başarısızlık sayılmaz.
 
-- **Toplam İddia:** 370
-- **Belirsiz (Vadesi dolmamış veya web kanıtı yetersiz):** 98
+- **Toplam Tahmin:** 370
+- **Belirsiz (Vadesi dolmamış veya kanıtı yetersiz):** 98
 - **Sonuçlanan Tahminler:** 272 (150 Tuttu + 77 Kısmen Tuttu + 45 Tutmadı)
 - **Doğrulanan Başarı Oranı:** `(150 + 77) / 272 = %83.5`
 
-Örneğin vadesi 2028 veya 2030 olan uzun vadeli bir tahmini bugünden gerçekleşmemiş gibi hesaba katmak yanıltıcı olurdu. Bu sebeple başarı oranı, sonucu netleşen 272 tahmin üzerinden (%83.5) hesaplandı. Vadesi henüz gelmemiş iddiaların da dahil olduğu genel dağılım ise tablomuzda ayrıca şeffaf bir şekilde gösterilmektedir.
+Örneğin hedefi 2028 veya 2030 olan uzun vadeli bir tahmini bugünden gerçekleşmemiş gibi hesaba katmak yanıltıcı olurdu. Bu sebeple başarı oranı, sonucu kesinleşen 272 tahmin üzerinden (%83.5) hesaplandı. Vadesi henüz gelmemiş iddiaların da dahil olduğu genel dağılım ise tablomuzda ayrıca şeffaf bir şekilde gösterilmektedir.
 
-### 5. Aşama: Sıfır Maliyet ve Free Tier Mimarisi
+### 5. Aşama: Sıfır Maliyet Altyapısı
 
-Bu analizi yürütürken pahalı kurumsal API'lara veya yüksek token faturalarına girmeden tamamen ücretsiz katmanlar (free tier) kullanıldı:
+Bu projeyi yürütürken yüksek token faturalarına girmeden tamamen ücretsiz geliştirici imkanları kullanıldı:
 
-- **NotebookLM:** 179 bölümün tüm transkriptleri ücretsiz oturum üzerinden tarandı, böylece milyonlarca tokenlik girdi maliyeti sıfırlandı.
-- **Tavily AI (1.000 Ücretsiz Kredi):** İddia başına yalnızca 1 kredi harcandı, en kritik İngilizce teknik sorguyla zengin kanıtlar çekildi.
-- **DuckDuckGo:** Tamamen ücretsiz arama altyapısı sayesinde ek yerel kaynaklar tek kuruş ödemeden toplandı.
-- **Gemini Decision 1:** Google AI Studio'nun ücretsiz katmanında çalıştırıldı, metin üretimi yerine ayrık olasılık döndürdüğü için çıktı token maliyeti sıfır oldu.
-- **GitHub Pages:** Sitenin barındırılması ve otomatik derlenmesi GitHub'ın ücretsiz açık kaynak altyapısıyla sağlandı.
+- **NotebookLM:** 179 videonun tüm konuşma metinleri NotebookLM'in ücretsiz web arayüzü üzerinden tarandı. Bu sayede yüzlerce saatlik videoyu LLM'lere tek tek okutmanın getireceği devasa API maliyeti sıfıra indi.
+- **Tavily AI (Aylık 1.000 Ücretsiz İstek):** Her iddia için yalnızca 1 arama kredisi harcandı, doğrudan yabancı kaynaklardan en kritik haber kesitleri alındı.
+- **DuckDuckGo:** Tamamen ücretsiz arama motoru sayesinde Türkçe yerel kaynaklar tek kuruş harcanmadan tarandı.
+- **Gemini Decision 1:** Google AI Studio'nun ücretsiz katmanında çalıştırıldı. Uzun metin üretmek yerine doğrudan karar yüzdelerini verdiği için son derece hızlı ve ücretsiz çalıştı.
+- **GitHub Pages:** Sitenin derlenmesi ve yayını GitHub Actions ve GitHub Pages'in ücretsiz açık kaynak altyapısıyla sağlandı.
 
 ---
 
 ## Önemli Not (Yapay Zeka Uyarısı)
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
-    - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
-    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan bağımsız sayfalar getirebiliyor. Sonuçlar mutlak kesin bir doğru değil, model değerlendirmesidir.
-    - **Amaç:** Bu çalışma Utku Şen'e karne ya da not verme amacı taşımıyor. Eski siber güvenlik muhabbetlerini anmak ve yapay zekanın araştırma yeteneklerini eğlenceli bir projede denemek için hazırlandı.
-    - **Düzeltmeler:** Yanlış değerlendirildiğini düşündüğünüz maddeler için GitHub üzerinden Issue veya Pull Request açabilirsiniz.
+    - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
+    - **Yüzde Yüz Doğruluk Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan bağımsız sayfalar getirebiliyor. Sonuçlar mutlak kesin bir doğru değil, model değerlendirmesidir.
+    - **Amaç:** Bu çalışma Utku Şen'e karne ya da not verme amacı taşımıyor. Eski siber güvenlik muhabbetlerini anmak ve yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda denemek için hazırlandı.
+    - **Düzeltmeler:** Hatalı değerlendirildiğini düşündüğünüz maddeler için GitHub üzerinden Issue veya Pull Request açabilirsiniz.
