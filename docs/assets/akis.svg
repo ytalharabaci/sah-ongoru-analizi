@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 90" width="100%" height="90">
+  <defs>
+    <style>
+      .box {
+        fill: #f8fafc;
+        stroke: #c7d2fe;
+        stroke-width: 1.5;
+        rx: 8px;
+      }
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 13.5px;
+        font-weight: 600;
+        fill: #1e293b;
+        text-anchor: middle;
+      }
+      .sub {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        fill: #4f46e5;
+        text-anchor: middle;
+      }
+      .arrow-line {
+        stroke: #94a3b8;
+        stroke-width: 2;
+        stroke-linecap: round;
+      }
+      .arrow-head {
+        fill: #94a3b8;
+      }
+      @media (prefers-color-scheme: dark) {
+        .box {
+          fill: #0f172a;
+          stroke: #4338ca;
+        }
+        .title {
+          fill: #f1f5f9;
+        }
+        .sub {
+          fill: #a5b4fc;
+        }
+        .arrow-line {
+          stroke: #64748b;
+        }
+        .arrow-head {
+          fill: #64748b;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Kutu 1 -->
+  <rect class="box" x="18" y="12" width="175" height="66" />
+  <text class="title" x="105.5" y="38">Transkript Taraması</text>
+  <text class="sub" x="105.5" y="58">(NotebookLM)</text>
+
+  <!-- Ok 1 -->
+  <path class="arrow-line" d="M 197 45 L 219 45" />
+  <polygon class="arrow-head" points="217,41 225,45 217,49" />
+
+  <!-- Kutu 2 -->
+  <rect class="box" x="228" y="12" width="175" height="66" />
+  <text class="title" x="315.5" y="38">Web Araması</text>
+  <text class="sub" x="315.5" y="58">(Tavily + DDG)</text>
+
+  <!-- Ok 2 -->
+  <path class="arrow-line" d="M 407 45 L 429 45" />
+  <polygon class="arrow-head" points="427,41 435,45 427,49" />
+
+  <!-- Kutu 3 -->
+  <rect class="box" x="438" y="12" width="175" height="66" />
+  <text class="title" x="525.5" y="38">Karar Modeli</text>
+  <text class="sub" x="525.5" y="58">(Gemini Decision 1)</text>
+
+  <!-- Ok 3 -->
+  <path class="arrow-line" d="M 617 45 L 639 45" />
+  <polygon class="arrow-head" points="637,41 645,45 637,49" />
+
+  <!-- Kutu 4 -->
+  <rect class="box" x="648" y="12" width="175" height="66" />
+  <text class="title" x="735.5" y="38">Canlı Site</text>
+  <text class="sub" x="735.5" y="58">(GitHub Pages)</text>
+</svg>

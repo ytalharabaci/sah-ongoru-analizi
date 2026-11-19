@@ -33,14 +33,14 @@ Bu açık kaynaklı çalışmada 179 bölümlük serinin tüm video transkriptle
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
     - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
-    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan alakasız sayfalar getirebiliyor. Sonuçlar mutlak bir hakikat değil, model değerlendirmesidir.
-    - **Amaç:** Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Siber güvenlik muhabbetlerini yad etmek ve yapay zeka ajanlarının araştırma kabiliyetini eğlenceli bir senaryoda denemek için hazırlandı.
+    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan bağımsız sayfalar getirebiliyor. Sonuçlar mutlak kesin bir doğru değil, model değerlendirmesidir.
+    - **Amaç:** Bu çalışma Utku Şen'e karne ya da not verme amacı taşımıyor. Eski siber güvenlik muhabbetlerini anmak ve yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda denemek için hazırlandı.
 
 ---
 
 ## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
-179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi. Tahmin piyasaları metodolojisine uygun olarak, vadesi henüz dolmayan veya açık web kanıtı bulunmayan 98 belirsiz iddia başarı oranını olumsuz etkilememesi için paydadan muaf tutulmuştur:
+179 bölümün tamamı incelendi ve toplam **370 şahsi gelecek tahmini** değerlendirildi. Henüz vadesi gelmemiş veya hakkında net bir internet kanıtı bulunmayan 98 belirsiz tahmin ayrı bir grupta tutuldu. Doğrulanan başarı oranı, akıbeti netleşmiş olan 272 tahmin üzerinden hesaplandı:
 
 <div class="progress-section">
   <div class="progress-bar-container">
@@ -70,12 +70,7 @@ Bu açık kaynaklı çalışmada 179 bölümlük serinin tüm video transkriptle
 
 ## Nasıl Çalışıyor?
 
-```mermaid
-flowchart LR
-    A["Transkript Taraması<br/>(NotebookLM)"] --> B["Web Araması<br/>(Tavily + DDG)"]
-    B --> C["Karar Modeli<br/>(Gemini Decision 1)"]
-    C --> D["Canlı Site<br/>(GitHub Pages)"]
-```
+![Doğrulama Akışı](assets/akis.svg)
 
 1. **NotebookLM:** Videolar birbirine karışmadan tek tek taranıyor. Şirketlerin basın bültenleri elenip sadece Utku'nun kendi tahminleri toplanıyor. Taranan 179 videonun transkriptlerini barındıran açık defteri buradan inceleyebilirsiniz: **[Google NotebookLM Defteri](https://notebook.google.com/notebook/f2e75aa1-ef9d-4e1c-a281-95885383785a)**
 2. **Tavily ve DuckDuckGo:** Teknik sitelerden doğrudan ilgili makale paragrafları çekiliyor, Türkçe yerel haberlerle kanıt havuzu tamamlanıyor.

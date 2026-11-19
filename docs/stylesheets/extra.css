@@ -148,17 +148,21 @@ code, kbd, pre {
   display: flex !important;
   align-items: center;
   margin-left: 0.75rem;
+  width: auto !important;
+  max-width: none !important;
 }
 
 .md-source {
   display: flex !important;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.3rem 0.65rem;
+  padding: 0.35rem 0.75rem !important;
   border-radius: 6px;
   border: 1px solid #e2e8f0;
   background-color: #f8fafc;
   transition: all 0.15s ease;
+  width: auto !important;
+  max-width: none !important;
 }
 
 .md-source:hover {
@@ -168,10 +172,13 @@ code, kbd, pre {
 
 .md-source__repository {
   display: block !important;
-  font-size: 0.8rem !important;
+  font-size: 0.82rem !important;
   font-weight: 600 !important;
   color: #334155 !important;
+  width: auto !important;
   max-width: none !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
   white-space: nowrap !important;
   line-height: 1.2 !important;
 }
@@ -197,10 +204,16 @@ code, kbd, pre {
   border-left: 1px solid #e2e8f0;
 }
 
-@media screen and (min-width: 76.25em) {
-  /* Sağ İçindekiler (TOC) sütununu daraltmaktan kurtar, 270px genişlik ver */
+@media screen and (min-width: 60em) {
   .md-sidebar--secondary {
-    width: 17.5rem !important;
+    width: 17rem !important;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  /* Sağ İçindekiler (TOC) sütununu daraltmaktan kurtar, 290px genişlik ver */
+  .md-sidebar--secondary {
+    width: 18.5rem !important;
   }
 
   .md-sidebar--primary {
@@ -208,8 +221,10 @@ code, kbd, pre {
   }
 }
 
+[dir=ltr] .md-sidebar__inner,
+[dir=rtl] .md-sidebar__inner,
 .md-sidebar__inner {
-  padding: 1.2rem 0.5rem;
+  padding: 1.2rem 0.6rem !important;
 }
 
 /* Sol Navigasyon Menüsü */

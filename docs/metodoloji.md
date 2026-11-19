@@ -6,12 +6,7 @@ Bu çalışma, **Utku Şen** tarafından hazırlanan haftalık siber güvenlik p
 
 ## Doğrulama Akışı
 
-```mermaid
-flowchart LR
-    A["1. Transkript Taraması<br/>(NotebookLM)"] --> B["2. Web Araması<br/>(Tavily + DDG)"]
-    B --> C["3. Karar Modeli<br/>(Gemini Decision 1)"]
-    C --> D["4. Canlı Site<br/>(GitHub Pages)"]
-```
+![Doğrulama Akışı](assets/akis.svg)
 
 ---
 
@@ -42,14 +37,14 @@ flowchart LR
 
 ### 4. Aşama: Başarı Oranı Hesaplama Mantığı
 
-Tahmin piyasaları standartlarında (Metaculus, Polymarket vb.) henüz vadesi dolmamış ya da doğrulanma koşulları olgunlaşmamış (unresolved) sorular başarı oranını düşüren bir başarısızlık unsuru olarak değerlendirilmez.
+Tahmin platformlarında (Metaculus, Polymarket gibi) vadesi henüz dolmamış veya doğrulanma koşulları henüz oluşmamış sorular, bir başarısızlık göstergesi sayılmaz.
 
 - **Toplam İddia:** 370
 - **Belirsiz (Vadesi dolmamış veya web kanıtı yetersiz):** 98
 - **Sonuçlanan Tahminler:** 272 (150 Tuttu + 77 Kısmen Tuttu + 45 Tutmadı)
 - **Doğrulanan Başarı Oranı:** `(150 + 77) / 272 = %83.5`
 
-Eğer vadesi 2028 veya 2030 olan uzun vadeli bir tahmin bugünden başarısızlık gibi paydaya eklenirse oran yapay şekilde %61.4 düzeyine düşer. Bu sebeple modelleme dürüstlüğü adına netleşen 272 iddia baz alınmış, tüm liste genelindeki oran ise tabloda şeffafça paylaşılmıştır.
+Örneğin vadesi 2028 veya 2030 olan uzun vadeli bir tahmini bugünden gerçekleşmemiş gibi hesaba katmak yanıltıcı olurdu. Bu sebeple başarı oranı, sonucu netleşen 272 tahmin üzerinden (%83.5) hesaplandı. Vadesi henüz gelmemiş iddiaların da dahil olduğu genel dağılım ise tablomuzda ayrıca şeffaf bir şekilde gösterilmektedir.
 
 ### 5. Aşama: Sıfır Maliyet ve Free Tier Mimarisi
 
@@ -67,6 +62,6 @@ Bu analizi yürütürken pahalı kurumsal API'lara veya yüksek token faturalar�
 
 !!! warning "Sonuçlara körü körüne güvenmeyin!"
     - **Tamamen Yapay Zeka Tarafından Üretildi:** Bu sitedeki tüm özetler, internet aramaları ve doğruluk kararları insan editör müdahalesi olmadan yapay zeka modelleri tarafından oluşturuldu.
-    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan alakasız sayfalar getirebiliyor. Sonuçlar mutlak gerçeklik değil, bir model değerlendirmesidir.
-    - **Amaç:** Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Siber güvenlik muhabbetlerini hatırlamak ve yapay zeka ajanlarının araştırma kabiliyetini eğlenceli bir projede denemek için hazırlandı.
+    - **Yüzde Yüz Güvenilirlik Garantisi Yok:** Modeller konuşma dilindeki esprileri veya kinayeli ifadeleri bazen yanlış yorumlayabiliyor, arama motorları da konudan bağımsız sayfalar getirebiliyor. Sonuçlar mutlak kesin bir doğru değil, model değerlendirmesidir.
+    - **Amaç:** Bu çalışma Utku Şen'e karne ya da not verme amacı taşımıyor. Eski siber güvenlik muhabbetlerini anmak ve yapay zekanın araştırma yeteneklerini eğlenceli bir projede denemek için hazırlandı.
     - **Düzeltmeler:** Yanlış değerlendirildiğini düşündüğünüz maddeler için GitHub üzerinden Issue veya Pull Request açabilirsiniz.

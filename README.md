@@ -16,13 +16,13 @@ Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsini
 > 
 > Bu depodaki tüm iddia ayıklamaları, web aramaları ve doğruluk kararları **tamamen yapay zeka modelleri tarafından** üretildi. Modeller konuşma dilindeki esprileri, ironiyi ya da bağlamı bazen yanlış anlayabiliyor. Arama motorları da her zaman doğru haberi getiremeyebiliyor. 
 > 
-> Bu çalışma Utku Şen'e bir karne çıkarma amacı taşımıyor. Hem siber güvenlik muhabbetlerini yad etmek hem de yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda test etmek için yapıldı. Hatalı gördüğünüz bir karar olursa Issue veya PR açarak katkıda bulunabilirsiniz.
+> Bu çalışma Utku Şen'e karne ya da not verme amacı taşımıyor. Eski siber güvenlik muhabbetlerini hatırlamak ve yapay zekanın araştırma yeteneklerini eğlenceli bir senaryoda test etmek için yapıldı. Hatalı gördüğünüz bir karar olursa Issue veya PR açarak katkıda bulunabilirsiniz.
 
 ---
 
 ## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
-179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi. Henüz vadesi gelmeyen veya açık web kanıtı bulunmayan 98 belirsiz iddia başarı oranını olumsuz etkilememesi adına paydadan muaf tutulmuştur:
+179 bölümün tamamı incelendi ve toplam **370 şahsi gelecek tahmini** değerlendirildi. Vadesi henüz dolmamış ya da hakkında kesin bir internet kanıtı bulunmayan 98 belirsiz tahmin ayrı tutuldu. Doğrulanan başarı oranı, akıbeti netleşmiş 272 tahmin üzerinden hesaplandı:
 
 | Durum | Adet | Sonuçlananlar İçi Oran (272) | Tüm Liste İçi Oran (370) | Ortalama Güven | Anlamı |
 | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -37,12 +37,9 @@ Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsini
 
 ## Nasıl Çalışıyor?
 
-```mermaid
-flowchart LR
-    A["Transkript Taraması<br/>(NotebookLM)"] --> B["Web Araması<br/>(Tavily + DDG)"]
-    B --> C["Karar Modeli<br/>(Gemini Decision 1)"]
-    C --> D["Canlı Site<br/>(GitHub Pages)"]
-```
+<p align="center">
+  <img src="assets/akis.svg" alt="Doğrulama Akışı" width="100%">
+</p>
 
 ### Adım Adım İşleyiş
 
