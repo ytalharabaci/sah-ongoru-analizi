@@ -2,8 +2,6 @@
 
 179 bölümlük seride yapılan tüm şahsi tahminler, web bulguları ve değerlendirme sonuçları.
 
-> **Genel Durum:** Tuttu: **150** | Kısmen Tuttu: **77** | Tutmadı: **45** | Belirsiz: **98**
-
 <div class="filter-container">
   <div class="filter-bar">
     <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü (370)</button>
@@ -14,8 +12,6 @@
   </div>
   <div id="filter-count" class="filter-count">Gösterilen: 370 / 370 Tahmin</div>
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -101,8 +97,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## AB'den teknoloji tekellerine çelme, cybertakeoff sınavında sorun -siber alemden havadisler 55. bölüm - 2022-04-01
@@ -187,8 +181,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## ABD Devleti, 19 Yaşındaki Hacker Çocuğa Emanet - S.A.H E113 - 2025-02-09
@@ -246,8 +238,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -359,8 +349,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Ancak Bu Kadar Konuşabiliyoruz - S.A.H E132 - 2025-07-27
@@ -443,8 +431,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Antrophic Bizi Kandırıyor Mu, Android Sideloading Tartışması - S.A.H E144 - 2025-11-16
@@ -503,8 +489,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Apple Çaktırmadan Güvenlikte Çağ Atlattı - S.A.H E136 - 2025-09-14
@@ -562,8 +546,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -675,8 +657,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Avrupa Birliği Mesajlarımızı Okuyacak - S.A.H E169 - 2026-07-12
@@ -735,8 +715,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Avrupa Neden Geri Kalıyor? - S.A.H E108 - 2025-01-05
@@ -768,8 +746,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -855,8 +831,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Bir Manipülasyon Aracı Olarak İstatistik ve Yapay Zeka - S.A.H E168 - 2026-07-05
@@ -941,8 +915,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Bir Vakanın İç Yüzünü Anlamak İçin Nasıl Akıl Yürütürüz? - S.A.H E91 - 2024-04-14
@@ -1000,8 +972,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1087,8 +1057,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Bulut Sunucu Diye Bir Şey Yoktur, Her Şey Fizikseldir - S.A.H E140 - 2025-10-12
@@ -1173,8 +1141,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Büyük Prodüksiyonlu Hack Dönemi - S.A.H E158 - 2026-04-05
@@ -1233,8 +1199,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Cem Uzan'a Hapis Şoku - S.A.H E151 - 2026-02-01
@@ -1290,8 +1254,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1375,8 +1337,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Claude Şaha Kalktı, OpenAI Boş İşler Peşinde - S.A.H E157 - 2026-03-29
@@ -1434,8 +1394,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1520,8 +1478,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1633,8 +1589,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Duolingo İle Dil ÖĞRENİLMEZ - S.A.H E141 - 2025-10-19
@@ -1718,8 +1672,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1805,8 +1757,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## elon musk dramaları, meta nereye gidiyor - siber alemden havadisler 70. bölüm - 2022-11-18
@@ -1890,8 +1840,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -1977,8 +1925,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## elon musk twitter'ı satın aldı, bitcoin ve çevre -siber alemden havadisler 59. bölüm - 2022-04-29
@@ -2062,8 +2008,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -2149,8 +2093,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Ergenler Keşke Sosyal Medya Kullanmasa - S.A.H E103 - 2024-11-03
@@ -2180,8 +2122,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -2215,8 +2155,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## facebook, hackerone, rusya, shodan'ın yeni ücretsiz servisi -siber alemden havadisler 53. bölüm - 2022-03-18
@@ -2248,8 +2186,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -2335,8 +2271,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## FOMO'dan Korunma Sanatı  - S.A.H E150 - 2026-01-25
@@ -2420,8 +2354,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -2531,8 +2463,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Gerçeğin Ne Olduğunun Artık Bir Önemi Yok - S.A.H E125 - 2025-05-25
@@ -2641,8 +2571,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Gözlükte Gereksiz Bildirim Okuma Keyfi - S.A.H E137 - 2025-09-22
@@ -2700,8 +2628,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -2787,8 +2713,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Hackerlar Olmazsa Biz Nasıl Para Kazanacağız? - S.A.H E87 - 2024-03-04
@@ -2871,8 +2795,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Hackerlara Milletvekili Dokunulmazlığı İstiyoruz - S.A.H E84 - 2024-01-29
@@ -2930,8 +2852,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3017,8 +2937,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Hacklenen Şirketler, Yalancı Hackerlar - S.A.H E72 - 2023-10-24
@@ -3050,8 +2968,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3110,8 +3026,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3221,8 +3135,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Her Şeyi Eleştirme Haftası - S.A.H E129 - 2025-06-29
@@ -3280,8 +3192,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3367,8 +3277,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## işten çıkarmalar ve giyeni serumluk eden VR gözlükler - siber alemden havadisler 69. bölüm - 2022-10-21
@@ -3451,8 +3359,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## İki Ay Maaş Al, Kovul, Tekrarla - S.A.H E130 - 2025-07-06
@@ -3509,8 +3415,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## İki Yıldır Devam Eden Veri Sızıntıları Ne Zaman Bitecek? - S.A.H E81 - 2024-01-01
@@ -3543,8 +3447,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## İkiyüzlüler Sahnede - S.A.H E155 - 2026-03-01
@@ -3576,8 +3478,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3636,8 +3536,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3722,8 +3620,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3832,8 +3728,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -3945,8 +3839,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Kuzey Koreliler Yüzünden Online Mülakat Bitecek - S.A.H E124 - 2025-05-18
@@ -4004,8 +3896,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4091,8 +3981,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Liyakatsizlik Başa Bela - S.A.H E134 - 2025-08-24
@@ -4174,8 +4062,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4260,8 +4146,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4373,8 +4257,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## martı hacklendi, rusya internetten çıkar mı? -siber alemden havadisler 52. bölüm - 2022-03-11
@@ -4458,8 +4340,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4545,8 +4425,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Meta Gözlüklerin Gizlice Yaptığı Kayıtlar - S.A.H E178 - 2026-10-18
@@ -4604,8 +4482,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4741,8 +4617,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Microsoft Şaşırma Sabrımızı Taşırma - S.A.H E95 - 2024-06-09
@@ -4800,8 +4674,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -4887,8 +4759,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Normal İşler İçin Yapay Zeka Ajanı Geldi - S.A.H E149 - 2026-01-18
@@ -4973,8 +4843,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## okta hacklendi, özel üniversite sistemi çöküyor mu -siber alemden havadisler 54. bölüm - 2022-03-25
@@ -5030,8 +4898,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -5114,8 +4980,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -5227,8 +5091,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Panelcilere Yazılan İddianamede Neler Var? - S.A.H E121 - 2025-04-13
@@ -5260,8 +5122,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -5347,8 +5207,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Paylaşımlı Ofis Sektörü Batmasın, Deepfake Yasaklansın - S.A.H E74 - 2023-11-07
@@ -5407,8 +5265,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## pyscript çıktı, pandemide elde edilen lokasyon bilgileri -siber alemden havadisler 60. bölüm - 2022-05-06
@@ -5440,8 +5296,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -5553,8 +5407,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## REvil grubuna baskın, en iyi VPN firması, araba kill switchleri  -siber alemden havadisler 46. bölüm - 2022-01-19
@@ -5638,8 +5490,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -5751,8 +5601,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Sam Altman'a Molotof Kokteyli Şoku - S.A.H E159 - 2026-04-12
@@ -5863,8 +5711,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Sam Altman, Fransız Devrimine Bir Bakmalı - S.A.H E154 - 2026-02-22
@@ -5946,8 +5792,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6059,8 +5903,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## sansür yasası, jack ve elon musk'ın mesajlaşmaları- siber alemden havadisler 68. bölüm - 2022-10-07
@@ -6119,8 +5961,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## savaş, hacking ve yaptırımlar, yerli yazılım ve ordu -siber alemden havadisler 51. bölüm - 2022-03-03
@@ -6152,8 +5992,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6239,8 +6077,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 8. bölüm | 2. yarıda konuk: @denizalpim - 2021-03-06
@@ -6298,8 +6134,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6359,8 +6193,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 11. bölüm - 2021-03-27
@@ -6418,8 +6250,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6583,8 +6413,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 14. bölüm - 2021-04-18
@@ -6668,8 +6496,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6781,8 +6607,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 17. bölüm - 2021-05-08
@@ -6814,8 +6638,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6849,8 +6671,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 19. bölüm - 2021-05-22
@@ -6882,8 +6702,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -6969,8 +6787,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 22. bölüm - 2021-06-12
@@ -7003,8 +6819,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 23. bölüm - 2021-06-19
@@ -7036,8 +6850,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7149,8 +6961,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 25. bölüm - 2021-07-05
@@ -7261,8 +7071,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 28. bölüm - 2021-08-02
@@ -7347,8 +7155,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 29. bölüm - 2021-08-09
@@ -7380,8 +7186,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7438,8 +7242,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7499,8 +7301,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 34. bölüm - 2021-09-22
@@ -7558,8 +7358,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7643,8 +7441,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 37. bölüm - 2021-11-03
@@ -7703,8 +7499,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 39. bölüm - fbi'dan gelen sahte mailler ve beyin implantları - 2021-11-15
@@ -7736,8 +7530,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7771,8 +7563,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 43. bölüm - log4j açığı ve türkiye'nin devlet destekli hacker grubu - 2021-12-20
@@ -7804,8 +7594,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -7891,8 +7679,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 1. Bölüm - 2021-01-15
@@ -7924,8 +7710,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8037,8 +7821,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 4. bölüm - 2021-02-06
@@ -8070,8 +7852,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8157,8 +7937,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 7. bölüm - 2021-02-26
@@ -8217,8 +7995,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Siber Alemden Havadisler Geri Döndü! - S.A.H E71 - 2023-10-18
@@ -8276,8 +8052,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8389,8 +8163,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Silikon Vadisi Senin İyiliğini Düşünmez - S.A.H E97 - 2024-07-28
@@ -8474,8 +8246,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8561,8 +8331,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## teşkilattaki hack sahnesi, airtag ile gizli servis binası bulmak -siber alemden havadisler 48. bölüm - 2022-02-01
@@ -8647,8 +8415,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## twitter'a eski CISO darbesi, tübitak hacklendi mi? - siber alemden havadisler 63. bölüm - 2022-09-02
@@ -8681,8 +8447,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Twitter'ı Güney Asya Lobisi Yönetiyor - S.A.H E146 - 2025-12-07
@@ -8714,8 +8478,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8774,8 +8536,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -8887,8 +8647,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## uber hacklendi, ukrayna savaşı ve botlar, ethereum merge'ü - siber alemden havadisler 66. bölüm - 2022-09-23
@@ -8947,8 +8705,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Veri Güvenliğinin Afrikası - S.A.H E118 - 2025-03-16
@@ -9006,8 +8762,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -9093,8 +8847,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka Askerleri Sevmeli Miyiz? - S.A.H E83 - 2024-01-22
@@ -9178,8 +8930,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -9289,8 +9039,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka Olaylarını Takip Etmekte Zorlanıyoruz - S.A.H E76 - 2023-11-20
@@ -9375,8 +9123,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka Psikolojimizi Bozacak - S.A.H E138 - 2025-09-29
@@ -9460,8 +9206,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -9573,8 +9317,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka Sürücüleri Savunacağız, Sosyal Medyayı Ne Yapacağız? - S.A.H E73 - 2023-10-31
@@ -9657,8 +9399,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## yapay zeka ve poker,  serbest birakilan hackerler, bitcoin -siber alemden havadisler 47. bölüm - 2022-01-25
@@ -9716,8 +9456,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -9827,8 +9565,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka Şirketlerinden Yavaşlama Çağrıları - S.A.H E173 - 2026-09-13
@@ -9887,8 +9623,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zeka, Siber Güvenliğe Yavaştan Etki Etmeye Başladı - S.A.H E114 - 2025-02-16
@@ -9946,8 +9680,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10033,8 +9765,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yapay Zekanın İnsanlığa Faydası Ne? - S.A.H E139 - 2025-10-06
@@ -10066,8 +9796,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10153,8 +9881,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yaratıcı Öğrencileri Eleyen Bir Sistem Var - S.A.H E96 - 2024-06-16
@@ -10213,8 +9939,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Yeni Bir Dönem Bangır Bangır Geliyor - S.A.H E109 - 2025-01-12
@@ -10246,8 +9970,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10306,8 +10028,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10391,8 +10111,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Çin Yapınca Kötü de Amerika Yapınca İyi Mi? - S.A.H E89 - 2024-03-18
@@ -10451,8 +10169,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Çok Fazla AI Modeli Var Ya - S.A.H E120 - 2025-04-06
@@ -10484,8 +10200,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10597,8 +10311,6 @@
 
 </div>
 
----
-
 <div class="episode-group" markdown="1">
 
 ## Şaka Maka AGI Geliyor Galiba - S.A.H E122 - 2025-04-27
@@ -10656,8 +10368,6 @@
 </div>
 
 </div>
-
----
 
 <div class="episode-group" markdown="1">
 
@@ -10742,6 +10452,4 @@
 </div>
 
 </div>
-
----
 

@@ -15,17 +15,17 @@
 }
 
 /* --------------------------------------------------------------------------
-   Standart Font Tabanı (MkDocs'un 125% aşırı büyümesini engelleme)
+   Standart Font Tabanı
    -------------------------------------------------------------------------- */
 html {
-  font-size: 15px !important;
+  font-size: 16px !important;
 }
 
 /* --------------------------------------------------------------------------
-   Sayfa Düzeni ve Genişlik (Layout & Responsive Container)
+   Sayfa Düzeni ve Genişlik (Ferah 3 Sütunlu Okuma Alanı)
    -------------------------------------------------------------------------- */
 .md-grid {
-  max-width: 76rem;
+  max-width: 86rem;
 }
 
 body, .md-content {
@@ -119,7 +119,7 @@ code, kbd, pre {
 }
 
 /* --------------------------------------------------------------------------
-   Üst Çubuk (Header)
+   Üst Çubuk (Header & Repo Bilgisi)
    -------------------------------------------------------------------------- */
 .md-header {
   background-color: #ffffff;
@@ -128,17 +128,66 @@ code, kbd, pre {
   box-shadow: none;
 }
 
+.md-header__inner {
+  height: 3rem;
+  padding: 0 1rem;
+}
+
 .md-header__title {
   color: #0f172a;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 0.95rem;
 }
 
 .md-header__button.md-logo {
   color: #0f172a;
 }
 
+/* GitHub repo adını açıkça ve her zaman görünür kıl */
+.md-header__source {
+  display: flex !important;
+  align-items: center;
+  margin-left: 0.75rem;
+}
+
+.md-source {
+  display: flex !important;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background-color: #f8fafc;
+  transition: all 0.15s ease;
+}
+
+.md-source:hover {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.md-source__repository {
+  display: block !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  line-height: 1.2 !important;
+}
+
+.md-source__icon {
+  display: flex !important;
+  align-items: center;
+  color: #0f172a !important;
+}
+
+.md-source__facts {
+  display: none;
+}
+
 /* --------------------------------------------------------------------------
-   Sol ve Sağ Sütunlar (Sidebars)
+   Sol ve Sağ Sütunlar (Sidebars) - Ferah ve Geniş TOC
    -------------------------------------------------------------------------- */
 .md-sidebar--primary {
   border-right: 1px solid #e2e8f0;
@@ -148,13 +197,24 @@ code, kbd, pre {
   border-left: 1px solid #e2e8f0;
 }
 
+@media screen and (min-width: 76.25em) {
+  /* Sağ İçindekiler (TOC) sütununu daraltmaktan kurtar, 270px genişlik ver */
+  .md-sidebar--secondary {
+    width: 17.5rem !important;
+  }
+
+  .md-sidebar--primary {
+    width: 14rem !important;
+  }
+}
+
 .md-sidebar__inner {
   padding: 1.2rem 0.5rem;
 }
 
 /* Sol Navigasyon Menüsü */
 .md-sidebar--primary .md-nav__link {
-  font-size: 0.88rem;
+  font-size: 0.86rem;
   color: #475569;
   padding: 0.45rem 0.75rem;
   border-radius: 6px;
@@ -175,7 +235,7 @@ code, kbd, pre {
 
 /* Sağ Sayfa İçi İçindekiler (TOC) */
 .md-sidebar--secondary .md-nav__title {
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -185,11 +245,12 @@ code, kbd, pre {
 }
 
 .md-sidebar--secondary .md-nav__link {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: #64748b;
-  padding: 0.3rem 0.6rem;
+  padding: 0.32rem 0.6rem;
   border-radius: 4px;
-  line-height: 1.45;
+  line-height: 1.4;
+  word-break: break-word;
   transition: all 0.12s ease;
 }
 
@@ -683,7 +744,13 @@ blockquote {
    Tahmin Kartları (Claim Cards)
    -------------------------------------------------------------------------- */
 .episode-group {
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.episode-group:last-child {
+  border-bottom: none;
 }
 
 .claim-card {

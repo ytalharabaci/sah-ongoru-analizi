@@ -436,15 +436,10 @@ def write_reports(state):
             )
             arsiv.append(blok)
 
-        arsiv.append("</div>\n\n---\n\n")
+        arsiv.append("</div>\n\n")
 
     total_claims = sum(sayac.values())
     ozet_ust = (
-        f"> **Genel Durum:** "
-        f"Tuttu: **{sayac['TUTTU']}** | "
-        f"Kısmen Tuttu: **{sayac['KISMEN TUTTU']}** | "
-        f"Tutmadı: **{sayac['TUTMADI']}** | "
-        f"Belirsiz: **{sayac['BELIRSIZ']}**\n\n"
         f'<div class="filter-container">\n'
         f'  <div class="filter-bar">\n'
         f'    <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü ({total_claims})</button>\n'
@@ -454,7 +449,7 @@ def write_reports(state):
         f'    <button class="filter-btn filter-btn-belirsiz" data-filter="BELIRSIZ">Belirsiz ({sayac["BELIRSIZ"]})</button>\n'
         f'  </div>\n'
         f'  <div id="filter-count" class="filter-count">Gösterilen: {total_claims} / {total_claims} Tahmin</div>\n'
-        f'</div>\n\n---\n\n'
+        f'</div>\n\n'
     )
 
     os.makedirs("docs", exist_ok=True)
