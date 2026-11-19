@@ -40,7 +40,18 @@ flowchart LR
   - **BELİRSİZ:** Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz veya vadesi henüz dolmadı.
 - **Negatif İddia Kuralı:** Eğer Utku bir teknolojinin tutmayacağını veya engelleneceğini söylediyse ve aradan geçen zamanda o şey gerçekten tutmadıysa, iddia haklı olarak `TUTTU` kabul edilir.
 
-### 4. Aşama: Sıfır Maliyet ve Free Tier Mimarisi
+### 4. Aşama: Başarı Oranı Hesaplama Mantığı
+
+Tahmin piyasaları standartlarında (Metaculus, Polymarket vb.) henüz vadesi dolmamış ya da doğrulanma koşulları olgunlaşmamış (unresolved) sorular başarı oranını düşüren bir başarısızlık unsuru olarak değerlendirilmez.
+
+- **Toplam İddia:** 370
+- **Belirsiz (Vadesi dolmamış veya web kanıtı yetersiz):** 98
+- **Sonuçlanan Tahminler:** 272 (150 Tuttu + 77 Kısmen Tuttu + 45 Tutmadı)
+- **Doğrulanan Başarı Oranı:** `(150 + 77) / 272 = %83.5`
+
+Eğer vadesi 2028 veya 2030 olan uzun vadeli bir tahmin bugünden başarısızlık gibi paydaya eklenirse oran yapay şekilde %61.4 düzeyine düşer. Bu sebeple modelleme dürüstlüğü adına netleşen 272 iddia baz alınmış, tüm liste genelindeki oran ise tabloda şeffafça paylaşılmıştır.
+
+### 5. Aşama: Sıfır Maliyet ve Free Tier Mimarisi
 
 Bu analizi yürütürken pahalı kurumsal API'lara veya yüksek token faturalarına girmeden tamamen ücretsiz katmanlar (free tier) kullanıldı:
 

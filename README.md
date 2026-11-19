@@ -1,4 +1,4 @@
-# Siber Alemden Havadisler (S.A.H) — Utku Şen Ne Kadar Haklı Çıktı?
+# S.A.H — Utku Şen Ne Kadar Haklı Çıktı?
 
 Utku Şen'in YouTube'da sunduğu **"Siber Alemden Havadisler" (S.A.H)** serisini izleyenler bilir, haberleri aktarırken sık sık geleceğe dair kişisel tahminlerde bulunur: *"Göreceksiniz bu iş patlayacak"*, *"Devletler bunu kesin yasaklar"*, *"Bu teknoloji tutmaz"* gibi.
 
@@ -22,15 +22,16 @@ Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsini
 
 ## Genel Sonuç Tablosu (179 Bölümün Özeti)
 
-179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
+179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi. Henüz vadesi gelmeyen veya açık web kanıtı bulunmayan 98 belirsiz iddia başarı oranını olumsuz etkilememesi adına paydadan muaf tutulmuştur:
 
-| Durum | Adet | Oran | Ortalama Güven | Anlamı |
-| :--- | :---: | :---: | :---: | :--- |
-| **TUTTU** | **150** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
-| **KISMEN TUTTU** | **77** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
-| **TUTMADI** | **45** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
-| **BELİRSİZ** | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
-| **Toplam** | **370** | **%100** | - | **Doğrulanan Toplam Başarı (Tuttu + Kısmen): %61.3** |
+| Durum | Adet | Sonuçlananlar İçi Oran (272) | Tüm Liste İçi Oran (370) | Ortalama Güven | Anlamı |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **TUTTU** | **150** | **%55.1** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
+| **KISMEN TUTTU** | **77** | **%28.3** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
+| **TUTMADI** | **45** | **%16.5** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
+| **BELİRSİZ** | **98** | *Kapsam Dışı* | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
+| **Sonuçlanan Tahminler** | **272** | **%100** | **%73.5** | - | **Doğrulanan Başarı (Tuttu + Kısmen): %83.5** |
+| **Tüm Liste Toplamı** | **370** | - | **%100** | - | **Genel Oran (Belirsizler Dahil): %61.4** |
 
 ---
 
