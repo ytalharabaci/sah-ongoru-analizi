@@ -24,14 +24,14 @@ Tüm sonuçları MkDocs ile hazırladığımız web sitesinden inceleyebilirsini
 
 179 bölümün tamamı incelendi ve toplam **370 şahsi gelecek tahmini** değerlendirildi. Vadesi henüz dolmamış ya da hakkında kesin bir internet kanıtı bulunmayan 98 belirsiz tahmin ayrı tutuldu. Doğrulanan başarı oranı, akıbeti netleşmiş 272 tahmin üzerinden hesaplandı:
 
-| Durum | Adet | Sonuçlananlar İçi Oran (272) | Tüm Liste İçi Oran (370) | Ortalama Güven | Anlamı |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **TUTTU** | **150** | **%55.1** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
-| **KISMEN TUTTU** | **77** | **%28.3** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
-| **TUTMADI** | **45** | **%16.5** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
-| **BELİRSİZ** | **98** | *Kapsam Dışı* | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
-| **Sonuçlanan Tahminler** | **272** | **%100** | **%73.5** | - | **Doğrulanan Başarı (Tuttu + Kısmen): %83.5** |
-| **Tüm Liste Toplamı** | **370** | - | **%100** | - | **Genel Oran (Belirsizler Dahil): %61.4** |
+| Durum | Tahmin Sayısı | Netleşen Oran (272) | Tüm Arşiv Payı (370) | Açıklama |
+| :--- | :---: | :---: | :---: | :--- |
+| **TUTTU** | **150** | **%55.1** | %40.5 | Somut olarak gerçekleşti, açık web kaynaklarıyla doğrulandı. |
+| **KISMEN TUTTU** | **77** | **%28.3** | %20.8 | Ana fikir doğru çıktı, detay veya zamanda kısmi sapma oldu. |
+| **TUTMADI** | **45** | **%16.5** | %12.2 | Gerçekleşmedi veya beklentinin tam aksi yönde gelişti. |
+| **Doğrulanan Başarı (Tuttu + Kısmen)** | **227 / 272** | **%83.5** | **%61.4** | **Sonucu netleşen 272 tahminin 227'si başarıyla doğrulandı.** |
+| **BELİRSİZ** | **98** | *Vadesi Dolmadı* | %26.5 | Vadesi henüz dolmadı (ör. 2028-2030) veya kanıtlar yetersiz. |
+| **Toplam Değerlendirilen Arşiv** | **370** | - | **%100** | **179 video serisinden ayıklanan tüm şahsi tahmin havuzu.** |
 
 ---
 

@@ -113,6 +113,24 @@ body, .md-content {
   line-height: 1.45;
 }
 
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(4) {
+  background-color: #f0fdf4;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(4) td {
+  border-top: 1px solid #bbf7d0;
+  border-bottom: 1px solid #bbf7d0;
+  color: #14532d;
+}
+
+.md-typeset table:not([class]) tbody tr:last-child {
+  background-color: #f8fafc;
+}
+
 code, kbd, pre {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85em;

@@ -46,25 +46,25 @@ Bu açık kaynaklı çalışmada 179 bölümlük serinin tüm video transkriptle
   <div class="progress-bar-container">
     <div class="progress-segment seg-tuttu" style="width: 40.5%" title="Tuttu: 150 (%40.5)">%40.5</div>
     <div class="progress-segment seg-kismen" style="width: 20.8%" title="Kısmen Tuttu: 77 (%20.8)">%20.8</div>
-    <div class="progress-segment seg-belirsiz" style="width: 26.5%" title="Belirsiz: 98 (%26.5)">%26.5</div>
     <div class="progress-segment seg-tutmadi" style="width: 12.2%" title="Tutmadı: 45 (%12.2)">%12.2</div>
+    <div class="progress-segment seg-belirsiz" style="width: 26.5%" title="Belirsiz: 98 (%26.5)">%26.5</div>
   </div>
   <div class="progress-legend">
     <span class="legend-item"><span class="legend-dot dot-tuttu"></span> Tuttu (150)</span>
     <span class="legend-item"><span class="legend-dot dot-kismen"></span> Kısmen Tuttu (77)</span>
-    <span class="legend-item"><span class="legend-dot dot-belirsiz"></span> Belirsiz (98)</span>
     <span class="legend-item"><span class="legend-dot dot-tutmadi"></span> Tutmadı (45)</span>
+    <span class="legend-item"><span class="legend-dot dot-belirsiz"></span> Belirsiz (98)</span>
   </div>
 </div>
 
-| Durum | Adet | Sonuçlananlar İçi Oran (272) | Tüm Arşiv İçi Oran (370) | Ortalama Güven | Anlamı |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| <span class="badge-tuttu">TUTTU</span> | **150** | **%55.1** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
-| <span class="badge-kismen">KISMEN TUTTU</span> | **77** | **%28.3** | %20.8 | 4.7 / 10 | İddianın ana yönü doğru çıktı ancak zamanlama veya hedefte kısmi sapma oldu. |
-| <span class="badge-tutmadi">TUTMADI</span> | **45** | **%16.5** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
-| <span class="badge-belirsiz">BELİRSİZ</span> | **98** | *Kapsam Dışı* | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
-| **Sonuçlanan Tahminler** | **272** | **%100** | **%73.5** | - | **Doğrulanan Başarı (Tuttu + Kısmen): %83.5** |
-| **Tüm Arşiv Toplamı** | **370** | - | **%100** | - | **Genel Oran (Belirsizler Dahil): %61.4** |
+| Durum | Tahmin Sayısı | Netleşen Oran (272) | Tüm Arşiv Payı (370) | Açıklama |
+| :--- | :---: | :---: | :---: | :--- |
+| <span class="badge-tuttu">TUTTU</span> | **150** | **%55.1** | %40.5 | Somut olarak gerçekleşti, açık web kaynaklarıyla doğrulandı. |
+| <span class="badge-kismen">KISMEN TUTTU</span> | **77** | **%28.3** | %20.8 | Ana fikir doğru çıktı, detay veya zamanda kısmi sapma oldu. |
+| <span class="badge-tutmadi">TUTMADI</span> | **45** | **%16.5** | %12.2 | Gerçekleşmedi veya beklentinin tam aksi yönde gelişti. |
+| **Doğrulanan Başarı (Tuttu + Kısmen)** | **227 / 272** | **%83.5** | **%61.4** | **Sonucu netleşen 272 tahminin 227'si başarıyla doğrulandı.** |
+| <span class="badge-belirsiz">BELİRSİZ</span> | **98** | *Vadesi Dolmadı* | %26.5 | Vadesi henüz dolmadı (ör. 2028-2030) veya kanıtlar yetersiz. |
+| **Toplam Değerlendirilen Arşiv** | **370** | - | **%100** | **179 video serisinden ayıklanan tüm şahsi tahmin havuzu.** |
 
 ---
 
