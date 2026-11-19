@@ -367,7 +367,7 @@ def write_reports(state):
         if not claims:
             continue
 
-        arsiv.append(f"## {title}{date_str}\n\n")
+        arsiv.append(f'<div class="episode-group" markdown="1">\n\n## {title}{date_str}\n\n')
 
         for idx, c in enumerate(claims, 1):
             karar = c.get("karar")
@@ -420,23 +420,42 @@ def write_reports(state):
             ozet = clean_natural_text(c.get("iddia_ozeti", ""))
             baglam = clean_natural_text(c.get("orijinal_baglam", ""))
 
+            source_count = len(evidence_lines)
+            details_summary = f"İncelenen Web Kanıtları ({source_count} Kaynak)" if source_count else "İncelenen Web Kanıtları"
+
             blok = (
-                f"### {idx}. {ozet}\n"
+                f'<div class="claim-card" data-status="{sinif}" markdown="1">\n\n'
+                f"### {idx}. {ozet}\n\n"
                 f"- **Sonuç:** {badge} (Güven Skoru: **{skor}/10**)\n"
                 f"- **Olasılık Dağılımı:** `{prob_str}`\n"
-                f"- **Videoda Ne Demişti:** {baglam}\n"
-                f"- **İncelenen Web Kanıtları:**\n{link_md}\n\n"
+                f"- **Videoda Ne Demişti:** {baglam}\n\n"
+                f'<details class="evidence-details" markdown="1">\n'
+                f'<summary>{details_summary}</summary>\n\n'
+                f"{link_md}\n\n"
+                f"</details>\n\n"
+                f"</div>\n\n"
             )
             arsiv.append(blok)
 
-        arsiv.append("---\n\n")
+        arsiv.append("</div>\n\n---\n\n")
 
+    total_claims = sum(sayac.values())
     ozet_ust = (
         f"> **Genel Durum:** "
         f"Tuttu: **{sayac['TUTTU']}** | "
         f"Kısmen Tuttu: **{sayac['KISMEN TUTTU']}** | "
         f"Tutmadı: **{sayac['TUTMADI']}** | "
-        f"Belirsiz: **{sayac['BELIRSIZ']}**\n\n---\n\n"
+        f"Belirsiz: **{sayac['BELIRSIZ']}**\n\n"
+        f'<div class="filter-container">\n'
+        f'  <div class="filter-bar">\n'
+        f'    <button class="filter-btn active" data-filter="ALL">Tümü ({total_claims})</button>\n'
+        f'    <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu ({sayac["TUTTU"]})</button>\n'
+        f'    <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen ({sayac["KISMEN TUTTU"]})</button>\n'
+        f'    <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı ({sayac["TUTMADI"]})</button>\n'
+        f'    <button class="filter-btn filter-btn-belirsiz" data-filter="BELIRSIZ">Belirsiz ({sayac["BELIRSIZ"]})</button>\n'
+        f'  </div>\n'
+        f'  <div id="filter-count" class="filter-count">Gösterilen: {total_claims} / {total_claims} Tahmin</div>\n'
+        f'</div>\n\n---\n\n'
     )
 
     os.makedirs("docs", exist_ok=True)

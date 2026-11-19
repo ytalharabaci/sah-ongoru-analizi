@@ -372,3 +372,289 @@ blockquote {
   background-color: #f1f5f9;
   border-radius: 4px;
 }
+
+/* --------------------------------------------------------------------------
+   Görsel Oran Çubuğu (Stacked Progress Bar)
+   -------------------------------------------------------------------------- */
+.progress-section {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.progress-bar-container {
+  display: flex;
+  height: 28px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+}
+
+.progress-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  transition: opacity 0.15s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.progress-segment:hover {
+  opacity: 0.9;
+}
+
+.seg-tuttu {
+  background-color: #10b981;
+}
+
+.seg-kismen {
+  background-color: #f59e0b;
+}
+
+.seg-belirsiz {
+  background-color: #94a3b8;
+}
+
+.seg-tutmadi {
+  background-color: #ef4444;
+}
+
+.progress-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-tuttu { background-color: #10b981; }
+.dot-kismen { background-color: #f59e0b; }
+.dot-belirsiz { background-color: #94a3b8; }
+.dot-tutmadi { background-color: #ef4444; }
+
+/* --------------------------------------------------------------------------
+   Öne Çıkan Tahminler (Spotlight Grid)
+   -------------------------------------------------------------------------- */
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.spotlight-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.spotlight-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-color: #cbd5e1;
+}
+
+.spotlight-badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.spotlight-score {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.spotlight-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.spotlight-text {
+  font-size: 0.84rem;
+  color: #475569;
+  line-height: 1.55;
+  flex-grow: 1;
+  margin-bottom: 0.8rem;
+}
+
+.spotlight-link a {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #4f46e5 !important;
+  text-decoration: none;
+}
+
+.spotlight-link a:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   Filtreleme Çubuğu (Filter Bar)
+   -------------------------------------------------------------------------- */
+.filter-container {
+  margin: 1.2rem 0 1.5rem 0;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  background-color: #ffffff;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.filter-btn:hover {
+  background-color: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.filter-btn.active {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+}
+
+.filter-btn-tuttu.active {
+  background-color: #059669;
+  border-color: #059669;
+}
+
+.filter-btn-kismen.active {
+  background-color: #d97706;
+  border-color: #d97706;
+}
+
+.filter-btn-tutmadi.active {
+  background-color: #dc2626;
+  border-color: #dc2626;
+}
+
+.filter-btn-belirsiz.active {
+  background-color: #64748b;
+  border-color: #64748b;
+}
+
+.filter-count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-top: 0.6rem;
+}
+
+/* --------------------------------------------------------------------------
+   Tahmin Kartları (Claim Cards)
+   -------------------------------------------------------------------------- */
+.episode-group {
+  margin-bottom: 2rem;
+}
+
+.claim-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.25rem 1.4rem;
+  margin: 1rem 0 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.claim-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.claim-card h3 {
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.claim-card ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.claim-card li {
+  margin-bottom: 0.4rem;
+  font-size: 0.88rem;
+}
+
+/* --------------------------------------------------------------------------
+   Web Kanıtları Akordeonu (<details>)
+   -------------------------------------------------------------------------- */
+.evidence-details {
+  margin-top: 0.9rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  overflow: hidden;
+}
+
+.evidence-details summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #4f46e5;
+  padding: 0.55rem 0.85rem;
+  background-color: #f8fafc;
+  user-select: none;
+  transition: background-color 0.12s ease;
+}
+
+.evidence-details summary:hover {
+  background-color: #f1f5f9;
+}
+
+.evidence-details[open] summary {
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #f1f5f9;
+}
+
+.evidence-details ul {
+  padding: 0.6rem 1rem 0.8rem 1.5rem;
+  margin: 0;
+}

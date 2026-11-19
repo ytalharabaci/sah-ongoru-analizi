@@ -42,6 +42,21 @@ Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkrip
 
 179 bölümün tamamı tarandı ve toplam **370 adet şahsi gelecek tahmini** değerlendirildi:
 
+<div class="progress-section">
+  <div class="progress-bar-container">
+    <div class="progress-segment seg-tuttu" style="width: 40.5%" title="Tuttu: 150 (%40.5)">%40.5</div>
+    <div class="progress-segment seg-kismen" style="width: 20.8%" title="Kısmen Tuttu: 77 (%20.8)">%20.8</div>
+    <div class="progress-segment seg-belirsiz" style="width: 26.5%" title="Belirsiz: 98 (%26.5)">%26.5</div>
+    <div class="progress-segment seg-tutmadi" style="width: 12.2%" title="Tutmadı: 45 (%12.2)">%12.2</div>
+  </div>
+  <div class="progress-legend">
+    <span class="legend-item"><span class="legend-dot dot-tuttu"></span> Tuttu (150)</span>
+    <span class="legend-item"><span class="legend-dot dot-kismen"></span> Kısmen Tuttu (77)</span>
+    <span class="legend-item"><span class="legend-dot dot-belirsiz"></span> Belirsiz (98)</span>
+    <span class="legend-item"><span class="legend-dot dot-tutmadi"></span> Tutmadı (45)</span>
+  </div>
+</div>
+
 | Durum | Adet | Oran | Ortalama Güven | Anlamı |
 | :--- | :---: | :---: | :---: | :--- |
 | <span class="badge-tuttu">TUTTU</span> | **150** | %40.5 | 6.5 / 10 | İddia somut olarak gerçekleşti, teknik haberlerde ve web kaynaklarında net kanıtı var. |
@@ -49,6 +64,44 @@ Bu açık kaynaklı çalışmada 179 bölümlük video arşivinin tüm transkrip
 | <span class="badge-tutmadi">TUTMADI</span> | **45** | %12.2 | 6.9 / 10 | İddianın tam tersi gerçekleşti veya aradan geçen yıllara rağmen beklenti gerçekleşmedi. |
 | <span class="badge-belirsiz">BELİRSİZ</span> | **98** | %26.5 | 5.6 / 10 | Web bulguları iddiayı doğrulamak ya da çürütmek için yetersiz kaldı veya iddianın vadesi henüz dolmadı. |
 | **Toplam** | **370** | **%100** | - | **Doğrulanan Toplam Başarı (Tuttu + Kısmen): %61.3** |
+
+---
+
+## Öne Çıkan Bazı Tahminler
+
+Seride öne çıkan farklı nitelikteki tahminlerden birkaç örnek:
+
+<div class="spotlight-grid">
+  <div class="spotlight-card">
+    <div class="spotlight-badge">
+      <span class="badge-tuttu">TUTTU</span>
+      <span class="spotlight-score">Güven: 9.3/10</span>
+    </div>
+    <div class="spotlight-title">Bill Demirkapı ve Büyük Şirketler</div>
+    <div class="spotlight-text">Utku, genç güvenlik araştırmacısı Bill Demirkapı'nın yakın zamanda büyük bir teknoloji devinin güvenlik ekibine katılacağını öngördü. Bill Demirkapı kısa süre sonra Microsoft güvenlik ekibinde araştırmacı olarak çalışmaya başladı.</div>
+    <div class="spotlight-link"><a href="arsiv/">Tahmin arşivinde incele &rarr;</a></div>
+  </div>
+
+  <div class="spotlight-card">
+    <div class="spotlight-badge">
+      <span class="badge-kismen">KISMEN TUTTU</span>
+      <span class="spotlight-score">Güven: 8.5/10</span>
+    </div>
+    <div class="spotlight-title">İş Mülakatlarında Yapay Zeka Hilesi</div>
+    <div class="spotlight-text">Uzaktan teknik mülakatlarda adayların yapay zeka araçları kullanarak canlı kodlama hilesi yapacağını ve şirketlerin buna karşı ek sınav önlemleri geliştirmek zorunda kalacağını tahmin etti. Sektörde yaygınlaştı ve şirketler önlem almaya başladı.</div>
+    <div class="spotlight-link"><a href="arsiv/">Tahmin arşivinde incele &rarr;</a></div>
+  </div>
+
+  <div class="spotlight-card">
+    <div class="spotlight-badge">
+      <span class="badge-tutmadi">TUTMADI</span>
+      <span class="spotlight-score">Güven: 7.2/10</span>
+    </div>
+    <div class="spotlight-title">Avrupa'da Haftada 4 Gün Çalışma</div>
+    <div class="spotlight-text">Belçika'nın ardından Fransa, Almanya ve Hollanda gibi ülkelerin 5 yılı bulmadan haftada 4 gün çalışma modeline yasal olarak geçeceğini öngördü. Bazı şirketler ve pilot denemeler olsa da AB genelinde yasal model haline gelmedi.</div>
+    <div class="spotlight-link"><a href="arsiv/">Tahmin arşivinde incele &rarr;</a></div>
+  </div>
+</div>
 
 ---
 

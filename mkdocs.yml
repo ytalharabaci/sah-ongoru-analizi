@@ -32,6 +32,9 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/filter.js
+
 markdown_extensions:
   - admonition
   - pymdownx.details

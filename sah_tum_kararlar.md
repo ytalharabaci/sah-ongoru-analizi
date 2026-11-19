@@ -4,15 +4,34 @@
 
 > **Genel Durum:** Tuttu: **150** | Kısmen Tuttu: **77** | Tutmadı: **45** | Belirsiz: **98**
 
+<div class="filter-container">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="ALL">Tümü (370)</button>
+    <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu (150)</button>
+    <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen (77)</button>
+    <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı (45)</button>
+    <button class="filter-btn filter-btn-belirsiz" data-filter="BELIRSIZ">Belirsiz (98)</button>
+  </div>
+  <div id="filter-count" class="filter-count">Gösterilen: 370 / 370 Tahmin</div>
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## 50.bölüm özel intro, haftada 4 gün çalışma, rusya'dan saldırılar -siber alemden havadisler 50. bölüm - 2022-02-18
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Avrupa Birliği ülkelerinde haftada 4 gün çalışma modeline geçişin 5 yılı bile bulmayacağını, Belçika'nın ardından sırasıyla Fransa, Almanya ve Hollanda'nın da bu sisteme geçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **7.2/10**)
 - **Olasılık Dağılımı:** `TUTTU: %2.5 | KISMEN TUTTU: %9.9 | TUTMADI: %71.5 | BELIRSIZ: %16.1`
 - **Videoda Ne Demişti:** Belçika'nın çalışanlara yasal olarak haftada 4 gün çalışma hakkı tanıması haberini yorumlayan Utku Şen, daha önce AB ülkelerinin 5 yıl içinde buna geçeceğini tahmin ettiğini ama sürecin 5 yılı bile bulmayacağını belirtiyor. Belçika'yı muhtemelen Fransa, Almanya ve Hollanda'nın takip edeceğini kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Four Day Work Week in the EU](https://www.timecraftadvisory.com/blog/four-day-work-week-the-european-perspective)
     > *"No, the four day work week is not legally mandated across the entire EU. While countries like Belgium have introduced legislation allowing employees to request a compressed four day week, and Spain has funded pilot programmes, there is no overarching EU directive requiring its adoption. Implementation remains largely at the discretion of individual..."*
   - `[Tavily]` [Four-Day Week Adoption Accelerates in the UK | MultiUnion](https://multiunion.org.uk/reforms/uk-four-day-work-week-adoption-accelerates-as-benefits-become-clear)
@@ -24,11 +43,21 @@
   - `[DuckDuckGo]` [Eight-hour day movement - Wikipedia](https://en.wikipedia.org/wiki/Eight-hour_day_movement)
     > *"At that time, the working day could range from 10 to 16 hours, the work week was typically six days, and child labour was common. (1)(2) Since the 19th century, the eight-hour workday has been gradually adopted in various countries and industries, with widespread adoption occurring in the first half of the 20th century."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, arabaların uzaktan API ile kontrol edilmesinin büyük risk taşıdığını, ileride çıkacak bir zafiyet ya da bellek taşması (buffer overflow) ile bir hackerın dünyadaki on binlerce Tesla'nın frenini uzaktan devre dışı bırakabileceğini veya araçları bozabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %12.8 | TUTMADI: %19.6 | KISMEN TUTTU: %28.0 | BELIRSIZ: %39.6`
 - **Videoda Ne Demişti:** Üçüncü parti TeslaMate yazılımındaki zafiyet yüzünden 25 Tesla aracın uzaktan kontrol edilebilmesi olayını anlatan Utku Şen, arabaların API üzerinden internete bağlı olmasını korkutucu bulduğunu ifade ediyor. İleride Tesla'nın kendi sisteminde bir açık ya da buffer overflow çıkarsa bir hackerın on binlerce araca aynı anda müdahale edip frenlerini durdurabileceği tehlikesini şahsi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Key Lessons for Auto Manufacturers from the 2021 Tesla Hack | Mayhem](https://www.mayhem.security/blog/3-security-takeaways-from-the-2021-tesla-hack-for-vehicle-manufacturers)
     > *"In 2021, researchers Ralf-Philipp Weinmann and Benedikt Schmotzle demonstrated a remote, zero-click exploit against a fully up-to-date and patched Tesla. Their method involved deploying the exploit on a quadcopter drone, requiring only proximity to a vulnerable car to execute the attack, manipulate doors, and gain control. How do the world's best h..."*
   - `[Tavily]` [Tesla Model 3 VCSEC Vulnerability Allows Remote Code Execution via TPMS Exploit - Intrucept](https://intruceptlabs.com/2025/05/tesla-model-3-vcsec-vulnerability-allows-remote-code-execution-via-tpms-exploit)
@@ -40,11 +69,21 @@
   - `[DuckDuckGo]` [Why Tesla and Connected Cars Can Easily Be Hacked](https://news.northeastern.edu/2026/02/18/connected-cars-hacking-research/)
     > *"Feb 18, 2026 · Hackers could exploit wireless systems in Tesla’s Model 3 and Cybertruck to track vehicles, disrupt communications and interfere with network performance, according to research from Northeastern University. The research highlights the broader security risks facing all modern connected cars, which ..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, mavi takım (Blue Team / SOC) rollerinin asla bitmeyeceğini fakat ekiplerin çalışma odağının geleneksel şirket içi Active Directory yapılarından tamamen bulut (cloud) altyapılarına ve bulut log analizine kayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %54.0 | TUTTU: %41.9 | TUTMADI: %0.6 | BELIRSIZ: %3.5`
 - **Videoda Ne Demişti:** Bir izleyicinin Blue Team ve SOC tarafının geleceği olup olmadığı yönündeki sorusunu yanıtlayan Utku Şen, savunma tarafının asla ölmeyeceğini vurguluyor. Ancak ekiplerin odak noktasının değiştiğini, eskiden Active Directory ağırlıklı çalışan mavi takımların artık tamamen bulut ortamındaki saldırıları ve logları incelemeye evrildiğini kendi gözlemi ve tahmini olarak dile getiriyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [From On-Prem Active Directory to Cloud-Native Entra ID: Why IT Teams Are Making the Shift - BitTitan MigrationWiz](https://www.bittitan.com/blog/from-the-experts/from-on-prem-active-directory-to-cloud-native-entra-id-why-it-teams-are-making-the-shift)
     > *"March 24, 2026 For decades, on-premises Active Directory (AD) has been the backbone of identity and device management in enterprise environments. But as infrastructure, applications, and users increasingly move beyond the traditional network perimeter, the limitations of legacy AD become more pronounced. IT teams are now under pressure to support d..."*
   - `[Tavily]` [Microsoft Urges Organizations to Move Beyond Active Directory](https://petri.com/microsoft-organizations-move-beyond-active-directory)
@@ -56,15 +95,29 @@
   - `[DuckDuckGo]` [Active Directory Auditor - AD Security Tool](https://www.bing.com/aclick?ld=e84KLKFqOOoUC5xl0hC9LhfzVUCUxTlt4dZfmEkTeE6gMHY75UFkfkweJ88mhlHB3WXquMIzXQPHiMLe1xC1CnbEiCAmC9cmRYzT81WgO8FS_oZbmSdAanaTfJRBzUzbQW6aF4Ac-EKQJPmrzsoxlBGLHTHExPbpq2VqXTb019tBWoxwgAVBseDw3oRDe4Zj6ai06EJsxpycltiOUAh1mZDm4AASA&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFuYWdlZW5naW5lLmNvbSUyZnByb2R1Y3RzJTJmYWN0aXZlLWRpcmVjdG9yeS1hdWRpdCUyZnNlbSUyZmxwJTJmYWN0aXZlLWRpcmVjdG9yeS1hdWRpdGluZy5odG1sJTNmY2FtaWQlM2Q0NzEzMTkxMjclMjZhZGdpZCUzZDEzMDI5MjI0ODgxNTI3MjclMjZrd2QlM2RhZCUyNTIwdG9vbCUyNm1hdGNodHlwZSUzZHAlMjZhZGlkJTNkJTI2bmV0d29yayUzZG8lMjZhZHBvc2l0aW9uJTNkJTI2bG9jJTNkMTM4MDcyJTI2cGxhY2VtZW50JTNkJTI2dGFyZ2V0JTNkJTI2c2VhcmNocXVlcnklM2RibHVlJTI1MjB0ZWFtJTI1MjBzaGlmdCUyNTIwZnJvbSUyNTIwYWN0aXZlJTI1MjBkaXJlY3RvcnklMjUyMGNsb3VkJTI2bXNjbGtpZCUzZGU5Nzg5YTIzNDViYjE2ODg1NTMwZjBkODBmMTQwMmJhJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkQURBUCUyNTIwU2VhcmNoJTI1MjBUdXJrZXklMjUyMC0lMjUyMEltcCUyNnV0bV90ZXJtJTNkYWQlMjUyMHRvb2wlMjZ1dG1fY29udGVudCUzZEFEJTI1MjBBdWRpdCUyNTIwVG9vbA&rlid=e9789a2345bb16885530f0d80f1402ba)
     > *"Analyze the root-cause of your critical AD changes from detailed reports of ADAudit plus. It gives you a centralized view of your systems, so that you can track and monitor users"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## AB'den teknoloji tekellerine çelme, cybertakeoff sınavında sorun -siber alemden havadisler 55. bölüm - 2022-04-01
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Avrupa Birliği'nin mesajlaşma uygulamalarını birbiriyle konuşturma zorunluluğunun teknik olarak uçtan uca şifrelemeyi imkansız kılacağını ve bu kuralın şifrelemeyi tamamen tarihe karıştırabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **8.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %13.6 | TUTTU: %1.7 | BELIRSIZ: %3.5 | TUTMADI: %81.3`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin WhatsApp, Telegram ve Signal gibi uygulamaların birbiriyle mesajlaşabilmesini zorunlu kılan yasa tasarısını değerlendiren Utku Şen, mesajların üçüncü parti platformlara iletilmesinin şifreleme mekanizmasını bozacağını savunuyor. Hatta AB'nin bunu bilerek yaptığını ve şifrelemeyi bu maske altında yok etmeyi amaçlıyor olabileceğini kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The EU Digital Markets Act’s Interoperability Rule Addresses An Important Need, But Raises Difficult Security Problems for Encrypt...](https://www.eff.org/deeplinks/2022/04/eu-digital-markets-acts-interoperability-rule-addresses-important-need-raises)
     > *"word “preserved” encompasses both ensuring that connecting services must live up to the gatekeeper’s level of security and allowing for continued progress in security and privacy. The Commission should make clear that any service that breaks the promise of end-to-end encryption through any means—including by scanning messages in the client-side app..."*
   - `[Tavily]` [DMA and interoperability of encrypted messaging](https://www.internetsociety.org/wp-content/uploads/2022/03/ISOC-EU-DMA-interoperability-encrypted-messaging-20220311.pdf)
@@ -76,11 +129,21 @@
   - `[DuckDuckGo]` [Messaging Interoperability - Digital Markets Act (DMA)](https://digital-markets-act.ec.europa.eu/businesses-portal/messaging-interoperability_en)
     > *"The applicable deadlines for compliance with the interoperability requirements under the DMA’s three-phase system (please see above) are set out in the table below."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, devletlerin teknoloji tekellerini dizginlememesi halinde önümüzdeki 50-100 yıl içinde şirketlerin devletlerden bile güçlü hale geleceğini, kendi silahlı ordularını kuracağını ve kölelik düzenine geri dönüleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.6 | BELIRSIZ: %89.8 | TUTTU: %3.3 | KISMEN TUTTU: %4.3`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin teknoloji devlerine yönelik kısıtlamalarını savunan Utku Şen, liberteryenlerin savunduğu devletsiz ve şirketlerin yönettiği düzeni korkunç bir distopya olarak tanımlıyor. Büyük şirketlerin önü kesilmezse Amazon ve Facebook gibi devlerin kendi polis ve askerlerini kuracağı bir kölelik döneminin başlayacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Breaking the Big Tech Monopoly - CIRSD](https://cirsd.org/horizon-article/breaking-the-big-tech-monopoly)
     > *"Big Tech regulation is new territory for legislatures all over the world—not just in China, the EU, and the United States. There is thus a great deal of uncertainty as to the eventual form of governmental policy and its impact on global business operations. While there is a general consensus that heightened regulation is needed, a major risk lies i..."*
   - `[Tavily]` [Will regulating big tech stifle innovation? | MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/will-regulating-big-tech-stifle-innovation)
@@ -92,11 +155,21 @@
   - `[DuckDuckGo]` [Big Tech Regulation: Are Antitrust Laws Catching Up? | Global ...](https://informedclearly.com/en/politics/42071/big-tech-antitrust-regulation-2026)
     > *"Feb 27, 2026 · Global antitrust regulation of Big Tech reached unprecedented intensity in 2025-2026, combining traditional enforcement with new frameworks like the EU's Digital Markets Act. Discover how regulators worldwide are tackling tech monopolies."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, Okta raporunu sızdırdığı için Zoom'dan kovulan genç araştırmacı Bill Demirkapı'nın siber güvenlik tarihinin en büyük dahilerinden biri olduğunu ve gelecekte sektörde çok önemli yerlere geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %80.4 | TUTMADI: %0.5 | KISMEN TUTTU: %16.2 | BELIRSIZ: %2.9`
 - **Videoda Ne Demişti:** Okta'nın hacklenme sürecine dair Mandiant raporunu paylaştığı için Zoom tarafından işine son verilen Bill Demirkapı olayını yorumlayan Utku Şen, Zoom'un çok büyük bir aptallık yaptığını söylüyor. Bu kalibredeki yetenekleri şirketlerin değil bizzat araştırmacıların seçtiğini belirterek Bill'in ileride çok büyük başarılara imza atacağını kendi inancı ve tahmini olarak dile getiriyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Thousands of Corporate Secrets Were Left Exposed. This Guy Found Them All | WIRED](https://www.wired.com/story/secret-hunting-bill-demirkapi)
     > *"If you know where to look, plenty of secrets can be found online. Since the fall of 2021, independent security researcher Bill Demirkapi has been building ways to tap into huge data sources, which are often overlooked by researchers, to find masses of security problems. This includes automatically finding developer secrets—such as passwords, API ke..."*
   - `[Tavily]` [Bill Demirkapi](https://linkedin.com/in/bill-demirkapi-171054135)
@@ -108,15 +181,29 @@
   - `[DuckDuckGo]` [Bill Demirkapi - grokipedia.com](https://grokipedia.com/page/bill-demirkapi)
     > *"Bill Demirkapi has established himself as an independent security researcher through self-directed investigations into system vulnerabilities, often leveraging publicly available or leaked data to probe for weaknesses beyond his professional duties at Microsoft."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## ABD Devleti, 19 Yaşındaki Hacker Çocuğa Emanet - S.A.H E113 - 2025-02-09
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın ses ve görüntü gecikmelerinin her geçen gün azalarak sahteciliğin anlaşılmaz hale geleceğini, bu suistimaller yüzünden uzaktan mülakatların tarihe karışacağını ve şirketlerin herkesi mecburen ofise çağıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %64.9 | TUTMADI: %2.3 | TUTTU: %24.5 | BELIRSIZ: %8.2`
 - **Videoda Ne Demişti:** Adayların iş mülakatlarında arka planda yapay zeka ve deepfake kullanmasını kendi işe alım tecrübesi üzerinden anlatan Utku Şen, bu teknolojilerin hızla geliştiğini ve gecikmelerin yakında tamamen kaybolacağını vurguluyor. Uzaktan mülakatın çok daha pratik olduğunu ancak bu sahtecilikler nedeniyle ileride tamamen biteceğini kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Is Forcing the Return of the In-Person Job Interview: Here’s Why It’s Actually a Good Thing | Gogotechy](https://gogotechy.com/blog/ai-is-forcing-the-return-of-the-in-person-job-interview)
     > *"Yes, AI is forcing the return of the in-person job interview. Major companies in the U.S. are returning to in-person interviews to combat the use of AI for cheating, such as generating answers or even impersonating candidates during virtual interviews. This trend is a direct reaction to AI tools making it easier for job seekers to appear more skill..."*
   - `[Tavily]` [To counter AI cheating, companies bring back in-person job interviews – Computerworld](https://www.computerworld.com/article/4044734/to-counter-ai-cheating-companies-bring-back-in-person-job-interviews.html)
@@ -128,11 +215,21 @@
   - `[DuckDuckGo]` [In-Person Interviews Make a Comeback to Combat AI Fraud](https://blog.theinterviewguys.com/in-person-interviews-make-a-comeback/)
     > *"Jun 25, 2026 · In this article, you’ll discover how companies like Google, Cisco, and McKinsey are responding to AI fraud, why in-person interviews are making a strategic comeback, and most importantly, how this shift creates new opportunities for authentic job seekers to stand out."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, devletle özel sektörü ayıran disiplin ve kuralcılığın ortadan kalkmasıyla kamu veri tabanlarının genç hackerlara açılmasının sonunun çok kötü olacağını, devlet ciddiyetinin zayıflamasının büyük bir felakete yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %25.9 | TUTMADI: %2.9 | BELIRSIZ: %4.2 | TUTTU: %67.0`
 - **Videoda Ne Demişti:** Elon Musk'ın DOGE yapılanmasına 19 yaşında yeraltı hacker bağlantıları olan bir genci dahil edip devlet veri tabanlarına yetki vermesini değerlendiren Utku Şen, çocuk yaştaki hackerlara sınırsız yetki verilmesinin kırmızı çizgiyi aştığını belirtiyor. Devlet ciddiyetinin yok olduğu ve disiplinin kaybolduğu bu gidişatın sonunun asla iyi bir yere varmayacağını kendi endişesi ve öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [DOGE Put Critical Social Security Data at Risk, Whistle-Blower Says](https://www.congress.gov/119/meeting/house/118875/documents/HHRG-119-JU13-20260121-SD002-U2.pdf)
     > *"The account by the whistle-blower, Charles Borges, underscores concerns that have led to lawsuits seeking to block young software engineers at the agency built by Elon Musk from having access to confidential government data. In his complaint, Mr. Borges said DOGE members copied the data to an internal agency server that only DOGE could access, forg..."*
   - `[Tavily]` [DOGE is putting the country’s data and computing infrastructure at risk, HKS expert argues | Harvard Kennedy School](https://www.hks.harvard.edu/faculty-research/policy-topics/science-technology-data/doge-putting-countrys-data-and-computing)
@@ -144,15 +241,29 @@
   - `[DuckDuckGo]` [2026 FBI data breach - Wikipedia](https://en.wikipedia.org/wiki/2026_FBI_data_breach)
     > *"The 2026 FBI data breach was a cyberattack on the Federal Bureau of Investigation 's recruitment portal, FBIJobs.gov, in September 2026, in which the extortion group ShinyHunters claimed to have stolen personal data on nearly all current and former FBI employees and job applicants. (1)(2) The FBI designated the matter a cybersecurity incident on Se..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## AI Fikirlerimizi Manipüle Edebilir Mi? - S.A.H E123 - 2025-05-04
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın fotoğraftan konum bulma (Geoguessr) ve görsel akıl yürütmede insanla olan rekabetinin 5-10 yıl sürmeyeceğini, en fazla 6 ay içinde yapay zekanın arayı inanılmaz açarak bu rekabeti tamamen bitireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %7.0 | KISMEN TUTTU: %29.0 | TUTTU: %50.9 | BELIRSIZ: %13.0`
 - **Videoda Ne Demişti:** ChatGPT'nin profesyonel bir Geoguessr oyuncusunu yenmesi haberini yorumlayan Utku Şen, satrançtaki Kasparov ve Deep Blue sürecini hatırlatıyor. Bilgisayarın insanı geçtikten sonra arayı açmasının bu sefer yıllar değil sadece birkaç ay alacağını, 6 ay sonra bu rekabetin tamamen biteceğini kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [GeoGuessr AI - Use AI to Find Where Any Street View Was Taken | GeoAxis](https://geoaxis.ai/geoguessr-ai)
     > *"FAQ - GeoGuessr AI Is there an AI that plays GeoGuessr? Yes - several, but they vary in accuracy. GeoAxis is the public-benchmark leader on street-level imagery, so “the AI for GeoGuessr” is functionally what GeoAxis is. Can AI beat top human GeoGuessr players? On unfamiliar regions and across a long round set, yes. Top human players still win on f..."*
   - `[Tavily]` [GeoGuessr AI: How PIGEON Beat a Pro, and Is It Cheating?](https://geospys.com/blog/geoguessr-ai)
@@ -164,11 +275,21 @@
   - `[DuckDuckGo]` [GitHub - Nutlope/geoguessbench: An open GeoGuessr benchmark ...](https://github.com/Nutlope/geoguessbench)
     > *"Oct 6, 2026 · An open GeoGuessr benchmark for AI models. Contribute to Nutlope/geoguessbench development by creating an account on GitHub."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka botlarıyla insanları ikna etmenin maliyetsiz hale gelmesiyle birlikte ileride büyük platform sahiplerinin devletlere gizlice bot ordusu servisi satacağını ve bu sistemlerin kitle manipülasyonunda mutlaka kullanılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %30.4 | BELIRSIZ: %25.6 | TUTMADI: %3.0 | KISMEN TUTTU: %41.0`
 - **Videoda Ne Demişti:** Zürih Üniversitesi'nin yapay zeka botlarının insan fikirlerini değiştirmede 6 kat daha başarılı olduğunu gösteren araştırmasını değerlendiren Utku Şen, bot maliyetlerinin çok düşmesine dikkat çekiyor. İleride Elon Musk gibi platform sahiplerinin devletlere el altından bot servisi satacağını ve bu gücün algı operasyonlarında kesinlikle kullanılacağını kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Second AI Election: Testing the Safeguards Before November | Brennan Center for Justice](https://www.brennancenter.org/our-work/analysis-opinion/second-ai-election-testing-safeguards-november)
     > *"battlefield by foreign nations. Chinese actors have been credibly accused of standing up at least 5,000 inauthentic X accounts controlled by an AI large language model system, according to recentreports. This operation, nicknamed “Green Cicada,” was deployed to influence political narratives and sow discord in the United States and other countries...."*
   - `[Tavily]` [How AI chatbots can mislead with election advice : NPR](https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice)
@@ -180,11 +301,21 @@
   - `[DuckDuckGo]` [UNMASKING THE THREAT: How Automated Bot Networks Manipulate ...](https://www.humansecurity.com/learn/resources/how-automated-bot-networks-manipulate-elections-globally/)
     > *"Early uses were relatively benign, but recent advancements have enabled complex disinformation campaigns and direct attacks on electoral systems. The 2016 U.S. presidential election marked a pivotal moment, showcasing the power of state-sponsored bots in shaping political discourse."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, kameraları fiziksel olarak kapatılamayan akıllı gözlüklerin gizli kayıt ve mahremiyet endişeleri yüzünden toplum tarafından asla kabul görmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %3.6 | BELIRSIZ: %2.4 | TUTMADI: %89.6 | KISMEN TUTTU: %4.5`
 - **Videoda Ne Demişti:** Meta'nın akıllı gözlük projelerini ve kameralı gözlük takan insanlara karşı oluşan rahatsızlığı yorumlayan Utku Şen, karşısındaki insanın kendisini kaydedip kaydetmediğini bilememenin büyük sorun olduğunu belirtiyor. Kameraların fiziksel bir kapakla kapanmadığı sürece toplumun bu gözlükleri kabul etmeyeceğini kendi tahmini olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever](https://www.bbc.com/news/articles/cj37z8357e5o)
     > *"'There are some pretty dark places we could go here,' Kessler said. 'I'm not anti-technology in any sense, but as a societal matter...will I need to think (of being recorded) anytime I go out in public?' And Meta reportedly plans to add facial recognition technology in an updated version of its glasses, meaning wearers could not only have the abili..."*
   - `[Tavily]` [Why smart glasses are about to create a major privacy crisis | Nature](https://www.nature.com/articles/d41586-026-03131-x)
@@ -196,11 +327,21 @@
   - `[DuckDuckGo]` [Smart Glasses, Cameras, and Privacy: A Balanced Guide](https://smartglassesdecoded.com/learn/privacy/)
     > *"A camera on your face changes the social contract, whether or not you record. Here's what the hardware actually does, what the law says, and how thoughtful owners behave — no panic, no dismissal."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 4. Utku, metnini tamamen yapay zekanın yazdığı ve seslendirdiği podcast formatının arkasında insani bir düşünce ve özen olmadığı için dinleyiciler tarafından asla tutulmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **3.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %18.8 | TUTMADI: %32.6 | KISMEN TUTTU: %24.2 | TUTTU: %24.4`
 - **Videoda Ne Demişti:** NotebookLM'e Türkçe seslendirme desteği gelmesini ve yapay zeka ile otomatik podcast yapma hevesini değerlendiren Utku Şen, insanların yapay zekanın oluşturduğu rastgele metinleri dinlemeyeceğini söylüyor. Bu tip projelerin samimi ve anlamlı bulunmayacağını, kimsenin metroda giderken yapay zeka podcasti dinlemeyeceğini kendi görüşü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Podcasting Fact Sheet - Content Science Review](https://review.content-science.com/podcasting-fact-sheet)
     > *"AI narrates many podcasts, but consumers don’t prefer it. 22% of U.S. weekly podcast consumers 13+ have ever listened to a podcast narrated by an artificially or AI generated voice. However, they prefer narration by a human. — Edison Research 78% of professional podcasters use at least one AI tool in their workflow. — Wondercraft For the first time..."*
   - `[Tavily]` [33 Podcast Statistics 2026 (Number of Podcasts & Viewership)](https://podcastatistics.com)
@@ -212,15 +353,29 @@
   - `[DuckDuckGo]` [Top 105 AI Podcast Statistics, Data & Trends in 2026](https://blog.9cv9.com/top-105-ai-podcast-statistics-data-trends-in-2026/)
     > *"Jan 3, 2026 · This comprehensive collection of the Top 105 AI Podcast Statistics, Data & Trends in 2026 is designed to offer a clear, evidence-based view of how artificial intelligence is reshaping the podcast industry at every level."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Ancak Bu Kadar Konuşabiliyoruz - S.A.H E132 - 2025-07-27
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Cursor gibi yapay zekalı kod editörü geliştiren girişimler için tehlike çanlarının çaldığını, büyük şirketlerin kodlarını bir startup yerine Microsoft ya da Amazon gibi devlere emanet edeceğini ve Cursor'ın OpenAI'a satılmayarak büyük hata yaptığını, bu saatten sonra ayakta kalmalarının çok zor olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %0.7 | KISMEN TUTTU: %2.3 | TUTMADI: %93.6 | BELIRSIZ: %3.4`
 - **Videoda Ne Demişti:** Amazon'un Kiro isimli yapay zekalı kod editörünü çıkarması ve pazarın kızışması üzerine konuşan Utku Şen, kurumsal şirketlerin kaynak kodlarını küçük bir startup'a emanet etmekten çekineceğini anlatıyor. Çoğu şirketin Microsoft ya da Amazon gibi devlerle çalışmayı seçeceğini belirterek Cursor'ın OpenAI'a satılma fırsatını kaçırdığını ve artık işlerinin çok zor olduğunu kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Amazon in Talks to Deploy AI Tool Cursor As Employee Interest Spikes - Business Insider](https://businessinsider.com/amazon-deploy-cursor-employee-interest-spikes-ai-coding-2025-6)
     > *"The tech giant already offers its own AI coding assistant, Q, and has an internal AI chatbot called 'Cedric.' Amazon is also developing a more advanced AI coding tool, codenamed 'Kiro,' which could rival Cursor, BI previously reported. At least one employee appeared surprised by the potential Cursor deal. 'Very cool that Amazon isn't scared to let..."*
   - `[Tavily]` [Amazon in Talks to Deploy AI Tool Cursor As Employee Interest Spikes - Business Insider](https://www.businessinsider.com/amazon-deploy-cursor-employee-interest-spikes-ai-coding-2025-6)
@@ -230,11 +385,21 @@
   - `[Tavily]` [Cursor (company) - Wikipedia](https://en.wikipedia.org/wiki/Cursor_(company))
     > *"| Models | | | | --- | | Text | Amazon Nova Baichuan Character.ai Claude 'Claude (language model)') Command DeepSeek 'DeepSeek (chatbot)') Doubao Ernie EXAONE Gemini Gemma 'Gemma (language model)') GLM GPT 'GPT (OpenAI model)') + ChatGPT Grok 'Grok (chatbot)') IBM Granite Kimi 'Kimi (chatbot)') MAI Microsoft Copilot Mistral MiniMaxTechnology 'MiniM..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Türkiye'de WhatsApp'ın yasaklanmasının kesinlikle mümkün olduğunu, böyle bir yasak gelse bile insanların en fazla beş gün homurdanıp altıncı gün durumu tamamen kabulleneceğini ve devlete olan güvensizlik yüzünden halkın hiçbir yerli mesajlaşma uygulamasına asla güvenmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %9.2 | BELIRSIZ: %85.5 | KISMEN TUTTU: %4.1 | TUTTU: %1.3`
 - **Videoda Ne Demişti:** Gündemdeki yerli WhatsApp ve mesajlaşma uygulaması tartışmalarını değerlendiren Utku Şen, Çin gibi ülkelerde olduğu gibi zorlama yapıldığında insanların mecbur bırakılabileceğini belirtiyor. Türkiye'de de WhatsApp'ın rahatlıkla yasaklanabileceğini, halkın tepkisinin birkaç günde söneceğini ve ne kadar iyi niyetli yapılırsa yapılsın güven kırıldığı için yerli bir uygulamaya kimsenin güvenmeyeceğini kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Russia confirms ban on WhatsApp messaging app](https://www.lemonde.fr/en/international/article/2026/02/12/whatsapp-kremlin-confirms-the-messaging-app-is-banned-in-russia_6750419_4.html)
     > *"Russia has blocked the popular messaging service WhatsApp over its failure to comply with local legislation, the Kremlin confirmed on Thursday, February 12, urging its 100 million Russian users to switch to a domestic alternative. (...) The latest developments came after Russia's internet watchdog said, on Tuesday, that it would slap 'phased restri..."*
   - `[Tavily]` [Russia indicates possible ban on WhatsApp](https://finance.yahoo.com/news/russia-indicates-possible-ban-whatsapp-085906200.html)
@@ -246,11 +411,21 @@
   - `[DuckDuckGo]` [Turkey denies WhatsApp, Telegram ban allegations](https://www.aa.com.tr/en/turkey/turkey-denies-whatsapp-telegram-ban-allegations/1926301)
     > *"Jul 29, 2020 · ANKARA Turkey on Wednesday denied reports alleging that it has banned messaging applications WhatsApp and Telegram."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, kamerası dışarıdan fark edilmeyen ve uyarı ışığı bulunmayan akıllı gözlüklerin mutlaka yasa dışı ilan edilmesi gerektiğini, devletlerin bu cihazlara fiziksel olarak kapatılamayan uyarı ışığı şartı getiren sert regülasyonlar koymak zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %15.0 | TUTMADI: %4.6 | KISMEN TUTTU: %47.7 | BELIRSIZ: %32.7`
 - **Videoda Ne Demişti:** Kamerası ve bildirim ışığı hiç belli olmayan Waves marka akıllı gözlüğü inceleyen Utku Şen, bu tarz gizli kameralı ürünlerin serbestçe satılmasını eleştiriyor. Regülasyonların gerekliliğini vurgulayarak devletlerin gözlük kameralarının görünür olması ve çalışırken fiziksel bir ışık yakması yönünde yasal zorunluluklar getirmesi gerektiğini kendi görüşü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Is It Legal to Record With Camera Glasses? Consent Laws, Indicator… - RayNeo](https://www.rayneo.com/blogs/news/best-smart-glasses-camera-legal-photos-video)
     > *"A recording indicator light, a small LED that turns on when a camera is capturing photo or video, exists to solve exactly the visibility gap described above: it gives bystanders a signal that a phone’s screen or shutter sound would otherwise provide. As of this writing, no US state or federal law requires manufacturers to include one on smart glass..."*
   - `[Tavily]` [1.7K views | Meta says it's improving the ability of its smart glasses to detect if the privacy LED has been tampered with and dis...](https://www.facebook.com/uploadvr/videos/meta-is-improving-its-smart-glasses-privacy-led-tampering-detection/1390241489841519)
@@ -262,15 +437,29 @@
   - `[DuckDuckGo]` [Kameralı gözlükler neden yasaklanıyor? - Ofix İş Dünyası](https://www.ofix.com/isdunyasi/kamerali-gozlukler-neden-yasaklaniyor/)
     > *"18 hours ago · Pakistan’ın Pencap eyaleti, ekim ayında gizli kayıt yapabilen kameralı gözlüklerin hem kullanımına hem satışına 30 günlük yasak getirdi. İnternet üzerinden satışlar da karara dahil edildi."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Antrophic Bizi Kandırıyor Mu, Android Sideloading Tartışması - S.A.H E144 - 2025-11-16
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, sosyal medyayı saran yapay zeka sahte kadın profillerinin görsel modeller geliştikçe gerçek insanlardan ayırt edilemez hale geleceğini, şimdilik sadece mavi tikten para kazansalar da ileride bu hesaplar üzerinden çok büyük dolandırıcılık dalgaları göreceğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %27.0 | BELIRSIZ: %9.8 | TUTTU: %62.2 | TUTMADI: %1.0`
 - **Videoda Ne Demişti:** Twitter'da yapay zeka ile üretilen sahte kadın profillerini ve fotoğraflarını inceleyen Utku Şen, mavi tik sisteminin sahteciliği ve yalan haberi teşvik ettiğini anlatıyor. Görsel üretim modelleri geliştikçe bu personaların insan gözüyle ayırt edilemeyecek noktaya geleceğini ve ileride bunların arkasından çok ciddi dolandırıcılık haberleri çıkacağını kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Romance Scam Fake Profile Warning Signs and Deepfake Pitches](https://neuraldefend.com/insights/deepfake-threats/romance-and-investment-persona-scams)
     > *"The Hong Kong case shows this at scale. Police said on 14 October 2024 that they had arrested 27 people at a scam centre. According to The Standard, the operators, mostly men, contacted victims on social media with AI-generated images and used deepfake technology to pose as women. Victims were steered into fake investments, and losses reached about..."*
   - `[Tavily]` [AI romance scams are on the rise. Here’s what you need to know. | Vox](https://www.vox.com/future-perfect/479200/ai-romance-scams-valentines-day)
@@ -282,11 +471,21 @@
   - `[DuckDuckGo]` [Dating an AI Persona? Risks & Warning Signs | Privacy Needle](https://privacyneedle.com/scam-exposed/happens-person-dating-online-persona/)
     > *"Nov 1, 2026 · Discover how AI-driven romance scams work. Learn the red flags of AI personas and how to protect your finances and personal data from automated fraud."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, kimliklerin tamamen dijitalleşmesi ve dünyanın kutuplaşmasıyla birlikte gelecekte internette anonimliğin biteceğini, herkesin ağa dijital pasaportla bağlanıp sitelere vizeyle gireceği bir dönemin hiç de imkansız olmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %33.6 | BELIRSIZ: %27.8 | TUTTU: %36.6 | TUTMADI: %2.0`
 - **Videoda Ne Demişti:** Apple Wallet'a gelen dijital kimlik ve pasaport saklama özelliğini değerlendiren Utku Şen, 2019'da siber güvenliğin gelecek 30 yılı üzerine yazdığı fütüristik kehanetlerini hatırlatıyor. Kimliklerin dijitalleşmesi ve dünyadaki kutuplaşma trendi birleştiğinde devletlerin anonimliği kaldıracağını, herkesin internete bir private key veya dijital pasaportla gireceğini ve hatta başka bir ülkenin sitesine erişmek için internet vizesi başvurusu yapacağı bir geleceğe doğru gidildiğini kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [EU Announces an End to Online Anonymity with Introduction of Mandatory Digital ID - The People's Voice](https://thepeoplesvoice.tv/eu-announces-an-end-to-online-anonymity-with-introduction-of-mandatory-digital-id/amp)
     > *"Infowars.com reports: It was announced earlier this month that citizens will soon be able to request digital versions of their ID cards that they can use on smartphones by Nov. 26. The new form of the ID will be accepted not only for identification purposes but also for online authentication, electronic signatures, and for travel between countries..."*
   - `[Tavily]` [The Name Behind the Account: Digital ID and Online Anonymity](https://bartfaiwalcott.com/writing/the-name-behind-the-account)
@@ -298,15 +497,29 @@
   - `[DuckDuckGo]` [EU Declares Citizens Who Reject Digital Passports Will Be ...](https://thepeoplesvoice.tv/eu-passport-checks-internet-access-vpns-privacy/)
     > *"Sep 28, 2026 · The European Union is rolling out an age-verification system that requires official ID—passports or national identity cards—to prove you’re old enough for certain online content and services. Officials have already flagged VPNs as a problem that “needs closing.”"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Apple Çaktırmadan Güvenlikte Çağ Atlattı - S.A.H E136 - 2025-09-14
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, ilk versiyonu fiyaskoyla sonuçlanan Rabbit yapay zeka cihazının ikinci versiyonunun da asla tutmayacağını, Game Boy benzeri anlamsız bir alet olduğunu ve sadece yatırımcıların parasını yemeye yarayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %16.9 | TUTTU: %67.8 | TUTMADI: %5.0 | KISMEN TUTTU: %10.3`
 - **Videoda Ne Demişti:** İlk versiyonu fiyasko çıkan ve akıllı telefonların yerini alacağı iddia edilen Rabbit yapay zeka cihazının ikinci versiyonunun tanıtılmasını yorumlayan Utku Şen, sektördeki gereksiz para bolluğunu eleştiriyor. Bu yeni Game Boy benzeri cihazın da hiçbir şekilde tutmayacağını ve piyasada karşılık bulamayacağını kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Looking at Rabbit R1's Fails From a FURPS+ Perspective](https://www.linkedin.com/pulse/looking-rabbit-r1s-fails-from-furps-perspective-noble-ackerson-fdqwe)
     > *"Response times were consistently slow, with significant lag between queries and answers. The device struggled with multimodal use cases, failing to effectively process and respond to text and image inputs queries. Processing speed for even simple queries was subpar, often leaving the user waiting for extended periods. The sluggish performance sever..."*
   - `[Tavily]` [Rabbit R1 Backlash: Selling the AI Future Before It Works](https://jotopr.com/anti-pr-blog/rabbit-r1-backlash-selling-the-ai-future-before-it-works?hs_amp=true)
@@ -318,11 +531,21 @@
   - `[DuckDuckGo]` [Rabbit R1 Review (2026): Is It Dead, Or Still Worth $199?](https://www.layer3labs.io/gear/reviews/rabbit-r1)
     > *"Aug 5, 2026 · This review is for the person who saw the launch demo, read the harsh reviews, and now wants to know what the device is actually like to own in 2026. It covers what shipped, what did not, what changed after launch, and whether the $199 is defensible today."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Avrupa Birliği'nin uçtan uca şifrelemeyi kaldırıp tüm özel mesajları taramak istediği Chat Control yasa tasarısının, Almanya ve Polonya'nın başını çektiği güçlü blok sayesinde muhtemelen geçmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %28.8 | TUTTU: %22.1 | BELIRSIZ: %5.7 | KISMEN TUTTU: %43.3`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin çocukları koruma bahanesiyle tüm mesajlaşma uygulamalarındaki uçtan uca şifrelemeyi kırma girişimini değerlendiren Utku Şen, yıllardır süren tartışmalarda Almanya'nın bu tasarıya karşı tavır aldığını anlatıyor. Almanya, Polonya, Çekya, Finlandiya, Belçika ve Hollanda'nın oluşturduğu güçlü karşı cephe nedeniyle bu yasa tasarısının muhtemelen meclisten geçmeyeceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Chat Control 2026: What It Means for Encryption | Wire](https://wire.com/en/blog/chat-control-explained)
     > *"Chat Control 1.0 dates from 2021. It lapsed on 3 April 2026 after Parliament rejected the Commission's proposed extension in March. The Council then sent the file back to Parliament for a second reading. On 9 July, 314 MEPs voted to reject the revival and 276 voted to keep it. Rejection at second reading requires an absolute majority of 361, so the..."*
   - `[Tavily]` [Privacy-busting ‘chat control’ plans rejected by European Parliament as CSAM law heads into final stretch](https://finance.yahoo.com/news/privacy-busting-chat-control-plans-172829853.html)
@@ -334,15 +557,29 @@
   - `[DuckDuckGo]` [EU Parliament Passes Chat Control by Default: 314 MEPs Couldn ...](https://www.techtimes.com/articles/320010/20260709/eu-parliament-passes-chat-control-default-314-meps-couldnt-block-scanning-law.htm)
     > *"Jul 9, 2026 · Chat Control EU passed July 9 as 314 MEPs voted to reject it — a majority of those present, but 47 short of the 361 absolute majority required under second-reading rules."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Apple'ın Ayağına Gollük Pas Geldi - S.A.H E153 - 2026-02-15
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Apple'ın mevcut karmaşık ve güvensiz yapay zeka asistanı pazarını tıpkı geçmişte iPod ile MP3 çalar pazarını sildiği gibi kullanıcı dostu ve gizlilik odaklı bir ürünle domine edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %22.9 | KISMEN TUTTU: %43.4 | TUTMADI: %16.4 | TUTTU: %17.2`
 - **Videoda Ne Demişti:** Siri'nin ertelenmesi ve mevcut yapay zeka asistanlarının karmaşık kurulumlarına değinen Utku Şen, Apple'ın teknolojik olarak mümkün ama deneyimi kötü olan alanlarda parladığını anlatıyor. Geçmişteki iPod başarısını örnek göstererek Apple'ın yapay zeka asistanlarını iyice inceleyip daha güvenli, gizliliğe önem veren ve tek tıkla çalışan bir modelle piyasayı sileceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Apple Turns Siri Into Multi Assistant Gateway For AI Services Revenue](https://finance.yahoo.com/markets/stocks/articles/apple-turns-siri-multi-assistant-180616227.html)
     > *"For Apple, opening Siri to rival AI assistants and layering an extensions marketplace on top of iOS shifts the focus from owning the AI model to owning the user relationship and distribution. Instead of competing head on with Alphabet, Microsoft, and Anthropic on model quality and infrastructure, Apple is positioning Siri as a neutral front end tha..."*
   - `[Tavily]` [Apple Siri Delay: The Frustrating Setback for AI-Powered Assistant in iOS 26.4 | AI News artificial intelligence | CryptoRank.io](https://cryptorank.io/ru/news/feed/9ab8c-apple-siri-delay-ios-update)
@@ -354,11 +591,21 @@
   - `[DuckDuckGo]` [Siri Statistics 2026: Latest Data & Hidden Trends](https://xtendedview.com/siri-statistics/)
     > *"Sep 12, 2026 · The following Siri statistics examine its users, adoption, usage frequency, market position, common commands, voice commerce trends, accuracy, satisfaction, privacy, and evolving role in the competitive AI-assistant market."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, gelecekte yapım şirketlerinin The Office gibi efsane dizilerin haklarını alıp oyuncular olmadan tamamen yapay zekayla sonsuza kadar yeni bölümler üreteceğini ve dizi sektörünün buraya evrileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %25.5 | KISMEN TUTTU: %40.3 | BELIRSIZ: %32.1 | TUTMADI: %2.1`
 - **Videoda Ne Demişti:** Çinli firmanın çıkardığı gelişmiş video modeli Seans 2'yi değerlendiren Utku Şen, gelecekte dizi film sektörünün bambaşka bir noktaya kayacağını belirtiyor. Bir şirketin The Office haklarını satın alıp yapay zekaya senaryo yazdırarak hiç oyuncu oynatmadan sürekli yeni bölümler çekeceği bir geleceğin mutlaka yaşanacağını kendi tahmini olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Showrunner AI Creates ENTIRE TV SHOWS | Hollywood is cooked... | Quickstart Tutorial](https://www.youtube.com/watch?v=_Q-mgYm6aPU)
     > *"(2:38) We first heard of them last year when they did that South Park episodes that were put out. And this week on Wednesday, yesterday actually, Amazon (2:47) announced that they invested in this company, Fable. And that's the same day that it became available to the public as an alpha. The idea is simple. Use (2:56) artificial intelligence to cre..."*
   - `[Tavily]` [Amazon Has TV’s First Fully AI-Made Series. There’s No Going Back - The Ankler](https://theankler.com/amazon-has-tvs-first-fully-ai-made-series-theres-no-going-back)
@@ -370,11 +617,21 @@
   - `[DuckDuckGo]` [Revival (TV series) - Wikipedia](https://en.wikipedia.org/wiki/Revival_(TV_series))
     > *"In the rural town of Wausau, Wisconsin, the sudden resurrection of the recently deceased becomes known as Revival Day. Labelled 'Revivers', the newly resurrected maintain their appearance, memories, and personalities from their previous lives but have gained regenerative healing abilities."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın yakında tüm sistemlerin başında merkezi bir orkestratör haline geleceğini, AWS ve Azure gibi tüm bulut altyapılarını tek konsoldan yöneteceğini ve ordudan polise her kurumun vazgeçilmezi olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %45.8 | TUTMADI: %2.8 | TUTTU: %22.9 | BELIRSIZ: %28.6`
 - **Videoda Ne Demişti:** Pentagon'un operasyonlarda Claude kullandığı haberini yorumlayan Utku Şen, yapay zekanın tek bir konsoldan her şeyi orkestre eden bir yapıya dönüşeceğini belirtiyor. İleride AWS ve Azure gibi bulut sunucularına doğrudan bağlanıp yönetebileceğini, askerin de polisin de bunu merkezi bir yönetici olarak kullanacağını kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Compare 20+ Cloud Orchestrators](https://aimultiple.com/cloud-orchestrators)
     > *"Pre-built connectors for applications like Microsoft SQL Server, Oracle, SAP, and cloud platforms such as AWS and Azure. Centralized job scheduling capability to schedule, monitor, and manage jobs across cloud, on-premises, and hybrid environments. Cross-platform automation via native support for Windows, Linux, UNIX, and cloud platforms. Advanced..."*
   - `[Tavily]` [Azure Automation overview | Microsoft Learn](https://learn.microsoft.com/en-us/azure/automation/overview)
@@ -386,11 +643,21 @@
   - `[DuckDuckGo]` [What Is AI Orchestration for Enterprise? | Microsoft AI](https://www.microsoft.com/en-us/ai/ai-101/orchestration)
     > *"Learn what AI orchestration is and how it helps you automate complex workflows by coordinating agents, models, APIs, and enterprise systems."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, Google Chrome'un çerez hırsızlığını engelleyen cihaza bağlı oturum anahtarları (DBSC) özelliğinin tüm internete yayılmasının yıllar alacağını hatta çoğu küçük web sitesine hiçbir zaman gelmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %27.5 | TUTTU: %30.7 | BELIRSIZ: %39.5 | TUTMADI: %2.3`
 - **Videoda Ne Demişti:** Chrome'un çalınan çerezlerle hesap ele geçirilmesini önlemek için geliştirdiği Device Bound Session Credentials özelliğini anlatan Utku Şen, her web sitesinin bu sisteme entegre olması gerektiğini hatırlatıyor. Bu geçişin yıllar süreceğini ve belki de çoğu web sitesi için hiçbir zaman gerçekleşmeyeceğini, ancak büyük platformların geçmesiyle bile zararlı yazılımların işinin zorlaşacağını kendi değerlendirmesi olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Device Bound Session Credentials (DBSC) explained](https://www.corbado.com/blog/device-bound-session-credentials-dbsc)
     > *"8. Browser and Ecosystem Support The adoption of DBSC depends on browser vendors. The landscape in 2026 has shifted materially: Chrome moved DBSC from Origin Trial to general availability on Windows in April 2026, with macOS coming next. Other browsers are still evaluating. 8.1 Google Chrome Google is the primary driver of DBSC and the first browse..."*
   - `[Tavily]` [I Love Device-Bound Session Credentials, But They Are Still Phishable and Hackable](https://blog.knowbe4.com/device-bound-session-credentials-phishable-hackable)
@@ -402,15 +669,29 @@
   - `[DuckDuckGo]` [Device Bound Session Credentials (DBSC) - Chrome Developers](https://developer.chrome.com/docs/web-platform/device-bound-session-credentials)
     > *"Apr 15, 2025 · Learn how to enhance your web application's security by integrating Device Bound Session Credentials (DBSC) to protect against session hijacking."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Avrupa Birliği Mesajlarımızı Okuyacak - S.A.H E169 - 2026-07-12
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Avrupa Birliği'nin Chat Control 1.0 yasasını geçirmesinin uçtan uca şifrelemeyi tamamen yok etmeye giden bir basamak olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %43.8 | BELIRSIZ: %15.1 | TUTMADI: %2.9 | TUTTU: %38.2`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin parlamentodan geçirdiği Chat Control 1.0 yasasıyla Gmail, Instagram, Discord gibi platformlarda mahkeme kararı olmadan mesajların taranmasını yorumlayan Utku Şen, asıl hedefin WhatsApp ve Signal gibi platformlardaki uçtan uca şifrelemeyi kırmak olduğunu belirtiyor. Bu yasanın şifrelemeyi tamamen ortadan kaldırmaya giden tehlikeli bir basamak olduğunu kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Chat Control 2026: What It Means for Encryption | Wire](https://wire.com/en/blog/chat-control-explained)
     > *"| | | | --- | | Chat Control 1.0 | Chat Control 2.0 | | Legal form | Temporary derogation from the ePrivacy Directive | Permanent Child Sexual Abuse Regulation (CSAR) | | Scanning | Voluntary, by providers that choose to | Legal duties, including possible detection orders | | End-to-end encryption | Explicitly excluded | Still under negotiation | |..."*
   - `[Tavily]` [Chat Control: EU to decide on requirement for tech firms to scan encrypted messages | Computer Weekly](https://www.computerweekly.com/news/366630597/Chat-Control-EU-to-decide-on-requirement-for-tech-firms-to-scan-encrypted-messages)
@@ -422,11 +703,21 @@
   - `[DuckDuckGo]` [EU Chat Control 2.0 Passed: The End of Private Messaging in ...](https://www.soloflight.io/blog/eu-chat-control-encryption-2026)
     > *"May 20, 2026 · The European Council approved Chat Control 2.0 on May 20, 2026, requiring all messaging apps to scan every message for flagged content — even in end-to-end encrypted apps. Here's what it means — and what a VPN can and can't do about it."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, önümüzdeki dönemde yapay zeka ürünlerinin düz yazı yerine kullanıcı deneyimine ve göze hitap eden görsel arayüzlere ağırlık vereceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %68.8 | BELIRSIZ: %9.4 | KISMEN TUTTU: %20.0 | TUTMADI: %1.8`
 - **Videoda Ne Demişti:** Eren Bali'nin 40 milyon dolar yatırım alan Monogram AI isimli uygulamasını değerlendiren Utku Şen, yapay zekanın salt metin vermesinin yetersiz kaldığını anlatıyor. Önümüzdeki süreçte yapay zeka sektörünün kullanıcı deneyimine odaklanacağını, göze hitap eden ve kullanımı keyifli hale getiren görsel tasarımların öne çıkacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [UX/UI design trends for 2026: calm interfaces, transparent AI and the end of visual theatrics](https://elements.envato.com/learn/ux-ui-design-trends)
     > *"TL,DR: UX/UI in 2026 trades visual spectacle for cognitive clarity. The defining trends are transparent AI-native interfaces users can override, calm design that lowers cognitive load, motion that explains rather than performs, accessibility treated as infrastructure, multimodal interaction, and token-based systems built to change. The reward this..."*
   - `[Tavily]` [AI-Driven Trends in UI/UX Design (2025–2026) | by Design Studio UI/UX | Medium](https://medium.com/@designstudiouiux/ai-driven-trends-in-ui-ux-design-2025-2026-7cb03e5e5324)
@@ -438,15 +729,29 @@
   - `[DuckDuckGo]` [AI in UX/UI Design Trends 2026: Complete Guide](https://www.vezadigital.com/post/ai-ux-ui-design-trends)
     > *"Feb 6, 2026 · In 2026, major AI-driven design trends include advanced personalization, automated accessibility, multimodal interaction patterns, and dynamic visual systems like adaptive color and typography."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Avrupa Neden Geri Kalıyor? - S.A.H E108 - 2025-01-05
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, 2025 yılının yapay zekada Google'ın senesi olabileceğini, Google'ın gümbür gümbür gelerek bu alanda çok geri düşen Apple'ı rahatça sollayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %23.6 | TUTTU: %68.9 | TUTMADI: %1.4 | BELIRSIZ: %6.2`
 - **Videoda Ne Demişti:** Büyük dil modellerinin kıyaslandığı LM Arena sonuçlarında Google Gemini'ın zirveye oturmasını değerlendiren Utku Şen, Apple'ın yapay zeka yarışında çok geride kaldığını anlatıyor. Google'ın büyük bir avantaj yakaladığını belirterek 2025'in Google'ın yılı olacağını ve Apple'ı sollayıp geçeceğini kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Apple Intelligence vs Google Gemini: A Technical Comparison - DEV Community](https://dev.to/alifar/apple-intelligence-vs-google-gemini-a-technical-comparison-4a8a)
     > *"DEV Community DEV Community Cover image for Apple Intelligence vs Google Gemini: A Technical Comparison Ali Farhat Subscriber Posted on Sep 9, 2025 • Originally published at scalevise.com Apple Intelligence vs Google Gemini: A Technical Comparison (...) | Dimension | Apple Intelligence (On-Device) | Google Gemini (Cloud-Native) | --- | Execution Mo..."*
   - `[Tavily]` [Apple vs Google: Who’s More Intelligent?](https://www.youtube.com/watch?v=Uiubs7-URYU)
@@ -458,15 +763,29 @@
   - `[DuckDuckGo]` [Google Gemini Nano Vs Apple Intelligence On-device Models ...](https://www.alibaba.com/product-insights/google-gemini-nano-vs-apple-intelligence-on-device-models-which-handles-offline-tasks-better-in-2025.html)
     > *"Aug 3, 2026 · A detailed, real-world comparison of Google Gemini Nano and Apple Intelligence on-device models for offline AI tasks in 2025—performance, privacy, latency, and practical usability assessed."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Açık Kaynak Modellerin Yarattığı Korku - S.A.H E174 - 2026-09-20
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, açık kaynaklı ve Çin menşeili yapay zeka modellerini kötülemek amacıyla yakında basında teröristin çantasından sansürsüz Qwen çıktığı veya Çinli model kullanan bir şirketin çok fena hacklendiği yönünde algı operasyonu haberleri göreceğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **3.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %21.7 | TUTMADI: %32.1 | BELIRSIZ: %22.7 | TUTTU: %23.5`
 - **Videoda Ne Demişti:** Büyük yapay zeka şirketlerinin açık kaynak tehdidine karşı lobicilik yaptığını ve korku pompaladığını anlatan Utku Şen, kurumsal şirketlerin açık modellere kaymasından büyük devlerin rahatsız olduğunu belirtiyor. Yakında medyada teröristlerin sansürsüz Qwen kullandığı ya da Çinli modellere güvenip hacklenen şirketler olduğu şeklinde algı haberlerinin çıkacağını kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Terrorist Misuse of AI:](https://thesoufancenter.org/wp-content/uploads/2026/09/TSC-Insights-Terrorist-Misuse-of-AI-A-Framework-for-U.S.-China-Cooperation.pdf)
     > *"models will likely feature in future misuse. The main shared interest is that neither country wants an open-weight model to provide meaningful uplift to a terrorist group or radicalized individual, and to face the backlash against open releases that would follow a mass casualty attack that was enabled by such a model. In practice, as other analysts..."*
   - `[Tavily]` [Generating Terror: The Risks of Generative AI Exploitation - Combating Terrorism Center at West Point](https://ctc.westpoint.edu/generating-terror-the-risks-of-generative-ai-exploitation)
@@ -478,11 +797,21 @@
   - `[DuckDuckGo]` [AI gets vengeful and launches smear campaign | Cybernews](https://cybernews.com/security/openclaw-bot-attacks-developer-who-rejected-its-code/)
     > *"Feb 13, 2026 · An autonomous OpenClaw AI agent launched a public smear campaign against a developer after he rejected its code submission on GitHub."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, büyük yapay zeka şirketlerinin lobicilik yaparak regülasyon kanunlarını açık kaynaklı modelleri yasaklayacak ve sadece OpenAI ile Anthropic gibi devlerin karşılayabileceği ağır şartlar getirecek şekilde çıkarttıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %45.2 | TUTMADI: %5.5 | BELIRSIZ: %7.0 | KISMEN TUTTU: %42.3`
 - **Videoda Ne Demişti:** Yapay zekanın tehlikeleri bahanesiyle gündeme getirilen yavaşlama ve regülasyon çağrılarını değerlendiren Utku Şen, büyük şirketlerin asıl amacını açıklıyor. Kanunların öyle bir yazılmasını isteyeceklerini, bu kurallarla açık kaynaklı ve Çinli modellerin tehlikeli ilan edilip yasaklanacağını, meydanın sadece OpenAI ve Anthropic gibi devlere bırakılacağını kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The secret Trump administration battle to fight Chinese AI](https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi)
     > *"Sacks has long warned against regulatory capture that would benefit the largest U.S. labs and stifle competition. While not outright bans, the approaches under consideration would have a chilling effect on Chinese open-source tech and U.S. companies that rely on it, the source close to the administration said. The source described leading AI labs o..."*
   - `[Tavily]` [Why banning open-source AI is a bad idea - Atlantic Council](https://www.atlanticcouncil.org/blogs/econographics/why-banning-open-source-ai-is-a-bad-idea)
@@ -494,11 +823,21 @@
   - `[DuckDuckGo]` [OpenAI and Anthropic Quietly Lobby Against Open AI](https://www.androidheadlines.com/2026/07/openai-anthropic-lobby-washington-open-source-ai-restrictions.html)
     > *"Jul 27, 2026 · A report from The New York Times reveals that OpenAI and Anthropic are lobbying Washington regulators to restrict open-source AI models, citing IP theft by Chinese firms and national..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, açık kaynaklı modellerin son kullanıcı bilgisayarlarında çok daha hızlı ve verimli çalışması sayesinde ileride büyük şirketlerin pahalı frontier modellerine neredeyse hiç ihtiyaç duymayacağımızı söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %14.5 | KISMEN TUTTU: %45.9 | TUTMADI: %16.9 | BELIRSIZ: %22.7`
 - **Videoda Ne Demişti:** MacBook işlemcilerinde yapay zeka modellerini Ollama'dan kat kat hızlı çalıştıran yeni yazılımları inceleyen Utku Şen, yerel optimizasyonların hızla geliştiğini vurguluyor. Açık kaynak modeller kendi donanımlarımızda çok daha iyi çalıştıkça kapalı ve devasa frontier modellere çok nadiren başvuracağımızı, bu sayede büyük paralar harcamaktan kurtulacağımızı kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Local LLMs for Coding: Replacing Claude and GPT with Open Source Models | TechPlanet](https://techplanet.today/post/local-llms-for-coding-replacing-claude-and-gpt-with-open-source-models)
     > *"The key insight: unified memory systems (like Apple Silicon and Strix Halo) are particularly efficient for LLM inference because the model weights don't need to be transferred between CPU and GPU memory. Performance Characteristics Local models have different performance profiles than frontier models: Speed Qwen 3.6 35B-A3B: ~55 tokens/second on hi..."*
   - `[Tavily]` [Open-Source LLMs for Developers: Models, Agents & Local AI | Code To Cloud](https://codetocloud.io/blog/open-source-llms-developers)
@@ -510,15 +849,29 @@
   - `[DuckDuckGo]` [Best Open-Source LLM Models in 2026: Coding, Local, Agentic ...](https://huggingface.co/blog/daya-shankar/open-source-llms)
     > *"Nov 13, 2025 · Open-source AI in 2026 is no longer just the cheaper alternative to closed models. For coding, reasoning, agentic workflows, long-context analysis, and local deployment, open-weight models are now good enough for serious production use. But there is no single best open-source LLM for everyone."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Bir Manipülasyon Aracı Olarak İstatistik ve Yapay Zeka - S.A.H E168 - 2026-07-05
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, ev robotlarının şu an Nokia telefonlar dönemini yaşadığını, piyasayı ele geçirmesi için önce bir iPhone 4 anı yaşaması ve bir Çinli firmanın çıkıp bu robotları ucuza üretmesi gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %25.7 | KISMEN TUTTU: %37.4 | TUTMADI: %4.1 | TUTTU: %32.8`
 - **Videoda Ne Demişti:** Piyasaya çıkan ve aylık 450 dolar abonelikle satılan ev robotlarını değerlendiren Utku Şen, mevcut modellerin bulaşık makinesini düzgün boşaltamayacağını ve çok pahalı olduğunu anlatıyor. Tıpkı iPhone'un ilk yıllarındaki gelişim süreci gibi robotların da zamanla gelişeceğini ama herkesin evine girmesinin ancak bir Çinli firmanın bunu ucuza üretmesiyle mümkün olacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [China builds cheap humanoids at scale, but finding buyers might be the hardest part | Fortune](https://fortune.com/2026/06/09/china-builds-85-percent-worlds-humanoids-robots-cheap)
     > *"Robot makers argue that as production of humanoid robots increases, costs will drop. Using more locally made parts also helped make Chinese robots 20% or more cheaper than foreign models on average, Morgan Stanley said. It estimates the average price could fall to about $21,000 by 2050, from $46,000 last year. Some humanoid robots in China were pri..."*
   - `[Tavily]` [China's AI-powered humanoid robots aim to transform manufacturing | Reuters](https://www.reuters.com/world/china/chinas-ai-powered-humanoid-robots-aim-transform-manufacturing-2025-05-13)
@@ -530,11 +883,21 @@
   - `[DuckDuckGo]` [China Humanoid, Humanoid Wholesale, Manufacturers, Price ...](https://www.made-in-china.com/products-search/hot-china-products/Humanoid.html)
     > *"China Humanoid wholesale - Select 2026 high quality Humanoid products in best price from certified Chinese manufacturers, suppliers, wholesalers and factory on Made-in-China.com"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın gri toplumsal konuları siyah beyaz sonuçlara indirgeme aracına dönüştüğünü, insanların bunu mutlak doğru kabul etmesiyle gelecekte durumun çok daha kötüleşeceğini ve Palantir gibi firmalar eliyle bir baskı silahına dönüştürüleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %64.7 | TUTMADI: %1.5 | BELIRSIZ: %10.9 | KISMEN TUTTU: %22.9`
 - **Videoda Ne Demişti:** Yapay zekanın ve istatistiklerin toplumsal meselelerde manipülasyon aracı olarak kullanılmasını eleştiren Utku Şen, sosyolojik arka planı yok sayan yüzeysel algoritmaların insanları yanıltacağını savunuyor. İleride insanların yapay zekayı sorgulamadan kabul etmesiyle tablonun daha da kararacağını ve özellikle Palantir gibi şirketler üzerinden bu istatistiklerin polislik ve güvenlik kararlarında kesinlikle kullanılacağını kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Palantir CEO Alex Karp Said They Won't Build Tools to Predict Crimes, but Would Do It "Very Well" - Business Insider](https://www.businessinsider.com/palantir-ceo-alex-karp-predictive-policing-crimes-very-well-2022-9)
     > *"Artificial intelligence academics have routinely criticized the idea of predictive policing software and implementations of it. They argue that this software uses past data — often poorly collected or bias-ridden — in order to justify predictions that often amount to drilling down on existing policing practices, including the hyper-surveillance of..."*
   - `[Tavily]` [The Ethics of Palantir’s Surveillance Monopoly – Meteorite](https://sites.lsa.umich.edu/meteorite/2026/02/01/the-ethics-of-palantirs-surveillance-monopoly)
@@ -546,11 +909,21 @@
   - `[DuckDuckGo]` [Palantir's Predictive Policing Technology: A Case of ...](https://www.researchgate.net/publication/385290034_Palantir's_Predictive_Policing_Technology_A_Case_of_algorithmic_Bias_and_Lack_of_Transparency)
     > *"Oct 27, 2024 · This paper examines the ethical implications of predictive policing technology through a critical analysis of the New Orleans Police Department's (NOPD) covert deployment of Palantir's..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, öğrencilerin ödevleri yapay zekaya yazdırmasının önüne geçmek için okullarda klasik sözlü sınav sisteminin mecburen geri döneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %0.4 | TUTMADI: %0.3 | KISMEN TUTTU: %7.2 | TUTTU: %92.1`
 - **Videoda Ne Demişti:** Bir üniversite hocasının yapay zeka ödevlerine karşı geliştirdiği sözlü savunma yöntemini inceleyen Utku Şen, yapay zekanın laf salatası yapıp konudan saptığını ve öğrencilerin bunu kopyala yapıştır ile ödev diye sunduğunu belirtiyor. Öğrencinin konuyu gerçekten anlayıp fikri savunup savunamadığını ölçmenin tek çaresinin bu olduğunu belirterek eğitimde sözlü sınavların geri geleceğini kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Oral exams are making a comeback to stop AI cheating. But they have their own problems](https://theconversation.com/oral-exams-are-making-a-comeback-to-stop-ai-cheating-but-they-have-their-own-problems-289707)
     > *"These variations may not always be intentional, but they can have real impacts for students. Can they really stop cheating? As a measure against cheating, oral assessments are not perfect. A student could use AI to rehearse and remember convincing answers. Another student who wrote every word may freeze under pressure. If we are just using oral exa..."*
   - `[Tavily]` [Professor uses oral exams to combat AI cheating | The Chronicle of Higher Education posted on the topic | LinkedIn](https://www.linkedin.com/posts/the-chronicle-of-higher-education_the-return-of-the-oral-exam-activity-7505327275203129344-MYba)
@@ -562,15 +935,29 @@
   - `[DuckDuckGo]` [Okullarda yapay zeka önlemi: Öğrenciler ödevlerini sözlü ...](https://www.nefes.com.tr/okullarda-yapay-zeka-onlemi-ogrenciler-odevlerini-sozlu-savunacak-143789)
     > *"Aug 8, 2026 · Danimarka hükümeti, lise öğrencilerinin yazılı ödev ve sınavlarda yapay zekayla kopya çekmesini engellemek amacıyla yeni önlemler aldı. Buna göre evde hazırlanan tüm yazılı sınav ve ödevler öğrenciler tarafından sözlü olarak savunulacak."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Bir Vakanın İç Yüzünü Anlamak İçin Nasıl Akıl Yürütürüz? - S.A.H E91 - 2024-04-14
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, Suno ve Udio gibi yapay zeka müzik servislerinin telifli melodileri izinsiz kullandığını, büyük plak şirketlerinin açacağı devasa lisans davaları yüzünden bu platformların yakında patlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %93.5 | KISMEN TUTTU: %5.9 | TUTMADI: %0.3 | BELIRSIZ: %0.3`
 - **Videoda Ne Demişti:** Suno ve Udio gibi müzik üreten yapay zeka araçlarını inceleyen Utku Şen, bu modellerin arkasındaki veri tabanının telifli şarkılardan beslendiğini ve ortada büyük lisans ihlalleri olduğunu anlatıyor. Universal Music ve Sony gibi dev müzik şirketlerinin bu şarkıları analiz edip dava yağdırması gerektiğini belirterek Suno'nun lisans davaları yüzünden patlamasına hiç şaşırmayacağını kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Music labels sue AI companies Suno, Udio for U.S. copyright infringement](https://www.cnbc.com/2024/06/24/music-labels-sue-ai-companies-suno-udio-for-us-copyright-infringement.html)
     > *"The complaints said Suno and Udio users have been able to recreate elements of songs including The Temptations' 'My Girl,' Mariah Carey's 'All I Want for Christmas Is You' and James Brown's 'I Got You (I Feel Good),' and could generate vocals that are 'indistinguishable' from musicians such as Michael Jackson, Bruce Springsteen and ABBA. The labels..."*
   - `[Tavily]` [Music labels sue AI companies Suno, Udio for U.S. copyright infringement](https://www.cnbc.com/amp/2024/06/24/music-labels-sue-ai-companies-suno-udio-for-us-copyright-infringement.html)
@@ -582,11 +969,21 @@
   - `[DuckDuckGo]` [Suno & Udio Lawsuit: UMG, Sony & Warner Case Status](https://ailawsuittracker.com/cases/umg-v-suno/)
     > *"The record labels' copyright suits against the AI music generators Suno and Udio: which labels settled, which suits continue, and the latest rulings."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın müzik piyasasını mahvedeceğini, ortalığı birbirinin kopyası ruhsuz stok şarkıların basacağını ve gerçekten emek veren sanatçıların görünürlüğünün ciddi şekilde azalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %2.2 | TUTMADI: %2.6 | KISMEN TUTTU: %48.6 | TUTTU: %46.5`
 - **Videoda Ne Demişti:** Yapay zeka ile saniyeler içinde şarkı üretilmesini değerlendiren Utku Şen, müzik yapmanın zor ve duygusal bir süreç olduğunu vurguluyor. Herkesin patır patır birbirine benzeyen jenerik şarkılar çıkaracağını, bu yüzden insanların hissettirmek istediği duyguların kaybolacağını ve gerçek müzisyenlerin arka planda kalarak kaybolacağını kendi endişesi ve tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The 1% Problem: Why AI-Generated Music Is Flooding Platforms but Barely Making a Dent in Streams](https://www.webpronews.com/the-1-problem-why-ai-generated-music-is-flooding-platforms-but-barely-making-a-dent-in-streams)
     > *"Major streaming platforms have taken divergent approaches to the AI music influx. Spotify has publicly stated that it does not ban AI-generated content outright but prohibits the use of AI to artificially inflate stream counts — a practice that has plagued the platform for years regardless of whether the music is human- or machine-made. The company..."*
   - `[Tavily]` [AI music is flooding streaming services — but who wants it? | The Verge](https://on.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it)
@@ -598,15 +995,29 @@
   - `[DuckDuckGo]` [AI music is flooding streaming services — but who wants it?](https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it)
     > *"May 3, 2026 · This story from Kate Knibbs at Wired charts how he exploited generative AI, bot farms, and unwitting collaborators to make over $10 million in streaming royalties."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Biz Getirdik Bunu Endüstriye Oğlum - S.A.H E88 - 2024-03-11
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, basılı olarak saklanmayan dijital fotoğrafların, mesajların ve buluttaki verilerin 5-10 yıl içinde şifre unutulması ya da hesap kapanması gibi sebeplerle tamamen silineceğini ve insanlığı tarihi arşiv açısından kötü günlerin beklediğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %16.9 | BELIRSIZ: %52.6 | TUTMADI: %3.0 | KISMEN TUTTU: %27.4`
 - **Videoda Ne Demişti:** İnternetteki milyonlarca akademik makalenin düzgün yedeklenmediği için kaybolma riski taşıdığı haberini yorumlayan Utku Şen, dijital verilerin kalıcılığına güvenilmeyeceğini anlatıyor. Geçmişte yazılan mektupların yüz yıl sonra bile okunabildiğini ama bugün atılan WhatsApp mesajlarının, maillerin ya da fotoğrafların 10 sene sonra Google Drive veya iCloud kapandığında tamamen yok olacağını kendi endişesi ve tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Shining a Light on the Digital Dark Age — LONG NOW IDEAS](https://longnow.org/ideas/shining-a-light-on-the-digital-dark-age)
     > *"accessible to other researchers, technical information essentially becomes unusable or lost. Beyond switching to analog alternatives, which have their own drawbacks, how might we secure our digital information so that it survives for generations? How can individuals, private corporations and public entities coordinate efforts to ensure that their d..."*
   - `[Tavily]` [The Decay of Digital Data puts us into a New Dark Age — Christopher Roosen](https://www.christopherroosen.com/blog/2019/3/25/decay-of-digital-data-a-new-dark-ages)
@@ -618,11 +1029,21 @@
   - `[DuckDuckGo]` [A new Digital Dark Age? Collaborative web tools ... - JSTOR](https://www.jstor.org/stable/42003549)
     > *"This paper explores these problems, discusses potential changes in the nature of archaeological dialogue and information sharing, and posits solutions that might mitigate a second 'Digital Dark Age'."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Türkiye'de IT sektörünün küçülmeye devam edeceğini, üniversitelerde açılan yapay zeka operatörlüğü ve veri analistliği gibi bölümlerden mezun olacak binlerce genci sektörün kaldıramayacağını ve bu durumun işsizlik yaratacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %25.5 | KISMEN TUTTU: %28.3 | BELIRSIZ: %39.1 | TUTMADI: %7.1`
 - **Videoda Ne Demişti:** Üniversitelerde yapay zeka operatörlüğü ve bulut bilişim gibi yeni ön lisans ve lisans programlarının açılmasını değerlendiren Utku Şen, beş sene sonra bu öğrencilerin öğrendiklerinin tamamen eskiyeceğini belirtiyor. Türkiye'deki teknoloji sektörünün ekonomik koşullar nedeniyle giderek küçüldüğünü ve mezun olacak binlerce öğrenciyi istihdam edecek bir pazar bulunamayacağını kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Future of Work: Turkey’s Talent Transformation in the Digital Era: Executive summary](https://www.mckinsey.com/~/media/mckinsey/featured%20insights/future%20of%20organizations/the%20future%20of%20work%20in%20turkey/future-of-work-turkey-executive-summary.pdf)
     > *"The analyses in this report are based on a scenario in which average levels of automation in Turkey are 20 to 25 percent by 2030. The report foresees that in the next decade, automation, AI, and digital technologies, along with complementary investments, have the potential to create 3.1 million net new jobs, considering the economic impact and soci..."*
   - `[Tavily]` [Tech sector continues to shed workers amid AI shift](https://www.ciodive.com/news/IT-sector-hires-comptia-august/829851)
@@ -634,11 +1055,21 @@
   - `[DuckDuckGo]` [Artificial intelligence and technological unemployment ...Turkey AI 2030: Employee Brief | Lead the ShiftWhich Turkiye Jobs Are Mo...](https://www.sciencedirect.com/science/article/pii/S2199853125001428)
     > *"Sep 1, 2025 · To understand the current publication nature and status of AI's adverse impact on the employment sector, we use bibliometric analysis, which shows the publication trend of the adverse effects of AI on the employment sector over time, top-cited journals, and most active countries. Mar 5, 2026 · Turkey's employment situation is more com..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, şirket sırlarını Çin'e kaçıran casus mühendisler yüzünden yakında büyük teknoloji firmalarının Çinli çalışan almayı tamamen bırakacağını ve masum Çinli mühendislere karşı ciddi bir ayrımcılık başlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %48.8 | TUTTU: %0.9 | TUTMADI: %44.6 | KISMEN TUTTU: %5.7`
 - **Videoda Ne Demişti:** Eski bir Google mühendisinin yapay zeka sırlarını çalarak Çinli bir firmaya satması olayını anlatan Utku Şen, bu tip casuslukların kendi vatandaşlarının ayağına sıkmak olduğunu savunuyor. Yarın bir gün Google gibi devlerin artık Çinli mühendis çalıştırmıyoruz diyerek ayrımcılık yapmaya başlayacağını ve normal işinde gücündeki insanların hakkının yeneceğini kendi öngörüsü olarak dile getiriyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Office of Public Affairs |  Former Google Engineer Found Guilty of Economic Espionage and Theft of Confidential AI Technology | Un...](https://www.justice.gov/opa/pr/former-google-engineer-found-guilty-economic-espionage-and-theft-confidential-ai-technology)
     > *"In presentations to investors, Ding called out the PRC’s national policies prioritizing AI development and innovation in the PRC, and in late 2023 Ding applied for a government sponsored “talent plan” in Shanghai, PRC. The jury heard evidence pertaining to the PRC government’s establishment of talent plans to encourage individuals to come to China..."*
   - `[Tavily]` [Survey of Chinese Espionage in the United States Since 2000 | Strategic Technologies Program | CSIS](https://www.csis.org/programs/strategic-technologies-program/survey-chinese-espionage-united-states-2000)
@@ -650,15 +1081,29 @@
   - `[DuckDuckGo]` [The Nvidia Case: The Chinese Human-Intelligence Threat to ...](https://lansinginstitute.org/2026/11/09/the-nvidia-case-the-chinese-human-intelligence-threat-to-americas-technology-sector/)
     > *"Nov 9, 2026 · The investigation into the possible exploitation by Chinese intelligence of Nvidia CEO Jensen Huang’s personal relationship with businesswoman Alice Huang (Huang Le) reveals a potential vulnerability in the American technology industry."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Bulut Sunucu Diye Bir Şey Yoktur, Her Şey Fizikseldir - S.A.H E140 - 2025-10-12
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın kaynak kodlardaki güvenlik açıklarını bulma sorununu çözeceğini, açık sayısı dramatik biçimde düşeceği için sızma testi (pentest) uzmanlarına olan ihtiyacın ciddi şekilde azalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %11.9 | TUTTU: %20.6 | KISMEN TUTTU: %52.3 | BELIRSIZ: %15.2`
 - **Videoda Ne Demişti:** Google'ın kod tabanlarında açık arayan yapay zeka sistemi CodeMender'ı değerlendiren Utku Şen, blog yazısında savunduğu tezini hatırlatıyor. Yapay zekanın agentic mimariyle koddaki açıkları eksiksiz bulacağını, açık sayısı dramatik şekilde azalınca penetration tester uzmanlarına olan ihtiyacın da sert bir düşüşe geçeceğini kendi iddiası ve geleceğe dair dönüm noktası olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The “AI Can’t Replace Pentesters” Take is Outdated. Here’s What’s Actually Happening.](https://medium.com/@hungry.soul/the-ai-cant-replace-pentesters-take-is-outdated-here-s-what-s-actually-happening-3048e3a22ada)
     > *"Think about it. A senior pentester reviewing source code can maybe cover a few thousand lines per day with real depth. An AI agent can ingest an entire codebase, build a mental model of the data flow, identify every point where user input touches a sensitive operation, cross-reference against known vulnerability patterns across every language and f..."*
   - `[Tavily]` [Will AI Replace Human Pentesters?](https://www.linkedin.com/pulse/ai-replace-human-pentesters-redfoxsec-lyoff)
@@ -670,11 +1115,21 @@
   - `[DuckDuckGo]` [Transform QA with AI - The Future of Testing Is AI](https://www.bing.com/aclick?ld=e8jU_W-E7kuktQWozygmMMdzVUCUxOVNBwFu4zEFDZtRB8NChQQZALd5FSy05Z0Z9vegAZht3tO7uReK051XJiIJxwMOgnM3dRWa8Dnan_Oo6TJR8r0kZ0hnxzkyq0vpmfsGP_y52-MQtILjcx-e-J8VlIrxHoBWCkDvSRN3JYwnb5sTHyzFN2V85OUtEHEI0uGfW-jMifV8lbvmkXGEmoyfj-ObQ&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MzMwMDIxNzA5NyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwOTAxNjM5Njg4MSUyNmRzX2FfY2lkJTNkNDExNTg1OTYyJTI2ZHNfYV9jYWlkJTNkMjM1OTE2MzE3MjElMjZkc19hX2FnaWQlM2QxOTQ1MTAxMTI0NTglMjZkc19hX2xpZCUzZGt3ZC00MTI2ODgzNjc3OTglMjYlMjZkc19lX2FkaWQlM2Q4MzkwNjkyNzI0ODA0OCUyNmRzX2VfdGFyZ2V0X2lkJTNka3dkLTgzOTA3ODYwNTA2MjIyJTNhbG9jLTE4MiUyNiUyNmRzX2VfbmV0d29yayUzZG8lMjZkc191cmxfdiUzZDIlMjZkc19kZXN0X3VybCUzZGh0dHBzJTNhJTJmJTJmd3d3LnVpcGF0aC5jb20lMmZyZXNvdXJjZXMlMmZhdXRvbWF0aW9uLWFuYWx5c3QtcmVwb3J0cyUyZmdhcnRuZXItbWFnaWMtcXVhZHJhbnQtYWktYXVnbWVudGVkLXNvZnR3YXJlLXRlc3RpbmctdG9vbHMlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV90ZWFtJTNkcGRpJTI2dXRtX3RlYW1fZ2VvJTNkZ2xvYmFsJTI2dXRtX2NhbXBhaWduJTNkQVIyNUdNUVRFU1QlMjZ1dG1fdGVybSUzZGFydGlmaWNpYWwlMjUyMGludGVsbGlnZW5jZSUyNTIwaW4lMjUyMHNvZnR3YXJlJTI1MjB0ZXN0aW5nLXAtYy1vJTI2dXRtX2NvbnRlbnQlM2RHX1Byb2R1Y3RfQWdlbnRpYy1UZXN0aW5nJTI2Z2NsaWQlM2QxZjM4MzY0MzJkYmIxOTIzYWI1MTVjYjg3YzUzZjFiNCUyNmdjbHNyYyUzZDNwLmRzJTI2JTI2bXNjbGtpZCUzZDFmMzgzNjQzMmRiYjE5MjNhYjUxNWNiODdjNTNmMWI0&rlid=1f3836432dbb1923ab515cb87c53f1b4)
     > *"Read the Gartner Magic Quadrant™ report for AI-Augmented Testing Tools. See why Gartner named UiPath a Leader in AI-Augmented Software Testing Tools. Report Highlights, Development Lifecycle, UiPath Test Cloud, AI-Augmented Tools and more"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Google ve Microsoft gibi devlerin yapay zekalı kod güvenlik araçlarını doğrudan GitHub ve bulut servislerine gömeceğini, üçüncü parti güvenlik startup'larının biteceğini ve bu devlerin dünyanın en büyük siber güvenlik satıcılarına dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %16.5 | TUTMADI: %3.5 | TUTTU: %31.8 | KISMEN TUTTU: %48.2`
 - **Videoda Ne Demişti:** Büyük modellerin ve yapay zeka ajanlarının kod analizi yeteneklerini inceleyen Utku Şen, gelecekte şirketlerin harici kod analiz yazılımları almayacağını belirtiyor. GitHub veya Google Cloud alan kurumlara bu güvenlik araçlarının hazır sunulacağını, bu sayede Microsoft ve Google'ın sektörün en büyük siber güvenlik ürün tedarikçisi haline geleceğini kendi öngörüsü olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Microsoft unveils its first cybersecurity AI model](https://www.youtube.com/watch?v=-oMyssIU3Bo)
     > *"(0:51) GOOGLE ALSO HAS ITS OWN DISTINCT CYBER SECURITY MODEL, AND ANTHROPIC MYTHOS HAS GOTTEN THE MOST BUZZ BY FAR IN THIS SPACE, ESPECIALLY AFTER IT WAS (0:59) PULLED FROM THE MARKET BY THE US GOVERNMENT. IT IS CONSIDERED THE MOST CAPABLE ON ONE HAND, BUT IT IS ALSO THE MOST EXPENSIVE VERSION OUT THERE ON (1:07) THE MARKET. MICROSOFT'S MOVE TO UND..."*
   - `[Tavily]` [Microsoft and Google using LLMs for Cybersecurity — LessWrong](https://www.lesswrong.com/posts/kC99z2biut5MGbpvt/microsoft-and-google-using-llms-for-cybersecurity)
@@ -686,11 +1141,21 @@
   - `[DuckDuckGo]` [Siber güvenlik için yapay zeka nedir? | Microsoft Güvenlik](https://www.microsoft.com/tr-tr/security/business/security-101/what-is-ai-for-cybersecurity)
     > *"Özetle, siber güvenlik için yapay zeka, bir organizasyonun genel güvenlik duruşunu geliştirmek için yapay zeka sistemlerinin kullanılması anlamına gelirken, yapay zeka güvenliği, yapay zeka sistemlerini korumakla ilgilidir."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, ABD baskısı ve küresel kutuplaşma yüzünden Çin ve diğer ülkelerin açık kaynak yapay zeka paylaşımını tamamen durdurabileceğini, yerli modeller geliştirilmezse açık kaynaksız kalarak ortada kalma tehlikemiz olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %11.1 | BELIRSIZ: %33.5 | KISMEN TUTTU: %35.2 | TUTMADI: %20.3`
 - **Videoda Ne Demişti:** Türkçe veriyle eğitilen Kumru dil modelini yorumlayan Utku Şen, dünyadaki teknolojik izolasyon trendine dikkat çekiyor. Çin ve Batı arasındaki gerilim tırmandıkça ülkelerin modelleri sadece kendi içinde kullanıp açık kaynak paylaşımını kesebileceğini, bu yüzden Türkiye'nin kendi modellerini geliştirerek bu yarışın içinde mutlaka yer alması gerektiğini kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Export Controls on Open-Source Models Will Not Win the AI Race](https://www.justsecurity.org/108144/blanket-bans-software-exports-not-solution-ai-arms-race)
     > *"If policymakers wish to balance geopolitical and ideological considerations, export controls on open-source models are not the solution. Such attempts to partially limit access to information would likely be porous and ineffective, while potentially disrupting innovation and American influence. A more effective alternative would be to focus on risk..."*
   - `[Tavily]` [Trump's AI restrictions spur open-source model demand](https://fox59.com/news/national-world/trump-restrictions-on-private-ai-models-turns-attention-to-open-source)
@@ -702,15 +1167,29 @@
   - `[DuckDuckGo]` [Open-Source AI's Geopolitical Turn, From Shared Commons to ...](https://www.aiinsightnote.com/insights/open-source-ai-geopolitical-weaponization)
     > *"The simultaneous prominence of Meta's Llama releases and DeepSeek's open-weight distribution has revealed a structural shift: open-source AI is no longer simply a development philosophy but an instrument of geopolitical competition."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Büyük Prodüksiyonlu Hack Dönemi - S.A.H E158 - 2026-04-05
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Axios gibi tüm internetin kullandığı kritik açık kaynak paketlerin tek bir geliştiricinin eline bırakılamayacağını, dev teknoloji şirketlerinin fon kurup bu paketleri satın alarak kurumsal güvenceye almaması halinde tedarik zinciri saldırılarının önünün asla alınamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %8.5 | BELIRSIZ: %82.8 | TUTTU: %3.0 | TUTMADI: %5.8`
 - **Videoda Ne Demişti:** Haftada 10 milyon indirilen popüler Axios paketinin tek bir geliştiricinin sosyal mühendislikle hacklenmesi sonucu ele geçirilmesini inceleyen Utku Şen, açık kaynak dünyasının en büyük zayıflığının bu olduğunu anlatıyor. Dev şirketlerin bir araya gelip bu kritik paketleri geliştiricilerden satın alması ve güvenliğini üstlenmesi gerektiğini, aksi takdirde bu hack dalgalarının durdurulamayacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Mitigating the Axios npm supply chain compromise | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise)
     > *"Roll back all deployments of Axios to safe versions (1.14.0 or 0.30.3 or earlier). Use overrides to force pinned versions for transitive dependencies. Flush the local cache with “npm cache clean –force“. Disable or restrict automated dependency bots for critical packages. Adopt Trusted Publishing with OIDC to eliminate stored credentials. (...) The..."*
   - `[Tavily]` [Supply Chain Compromise of axios npm Package | Huntress](https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package)
@@ -722,11 +1201,21 @@
   - `[DuckDuckGo]` [Mitigating the Axios npm supply chain compromise](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/)
     > *"Apr 1, 2026 · On March 31, 2026, two new npm packages for updated versions of Axios, a popular HTTP client for JavaScript that simplifies making HTTP requests to a REST endpoint with over 70 million weekly downloads, were identified as malicious."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, güvenlik denetimlerini paravan firmalara yaptırdığı ve sahte raporlar sunduğu ortaya çıkan Delve firmasının bu skandaldan sonra bir daha asla toparlanamayacağını ve piyasada iş yapamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.8 | TUTTU: %37.6 | KISMEN TUTTU: %12.4 | BELIRSIZ: %47.2`
 - **Videoda Ne Demişti:** Güvenlik uyumluluk sertifikaları satan Delve firmasının denetimleri derme çatma taşeron şirketlere yaptırdığının ortaya çıkmasını ve ardından gelen özür videosunu değerlendiren Utku Şen, şirketin güveni tamamen kaybettiğini belirtiyor. Y Combinator ağından da atılan firmanın bu saatten sonra bir daha iş yapamayacağını kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Delve Scandal: Fake SOC 2 Audits, Open-Source Code Theft, and Exit from Y Combinator - Captain Compliance](https://captaincompliance.com/news/the-delve-scandal-fake-soc-2-audits-open-source-code-theft-and-exit-from-y-combinator)
     > *"A Y Combinator-backed compliance startup that raised $32 million at a $300 million valuation has imploded amid explosive allegations of “fake compliance as a service.” Delve (delve.co), which promised AI-powered SOC 2, ISO 27001, HIPAA, and GDPR certifications in days instead of months, now faces accusations of pre-generating auditor conclusions, u..."*
   - `[Tavily]` [SOC 2 Is Broken. The Delve Scandal Is Showing Us How. | Corporate Compliance Insights](https://www.corporatecomplianceinsights.com/soc-2-broken-delve-scandal-shows)
@@ -738,15 +1227,29 @@
   - `[DuckDuckGo]` [The Delve Scandal: Fake Compliance, Real Consequences](https://www.valentis.ai/blog/delve-fake-compliance-scandal)
     > *"Mar 27, 2026 · In December 2025, a publicly accessible Google spreadsheet exposed hundreds of confidential client audit reports. Delve acknowledged the leak internally, with CEO Kaushik emailing customers to assure them no external party had gained access to sensitive data."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Cem Uzan'a Hapis Şoku - S.A.H E151 - 2026-02-01
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, üretken yapay zekanın oyun motorlarının sonunu getireceği iddialarının fazlasıyla abartıldığını, Unreal Engine ve Unity gibi geleneksel oyun motorlarının yoğun şekilde kullanılmaya devam edeceğini ve yapay zekanın sadece sahne tasarımı gibi süreçleri hızlandıran bir yardımcı olarak kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %4.3 | TUTMADI: %0.7 | KISMEN TUTTU: %15.5 | TUTTU: %79.5`
 - **Videoda Ne Demişti:** Yapay zekayla interaktif dünya ve görsel üreten sistemlerin çıkmasıyla oyun motorlarının bittiği yönündeki iddiaları ve oyun şirketlerinin hisselerinin düşmesini yorumlayan Utku Şen, yapay zekanın sadece ardışık resimler ürettiğini, fizik motoru ve nesne tutarlılığı gibi temel dinamikleri sağlayamadığını anlatıyor. Unreal Engine ve Unity gibi motorların yerini koruyacağını ve yapay zekanın bu sistemleri sadece hızlandıracağını kendi öngörüsü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [GDevelop vs Unity, Godot & Unreal: Built-In AI Makes Gamedev Easier | GDevelop](https://gdevelop.io/blog/gdevelop-unity-godot-unreal-ai)
     > *"Adding AI into the workflow makes this even smoother, instead of wiring Blueprints or digging through menus, you can let GDevelop’s AI Agent generate systems for you: enemies, UI, upgrades, and more. The result isn’t a replacement for Unreal’s AAA capabilities, but it’s a faster, lighter way to bring your ideas to life without overhead. (...) GDeve..."*
   - `[Tavily]` [Three Epic veterans are building an AI-powered game engine to break the industry's doom cycle | GamesIndustry.biz](https://www.gamesindustry.biz/three-epic-veterans-are-building-an-ai-powered-game-engine-to-break-the-industrys-doom-cycle)
@@ -758,11 +1261,21 @@
   - `[DuckDuckGo]` [Best AI Gaming Tools 2026: Unreal Engine vs Unity vs Inworld ...](https://www.aitrove.ai/blog/best-ai-gaming-tools)
     > *"Apr 30, 2026 · Compare the best AI gaming tools in 2026 — Unreal Engine, Unity, Inworld AI, Scenario, and more. Find the perfect AI tools for game development and creation."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Türkiye'de ciddi ve caydırıcı parasal yaptırımlar uygulanmadığı sürece şirketlerin güvenlik önlemi almayacağını, bu cezasızlık düzeni sürdükçe yeni yerlerin hacklenmeye ve veri sızıntılarının aralıksız devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %14.5 | TUTMADI: %24.8 | TUTTU: %28.7 | BELIRSIZ: %32.0`
 - **Videoda Ne Demişti:** Köfteci Yusuf ve çeşitli kurumlardaki güncel veri sızıntısı haberlerini değerlendiren Utku Şen, sızıntıların artık haber değeri bile görmeyecek kadar kanıksandığını belirtiyor. Hacklenen firmaların hiçbir bedel ödemediğini, şirketler için caydırıcı maddi cezalar getirilmedikçe güvenlik yatırımı yapılmayacağını ve veri sızıntılarının kaçınılmaz olarak süreceğini kendi tespiti ve öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Cybersecurity Laws and Regulations Report 2026 Turkey](https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/turkey)
     > *"Non-compliance may trigger administrative fines and other measures under several regimes. The Cybersecurity Law provides for substantial administrative fines ranging from 100,000 to 100 million Turkish lira, and, for certain company level breaches, up to five per cent of gross annual sales as shown in independently audited financial statements, it..."*
   - `[Tavily]` [Inside Turkey’s New Cybersecurity Regulation | Corporate Compliance Insights](https://www.corporatecomplianceinsights.com/inside-turkey-new-cybersecurity-regulation)
@@ -772,15 +1285,29 @@
   - `[Tavily]` [Key Data and Cybersecurity Laws | Turkiye | Global Data and Cyber Handbook Lite | Baker McKenzie Resource Hub](https://resourcehub.bakermckenzie.com/pl-pl/resources/global-data-and-cyber-handbook-lite/emea/turkiye/topics/key-data-and-cybersecurity-laws)
     > *"Under Article 136 of the Turkish Criminal Code, the unlawful disclosure of personal data may result in criminal liability punishable by two to four years of imprisonment (or the imposition of security measures on legal entities, such as the seizure of assets). In cases involving qualified forms of the offense, the applicable sanctions are increased..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## ChatGPT Yazışmalarınızı Çalan "Ücretsiz" VPN - S.A.H E148 - 2025-12-21
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, insanların tarayıcı alışkanlıklarını değiştirmenin neredeyse imkansız olduğunu, bu yüzden OpenAI'ın çıkardığı yapay zekalı tarayıcının asla tutmayacağını ve şirketin kötü kararlar yüzünden yokuş aşağı gittiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.9 | KISMEN TUTTU: %13.3 | BELIRSIZ: %0.6 | TUTTU: %85.1`
 - **Videoda Ne Demişti:** Antropic'in Chrome eklentisi çıkarmasını överken OpenAI'ın ayrı bir tarayıcı (Atlas) geliştirmesini eleştiren Utku Şen, insanların takım tutar gibi Chrome veya Safari kullandığını anlatıyor. Bu yerleşik alışkanlıkların kırılamayacağını, çok fazla token yakan ve verimsiz çalışan bu tarayıcı hamlesinin tutmayacağını kendi değerlendirmesi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI: Artificial Intelligence | I got my hands on OpenAI's new "ChatGPT Atlas" browser, and I have to be radically honest: I'm deepl...](https://www.facebook.com/groups/698593531630485/posts/1421269029362928)
     > *"Log In Log In Forgot Account? . I gave it the exact same prompt. It correctly identified the messages, confirmed I wanted them archived, and did the job. One tool, ChatGPT Atlas created more work, frustration, and noise. The other, Perplexity Comet, created value. I was genuinely excited for Atlas, because I believe in the potential of this technol..."*
   - `[Tavily]` [Why ChatGPT Atlas Browser Won’t Take Down Google | In The Loop Episode 36 — Mindset AI](https://www.mindset.ai/blogs/in-the-loop-ep36-openai-atlas-browser)
@@ -792,11 +1319,21 @@
   - `[DuckDuckGo]` [OpenAI Atlas Browser: Sunset & Migration - insights.terabox.com](https://insights.terabox.com/hub/what-happened-to-openai-atlas-and-how-to-migrate-your-data)
     > *"Aug 9, 2026 · OpenAI Atlas is shut down. Learn how to export data, why it was cancelled, and find top AI browser alternatives for Windows and Mac."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, kamu kurumlarının kullandığı kritik yazılımların yabancı istihbarat bağlantılı şirketlere satılmasını engellemek için devletlerin yakında bu devirleri yasaklayan sert kanunlar getireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %46.9 | KISMEN TUTTU: %24.7 | TUTTU: %22.6 | TUTMADI: %5.7`
 - **Videoda Ne Demişti:** Avrupa ve İngiltere sağlık bakanlıklarının kullandığı Ziver isimli mesajlaşma yazılımının İsrail istihbaratıyla ilişkili bir şirkete satılmasını değerlendiren Utku Şen, devletlerin kritik yazılımlarını korumak zorunda olduğunu belirtiyor. Hollanda örneğinde olduğu gibi bu tür yabancıya satışları engelleyecek yeni yasal düzenlemeleri yakında görmeye başlayacağımızı kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Definition of Critical Software Under Executive Order (EO) 14028](https://www.nist.gov/document/definition-critical-software-under-executive-order-eo-14028)
     > *"In particular, the EO seeks to limit acquisition to software that has met security measures such as use of a secure development process and integrity checks that are defined in Section 4(e) of the EO. Given the broad scope of the EO and its potential impact on both government operations and the software marketplace, NIST set the following goals for..."*
   - `[Tavily]` [White House Pushes Ban on Foreign Tech in the Electric Grid | Brownstein](https://www.bhfs.com/insight/white-house-pushes-ban-on-foreign-tech-in-the-electric-grid)
@@ -806,11 +1343,21 @@
   - `[Tavily]` [(PDF) The Regulation of Foreign Platforms - Stanford Law Review](https://review.law.stanford.edu/wp-content/uploads/sites/3/2022/05/Sitaraman-74-Stan.-L.-Rev.-1073.pdf)
     > *"with other department and agency heads,473 determines that they endanger national security.474 Specifically, the Secretary must evaluate whether the foreign adversary’s technology “poses an undue risk of sabotage to or subversion of” U.S. information and communications technologies and services, whether it “poses an undue risk of catastrophic effec..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, bu işin uzmanları bile tek bir kopyala yapıştır hatasıyla 50 milyon dolar kaptırırken, cüzdan yazılımları bu kadar ilkel kaldığı sürece kripto paraların sıradan vatandaşa inmesinin kesinlikle mümkün olmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.7 | KISMEN TUTTU: %20.4 | BELIRSIZ: %30.4 | TUTTU: %45.4`
 - **Videoda Ne Demişti:** Adres zehirleme tuzağına düşüp benzer cüzdan adresine 50 milyon dolar gönderen bir kripto yatırımcısının vakasını inceleyen Utku Şen, cüzdan yazılımlarının insan hatasını önlemeyen ilkel tasarımlarını eleştiriyor. Bu teknolojiyi yıllardır kullanan uzmanların bile kolayca dolandırılabildiği bir ortamda kriptonun halk tabanına yayılamayacağını kendi görüşü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Crypto’s Biggest Barrier to Adoption? It’s Not Regulation — It’s UX](https://www.coindesk.com/opinion/2025/04/12/crypto-s-biggest-barrier-to-adoption-it-s-not-regulation-it-s-ux)
     > *"To reach mainstream adoption, the industry must prioritize usability — making wallets and financial tools more accessible — without compromising the core principles of decentralization. Until then, poor UX will continue to hold crypto back. Vitalik Buterin’s Call for Account Abstraction (...) This is where human-centered design becomes essential. D..."*
   - `[Tavily]` [What's Holding Back Mass Digital Asset Adoption, and What Will Finally Break Through?](https://digitalassetsus.wbresearch.com/blog/digital-asset-adoption-barriers-breakthroughs)
@@ -822,15 +1369,29 @@
   - `[DuckDuckGo]` [Why Crypto Mass Adoption Is Stalled by Wallet Complexity](https://coin360.com/learn/why-crypto-mass-adoption-is-stalled-by-wallet-complexity)
     > *"Jul 2, 2025 · Crypto wallet complexity turns people away fast. According to a recent Consensys report, over 80% of Web3 dApp users connect via non-custodial wallets, but in fact, about 65% of new users drop off after their first dApp interaction, mostly due to confusing wallet flows and clunky design."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Claude Şaha Kalktı, OpenAI Boş İşler Peşinde - S.A.H E157 - 2026-03-29
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın olay müdahalesi ve kod analizi gibi işleri kolaylaştırmasıyla siber güvenlik uzmanlarının sadece tek bir alana odaklanma lüksünün biteceğini, herkesin genelci pozisyonlara evrilmek zorunda kalacağını ve her işten anlayan profillerin öne çıkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %44.0 | BELIRSIZ: %17.9 | TUTMADI: %13.2 | TUTTU: %24.9`
 - **Videoda Ne Demişti:** Light LLM yazılımındaki tedarik zinciri saldırısının bir geliştirici tarafından Claude Code yardımıyla çözülmesini değerlendiren Utku Şen, yapay zekanın olay müdahalesi süreçlerinde çok daha fazla kullanılacağını anlatıyor. Siber güvenlikçilerin sadece sızma testi yapıp kenara çekilemeyeceğini, yapay zekayı bir ahtapot gibi yönlendirerek pek çok işi aynı anda yapabilen genelci uzmanlara dönüşeceklerini kendi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will AI Replace Cyber Security Analyst Jobs? | JobZone Risk](https://jobzonerisk.com/roles/cyber-security-analyst)
     > *"The most common title in cybersecurity — and the most vulnerable generalist role. AI automates 75% of daily task time across SIEM, vulnerability scanning, and compliance. Solo practitioners on small teams survive by becoming AI-augmented generalists, those on larger teams get replaced by specialists. Act within 2-3 years. ⊘ There's no AI-Driven ver..."*
   - `[Tavily]` [The Rise of the Cybersecurity Generalist: How AI is Revolutionizing Cybersecurity | Debasis Behera posted on the topic | LinkedIn](https://www.linkedin.com/posts/debasis-behera-04385930_cybersecurity-aigeneralist-aiincybersecurity-activity-7348582772657045504-F2EE)
@@ -842,11 +1403,21 @@
   - `[DuckDuckGo]` [AI Is Reshaping Cybersecurity Careers, Not Replacing Them](https://www.analyticsinsight.net/career/ai-is-reshaping-cybersecurity-careers-not-replacing-them)
     > *"Jun 11, 2026 · AI is unlikely to replace cybersecurity professionals entirely. While it can automate repetitive tasks such as log analysis and threat triage, organizations still need people to make decisions, investigate complex incidents, and manage security risks."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, küçük yerel modellerin kişisel bilgisayarlarda yüksek başarıyla çalışması sayesinde evdeki bir bilgisayarın güvenlik analistine dönüşeceğini ve yerel yapay zekayla çalışan akıllı güvenlik kamerası projelerini ileride çok daha fazla göreceğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %84.7 | TUTMADI: %0.5 | BELIRSIZ: %2.9 | KISMEN TUTTU: %11.9`
 - **Videoda Ne Demişti:** Güvenlik kameralarını yapay zekayla entegre eden Sharp AI projesini inceleyen Utku Şen, 9 milyar parametreli modellerin bir MacBook Pro üzerinde bile yüzde 90 üzerinde doğrulukla çalışabildiğini belirtiyor. Kişisel donanımlarla çalışan bu tarz yerel güvenlik kamerası ve gözetleme projelerinin gelecekte hızla çoğalacağını kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Aizip - How Local Vision Language Models Can Transform Security Cameras Without Cloud Dependency](https://aizip.ai/news/vlm)
     > *"But this is where on-device gets interesting. Because inference is local and essentially free after hardware cost, you're not paying per frame. That means for scenarios that demand it, you can run the VLM continuously, streaming analysis around the clock. For context, even the best traditional monitoring centers take 15 to 45 seconds just to proces..."*
   - `[Tavily]` [Building a Real-Time Security Camera System with Local Vision LLMs - DEV Community](https://dev.to/ljkunal/building-a-real-time-security-camera-system-with-local-vision-llms-2kgj)
@@ -858,15 +1429,29 @@
   - `[DuckDuckGo]` [The 5 Best AI Smart Security Camera Systems (2026)](https://www.securitycamhq.com/guide/best-ai-smart-security-camera-systems/)
     > *"Oct 2, 2026 · Ethernet installation takes planning, but local recording and stable camera links make these practical for fixed coverage. Compare the exact camera count, NVR capacity and AI detection features of each kit."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Daron Acemoğlu vs. Teknoloji Elitleri - S.A.H E172 - 2026-09-06
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın iş gücünü azaltmasıyla birlikte şirketlerde alt ve orta kademe yöneticilik (line manager) pozisyonlarının yakında gereksizleşeceğini, daha az personelin performans ve izin takiplerinin bile merkezi yapay zekayla yapılacağı bir döneme girildiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.7 | KISMEN TUTTU: %27.7 | TUTMADI: %1.6 | TUTTU: %62.1`
 - **Videoda Ne Demişti:** Uber'in yöneticilik kadrolarında işten çıkarmaya gitmesini yorumlayan Utku Şen, yapay zeka desteğiyle az sayıda mühendisin çok kişinin işini yapacağını anlatıyor. Bu düzende küçük ekipleri idare eden ara yöneticilere ihtiyaç kalmayacağını, çalışanların performans ölçümü ve izin onaylarının bile merkezi yapay zekalarla yönetileceğini kendi tezi ve öngörüsü olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Great Flattening: Middle Management Cuts in the AI Era](https://www.lepaya.com/blog/insights-great-flattening-middle-management-ai)
     > *"Frequently Asked Questions What is The Great Flattening? The Great Flattening is the term used to describe the recent trend of organizations significantly reducing their middle management layers. Between May 2022 and May 2025, manager headcount at public companies fell 6.1%. Companies including Meta, Amazon, Google, Intel, and Estee Lauder have pub..."*
   - `[Tavily]` [Will AI Replace Middle Managers? 50% Could Be Gone by 2027 — Shawn Kanungo](https://shawnkanungo.com/blog/why-50-of-middle-managers-could-be-replaced-by-ai-by-2027-and-what-to-do-if-youre-one)
@@ -878,11 +1463,21 @@
   - `[DuckDuckGo]` [AI Is Eliminating Middle Management. Are Orgs Ready?](https://peoplemanagingpeople.com/hr-strategy/ai-middle-management/)
     > *"Feb 11, 2026 · AI is flattening organizations. Discover why eliminating middle management destroys your leadership pipeline—and what to do before cutting."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zekanın yaratacağı kitlesel işsizlik ve gelir adaletsizliği karşısında Silikon Vadisi elitlerinin vergilerini artırıp servet paylaşmak yerine devlet gücünü kullanarak halk tepkilerini zorla bastırmayı seçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %30.0 | KISMEN TUTTU: %28.8 | BELIRSIZ: %39.1 | TUTMADI: %2.0`
 - **Videoda Ne Demişti:** Daron Acemoğlu'nun otomasyon ve baskı üzerine yazdığı makaleyi değerlendiren Utku Şen, sermayedarların demokrasi ve insan haklarını sadece ek maliyet olarak gördüğünü belirtiyor. Yapay zeka işsizliği getirdiğinde teknoloji elitlerinin karlarından feragat etmek yerine en ucuz yol olan devlet eliyle baskı ve zor kullanma yöntemini devreye sokacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How Artificial Intelligence Is Reshaping Repression | Carnegie Endowment for International Peace](https://carnegieendowment.org/russia-eurasia/posts/2019/01/how-artificial-intelligence-is-reshaping-repression)
     > *"These are not isolated examples. Around the world, AI systems are showing their potential for abetting repressive regimes and upending the relationship between citizen and state, thereby accelerating a global resurgence of authoritarianism. The People’s Republic of China (PRC) is driving the proliferation of AI technology to authoritarian and illib..."*
   - `[Tavily]` [Artificial intelligence (AI) and human rights: Using AI as a weapon of repression and its impact on human rights | Think Tank | Eu...](https://www.europarl.europa.eu/thinktank/en/document/EXPO_IDA(2024)754450)
@@ -894,11 +1489,21 @@
   - `[DuckDuckGo]` [Technofascism: AI, Big Tech, and the new authoritarianism](https://link.springer.com/article/10.1007/s00146-026-02862-9)
     > *"Jan 25, 2026 · Let me analyze how digital technologies (in particular AI), Big Tech, and their political context may display and support fascist tendencies."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, sokakları ve caddeleri planlı şehirlerde sürücüsüz robot taksilerin zamanla maliyet avantajı yakalayarak hızla yayılacağını, Uber gibi şirketlerin de batmamak için mecburen otonom taksi işine gireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %40.0 | TUTMADI: %2.1 | BELIRSIZ: %6.4 | TUTTU: %51.5`
 - **Videoda Ne Demişti:** Amerika'da Waymo ve Tesla Cybercab gibi sürücüsüz taksileri inceleyen Utku Şen, başlangıçtaki yüksek ar-ge maliyetleri aşıldıktan sonra robot taksilerin insanlı taksilere göre çok daha ucuz olacağını anlatıyor. Şehir planlaması düzgün yerlerde bu sistemlerin kaçınılmaz olarak geleceğini ve geride kalan Uber'in de hayatta kalmak için robot taksi modeline adım atacağını kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Uber's robotaxi edge: human drivers](https://www.axios.com/2026/09/23/uber-robotaxi-human-drivers)
     > *"A robotaxi operator needs enough cars to handle its busiest periods — leaving expensive AVs sitting idle when demand falls. Uber, by contrast, can size its robotaxi fleet for normal demand and summon more human drivers when needed. Drivers only get paid when they're working, whereas robotaxis cost money even when they're idle. Reality check:Drivers..."*
   - `[Tavily]` [Uber and Motional launch commercial robotaxi service in Las Vegas](https://ca.finance.yahoo.com/news/uber-motional-launch-commercial-robotaxi-120745594.html)
@@ -910,15 +1515,29 @@
   - `[DuckDuckGo]` [Uber CEO: Robotaxis Will Take Over Drivers' Jobs SoonUber's robotaxi edge: human driversThe Great Robotaxi Gamble — The Trillion-D...](https://www.entrepreneur.com/business-news/uber-ceo-autonomous-vehicles-will-take-over-drivers-soon/486174)
     > *"Sep 23, 2025 · Uber CEO Dara Khosrowshahi says that autonomous vehicles, or self-driving cars, will take over the jobs of human Uber drivers in the next 15 years. Khosrowshahi said that Uber is... Sep 23, 2026 · Why it matters: Uber believes a hybrid network of robots and people can keep its expensive autonomous vehicles busier, and therefore more..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Devlet Destekli Çöpçatanlık Uygulaması - S.A.H E176 - 2026-10-04
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Silikon Vadisi devlerinin tekellerini korumak için devlete koştuğunu, yakında küçük girişimleri saf dışı bırakacak ağır lisans regülasyonları geleceğini ve Amerikan şirketlerine Çin menşeili yapay zeka modelleri kullanmanın kesinlikle yasaklanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `TUTTU: %11.1 | BELIRSIZ: %14.4 | TUTMADI: %22.4 | KISMEN TUTTU: %52.2`
 - **Videoda Ne Demişti:** Trump ile Silikon Vadisi patronlarının buluşmasını ve yapay zeka liderlerinin regülasyon taleplerini değerlendiren Utku Şen, büyük şirketlerin yüz milyarlarca dolarlık zararlarını ve Çin tehdidini anlattığını belirtiyor. Masadaki devlerin küçük oyuncuları engellemek için 500 milyon dolarlık lisans zorunlulukları çıkartacağını ve milli güvenlik kılıfıyla Amerikan şirketlerine Çinli modelleri kullanma yasağı getirileceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why The U.S. Can Never Ban Chinese AI Models](https://www.youtube.com/watch?v=5Zs0DsQj04A)
     > *"(7:51) many companies avoid Quen and Deepseek, not because a law forced them to, but because compliance and procurement risk (7:59) make a Chinese origin model a liability, regardless of whether the weights themselves are safe. That's the friction (8:07) the market is generating on its own. The ban campaign against Chinese AI models has passed the..."*
   - `[Tavily]` [The secret Trump administration battle to fight Chinese AI](https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi)
@@ -930,11 +1549,21 @@
   - `[DuckDuckGo]` [US vs EU vs China AI Regulation 2026: Laws, Fines & Compliance](https://axis-intelligence.com/us-eu-china-ai-regulation/)
     > *"Jul 19, 2026 · The United States has no federal AI law, Executive Order 14365 (December 2025) and a June 2026 follow-up establish voluntary frameworks and seek to preempt state regulation, while 45 states introduced 1,561 AI-related bills in the first half of 2026 alone."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, GLM ve Qwen gibi modellerin ofansif siber güvenlikte jailbreak edilerek çok iyi sonuçlar verdiğini, otomatik saldırı yapan otonom yapay zekalı hackerların sahaya inmesinin an meselesi olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %13.8 | TUTMADI: %0.3 | TUTTU: %84.5 | BELIRSIZ: %1.4`
 - **Videoda Ne Demişti:** Anthropic'in Çinli GLM modelinin siber güvenlik yeteneklerini övdüğü makaleyi ve ofansif yapay zeka modellerinin kıyaslama grafiklerini inceleyen Utku Şen, kırılmış modellerin siber güvenlikte çok tehlikeli olduğunu belirtiyor. Otomatize yapay zekalı hackerların artık kapıda olduğunu ve yakında bu tarz otonom siber saldırganları görmeye başlayacağımızı kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign)
     > *"Unit 42 identified an AI-enabled autonomous hacking campaign carried out by a Chinese-speaking threat actor. They targeted infrastructure using seven vulnerabilities, combining autonomous AI-driven enumeration with manual exploitation that achieved confirmed impact. The actor, operating under the aliases knaithe and KnYuan, leveraged DeepSeek, via..."*
   - `[Tavily]` [Understanding the future of offensive AI in cybersecurity | IBM](https://www.ibm.com/think/x-force/understanding-future-of-offensive-ai-in-cybersecurity)
@@ -946,11 +1575,21 @@
   - `[DuckDuckGo]` [Autonomous LLMjacking: ‘Skynet’ Agent Hijacks Exposed AI ...](https://www.security.com/threat-intelligence/ai-llmjacking-skynet)
     > *"Oct 21, 2026 · Autonomous LLMjacking: ‘Skynet’ Agent Hijacks Exposed AI Models to Run Attacks Offensive agent is using unprotected AI models to scan the web, exploit frameworks, steal credentials and mine cryptocurrency for up to 100,000 steps without human input. The model's owner pays for every step."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, gerçekçi video modelleri geliştikçe şirketlerde yapay zekalı avatarlarla toplantı yapılacağını, yazılı iletişimin yerini sesli ve görüntülü avatarlara bırakacağını ve bu avatarlara aşık olan insanların çıkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %52.2 | TUTTU: %28.8 | BELIRSIZ: %17.1 | TUTMADI: %1.9`
 - **Videoda Ne Demişti:** Tavus firmasının çıkardığı gerçek zamanlı ve çift yönlü konuşabilen Griffin video modelini inceleyen Utku Şen, şirketlerde yapay zeka ajanlarıyla avatar üzerinden toplantı yapma döneminin geleceğini anlatıyor. Metinle yazışmanın geri plana düşeceğini, sesli ve görüntülü temasın öne çıkacağını belirterek yakında bu avatarlarla duygusal ilişki kuracak insanların türeyeceğini kendi öngörüsü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Tech CEOs are sending their AI avatars to meetings - Raconteur](https://www.raconteur.net/technology/ai-avatars-meetings)
     > *"Rafferty claims his teams have “bought into” receiving messages from his AI body double and he describes the tool as “another string to the bow for business communication”. Handing over power to AI While this method of communication is currently one-way, Zoom is training its executives’ AI companions on their communication and decision-making style..."*
   - `[Tavily]` [How small businesses are winning with AI-generated video: insights from our latest survey | Zoom](https://www.zoom.com/en/blog/ai-generated-video-survey-insights)
@@ -962,11 +1601,21 @@
   - `[DuckDuckGo]` [Best Interactive AI Avatars in 2026: Real-Time Platforms](https://www.lifeinside.io/insights/best-ai-avatars)
     > *"Mar 28, 2026 · Interactive AI avatars that hold real conversations, compared: which live, conversational AI avatar platforms fit a website, how they differ and what they cost."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, yapay zekanın yazılım geliştirme maliyetlerini ve ekip boyutlarını inanılmaz düşürmesi sayesinde Avrupa ülkelerinin Amerika bağımlılığını kırarak Palantir gibi devlerin alternatiflerini çok ucuza kendilerinin geliştireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.6 | TUTTU: %54.9 | KISMEN TUTTU: %35.5 | TUTMADI: %1.0`
 - **Videoda Ne Demişti:** Hollanda'nın Amerikan yazılımlarından ve ofis ürünlerinden çıkıp açık kaynak Linux'a geçme kararını yorumlayan Utku Şen, Avrupa'nın her şeyini Amerikan bulutuna bağlamasının büyük risk olduğunu anlatıyor. Yapay zeka sayesinde artık dev bütçeler ve yüzlerce mühendis gerekmeden çok küçük ekiplerle Palantir benzeri ulusal yazılımların rahatlıkla yapılabileceğini ve ülkelerin kendi sistemlerini inşa edeceğini kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [France shifts away from Palantir, towards ‘AI sovereignty’](https://www.computing.co.uk/news/2026/ai/france-shifts-away-from-palantir-towards-ai-sovereignty)
     > *"Video 1 Listen to this article 4 min to select ChapsVision’s ArgonOS platform over Palantir, continuing a broader regional trend towards “sovereign” alternatives. France is bolstering this strategy with additional public investment. The government has announced €655 million in new funding for AI development, aimed at supporting domestic players suc..."*
   - `[Tavily]` [The Palantir paradox: Can European sovereignty be built on controversial US Tech?](https://euperspectives.eu/2026/05/the-palantir-paradox-can-european-sovereignty-be-built-on-controversial-us-tech)
@@ -978,15 +1627,29 @@
   - `[DuckDuckGo]` [Europe hunts for Palantir alternatives as militaries seek to ...](https://www.militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/)
     > *"19 hours ago · Europe's defense ministries are looking to limit dependency on American technology and major software company Palantir Technologies."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Duolingo İle Dil ÖĞRENİLMEZ - S.A.H E141 - 2025-10-19
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka şirketlerinin inovasyon limitlerine dayandığını, büyük hype treninin yakıtının bitmek üzere olduğunu ve insanlığa çığır açıcı faydalar sunamadıkları için artık erotik sohbet gibi yan yollara saptıklarını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %12.2 | KISMEN TUTTU: %31.6 | TUTMADI: %12.2 | TUTTU: %43.9`
 - **Videoda Ne Demişti:** OpenAI'ın ChatGPT'ye erotik sohbet kapısını açmasını ve Meta ile OpenAI'ın TikTok benzeri yapay zeka video akışları çıkarmasını eleştiren Utku Şen, sektörün kanser çözmek veya sağlık sistemini rahatlatmak gibi büyük vaatlerden çok uzaklaştığını anlatıyor. Şirketlerin inovasyon sınırına geldiklerini ve yapay zeka balonunun yakıtı bittiği için dikkat çekmek adına bu tarz saçma sapan özelliklere sarıldıklarını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` ['Erotica' coming to ChatGPT this year, says OpenAI CEO Sam Altman](https://www.cnbc.com/amp/2025/10/15/erotica-coming-to-chatgpt-this-year-says-openai-ceo-sam-altman.html)
     > *"After Altman's post on Tuesday, some social media users were quick to point out his previous statements suggesting that ChatGPT wouldn't implement sexualized chat features, unlike rival models such as xAI's Grok. In an August interview, independent tech journalist Cleo Abram asked Altman to give an example of a decision he had made that was best fo..."*
   - `[Tavily]` [OpenAI faces backlash over allowing ‘erotica’ on ChatGPT – NBC Bay Area](https://www.nbcbayarea.com/news/local/open-ai-backlash-erotica-content/3964802)
@@ -998,11 +1661,21 @@
   - `[DuckDuckGo]` [OpenAI Shelves ChatGPT Erotic Mode and Cuts Side Projects as ...](https://www.techraisal.com/blog/openai-shelves-chatgpt-erotic-mode-and-cuts-side-projects-as-it-refocuses-on-enterprise-ai/)
     > *"Mar 27, 2026 · OpenAI is pulling back from some of its most experimental consumer-facing ideas, including a controversial “erotic mode” for ChatGPT, as it shifts focus toward business users, developers, and high-value contracts. The move signals a clear change in priorities."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Çin'in geliştirdiği görsel ve dil modellerindeki inanılmaz ivmeyle gümbür gümbür geldiğini ve bu gidişle Amerikan teknoloji devlerini yakında sollayabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %35.1 | TUTMADI: %2.1 | KISMEN TUTTU: %53.6 | BELIRSIZ: %9.2`
 - **Videoda Ne Demişti:** Tencent'in geliştirdiği Hunyuan görsel modelinin ve Alibaba modellerinin LM Arena liderlik tablosunda Google'ı geride bırakmasını değerlendiren Utku Şen, finans işlemlerinde de DeepSeek'in ChatGPT'den çok daha başarılı sonuçlar verdiğine dikkat çekiyor. Çinli modellerin kısa sürede devlerle yarışır noktaya geldiğini ve bu ivmeyle giderlerse Amerikan şirketlerini geçmelerinin hiç de şaşırtıcı olmayacağını kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [China vs US: Who is winning the AI race, in four charts | Science and Technology News | Al Jazeera](https://www.aljazeera.com/news/2026/9/24/china-vs-us-who-is-winning-the-ai-race-in-four-charts)
     > *"On OpenRouter, a platform that ranks AI models by real-world use, Chinese models dominate the leaderboard. Models from Chinese companies DeepSeek, Z.ai and Tencent hold the top three spots on OpenRouter by tokens processed, the units of text that AI models read and generate. This is partly because Chinese models are cheaper to use. Many are also op..."*
   - `[Tavily]` [US vs China AI Race: How ChatGPT, Gemini, Deepseek, Kimi Agents Compare](https://www.bloomberg.com/graphics/2026-us-china-ai-race)
@@ -1014,11 +1687,21 @@
   - `[DuckDuckGo]` [Best Chinese AI Models (November 2026): 68 LLMs Ranked](https://benchlm.ai/best/chinese-models)
     > *"1 day ago · A live ranking of AI models from Chinese labs, using the same current public ranking contract as the overall leaderboard. Top picks: Kimi K3.1 Pro, Kimi K3, Ling 3.1 Flash. 68 models ranked with detailed benchmark scores."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, Apple'ın asıl büyük hedefinin yapay zekayı buluta bağlamadan tamamen cihaz üzerinde ve internetsiz çalıştırmak olduğunu, bunu başardığı takdirde diğer tüm teknoloji firmalarını çok fena sollayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %51.3 | TUTTU: %27.9 | BELIRSIZ: %13.1 | TUTMADI: %7.8`
 - **Videoda Ne Demişti:** M5 işlemcili yeni MacBook Pro modellerinin tanıtılmasını ve cihazların yerel yapay zeka performansını değerlendiren Utku Şen, verileri buluta göndermenin mahremiyet açısından risk yarattığını anlatıyor. Apple'ın nihai kızıl elmasının yapay zekayı laptoptan telefona tamamen internetsiz donanım üzerinde çalıştırmak olduğunu ve bu yerel mimariyi başardığında rakiplerini piyasadan sileceğini kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Apple Intelligence Proves On-Device AI is Superior to Cloud Competitors | Basil AI](https://basilai.app/articles/2025-12-19-apple-intelligence-proves-on-device-ai-superior-cloud-competitors.html)
     > *"Quick answer: Apple Intelligence demonstrates that on-device AI outperforms cloud competitors by processing requests 3-5x faster, keeping data completely private, and working reliably without internet connectivity. The Apple Neural Engine performs 15.8 trillion operations per second, eliminating network latency and server dependencies. This proves..."*
   - `[Tavily]` [Apple On-Device AI 2026: Neural Engine, Private Cloud Compute Architecture - IoT Digital Twin PLM](https://iotdigitaltwinplm.com/apple-on-device-ai-neural-engine-private-cloud-compute-2026)
@@ -1030,15 +1713,29 @@
   - `[DuckDuckGo]` [Apple AI On-Device: Where Local Intelligence Ends and Cloud ...](https://applemagazine.com/apple-ai-on-device-limits/)
     > *"Feb 25, 2026 · Apple AI On-Device examines the limits of local processing versus cloud intelligence inside Apple Intelligence, and how both approaches quietly shape daily experiences."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Ekransız Bir Gelecek Bizi Mi Bekliyor? - S.A.H E127 - 2025-06-08
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın ve MCP protokolünün gelişmesiyle web siteleri ve mobil uygulamalar gibi görsel arayüzlerin zamanla tamamen biteceğini, butonlara basmak yerine makinelerle sadece diyalog kuracağımız ekransız bir geleceğe doğru gittiğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %25.8 | BELIRSIZ: %21.1 | KISMEN TUTTU: %49.9 | TUTTU: %3.3`
 - **Videoda Ne Demişti:** Türk Hava Yolları'nın kendi MCP sunucusunu kurması ve OpenAI'ın ekransız bir cihaz girişimini satın alması haberlerini yorumlayan Utku Şen, arayüzlerin (UI) sadece makineler insanı anlamadığı için icat edildiğini anlatıyor. Artık yapay zekanın insan dilini çözdüğünü belirterek görsel arayüzlerin ve butonların giderek yok olacağını, cihazlarla doğrudan konuşarak işlerimizi halledeceğimiz ekransız bir döneme girdiğimizi neredeyse kesin bir gelecek öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Zero UI: How Search Will Evolve in a World Without Interfaces](https://www.coveo.com/blog/what-is-zero-ui)
     > *"A big reason that generative AI skills are highly sought after right now is because GenAI is what makes seemingly simple scenarios (like turning on a light) work in zero UI scenarios. These systems use voice recognition technology and NLP to understand human language so they can correctly interpret voice commands. They’ve become the entry point int..."*
   - `[Tavily]` [Will AI chat replace legacy UIs? Unlikely for editor UIs. - UX Planet](https://uxplanet.org/will-ai-chat-replace-legacy-uis-unlikely-for-editor-uis-647074e549e9)
@@ -1050,11 +1747,21 @@
   - `[DuckDuckGo]` [Arayüzlerin Sonu: Yapay Zeka Ajanları ve Yazılımın Geleceği](https://itwise.com.tr/blog/arayuzlerin-sonu-yapay-zeka-ajanlari-yazilim-dunyasini-nasil-degistiriyor)
     > *"Apr 9, 2026 · Teknoloji dünyası, yapay zekanın evrimiyle birlikte köklü bir değişim sürecinden geçiyor. Sierra’nın kurucu ortağı ve teknoloji dünyasının vizyoner ismi Bret Taylor, son açıklamalarında geleneksel yazılım arayüzlerinin sonuna yaklaştığımızı ifade etti."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka otomasyon zincirleri yüzünden orta ve küçük ölçekli şirketlerde siber güvenlik uzmanına olan ihtiyacın çok sert şekilde azalacağını, bu süreçten yalnızca birden fazla alanda uzmanlaşmış multidisipliner çalışanların sağ çıkabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %66.7 | BELIRSIZ: %7.3 | TUTTU: %13.2 | TUTMADI: %12.8`
 - **Videoda Ne Demişti:** N8N gibi araçlarla kurulan yapay zeka iş akışlarını ve HackerOne gibi platformlardaki triaj süreçlerini değerlendiren Utku Şen, güvenlik açıklarını tespit edip doğrulama işinin yapay zeka ajanlarına devredileceğini belirtiyor. Büyük bankalar ve kurumlar hariç küçük ve orta ölçekli firmalarda güvenlik personeline ihtiyacın neredeyse biteceğini, bu fırtınadan sadece kendini çok yönlü geliştirenlerin kurtulabileceğini kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI can't fix cybersecurity's hiring problem - Help Net Security](https://www.helpnetsecurity.com/2026/07/22/cybersecurity-workforce-trends-report)
     > *"Nearly three-quarters of organizations said AI has influenced team composition. The most common changes were workflow automation and reduced manual analysis, with relatively few organizations reporting workforce reductions. Employers are adding AI-focused cybersecurity roles, including AI security engineers, AI governance analysts and AI/ML securit..."*
   - `[Tavily]` [How AI Workflow Automation Enhances Cybersecurity Operations?](https://ondrejkrehel.com/how-ai-workflow-automation-enhances-cybersecurity-operations)
@@ -1066,11 +1773,21 @@
   - `[DuckDuckGo]` [AI and the Future of Work: What It Means for Cybersecurity ...](https://www.secureworld.io/industry-news/ai-future-of-work-cybersecurity-beyond)
     > *"May 7, 2025 · In the cybersecurity industry and across the broader workforce, the question is no longer if AI will impact jobs, but which ones, how quickly, and what comes next."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, mahkemenin OpenAI'a tüm sohbet geçmişini ve logları süresiz tutturmasının ileride büyük bir felakete yol açacağını, bu verilerin bir gün mutlaka sızdırılarak insanlara şantaj yapmak için kullanılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %7.7 | TUTTU: %7.8 | BELIRSIZ: %64.5 | KISMEN TUTTU: %20.1`
 - **Videoda Ne Demişti:** Telif davaları sebebiyle mahkemenin OpenAI'a silinenler dahil tüm sohbet loglarını saklama zorunluluğu getirmesini eleştiren Utku Şen, şirketlerin kritik verilerinin ve insanların en mahrem yazışmalarının bu sunucularda biriktiğini vurguluyor. Bu logların sonsuza kadar tutulmasının kaçınılmaz bir sızıntı veya hacklenme doğuracağını, geçmişteki Ashley Madison skandalında olduğu gibi ileride insanlara şantaj malzemesi olacağını kendi uyarısı ve öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI Discovery Breach: 20M Chat Logs Mandated in SDNY (2026 Analysis)](https://www.lawyer-monthly.com/2026/01/openai-sdny-discovery-20m-chat-logs-legal-impact)
     > *"Federal litigation has reached a decisive inflection point as OpenAI fails to insulate its internal user data from hostile discovery. On January 5, 2026, District Judge Sidney H. Stein affirmed a high-stakes mandate requiring the artificial intelligence giant to produce 20 million de-identified ChatGPT logs. his ruling effectively dismantles the co..."*
   - `[Tavily]` [OpenAI Loses Court Battle to Keep ChatGPT User Logs From NYTimes - Business Insider](https://www.businessinsider.com/openai-new-york-times-copyright-infringement-lawsuit-chatgpt-logs-private-2025-11)
@@ -1082,15 +1799,29 @@
   - `[DuckDuckGo]` [OpenAI Discovery Breach: 20M Chat Logs Mandated in SDNY (2026 ...](https://www.lawyer-monthly.com/2026/01/openai-sdny-discovery-20m-chat-logs-legal-impact/)
     > *"Jan 6, 2026 · These 20 million logs likely contain sensitive data from employees at other companies, turning a copyright case into a trade secret vulnerability. For OpenAI, the production of these logs is not just a copyright risk, but a potential breach of trust with their most valuable enterprise clients."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## elon musk dramaları, meta nereye gidiyor - siber alemden havadisler 70. bölüm - 2022-11-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, son kullanıcı için fazla teknik ve karmaşık kalan Mastodon'un hiçbir zaman kitleselleşemeyeceğini ve Twitter'a gerçek bir alternatif olamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %2.5 | TUTTU: %96.8 | BELIRSIZ: %0.4 | TUTMADI: %0.3`
 - **Videoda Ne Demişti:** Elon Musk'ın Twitter yönetimindeki kaos sonrasında kullanıcıların Mastodon'a kaçışını değerlendiren Utku Şen, platformun yapısını geçmişteki Linux ve açık kaynak ofis yazılımlarına benzetiyor. Mastodon'un sıradan bir vatandaşın kolayca kurup kullanamayacağı kadar karışık olduğunu anlatıyor ve hiçbir zaman Twitter kadar popüler bir alternatife dönüşemeyeceğini kendi teknoloji tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Post Mortem of Mastodon - Internet - TWiT.Community](https://www.twit.community/t/post-mortem-of-mastodon/14941)
     > *"Unfortunately it seems that based on the Twitter migration numbers, it did not fit the needs of the majority of that population. The point of that blog post was specific to Mastodon as a Twitter replacement for the “normals” who may not grasp or even care about the ideals behind decentralization. I think you’re right about Mastodon being a great so..."*
   - `[Tavily]` [Mastodon: New social media can fix problems with Twitter, Facebook, Instagram, TikTok](https://www.businessinsider.com/twitter-facebook-instagram-toxic-social-media-healthier-decentralized-platform-mastodon-2022-10?r=US&IR=T)
@@ -1102,11 +1833,21 @@
   - `[DuckDuckGo]` [6 Reasons Mastodon Won’t Replace Twitter (X) - MUOWhy Did Mastodon Fail? $5M Raised & What Went Wrong (2025)Straddling Two Platfor...](https://www.makeuseof.com/why-mastodon-wont-replace-twitter/)
     > *"Apr 11, 2024 · Despite lots of hype in 2022 and 2023, Mastodon has its work cut out to replace X as the internet’s main microblogging platform. Here are six key reasons why the open-source platform may struggle to dethrone X. Why did Mastodon fail? Mastodon failed in 2025 after 9 years of operation. $5M (donations) in raised capital. The root cause..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Metaverse'ün kripto para piyasalarının iniş çıkışına bağlı suni bir balon olduğunu, insanların gerçek bir ihtiyacını karşılamadığını ve bu vizyona hazırlıksız giren Meta'nın tıpkı Blackberry gibi tepetaklak batabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %58.4 | BELIRSIZ: %1.0 | KISMEN TUTTU: %38.3 | TUTMADI: %2.3`
 - **Videoda Ne Demişti:** Meta'nın 1500 dolarlık yeni VR başlığını ve şirketin girdiği duraksama dönemini inceleyen Utku Şen, VR cihazlarının mide bulantısı ve baş ağrısı gibi temel fiziksel kusurları hala çözemediğini anlatıyor. Kripto paralar yükselirken parlatılan Metaverse'ün kriz döneminde unutulduğunu belirterek, somut bir fayda üretmeyen bu vizyon yüzünden Meta'nın yolun sonuna gelemeden Blackberry gibi çöküş yaşayabileceğini kendi gelecek analizi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Metaverse Budget Shock: Meta Considers Slashing 30% from Reality Labs](https://cryptorank.io/news/feed/c5082-meta-metaverse-budget-cut)
     > *"WatchlistPortfolio and Decentraland (MANA) have fallen to near all-time lows. Render (RENDER) has dropped below a $1 billion market cap, exiting the top 100 cryptocurrencies entirely. This market downturn creates a vicious cycle: dwindling corporate investment erodes user and investor confidence, which further depresses token values. What Does a Sm..."*
   - `[Tavily]` [Why Meta’s $70 Billion Metaverse Gamble Collapsed](https://medium.com/@gp2030/why-metas-70-billion-metaverse-gamble-collapsed-5ad3260c15c8)
@@ -1118,11 +1859,21 @@
   - `[DuckDuckGo]` [Meta shuts down Metaverse after $80 billion loss, ends ...](https://techstartups.com/2026/03/18/meta-shuts-down-metaverse-after-80-billion-loss-ends-horizon-worlds-era/)
     > *"Mar 18, 2026 · Meta just pulled the plug on its metaverse dream, drawing a line under one of the most ambitious bets in tech history. The company said Tuesday it will shut down Horizon Worlds, the virtual reality social platform once positioned at the center of its metaverse push."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, Avrupa Birliği'nin mesajlaşma uygulamalarında uçtan uca şifrelemeyi delmesi halinde baskıcı üçüncü dünya ülkelerinin bunu emsal alarak muhalif vatandaşları avlayacağını ve küresel çapta büyük bir insanlık felaketi doğacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %20.7 | TUTTU: %10.8 | BELIRSIZ: %57.3 | TUTMADI: %11.3`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin çocuk istismarını önleme gerekçesiyle uçtan uca şifrelemeyi kaldırma taleplerini eleştiren Utku Şen, bu hassas konunun gizliliği yok etmek için bir Truva atı gibi kullanıldığını anlatıyor. Gelişmiş ülkelerde sorun çıkmasa bile otoriter rejimlerin Almanya'yı örnek göstererek insanları attıkları en ufak eleştirel mesaj yüzünden hapse atacağını ve bu kararın bütün insanlığın başına çok fena iş açacağını kendi güvenlik tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Orders from the Top: The EU’s Timetable for Dismantling End-to-End Encryption | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2020/10/orders-top-eus-timetable-dismantling-end-end-encryption)
     > *"It’s also a drastically invasive step by any government that wishes to mandate it. For the first time outside authoritarian regimes, Europe would be declaring which Internet communication programs are lawful, and which are not. While the proposals are the best that academics faced with squaring a circle could come up with, it may still be too aggre..."*
   - `[Tavily]` [Tunnel vision: anti-censorship tools, end-to-end encryption, and the fight for a free and open Internet • European University Inst...](https://www.eui.eu/events?id=579706)
@@ -1134,15 +1885,29 @@
   - `[DuckDuckGo]` [European law enforcement against end-to-end encryption](https://incyber.org/en/article/european-law-enforcement-against-end-to-end-encryption/)
     > *"May 9, 2024 · Its widespread use could hinder the detection of illegal activity on instant messaging services. On April 21, 2024, law enforcement from 32 European countries expressed their concerns over the rollout of end-to-end encryption by instant messaging apps."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## elon musk ne yapmaya çalışıyor, yapay zeka ve din, sınav sistemi -siber alemden havadisler 56. bölüm - 2022-04-08
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, bulut tabanlı oyun ve bilişim sistemlerinin gelişmesiyle birlikte evlere pahalı konsollar ve güçlü bilgisayarlar alma devrinin kapanacağını, ileride herkesin buluta bağlanan ucuz ince istemciler (thin client) kullanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %40.0 | TUTMADI: %32.4 | BELIRSIZ: %22.6 | TUTTU: %5.0`
 - **Videoda Ne Demişti:** Xbox Cloud servisinin akıcı performansını ve uzaktan bilgisayar kiralama hizmetlerini inceleyen Utku Şen, gecikmesiz bulut oyunculuğunu gördükten sonra bu teknolojiye inancının tazelendiğini anlatıyor. Cloud çağında PlayStation gibi pahalı donanımlara gerek kalmayacağını belirterek evde güçlü bilgisayar bulundurma devrinin biteceğini ve tüm dünyanın buluta bağlanan ince istemcilere (thin client) geçeceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [I ditched my gaming PC for cloud gaming when hardware prices spiraled out of control](https://www.xda-developers.com/ditched-gaming-pc-cloud)
     > *"Of course, I do have a PC on which I connect to Shadow, which, in theory, can also break. However, because I don't need super powerful specs to run cloud streaming software, I don't need to shell out thousands to get my gaming PC back. In fact, I've lately been eyeing the mini PC market, simply because I don't need a dedicated full-size GPU to rend..."*
   - `[Tavily]` [Thin client gaming PC? : r/homelab - Reddit](https://www.reddit.com/r/homelab/comments/8sg21w/thin_client_gaming_pc)
@@ -1154,11 +1919,21 @@
   - `[DuckDuckGo]` [Is Cloud Gaming Replacing The Need For Expensive Gaming Pcs](https://www.alibaba.com/product-insights/is-cloud-gaming-replacing-the-need-for-expensive-gaming-pcs.html)
     > *"Sep 20, 2026 · Is cloud gaming replacing expensive gaming PCs? Explore the pros, cons, and future of cloud gaming versus traditional setups."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, metinden görsel üreten yapay zekaların karmaşık ve planlı kurgular yapan illüstratörleri tamamen bitiremeyeceğini fakat temel seviyedeki stok görsel işlerini devralarak illüstrasyon sektörünü çok ciddi şekilde sarsacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %3.0 | TUTMADI: %1.3 | KISMEN TUTTU: %22.9 | TUTTU: %72.8`
 - **Videoda Ne Demişti:** DALL-E 2'nin metinden görsel üretme becerilerini değerlendiren Utku Şen, herkes yapay zekanın ilk olarak kasiyerlik gibi meslekleri vuracağını beklerken çizerlerin ilk hedeflerden biri olmasının büyük bir sürpriz olduğunu anlatıyor. Modellerin Batman gibi özel bir kurguyu çizemeyeceği için illüstratörlüğü tamamen öldüremeyeceğini fakat basit ve genel çizim ihtiyaçlarını bedavaya çözerek illüstrasyon sektörüne ağır darbe indireceğini kendi sektörel tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why AI Image Generators Won’t Replace UI/UX Designers & Illustrators](https://www.linkedin.com/pulse/why-ai-image-generators-wont-replace-uiux-designers-illustrators-)
     > *"Why AI Image Generators Won’t Replace UI/UX Designers & Illustrators. They draw stunning pictures, create interfaces for web and mobile apps, and write articles on various topics. On the other side, illustrators and UI/UX designers are also debating whether image generators will replace them in their positions. Sometimes the AI image generator can..."*
   - `[Tavily]` [Best AI Image Generators in 2025: Midjourney vs DALL-E vs Stable Diffusion | AIFAQS](https://aifaqs.com.ahmshop.store/blog/best-ai-image-generators-2025.html)
@@ -1170,11 +1945,21 @@
   - `[DuckDuckGo]` [DALL-E - Vikipedi](https://tr.wikipedia.org/wiki/DALL-E)
     > *"DALL-E (ya da DALL·E), 5 Ocak 2021'de OpenAI tarafından piyasa sürülen, metinsel tanımlardan görüntü oluşturan bir yapay zekâ sanatı, metinden videoya model, metinden resme model ve yapay zeka programıdır."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, insanın kendinden üstün bir güce sığınma ihtiyacının evrimsel bir kökeni olduğunu, ileride geleneksel dinler zayıflasa bile insanların yapay zekayı tanrı kabul ettiği yepyeni dinler icat edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.4 | TUTTU: %60.6 | KISMEN TUTTU: %31.8 | BELIRSIZ: %7.2`
 - **Videoda Ne Demişti:** Geleceğin dünyasını ve inanç sistemlerini tartışan Utku Şen, insanların hayatın anlamsızlığından ve ölüm korkusundan kaçmak için sürekli kendisinden daha yüce bir varlığa inanma ihtiyacı duyduğunu anlatıyor. Bu güdünün evrimsel olduğunu belirterek günümüzdeki klasik dinler zayıflasa dahi yapay zekanın tanrı sayıldığı yeni dinlerin ve inanç biçimlerinin kesinlikle ortaya çıkacağını kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Gods in the machine? The rise of artificial intelligence may result in new religions](https://theconversation.com/gods-in-the-machine-the-rise-of-artificial-intelligence-may-result-in-new-religions-201068)
     > *"People already seek religious meaning from very diverse sources. There are, for instance, multiple religions that worship extra-terrestrials or their teachings. As these chatbots come to be used by billions of people, it is inevitable that some of these users will see the AIs as higher beings. We must prepare for the implications. Risks of AI worsh..."*
   - `[Tavily]` [The AI Religion Problem: Agents as New Gods, Priests, or Prophets?](https://medium.com/@Ross_W_Green/the-ai-religion-problem-agents-as-new-gods-priests-or-prophets-7d09fb38e805)
@@ -1186,15 +1971,29 @@
   - `[DuckDuckGo]` [Way of the Future - Wikipedia](https://en.wikipedia.org/wiki/Way_of_the_Future)
     > *"Way of the Future (WOTF) is the first known religious organization dedicated to the worship of artificial intelligence (AI). It was founded in 2017 by American engineer Anthony Levandowski."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## elon musk twitter'ı satın aldı, bitcoin ve çevre -siber alemden havadisler 59. bölüm - 2022-04-29
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Elon Musk'ın Twitter'ı satın aldıktan sonra elindeki devasa veri gücünü kullanarak kripto para manipülasyonlarına gizliden gizliye çok daha fazla devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %33.5 | BELIRSIZ: %20.0 | TUTTU: %32.6 | TUTMADI: %13.9`
 - **Videoda Ne Demişti:** Elon Musk'ın Dogecoin paylaşımlarıyla piyasayı yönlendirmesini ve Twitter'ı devralmasını yorumlayan Utku Şen, Musk'ın doğrudan kendi hesabıyla olmasa bile başka yollarla kripto manipülasyonunu sürdüreceğini anlatıyor. Elinde devasa bir veri ve güç olacağını belirterek istediği kripto parayı yükseltip istediğini düşürerek bu yolla dünyaları kazanmaya devam edeceğini kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How Elon Musk's Twitter activity moves cryptocurrency markets](https://www.sciencedirect.com/science/article/abs/pii/S0040162522006333)
     > *"in isolation, non-negative tweets from Musk lead to significantly positive abnormal Bitcoin returns. Individual tweets do raise the price of Bitcoin by 16.9% or reduce it by almost 11.8%. Our study shows the significant impact that the social media activity of influential individuals can have on cryptocurrencies. This suggests a conflict between mo..."*
   - `[Tavily]` [How Elon Musk's Twitter activity moves cryptocurrency markets](https://ideas.repec.org/a/eee/tefoso/v186y2023ipas0040162522006333.html)
@@ -1206,11 +2005,21 @@
   - `[DuckDuckGo]` [How Elon Musk's Twitter activity moves cryptocurrency markets](https://www.sciencedirect.com/science/article/pii/S0040162522006333)
     > *"Jan 1, 2023 · Abstract Elon Musk, one of the richest individuals in the world, is considered a technological visionary and has a social network of over 110 million followers on social media platform Twitter. He regularly uses his social media presence to communicate on various topics, one of which is cryptocurrency, such as Bitcoin or Dogecoin."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Elon Musk'ın eski Twitter yönetimi gibi insan haklarını umursamayacağını, Tesla satmak gibi ticari çıkarlar uğruna otoriter devletlerle anlaşıp vatandaşların IP adreslerini bile teslim edebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.0 | TUTTU: %42.5 | KISMEN TUTTU: %46.7 | BELIRSIZ: %7.8`
 - **Videoda Ne Demişti:** Elon Musk'ın Twitter'ın başına geçmesini değerlendiren Utku Şen, eski yönetimin üçüncü dünya ülkelerindeki muhaliflerin can simidi olan anonimliği önemsediğini hatırlatıyor. Musk'ın ise tamamen çıkarcı olduğunu belirterek baskıcı bir ülkenin lideriyle masaya oturup 50 bin Tesla satışı karşılığında muhalif vatandaşların IP bilgilerini rahatlıkla verebilecek bir zihniyette olduğunu kendi uyarısı ve öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Under Elon Musk, Twitter has approved 83% of censorship requests by authoritarian governments | International | EL PAÍS English](https://english.elpais.com/international/2023-05-24/under-elon-musk-twitter-has-approved-83-of-censorship-requests-by-authoritarian-governments.html)
     > *"Twitter’s acquiescence to autocratic or non-liberal regimes is not an exaggeration by critics of the social network. The data, which the public audit receives automatically, speaks for itself. Since Musk’s takeover, the company has received 971 requests from governments (compared to only 338 in the six-month period from October 2021 to April 2022),..."*
   - `[Tavily]` [Musk: Twitter Has No 'Actual Choice' but Censorship at Governmental Request - Business Insider](https://www.businessinsider.com/musk-twitter-no-actual-choice-censorship-governmental-request-free-speech-2023-5)
@@ -1222,11 +2031,21 @@
   - `[DuckDuckGo]` [Censorship by X - Wikipedia](https://en.wikipedia.org/wiki/Censorship_by_X)
     > *"Following the acquisition of Twitter in 2022 by Elon Musk and its eventual rebrand to X on July 23, 2023, censorship policies were changed by the new management under his ownership."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, kripto camiasındaki yaygın beklentinin aksine Avrupa Birliği veya devletlerin Bitcoin'i yasaklaması durumunda Bitcoin'in değerlenmeyeceğini, tam tersine sert bir şekilde dibe vuracağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `TUTTU: %24.9 | BELIRSIZ: %51.6 | TUTMADI: %10.2 | KISMEN TUTTU: %13.2`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin yüksek enerji tüketen proof-of-work madenciliğini yasaklama tartışmalarını yorumlayan Utku Şen, yayındaki yasaklanırsa daha da değerlenir yorumlarına karşı çıkıyor. Yasaklanan bir paranın değer kazanmasının mantıksız olduğunu anlatıyor ve büyük bir regülasyon darbesi gelmesi halinde Bitcoin'in değer kazanmayıp tam tersine doğrudan dibe vuracağını kendi piyasa tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Real Reason Bitcoin Dropped to $67,000 Overnight](https://www.youtube.com/watch?v=Z1RFzHDftu8)
     > *"Strategy, the world's largest corporate Bitcoin holder, is being dropped from MSCI's stock indexes under a rule that targets companies built mainly to hold an asset rather than run a business. Scott explains why that's not what sent Bitcoin down to $67,000 overnight. He also covers new bipartisan SEC and CFTC nominees, a rare moment of regulatory a..."*
   - `[Tavily]` [Bitcoin drops as government shutdown continues for tenth straight day: CNBC Crypto World](https://www.youtube.com/watch?v=K9knasxOXZA)
@@ -1238,15 +2057,29 @@
   - `[DuckDuckGo]` [Bitcoin Market Crash 2026: Regulatory Fears & $12B ...](https://www.theedadvocate.org/bitcoin-market-crash-how-regulatory-fears-triggered-a-12-billion-liquidation-wave/)
     > *"The recent Bitcoin market crash was primarily triggered by regulatory fears stemming from comments made by SEC Chair Gary Gensler regarding stricter rules on stablecoins."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Elon Musk Yine Dümen Peşinde - S.A.H E131 - 2025-07-13
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın diyetisyenlere olan ihtiyacı ciddi oranda azaltacağını ama psikolog ve terapistlere olan talebi asla düşüremeyeceğini, insanların yapay zekadan fayda göremediğini anlayınca yine insan psikologlara koşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %46.2 | KISMEN TUTTU: %25.4 | TUTMADI: %5.9 | BELIRSIZ: %22.5`
 - **Videoda Ne Demişti:** Büyük dil modellerinin psikoterapi yapıp yapamayacağına dair bir akademik araştırmayı değerlendiren Utku Şen, daha önce de savunduğu tezini hatırlatıyor. İnsanların bir hevesle yapay zekayı terapist gibi kullanacağını ama psikolojinin çok hassas ve insani bir alan olduğunu vurguluyor. Yapay zekanın diyetisyenlik gibi alanları daraltacağını fakat insan psikologların randevu takvimlerinin gelecekte de her zaman dolu kalacağını kendi öngörüsü olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Therapy Statistics 2026: Usage & Effectiveness | Psychology.com](https://psychology.com/ai-therapy-statistics)
     > *"The first RCT of a generative AI therapy chatbot enrolled 210 adults with major depression, generalized anxiety, or high-risk eating-disorder symptoms. Participants exchanged an average of 260 messages over 6+ hours and rated their therapeutic alliance with the AI as comparable to outpatient psychotherapy with a human clinician. Reviewers noted eff..."*
   - `[Tavily]` [AI Therapy: How It Works, Benefits & Limitations – Forbes Health](https://www.forbes.com/health/mind/ai-therapy)
@@ -1258,11 +2091,21 @@
   - `[DuckDuckGo]` [Artificial Intelligence for Psychotherapy: A Review of the ...](https://pmc.ncbi.nlm.nih.gov/articles/PMC12359021/)
     > *"While prior research has primarily focused on AI’s role in diagnosing and classifying mental health disorders, our study extends the application of AI into the realm of treatment, evaluating the effectiveness of AI-based psychotherapy interventions in enhancing mental health outcomes."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Model Context Protocol (MCP) sayesinde gelecekte web sitelerindeki butonların ve geleneksel kullanıcı arayüzlerinin önemini kaybedeceğini, insanların ekranda hiçbir şeye tıklamadan her işi yapay zekaya söyleyerek halledeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %19.4 | TUTTU: %7.6 | KISMEN TUTTU: %33.4 | TUTMADI: %39.6`
 - **Videoda Ne Demişti:** Tarayıcılar için geliştirilen MCP standardını ve web sitelerinin yapay zekayla nasıl konuşacağını anlatan Utku Şen, user interface kavramının zamanla tarihe karışacağını belirtiyor. Bir siteden yemek siparişi verirken ya da uçak bileti alırken buton arayıp tıklama devrinin biteceğini, kullanıcıların sadece ne istediklerini yapay zekaya söyleyeceği bir geleceğin kapıda olduğunu benimsediği bir tez olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What is Model Context Protocol (MCP)? The Future of Remote AI Context | Kong Inc.](https://konghq.com/blog/learning-center/what-is-mcp)
     > *"LLMs often rely on information beyond their trained dataset, such as transcripts, presentation decks, or enterprise data. MCP provides a standardized way for LLMs to retrieve this real-time context. As a result, it eliminates the need for custom integrations and reduces fragmented or inconsistent user experiences when building AI applications. How..."*
   - `[Tavily]` [MCP Apps - Bringing UI Capabilities To MCP Clients | Model Context Protocol Blog](https://blog.modelcontextprotocol.io/posts/2026-01-26-mcp-apps)
@@ -1274,11 +2117,21 @@
   - `[DuckDuckGo]` [Model Context Protocol - Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)
     > *"While the base MCP specification is restricted to text and structured data, MCP Apps standardizes the delivery of interactive user interfaces—such as dashboards, forms, and data visualizations—from MCP servers to host applications like Claude and ChatGPT."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, tarayıcı değiştirmenin ev taşımak kadar zor bir alışkanlık olduğunu, her şeyi perde arkasında otomatik çözen devrimsel bir model sunamadıkları sürece Perplexity gibi firmaların yapay zekalı tarayıcılarının insanları Chrome'dan koparamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %27.4 | TUTTU: %55.7 | KISMEN TUTTU: %12.4 | TUTMADI: %4.6`
 - **Videoda Ne Demişti:** Perplexity'nin çıkardığı Comet isimli yapay zekalı tarayıcıyı değerlendiren Utku Şen, insanların yıllardır Chrome ve yerleşik eklentilere çok alıştığını anlatıyor. Gerçek bir yapay zeka tarayıcısının adres çubuğunu bile kaldırıp kullanıcının hiçbir şeye tıklamasına gerek bırakmaması gerektiğini savunarak bu çıtayı yakalayamayan yapay zekalı tarayıcıların kullanıcı alışkanlıklarını kıramayacağını kendi değerlendirmesi olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Adoption and Usage of AI Agents: Early Evidence from Perplexity](https://arxiv.org/html/2512.07828v2)
     > *"Launched in July 2025, Comet by Perplexity is among the first widely adopted AI browsers and offers the embedded Comet Assistant as a general-purpose AI agent capable of performing user-specified tasks across open-world web environments. By studying hundreds of millions of anonymized user interactions with Comet and Comet Assistant, we narrow the g..."*
   - `[Tavily]` [Perplexity AI Statistics: 2026 Growth & User Data](https://sociallyin.com/perplexity-ai-statistics)
@@ -1290,15 +2143,29 @@
   - `[DuckDuckGo]` [(2512.07828) The Adoption and Usage of AI Agents: Early ...The Adoption and Usage of AI Agents: Early Evidence from ...The Adoptio...](https://arxiv.org/abs/2512.07828)
     > *"Dec 8, 2025 · This paper presents the first large-scale field study of the adoption, usage intensity, and use cases of general-purpose AI agents operating in open-world web environments. Our analysis centers on Comet, an AI-powered browser developed by Perplexity, and its integrated agent, Comet Assistant. Drawing on hundreds of millions of anonymi..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Ergenler Keşke Sosyal Medya Kullanmasa - S.A.H E103 - 2024-11-03
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte devasa modellerin yanında internete ve buluta ihtiyaç duymadan çok küçük donanımlarda çalışabilen mikro yapay zeka modelleri olacağını ve bunların park otomatlarından mutfak robotlarına kadar neredeyse her cihazın içine gireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %6.9 | KISMEN TUTTU: %16.0 | TUTTU: %76.2 | TUTMADI: %0.9`
 - **Videoda Ne Demişti:** Nvidia'nın açık kaynak modelini ve modellerin donanım gereksinimlerini değerlendiren Utku Şen, gelecekte teknolojinin nereye evrileceğini anlatıyor. Tek bir merkeze ve büyük veri merkezlerine bağımlı olmak yerine internet bağlantısı kopsa bile cihazın kendi içinde çalışabilen mikro modellerin yaygınlaşacağını, hem maliyet hem de mahremiyet açısından her türlü elektronik aletin içine bu yerel yapay zekaların yerleştirileceğini kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models](https://arxiv.org/html/2503.06027v1)
     > *"which integrates sparsity-inducing regularizers on singular values to achieve low-rank DNNs during training without the need for singular value decomposition at every step. This method effectively reduces computational load compared to prior factorization and pruning techniques while maintaining accuracy (Yang et al., 2020). Another innovative mode..."*
   - `[Tavily]` [Edge AI explained - STMicroelectronics](https://www.st.com/content/st_com/en/st-edge-ai-suite/edge-ai-explained.html)
@@ -1308,15 +2175,29 @@
   - `[Tavily]` [The comprehensive guide to Edge AI in IoT | Particle](https://www.particle.io/iot-guides-and-resources/the-comprehensive-guide-to-edge-ai-in-iot)
     > *"Let's look at some hardware options and how they address these considerations: Microcontrollers (MCUs) Microcontrollers represent the simplest path to embedding intelligence at the edge. These single-purpose processors are designed for efficiency and specific tasks, making them ideal for focused applications. MCUs excel in: (...) At its core, Edge..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Ergenlere Özel Sosyal Medya Düzenlemesi - S.A.H E106 - 2024-12-01
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, sosyal medyayı tıpkı sigara gibi gördüğünü ve ileride insanların bugün sosyal medyada yaptıklarına ve kendilerini algoritmalara nasıl kaptırdıklarına hayretle bakacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.3 | BELIRSIZ: %67.5 | KISMEN TUTTU: %19.2 | TUTTU: %12.0`
 - **Videoda Ne Demişti:** Instagram'ın 18 yaş altı ergen hesapları düzenlemesini ve algoritmaların bağımlılık yapıcı tehlikelerini değerlendiren Utku Şen, sosyal medyayı sigaraya benzetiyor. İleride dönüp bugünlerde sosyal medyada neler yaptığımıza şaşkınlıkla ve hayretle bakacağımızı kendi şahsi düşüncesi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Social Media and Mental Health: Social Media Addiction](https://www.helpguide.org/mental-health/wellbeing/social-media-and-mental-health)
     > *"Much like a gambling compulsion or an addiction to drugs or alcohol, social media use can create psychological cravings. When you receive a like, a share, or a favorable reaction to a post, it can trigger the release of dopamine in the brain, the same “reward” chemical that follows winning on a slot machine, for example, or lighting up a cigarette...."*
   - `[Tavily]` [Social Media Addiction Statistics - Updated for 2026](https://www.lanierlawfirm.com/product-liability/social-media-addiction-lawsuit/statistics)
@@ -1328,15 +2209,29 @@
   - `[DuckDuckGo]` [Is Social Media the New Smoking? - Psychology Today](https://www.psychologytoday.com/us/blog/emotional-behavior-behavioral-emotions/202411/is-social-media-the-new-smoking)
     > *"Nov 14, 2024 · One of the recurring tropes that have been floated as social media harms are discussed is that it is the new smoking. In 2020, Forbes proclaimed, “Scrolling Is the New Smoking,” while more..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## facebook, hackerone, rusya, shodan'ın yeni ücretsiz servisi -siber alemden havadisler 53. bölüm - 2022-03-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, Rusya'nın dünyadan tamamen kopup Kuzey Kore gibi yüzde yüz dışa kapalı bir internete geçmeyeceğini, bunun yerine Çin modeline benzer dev bir güvenlik duvarı arkasında sadece devletin izin verdiği sitelere girilebilen bir sansür altyapısına dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %9.4 | TUTTU: %46.0 | TUTMADI: %6.9 | KISMEN TUTTU: %37.7`
 - **Videoda Ne Demişti:** Rusya'nın küresel internetten kopup kendi izole ağını kuracağı iddialarını değerlendiren Utku Şen, Rusya'nın Kuzey Kore gibi dünyadan tamamen kopmasına hiç ihtimal vermediğini anlatıyor. Bunun yerine Çin tarzı büyük bir firewall arkasına geçerek sadece devlet onaylı sitelerin çalıştığı bir internet altyapısına yönelebileceğini kendi şahsi teknoloji ve siber güvenlik tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Great Russian Firewall | OSW Centre for Eastern Studies](https://www.osw.waw.pl/en/publikacje/osw-report/2025-12-19/great-russian-firewall)
     > *"The systemic offensive against Runet has been under way for over a decade. It began in 2012, following Vladimir Putin’s return to the presidency, and at that time formed part of a broader campaign targeting civil rights and freedoms. A key milestone in advancing the Kremlin’s objectives was the 2019 law on the ‘sovereign Runet’, which enabled the c..."*
   - `[Tavily]` [Russia's controversial sovereign internet law goes into force](https://www.cnbc.com/2019/11/01/russia-controversial-sovereign-internet-law-goes-into-force.html)
@@ -1348,15 +2243,29 @@
   - `[DuckDuckGo]` [Rusya’da internet özgürlüğü nasıl yok ediliyor? | Euronews](https://tr.euronews.com/2025/08/05/rusyada-internet-ozgurlugu-nasil-adim-adim-yok-ediliyor)
     > *"Aug 5, 2025 · Uzmanlar, Kremlin’in interneti kontrol etme çabalarının etkisiz olduğunu düşünüyor, Rusya’nın Çin’in “Büyük Güvenlik Duvarı” gibi güçlü bir sansür sistemi kurmaktan çok uzak olduğunu..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## FBI Fena Hacklendi - S.A.H E175 - 2026-09-27
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekada basit kullanım döneminin bittiğini, tıpkı web dünyasında Kubernetes ile konteynerlara geçildiği gibi gelecekte şirketlerin binlerce yapay zeka ajanını panellerden orkestre edeceği çok daha karmaşık ve sofistike bir döneme doğru gideceğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %3.5 | KISMEN TUTTU: %12.0 | TUTTU: %83.7 | TUTMADI: %0.9`
 - **Videoda Ne Demişti:** Google'ın duyurduğu Ax isimli ajan orkestrasyon aracını inceleyen Utku Şen, bu projenin Kubernetes mantığına çok benzediğini anlatıyor. Web teknolojilerinin tek bir monolit sunucudan devasa konteyner kümelerine evrilmesi gibi, yapay zekada da şirketlerin yakında tek bir ekrandan binlerce ajanı aynı anda çalıştırıp yöneteceği ölçeklenebilir bir geleceğe gideceğimizi kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Multi-Agent Orchestration for Agentic AI on Kubernetes](https://www.fabrix.ai/blog/multi-agent-orchestrators)
     > *"Enterprise-grade solutions like Amazon Bedrock and Magentic-One focus on scale and security. Open-source options like Rasa and Swarm are better suited for experimentation or lightweight applications. Kagent provides unparalleled Kubernetes-native orchestration for production-ready deployments. Agntcy bridges gaps between frameworks by enabling stan..."*
   - `[Tavily]` [Scale agentic AI from on-device to cloud orchestration | BRKSP92](https://www.youtube.com/watch?v=2O1pBbxk0ac)
@@ -1368,11 +2277,21 @@
   - `[DuckDuckGo]` [Kubernetes Architecture for AI Agents in 2026: Enterprise ...](https://viston.tech/kubernetes-architecture-for-ai-agents-in-2026/)
     > *"Kubernetes Architecture for AI Agents helps businesses deploy scalable AI systems, manage multi-agent workflows, optimize infrastructure, improve security, and support enterprise AI operations in 2026."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, doğrudan göze ışık veren ve dar bir görüş açısına sahip sanal gerçeklik gözlüklerinin televizyon veya sekiz saatlik çalışma monitörü yerine asla geçemeyeceğini, bu haliyle kimseye yaranamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %46.9 | BELIRSIZ: %28.7 | KISMEN TUTTU: %16.7 | TUTMADI: %7.7`
 - **Videoda Ne Demişti:** Meta'nın donanımı cebe koyarak küçülttüğü yeni VR gözlüğünü değerlendiren Utku Şen, doğrudan göze ışık vurduğu için saatlerce ekran olarak kullanmanın gerçekçi olmadığını anlatıyor. Dar açısı yüzünden oyun deneyimi de sunamayacağını, televizyon yerine kullanmaya kalksan kör edeceğini belirterek cihazın hiçbir tüketicinin derdine derman olamayacağını kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [New Meta Ray-Ban AI-Powered Display Glasses and Neural Band](https://www.meta.com/ai-glasses/meta-ray-ban-display)
     > *"No, you must return the entire bundle. Individual devices and accessories cannot be returned separately. If you need to exchange your Meta Neural Band due to sizing issues, please contact customer support. What happens if I need a replacement Meta Neural Band? (...) What kind of support does Meta offer on Meta Ray-Ban Display glasses and Meta Neura..."*
   - `[Tavily]` [Meta Glasses are new smart glasses starting at $299](https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html)
@@ -1384,11 +2303,21 @@
   - `[DuckDuckGo]` [Sanal Gerçeklik Gözlüğü Fiyatları, VR Gözlük Modelleri](https://www.mediamarkt.com.tr/tr/category/sanal-gerceklik-gozlukleri-818515.html)
     > *"Sanal gerçeklik sunmaz ancak bağlandığı cihazın görüntüsünü büyük bir sanal ekrana yansıtır. Hafif ve standart gözlüğü andıran tasarımı ile günlük kullanıma uygundur."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın yazılımlardaki güvenlik açıklarını otomatik olarak çatır çatır bulması yüzünden şirketlerin kullandığı üçüncü parti kütüphanelerin devasa bir hacklenme riskine dönüştüğünü ve defansif siber güvenliğin baştan kurgulanmak zorunda olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.0 | BELIRSIZ: %3.7 | TUTTU: %65.1 | KISMEN TUTTU: %30.2`
 - **Videoda Ne Demişti:** FBI kariyer sitesinin 39 yıllık Oracle PeopleSoft yazılımındaki açık kullanılarak hacklenmesini yorumlayan Utku Şen, yapay zekanın zafiyet bulma oyununu tamamen değiştirdiğini belirtiyor. Eskiden açık aramanın haftalar sürdüğünü ama artık yapay zekayla hem açık hem kapalı kaynakta anında açık bulunabildiğini vurgulayarak firmaların kullandığı kütüphaneler yüzünden oturdukları yerden hackleneceklerini ve savunma taktiklerinin acilen değişmesi gerektiğini kendi uyarısı ve tezi olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Third-Party Risk Management & Monitoring Software | Kovrr](https://www.kovrr.com/ai-third-party-risk-monitoring)
     > *"Identify vendors and sub-vendors using AI in high-impact or data-sensitive processes. Map dependencies across your extended supply chain with interactive network views. Detect unreported or high-risk AI use cases, including agentic AI deployments, among suppliers Maintain a unified inventory of third-party AI exposure, complete with risk signals an..."*
   - `[Tavily]` [AI in Third Party Risk Management: A Guide | Mitti (by SafetyCulture)](https://mitti.com/topics/risk-management/ai-in-third-party-risk-management)
@@ -1400,15 +2329,29 @@
   - `[DuckDuckGo]` [Real-Time Threat Detection - Detect Threats In Minutes](https://www.bing.com/aclick?ld=e8vdSJTukf__wR3lURGSFLvzVUCUwBEp-a9re5Rdmxmyoxgx_0ZJ2jYAD-XlCkIj7tkiUVd2N1N3vjEKLkz2e5DEkrr1jxseF1GKPCxHDODJkB2dzf2JWSvKQ0v70lxbftIg50gIsEkpjKh-yr5stICYnozgQarSUqKx_Jf7dU1y93z_NjfQVdseyew9IMwmHG73gaGf3Oq5gly36867qCQt0Q6nY&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmx1bmlvLmFpJTJmdjMuMCUyZnRlbXBsYXRlJTNmYWNjaWQlM2QxNjg5NiUyNnVybGRlY29kZSUzZDElMjZrdyUzZGN5YmVyJTI1MjB0aHJlYXQlMjUyMHNvZnR3YXJlJTI2bXQlM2RwJTI2bnclM2RvJTI2Y3BuJTNkNDI4MzI5MjQwJTI2ZGV2aSUzZGMlMjZkZXZtJTNkJTI2bG9jcCUzZDEzODA3MiUyNmxvY2klM2QlMjZwbCUzZCUyNmNyJTNkJTI2YWRwJTNkJTI2c2FkdCUzZCUyNnVybCUzZGh0dHBzJTI1M0ElMjUyRiUyNTJGd3d3LmRhdGFkb2docS5jb20lMjUyRmRnJTI1MkZzZWN1cml0eSUyNTJGY3liZXItc2VjdXJpdHktdGhyZWF0cyUyNTJGJTI1M0Z1dG1fc291cmNlJTI1M0RiaW5nJTI1MjZ1dG1fbWVkaXVtJTI1M0RwYWlkLXNlYXJjaCUyNTI2dXRtX2NhbXBhaWduJTI1M0RkZy1zZWN1cml0eS1uYS10aHJlYXRtb25pdG9yaW5nJTI1MjZ1dG1fa2V5d29yZCUyNTNEY3liZXIlMjUyNTIwdGhyZWF0JTI1MjUyMHNvZnR3YXJlJTI1MjZ1dG1fbWF0Y2h0eXBlJTI1M0RwJTI1MjZpZ2FhZyUyNTNEMTMxMTcxNzc0MjQ2MTU2NyUyNTI2aWdhYXQlMjUzRCUyNTI2aWdhY20lMjUzRDQyODMyOTI0MCUyNTI2aWdhY3IlMjUzRCUyNTI2aWdha3clMjUzRGN5YmVyJTI1MjUyMHRocmVhdCUyNTI1MjBzb2Z0d2FyZSUyNTI2aWdhbXQlMjUzRHAlMjUyNmlnYW50JTI1M0RvJTI1MjZ1dG1fY2FtcGFpZ25pZCUyNTNENDI4MzI5MjQwJTI1MjZ1dG1fYWRncm91cGlkJTI1M0QxMzExNzE3NzQyNDYxNTY3JTI2bXNjbGtpZCUzZGQwYzAyOWI2YTZjYTFiNjU2YjQwNDM0ZGZlNmY1MzIx&rlid=d0c029b6a6ca1b656b40434dfe6f5321)
     > *"Start Detecting Security Threats In Minutes With 900+ Out-Of-The-Box Detection Rules. Start Detecting Cyber Security Threats Across Your Infrastructure, Network & Applications. Service catalog: End-to-End Visibility, Easy Agent Installation, Eliminate Silos"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## FOMO'dan Korunma Sanatı  - S.A.H E150 - 2026-01-25
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, maillere ve sistem komutlarına tam yetki verilen yapay zeka asistanlarının prompt injection açıkları yüzünden sıfır tıklamayla tam sistem ele geçirme felaketlerine ve fidye yazılımlarına yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %2.7 | KISMEN TUTTU: %37.4 | TUTMADI: %0.4 | TUTTU: %59.6`
 - **Videoda Ne Demişti:** Maillere ve terminale tam erişim sağlayan açık kaynaklı yapay zeka asistanı projesini değerlendiren Utku Şen, bu sistemlerin dışarıdan gelecek kötü niyetli bir maildeki prompt injection ile kolayca manipüle edileceğini anlatıyor. Saldırganın kurbana hiçbir linke tıklatmadan tüm tokenları ve çerezleri dışarı sızdırabileceğini, verileri silip fidye yazılımı bulaştırabileceğini ve büyük firmalar sağlam güvenlik önlemleri almadıkça bu tür asistanların tam bir güvenlik felaketine dönüşeceğini kendi tezi ve uyarısı olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Zero-click prompt injection can spread through AI agents](https://nhimg.org/articles/zero-click-prompt-injection-can-spread-through-ai-agents)
     > *"Traditional awareness programs assume the user can notice and avoid the malicious action. Zero-click prompt injection breaks that model because the victim may do nothing unusual at all. The model ingests the content, the client auto-fetches or previews material, and the assistant performs the harmful action on the user's behalf. That means the defe..."*
   - `[Tavily]` [Zero-Click Prompt Injection Hijacked ChatGPT Atlas and Claude Browser Agents | Mallory](https://mallory.ai/stories/019fd735-77ba-7bba-a57b-d6984d3d8f24)
@@ -1420,11 +2363,21 @@
   - `[DuckDuckGo]` [Zero-click prompt injection can spread through AI agents](https://nhimg.org/articles/zero-click-prompt-injection-can-spread-through-ai-agents/)
     > *"What this is: This analysis shows how zero-click prompt injection can move beyond single-session data leakage and become a self-spreading attack pattern across AI-assisted workflows."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, MCP sunucularının hantal kaldığını, gelecekte insanların karmaşık araçları öğrenmek yerine yapay zekaya sadece beceri tanımlayacağı ve tek bir merkezi orkestratörün her işi yürüteceği bir modele gidileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %16.2 | TUTMADI: %15.8 | KISMEN TUTTU: %57.0 | BELIRSIZ: %10.9`
 - **Videoda Ne Demişti:** Claude Code becerileri ile MCP sunucularını kıyaslayan Utku Şen, MCP yapısının sıradan insan için gereksiz karışık olduğunu ve doğal dil çağına pek uymadığını belirtiyor. Gelecekte insanların dünyadaki farklı yazılımların detaylarını tek tek öğrenmek zorunda kalmayacağını, sadece sözel komutlarla beceriler üretip bunları merkezi bir yapay zeka sekreterine vereceği bir orkestrasyon düzeninin kurulacağını kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Replace MCP prompts with Skills or make prompts invokable by Agent · modelcontextprotocol/modelcontextprotocol · Discussion 1779 ·...](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions/1779)
     > *"provide the “what” Skills bridge the gap between user intent and tool execution Conclusion MCP prompts were a good first step for standardizing interactions, but they’re fundamentally limited by being user-controlled templates. As we move toward more autonomous agents in enterprise settings, we need a pattern that enables: Agent-driven workflow exe..."*
   - `[Tavily]` [Agent Skills Don’t Replace MCP. The July 2026 Spec Update Makes That Clearer Than Ever](https://pub.towardsai.net/mcp-vs-agent-skills-what-the-2026-spec-change-finally-settled-for-me-9972d7456fba)
@@ -1436,11 +2389,21 @@
   - `[DuckDuckGo]` [AI agent architecture guide - Agent reference architecture](https://www.bing.com/aclick?ld=e8GubM-KRb16rNjCr8Zrqf6zVUCUw2nWZ28cKBg5Eo2w1Jx1pcsQYXuly1xO7w09snB7ljLZNnDz2uahI1IkL4lID2erhDPmrM9JHmzJA55VaXSOkZqajWOgBlGk3epcDcf8kOvuFq_smEgGYsD8Ep0oEwt8kBLNwsMNnf4Z4xfLZdeokl5dCaWx2xfhjnoZTbfylEXY-RH77reP7EVG4JjrpjJyI&u=aHR0cHMlM2ElMmYlMmZyZWRpcy5pbyUyZmd1aWRlcyUyZmNvbnRleHQtYXJjaGl0ZWN0dXJlLWZvci1wcm9kdWN0aW9uLWFpLWFnZW50cyUyZiUzZnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZHNlYXJjaC1ub25icmFuZC1oYW5kLXJhaXNlci1hbWVyJTI2dXRtX2NvbnRlbnQlM2RuYi1hc3NldC1jb250ZXh0LWFyY2hpdGVjdHVyZS1hbWVyLXJzYTElMjZ1dG1fY2FtcGFpZ24lM2RzZWFyY2gtbm9uYnJhbmQtaGFuZC1yYWlzZXItZ2xvYmFsJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2QlMjZ1dG1fdGVybSUzZCUyNmRldmljZSUzZGMlMjZtYXRjaHR5cGUlM2RwJTI2aHN0a19jcmVhdGl2ZSUzZCUyNmhzdGtfY2FtcGFpZ24lM2Q1ODE2MjE1NzMlMjZoc3RrX25ldHdvcmslM2Rnb29nbGVBZHMlMjZtc2Nsa2lkJTNkNWZlN2EwNzQ1YTRjMTAwMWQyNjFjYThmMDM0NTc5NTU&rlid=5fe7a0745a4c1001d261ca8f03457955)
     > *"Serve your agents fresh data at Redis speed. Get the context architecture playbook. Plan agent context retrieval, memory and data pipelines against a production reference."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, buluta bağımlı sistemler yerine cihaz üzerinde internetsiz çalışan yerel açık kaynak modellerin yaygınlaşması gerektiğini, aksi takdirde gelecekte çıkacak insansı ev robotlarının internet koptuğunda tamamen kilitleneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.6 | TUTTU: %55.1 | TUTMADI: %8.7 | KISMEN TUTTU: %27.6`
 - **Videoda Ne Demişti:** Alibaba'nın sadece 2 GB VRAM isteyen optimize modelini değerlendiren Utku Şen, sürekli buluta abone olmaktan ve veri paylaşmaktan sıkıldığını anlatıyor. Gelecekte hayatımıza girecek insansı robotların internet bağlantısı kesildiğinde bulaşık bile yıkayamayacak duruma düşmemesi için yerel çalışan modellerin şart olduğunu, aynı zamanda tarımdan gümrüklere kadar yapay zekanın girmediği neredeyse hiçbir sektör kalmayacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Google launches Gemini Robotics AI for offline use | Aaron Prather posted on the topic | LinkedIn](https://www.linkedin.com/posts/amprather_google-deepmind-has-launched-an-on-device-activity-7343286681644511232-uE5d)
     > *"Key advantages of this Edge AI approach for humanoid robots like Apollo include: \ Real-time Decision-Making: By processing data locally, the robot can react in milliseconds, which is critical for safety and efficiency in dynamic environments like warehouses or manufacturing floors. There's no latency from sending data to the cloud and waiting for..."*
   - `[Tavily]` [A robot model that can run locally! 📻 No internet needed. Gemini Robotics On-Device is a powerful new AI model from Google DeepMin...](https://www.linkedin.com/posts/zieglerr_a-robot-model-that-can-run-locally-no-activity-7344651984295059456-zGMQ)
@@ -1452,15 +2415,29 @@
   - `[DuckDuckGo]` [New Gemini AI lets humanoid robots think and act without internet](https://interestingengineering.com/innovation/google-robotics-offline-intelligence)
     > *"Jun 24, 2025 · Google DeepMind's Gemini Robotics On-Device lets robots operate entirely offline while adapting to new environments with minimal training."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Gemini 3, ChatGPT'den Daha Mı İyi? - S.A.H E145 - 2025-11-24
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka yarışında hiçbir şirketin eskiden Apple'ın iPhone ile yaptığı gibi arayı açıp piyasayı tek başına domine edemeyeceğini, şirketlerin sürekli birbirinin önüne geçeceği başa baş bir rekabetin süreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %23.0 | BELIRSIZ: %7.5 | TUTTU: %67.9 | TUTMADI: %1.6`
 - **Videoda Ne Demişti:** Gemini 3'ün GPT-5'i geçmesini ve Google'ın yakaladığı ivmeyi yorumlayan Utku Şen, tek bir firmanın arayı açıp gidemeyeceğini anlatıyor. Eskiden iPhone'un on yıl boyunca telefon pazarını domine etmesi gibi bir durumun yapay zekada yaşanmayacağını ve şirketlerin sürekli birbirini geçeceği dengeli bir rekabet ortamı olacağını kendi değerlendirmesi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What happens when AI companies compete with their customers? | Brookings](https://www.brookings.edu/articles/what-happens-when-ai-companies-compete-with-their-customers)
     > *"Moreover, the market for general-purpose LLMs is an oligopoly, dominated by three AI model providers: Google, OpenAI, and Anthropic. According to an analysis by Menlo Ventures, these three AI companies controlled almost 90% of the $37 billion market for enterprise customers by the end of 2025. Anthropic commanded a 40% market share, followed by Ope..."*
   - `[Tavily]` [Google raises AI stakes as OpenAI struggles to stay on top](https://www.dw.com/en/artificial-intelligence-openai-google-chatgpt-big-tech-silicon-valley-sam-altman/a-75035755)
@@ -1472,11 +2449,21 @@
   - `[DuckDuckGo]` [OpenAI vs Google: Benchmarks, Pricing, Market](https://valueaddvc.com/blog/openai-vs-google-the-ai-arms-race-in-2026-model-benchmarks-pricing-market-share)
     > *"Jun 11, 2026 · In 2026, OpenAI leads on consumer mindshare and flagship coding benchmarks, while Google leads on price, context length, and distribution. OpenAI runs roughly $20B in annualized revenue against Google's $400B+, OpenAI burns cash while Google funds AI from profit."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, küresel kesintiler yaşatsalar bile Cloudflare, AWS ve CrowdStrike gibi devlerin hiçbir ceza almayacağını, müşterilerin onları bırakamayacağını ve bu firmaların tekel konumlarını korumaya devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %11.5 | TUTMADI: %4.4 | BELIRSIZ: %30.8 | TUTTU: %53.4`
 - **Videoda Ne Demişti:** Cloudflare kesintisini ve daha önce yaşanan AWS ile CrowdStrike krizlerini değerlendiren Utku Şen, insanların kendi sunucularına dönme isteğine rağmen gerçekçi olmak gerekirse bu dev servislerin tekelini sürdüreceğini belirtiyor. Hata yapsalar bile insanların çabuk unuttuğunu, hiçbir maddi ceza kesilmediğini ve alternatif bulunamadığı için bu devlerin yerini koruyacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [CrowdStrike outage and global software's single-point failure problem](https://www.cnbc.com/2024/07/20/crowdstrike-outage-and-global-softwares-single-point-failure-problem.html)
     > *"Chopra believed “improving competition” could also strengthen accountability in the IT space. The business-to-business software space is highly concentrated and reliant on single providers, like CrowdStrike. “If there is a mechanism to update in a more open and competitive way there might be pressure to make sure that that is done in a manner that..."*
   - `[Tavily]` [Explainer: CrowdStrike Microsoft outage – has the cloud enterprise IT monopoly gone too far?](https://finance.yahoo.com/news/explainer-crowdstrike-microsoft-outage-cloud-081510308.html)
@@ -1486,11 +2473,21 @@
   - `[Tavily]` [Cloudflare and AWS Keep Breaking the Internet](https://finance.yahoo.com/news/cloudflare-aws-keep-breaking-internet-154856529.html)
     > *"Watch the Video Our conversation began with a pair of incidents that received less attention than they deserved. Twice in the last month, large sections of the internet were knocked offline. Lee was the first to flag the Cloudflare failure. He described sitting down to write when the 24/7 Wall St site wouldn't load, followed quickly by outages at X..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, 2010'lu yılların Tor ve anonimlik döneminin tamamen kapandığını, devletlerin istediği kullanıcının kimliğini anında bulabilecek güce ulaştığını ve anonimliğin artık halkı koruyan bir hak değil sadece istihbaratların kullandığı bir silaha dönüştüğünü söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %39.8 | TUTTU: %39.1 | BELIRSIZ: %17.6 | TUTMADI: %3.6`
 - **Videoda Ne Demişti:** X platformunun kullanıcıların konumlarını ve VPN kullanımlarını göstermeye başlamasını yorumlayan Utku Şen, internette anonimlik devrinin bittiğini anlatıyor. Devletlerin teknik ve diplomatik gücünün istediği hesabı açığa çıkarmaya yettiğini, artık anonimliğin sıradan insanı korumak yerine ülkeleri karıştırmak isteyen istihbaratların ve bot çiftliklerinin silahı haline geldiğini kendi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Death of Privacy?](https://cyber.harvard.edu/privacy/Fromkin_DeathOfPrivacy.pdf)
     > *"A. Michael Froomkin The rapid deployment of privacy-destroying technologies by governments and businesses threatens to make informa-tional privacy obsolete. The first part of this article describes a range of current technologies to which the law has yet to re-spond effectively. These include: routine collection of transac-tional data, growing auto..."*
   - `[Tavily]` [Age Verification Mandates Would Undermine Anonymity Online | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/03/age-verification-mandates-would-undermine-anonymity-online)
@@ -1502,11 +2499,21 @@
   - `[DuckDuckGo]` [The Death of Online Anonymity - Software Engineering Daily](https://softwareengineeringdaily.com/podcasts/the-death-of-online-anonymity/)
     > *"Sep 1, 2026 · An ever-growing patchwork of laws can now require government IDs, facial age estimation, or behavioral inference before you can enter digital spaces. Discord, app stores, social media platforms, and AI chatbots are all being pulled into these requirements."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, TikTok ve Reels gibi kısa videoların insanların beynini çürüttüğünü, tıpkı geçmişte otobüslerde veya kapalı AVM'lerde sigara içilmesine bugün nasıl şaşırıyorsak gelecekte de insanların bu kısa video çılgınlığına aynı dehşetle bakacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.0 | TUTTU: %6.1 | KISMEN TUTTU: %7.2 | BELIRSIZ: %84.7`
 - **Videoda Ne Demişti:** Amerikan Psikoloji Derneği'nin kısa videoların beyne zararları hakkındaki araştırmasını yorumlayan Utku Şen, çocukken otobüslerde ve AVM'lerde sigara içildiğini hatırlatıyor. Şu an kısa video konusunda benzer bir korkunçluğun içinde yaşadığımızı ve ileride insanların dönüp bugünlerde kısa videolara nasıl izin verildiğine ve nasıl tüketildiğine hayretle bakacağını kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Short-Video Addiction Does To Your Brain](https://recovered.org/blog/short-video-addiction-impulsive-decision-making)
     > *"People then scroll through video after video, consuming excessive amounts of content. Each video triggers the brain’s reward system, encouraging continued and excessive use, ultimately leading to changes in the brain that cause addiction. With SVA, people compulsively watch short video content, experiencing cravings or withdrawal symptoms and chang..."*
   - `[Tavily]` [Research Insights on ‘Problematic Use of Short Video’: A Comprehensive Review Exploration in Psychological Context](https://pmc.ncbi.nlm.nih.gov/articles/PMC12589815)
@@ -1518,15 +2525,29 @@
   - `[DuckDuckGo]` [Alkol Ve Sigara Bağımlılığı Kısa Film - YouTube](https://www.youtube.com/watch?v=UEX_1sgOLSI)
     > *"Alkol Ve Sigara Bağımlılığı Kısa Film - YouTube"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Gerçeğin Ne Olduğunun Artık Bir Önemi Yok - S.A.H E125 - 2025-05-25
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka video modelleri yüzünden müzik sektöründe geleneksel klip çekimlerinin neredeyse tamamen biteceğini ve kameralı gerçek çekimlerin sadece çok ünlü sanatçıların yapacağı bir prestij gösterisine dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.6 | BELIRSIZ: %28.3 | KISMEN TUTTU: %40.0 | TUTTU: %28.1`
 - **Videoda Ne Demişti:** Google'ın Veo 3 video oluşturma modelini değerlendiren Utku Şen, sinemada gerçekçilik arandığı için yapay zekanın sınırlı kalacağını ama müzik kliplerinde gerçekçilik aranmadığı için sektörün kökten değişeceğini anlatıyor. İleride kameralı klip çekimlerinin neredeyse tamamen ortadan kalkacağını, herkesin yapay zekayla klip basacağını ve sadece dev isimlerin prestij olsun diye gerçek çekim yapacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI system turns a song into a complete music video    | EurekAlert!](https://www.eurekalert.org/news-releases/1114970)
     > *"This approach allows AutoMV to produce music videos that follow a song from beginning to end, maintaining narrative flow and visual identity throughout. Human expert evaluations show that AutoMV significantly outperforms AI video generation tools already on the market. commercial tools, narrowing the gap between AI-generated videos and professional..."*
   - `[Tavily]` [How Independent Artists Are Turning Songs into Story-Driven Music Videos with AI](https://www.newwavemagazine.com/single-post/how-independent-artists-are-turning-songs-into-story-driven-music-videos-with-ai)
@@ -1538,11 +2559,21 @@
   - `[DuckDuckGo]` [AI Video Generation Made Easy - OpenGen.ai - Ai Video Generated](https://www.bing.com/aclick?ld=e8OqJwx2Oe46FqbbFeG5_sjDVUCUw-qVFfyPplFGZsRtYAeQXsNbdiWynnqB_3_5UacIq4M1FuTwvOnStoXPszyzrDWAujPTBOAyfnoR7FhdRHCq_W8VttWvazdtHi4e626lPrzQdVj5k7_e7WIkzg-LLvLI1syLz4HQEV2OpZeFXDET8_NSt0kDM9jxTuoW0sDNC3ZANMw5i7YydiKZ2hqlvM-lw&u=aHR0cHMlM2ElMmYlMmZvcGVuZ2VuLmFpJTJmdmlkZW8tZ2VuZXJhdG9yJTNmcHRoJTNkcHRmJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2RBSV9PYWlfVmlkZW9fR0VOX1NfVDJfRW5nbGlzaF9BSS1WaWRlby1HZW5lcmF0b3ItQ29yZV9EUEYlMjZ1dG1fY2FtcGFpZ24lM2RBSV9PYWlfVmlkZW9fR0VOX1NfVDJfRW5nbGlzaF9EZXNrdG9wX0RQRl9CaW5nJTI2dXRtX3Rlcm0lM2RhaSUyNTIwdmlkZW8lMjUyMGdlbmVyYXRlZCUyNmNhbXBhaWduSWQlM2Q0ODkxODI5MTIlMjZhZEdyb3VwSWQlM2QxMjMzNjUzNzA5ODk4OTM2JTI2ZmVlZEl0ZW1JZCUzZCUyNnRhcmdldElkJTNka3dkLTc3MTA0MTk3NjU2NTI2JTNhbG9jLTE4MiUyNm1hdGNoVHlwZSUzZHAlMjZuZXR3b3JrJTNkbyUyNmRldmljZSUzZGMlMjZkZXZpY2VUeXBlJTNkZGVza3RvcCUyNmNhbXBhaWduVHlwZSUzZHNlYXJjaCUyNmNyZWF0aXZlSWQlM2Q3NzEwMzUwMjU5ODAzMSUyNmtleXdvcmQlM2RBSSUyNTIwdmlkZW8lMjUyMGdlbmVyYXRpb24lMjUyMHJlcGxhY2luZyUyNTIwdHJhZGl0aW9uYWwlMjUyMG11c2ljJTI1MjB2aWRlb3MlMjZ1dG1faWQlM2Q0ODkxODI5MTIlMjZnYWlkJTNkVDItZW4tQy1PcGVuR2VuQUlWaWRlby1NUyUyNm1zY2xraWQlM2RiYWQ1NzgzOWQ0NDIxZjhkMDdkZTEyYzI4ZTA0YjJmMQ&rlid=bad57839d4421f8d07de12c28e04b2f1)
     > *"Fast, high-quality AI video generation for marketers and creators. Try it now. Transform text or photos into cinematic videos in minutes. Start creating today."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka geliştikçe dezenformasyonun çığırından çıkacağını, gerçeğin ne olduğunun hiçbir öneminin kalmayıp sadece insanların neye ikna edildiğinin belirleyici olacağını ve bu yüzden teyitli çalışan güvenilir gazetecilerin her zamankinden çok daha kıymetli hale geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %4.1 | TUTTU: %78.1 | KISMEN TUTTU: %17.1 | TUTMADI: %0.6`
 - **Videoda Ne Demişti:** Rusya'nın Pravda şebekesi gibi gizli sahte haber ağlarını ve sosyal medyadaki algı yönetimini değerlendiren Utku Şen, yapay zekayla birlikte dezenformasyonun çok daha tehlikeli bir boyuta ulaşacağını anlatıyor. İnsanların hafızasının çok kısa olması nedeniyle gerçeğin önemsizleştiği bu yeni dünyada, 5N1K kurallarına sadık kalan saygın ve bağımsız gazetecilerin değer kazanacağını kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [AI misinformation and the value of trusted news | CEPR](https://cepr.org/voxeu/columns/ai-misinformation-and-value-trusted-news)
     > *"Figure 3 Cumulative dropped subscriptions by group These findings, consistent with a simple theoretical model in the study, suggest that when the threat of misinformation becomes salient, the value of credible news increases. The prospect of AI-generated falsehoods did not drive readers away from news content, instead, it reinforced their reliance..."*
   - `[Tavily]` [Generative Artificial Intelligence Threats to Information Integrity and ...](https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3000/PEA3089-1/RAND_PEA3089-1.pdf)
@@ -1552,11 +2583,21 @@
   - `[Tavily]` [Misinformation reloaded? Fears about the impact of generative AI on misinformation are overblown | HKS Misinformation Review](https://misinforeview.hks.harvard.edu/article/misinformation-reloaded-fears-about-the-impact-of-generative-ai-on-misinformation-are-overblown)
     > *"Third, generative AI could also help increase the quality of reliable news sources—for instance, by facilitating the work of journalists in some areas. Given the rarity of misleading content compared to reliable content, the increase in the appeal of misinformation would have to be 20 to 100 times larger than the increase in the appeal of reliable..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, büyük dil modellerinin rol yapma oyunlarına girmesiyle sabit diyalog seçeneklerinin tarihe karışacağını, oyuncuların kendi sesleriyle konuşup NPC'leri ikna ettiği yepyeni bir oyun devriminin başlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %31.3 | TUTMADI: %1.6 | KISMEN TUTTU: %32.0 | TUTTU: %35.1`
 - **Videoda Ne Demişti:** Fortnite içine eklenen Darth Vader NPC'siyle sesli sohbet deneyimini aktaran Utku Şen, oyunda ilk kez bir dil modeli kullanıldığını anlatıyor. Gelecekte Baldur's Gate gibi rol yapma oyunlarında hazır butonlara basmak yerine oyuncuların doğrudan mikrofonla konuşup pazarlık yapacağı ve oyunun buna göre şekilleneceği bir dönemin geleceğini, bunun da oyun dünyasında bir devrim yaratacağını kendi heyecanı ve öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [GitHub - AkshitIreddy/Interactive-LLM-Powered-NPCs: Interactive LLM Powered NPCs, is an open-source project that completely transf...](https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs)
     > *"🐎 Non-Visual Interactions: The project goes beyond face-to-face conversations by enabling interactions even when the NPC's face is not visible, such as during horseback riding or intense combat sequences. To engage with the NPC, simply say their name first, followed by your dialogue. The system will then follow the same process of transcribing, gen..."*
   - `[Tavily]` [The Effect of Context-aware LLM-based NPC Conversations on ...](https://projekter.aau.dk/projekter/files/536738243/The_Effect_of_Context_aware_LLM_based_NPC_Dialogues_on_Player_Engagement_in_Role_playing_Video_Games.pdf)
@@ -1568,11 +2609,21 @@
   - `[DuckDuckGo]` [GitHub - Chinmay1220/LLM-Powered-NPC-Dialogue-for-Games](https://github.com/Chinmay1220/LLM-Powered-NPC-Dialogue-for-Games/)
     > *"A complete educational + implementation project that demonstrates how to build intelligent, in-world NPCs powered by LLMs (GPT) using Python and Streamlit. Instead of static dialogue trees, students design characters using JSON + Markdown and control GPT using constraints, lore, and memory."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, Çin menşeili güneş panelleri ve ucuz elektroniklerdeki arka kapılar yüzünden olası bir savaş veya kriz anında Batı'daki bu cihazların aniden çalışmaz hale gelebileceğini ve bu gizli riskler yüzünden Çin'e ağır ambargolar konulacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %2.7 | TUTMADI: %0.3 | TUTTU: %62.4 | KISMEN TUTTU: %34.6`
 - **Videoda Ne Demişti:** Batı ülkelerine satılan Çin malı güneş panellerinde uzaktan kapatma sağlayan arka kapı bulunmasını yorumlayan Utku Şen, ucuz Çin elektroniğinde arka kapıların bir devlet politikası haline geldiğini savunuyor. Olası bir savaş halinde bu cihazların birdenbire işlevsiz kalabileceğini ve bu büyük güvenlik açıkları sebebiyle Çin ürünlerine yönelik kaçınılmaz ambargoların geleceğini kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [US considers ban on Chinese solar inverters](https://www.pv-tech.org/us-considers-banning-chinese-solar-inverters)
     > *"Whether an inverter is made by a Chinese company or not does not necessarily impact whether a malicious actor is able to gain access through a digital back door. The thwarted attack on solar and wind assets in Poland last December, which could have resulted in blackouts and deaths if it was successful, was caused by hackers gaining remote access to..."*
   - `[Tavily]` [Rogue communication devices found in Chinese solar power inverters](https://www.reuters.com/sustainability/climate-energy/ghost-machine-rogue-communication-devices-found-chinese-inverters-2025-05-14)
@@ -1584,15 +2635,29 @@
   - `[DuckDuckGo]` [Chinese Inverter Backdoors: A Renewable Energy Cybersecurity ...](https://www.maya-security.com/post/chinese-inverter-backdoors-a-renewable-energy-cybersecurity-wake-up-call)
     > *"May 15, 2025 · Leading renewable energy operators worldwide are confronting a disturbing supply-chain vulnerability: undocumented communication modules found in Chinese-made solar inverters and batteries."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Gözlükte Gereksiz Bildirim Okuma Keyfi - S.A.H E137 - 2025-09-22
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Meta'nın Ray-Ban akıllı gözlüğünün vadedildiği gibi etkileyici olmayacağını, özellikle gürültülü ortamlarda konuşulanları anında altyazıya çevirme gibi iddialı özelliklerin pratikte kesinlikle düzgün çalışmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %31.4 | TUTMADI: %46.7 | KISMEN TUTTU: %10.4 | TUTTU: %11.6`
 - **Videoda Ne Demişti:** Mark Zuckerberg'in canlı yayında yaptığı başarısız Meta Ray-Ban akıllı gözlük demosunu ve ürünün vaatlerini değerlendiren Utku Şen, Meta'nın yapay zeka modelleri ile işletim sisteminin rakiplerinden çok geride olduğunu anlatıyor. Gürültülü ortamlarda sesleri yakalayıp altyazı gösterme gibi özelliklerin pratikte çalışmayacağını belirterek bir bahse girecek olsa gözlüğün kötü çalışacağına para yatıracağını kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How to use live captions on Meta Ray-Ban Display | AI Glasses Help | Meta](https://www.meta.com/help/ai-glasses/23879220601763496)
     > *"How to stop live captions on Meta Ray-Ban Display To stop live captions, you can do any one of the following: Say “Hey Meta, stop live captions.” Tap middle finger on thumb using Meta Neural Band. Tap three fingers on your glasses’ touchpad. Tap Stop in the Meta AI app. Learn more How to use live translation on AI glasses Share --- Still need help?..."*
   - `[Tavily]` [Meta Ray-Ban Display GLASSES: Full On Stage Live Demonstration & Fails](https://www.youtube.com/watch?v=o6xiitRf3Gk&vl=en)
@@ -1604,11 +2669,21 @@
   - `[DuckDuckGo]` [How to use live captions on Meta Ray-Ban Display](https://www.meta.com/help/ai-glasses/23879220601763496/)
     > *"Learn how to start and stop live captions on Meta Ray-Ban Display, so you can see a text transcription of speech in real time."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, gözümüzün önünde sürekli bildirim görmenin ve sosyal medyanın insan biyolojisine tamamen aykırı olduğunu, toplumda gizli bir anksiyete pandemisi yarattığını ve gelecekte bugünlerin ne kadar yıkıcı olduğunun çok daha iyi anlaşılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %18.9 | TUTMADI: %2.5 | TUTTU: %60.2 | KISMEN TUTTU: %18.4`
 - **Videoda Ne Demişti:** Akıllı gözlüklerin bildirim gösterme özelliğini eleştiren Utku Şen, insan biyolojisinin ve sinir sisteminin hala bir mağara adamı gibi çalıştığını anlatıyor. Zihnin her gün yüzlerce bildirim ve kötü haber almaya uygun olmadığını vurgulayarak günümüzde yaşanan anksiyete patlamasının ilerleyen yıllarda çok daha net idrak edileceğini kendi tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Digital Anxiety: The Emotional Toll of Continuous Notifications](https://www.linkedin.com/pulse/digital-anxiety-emotional-toll-continuous-andre-1bmfe)
     > *"The case studies examined—from South Korea's 95% smartphone penetration and resulting youth mental health crisis to Japan's innovative municipal ordinances and the Nordic countries' systemic approaches—illustrate that effective responses to digital anxiety require both individual skill development and collective action. No single person can solve t..."*
   - `[Tavily]` [Smartphones, Social Media, and Their Impact on Mental Health | Columbia University Department of Psychiatry](https://www.columbiapsychiatry.org/research/research-areas/child-and-adolescent-psychiatry/sultan-lab-mental-health-informatics/research-areas/smartphones-social-media-and-their-impact-mental-health)
@@ -1620,15 +2695,29 @@
   - `[DuckDuckGo]` ['Notification addiction' on social media can increase anxiety ...](https://www.turkiyetoday.com/lifestyle/notification-addiction-on-social-media-can-increase-anxiety-expert-warns-3232376)
     > *"1 day ago · Constantly checking social media notifications and worrying about missing updates can increase anxiety, disrupt concentration and interfere with sleep, according to a psychiatrist in Türkiye who warns that excessive screen time can also affect physical health. Associate Professor Taha Can Tuman, a ..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hacker'ları Sevmekten Kendimi Alıkoyamıyorum - S.A.H E80 - 2023-12-25
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte neredeyse tüm şirketlerin parolasız kimlik doğrulamaya geçeceğini ve sektörde herkesin bu teknolojiyi konuşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.2 | TUTTU: %76.8 | BELIRSIZ: %2.1 | KISMEN TUTTU: %20.9`
 - **Videoda Ne Demişti:** Parolasız giriş (passwordless authentication) üzerine hazırladığı yeni eğitimi anlatan Utku Şen, bu konseptin henüz çok az işlendiğini ama gelecekte neredeyse bütün şirketlerin parolasız sistemlere geçiş yapacağını ve herkesin bu konuyu konuşacağını kendi tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why Passkeys Are the Future of Passwordless Authentication | RSA](https://www.rsa.com/resources/blog/passwordless/why-passkeys-are-the-future-of-passwordless-authentication)
     > *"In 2026, 87% of enterprises are actively deploying or piloting passkeys, up from 53% just two years prior. The passwordless authentication market reached $24.1 billion in 2025 and is projected to reach $55.7 billion by 2030. This is not a trend in its early stages—it is a transition in full effect. This article explains what passkeys are, why they..."*
   - `[Tavily]` [The Current State Of Enterprise Passwordless Adoption | Forrester](https://www.forrester.com/report/the-current-state-of-enterprise-passwordless-adoption/RES176989)
@@ -1640,11 +2729,21 @@
   - `[DuckDuckGo]` [The State of Passwordless Authentication 2026 | MojoAuth](https://mojoauth.com/data-and-research-reports/state-of-passwordless-2026/)
     > *"Jan 15, 2026 · The State of Passwordless Authentication 2026 Global Adoption & Performance Report - analyzing 523.7 million authentications across 50,247 developers and 2,847 enterprise deployments."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, tüm dünya sürücüsüz araçlara geçse bile Türkiye'nin taksi lobisi yüzünden asla geçemeyeceğini, sokaklara otonom taksi çıksa taksicilerin aracı yakacağını ve ceza bile almayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %40.6 | TUTTU: %17.8 | TUTMADI: %31.8 | KISMEN TUTTU: %9.8`
 - **Videoda Ne Demişti:** Waymo'nun sürücüsüz araçlarının insan şoförlere göre çok daha az kaza yaptığını gösteren istatistikleri inceleyen Utku Şen, yapay zekanın kazaları ileride çok daha fazla azaltacağını savunuyor. Ancak Türkiye'deki yerleşik taksi lobisi ve cezasızlık düzeni yüzünden bu dönüşümün ülkeye giremeyeceğini, olası bir robot taksinin molotof atılarak yakılacağını kendi öngörüsü olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Waymo’s driverless cars crash less often than people](https://www.iihs.org/news/detail/waymos-driverless-cars-crash-less-often-than-people)
     > *"Waymo vehicles traveled about 50 million miles in driverless operation over the study period, compared with about 222 billion miles by human drivers over the same period and in the same locations. Overall, Waymo’s crash involvement rate was 68% lower than that of human drivers — 76% lower in Phoenix, 35% lower in San Francisco, 71% lower in Los Ang..."*
   - `[Tavily]` [Comparative safety performance of autonomous- and human drivers: A real-world case study of the Waymo Driver](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305169)
@@ -1656,11 +2755,21 @@
   - `[DuckDuckGo]` [Waymo Safety Impact](https://waymo.com/safety/impact/)
     > *"The results on the safety impact data hub compare Waymo’s crash performance to the current human driving fleet from the areas where Waymo operates using best practices to align the Waymo and human crash data."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, yapay zekanın akılda kalıcı melodiler üretmesi için daha çok vakit olduğunu, Türkçe prozodi ve vurgu kurallarını modellemenin devasa emek istemesi yüzünden Türkçe müzik üretenlerin uzun süre rahat kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %21.3 | BELIRSIZ: %38.3 | KISMEN TUTTU: %14.6 | TUTMADI: %25.7`
 - **Videoda Ne Demişti:** Suno AI gibi müzik üreten yapay zeka araçlarını değerlendiren Utku Şen, yapay zekanın kulağa hoş gelen orijinal melodi üretmekte hala zorlandığını ve mevcut örneklerin seçmece olduğunu anlatıyor. Türkçe dilinin kendine has prozodi ve hece vurgusu yapısının yapay zekaya öğretilmesinin çok ciddi emek gerektirdiğini belirterek Türkçe müzik yapanların uzun süre işlerinden endişe etmelerine gerek olmadığını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Applications of Artificial Intelligence in Music: A Review - SciOpen](https://www.sciopen.com/local/article_pdf/10.26599/IJCS.2025.9100011.pdf)
     > *"Emerging work highlights a critical gap in the explainability and prosody of lyric-generation systems. Few models address musical prosody or provide interpretability, limiting usability for composers and singers. Explainable AI (XAI) approaches in music computing have visualized latent spaces or generated human-like rationales for recommendations(4..."*
   - `[Tavily]` [JAM: A Tiny Flow-based Song Generator with Fine-grained Controllability and Aesthetic Alignment](https://arxiv.org/html/2507.20880v1)
@@ -1672,15 +2781,29 @@
   - `[DuckDuckGo]` [Efficient Neural Music Generation - arXiv.org](https://arxiv.org/pdf/2305.15719)
     > *"To prevent from having any disruption caused by unnaturally sound vocals, our training data was prepared to mostly contain non-vocal music only, which may limit the range of effective prompts for MeLoDy."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hackerlar Olmazsa Biz Nasıl Para Kazanacağız? - S.A.H E87 - 2024-03-04
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın kod analizi ve zafiyet tespitinde devrim yaratarak geleneksel statik analiz firmalarını iflas ettireceğini, önümüzdeki birkaç yıl içinde sadece sızma testi yapan uzmanlara neredeyse hiç ihtiyaç kalmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %49.0 | BELIRSIZ: %13.0 | TUTMADI: %35.9 | TUTTU: %2.0`
 - **Videoda Ne Demişti:** Büyük dil modellerinin web sitelerini otonom hacklemesi üzerine yazılan bir makaleyi inceleyen Utku Şen, yapay zekanın kod analizindeki mantık hatalarını ve veri akışını çok iyi yakalayacağını anlatıyor. Bu durumun mevcut statik kod analizi şirketlerini batırabileceğini, şirketlerin pahalı pentester ekipleri yerine ucuz yapay zekaları seçeceğini ve kendini bulut ya da devops gibi diğer alanlarda geliştirmeyen sızma testi uzmanlarının iki yıl içinde işsiz kalabileceğini kendi güçlü öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why AI-Generated Code Needs Runtime Validation, Not Just SAST](https://www.invicti.com/blog/web-security/why-ai-generated-code-needs-runtime-validation-not-just-sast)
     > *"Does AI-powered SAST replace traditional security testing? No. LLM-based tools can greatly enhance static analysis, but they do not replace the need for dedicated security tooling and especially for runtime validation. AI code analysis improves detection but cannot confirm exploitability. Why is runtime validation important for AI-generated code? (..."*
   - `[Tavily]` [Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment](https://arxiv.org/html/2606.11672v1)
@@ -1692,11 +2815,21 @@
   - `[DuckDuckGo]` [LLM vs. SAST: A Technical Analysis on Detecting Coding Bugs ...](https://arxiv.org/html/2506.15212v1)
     > *"Jun 18, 2025 · This paper investigates the efficacy of GPT-4 in identifying software vulnerabilities compared to traditional Static Application Security Testing (SAST) tools. Drawing from an array of security mistakes, our analysis underscores the potent capabilities of GPT-4 in LLM-enhanced vulnerability scanning."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, devletlerin Flipper Zero gibi cihazları yasaklamasının suçluları veya araba hırsızlığını asla engelleyemeyeceğini, bu tür donanım yasaklarının tamamen anlamsız kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %18.6 | TUTTU: %70.2 | TUTMADI: %3.3 | KISMEN TUTTU: %7.8`
 - **Videoda Ne Demişti:** Kanada hükümetinin araba hırsızlıklarında kullanıldığı gerekçesiyle Flipper Zero cihazını yasaklama kararını değerlendiren Utku Şen, suçluların zaten bu cihazları kaçak yollarla ülkeye sokacağını ya da kendi donanımlarını üreteceğini belirtiyor. Sistemlerdeki temel güvenlik açıkları kapatılmadığı sürece bu aletleri yasaklamanın hiçbir işe yaramayacağını kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Our Response to the Canadian Government](https://blog.flipper.net/response-to-canadian-government)
     > *"We believe that proposals like this are harmful to security and slow down technological progress. They are usually made by those who do not really understand how security works and will do nothing to solve the car theft problem. In this post, we’ll explain why banning Flipper Zero instead of fixing security threats is not the solution. What happene..."*
   - `[Tavily]` [Restricting Flipper is a Zero Accountability Approach to Security: Canadian Government Response to Car Hacking | Electronic Fronti...](https://www.eff.org/deeplinks/2024/03/restricting-flipper-zero-accountability-approach-security-canadian-government)
@@ -1706,11 +2839,21 @@
   - `[Tavily]` [Canada to ban the Flipper Zero to stop surge in car thefts - Reddit](https://www.reddit.com/r/technology/comments/1an453b/canada_to_ban_the_flipper_zero_to_stop_surge_in)
     > *"The Canadian government plans to ban the Flipper Zero and similar devices after tagging them as tools thieves can use to steal cars. Open."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, DDoS saldırılarının artık web sitelerini çökertmekten ziyade bulut bant genişliğini tüketerek şirketleri iflasa sürükleyecek devasa faturalar çıkarmak amacıyla kullanılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %6.3 | KISMEN TUTTU: %19.7 | TUTTU: %72.8 | TUTMADI: %1.2`
 - **Videoda Ne Demişti:** Netlify üzerinde barındırılan statik bir web sitesine botlarla sürekli istek atılarak 100 bin dolarlık fatura çıkarılması olayını yorumlayan Utku Şen, sitenin ayakta kalmasının yetmediğini anlatıyor. Saldırganların sınırsız ölçeklenen bulut servislerini veya açıkta kalan API anahtarlarını suistimal ederek şirketleri finansal olarak vuracağını ve fatura patlatmanın artık en büyük saldırı vektörlerinden biri olduğunu kendi tezi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Denial of Wallet Attack – Complete Guide - DevSecOps School](https://devsecopsschool.com/blog/denial-of-wallet-attack-complete-guide)
     > *"2. How it Works 1. Target: A cloud-hosted application or API that scales automatically (serverless, containers, PaaS). 2. Exploit: Attacker repeatedly sends valid requests, often small or cheap individually. 3. Consequence: The cloud provider auto-scales resources to serve them, racking up costs for the victim. 4. Outcome: Even if the system doesn’..."*
   - `[Tavily]` [Denial of Wallet Attack – Complete Guide - DevSecOps School](http://devsecopsschool.com/blog/denial-of-wallet-attack-complete-guide)
@@ -1722,15 +2865,29 @@
   - `[DuckDuckGo]` [Denial-of-service attack - Wikipedia](https://en.wikipedia.org/wiki/Denial-of-service_attack)
     > *"The most notable event was a DDoS attack in February, the largest Ukraine has encountered, disrupting government and financial sector services. This wave of cyber aggression extended to Western allies like the UK, the US, and Germany."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hackerlara Milletvekili Dokunulmazlığı İstiyoruz - S.A.H E84 - 2024-01-29
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın dilekçe ve savunma hazırlığını ne kadar hızlandırırsa hızlandırsın avukatların işini kesinlikle elinden alamayacağını, adliyelerdeki savcı ve hakim diyalogları gibi insani süreçleri hiçbir modelin yürütemeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.6 | BELIRSIZ: %2.3 | KISMEN TUTTU: %4.4 | TUTTU: %92.7`
 - **Videoda Ne Demişti:** Amerika'da avukatların yapay zeka kullanımını ve bir avukatın ChatGPT halüsinasyonuna kanıp sahte emsal karar sunmasını değerlendiren Utku Şen, yapay zekanın hukuk işlerini hızlandıracağını ama avukatlık mesleğini bitiremeyeceğini anlatıyor. Hukukun özellikle Türkiye gibi yerlerde savcıyla yüz yüze konuşmak gibi çok insani boyutları olduğunu ve yapay zekanın bunu asla yapamayacağını kendi kesin tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Can Generative AI Replace Your Lawyer? | Ramsden Lawyers](https://ramsdenlaw.com.au/can-generative-ai-replace-your-lawyer)
     > *"Title: Can Generative AI Replace Your Lawyer? | Ramsden Lawyers Ramsden Lawyers. Can Generative AI Replace Your Lawyer? Tools such as ChatGPT and Gemini can draft templates, summarise documents and speed up legal research, but they cannot provide advice tailored to your circumstances, verify their own accuracy, or take professional responsibility f..."*
   - `[Tavily]` [Will AI Replace Lawyers? The Future of Legal Practice & Generative AI  - NBI](http://www.nbi-sems.com/blogs/news/will-ai-replace-lawyers)
@@ -1742,11 +2899,21 @@
   - `[DuckDuckGo]` [Will AI Replace Lawyers? What the Data Actually Says (2026)](https://claudeforlawyers.com/blog/will-ai-replace-lawyers)
     > *"Mar 11, 2026 · AI will not replace lawyers, but it is already changing what lawyers do. Here's what the latest data shows about AI's real impact on legal jobs."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, çizimlere görünmez pikseller ekleyerek yapay zekayı zehirleyen Nightshade gibi araçların telif tartışmalarında parlayacağını ve gelecekte tüm ressamların tarzlarını korumak için kullanacağı zorunlu bir standarda dönüşebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.0 | BELIRSIZ: %23.7 | TUTTU: %36.5 | KISMEN TUTTU: %36.7`
 - **Videoda Ne Demişti:** Chicago Üniversitesi'nin geliştirdiği ve ressamların tarzının yapay zeka tarafından taklit edilmesini engelleyen Nightshade aracını inceleyen Utku Şen, sanatçıların haklarını korumak için bu yönteme sarılacağını belirtiyor. Bu tekniğin ileride tüm illüstratörler ve ressamlar için standart bir güvenlik uygulaması haline gelebileceğini kendi tahmini olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [This new data poisoning tool lets artists fight back against generative AI | MIT Technology Review](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai)
     > *"The tool, called Nightshade, is intended as a way to fight back against AI companies that use artists’ work to train their models without the creator’s permission. Using it to “poison” this training data could damage future iterations of image-generating AI models, such as DALL-E, Midjourney, and Stable Diffusion, by rendering some of their outputs..."*
   - `[Tavily]` [Artists fight back against AI with data poisoning | Nesta](https://www.nesta.org.uk/feature/future-signals-2024/artists-fight-back-against-ai)
@@ -1758,15 +2925,29 @@
   - `[DuckDuckGo]` [Nightshade Data Poisoning: How Artists Protect Their Work ...](https://mindgard.ai/blog/nightshade-data-poisoning)
     > *"Oct 30, 2026 · Nightshade employs data poisoning to protect artists and prevent scraped copies of their images from being used to train AI models. Nightshade adds visually undetectable alterations to images that cause machine learning models to make incorrect associations."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hackerların Gözü, Evdeki Kameranızda Olabilir - S.A.H E126 - 2025-06-01
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, siber güvenlikçilerin ve yazılımcıların yapay zekayı görmezden gelemeyeceğini, üç beş yıl sonra sektörde kalmak ve evine ekmek götürebilmek için herkesin yapay zeka açıklarını ve saldırı yöntemlerini öğrenmek zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.5 | KISMEN TUTTU: %32.5 | BELIRSIZ: %14.6 | TUTTU: %52.4`
 - **Videoda Ne Demişti:** Birleşik Krallık'ın yapay zeka hacker ordusu kurma girişimini ve sektörün dönüşümünü değerlendiren Utku Şen, geleneksel siber güvenliğin tek başına yetmeyeceğini anlatıyor. Sadece SQL injection veya XSS bilip yapay zekayı dışlayan uzmanların birkaç yıl içinde işsiz kalabileceğini, oyunda kalabilmek için yapay zeka güvenliğine adapte olmanın mecburi olduğunu kendi uyarısı ve tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI in Cybersecurity: Threat Detection, Risks and Career Paths](https://onlinedegrees.uwf.edu/articles/cybersecurity-and-ai)
     > *"No. AI will augment cybersecurity roles, not eliminate them. Qualified professionals are needed to configure, supervise and correct AI systems, interpret nuanced alerts and make judgment calls that algorithms cannot. Employers need professionals who can guide AI learning paths, validate data analysis and protect the software, networks and datasets..."*
   - `[Tavily]` [AI Won't Wipe Out Entry-Level Cybersecurity Jobs](https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs)
@@ -1778,11 +2959,21 @@
   - `[DuckDuckGo]` [The Future of Cybersecurity: How AI is Transforming the ...](https://www.comptia.org/en-us/blog/the-future-of-cybersecurity-how-ai-is-transforming-the-workforce/)
     > *"Jun 18, 2025 · Discover how AI is transforming cybersecurity jobs, skills, and certifications. Learn which credentials like CompTIA SecAI+ can future-proof your IT security team.."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, gelecekte her devletin kendi internet varlıklarını otonom yapay zeka ajanlarıyla 7/24 tarayacağını, açıkta bir veri tabanı ya da zafiyet bulduğunda şirket yetkilisini telefonla arayıp haber veren savunma sistemlerinin kurulacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %15.9 | KISMEN TUTTU: %40.3 | TUTMADI: %1.1 | TUTTU: %42.8`
 - **Videoda Ne Demişti:** İngiltere'nin yapay zeka ordusu hamlesi üzerinden devletlerin yüz binlerce sunucusunu kontrol etme zorluğunu değerlendiren Utku Şen, insan gücünün bu trafiği ve veri tabanlarını izlemeye yetmeyeceğini belirtiyor. Her devletin kendi dijital varlıklarını yapay zeka ajanlarıyla anlık olarak tarayacağını ve bir tehlike anında şirketleri doğrudan uyaran otonom savunma mekanizmalarının geleceğini kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How AI Agents Are Changing Vulnerability Analysis](https://www.linkedin.com/top-content/artificial-intelligence/developing-ai-agents/how-ai-agents-are-changing-vulnerability-analysis)
     > *"↳ AI executed reconnaissance, exploitation, lateral movement, data exfiltration ↳ Humans only intervened at strategic decision gates (10-20% of operations) ↳ Peak activity: thousands of requests per second ↳ Multiple simultaneous intrusions across major tech companies and government agencies The Evolution from Vibe Coding to Autonomous Attacks In J..."*
   - `[Tavily]` [Reforming Coordinated Vulnerability Disclosure for the Autonomous Bug Hunter Era – Lab Space](https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-vulnerability-disclosure-policy-reform)
@@ -1794,11 +2985,21 @@
   - `[DuckDuckGo]` [AI-Accelerated Vulnerability Discovery and the Patch Debt ...](https://labs.cloudsecurityalliance.org/research/ai-accelerated-vuln-discovery-systemic-patch-debt-v1-0-csa-s/)
     > *"Cogent Security, founded in 2025, raised $42 million to develop autonomous AI agents designed to address the operational gap between vulnerability discovery and remediation in enterprise environments."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, gelecekte yapay zeka sayesinde oyunların her oyuncu için tamamen kişiye özel çalışacağını, dev açık dünya oyunlarında karşılaşılan NPC'lerin her kullanıcı için bambaşka karakterlere dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.8 | BELIRSIZ: %15.0 | TUTTU: %58.5 | KISMEN TUTTU: %25.7`
 - **Videoda Ne Demişti:** İçinde dolaşılabilen yapay zeka video projesi Odyssey'i inceleyen Utku Şen, teknolojinin oyun ve sanal gerçeklik sektörünü kökten değiştireceğini anlatıyor. Gelecekte Red Dead Redemption gibi oyunlarda yapay zekanın herkes için farklı dünyalar üreteceğini ve karşılaşılan NPC'lerin her oyuncu için benzersiz olacağı bir oyun çağının geleceğini kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Evolution of NPCs: How Generative AI is Enhancing In-Game Characters - Genies](https://genies.com/blog/the-evolution-of-npcs-how-generative-ai-is-enhancing-in-game-characters)
     > *"Imagine: instead of repeating a single line, that old man in a Zelda cave reacts differently based on how you’ve played. Instead of generic NPC drivers in GTA, AI-powered characters form unique responses to your actions, making every encounter feel fresh. How? Generative AI advances NPCs in several key ways: (...) We’re moving closer to real-time,..."*
   - `[Tavily]` [Integrating Generative AI NPCs for Dynamic Storytelling](https://enicomp.com/integrating-generative-ai-npcs-for-dynamic-storytelling)
@@ -1810,15 +3011,29 @@
   - `[DuckDuckGo]` [AI NPCs in Gaming: RPG Examples, Memory and Design](https://www.mimicminds.com/post/ai-npcs-in-gaming)
     > *"Oct 14, 2025 · This guide explains NPC artificial intelligence, how traditional game AI differs from generative dialogue, and where adaptive behavior can improve gameplay. It also covers practical examples, memory systems and the checks needed before putting a conversational character in front of players."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hacklenen Şirketler, Yalancı Hackerlar - S.A.H E72 - 2023-10-24
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, açık kaynak veri havuzlarının ve modellerin hızla gelişmesi sayesinde yapay zekanın ileride dev teknoloji şirketlerinin tekelinde kalmayabileceğini, açık kaynak modellerin çok ciddi güçleneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %76.0 | TUTMADI: %0.3 | BELIRSIZ: %0.9 | KISMEN TUTTU: %22.8`
 - **Videoda Ne Demişti:** Anna's Archive gibi korsan veri havuzlarının yapay zeka eğitimine sunduğu imkanları değerlendiren Utku Şen, büyük şirketlerin veri avantajına rağmen açık kaynak tarafının hızla büyüdüğünü anlatıyor. Bireylerin artık dev şirketlerin insafına kalmadığını belirterek gelecekte yapay zekanın Silikon Vadisi devlerinin tekelinden çıkabileceğini ve açık kaynak modellerin piyasada çok güçleneceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Open-Source AI Boom: How Startups Are Breaking Big Tech’s Monopoly in 2026 | Sovereix](https://www.sovereix.com/startups/the-open-source-ai-boom-how-startups-are-breaking-big-tech-s-monopoly-in-2026)
     > *"A generalized proprietary model is a 'jack of all trades, master of none.' Startups are realizing that a smaller, open-source 7B or 8B parameter model—when aggressively fine-tuned on highly specific data—will drastically outperform a generalist model. This is key for creating intelligent technology solutions tailored for niche clients. 3. Avoiding..."*
   - `[Tavily]` [The Open-Source AI Sovereignty Trap: Why Access to Weights Does Not Equal Control — Tonisha Tagoe](https://www.tonishatagoe.com/open-source-ai-sovereignty-trap-weights-access-control)
@@ -1830,15 +3045,29 @@
   - `[DuckDuckGo]` [Open-Source Models Breaking the AI Monopoly - Stabilarity Hub](https://hub.stabilarity.com/open-source-models-breaking-the-ai-monopoly/)
     > *"Feb 2, 2026 · The artificial intelligence landscape is undergoing a fundamental transformation as open-source models challenge the dominance of proprietary systems. This analysis examines the economic, technical, and strategic implications of open-source AI adoption for enterprise organizations."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Havalimanında T*rör Şakası Yaparken Dikkat Edilecekler - S.A.H E85 - 2024-02-05
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, şu an donanım yetersizliği nedeniyle yapılamayan anlık ve gerçek zamanlı (real-time) deepfake teknolojisinin yakında ele ayağa düşeceğini, ses ve mimikleri anında dönüştüren bu sistemlerin çok daha büyük tehlikelere yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.7 | TUTTU: %90.1 | BELIRSIZ: %0.7 | KISMEN TUTTU: %8.6`
 - **Videoda Ne Demişti:** Hong Kong'da bir finans çalışanının sahte bir Zoom toplantısıyla 25 milyon dolar dolandırılması olayını değerlendiren Utku Şen, şu an önceden kaydedilmiş videolar kullanıldığını ama donanımlar geliştikçe ses ve mimiği anlık değiştiren gerçek zamanlı deepfake sistemlerinin geleceğini ve herkesin eline düşeceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Deepfake fraud at work: video call scams, face swaps, and vishing](https://www.resemble.ai/resources/deepfake-fraud-at-work-video-call-scams-face-swaps-and-vishing)
     > *"Real-time face swapping is the engine behind those meeting attacks, and it is improving on a timescale of weeks, not months. What used to require a rendering pipeline and obvious artifacts now runs live and integrates directly into the conferencing and messaging apps everyone already uses, so nothing looks out of place to the victim. In the session..."*
   - `[Tavily]` [Real-time deepfake detection for video calls | Corsound AI](https://www.corsound.ai/blog-posts/real-time-deepfake-detection-video-calls)
@@ -1850,11 +3079,21 @@
   - `[DuckDuckGo]` [Deepfake ile Dolandırıcılık: Ses ve Görüntü Taklidi](https://akademi.altaysec.com.tr/blog/deepfake-dolandiriciligi-ses-goruntu-taklidi)
     > *"Oct 5, 2026 · Deepfake görüntülü arama gerçek zamanlı yapılabilir mi? Evet. 2024'teki Arup vakasında Hong Kong'daki çalışan, finans direktörü ve meslektaşlarının yer aldığı çok kişili bir görüntülü toplantıya katıldı ve hepsi sahteydi."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, izinsiz deepfake ve sahte pornografik içeriklerin özellikle muhafazakar çevrelerde cinayetlere kadar varacağını, bu yüzden devletlerin acilen çok ağır hapis cezaları getiren yasalar çıkarmak zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %41.7 | BELIRSIZ: %5.9 | KISMEN TUTTU: %47.4 | TUTMADI: %5.0`
 - **Videoda Ne Demişti:** Taylor Swift'in yapay zekayla üretilen sahte pornografik görüntülerinin yayılmasını yorumlayan Utku Şen, dijital iftiraların internetten kolay kolay silinemediğini ve Türkiye gibi muhafazakar yerlerde bu sahte görüntülerin cinayetlere yol açabileceğini anlatıyor. Çok büyük facialar yaşanmadan önce izinsiz deepfake üretenlere doğrudan hapis cezası getiren kanunların acilen çıkarılması gerektiğini kendi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Non-Consensual Deepfakes: What the Law Actually Covers](https://www.duckduckgoose.ai/blog/deepfakes-and-consent-non-consensual-imagery-law)
     > *"| Jurisdiction or Law | What It Does | --- | | US: TAKE IT DOWN Act (2025) | Crime to publish non-consensual intimate deepfakes, 48-hour platform takedown | | US: DEFIANCE Act (Senate-passed) | Would let victims sue for up to $150K, or $250K if tied to abuse | | US states | 46 states cover sexual deepfakes, all 50 and DC have NCII laws | | UK: Onli..."*
   - `[Tavily]` [Laws and Policies Around AI-Generated Deepfakes & Pornography](https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/laws-and-policies-around-ai-generated-deepfakes--pornography)
@@ -1866,15 +3105,29 @@
   - `[DuckDuckGo]` [TAKE IT DOWN Act - Wikipedia](https://en.wikipedia.org/wiki/TAKE_IT_DOWN_Act)
     > *"The Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act, or TAKE IT DOWN Act, is a United States law that aims to deal with non-consensual intimate imagery (sometimes called 'revenge porn') posted to online sites and social media applications."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Her Şey Çok Hızlı İlerliyor - S.A.H E152 - 2026-02-08
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, hafıza sorunu çözüldüğünde yapay zekanın kod içindeki açıkları çok daha iyi yakalayacağını, bunun da hackerların açık kaynak projelerdeki zafiyetleri otomatik avlamasına yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.8 | KISMEN TUTTU: %15.0 | BELIRSIZ: %5.3 | TUTTU: %77.9`
 - **Videoda Ne Demişti:** Anthropic'in Claude Opus 4.6 ile yüzlerce sıfır gün açığı bulduğunu anlatan Utku Şen, modellerin şu anki hafıza ve bağlam kısıtlarına dikkat çekiyor. İleride hafıza problemi çözüldüğünde modellerin kodlardaki açıkları çok daha başarılı tespit edeceğini, bunun yazılımcılara yarayacağı kadar saldırganların da açık kaynaklı projelerde zafiyet avına çıkmasına yol açacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Free LLM-based Vulnerability Scans for Open Source Projects](https://www.knostic.ai/blog/oss-scan)
     > *"That's why we're launching a free scanning program for open source projects using OpenAnt, our LLM-based vulnerability discovery tool (which we've also released as open source). OpenAnt from Knostic doesn't just flag potential issues, it uses LLMs to actually attack your code before reporting it vulnerable, cutting through the noise of false positi..."*
   - `[Tavily]` [OpenAnt: LLM-Powered Vulnerability Discovery Through Code Decomposition, Adversarial Verification, and Dynamic Testing](https://arxiv.org/html/2606.19149v2)
@@ -1886,11 +3139,21 @@
   - `[DuckDuckGo]` [GitHub - knostic/OpenAnt: OpenAnt from Knostic is the leading ...](https://github.com/knostic/OpenAnt)
     > *"Feb 26, 2026 · OpenAnt from Knostic is the first open source LLM-based vulnerability discovery and remediation product (now called a harness) that helps defenders proactively find verified security flaws while minimizing both false positives and false negatives."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka asistanlarına eklenen üçüncü parti becerilerin (skills) büyük bir güvenlik baş belasına dönüşeceğini ve VirusTotal gibi sistemlerin gizlenmiş zararlı scriptleri tek başına asla yakalayamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.1 | KISMEN TUTTU: %5.3 | TUTTU: %94.0 | BELIRSIZ: %0.5`
 - **Videoda Ne Demişti:** OpenClaw ve benzeri platformlar için kurulan beceri mağazalarını değerlendiren Utku Şen, bu eklentilerin içine parola ve token çalan zararlı kodların rahatlıkla yerleştirilebileceğini belirtiyor. Kodların ustaca gizlenebilmesi yüzünden VirusTotal gibi güvenlik tarayıcılarının bu tehlikeyi tek başına önleyemeyeceğini ve resmi olmayan bu becerilerin ileride kullanıcıların başına büyük dertler açacağını kendi uyarısı olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Snyk Finds Prompt Injection in 36%, 1467 Malicious Payloads in a ToxicSkills Study of Agent Skills Supply Chain Compromise | Snyk](https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub)
     > *"| Package ecosystems (2015-2020) | Agent Skills (2026) | --- | | Typosquatting attacks | ✓ Observed | | Malicious maintainers | ✓ Observed | | Post-install scripts as an attack vector | ✓ Skill 'setup' instructions | But Agent Skills are worse in key ways: Higher privilege by default: Skills inherit full agent permissions Prompt injection has no an..."*
   - `[Tavily]` [Dynamic Malicious Skills in Agentic AI](https://arxiv.org/html/2606.16287v2)
@@ -1902,11 +3165,21 @@
   - `[DuckDuckGo]` [Agentic SOC Guide - Reduce Security Risk](https://www.bing.com/aclick?ld=e8SmYRS8Y3qEzFEafEtrAFujVUCUxhM6srsCGk1PcA_v2We0zxPdOfulmncY6H-RFiBoskC-3KVdxIWsikq5W6u0mKrMMZ1TXW634JnGuIdR22LL4XykPPQkrv5hZf0XmyJmW_eGE7mH7mu-Pqd-vp6LdeKuZKNSj3DOW1h88t-clDdGBJhMgoFNuZdo7jDi-5ysHIX6Y9NLkCtlAVGzmNIw6cohY&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZjEwLWVzc2VudGlhbC1jYXBhYmlsaXRpZXMtb2YtdGhlLWFnZW50aWMtc29jLmh0bWwlM2Z1dG1fY2FtcGFpZ24lM2RiaW5nX2VtZWFfSEFNX2VuX3NlYXJjaF9nZW5lcmljX3NlY3VyaXR5JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2QxMENhcG9mU09DX0VCX3YyJTI2dXRtX3Rlcm0lM2RhZ2VudGljJTI1MjBTT0MlMjZkZXZpY2UlM2RjJTI2X2J0JTNkNzIwMTgyOTk1MjIxMjIlMjZfYm0lM2RwJTI2bXNjbGtpZCUzZGM1OWViYTJlMDU5NjE3YTA3MzczZDBkNTY0N2I3YmZm&rlid=c59eba2e059617a07373d0d5647b7bff)
     > *"Learn how unified TDIR, open data and automation strengthen detections and reduce risk. Discover 10 essential capabilities for a resilient, AI-powered security operation center. Data-Driven Security · Cloud Security · Protect Your Business · Intelligence Management Types: Security, IT Operations, Observability, Splunk Cloud Platform, Splunk Enterpr..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekayla kolay yoldan bilgi edinme furyasının tıpkı 90'ların zahmetsiz zayıflama aletleri gibi bir yanılsama olduğunu ve beyni zorlamadan özet tüketerek kalıcı hiçbir şey öğrenilemeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.4 | BELIRSIZ: %15.3 | TUTTU: %70.9 | KISMEN TUTTU: %12.4`
 - **Videoda Ne Demişti:** Yapay zekayla ders çalışan öğrencilerin gerçek sınavlarda daha başarısız olduğunu ortaya koyan araştırmayı değerlendiren Utku Şen, 90'lı yıllardaki kolay yoldan fit olma cihazlarını hatırlatıyor. Beden gibi beynin de zorlanmadan gelişemeyeceğini, 50 sayfalık metinleri yapay zekaya bir satırda özetletmenin yüzeysel kaldığını ve sürüden ayrışmak isteyen insanların mutlaka derinlemesine okuma yapması gerektiğini kendi hayat tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [https://www.ijprems.com/ijprems-paper/a-study-on-the-effect-of-ai-tools-on-student-learning-and-performance-at-dr-ait-college](https://www.ijprems.com/ijprems-paper/a-study-on-the-effect-of-ai-tools-on-student-learning-and-performance-at-dr-ait-college)
     > *"without questioning its answers, their critical thinking, decision-making, and analytical skills can decline. Students often choose AI-generated solutions because they are faster and easier, even when ethical challenges are involved. The study highlighted that over-dependence on AI can reduce deeper engagement and reflective learning, showing that..."*
   - `[Tavily]` [Impact of AI Tools on Learning Outcomes: Decreasing Knowledge and Over-Reliance](https://arxiv.org/html/2510.16019v1)
@@ -1916,11 +3189,21 @@
   - `[Tavily]` [The Impact of Artificial Intelligence (AI) on Students’ Academic Development](https://www.mdpi.com/2227-7102/15/3/343)
     > *"of detachment, diminishing the depth of their learning experience. (3) Neutral Impact (15 responses): Some participants perceived no significant shift in their learning or collaboration due to AI. They found AI tools useful but not transformative, suggesting that AI supplements rather than fundamentally alters their academic interactions. (...) usi..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, saatlerce rakiplerin davranışlarını akılda tutabilen kalıcı bir hafıza yapısı kurulmadığı sürece dil modellerinin poker oyununda hiçbir zaman başarılı olamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.2/10**)
 - **Olasılık Dağılımı:** `TUTTU: %34.1 | TUTMADI: %8.3 | KISMEN TUTTU: %16.1 | BELIRSIZ: %41.5`
 - **Videoda Ne Demişti:** Google'ın yapay zekaları oyunlarda yarıştıran Game Arena platformunu inceleyen Utku Şen, modellerin poker performansını değerlendiriyor. Pokerin saatlerce rakibin blöf alışkanlıklarını hafızada tutmayı gerektiren bir oyun olduğunu, mevcut modellerin kısıtlı pencere yapısıyla bunu yapamayacağını ve hafıza mekanizması kökten değişmedikçe bu oyunda asla dikiş tutturamayacaklarını kendi tespiti olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [LLM Context Window Limitations in 2026](https://atlan.com/know/llm-context-window-limitations)
     > *"LLM context windows face three core limitations: the advertised vs. effective gap (effective context often falls far below the marketed maximum, by up to 99% on complex tasks), working memory bottlenecks (frontier models manage only a handful of variables before reasoning breaks down), and context rot (accuracy drops over 30% when relevant informat..."*
   - `[Tavily]` [Overcoming Memory Limitations in Generative AI: Managing Context Windows Effectively](https://blog.capitaltg.com/overcoming-memory-limitations-in-generative-ai-managing-context-windows-effectively)
@@ -1932,15 +3215,29 @@
   - `[DuckDuckGo]` [Context Window of an LLM: Tokens, Limits and Memory](https://aiagentmemory.org/articles/context-window-of-an-llm/)
     > *"Mar 31, 2026 · What the context window of an LLM is, how input, output and thinking tokens share it, why it has a limit, and how it differs from real memory for AI agents."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Her Şeyi Eleştirme Haftası - S.A.H E129 - 2025-06-29
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, teknoloji devlerinin mesajlardaki uçtan uca şifrelemeyi doğrudan kıramasa bile yapay zekayı bahane ederek baypas edeceğini, mesaj özetletmek isteyen kullanıcıların şifrelemeyi kapatmaya ve tüm verilerini bulutla paylaşmaya mecbur bırakılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %18.1 | TUTTU: %25.9 | KISMEN TUTTU: %45.3 | TUTMADI: %10.7`
 - **Videoda Ne Demişti:** Meta'nın kullanıcıların telefon galerisindeki yerel fotoğrafları yapay zeka analizi için buluta yükleme izni istemesini sert eleştiren Utku Şen, yapay zekanın şirketler için mahremiyet kurallarını delme aracına dönüştüğünü anlatıyor. Eskiden beri konuşulan uçtan uca şifreleme korumasının yapay zeka yüzünden delineceğini, mesajlarını özetlemek veya yapay zeka kullanmak istiyorsan şifrelemeyi kapatman lazım gibi zorlamaların geleceğini kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [When AI Joins the Chat: EchoLeak, End-to-End Encryption, and Silent Data Exposure | Splunk](https://www.splunk.com/en_us/blog/ciso-circle/when-ai-joins-the-chat.html)
     > *"Traditional E2EE model. AI assistants are disrupting this model. For an AI assistant to, say, summarize a long message for you or suggest a reply, it needs to access the message content after it’s decrypted. E2EE model with AI processing in the flow. This means something other than your employees, customers, and business partners are reading your m..."*
   - `[Tavily]` [How to use Meta AI to summarize messages](https://faq.whatsapp.com/9004571389643912)
@@ -1952,11 +3249,21 @@
   - `[DuckDuckGo]` [AI Assistants: Breaking the Promise of End-to-End Encryption?](https://nyudetail.substack.com/p/e2ee-ai-broken-promise)
     > *"Mar 21, 2025 · In particular, many messaging applications advertised as using end-to-end encryption (E2EE) are starting to deploy AI assistants which summarize messages, generate images and text in conversations, and interact with users."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Amerikan devletinin kendi içinden çıkan milyarlarca dolarlık yapay zeka şirketlerine asla darbe vurmayacağını, bu yüzden mahkemelerden telif davalarında her zaman bu yapay zeka devlerinin lehine kararlar çıkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %6.3 | KISMEN TUTTU: %23.4 | TUTMADI: %58.1 | BELIRSIZ: %12.3`
 - **Videoda Ne Demişti:** Anthropic'in telifli kitapları yapay zeka eğitiminde izinsiz kullanması üzerine açılan davada mahkemenin adil kullanım (fair use) kararı vermesini değerlendiren Utku Şen, kararların hukuki değil tamamen politik olduğunu savunuyor. Amerikan hükümetinin kendi 50 milyar dolarlık devlerini zayıflatmayacağını, bu nedenle mahkemelerden sürekli bu firmaları koruyan ve aklayan kararlar çıkacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [A Tale of Three Cases: How Fair Use Is Playing Out in AI Copyright Lawsuits](https://www.ropesgray.com/en/insights/alerts/2025/07/a-tale-of-three-cases-how-fair-use-is-playing-out-in-ai-copyright-lawsuits)
     > *"Similarly, Judge Alsup found the destructive digitization of purchased copyrighted works to create a central library to be a fair use, because “the format change itself… was transformative,” meaning that “the first factor strongly favors” finding fair use.12 In analyzing the format-shifting and AI training use of the purchased copyrighted works, th..."*
   - `[Tavily]` [Types of AI Lawsuits, and Key Cases (2026)](https://ailawsuittracker.com/ai-lawsuits)
@@ -1968,15 +3275,29 @@
   - `[DuckDuckGo]` [Major AI Court Rulings (2026): Fair Use, Output & More](https://ailawsuittracker.com/rulings/)
     > *"The court rulings that shaped AI law: fair use, output infringement, discovery, dismissal and settlement, with the court, judge, date and holding of each."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Hype Treni Bize Göre Değil - S.A.H E112 - 2025-02-02
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın doğrudan telefon işletim sistemlerine entegre olmasıyla sıradan kullanıcıların ChatGPT gibi web sitelerine girme devrinin biteceğini ve Apple gibi devlerin Amerikan yapay zekalarıyla tekrar büyük bir yükselişe geçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %12.5 | TUTTU: %47.1 | KISMEN TUTTU: %36.9 | TUTMADI: %3.5`
 - **Videoda Ne Demişti:** DeepSeek sonrası Amerikan teknoloji hisselerindeki düşüşü değerlendiren Utku Şen, yapay zekanın henüz telefonlara tam anlamıyla inmediğini anlatıyor. Özellikle iOS gibi sistemler tamamen yapay zeka işletim sistemine dönüştüğünde insanların doğrudan telefonun kendi zekasını kullanacağını, mühendisler dışında kimsenin web sitelerine girip model aramayacağını ve Apple gibi Amerikan firmalarının tekrar büyüme ivmesi yakalayacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Chatbot Is Disappearing Into the Operating System](https://medium.com/activated-thinker/the-chatbot-is-disappearing-into-the-operating-system-0eee69aa03d9)
     > *"So it makes sense that AI assistants are moving there. Google has announced Gemini-powered features for Chrome on Android, and its support materials describe “auto browse” as a way to ask Gemini in Chrome to complete multi-step web tasks, with task plans, reviews, confirmations, takeover options, and stop controls built into the flow. (blog.google)..."*
   - `[Tavily]` [Instagram](https://www.instagram.com/p/DXy_SrkE3vZ)
@@ -1988,11 +3309,21 @@
   - `[DuckDuckGo]` [AI Chatbot Integration: A Practical Guide for Businesses](https://www.designveloper.com/blog/ai-chatbot-integration/)
     > *"Sep 29, 2026 · Learn how AI chatbot integration connects your website, business data, and APIs. Compare options, plan secure workflows, test performance, and launch confidently."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Çinli teknoloji firmaları yapay zekalı telefonlar çıkarsa bile Batı'daki hiçbir kullanıcının bu cihazlara güvenip satın almayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %8.7 | KISMEN TUTTU: %13.9 | BELIRSIZ: %31.3 | TUTTU: %46.2`
 - **Videoda Ne Demişti:** Çin merkezli yapay zeka modellerinin yükselişini yorumlayan Utku Şen, Huawei gibi Çinli markaların yapay zekalı telefonlar üreteceğini ama Batı dünyasında tüketicilerin mahremiyet ve güvenlik endişeleri sebebiyle bu telefonlara asla rağbet etmeyeceğini kendi öngörüsü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Huawei - Wikipedia](https://en.wikipedia.org/wiki/Huawei)
     > *"Western distrust and targeting of Huawei is generally viewed by the Chinese public as unjustified.: 66 This has led to a perspective in the Chinese public and among city governments that patronizing Huawei helps support China in geopolitical and technological competition with the United States.: 66 Huawei has thus received high levels of support in..."*
   - `[Tavily]` [Huawei pushes AI and cloud into emerging markets after U.S. ban - Rest of World](https://restofworld.org/2025/huawei-us-ban-ai-cloud)
@@ -2004,11 +3335,21 @@
   - `[DuckDuckGo]` [Criticism of Huawei - Wikipedia](https://en.wikipedia.org/wiki/Criticism_of_Huawei)
     > *"The Chinese multinational information technology and consumer electronics company Huawei has faced numerous criticisms for various aspects of its operations, particularly in regards to cybersecurity, intellectual property, and human rights violations."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, DeepSeek'in düşük maliyetli başarısının ardından Amerikan yapay zeka şirketlerinin artık sınırsız yatırım parası yakamayacağını ve rekabette kalabilmek için maliyetleri kısmak zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %38.5 | TUTTU: %47.3 | TUTMADI: %3.7 | BELIRSIZ: %10.6`
 - **Videoda Ne Demişti:** DeepSeek'in çok daha düşük bütçelerle yüksek performans gösterdiğini değerlendiren Utku Şen, Amerikan firmalarının bugüne kadar meydanı boş bulup devasa yatırımları rahatça harcadığını anlatıyor. DeepSeek ile bu düzenin bozulduğunu ve Amerikan şirketlerinin de maliyetleri düşürme yoluna gitmek zorunda kalacağını kendi tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [DeepSeek V4 vs US AI Models: The Cost and Capability Gap Explained | MindStudio](https://www.mindstudio.ai/blog/deepseek-v4-vs-us-ai-models)
     > *"Why is DeepSeek V4 so much cheaper than US models? A combination of factors: more efficient architecture (mixture-of-experts reduces per-token compute cost), lower infrastructure costs, and aggressive market pricing. DeepSeek’s training efficiency gains are real and have forced US labs to think more carefully about their own infrastructure costs. T..."*
   - `[Tavily]` [DeepSeek: A Game Changer in AI Efficiency? | Bain & Company](https://www.bain.com/insights/deepseek-a-game-changer-in-ai-efficiency)
@@ -2020,15 +3361,29 @@
   - `[DuckDuckGo]` [DeepSeek Bu Kadar Uygun Maliyetli Yapay Zeka Eğitimini Nasıl ...](https://www.cometapi.com/tr/how-deepseek-achieve-cost-effective-ai-training/)
     > *"Mar 24, 2025 · Ancak çığır açan yenilikleriyle dikkat çeken bir yapay zeka şirketi olan DeepSeek, yapay zeka eğitiminin maliyetini azaltmanın bir yolunu buldu. Hızlı bir yanıt için bu özeti kullanın, ardından bağlam, örnekler ve uygulama ayrıntıları için kılavuzu okuyun."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## işten çıkarmalar ve giyeni serumluk eden VR gözlükler - siber alemden havadisler 69. bölüm - 2022-10-21
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, VR gözlük takıp saatlerce çalışmanın tamamen bir pazarlama aldatmacası olduğunu, mide bulantısı ve göz kuruluğu gibi fiziksel sorunlar çözülmeden bu teknolojinin hayatımıza girmesi için en az 10 sene gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %11.9 | BELIRSIZ: %5.6 | TUTTU: %81.3 | TUTMADI: %1.2`
 - **Videoda Ne Demişti:** Meta Quest Pro gibi yeni VR başlıklarını ve VR ile çalışma iddialarını inceleyen Utku Şen, kendi Oculus Quest 2 deneyiminde yaşadığı şiddetli mide bulantısı ve göz kuruluğundan bahsediyor. Sanal masaüstü kurup saatlerce iş yapmanın bir kandırmaca olduğunu, bu teknolojinin en az 10-20 seneye ihtiyacı olduğunu ve elindeki Quest 2'nin ileride antika Macintosh bilgisayarlar gibi nostaljik bir müze parçası muamelesi göreceğini kendi teknoloji tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why the Meta Quest failed to meet Meta's expectations | Christopher Trottier posted on the topic | LinkedIn](https://www.linkedin.com/posts/atomicpoet_i-said-the-meta-quest-was-a-failure-some-activity-7396710330774581248-AkcC)
     > *"I said the Meta Quest was a failure. Some VR enthusiasts did not love that. How can something that sold 20 million units be a failure? Easy. Because the Quest was never supposed to be “a successful gaming headset.” Meta didn’t spend more than US$75 billion to make a better Wii Fit. The Quest was supposed to be the next mass-market computing platfor..."*
   - `[Tavily]` [How a Virtual-Reality World Could Change the Workplace - Business Insider](https://www.businessinsider.com/how-virtual-reality-vr-could-change-workplace-quest-vision-pro-2023-8)
@@ -2040,11 +3395,21 @@
   - `[DuckDuckGo]` [It’s Time to Admit Working in VR Has Been One Big Failure](https://gizmodo.com/its-time-to-admit-working-in-vr-has-been-one-big-failure-2000722789)
     > *"Feb 17, 2026 · Instead of revolutionizing work, the Quest Pro, Meta’s work-focused VR headset, saw its $1,500 price slashed down by $500 a few months after launch, and then finally discontinued in..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, günümüzde sanal arsa satışı gibi şeylerle pazarlanan metaverse çılgınlığının tamamen kolpa olduğunu fakat çok uzun vadede mutlaka gerçek dünya benzeri alternatif bir sanal gerçekliğin kurulacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %39.4 | BELIRSIZ: %30.3 | TUTMADI: %2.2 | KISMEN TUTTU: %28.1`
 - **Videoda Ne Demişti:** Metaverse ve sanal arsa satışı projelerini değerlendiren Utku Şen, yirmi yıl önceki Knight Online seviyesindeki şeylerin metaverse diye kakalanmaya çalışıldığını anlatıyor. Bu projelerin sadece para vurma amaçlı olduğunu fakat uzun vadede illaki insanların içinde yaşayacağı gerçekçi bir alternatif sanal gerçeklik dünyasının inşa edileceğini kendi gelecek vizyonu olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Is Meta Doing to VR???](https://www.youtube.com/watch?v=nEnkqgJUNfY)
     > *"(9:09) No. The metaverse was an ambitious vision, and I think it overreached. The expectations placed on VR were inflated (9:17) by broader hype cycles around NFTTS, cryptos, and digital ownership. But VR itself remains on a stable long-term growth path. I don't think VR has died. (9:28) I think it's settled. The metaverse hype introduced VR to a l..."*
   - `[Tavily]` [(Virtual) Reality Check: How Long Before We Live in the 'Metaverse'? | Working Knowledge](https://www.library.hbs.edu/working-knowledge/virtual-reality-check-how-long-before-we-live-in-the-metaverse)
@@ -2056,11 +3421,21 @@
   - `[DuckDuckGo]` [NEXT FRONTIER: THE METAVERSE AFTER THE HYPE ... - Medium](https://medium.com/@mynaland/next-frontier-the-metaverse-after-the-hype-opportunity-or-bubble-475a929996ee)
     > *"Nov 21, 2025 · The Metaverse is not a dead bubble, it’s a transitioning market. The hype was temporary, but the long-term opportunities in Enterprise, Gaming, Digital Twins, and Healthcare are significant."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, büyük teknoloji devlerinin başlattığı işten çıkarmaların domino etkisi yaratacağını ve piyasa tepkisinden çekinmeyen diğer şirketlerin de hızla kitlesel işten çıkarma kervanına katılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %3.8 | TUTMADI: %0.2 | TUTTU: %95.4 | BELIRSIZ: %0.6`
 - **Videoda Ne Demişti:** Microsoft ve Meta gibi dev şirketlerin çalışanlarının yüzde 15'ini işten çıkarmasını ele alan Utku Şen, normalde şirketlerin yatırımcıları ürkütmemek için işçi çıkarmaktan çekindiğini anlatıyor. Ancak herkes işçi çıkartırken kimsenin göze batmayacağını belirterek domino taşı etkisiyle diğer teknoloji şirketlerinin de hızla büyük işten çıkarmalara gideceğini kendi sektörel öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [What explains recent tech layoffs, and why should we be worried? | Stanford Report](https://news.stanford.edu/stories/2022/12/explains-recent-tech-layoffs-worried)
     > *"Here, Stanford News talks to Pfeffer about how the workforce reductions that are happening across the tech industry are a result mostly of “social contagion”: Behavior spreads through a network as companies almost mindlessly copy what others are doing. When a few firms fire staff, others will probably follow suit. Most problematic, it’s a behavior..."*
   - `[Tavily]` [Layoffs Can Trigger Quitting and Turnover Contagion, Research Shows - Business Insider](https://www.businessinsider.com/layoffs-quitting-remaining-coworker-resign-turnover-left-behind-contagion-research-2023-1)
@@ -2070,15 +3445,29 @@
   - `[Tavily]` [The Layoff Contagion Is Hurting Us All | Jeffrey Pfeffer | 61 comments](https://www.linkedin.com/posts/jeffrey-pfeffer-57a01b6_the-layoff-contagion-is-hurting-us-all-activity-7048311305874669568-QMhm)
     > *"This column, with links to citations, makes the case that layoffs are contagious in the sense that companies tend to do layoffs because their peers are doing layoffs, almost regardless of financial necessity. And it argues that layoffs have profoundly negative effects on people's behavioral and physical health--not just the people laid off, but als..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## İki Ay Maaş Al, Kovul, Tekrarla - S.A.H E130 - 2025-07-06
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, yapay zekayla kod yazma aracı Cursor'ın OpenAI'ye satılmadığına ileride çok pişman olacağını, rakipleri hızla geliştikçe değer kaybedip ezileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %3.2 | BELIRSIZ: %3.9 | TUTMADI: %90.7 | KISMEN TUTTU: %2.2`
 - **Videoda Ne Demişti:** Cursor'ın fiyatlandırma ve kota krizlerini ele alan Utku Şen, şirketin OpenAI'nin satın alma teklifini geri çevirmesini değerlendiriyor. Claude Code gibi güçlü alternatiflerin ortaya çıkmasıyla Cursor'ın değer kaybetmeye başladığını belirterek, firmanın ileride satılmadığına çok pişman olacağını kendi şahsi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why OpenAI wanted to buy Cursor but opted for the fast-growing Windsurf](https://finance.yahoo.com/news/why-openai-wanted-buy-cursor-224221356.html)
     > *"Cursor turned down the offers because the startup wants to stay independent, said the two people close to the company. Instead, Anysphere has been in talks to raise capital at about a $10 billion valuation, Bloomberg reported last month. Although it didn't nab Anysphere, OpenAI didn't give up on buying an established AI coding tool startup. OpenAI..."*
   - `[Tavily]` [Why OpenAI wanted to buy Cursor but opted for the fast-growing Windsurf](https://finance.yahoo.com/news/why-openai-wanted-buy-cursor-224221535.html)
@@ -2090,11 +3479,21 @@
   - `[DuckDuckGo]` [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)
     > *"Aug 28, 2026 · Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. To maximize the time that developers can retain access to our models through Cursor, we are giving the maximum notice provided by our contract."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, aynı anda birden fazla işte çalışan fırsatçılar ve sisteme sızan Kuzey Koreli ajanlar yüzünden şirketlerin uzaktan çalışmayı tamamen bitireceğini ya da en azından işe alım aşamasında ofise gelip yüz yüze görüşme şartı getireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %8.8 | BELIRSIZ: %19.5 | TUTTU: %20.2 | KISMEN TUTTU: %51.4`
 - **Videoda Ne Demişti:** Aynı anda onlarca şirkette işe girip ikişer ay maaş alarak sistemi suistimal eden yazılımcıyı ve şirketlere sızan sahte Kuzey Koreli çalışanları değerlendiren Utku Şen, bu suistimallerin uzaktan çalışma kültürünü dinamitlediğini anlatıyor. Bu durumun uzaktan çalışmayı tamamen bitirebileceğini ya da şirketlerin dolandırıcılık ve casusluk riskine karşı çalışanları en azından işe başlarken ofise çağırıp yüz yüze görme ve sözleşmeyi fiziksel imzalatma zorunluluğu getireceğini kendi gelecek tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [North Korean Remote IT Worker Fraud: Managing Insider Threat, Sanctions and Employment Risk | Skadden, Arps, Slate, Meagher & Flom...](https://www.skadden.com/insights/publications/2026/06/north-korean-remote-it)
     > *"Use well-known and established recruiting agencies. Conduct at least one in-person verification preemployment and/or use AI-detection tools during video interviews to confirm applicant identity and detect deepfake technology. Conduct thorough preemployment background checks using trusted vendors. Verify banking information against all other identit..."*
   - `[Tavily]` [Privacy, Cyber & Data Strategy / Immigration Advisory | North Korean IT Remote Worker Fraud Scheme Data Security and Employment La...](https://www.alston.com/en/insights/publications/2025/01/north-korea-it-fraud-scheme-data-security-law)
@@ -2104,15 +3503,29 @@
   - `[Tavily]` [Remote Work in the US Helped North Korea Trick Over 100 Firms: DOJ - Business Insider](https://www.businessinsider.com/remote-work-salaries-north-korea-weapons-fraud-laptop-farms-2025-7?op=1)
     > *"Using that data, they created fake identities for a network of Chinese and Taiwanese people who lived outside America but posed as US-based IT workers or software engineers looking for remote jobs. Authorities said that once hired, the scammers would ask their employers to send work laptops to homes in New Jersey, New York, and California. (...) 'H..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## İki Yıldır Devam Eden Veri Sızıntıları Ne Zaman Bitecek? - S.A.H E81 - 2024-01-01
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekada telif davalarının ve lisans bedellerinin sektörü tekelleştireceğini, bu devasa paraları sadece Microsoft ve Google gibi devlerin ödeyebileceğini ve küçük girişimlerin piyasadan tamamen silineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %44.8 | BELIRSIZ: %24.0 | TUTMADI: %6.6 | TUTTU: %24.6`
 - **Videoda Ne Demişti:** New York Times'ın OpenAI ve Microsoft'a açtığı telif davasını değerlendiren Utku Şen, yapay zekanın eğitim verileri için telif ödeme zorunluluğu getirilmesi durumunda maliyetlerin yüz milyonlarca dolara fırlayacağını anlatıyor. Bu bedelleri sadece dev teknoloji tekellerinin karşılayabileceğini, küçük girişimlerin oyuna hiç giremeyeceğini ve yapay zekanın yalnızca bir iki şirketin kontrolüne ve dünya görüşüne mahkum kalacağı tehlikeli bir tekel ortamı doğuracağını kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI, Copyright, and the Law: The Ongoing Battle Over Intellectual Property Rights – IP & Technology Law Society](https://sites.usc.edu/iptls/2025/02/04/ai-copyright-and-the-law-the-ongoing-battle-over-intellectual-property-rights)
     > *"2. AI Training and Copyright Infringement: The Lawsuits Against Tech Giants Beyond questions of authorship, significant legal challenges have emerged regarding the use of copyrighted materials in training AI models. Several high-profile lawsuits have been filed against companies like OpenAI, Meta, and Stability AI, alleging unauthorized use of copy..."*
   - `[Tavily]` [Tech News Now: More lawsuits pile up against OpenAI, Salesforce announces dividend, and more](https://finance.yahoo.com/news/tech-news-now-more-lawsuits-150809908.html)
@@ -2124,15 +3537,29 @@
   - `[DuckDuckGo]` [Toplu Telif Davası: Türkiye’de Yapay Zekaya Karşı Usul Rehberi](https://www.emrekurt.av.tr/toplu-telif-davasi-yapay-zeka/)
     > *"Nov 4, 2026 · Türkiye’de ise birçok sanatçı ve hak sahibi aynı soruyu soruyor: Yapay zeka şirketlerine karşı toplu telif davası açılabilir mi? Kısa cevap, Türk hukukunda ABD tipi bir toplu dava sisteminin bulunmadığıdır."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## İkiyüzlüler Sahnede - S.A.H E155 - 2026-03-01
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, sosyal medyadaki yapay zeka içeriklerinin artık ayırt edilemez hale gelmesi yüzünden gelecekte devasa parası ve kaynağı olan odakların seçimleri istedikleri gibi manipüle edebileceği bir döneme gireceğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %9.3 | TUTTU: %57.8 | TUTMADI: %0.8 | KISMEN TUTTU: %32.1`
 - **Videoda Ne Demişti:** Facebook'un tamamen yapay zeka üretimi sahte fotoğraflar ve videolarla dolmasını, insanların da bunları gerçek zannedip milyonlarca beğeni vermesini ele alan Utku Şen, bu gidişatın seçim güvenliğini imkansız kılacağını anlatıyor. İleride çok parası ve kaynağı olan tarafların sahte içeriklerle ve parayla tuttukları hesaplarla seçimleri diledikleri gibi yönlendirebildiği tehlikeli bir döneme sürüklendiğimizi, platformların yapay zeka tespit algoritmaları kurup etiketsiz paylaşım yapan hesapları anında kapatmaktan başka çaresi kalmadığını kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI-generated disinformation poses threat of misleading voters in 2024 election | PBS News](https://www.pbs.org/newshour/politics/ai-generated-disinformation-poses-threat-of-misleading-voters-in-2024-election)
     > *"Former President Donald Trump, who is running in 2024, has shared AI-generated content with his followers on social media. A manipulated video of CNN host Anderson Cooper that Trump shared on his Truth Social platform on Friday, which distorted Cooper's reaction to the CNN town hall this past week with Trump, was created using an AI voice-cloning t..."*
   - `[Tavily]` [Charting the landscape of nefarious uses of generative artificial intelligence for online election interference](https://firstmonday.org/ojs/index.php/fm/article/download/14188/12030)
@@ -2144,15 +3571,29 @@
   - `[DuckDuckGo]` [AI-generated content in American politics - Wikipedia](https://en.wikipedia.org/wiki/AI-generated_content_in_American_politics)
     > *"AI-generated content in American politics An AI image of Donald Trump posted on the White House 's Twitter account in 2025 In American politics since the 2020s, political figures have shared AI-generated images, videos, and audio on social media to attack opponents, create misleading narratives, or inflame emotions."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Kardeşim Bakma İyi Oldu Boşver - S.A.H E98 - 2024-08-04
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Google gibi teknoloji devlerinin seçimleri manipüle ederek istedikleri kişiyi başkan yapacak güce ulaşabileceğini ve bunun işçi hakları ile tatillerin tamamen kaldırıldığı kapitalist bir şirket diktatörlüğüne yol açabileceğini, bu distopyanın hiç de imkansız olmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %10.0 | TUTTU: %3.8 | BELIRSIZ: %83.0 | TUTMADI: %3.3`
 - **Videoda Ne Demişti:** Google'ın arama sonuçlarında Trump yerine Kamala Harris mitinglerini ve haberlerini öne çıkarmasını değerlendiren Utku Şen, büyük teknoloji tekellerinin gelecekte başkan atayacak konuma gelebileceğini anlatıyor. Silikon Vadisi baronlarının işçi haklarını ve tatilleri yok etme karşılığında lider belirleyeceği kapitalist bir şirket diktatörlüğü distopyasının doğabileceğini ve bu tehlikenin kulağa ne kadar distopik gelse de kesinlikle imkansız olmadığını kendi uyarısı ve tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Are Facebook, Google, Twitter Manipulating Users? Washington Wants to Know](https://finance.yahoo.com/news/facebook-google-twitter-manipulating-users-232817042.html)
     > *"The meeting, which featured former Google design ethicist Tristan Harris, who has argued that Silicon Valley deliberately plays on consumer psychology, comes at a time when tech giants are already in hot water on Capitol Hill. Google, Twitter and Facebook face scrutiny in Washington for allowing ads backed by Russia on their platforms during the 20..."*
   - `[Tavily]` [‘Flash Loans’ Have Made Their Way to Manipulating Protocol Elections](https://finance.yahoo.com/news/flash-loans-made-way-manipulating-174556781.html)
@@ -2164,11 +3605,21 @@
   - `[DuckDuckGo]` [Datafeudalism: The Domination of Modern Societies by Big Tech ...](https://link.springer.com/article/10.1007/s13347-024-00777-1)
     > *"Jul 15, 2024 · First, the economic and political domination of big tech companies based on the ability to control, monitor, persuade and manipulate people’s behavior and the functioning of the market, civil society and democracy through algorithmic platforms and services."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Meta'nın Llama ve Segment Anything gibi modellerinin yakında büyük bir girişim patlamasına yol açacağını, bu modeller olmasaydı OpenAI'ın tekel kurup API fiyatlarına fahiş zamlar yapacağı sürdürülemez bir diktatörlük oluşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %18.2 | TUTTU: %77.8 | BELIRSIZ: %3.5 | TUTMADI: %0.5`
 - **Videoda Ne Demişti:** Meta'nın Llama ve Segment Anything 2 (SAM 2) modellerini açık kaynak olarak dağıtmasını öven Utku Şen, pahalı kurumsal servisler yerine bu ücretsiz modellerin girişimcilerin elini güçlendireceğini belirtiyor. Görüntü işleme ve dil modellerinin yakında büyük bir startup patlaması yaratacağını, açık kaynak alternatifi bulunmazsa OpenAI'ın API ücretlerini kafasına göre katlayacağı tekelci bir yapay zeka diktatörlüğü kuracağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Open-Source AI Boom: How Startups Are Breaking Big Tech’s Monopoly in 2026 | Sovereix](https://www.sovereix.com/startups/the-open-source-ai-boom-how-startups-are-breaking-big-tech-s-monopoly-in-2026)
     > *"Open-source models (or more accurately, 'open-weights' models) like Meta’s Llama series, Mistral’s offerings, and specialized Hugging Face models changed the math. For early-stage companies utilizing a startup booted fundraising strategy, lowering these variable API costs is critical to scaling without losing control. Cost Comparison: Proprietary v..."*
   - `[Tavily]` [China’s AI Boom Is Fueling a Surge in One-Person Startups](https://www.channelinsider.com/ai/news-ai-one-person-startups-apac-china)
@@ -2180,15 +3631,29 @@
   - `[DuckDuckGo]` [Open Source AI Startup Statistics - blog.mean.ceo](https://blog.mean.ceo/open-source-ai-startup-statistics/)
     > *"May 4, 2026 · Open source AI startup statistics for 2026, covering open model adoption, GitHub stars, funding rounds, infrastructure startups, revenue models, and founder opportunity."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Keşke Sosyal Medya Daha Düzgün Bir Yer Olsaydı - S.A.H E147 - 2025-12-14
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, sosyal medyanın tıpkı sigara ve içki gibi gençlerin zihnine çok ağır zararlar verdiğini ve psikoloji bilimi geriden geldiği için sosyal medyanın asıl korkunç zararlarının ancak yıllar sonra tam olarak anlaşılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %22.9 | TUTMADI: %1.2 | KISMEN TUTTU: %32.7 | BELIRSIZ: %43.2`
 - **Videoda Ne Demişti:** Avustralya'nın 16 yaş altına sosyal medya yasağı getirmesini yorumlayan Utku Şen, sosyal medyanın özellikle ergenlerin mental sağlığına sigara ve alkol kadar zararlı olduğunu savunuyor. Psikoloji biliminin doğası gereği geriden geldiğini vurgulayarak bu algoritmaların ve siber zorbalığın yol açtığı gerçek yıkımın yıllar sonra ortaya çıkacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Impact of Social Media & Technology on Child and Adolescent Mental Health](https://pmc.ncbi.nlm.nih.gov/articles/PMC12165459)
     > *"Additionally, research suggests that exposure to cyberbullying can lead to long-term psychological distress, increasing susceptibility to depression and other mental health disorders (78, 79). More comprehensive and proactive moderation strategies, including AI-driven detection, improved reporting systems, and stricter regulations, are necessary to..."*
   - `[Tavily]` [The Impact of Social Media on the Mental Health of Adolescents and Young Adults: A Systematic Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10476631)
@@ -2200,11 +3665,21 @@
   - `[DuckDuckGo]` [Sosyal Medyanın Ruh Sağlığına Etkileri ve Çözüm Önerileri](https://www.acibadem.com.tr/saglikli-yasam/sosyal-medyanin-ruh-sagligina-etkileri/)
     > *"Aug 31, 2024 · Sosyal medyanın ruh sağlığı üzerindeki olumsuz etkilerini ve bu etkilerle başa çıkma yöntemlerini keşfedin. Uzman önerileriyle ruh sağlığınızı koruyun."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zekanın yükselişini tamamen durdurmanın artık mümkün olmadığını ve süreç birkaç yıl ötelense bile gelecekte insanların kaçınılmaz olarak işsiz kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %3.4 | KISMEN TUTTU: %8.9 | TUTMADI: %3.5 | BELIRSIZ: %84.1`
 - **Videoda Ne Demişti:** Microsoft Copilot ve şirketlerin yapay zeka yatırımlarını eleştiren Utku Şen, sektörün biraz tökezlemesini umduğunu çünkü insanların işlerini en azından birkaç yıl daha koruyup birikim yapabilmesi gerektiğini anlatıyor. Yapay zekayı tamamen durdurmanın imkansız olduğunu belirterek ne yapılırsa yapılsın ileride insanların işsiz kalacağını kendi kaçınılmaz gelecek tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What is really happening to jobs? Separating AI hype from reality | Stanford Institute for Economic Policy Research (SIEPR)](https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality)
     > *"Advances in AI models have sparked fears that rapid disruption of labor markets is imminent, if not already underway. A steady drumbeat of media articles has forecast a grim future for white-collar work due to AI.(1) Fears of an “AI jobs apocalypse” are often amplified by AI leaders themselves. For example, Dario Amodei, CEO of Anthropic, has predi..."*
   - `[Tavily]` [Minimizing the negative effects of AI-induced technological unemployment | International Labour Organization](https://www.ilo.org/resource/article/minimizing-negative-effects-ai-induced-technological-unemployment)
@@ -2216,11 +3691,21 @@
   - `[DuckDuckGo]` [Job Finding and Unemployment in the Age of AI](https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai)
     > *"Nov 9, 2026 · This Economic Commentary shows that since late 2022, unemployment has risen more in occupations whose tasks are more exposed to capabilities of artificial intelligence, especially among young workers. Worker movements in and out of unemployment reveal this is not because workers in at-risk occupations are separating from their jobs at..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, verileri sadece tek bir bulutta saklamanın çok tehlikeli olduğunu ve önümüzdeki 10 yıl içinde hesap kilitlenmesi ya da kapatılması gibi nedenlerle insanların buluttaki tüm anılarını kaybetme ihtimalinin çok yüksek olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %23.8 | KISMEN TUTTU: %19.1 | BELIRSIZ: %55.2 | TUTMADI: %2.0`
 - **Videoda Ne Demişti:** Apple'ın hediye kartı dolandırıcılığı şüphesiyle 20 yıllık bir iCloud hesabını aniden kapatıp kullanıcının tüm Apple cihazlarını ve fotoğraflarını erişilmez kılmasını değerlendiren Utku Şen, bulut yedeklemelerine tek başına güvenilmemesini anlatıyor. Kredi kartı süresi dolması, haksız hesap kilitlenmesi veya VPN kullanımı gibi sebepler yüzünden 10 yıl içinde kullanıcının bulut hesabının başına bir felaket gelme olasılığının çok yüksek olduğunu kendi uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Hidden Risks of Cloud Storage: Protect Your Data from Lockouts and Loss | Windows Forum](https://windowsforum.com/threads/the-hidden-risks-of-cloud-storage-protect-your-data-from-lockouts-and-loss.371161)
     > *"Total data loss: Account lockout, service discontinuation, or company failure could mean the irrevocable loss of all stored data. Lack of transparency: Most cloud storage agreements allow for account suspension or file deletion with minimal—if any—notice or explanation. Lack of legal recourse: Cloud users, by agreeing to terms of service, often wai..."*
   - `[Tavily]` [The Hidden Risks of Cloud Storage: Protect Your Data from Lockouts and Loss | Windows Forum](https://windowsforum.com/threads/the-hidden-risks-of-cloud-storage-protect-your-data-from-lockouts-and-loss.371161/post-922873)
@@ -2232,15 +3717,29 @@
   - `[DuckDuckGo]` [Hidden Risks of Cloud Storage: Protect Data from Lockouts](https://windowsforum.com/news/the-hidden-risks-of-cloud-storage-protect-your-data-from-lockouts-and-loss.371161/)
     > *"Jun 23, 2025 · Total data loss: Account lockout, service discontinuation, or company failure could mean the irrevocable loss of all stored data. Lack of transparency: Most cloud storage agreements allow for account suspension or file deletion with minimal—if any—notice or explanation."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## kripto hırsızlıkları ve telegram sansürü -siber alemden havadisler 49. bölüm - 2022-02-11
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, kendini bulut sistemleri ve Zero Trust mimarisine adapte etmeyen klasik Windows sistem yöneticilerinin önümüzdeki 5 yıl içinde Avrupa'da iş bulmasının gittikçe zorlaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %19.4 | TUTTU: %39.6 | KISMEN TUTTU: %37.9 | TUTMADI: %3.2`
 - **Videoda Ne Demişti:** Amerikan hükümetinin Zero Trust ağ mimarisine geçiş kılavuzunu inceleyen Utku Şen, klasik ofis içi ağların ve çevre güvenliğinin artık terk edildiğini anlatıyor. Bankalardaki klasik Active Directory yöneticiliği gibi rollerin Avrupa ve Amerika'da devrinin kapandığını belirterek bulut teknolojilerini öğrenmeyen sistemcilerin önümüzdeki 5 yıl içinde iş bulmakta çok zorlanacağını kendi kariyer ve sektör öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Zero Trust After the Domain: Re-Architecting Identity Security Post-AD Decommissioning](https://medium.com/@jacknels/zero-trust-after-the-domain-re-architecting-identity-security-post-ad-decommissioning-b9c953995749)
     > *"However, this shift requires a rigorous re-implementation of security controls. You cannot simply “lift and shift” your GPOs to the cloud. You must re-architect for Zero Trust. 1. The Identity Control Plane: Transferring Authority The first phase of decommissioning is the transfer of the Source of Authority (SoA). In a hybrid environment (Entra Con..."*
   - `[Tavily]` [Active Directory and Zero Trust Security: Are They Compatible? - JumpCloud](https://jumpcloud.com/blog/active-directory-zero-trust-security)
@@ -2252,11 +3751,21 @@
   - `[DuckDuckGo]` [Active Directory Management - Windows AD Management Tool](https://www.bing.com/aclick?ld=e8k8SLAG54q7cqMyNeZDrzXTVUCUyz1Ukj6z_HZppT1lk2egv3M_kTQfEv6iM8NMMPELuSmpsZ2_8PNq3SYo6V8fvhdsqcduPhckCyKbfUEDZ7gY35U4qsJdj1T472LpEE1Au6xOxPlwHR4yCgIFjTnHFlpJDb-0KMRekN3MSw-DkFv9omuHAxYWckTtg8vZt4R3vO1JzHYm1qydWBtHE5qhbA5WA&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFuYWdlZW5naW5lLmNvbSUyZnByb2R1Y3RzJTJmYWQtbWFuYWdlciUyZnNlbSUyZndpbmRvd3MtYWN0aXZlLWRpcmVjdG9yeS1tYW5hZ2VtZW50LXRvb2wuaHRtbCUzZmNhbWlkJTNkNDcxMzIyNDkwJTI2YWRnaWQlM2QxMjk3NDI0OTM0NDQ5ODEwJTI2a3dkJTNkd2luZG93cyUyNTIwYWN0aXZlJTI1MjBkaXJlY3RvcnklMjUyMG1hbmFnZW1lbnQlMjZtYXRjaHR5cGUlM2RwJTI2YWRpZCUzZCUyNm5ldHdvcmslM2RvJTI2YWRwb3NpdGlvbiUzZCUyNmxvYyUzZDEzODA3MiUyNnBsYWNlbWVudCUzZCUyNnRhcmdldCUzZCUyNm1zY2xraWQlM2Q5YzMxZGJkNzA0ZjExYTlkMmMwOGIxMmM5MGM5MjhlYSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEFETVAlMjUyMFNlYXJjaCUyNTIwVHVya2V5JTI1MjAtJTI1MjBQaHJhc2UlMjZ1dG1fdGVybSUzZHdpbmRvd3MlMjUyMGFjdGl2ZSUyNTIwZGlyZWN0b3J5JTI1MjBtYW5hZ2VtZW50JTI2dXRtX2NvbnRlbnQlM2RBRCUyNTIwTWFuYWdlbWVudCUyNTIwLSUyNTIwV2luZG93cw&rlid=9c31dbd704f11a9d2c08b12c90c928ea)
     > *"Our Solution allows IT Administrators and Technicians to manage Active Directory Easily. Powershell script free Active Directory Manager Tool with built-in actionable reports Instant deployment · Starts at $595 · Affordably Priced · Eliminate Blind Spots Service catalog: AD Management, AD Bulk User Management, AD Password Management"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, metaverse kavramının içi şu an boşaltılmış olsa da 10 yıl içinde 4K çözünürlüğe ulaşacak VR teknolojisiyle birlikte gerçek ile sanalın ayırt edilemeyeceği bir dünyaya kesinlikle geçileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %84.2 | TUTMADI: %3.2 | TUTTU: %2.5 | KISMEN TUTTU: %10.0`
 - **Videoda Ne Demişti:** Metaverse tartışmalarını ve VR başlıklarını değerlendiren Utku Şen, insanların şu an bu kavramla dalga geçmesine rağmen geleceğin kesinlikle buraya kayacağını anlatıyor. Kendisinin de VR gözlükle poker oynadığını ve şimdiden büyük keyif aldığını belirterek önümüzdeki 10 sene içinde cihazlar 4K seviyesine ulaştığında insanların sanal dünya ile gerçeği ayırt etmekte zorlanacağını kendi gelecek vizyonu olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Virtual Reality - When will it go mainstream?](https://www.linkedin.com/pulse/virtual-reality-when-go-mainstream-jason-catchpole-ml5ec)
     > *"Funnily enough some new research has just come out and the resolution the eye can see is higher than traditionally thought, more like 90 ppd. My statement still stands for the minimum required for VR to go mainstream 😁 See here Like Reply 1 Reaction See more comments To view or add a comment, sign in More articles by Jason Catchpole AI: T̶h̶i̶n̶k̶..."*
   - `[Tavily]` [The Virtual Reality of Everyday Life – Understanding the Consumer Metaverse - IEEE Metaverse](https://metaversereality.ieee.org/publications/articles/the-virtual-reality-of-everyday-life-understanding-the-consumer-metaverse)
@@ -2268,11 +3777,21 @@
   - `[DuckDuckGo]` [What Mark Zuckerberg’s metaverse U-turn means for the future ...](https://theconversation.com/what-mark-zuckerbergs-metaverse-u-turn-means-for-the-future-of-virtual-reality-273659)
     > *"Jan 20, 2026 · Mark Zuckerberg’s vision for the metaverse was meant to reimagine how we interact with each other and the world, providing us with an immersive world where we could seamlessly combine digital and..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, Telegram kanallarını veya komplo teorisyenlerini devlet zoruyla yasaklamanın uzun vadede ters tepeceğini, bu kişileri susturulan kahramanlar gibi göstererek daha fazla taraftar toplamalarına yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **7.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %14.1 | TUTTU: %5.1 | TUTMADI: %7.0 | BELIRSIZ: %73.7`
 - **Videoda Ne Demişti:** Almanya'nın baskısıyla Telegram'ın aşırı sağcı kanalları kapatmasını değerlendiren Utku Şen, içeriğe katılmasa bile sansürün yanlış bir yöntem olduğunu anlatıyor. Mahkeme kararı olmadan yapılan bu tip engellemelerin insanlarda bu adamlar doğru söylüyor ki susturuyorlar algısı yaratarak söz konusu kişilere daha çok kitle kazandıracağını ve uzun vadede geri tepeceğini kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Censorship of Telegram - Wikipedia](https://en.wikipedia.org/wiki/Censorship_of_Telegram)
     > *"On 14 July 2017, eleven domain name servers related to Telegram were banned by the Indonesian Communication and Information Ministry with the possibility of closing all Telegram applications in Indonesia if Telegram did not make a standard operating procedure to maintain content that was considered unlawful in the apps. In August 2017, Indonesian G..."*
   - `[Tavily]` [How Russia’s Telegram ban could backfire on the battlefield | Ivana Stradner](https://www.youtube.com/watch?v=uxN56g7eSag)
@@ -2282,11 +3801,21 @@
   - `[Tavily]` [View of The Telegram ban: How censorship “made in Russia” faces a global Internet | First Monday](https://firstmonday.org/ojs/index.php/fm/article/view/11704/10130)
     > *"Return to Article Details The Telegram ban: How censorship “made in Russia” faces a global Internet"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, Apple'ın tekelci komisyon politikaları yüzünden dışarıdan uygulama yüklemeye izin vermek zorunda kalacağını ve bunun sonucunda iPhone'larda da Android'deki gibi ciddi bir trojan ve zararlı yazılım patlaması yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %33.0 | TUTTU: %23.9 | KISMEN TUTTU: %30.1 | TUTMADI: %13.0`
 - **Videoda Ne Demişti:** Apple'ın App Store komisyonları yüzünden köşeye sıkışmasını ve dışarıdan uygulama yükleme zorunluluğunu ele alan Utku Şen, şirketin bu durumu kendi tekelci hırsıyla hazırladığını anlatıyor. Dışarıdan uygulama yüklemenin önü açıldığında tıpkı Android'deki sahte APK tuzakları gibi iPhone kullanıcılarının da kandırılarak cihazlarına trojan bulaştırılacağını kendi güvenlik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Building a Trusted Ecosystem for Millions of Apps - A threat analysis ...](https://www.apple.com/privacy/docs/Building_a_Trusted_Ecosystem_for_Millions_of_Apps_A_Threat_Analysis_of_Sideloading.pdf)
     > *"Sideloading on iPhone would open opportunities for cybercriminals. Malicious actors would be galvanized to develop tools and expertise to attack iPhone users because of the additional opportunities and distribution channels sideloading would provide. The increased risk of malware attacks would put all users at greater risk, even those who prefer to..."*
   - `[Tavily]` [Beyond the App Store: The Hidden Risks of Sideloading Apps - Zimperium](https://zimperium.com/blog/the-hidden-risks-of-sideloading-apps)
@@ -2298,15 +3827,29 @@
   - `[DuckDuckGo]` [App Sideloading Risks for iOS Users - alluresecurity.com](https://alluresecurity.com/blog/sideloading-risk)
     > *"Jan 8, 2026 · Learn the impacts and risks of iOS sideloading and the use of alternative app stores for brands and businesses."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## kripto paralar ve kaos -siber alemden havadisler 61. bölüm - 2022-05-13
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, Luna çöküşüyle yaşanan devasa kayıplara ve piyasadaki panik havasına rağmen kripto paraların ileride kesinlikle toparlanacağını ve gelecekte hayatımızın çok önemli bir kısmını kaplayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %25.1 | TUTMADI: %1.3 | TUTTU: %68.4 | BELIRSIZ: %5.2`
 - **Videoda Ne Demişti:** Luna ve UST çöküşü sonrası piyasayı değerlendiren Utku Şen, kripto paraların bankacılığın ilk yıllarındaki gibi bir vahşi batı ve emekleme döneminden geçtiğini anlatıyor. Geçmişteki Mt. Gox soygunu ve sert düşüşlerin ardından piyasanın her defasında yeniden ayağa kalktığını hatırlatarak mevcut çöküşe rağmen kripto paraların gelecekte kesinlikle toparlanacağını ve hayatımızın merkezinde olacağını kendi kişisel tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Evolution of Crypto Trading: From Wild West to Regulated Innovation](https://finance.yahoo.com/news/evolution-crypto-trading-wild-west-152933313.html)
     > *"The 'wild west' era of crypto trading is fast becoming a distant memory, replaced by a new paradigm of regulated innovation. This evolution is not just vital for the long-term sustainability and mainstream adoption of digital assets, but also for building a more secure and accessible global financial system. Terms and Privacy Policy Privacy Dashboa..."*
   - `[Tavily]` [Crypto Still A Bit of "Wild West" — MIT Media Lab](https://www.media.mit.edu/articles/crypto-still-a-bit-of-wild-west)
@@ -2318,11 +3861,21 @@
   - `[DuckDuckGo]` [Crypto Regulation 2026: Taming the Wild West? - newssnook.com](https://newssnook.com/crypto-regulation-will-2026-tame-the-wild-west/)
     > *"Aug 22, 2026 · We’re seeing the inevitable maturation of the industry, where the wild west is slowly, but surely, being tamed. The question isn’t whether regulation will come, but what form it will take and whether it will foster growth or strangle it."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, küresel enflasyon ve kriz dalgası yüzünden teknoloji sektöründe bol keseden maaş dağıtılan dönemin kapanacağını, şirketlerin küçülmeye giderek çalışanları işten çıkaracağını ve işe alımların belirgin şekilde zayıflayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %0.1 | TUTTU: %93.3 | KISMEN TUTTU: %6.4 | TUTMADI: %0.1`
 - **Videoda Ne Demişti:** Meta ve Twitter gibi devlerin işe alımları durdurmasını ve küresel enflasyonu ele alan Utku Şen, dünyanın büyük bir ekonomik darboğaza sürüklendiğini anlatıyor. Şirketlerin önlem olarak daralmaya gideceğini, çalışanları işten çıkaracağını ve eski astronomik maaşların artık hayal olacağını belirterek bilişim sektöründekilerin işlerine sahip çıkması ve birikim yapması gerektiğini kendi gelecek tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Big Tech braces for recession with litany of hiring freezes, layoffs | Fox Business](https://www.foxbusiness.com/economy/big-tech-braces-recession-litany-hiring-freezes-layoffs)
     > *"The tech industry is laying off workers at an alarming pace as it braces for a potential recession triggered by painfully high inflation and rapidly rising interest rates. Despite still-solid job growth and record-high wages in many industries, Big Tech is battening down the hatches as it warns of an increasingly grim economic outlook. (...) Amazon..."*
   - `[Tavily]` [Tech Companies Using Layoffs, Recession to Push Pay Back Down - Business Insider](https://www.businessinsider.com/tech-companies-using-layoffs-recession-to-push-pay-back-down-2023-1)
@@ -2334,11 +3887,21 @@
   - `[DuckDuckGo]` [Largest Layoffs, Downsizing, and Hiring Freeze Data- 2025 - 26](https://intellizence.com/insights/layoff-downsizing/leading-companies-announcing-layoffs-and-hiring-freezes/)
     > *"3 days ago · Intellizence Layoff Dataset - Get data on the latest layoffs, job cuts, downsizing, hiring freezes, and furloughs announced by top companies in 2025 - 26"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, traktör gibi kritik tarım araçlarına uzaktan kapatma düğmesi koymanın büyük bir akılsızlık olduğunu, hackerların bu açıkları kullanarak tek bir günde binlerce traktörü kitleyip dünyadaki tarım sektörünü çökertebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %4.3 | TUTMADI: %47.7 | BELIRSIZ: %37.0 | KISMEN TUTTU: %11.0`
 - **Videoda Ne Demişti:** Rusya'nın Ukrayna'da çaldığı John Deere traktörlerin uzaktan kilitlenmesini inceleyen Utku Şen, bu araçların yazılımlarında ciddi açıklar bulunduğunu anlatıyor. Tarım makinelerinin bu şekilde internete bağlanmaması gerektiğini savunarak bir saldırganın açıkları kötüye kullanması halinde dünyadaki binlerce traktörü tek tuşla devre dışı bırakıp küresel tarım sektörünü altüst edebileceğini kendi siber güvenlik tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Kill-Switch Tractors and Techno-Pessimism - The Prindle Institute for Ethics](https://www.prindleinstitute.org/2022/05/kill-switch-tractors-and-techno-pessimism)
     > *"> John Deere had remotely kill-switched the tractors once they became aware of the theft, rendering them useless to the Russians. (...) of the reader to a different aspect of the Russian-tractors story. When John Deere manufactured these particular tractors, they had no idea that they would be sold to Ukraine, and eventually stolen by Russian troop..."*
   - `[Tavily]` [John Deere](https://en.wikipedia.org/wiki/John_Deere)
@@ -2350,11 +3913,21 @@
   - `[DuckDuckGo]` [John Deere Security Vulnerabilities Could Have Led to Remote ...](https://heimdalsecurity.com/blog/john-deere-security-vulnerabilities/)
     > *"Aug 10, 2021 · John Deere security vulnerabilities could have led to serious consequences. In their investigation, the experts could have remotely gained access to the tractors."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, yazılımcı ve mühendislerin dünya ekonomisinin bel kemiği olmasına rağmen kendi güçlerinin farkında olmadıklarını, pısırık davrandıkları için haftada 4 gün çalışma ve uzaktan çalışma haklarını kazanmanın çok uzun zaman alacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %14.6 | TUTTU: %30.1 | KISMEN TUTTU: %17.4 | BELIRSIZ: %37.9`
 - **Videoda Ne Demişti:** Apple'ın çalışanları haftada üç gün ofise zorlaması üzerine makine öğrenmesi direktörünün istifa etmesini yorumlayan Utku Şen, teknoloji şirketlerinin mühendislerin emeği sayesinde milyarlar kazandığını anlatıyor. Mühendislerin bir hafta iş yavaşlatması halinde patronların her talebi kabul edeceğini belirterek bilişim emekçilerinin pısırıklığı yüzünden haftada dört gün çalışma ve kalıcı uzaktan çalışma gibi haklara kavuşmanın çok uzun yıllar alacağını kendi sektörel öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Four-Day Workweek | Pros, Cons, Arguments, Debate, Workweek, Burnout, Productivity, & Work-Life Balance | Britannica](https://www.britannica.com/procon/four-day-workweek-debate)
     > *"There are even new work schedules demanding more, not fewer, weekly hours from workers. The 996 model is designed for hyper-productivity, especially in the tech industry, and requires employees to work from 9 am to 9 pm, six days a week, for a total of 72 hours per week. This model originated in China’s tech industry and was highly controversial, b..."*
   - `[Tavily]` [The Four-Day Workweek Debate: Exploring the Pros and Cons for Businesses and Employees | Great Place To Work®](https://www.greatplacetowork.com/resources/blog/the-four-day-work-week-debate)
@@ -2366,15 +3939,29 @@
   - `[DuckDuckGo]` [İşçi Hakları 2026: Fazla Mesai, İzin ve Temel Güvenceler](https://www.kanuny.com/rehberler/isci-haklari)
     > *"May 18, 2026 · Türkiye'de çalışanların temel hakları, 4857 sayılı İş Kanunu ile güvence altına alınmıştır. Bu rehberde çalışma süreleri, fazla mesai ücreti, yıllık izin ve diğer temel haklarınızı sade bir dille bulabilirsiniz."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Kuzey Koreliler Yüzünden Online Mülakat Bitecek - S.A.H E124 - 2025-05-18
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Kuzey Koreli ajanlar ve yapay zekayla yapılan mülakat hileleri yüzünden tamamen uzaktan mülakat döneminin tarihe karışacağını, firmaların adayı mutlaka fiziken görmek isteyeceğini ve farklı şehir veya ülkelere iş başvurusu yapmanın çok zorlaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %16.2 | KISMEN TUTTU: %42.0 | TUTTU: %13.6 | BELIRSIZ: %28.3`
 - **Videoda Ne Demişti:** Kuzey Koreli IT ajanlarının yapay zekayla yüzlerini değiştirerek batılı şirketlerin mülakatlarını geçip işe sızmasını anlatan Utku Şen, bu sızmalar ve yapay zekayla kopya çeken adaylar yüzünden uzaktan mülakatın biteceğini belirtiyor. Şirketlerin ilk aşamayı uzaktan tutsa bile adayın kimliğini ve yeteneğini anlamak için mutlaka yüz yüze görüşme şartı getireceğini, bu durumun da başka şehir veya ülkelerdeki işlere başvurmayı çok zahmetli hale getireceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Thousands of North Korean Workers Got Remote US Jobs: FBI - Business Insider](https://www.businessinsider.com/north-korea-workers-remote-work-jobs-us-ballistic-missle-fbi-2023-10)
     > *"FBI officials said the scheme is so prevalent that companies must be extra vigilant in verifying whom they are hiring, including requiring interviewees to at least be seen via video. 'At a minimum, the FBI recommends that employers take additional proactive steps with remote IT workers to make it harder for bad actors to hide their identities,' Gre..."*
   - `[Tavily]` [North Korean remote worker scheme - Wikipedia](https://en.wikipedia.org/wiki/North_Korean_remote_worker_scheme)
@@ -2386,11 +3973,21 @@
   - `[DuckDuckGo]` [Kuzey Koreliler Yüzünden Online Mülakat Bitecek - S.A.H E124](https://www.youtube.com/watch?v=LVNHFHZVlsM)
     > *"May 18, 2025 · Kuzey Koreliler Yüzünden Online Mülakat Bitecek - S.A.H E124 Utku Sen 41.5K subscribers 457"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, üç yıl içinde kod tabanını çok iyi analiz edip açıkların yüzde 95'ini bulan modeller geleceğini, bu yüzden geleneksel sızma testi ihtiyacının ve mühendis kadrolarının ciddi oranda azalarak büyük bir işsizlik dalgası yaratacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %54.3 | BELIRSIZ: %28.8 | TUTMADI: %5.6 | TUTTU: %11.3`
 - **Videoda Ne Demişti:** Carnegie Mellon Üniversitesi'nin sanal şirketi yöneten yapay zeka ajanları deneyini ve modellerin kod analiz gücünü değerlendiren Utku Şen, siber güvenliğin yapay zeka karşısında saatli bomba gibi beklediğini anlatıyor. Üç seneye kadar kodlardaki güvenlik açıklarının büyük bölümünü tek başına yakalayabilen yapay zekalar çıktığında pentest ihtiyacının hızla azalacağını, yüz kişilik yazılımcı kadrolarının 30-40 kişiye düşeceğini ve devletler önlem almadığı için Amerika ile Çin arasındaki yarışın mükemmel ürünler çıkarsa bile pek çok insanı işsiz bırakacağını kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will AI Replace Penetration Tester Jobs? | JobZone Risk](https://jobzonerisk.com/roles/penetration-tester)
     > *"| Vulnerability scanning & analysis | 15% | 5 | 0.75 | DISPLACEMENT | NodeZero, Pentera, and ZeroThreat execute full scan-analyze-prioritize workflows autonomously. NodeZero has run 170,000+ autonomous pentests. The human pentester who still manually runs Nmap is wasting billable hours. | (...) | AI Tool Maturity | -1 | Production tools deployed at..."*
   - `[Tavily]` [Will AI Replace Human Pentesters?](https://www.linkedin.com/pulse/ai-replace-human-pentesters-redfoxsec-lyoff)
@@ -2402,15 +3999,29 @@
   - `[DuckDuckGo]` [AI vs Penetration Testers 2026: Will Automated Testing ...](https://infosecone.com/blog/ai-impact-penetration-testing-careers-and-job-market/)
     > *"Jul 12, 2025 · Discover how AI in penetration testing is revolutionizing cybersecurity. Learn about automated tools, enhanced vulnerability detection, and what it means for security professionals"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Köyün Delisi Grok - S.A.H E119 - 2025-03-30
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, kameralı akıllı gözlüklerin sosyal hayatta büyük sıkıntı yaratacağını, insanların karşısındakinden şüphelenip rahat konuşamayacağını ve fiziksel bir lens kapağı getirilmediği sürece bu sorunun çözülemeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %59.5 | KISMEN TUTTU: %28.0 | TUTMADI: %3.1 | BELIRSIZ: %9.4`
 - **Videoda Ne Demişti:** Meta'nın Orion ve Ray-Ban akıllı gözlüklerini değerlendiren Utku Şen, cihazın üzerindeki kayıt ışığının kablo kesilerek veya boyanarak kolayca devre dışı bırakılabileceğini anlatıyor. İnsanların karşısında kameralı gözlüklü biri varken tedirgin olacağını ve rahat sohbet edemeyeceğini belirterek donanımsal fiziksel bir kapak konulmadığı sürece bu gözlüklerin sosyal ilişkilerde büyük gerginlik çıkaracağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Smart Glasses Privacy: How Hardware, AI, and Laws Impact Wearable Tech](https://smartglassessupport.com/smart-glasses-privacy-solutions-concerns)
     > *"Social acceptance remains a fragile barrier for smart glasses privacy. When early head-worn displays first appeared, public pushback stemmed from a lack of clear physical recording signals. Modern devices attempt to address this by binding camera operation directly to a light-emitting diode. In practice, however, a tiny LED does not always relieve..."*
   - `[Tavily]` [https://pure.hva.nl/ws/files/48113286/Perspectives_on_the_Acceptance_and_Social_Implications_of_Smart_Glasses_A_Qualitative_Focus_...](https://pure.hva.nl/ws/files/48113286/Perspectives_on_the_Acceptance_and_Social_Implications_of_Smart_Glasses_A_Qualitative_Focus_Group_Study_in_Healthcare_1_.pdf)
@@ -2422,11 +4033,21 @@
   - `[DuckDuckGo]` [Smart Glasses And The Collision Of Privacy And Consent - Forbes](https://www.forbes.com/sites/timbajarin/2026/02/27/smart-glasses-and-the-collision-of-privacy-and-consent/)
     > *"Feb 27, 2026 · AI is transforming smart glasses, but their hidden cameras risk eroding privacy and trust—threatening the social contract that once governed technology use."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Amerika ile Avrupa'nın arası açıldıkça devletlerin verilerini Amerikan şirketlerine emanet edemeyeceğini, her ülkenin kendi yağıyla kavrulacağı bu yeni dönemde kurum içi çalışabilen açık kaynak projelerin çok büyük önem kazanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %10.0 | BELIRSIZ: %1.0 | TUTTU: %88.8 | TUTMADI: %0.2`
 - **Videoda Ne Demişti:** Fransa ve Almanya'nın geliştirdiği Doc isimli açık kaynak Notion alternatifini inceleyen Utku Şen, Avrupa devletlerinin gizli belgelerini Amerikan istihbaratının görebileceği platformlarda tutamayacağını belirtiyor. Ülkelerin dijital egemenlik için kendi içine kapanacağı bir döneme girdiğimizi anlatıp dış internete bağlanmadan yerel ağda çalışabilen açık kaynak yazılımların gelecekte inanılmaz değer kazanacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Digital Sovereignty and Open Source: Europe’s Shifting Technology Foundations - TYPO3 News](https://news.typo3.com/article/digital-sovereignty-open-source-europe)
     > *"Open source solutions have a long history of use by both state and private organizations. Public sector bodies in particular have been early adopters of open source solutions thanks to the increased digital and data sovereignty they offer. These factors, combined with an unrestricted access to source code and the transparency it brings, along with..."*
   - `[Tavily]` [Digital Sovereignty in Europe: Open-Source Strategies & PLVision Solutions](https://plvision.eu/blog/opensource/digital-sovereignty-why-europe-is-betting-on-open-source)
@@ -2438,11 +4059,21 @@
   - `[DuckDuckGo]` [EU Open Source Strategy | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/factpages/eu-open-source-strategy)
     > *"Jun 3, 2026 · The EU Open Source Strategy is a cornerstone of the Tech Sovereignty package, supporting open source ecosystems across the EU - encouraging the development and uptake of European alternatives."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, siteleri tek tıkla koda döküp klonlayan yapay zeka araçlarının en çok siber saldırganların işine yarayacağını ve sahte oltalama siteleri hazırlamak için yaygın şekilde kullanılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %97.6 | BELIRSIZ: %0.3 | KISMEN TUTTU: %2.0 | TUTMADI: %0.2`
 - **Videoda Ne Demişti:** Verilen herhangi bir web sitesini Next.js koduna dönüştürerek kopyalayan same.new isimli yapay zeka aracını değerlendiren Utku Şen, bu sistemlerin tasarımcılar kadar hackerların da eline düşeceğini anlatıyor. Birebir sahte arayüz kopyalamayı saniyelere indirdiği için saldırganların bu araçları oltalama (phishing) sayfaları üretmekte yoğun biçimde kullanacağını kendi tespiti olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI-Powered Website Cloning: Same Tool Enables Automated Phishing at Scale](https://www.netcraft.com/blog/same-automated-impersonation-for-all)
     > *"The use (and misuse) of AI by threat actors is nothing new. What Same does differently is full automation of website development from creation to deployment, all through a helpful chatbot and from a starting point of imitation. Unsurprisingly, Netcraft has observed threat actors using this service to create new phishing sites in a matter of minutes..."*
   - `[Tavily]` [Criminals are using AI website builders to clone major brands | Malwarebytes](https://www.malwarebytes.com/blog/news/2026/02/criminals-are-using-ai-website-builders-to-clone-major-brands)
@@ -2454,15 +4085,29 @@
   - `[DuckDuckGo]` [Siteniz yapay zekayla ücretsiz - Dakikalar içinde siteniz hazır](https://www.bing.com/aclick?ld=e8QchJ57Nl0gQ4Jc0FZ4cnwDVUCUyAPi63msZnN4hCYkvAQbWSy5tPny-Jn-A9Kr0w5dIB78it1ygLTnS1vNaiJmBzGO0T7cn4Z6uqv4m9LFcLjOYdt_ewyVTwfmp8YCVgIO_IZv7J7F_ybj2dyoYJKGs4gmnqPP9hEWnqfCFYrtMwxtzueGVcOWVfwGa--TFIEN5oinQWP63pUF7Gqo7W_UbZM7g&u=aHR0cHMlM2ElMmYlMmZ0ci5zaXRlMTIzLmNvbSUyZmluY2x1ZGUlMmZsYW5kaW5nLnBocCUzZnN1YmplY3QlM2R3ZWJzaXRlJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkNTU1OTExODUxJTI2dXRtX2FkZ3JvdXBJRCUzZDEyMzY5NTIyNzc5ODgzNDclMjZrZXl3b3JkSUQlM2Rrd2QtNzczMTA0MDg1MzcyNDAlM2Fsb2MtMTgyJTI2bmV0d29yayUzZG8lMjZhZElEJTNkNzczMDk2NjMyOTI5ODglMjZtc2Nsa2lkJTNkZTk5ZmI5ODBjNGQzMWEwMDRlMDVkMzdiYTE4NzgyNjk&rlid=e99fb980c4d31a004e05d37ba1878269)
     > *"Yapay zeka ile sohbet ederek sitenizi kurun ve düzenleyin. Şablonla uğraşmak yok, kod yok. Ücretsiz hosting ve 7/24 destekle sitenizi bugün yayınlayın. Ücretsiz başlayın! Hizmet kataloğu: Yapay zeka site kurucu, Ücretsiz hosting, Alan adı kaydı"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Liyakatsizlik Başa Bela - S.A.H E134 - 2025-08-24
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, yapay zeka şirketlerinin karlı bir iş modeli bulamaması durumunda yatırımcıların paralarını çekeceğini, bunun da hisselerde çöküşe, donanım krizine ve sektörün ciddi bir duraksama dönemine girmesine yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %15.6 | TUTTU: %11.5 | TUTMADI: %5.8 | BELIRSIZ: %67.1`
 - **Videoda Ne Demişti:** Yapay zeka balonu ve resesyon tartışmalarını değerlendiren Utku Şen, modellerin iş yapış şeklimizi sonsuza kadar değiştirmesine rağmen şirketlerin hala devasa zararlar ettiğini ve donanım parası yaktığını anlatıyor. 20 dolara satılan hizmetin maliyetinin 30 dolar olabileceğini belirterek karlılık çözülemezse yatırımcıların çekileceğini, hisselerin düşüp sektörün duraksayacağını ve bu durumun çalışanlar açısından işsizlik dalgasını öteleyeceği için daha hayırlı olacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [When Will the AI Bubble Burst? Both Paths Point to an Economic Crisis｜CLS同學 — BigGo Finance](https://finance.biggo.com/podcast/59abe2476fc513e5)
     > *"Key Takeaways U.S. GDP growth in 2026 is driven by AI capital expenditure, but risks include tech giants issuing debt to fund infrastructure, downstream applications struggling to turn a profit, underestimated hardware depreciation, and a GPU-backed margin loan bubble. If AI applications fail to achieve large-scale adoption, the resulting recession..."*
   - `[Tavily]` [What if the AI bubble burst? | Eventuallymaking](https://eventuallymaking.io/p/what-if-the-ai-bubble-burst)
@@ -2472,11 +4117,21 @@
   - `[Tavily]` [mainly macro: What kind of crisis would a bursting AI bubble become?](https://mainlymacro.blogspot.com/2026/01/what-kind-of-crisis-would-bursting-ai.html)
     > *"A second element of a bursting bubble might be a sudden slowdown in the amount of investment in new data centres. Less new buildings will be built, and less chips to put in them will be bought. That will have a direct negative impact on aggregate demand, mainly in the US. My own guess would be that we are unlikely to see a sudden stop in such inves..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekaya sevgili personaları yüklemenin insanlığı çok yanlış bir yere sürükleyeceğini ve gerçek ilişkilerden mahrum kalan çocukların bu botlara bağımlı olup 20 yaşına geldiklerinde bile asla büyüyememiş bireylere dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %28.2 | KISMEN TUTTU: %34.1 | BELIRSIZ: %34.0 | TUTMADI: %3.7`
 - **Videoda Ne Demişti:** Meta'nın yapay zeka botlarına getirdiği sevgili personalarını ve çocuklarla olan sohbet sınırlarına dair sızan skandal iç dokümanları eleştiren Utku Şen, yapay zeka sevgili fikrine tamamen karşı olduğunu anlatıyor. Çocukların sevinmeyi ve üzülmeyi gerçek insanlarla deneyimlemesi gerektiğini, fiziksel olmayan bir bota bağımlı büyüyen nesillerin psikolojik gelişimlerinin sakatlanacağını ve 20 yaşına gelseler dahi büyüyemeyeceklerini kendi güçlü tezi ve uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Understanding Teen Overreliance on AI Companion Chatbots Through Self-Reported Reddit Narratives](https://arxiv.org/html/2507.15783v4)
     > *"This study shows that teens often begin using AI chatbots for comfort or entertainment, but many gradually become more attached and reliant. Their experiences reflect features of behavioral addiction, with consequences that include disrupted sleep, academic struggles, and strained relationships. Meanwhile, some teens disengage after recognizing har..."*
   - `[Tavily]` [Character.AI Safety Risks: Teen Depression, Self-Harm, & Suicide](https://www.classlawgroup.com/character-ai-child-safety-risks)
@@ -2488,11 +4143,21 @@
   - `[DuckDuckGo]` [AI Chatbot Companions: Impact on Children and Teens](https://socialmediavictims.org/blog/ai-chatbot-companions-impact-children-teens/)
     > *"Feb 24, 2026 · If an AI chatbot companion played a role in your child’s mental health crisis, behavioral changes, or long-term harm, you are not alone. Many families reach out simply to get answers and understand their options."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, sosyal medya platformlarının artık klasik bir şirket formuyla açıklanamayacağını, insanlığın ortak forumu haline gelerek üçüncü bir yol oluşturduğunu ve devletlerin keyfi sansürü engellemek için bu platformlara kesin sınır ve regülasyon getirmek zorunda olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %7.9 | TUTTU: %19.0 | KISMEN TUTTU: %33.6 | BELIRSIZ: %39.5`
 - **Videoda Ne Demişti:** Meta'nın İsrail'i eleştiren paylaşımları algoritmalarıyla otomatik sildiğini ortaya çıkaran şirket içi belgeleri yorumlayan Utku Şen, sosyal medyanın tüm insanlığın var olduğu bir meydana dönüştüğünü belirtiyor. Zengin bir şirket sahibinin kendi ideolojisine veya devlet anlaşmalarına göre istediği gibi at koşturamayacağını, sosyal medyanın kamu ve özel sektörden ayrı üçüncü bir form olduğunu ve devletlerin bu platformlara yasal çerçeve çizmesinin şart olduğunu kendi sistem tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Social media regulation Archives - MEDIANAMA](https://www.medianama.com/tag/social-media-regulation/feed)
     > *"Title: Social media regulation Archives - MEDIANAMA p=309531 SEBI has proposed new rules requiring all regulated financial entities to display their registered name and number in every social media post to curb rising digital investment fraud. ))> The Securities and Exchange Board of India (SEBI) has proposed making it mandatory for all regulated e..."*
   - `[Tavily]` [Monitoring and Regulation of Social Media - India Broadband Forum](https://broadband.forum/threads/monitoring-and-regulation-of-social-media.140559)
@@ -2504,15 +4169,29 @@
   - `[DuckDuckGo]` [Is Social Media a Public Forum? - CivicPlus](https://www.civicplus.com/blog/sma/is-social-media-a-public-forum/)
     > *"May 19, 2022 · Social media accounts are not considered public forums by default, but courts have held that the way an account is used can cause it to be treated as one under the First Amendment."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Liyakatsizliğin Bedeli - S.A.H E102 - 2024-10-13
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, dijital verilerin fiziksel şeylerden bile çok daha hızlı yok olduğunu, bugünkü içeriklerin yüzyıllar sonrasına aktarılamayacağını ve gelecekte insanlık tarihinin bu döneminin devasa bir dijital kara delik olarak kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %28.0 | TUTTU: %17.8 | TUTMADI: %4.4 | BELIRSIZ: %49.7`
 - **Videoda Ne Demişti:** Internet Archive sitesinin hacklenmesi ve verilerin korunması üzerine konuşan Utku Şen, dijital verilerin kalıcı olmadığını anlatıyor. Bugünden 200 yıl sonrasına aktarılacak neredeyse hiçbir dijital veri kalmayacağını, bu yüzden geleceğin tarihçileri için 2010'lu ve 2020'li yılların insanlık gelişimi içinde bomboş bir kara delik olarak kalacağını kendi felsefi ve teknolojik tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [A Digital Dark Age](https://historicgeneva.org/communication-and-technology/digital-dark-age)
     > *"Since 1996, the Internet Archive has been working to prevent a digital dark age by compiling periodic digital snapshots of the web for its Wayback Machine. They expanded to digitizing books, audio recordings, videos, images, and software programs that today equal over 99 petabytes for one copy of their system. (...) 99 Petabytes. 1 petabyte is 1,02..."*
   - `[Tavily]` [The race to save our online lives from a digital dark age | MIT Technology Review](https://www.technologyreview.com/2024/08/19/1096284/data-archives-archeologists-tiktok-future-wayback-machine)
@@ -2524,11 +4203,21 @@
   - `[DuckDuckGo]` [Digital dark age - Wikipedia](https://en.wikipedia.org/wiki/Digital_dark_age)
     > *"The digital dark age is a lack of historical information in the digital age as a direct result of outdated file formats, software, or hardware that becomes corrupt, scarce, or inaccessible as technologies evolve and data decays. (1)"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Telegram'ın mahkeme kararlarıyla veri paylaşmaya başlamasının ardından artık siber suçlular ve yasa dışı gruplar için güvenli bir yuva olmaktan kesin olarak çıkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %16.4 | TUTMADI: %18.9 | BELIRSIZ: %4.5 | KISMEN TUTTU: %60.1`
 - **Videoda Ne Demişti:** Telegram'ın gizlilik politikasını değiştirmesini ve Pavel Durov'un Fransa'da yaşadığı yasal süreci değerlendiren Utku Şen, şifrelenmemiş konuşmaların artık resmi makamların eline geçebileceğini anlatıyor. Deep web gibi kullanılan platformun bu yeni kurallarla birlikte suçlular için korunaklı bir barınak olma dönemini tamamen kapattığını kendi çıkarımı olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Telegram’s upcoming blockchain network: a safe haven for terrorists?](https://finance.yahoo.com/news/telegram-upcoming-blockchain-network-safe-143544034.html)
     > *"Telegram does appear to be acutely aware of the problem, specifically singling out terrorists in its privacy policy, 'If Telegram receives a court order that confirms you're a terror suspect, we may disclose your IP address and phone number to the relevant authorities. So far, this has never happened. When it does, we will include it in a semiannua..."*
   - `[Tavily]` [What Telegram’s recent policy shift means for cyber crime | IBM](https://www.ibm.com/think/insights/what-telegrams-recent-policy-shift-means-for-cyber-crime)
@@ -2540,11 +4229,21 @@
   - `[DuckDuckGo]` [Telegram Scams: Basics, Red Flags, and Protection Tips](https://cybernews.com/identity-theft-protection/telegram-scams/)
     > *"May 27, 2026 · Telegram scams are easy to spot once you know the rules. Learn how to notice red flags in time, stop scammers cold, and recover if you've already been scammed."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, kök neden olan veri sızıntılarına ve çetelere dokunmadan sadece Discord gibi platformları yasaklamanın hiçbir işe yaramayacağını, suçluların anında başka uygulamalara geçerek faaliyetlerini sürdüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %17.2 | BELIRSIZ: %47.2 | TUTTU: %33.1 | TUTMADI: %2.5`
 - **Videoda Ne Demişti:** Türkiye'deki siber zorbalık ve veri sızıntısı panelleri sonrasında Discord'un engellenmesini yorumlayan Utku Şen, bunun sadece sorun çözüyormuş gibi görünmek olduğunu anlatıyor. Kapsamlı bir yasal mücadele ve operasyon yapılmadığı sürece bu ergen çetelerin Discord kapatılsa bile anında başka bir platforma geçip aynı zorbalığa devam edeceğini kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Discord, a Popular Video Gaming Chat Platform, Is Worth $2.05 Billion - Business Insider](https://www.businessinsider.com/discord-funding-2-billion-value-2018-12)
     > *"Discord has tried to fight back against bad actors on the platform, banning known servers associated with white supremacy and hate speech, while also working to enforce terms of service that prohibit those behaviors. Still, those communities are said to still linger on the service. (...) At the same time, Discord has courted controversy. The open a..."*
   - `[Tavily]` [Report Cyberbullying | Social Media Apps, Gaming and Online Platforms](https://cyberbullying.org/report)
@@ -2556,15 +4255,29 @@
   - `[DuckDuckGo]` [Bullying, Harassment, and Threats Policy Explainer - Discord](https://discord.com/safety/bullying-harassment-threats-policy-explainer)
     > *"Reporting safety violations is critically important to keeping you and the broader Discord community safe. All Discord users can report policy violations by following the instructions here. For more information on these policies, please reference our Community Guidelines 1 and 2."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Malum Ülkeden Seçimlere Müdahale Girişimi - S.A.H E165 - 2026-06-14
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka sektörünün bir duraksama evresine girdiğini, bu durgunluğun halka arzlardan önce fark edilmesi durumunda hisse talebinin düşeceğini ve şirket değerlemelerinin ciddi şekilde eriyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %27.6 | TUTTU: %30.8 | TUTMADI: %16.0 | BELIRSIZ: %25.6`
 - **Videoda Ne Demişti:** Anthropic'in Fable ve Mitos modelleri etrafında koparılan fırtınayı değerlendiren Utku Şen, yapay zeka şirketlerinin nakde susadığını ve devasa para yaktığını anlatıyor. Sektörün bir duraklama dönemine girmek üzere olduğunu, şirketlerin bu durgunluk anlaşılmadan önce halka arz ile kasalarını doldurmaya çalıştığını ve duraklama önceden ortaya çıkarsa şirket değerlemelerinin hayal edilenin çok altında kalacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why Anthropic's IPO matters for the 'AI bubble'](https://www.usatoday.com/story/money/2026/10/27/anthropic-ipo-ai-bubble/92352136007)
     > *"While the 335-page registration statement didn’t state the company’s valuation, some investors have guessed it could be as high as $2 trillion, which would make it the biggest IPO ever. A large IPO could inflate what is sometimes referred to as an AI bubble, or the idea that financial markets have overvalued AI companies, and that when the markets..."*
   - `[Tavily]` [The AI IPO Wave Is The Dot-Com Bubble's Evil Twin. Anthropic’s Delay Just Proved It.](https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived)
@@ -2576,11 +4289,21 @@
   - `[DuckDuckGo]` [The Generative AI Valuation Bubble: Deciphering Capital ...](https://reducates.com/ai-digests/the-generative-ai-valuation-bubble-analyzing-funding-concentration-and-economic-sustainability-in-the-startup-ecosystem)
     > *"The generative AI valuation bubble is not a myth, but it is highly asymmetric. The technology itself represents a genuine paradigm shift, but the financial architecture surrounding it is deeply fractured."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka şirketleriyle paylaşılan özel sohbetlerin ve sağlık sorunlarının profillenerek kaydedildiğini, bu kişisel verilerin ileride hastanelere veya üçüncü taraf firmalara satılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %33.2 | TUTTU: %13.2 | TUTMADI: %8.7 | KISMEN TUTTU: %44.9`
 - **Videoda Ne Demişti:** Silikon Vadisi liderlerinin ilke ve etik söylemlerinin tamamen bir PR taktiği olduğunu anlatan Utku Şen, ChatGPT ve Claude gibi modellere dert veya sağlık durumu anlatmanın tehlikelerine değiniyor. Bu verilerin sistemlerde kişi bazında profillendiğine inandığını, ileride bu şirketlerin kullanıcıların tüm hastalık geçmişini hastanelere veya reklamcılara satacağını kendi güçlü şüphesi ve uyarısı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What ChatGPT Ads Mean for Healthcare Advertising](https://deepintent.com/deepdive/what-chatgpt-ads-mean-for-healthcare-advertising)
     > *"OpenAI says ads do not appear in mental and personal health conversations, emotionally reliant contexts, or sensitive user journeys. Advertisers do not receive users' ChatGPT conversations, chat histories, memories, or personal details. And advertising operates separately from ChatGPT's answers, meaning advertisers cannot pay to influence what Chat..."*
   - `[Tavily]` [Advertising to the distressed: The commodification of mental health data in AI chatbots - Journal of Medical Ethics blog](https://blogs.bmj.com/medical-ethics/2026/04/14/advertising-to-the-distressed-the-commodification-of-mental-health-data-in-ai-chatbots)
@@ -2592,11 +4315,21 @@
   - `[DuckDuckGo]` [Healthcare Postcard Templates - Custom Healthcare Postcards](https://www.bing.com/aclick?ld=e8IdfOPxOoFIaSCDZGwb5zQTVUCUz0rKnPm7-Q7T3WQ9AQ37_RHDEDW-g_JUa8sKjE5eMj5KzkUOvA9ArAAfBgv-UEZ1jOZ6UvubV-GUhX0UO9OGNqsSYNOBrjrylSXa98ZeT6I1OcYMPCDUUDgI66B2RgkVu2A4AlXRwP1qZxJRk7TueWUgazESWbo4dN2QrHUD75dkL551QwFdP7x8L0_jMmkQw&u=aHR0cHMlM2ElMmYlMmZ3d3cucG9zdGNhcmRtYW5pYS5jb20lMmZscCUyZmluZHVzdHJ5LXBvc3RjYXJkcyUyZiUzZmluZHVzdHJ5JTNkaGVhbHRoY2FyZSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZExQX0luZHVzdHJpZXNfSGVhbHRoY2FyZSUyNmN0Y2FtcGFpZ24lM2QyMTElMjZjYW1wYWlnbiUzZF8tX2JpbmcteWFob28lMjZhZGdyb3VwJTNkJTI2YWRfZGVzY3JpcHRpb24lM2QlMjZrZXl3b3JkJTNkbWVkaWNhbCUyNTIwbWFya2V0aW5nJTI2bWF0Y2h0eXBlJTNkcCUyNmdjbGlkJTNkJTI2a3dpZCUzZCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2bXNjbGtpZCUzZGJkNmRkOTZlZmJmOTE5OTQwMmNkYjM5NTljZTVmYWE4&rlid=bd6dd96efbf9199402cdb3959ce5faa8)
     > *"7¢ Healthcare Advertising Postcards. Plan Your Campaign Today and Save On Postage! Craft a custom campaign tailored to Your business Free with a dedicated marketing expert."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, her iş için aşırı zeki modellere ihtiyaç olmadığını, şirketlerin milyonlarca dolarlık faturaların altında ezilmemek için otonom ajanlarda pahalı modeller yerine onda bir fiyatına çalışan açık kaynaklı alternatiflere yöneleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.1 | BELIRSIZ: %10.1 | TUTTU: %58.9 | KISMEN TUTTU: %29.8`
 - **Videoda Ne Demişti:** GLM 5.2 ve Kimi gibi Çin menşeili açık kaynaklı modellerin başarısını değerlendiren Utku Şen, batılı kapalı modellerin çok pahalı olduğunu anlatıyor. Şirketlerin her yere yapay zeka ajanları yerleştirmesi durumunda aylık 5 milyon dolarlık faturalarla karşılaşacağını, çoğu rutin görevin devasa zeka gerektirmediğini ve bütçeyi korumak için sektörün bu ucuz modellere kayacağını kendi öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Enterprise Open Source AI Models | Cohere](http://cohere.com/models-overview)
     > *"Generative Models Frontier language models for complex reasoning, generation, and agentic workflows at enterprise scale. Command A+ NEW Our fastest, most powerful open-source model for running high-performance enterprise agents with maximum efficiency. Download weights Ultra-efficient serving Multilingual across 48 languages Tool use and reasoning..."*
   - `[Tavily]` [Enterprise Open Source AI Models | Cohere](https://www.cohere.com/models-overview)
@@ -2608,11 +4341,21 @@
   - `[DuckDuckGo]` [Efficient Agents: Building Effective Agents While Reducing Cost](https://arxiv.org/html/2508.02694v1)
     > *"Aug 24, 2026 · Our work provides actionable insights for designing efficient, high-performing agent systems, advancing the accessibility and sustainability of AI-driven solutions."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, anonim hesapların demokrasilerin aşil tendonu olduğunu, kitlelerin dışlanma korkusu ve algı yönetimi yüzünden gelecekte de organize sosyal medya operasyonlarına kanmaya devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %29.3 | TUTTU: %50.4 | TUTMADI: %4.1 | KISMEN TUTTU: %16.2`
 - **Videoda Ne Demişti:** Fransa'nın İsrailli BlackCore firmasını seçimlere müdahale etmekle suçlaması haberini yorumlayan Utku Şen, insan doğasındaki sürü psikolojisini ve grup baskısını anlatıyor. Anonim hesapların arkasındaki ajanları ya da şirketleri tespit etmenin imkansız olduğunu, toplumun zayıf psikolojisi nedeniyle bu manipülasyon döngüsünün kırılamayacağını ve insanların çoğunun gelecekte de bu tuzaklara düşmeyi sürdüreceğini kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How Automated Bot Networks Manipulate Elections Globally](https://www.humansecurity.com/learn/resources/how-automated-bot-networks-manipulate-elections-globally)
     > *"4. Behavioral Analysis and Anomaly Detection: Use sophisticated analysis tools to monitor and mitigate bot-driven disinformation on social media and online publications to distinguish humans from bot interactions and quickly address unusual activity patterns indicating bot interference. 5. Automated Response Systems: Implement automated systems to..."*
   - `[Tavily]` [Students building rage bait bots to help research election interference | ABC NEWS](https://www.youtube.com/watch?v=y73flsf57CU)
@@ -2624,15 +4367,29 @@
   - `[DuckDuckGo]` [Election disinformation: how AI‑powered bots work and how you ...UNMASKING THE THREAT: How Automated Bot Networks Manipulate ...Vo...](https://theconversation.com/election-disinformation-how-ai-powered-bots-work-and-how-you-can-protect-yourself-from-their-influence-227174)
     > *"Apr 9, 2024 · AI-powered bots are automated accounts that are designed to mimic human behaviour. Bots on social media, chat platforms and conversational AI are integral to modern life. They are needed to... Early uses were relatively benign, but recent advancements have enabled complex disinformation campaigns and direct attacks on electoral system..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## martı hacklendi, rusya internetten çıkar mı? -siber alemden havadisler 52. bölüm - 2022-03-11
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, Rusya'nın dünyadan tamamen kopup Kuzey Kore gibi yüzde yüz dışa kapalı bir internete geçmeyeceğini, bunun yerine Çin modeline benzer dev bir güvenlik duvarı kurarak sadece devlet onaylı sitelerin çalışmasına izin vereceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.8 | KISMEN TUTTU: %41.7 | TUTTU: %43.9 | TUTMADI: %5.5`
 - **Videoda Ne Demişti:** Rusya'nın küresel internetten tamamen kopacağı söylentilerini ele alan Utku Şen, Rusya'nın Kuzey Kore gibi dünyadan büsbütün izole olmasına ihtimal vermediğini anlatıyor. Bunun yerine Çin tarzı büyük bir firewall arkasına geçerek sadece devletin izin verdiği sitelerin çalıştığı bir sansür altyapısına yöneleceğini kendi teknoloji öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Great Russian Firewall | OSW Centre for Eastern Studies](https://www.osw.waw.pl/en/publikacje/osw-report/2025-12-19/great-russian-firewall)
     > *"The systemic offensive against Runet has been under way for over a decade. It began in 2012, following Vladimir Putin’s return to the presidency, and at that time formed part of a broader campaign targeting civil rights and freedoms. A key milestone in advancing the Kremlin’s objectives was the 2019 law on the ‘sovereign Runet’, which enabled the c..."*
   - `[Tavily]` [Russia's controversial sovereign internet law goes into force](https://www.cnbc.com/2019/11/01/russia-controversial-sovereign-internet-law-goes-into-force.html)
@@ -2644,11 +4401,21 @@
   - `[DuckDuckGo]` [Internet censorship in Russia - Wikipedia](https://en.wikipedia.org/wiki/Internet_censorship_in_Russia)
     > *"Before the outbreak of the Ukraine conflict, Russia introduced a new Internet policy aimed at replicating an independent digital ecosystem similar to that of China, where online platforms operate largely without reliance on Western services, also incubating competitive tech giants."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, ülkeler arasındaki yaptırımlar ve gerilimler yüzünden küresel internetin parçalanacağını, 2040 yılına bile kalmadan insanların yabancı sitelere girebilmek için kriptografik anahtarlarla çalışan sanal pasaport ve internet vizesi almak zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %2.7 | TUTTU: %0.6 | BELIRSIZ: %65.5 | TUTMADI: %31.3`
 - **Videoda Ne Demişti:** Gelecek 30 yıla dair kehanetler yazısından bahseden Utku Şen, Amerika ile İran veya Rusya arasındaki yaptırımların interneti böleceğini anlatıyor. İnternetteki sitelere erişmek için öğrencilerin veya araştırmacıların tıpkı turistik vize gibi internet vizesine başvuracağını, onay alınca verilen özel anahtarla sitelere girilebileceğini ve bu sanal pasaport sisteminin hayata geçmesinin çok da uzak olmadığını kendi fütüristik tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [e-Passports | Homeland Security](https://www.dhs.gov/e-passports)
     > *"An e-Passport contains an electronic chip. The chip holds the same information that is printed on the passport's data page: the holder's name, date of birth, and other biographic information. An e-Passport also contains a biometric identifier. The United States requires that the chip contain a digital photograph of the holder. All e-Passports issue..."*
   - `[Tavily]` [Digital Travel Credentials: Legal Concerns | Purdue Global Law School](https://www.purduegloballawschool.edu/blog/news/digital-travel-credentials-challenges)
@@ -2660,11 +4427,21 @@
   - `[DuckDuckGo]` [New Visa Restriction Policy to Deter and Dismantle Cyberscams ...](https://www.state.gov/releases/office-of-the-spokesperson/2026/07/new-visa-restriction-policy-to-deter-and-dismantle-cyberscams-and-sextortion)
     > *"Jul 23, 2026 · Today, I am announcing a new global visa restriction policy under Section 212 (a) (3) (C) of the Immigration and Nationality Act. This policy targets individuals responsible for, or complicit in, cybercrime and cyber-enabled crime, such as those involved in cyberscams, and sextortion."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, GitHub Copilot gibi yapay zeka araçlarının iş mantığı hatalarını ve IDOR gibi açıkları yakalayamayacağını, bu yüzden önümüzdeki 20-30 yıl boyunca pentester ihtiyacının süreceğini ve güvenlik uzmanlarının asla işsiz kalmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **3.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %34.2 | KISMEN TUTTU: %20.8 | TUTTU: %23.4 | BELIRSIZ: %21.6`
 - **Videoda Ne Demişti:** GitHub Copilot'un sızma testi uzmanlarını bitireceği iddialarını yanıtlayan Utku Şen, yapay zekanın sadece en sık kullanılan kod kalıplarını önerdiğini ve mantık hatalarını yakalayamayacağını anlatıyor. Otomasyon araçlarının iş yükünü hafifletse bile önümüzdeki 20-30 yıl boyunca pentester ihtiyacının devam edeceğini ve uzmanların işsiz kalmayacağını kendi sektörel tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The team that created GitHub Copilot has spun out and created an AI hacker that performs as well as a 20-year veteran penetration...](https://www.linkedin.com/posts/konstantinebuhler_the-team-that-created-github-copilot-has-activity-7226232213921521664-nRUC)
     > *"to SSRF. We hired 5 pentesters from well-established pentesting companies. XBOW completed 85% of the benchmarks, matching the most experienced pentester with 20 years of training and experience. This new technical milestone is a game-changer for pentesters, allowing all of us to transform our work and raise our game in the era of AI. (...) Our AI p..."*
   - `[Tavily]` [Do AI Coding Assistants Make Bad Coders Worse? A Security Evaluation of GitHub Copilot | SANS.edu](https://www.sans.org/white-papers/do-ai-coding-assistants-make-bad-coders-worse-security-evaluation-github-copilot)
@@ -2676,15 +4453,29 @@
   - `[DuckDuckGo]` [Zeka Çağında Siber Güvenlik - OpenAI](https://openai.com/tr-TR/index/cybersecurity-in-the-intelligence-age/)
     > *"Apr 29, 2026 · OpenAI, Zeka Çağında siber güvenliği güçlendirmek için yapay zeka destekli siber savunmayı yaygınlaştırma ve kritik sistemleri koruma odaklı 5 bölümlü bir eylem planı sunuyor."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Meta Dolandırıcılara Neden Bilerek Göz Yumuyor? - S.A.H E143 - 2025-11-09
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, yapay zekanın telefonlarda ve kişisel bilgisayarlarda yerel olarak çalıştırılmasının hiçbir zaman tam anlamıyla mümkün olamayabileceğini, modellerin yeterince optimize edilemeyip verilerin mecburen devasa bulut sunucularına gönderilmeye devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %1.7 | KISMEN TUTTU: %2.4 | TUTTU: %0.4 | TUTMADI: %95.6`
 - **Videoda Ne Demişti:** Apple Intelligence'ın bulut gizliliği hamlesini ve açık kaynaklı alternatiflerini değerlendiren Utku Şen, yapay zekanın yerel cihazlarda çalışması hayalini ele alıyor. Belki de hiçbir zaman bu kadar optimize algoritmaların geliştirilemeyeceğini, kullanıcıların devasa bulut sunucularına bağımlı kalmaya devam edeceğini ve bu yüzden mahremiyeti koruyan bulut mimarilerinin önem kazanacağını kendi şahsi şüphesi ve tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Is Local AI? On-Device AI Explained | Cognativ](https://www.cognativ.com/blog/what-is-local-ai)
     > *"Smaller models can run on CPUs with limited computational power, especially for classification, speech or vision. Larger language and image models usually need a GPU, an NPU or plenty of unified memory, plus quantized weights. A compact specialized model often beats a large general model on a narrow job, so test candidates on your own data before c..."*
   - `[Tavily]` [On-Device LLMs: Complete Guide to Local AI (2026)](https://picovoice.ai/blog/on-device-llm)
@@ -2696,11 +4487,21 @@
   - `[DuckDuckGo]` [On-Device LLMs: Complete Guide to Local AI | 2026](https://picovoice.ai/blog/on-device-llm/)
     > *"Sep 25, 2026 · This guide covers what on-device LLMs can do, when to choose them over cloud models, how inference and hardware work, how compression fits large models onto small devices, and how to ship one."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Amerika'nın sansür ve yargı bağımsızlığı sorunları yüzünden Çin ile aynı seviyeye indiğini, bu durumun küresel teknoloji pazarında Amerika'nın uzun vadede kendi ayağına sıkmasına ve büyük bir dezavantaj yaşamasına yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %7.5 | BELIRSIZ: %65.9 | TUTMADI: %5.5 | KISMEN TUTTU: %21.1`
 - **Videoda Ne Demişti:** YouTube'un belirli ülkelerle ilgili insan hakları videolarını kaldırmasını ve Amerika'daki ifade özgürlüğü ile yargı sistemindeki erozyonu yorumlayan Utku Şen, eskiden Batı ürünlerinin düşünce özgürlüğü ve hukuki güvence sebebiyle Çin ürünlerine tercih edildiğini anlatıyor. Amerika'nın da Çin benzeri bir çizgiye kaymasıyla tüketicilerin gözündeki bu farkın eridiğini ve Amerika'nın uzun vadede teknoloji pazarında kendi kendine büyük sıkıntı çıkaracağını kendi analizi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Free speech faces death by 1,000 cuts as tech, media, and politics clash](https://finance.yahoo.com/news/free-speech-faces-death-1-132305192.html)
     > *"Under pressure from U.S. government officials during the COVID-19 pandemic, Meta censored content, which later led to regret from CEO Mark Zuckerberg, further revealing the dubious dynamics between tech companies and government influence on speech. Meanwhile, Google is under EU antitrust investigations and facing scrutiny over misinformation, priva..."*
   - `[Tavily]` [Big Tech Poses a Major Threat to Free Speech | Utah Senate](https://senate.utah.gov/big-tech-poses-a-major-threat-to-free-speech)
@@ -2712,11 +4513,21 @@
   - `[DuckDuckGo]` [The Covert Erosion of Free Speech: How Proxy Censorship ...](https://www.researchgate.net/profile/Douglas-Youvan/publication/384762109_The_Covert_Erosion_of_Free_Speech_How_Proxy_Censorship_Undermines_Democratic_Governance_in_the_US/links/67067f9ede6db7509d6594a2/The-Covert-Erosion-of-Free-Speech-How-Proxy-Censorship-Undermines-Democratic-Governance-in-the-US.pdf)
     > *"free speech through private platforms poses a serious threat to democratic governance in the U.S. It undermines the constitutional right to free expression, weak."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekadan aldığı metinleri veya güvenlik analizlerini hiçbir şey katmadan sadece kopyala yapıştır yapan çalışanların yakında tamamen gereksiz hale geleceğini ve şirketlerin bu kişileri gözünün yaşına bakmadan aradan çıkaracağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.0 | TUTTU: %49.4 | KISMEN TUTTU: %26.6 | BELIRSIZ: %23.0`
 - **Videoda Ne Demişti:** Yapay zekanın ürettiği hayali zafiyet raporlarını test etmeden açık kaynak geliştiricilere gönderen kişileri eleştiren Utku Şen, yapay zekanın çıktısını aynen başkasına ileten birinin hiçbir değeri olmadığını belirtiyor. Kendi emeğini, süzgecini ve fikrini katmayan çalışanlara insan olarak ihtiyaç kalmadığını ve bu kişilerin sektörde hızla tasfiye edileceğini kendi uyarısı ve öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Job Displacement in Copywriting: What the Data Shows About 25-Year Careers Going Obsolete](https://blog.dawnstarexploration.com/ai-job-displacement-in-copywriting-what-the-data-shows-about-25-year-careers-going-obsolete)
     > *"Twenty-five years of craft provided no structural protection in a profession with no regulatory floor, no physical execution component, and a text-based deliverable that AI can now replicate at scale. The displacement of senior copywriters isn't an anomaly — it's what high-exposure, low-resistance business models look like when the technology thres..."*
   - `[Tavily]` [Dangers of AI Job Displacement - Artificial Intelligence +](https://www.aiplusinfo.com/blog/dangers-of-ai-job-displacement)
@@ -2728,15 +4539,29 @@
   - `[DuckDuckGo]` [AI Job Displacement Analysis (2025-2030) - SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5316265)
     > *"Jun 23, 2025 · Based on extensive data from leading research institutions, government reports, and industry analysis, this study examines the displacement and creation of jobs across multiple sectors due to AI automation."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Meta Gözlüklerin Gizlice Yaptığı Kayıtlar - S.A.H E178 - 2026-10-18
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, yapay zeka ajanlarının başrolde olacağı WannaCry çapında devasa bir siber saldırının eli kulağında olduğunu, eski yazılımlarla çalışan elektrik, su tesisatı, süpermarket veya kargo gibi kritik altyapıların hacklenip dünyaya büyük bir şok yaşatacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %16.9 | BELIRSIZ: %53.4 | TUTMADI: %7.2 | KISMEN TUTTU: %22.5`
 - **Videoda Ne Demişti:** Avrupa'da süpermarket buzdolaplarını yöneten eski yazılımların hacklenmesini ve altyapı saldırılarını değerlendiren Utku Şen, yapay zekanın güvenlik açıklarını bulmayı çok kolaylaştırdığını anlatıyor. Önümüzdeki süreçte yapay zeka ajanlarının rol oynayacağı, günlük hayata doğrudan temas eden altyapı ve kargo sistemlerini felç ederek WannaCry büyüklüğünde dünyaya ulan nereye gidiyoruz dedirtecek büyük bir saldırının kesinlikle yaşanacağını kendi güçlü beklentisi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Half of critical infrastructure hit by AI-powered attacks | Alex Cherones posted on the topic | LinkedIn](https://www.linkedin.com/posts/alexcherones_ai-is-about-to-supercharge-cyberattacks-activity-7394003551049424896-Nf7q)
     > *"The pace of change in cyber security has just leapt forward - and not in our favour. A new case study reveals the first large-scale cyberattack executed almost entirely by AI, marking a genuine turning point for global security teams. What’s striking isn’t just the sophistication of the attack, but the autonomy with which AI agents carried it out -..."*
   - `[Tavily]` [Agentic AI Expands Critical Infrastructure Attack Surface Beyond Governance – HSToday](https://www.hstoday.us/subject-matter-areas/ai-and-advanced-tech/agentic-ai-and-the-critical-infrastructure-attack-surface-that-lacks-governance)
@@ -2748,11 +4573,21 @@
   - `[DuckDuckGo]` [Autonomous AI-based Cybersecurity Framework for Critical ...](https://arxiv.org/html/2507.07416v1)
     > *"Jul 10, 2025 · This paper examines cybersecurity vulnerabilities in critical infrastructure, highlighting the threat landscape, attack vectors, and the role of Artificial Intelligence (AI) in mitigating these risks."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, siber güvenliğin altın çağına girmek üzere olduğunu fakat hem Rusya hem İsrail hem de Amerika ile politik gerilim yaşayan Avrupa ve İngiltere'yi çok zor günlerin beklediğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.7 | BELIRSIZ: %8.0 | KISMEN TUTTU: %28.2 | TUTTU: %63.1`
 - **Videoda Ne Demişti:** Süpermarket buzdolapları, Danimarka-Almanya tüneli ve Jaguar Land Rover fabrikasına yapılan fidye talebi içermeyen sabotaj saldırılarını inceleyen Utku Şen, ülkeler arası krizlerin siber alana taştığını anlatıyor. Siber güvenliğin küresel bir altın çağa girdiğini ama politik bir kıskacın ortasında kalan Avrupa'nın ve özellikle İngiltere'nin bu yetkin aktörlerin siber saldırıları karşısında çok çetin ve zorlu bir döneme sürüklendiğini kendi öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Europe is facing more cyberattacks. Is it ready to defend itself?](https://www.theparliamentmagazine.eu/news/article/europe-is-under-cyberattack-is-it-ready)
     > *"Defending Europe’s government and critical infrastructure from cyberattacks is an enormous challenge, said Sven Herpig, lead cybersecurity and emerging threats advisor at the European tech think tank Interface. In Germany alone, Herpig said, 50,000 organizations are categorized as critical infrastructure. “Most critical infrastructures will not be..."*
   - `[Tavily]` [Europe faces faster cyberattacks than ever. But many of the solutions are long known](https://www.chathamhouse.org/2026/11/europe-faces-faster-cyberattacks-ever-many-solutions-are-long-known)
@@ -2764,15 +4599,29 @@
   - `[DuckDuckGo]` [Critical Infrastructure Cyber Attacks Statistics 2026: Energy ...](https://axis-intelligence.com/critical-infrastructure-cyber-attacks-statistics/)
     > *"Jun 27, 2026 · According to Axis Intelligence Research’s synthesis of primary data from the FBI IC3, CISA, IBM Cost of a Data Breach 2024, IEA, and the U.S. Government Accountability Office, critical infrastructure faces an attack volume that grows roughly 30% year over year."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Meta, Hasta ve Engelli Çalışanları İşten Atıyor - S.A.H E170 - 2026-08-23
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, yapay zekanın giriş seviyesi ve üç yıllık tecrübeli sızma testi uzmanlarının yerini 2027 yılına kadar kesinlikle alacağını, bu alanda yeni başlayanlara hiç ihtiyaç kalmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %34.7 | KISMEN TUTTU: %33.4 | TUTTU: %5.1 | TUTMADI: %26.8`
 - **Videoda Ne Demişti:** Yapay zekanın kaynak kodda ve web uygulamalarında zafiyet bulma yeteneklerinin hızla geliştiğini anlatan Utku Şen, uzman süpervizyonu gerekse bile junior ve 3 yıllık tecrübeye sahip pentesterların yaptığı işi yapay zekanın devralacağını ve 2027 içinde bu geçişin kaçınılmaz olacağını kendi net tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will AI Replace Penetration Testers? The Data | Simbian](https://simbian.ai/blog/will-ai-replace-penetration-testers)
     > *"Same class of tooling as the reporters who broke curl. Opposite outcome. The agent was not the variable. What he refused to send was. Will AI replace junior penetration testers? At the junior level, largely yes. The work AI does best right now — methodical enumeration, known vulnerability classes, first-draft reporting, and retesting after remediat..."*
   - `[Tavily]` [Can AI Replace Penetration Testing? What IT Leaders Need to Know in 2026](https://mti.com/can-ai-replace-penetration-testing)
@@ -2784,11 +4633,21 @@
   - `[DuckDuckGo]` [AI Penetration Testing: Will AI replace human pen testers?](https://securityboulevard.com/2026/09/ai-penetration-testing-will-ai-replace-human-pen-testers-2/)
     > *"Sep 23, 2026 · This blog post explores the debate over whether AI will replace traditional penetration testing, how humans compare, ethical concerns, AI governance, and the new CREST accreditations."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, jailbreak yapılmış sansürsüz yapay zeka modelleri yüzünden tehdit aktörü olma eşiğinin yerlere ineceğini, bir aylık acemilerin bile dünyaya bela olabileceğini ve sıfır gün açıklarının ciddi şekilde artacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %73.2 | KISMEN TUTTU: %19.2 | BELIRSIZ: %6.6 | TUTMADI: %1.0`
 - **Videoda Ne Demişti:** Orca Router ve Qwen gibi modellerin sansürsüz versiyonlarını inceleyen Utku Şen, artık derin teknik bilgiye ihtiyaç duymadan herkesin bu modellerle zararlı yazılım ve saldırı planlayabileceğini anlatıyor. Tehdit aktörü olma çıtasının düşmesiyle birlikte önümüzdeki süreçte zero-day açıklarının ve büyük siber saldırıların hızla tırmanacağını kendi tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Zero-Day Zero: The AI Attack That Just Ended the Era of the Forgiving Internet | Qualys](https://blog.qualys.com/vulnerabilities-threat-research/2025/11/24/zero-day-zero-the-ai-attack-that-just-ended-the-era-of-the-forgiving-internet)
     > *"The GTG-1002 incident targeted sectors across finance, chemical manufacturing, and government, peaking at thousands of requests per second. But here is the scariest part: This was the “noisy” version. We only detected it because the attackers used a monitored commercial API. Imagine the alternative: an uncensored, open-source LLM running on private..."*
   - `[Tavily]` [Weaponizing Intelligence: Understanding LLM-Driven Malware and Zero-Day Threats by Samita Bai](https://www.youtube.com/watch?v=ICZ2uTbTa8M)
@@ -2798,11 +4657,21 @@
   - `[Tavily]` [LLMs Can Now Find Zero-Day Vulnerabilities. Here's Why That's Both Impressive and Alarming. - Vidoc Security Lab](https://blog.vidocsecurity.com/blog/llms-became-dangerously-good-for-cybersecurity)
     > *"TL,DR > LLMs are becoming good at math, coding and now security. We tested LLMs on 95 real-world security issues found by humans in open-source software, and they were able to identify 80% of them. LLMs are becoming scary good at finding security issues in code, but this is not what makes them dangerous. LLMs now discover real‑world zero‑days and t..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, Amerikan teknoloji devlerinin açık kaynaklı modelleri yasaklatmak ve kendi yatırımlarını korumak için sansürsüz tehlikeli modelleri internete bilerek yayıp lobi silahı olarak kullanabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %35.0 | BELIRSIZ: %55.5 | KISMEN TUTTU: %8.3 | TUTTU: %1.2`
 - **Videoda Ne Demişti:** Anthropic gibi milyarlarca dolar yatırım yapan şirketlerin açık kaynak modelleri regüle ettirmek için lobi yürüttüğünü anlatan Utku Şen, sansürsüz ve tehlikeli modellerin internete salınarak toplumda korku yaratılabileceğini ve bu şirketlerin açık kaynağı boğmak adına bunu gizli bir silah olarak kullanabileceğini kendi komplo tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Tech leaders lobby against restrictions on open-source AI](https://ca.finance.yahoo.com/news/tech-leaders-lobby-against-restrictions-001821368.html)
     > *"Nvidia, for instance, has not only pledged $26 billion to build its own open-weight models, but it's also invested in startups that benefit from open source in AI. It participated in the $235 million round for the open-source model hub Hugging Face back in 2023 and also invested in the $2 billion round for Reflection AI, which has pitched itself as..."*
   - `[Tavily]` [AI's future could be 'open-source' or closed. Tech giants are divided as they lobby regulators | Courthouse News Service](https://www.courthousenews.com/ais-future-could-be-open-source-or-closed-tech-giants-are-divided-as-they-lobby-regulators)
@@ -2814,11 +4683,21 @@
   - `[DuckDuckGo]` [Tech leaders lobby against restrictions on open-source AI](https://pitchbook.com/news/articles/tech-leaders-lobby-against-restrictions-on-open-source-ai)
     > *"Jul 25, 2026 · Market Insights / Venture Capital / AI & ML Tech leaders lobby against restrictions on open-source AI The appeal lands days after the White House accused a Chinese lab of stealing from Anthropic, as the administration weighs whether to restrict open-weight models outright."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, insanların derin okumayı bırakıp yapay zekayı yanılmaz bir kaynak olarak kabul etmesi yüzünden yapay zekanın en büyük uzun vadeli tehlikesinin tarihi yeniden yazmak ve çarpıtmak olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %20.0 | BELIRSIZ: %60.4 | TUTTU: %19.1 | TUTMADI: %0.5`
 - **Videoda Ne Demişti:** İsrail'in yapay zekayı yanıltmak için sahte düşünce kuruluşu siteleri kurmasını değerlendiren Utku Şen, toplumun yüzde 95'inin kitap okumayı bıraktığını anlatıyor. Yapay zekaya sorulan her bilginin mutlak doğru sanılması yüzünden 20 yıl sonra geçmişe dair gerçeklerin manipüle edileceğini ve tarihin yapay zeka eliyle yeniden yazılabileceğini kendi uzun vadeli tezi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Rise of Artificial History | TechPolicy.Press](https://techpolicy.press/the-rise-of-artificial-history)
     > *"When misused, these tools have the ability to dramatically undermine reality. Technologists and scholars are already using the phrase “Liar’s Dividend,” the inverse ability for political actors to deny real content as a deepfake to avoid accountability. Now, an even deeper and more dangerous erosion of the truth is emerging. We call this “artificia..."*
   - `[Tavily]` [AI and the Holocaust: rewriting history? The impact of artificial](https://www.unesco.org/en/articles/ai-and-holocaust-rewriting-history-impact-artificial-intelligence-understanding-holocaust)
@@ -2830,11 +4709,21 @@
   - `[DuckDuckGo]` [Yapay zekâ - Vikipedi](https://tr.wikipedia.org/wiki/Yapay_zekâ)
     > *"Yapay zekâ tarihi, antik çağlarda, usta zanaatkarlar tarafından zeka veya bilinç kazandırılan yapay varlıklara ilişkin mitler, hikâyeler ve söylentilerle başladı."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 5. Utku, Kuzey Koreli ajanların şirketlere sızması ve yapay zekayla yapılan mülakat hileleri yüzünden firmaların fiziksel olarak yüz yüze görmediği kişileri işe almayı tamamen bırakacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %32.2 | BELIRSIZ: %14.2 | TUTMADI: %51.2 | TUTTU: %2.4`
 - **Videoda Ne Demişti:** Any.Run firmasının sahte kripto şirketiyle Kuzey Koreli sahte adayları tuzağa düşürmesi olayını yorumlayan Utku Şen, adayların yapay zekayla kopya çektiğini ve sahte kimlikler kullandığını belirtiyor. Güven sorununun had safhaya çıkması nedeniyle şirketlerin artık fiziken kanlı canlı görmediği hiçbir adayı işe almayacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Dark Side of Remote Work: Interview Scam Epidemic](https://vadimkravcenko.com/shorts/interviews-as-a-service)
     > *"None of this is brand-new. Fake CVs have been floating around since CVs existed. What changed is scale: remote-first hiring cracked the door wide open, and the fraudsters rushed in. Over the last year alone I’ve interviewed half a dozen “rock-star” candidates who refused video, whose stories kept mutating, or whose LinkedIn endorsements read like c..."*
   - `[Tavily]` [7 Best Practices for Detecting Candidate Fraud in Remote Hiring - WorkMotion](https://workmotion.com/blog/7-best-practices-for-detecting-candidate-fraud-in-remote-hiring)
@@ -2846,15 +4735,29 @@
   - `[DuckDuckGo]` [Candidate Fraud in Remote Hiring: Signs and Checks](https://hirerabbit.ai/blog/candidate-fraud-remote-hiring/)
     > *"Sep 26, 2026 · How common fake candidates, proxy interviewers and deepfake video are, the warning signs at each hiring stage, and proportionate checks that stay fair. This article is general information for HR teams and hiring managers, not legal advice."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Microsoft Şaşırma Sabrımızı Taşırma - S.A.H E95 - 2024-06-09
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte fiziksel bilgisayar ekranlarının devrinin biteceğini, ağır kasklar yerine hafif artırılmış gerçeklik gözlükleri takıp önümüzde beliren sanal ekranlarla çalışacağımız bir teknolojiye kesinlikle ulaşılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %41.0 | TUTMADI: %2.4 | TUTTU: %14.9 | KISMEN TUTTU: %41.7`
 - **Videoda Ne Demişti:** Apple Vision Pro'nun ağırlığını ve aşırı pahalı olmasını eleştiren Utku Şen, klavyeli hafif artırılmış gerçeklik gözlüğü konseptini değerlendiriyor. Gelecekte bir noktada mutlaka buraya varılacağını, insanların hantal başlıklar yerine normal gözlük formundaki cihazları takarak önlerinde havada duran ekranlarla çalışacağı bir döneme geçileceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Can AR Glasses Replace Your Monitor? The 6-Screen Mobile Office – INAIRSPACE](https://inairspace.com/blogs/learn-with-inair/can-ar-glasses-replace-monitor-setup)
     > *"Yes, high-quality AR glasses can now completely replace traditional physical monitors. While early smart glasses only mirrored a single, low-resolution phone screen, modern setups paired with dedicated spatial computers (like the INAIR Pod) can project up to 6 high-definition virtual windows simultaneously. With advanced optics ensuring sharp text..."*
   - `[Tavily]` [Smart AR Glasses to Replace Monitor for Work and Gaming           - RayNeo](https://www.rayneo.com/blogs/news/ar-glasses-to-replace-monitor)
@@ -2866,11 +4769,21 @@
   - `[DuckDuckGo]` [Artırılmış gerçeklik - Vikipedi](https://tr.wikipedia.org/wiki/Artırılmış_gerçeklik)
     > *"Artırılmış gerçeklik (İngilizce: Augmented reality, AR), gerçek dünyadaki çevrenin ve içindekilerin, bilgisayar tarafından üretilen, ses, görüntü, grafik ve GPS verileriyle zenginleştirilerek meydana getirilen canlı veya dolaylı fiziksel görünümüdür."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yalan bilginin 50 kat hızlı yayıldığı bu çağda çocuklara ilkokuldan itibaren şüphe kasını çalıştıran teyit eğitimleri verilmezse dezenformasyonun ipinin ucunun tamamen kaçacağını ve sahteliği bireysel olarak engellemenin imkansızlaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %33.5 | TUTMADI: %3.4 | BELIRSIZ: %40.5 | TUTTU: %22.6`
 - **Videoda Ne Demişti:** Dünya seçimlerindeki deepfake manipülasyonlarını ve Türkiye'deki kutuplaşmayı değerlendiren Utku Şen, gerçeklerin önemini yitirdiği bir döneme girdiğimizi anlatıyor. Bireysel olarak sahte videolara karşı durulamayacağını belirterek ilkokuldan itibaren çocuklara şüphecilik ve bilgi doğrulama alışkanlığı kazandırılmadığı takdirde toplumların deepfake ve dezenformasyon karşısında tamamen savunmasız kalacağını kendi tezi ve uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Deepfakes and the crisis of knowing | UNESCO](https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing)
     > *"The rise of AI-augmented disinformation and misinformation demands a fundamental shift in how education must equip citizens to combat it. The task is not simply to teach new verification techniques, but to rebuild our very relationship with knowledge in an age where our senses can be deceived. This requires cultivating a deeper metacognitive litera..."*
   - `[Tavily]` [Students perceptions of fake news created by artificial intelligence: The case of deep Soria | Cea | Journal of Technology and Sci...](https://www.jotse.org/index.php/jotse/article/view/2735/902)
@@ -2882,15 +4795,29 @@
   - `[DuckDuckGo]` [Deepfake Challenges: Teaching Critical Thinking Today](https://trswarriors.com/deepfakes-critical-thinking-education/)
     > *"Jan 1, 2026 · Fake news, social media, and the rise of deepfakes pose a serious challenge to our society. Learn how to teach critical thinking media literacy with TRS."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Mühendisler Futbolculardan Pahalıya Transfer Oluyor - S.A.H E128 - 2025-06-22
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka şirketlerinin savunma sanayiinde hızla ağırlık kazanacağını, gelecekte bağlantı kopması veya gecikme riskine karşı silahların ve droneların hedefi vurup vurmama kararını kendi veren otonom yapay zekalarla donatılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.7 | TUTTU: %47.3 | BELIRSIZ: %19.8 | KISMEN TUTTU: %32.2`
 - **Videoda Ne Demişti:** OpenAI'ın Amerikan ordusundan 200 milyon dolarlık ihale almasını değerlendiren Utku Şen, yapay zeka şirketlerini savunma sektöründe çok daha sık göreceğimizi anlatıyor. İnsan pilotlar ile dronelar arasındaki sinyal gecikmesi ve bağlantı kopmaları yüzünden gelecekte silahların kendi hedefini tanıyan ve patlayıp patlamayacağına bizzat karar veren yapay zekalarla çalışacağını kendi askeri teknoloji tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Risks of Artificial Intelligence in Weapons Design | Harvard Medical School](https://hms.harvard.edu/news/risks-artificial-intelligence-weapons-design)
     > *"Another challenge is that tech companies are opaque about the degree of autonomy and human oversight in their weapons systems. For some, human oversight could mean pressing a “go kill” button after an AI weapons unit makes a long chain of black box decisions, without the human understanding or being able to spot errors in the system’s logic. For ot..."*
   - `[Tavily]` [AI Defense Contracts and the Legal Limits of Autonomous Weapons | International and Comparative Law Review](https://international-and-comparative-law-review.law.miami.edu/ai-defense-contracts-and-the-legal-limits-of-autonomous-weapons)
@@ -2902,11 +4829,21 @@
   - `[DuckDuckGo]` [DEFENSE AI COMPANIES - ArtificialWeapons.com](https://artificialweapons.com/companies/)
     > *"5 days ago · Profiles of the 12 most influential defense AI companies shaping autonomous weapons, battlefield AI, and military technology."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, hiçbir devletin Meta'ya hak ettiği 30 milyar doları aşan gizlilik cezalarını kesmeye cesaret edemeyeceğini, Avrupa Birliği ceza kesmeye kalksa bile Amerika ile araları açılmasın diye bu cezaların asla uygulanamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **8.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %1.5 | TUTMADI: %88.1 | TUTTU: %7.0 | KISMEN TUTTU: %3.4`
 - **Videoda Ne Demişti:** Meta'nın telefonlardaki uygulamaları üzerinden yerel servis ayağa kaldırıp gizli sekmedeki gezintileri bile takip ettiğinin ortaya çıkmasını yorumlayan Utku Şen, normalde şirkete onlarca milyar dolar ceza kesilmesi gerektiğini belirtiyor. Fakat hiçbir devletin bunu yapacak cesareti olmadığını, Avrupa ceza kesse Amerika ile kriz çıkacağı için bu tip devasa cezaların asla kesilemeyeceğini kendi politik ve sektörel öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Meta fined $25bn for 'lies' over user data privacy](https://www.bbc.com/news/articles/cqdr8zxrr3dxo)
     > *"'For too long, powerful technology companies have operated as though their size and influence put them beyond the reach of the law,' New Mexico Attorney General Raúl Torrez said on Wednesday. 'Today's result makes clear that no corporation is too powerful to be held accountable.' The state lawyers sought up to $40bn in fines against Meta. Meta had..."*
   - `[Tavily]` [Meta investors, Zuckerberg reach settlement to end $8 billion trial over Facebook privacy violations](https://finance.yahoo.com/news/investor-andreessen-stand-defend-role-100636673.html)
@@ -2918,11 +4855,21 @@
   - `[DuckDuckGo]` [Meta ordered to pay $25bn to New Mexico in Cambridge ...](https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case)
     > *"Oct 21, 2026 · New Mexico’s attorney general had sued Meta in 2021 following revelations that Cambridge Analytica, a British political consulting firm, had harvested personal data from as many as 87 million..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın tüm telefon konuşmalarını, mesajları ve giriş çıkış kayıtlarını tarayarak tehditleri önceden haber veren Person of Interest tarzı devasa devlet gözetleme sistemlerinin gelecekte gerçeğe dönüşmesinin hiç de imkansız olmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.1 | TUTTU: %33.8 | KISMEN TUTTU: %40.1 | BELIRSIZ: %25.1`
 - **Videoda Ne Demişti:** Yapay zekanın istihbarat ve güvenlik boyutunu inceleyen Utku Şen, ülkelerdeki milyarlarca log kaydı ve metadatanın insanlar tarafından incelenemeyeceğini anlatıyor. Yapay zekanın bu devasa veriyi tarayıp tehditleri erkenden tespit edeceği, dizi senaryolarına benzeyen kapsamlı gözetleme ve erken uyarı sistemlerinin gelecekte kurulabileceğini kendi analizi olarak ekliyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Analyzing Log Data with AI Models to Meet Zero Trust Principles | CSA](https://cloudsecurityalliance.org/artifacts/analyzing-log-data-with-artificial-intelligence-models)
     > *"Combines Watson’s cognitive capabilities with QRadar SIEM to detect and prioritize threats. Enhances log analysis with machine learning and natural language processing. 4. Microsoft Azure Sentinel Cloud-native SIEM with integrated AI/ML for large-scale log analysis. Offers advanced anomaly detection and automated threat response. 5. Google Cloud Ch..."*
   - `[Tavily]` [Automate Log Analysis with AI Agents for Faster Threat Detection | Jack Naglieri posted on the topic | LinkedIn](https://www.linkedin.com/posts/jacknaglieri_nobody-should-be-manually-hunting-through-activity-7419436204221153280-36HA)
@@ -2934,15 +4881,29 @@
   - `[DuckDuckGo]` [Real-time Threat Detection - Enhance Security Visibility](https://www.bing.com/aclick?ld=e8M4ItfZDmA3um-7WWWFPaSDVUCUxksn4lYHyyc_txgkiap6bWJep1b8bFj-QoUPwPLet4VEij7htPD4DCJHCjyf3-44X_Y0aiVmEEvN1kS4e_Qst1ckPVBRzRmviLs-jcGMIuGlmtgNRxPC58LHhE4JmzvGUx0Kn6-xbmen-lUQEeZD54xVcYwIsQF2gD--77GIUVipH9wFBHWxAehEAKk55C8m0&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmx1bmlvLmFpJTJmdjMuMCUyZnRlbXBsYXRlJTNmYWNjaWQlM2QxNjg5NiUyNnVybGRlY29kZSUzZDElMjZrdyUzZHNlY3VyaXR5JTI1MjBhbmFseXRpY3MlMjZtdCUzZHAlMjZudyUzZG8lMjZjcG4lM2Q0MjgzMjkyNDAlMjZkZXZpJTNkYyUyNmRldm0lM2QlMjZsb2NwJTNkMTM4MDcyJTI2bG9jaSUzZCUyNnBsJTNkJTI2Y3IlM2QlMjZhZHAlM2QlMjZzYWR0JTNkJTI2dXJsJTNkaHR0cHMlMjUzQSUyNTJGJTI1MkZ3d3cuZGF0YWRvZ2hxLmNvbSUyNTJGZGclMjUyRnNlY3VyaXR5JTI1MkZzZWN1cml0eS1hbmFseXRpY3MlMjUyRiUyNTNGdXRtX3NvdXJjZSUyNTNEYmluZyUyNTI2dXRtX21lZGl1bSUyNTNEcGFpZC1zZWFyY2glMjUyNnV0bV9jYW1wYWlnbiUyNTNEZGctc2VjdXJpdHktbmEtc2VjdXJpdHlhbmFseXRpY3MlMjUyNnV0bV9rZXl3b3JkJTI1M0RzZWN1cml0eSUyNTI1MjBhbmFseXRpY3MlMjUyNnV0bV9tYXRjaHR5cGUlMjUzRHAlMjUyNmlnYWFnJTI1M0QxMjk1MjI1MDY4MDI5MjgwJTI1MjZpZ2FhdCUyNTNEJTI1MjZpZ2FjbSUyNTNENDI4MzI5MjQwJTI1MjZpZ2FjciUyNTNEJTI1MjZpZ2FrdyUyNTNEc2VjdXJpdHklMjUyNTIwYW5hbHl0aWNzJTI1MjZpZ2FtdCUyNTNEcCUyNTI2aWdhbnQlMjUzRG8lMjUyNnV0bV9jYW1wYWlnbmlkJTI1M0Q0MjgzMjkyNDAlMjUyNnV0bV9hZGdyb3VwaWQlMjUzRDEyOTUyMjUwNjgwMjkyODAlMjZtc2Nsa2lkJTNkZWU3MTJlYzVkYzIzMWFhYTc0M2Y0NDNlYjZmNDBlMWQ&rlid=ee712ec5dc231aaa743f443eb6f40e1d)
     > *"Start Detecting Threats In Minutes W/ Out-of-the-Box Detection Rules & 900+ Integrations. Easily Detect Threats In Real Time Across Your Applications, Network, and Infrastructure. Service catalog: End-to-End Visibility, Easy Agent Installation, Eliminate Silos"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Normal İşler İçin Yapay Zeka Ajanı Geldi - S.A.H E149 - 2026-01-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka sayesinde salt kod yazma ameleliğinin ortadan kalkacağını ve yeni dönemin sadece iyiyle kötüyü ayırt edebilen, yaratıcı vizyona ve tecrübeye sahip insanları ödüllendireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %4.9 | KISMEN TUTTU: %18.3 | TUTTU: %76.1 | TUTMADI: %0.7`
 - **Videoda Ne Demişti:** Defcon için hazırladığı bir açık kaynak güvenlik projesinde yapay zeka kullanarak koda neredeyse hiç dokunmadığını anlatan Utku Şen, artık tecrübeli bir mühendisle yeni başlayan biri arasında kodlama pratiği açısından fark kalmadığını belirtiyor. Fakat neyin kaliteli ve lezzetli olduğunu bilmenin tecrübeyle geleceğini vurgulayarak, gelecekte sadece yaratıcı vizyonu olan ve iyiyle kötüyü ayırt edebilen kişilerin ödüllendirileceğini kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Language & Coding Creativity](https://www.amacad.org/publication/daedalus/language-coding-creativity)
     > *"This does not put human designers out of a job. Rather, they gain a team of assistants to take on their most rote tasks, allowing them instead to focus on curating and improving on good ideas or developing their own. In the same way GPT3 summarizing, explaining, and generating Python code opens up programming to nonprogrammers, such iterative desig..."*
   - `[Tavily]` [Does AI Herald the end of Creative Coding?](https://computationalcreativity.net/iccc26/papers/ICCC26_paper_201.pdf)
@@ -2954,11 +4915,21 @@
   - `[DuckDuckGo]` [Artificial intelligence as a tool for creativity - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2713374524000050)
     > *"Aug 1, 2024 · In this article, we discuss one specific scenario identified in the creativity research community – co-creation, or use of AI as a tool that could augment human creativity."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zekanın açık kaynak projeleri iflasa sürüklediğini ve bu çöküşü önlemek için 500 milyon doları aşan dev şirketlere kullandıkları açık kaynak yazılımlar için yasal katkı zorunluluğu getirilmesi gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %26.4 | TUTTU: %0.7 | KISMEN TUTTU: %5.1 | BELIRSIZ: %67.7`
 - **Videoda Ne Demişti:** Tailwind CSS'in yapay zeka yüzünden gelirlerinin yüzde 80 eridiğini ve çalışanlarının yüzde 75'ini işten çıkardığını aktaran Utku Şen, açık kaynak geliştiricilerin milyar dolarlık şirketler tarafından bedavaya sömürüldüğünü anlatıyor. Bu adaletsizliği bitirmek için devletlerin regülasyon getirmesi gerektiğini, Unreal Engine modeline benzer şekilde 500 milyon dolar ciroyu geçen dev şirketlerin kullandıkları açık kaynak projelere yasal olarak belirli bir pay ödemeye zorunlu tutulmasını kendi çözüm tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Reality of Funding Open Source](https://blog.packagist.com/the-reality-of-funding-open-source)
     > *"have attempted more corporation-oriented approaches to sustainable funding, but the fundamental challenge remains: getting corporations to adequately fund the infrastructure they depend on. Meanwhile, we continue to witness maintainer burnout, abandoned critical projects, and security incidents that might have been prevented with proper funding. (...."*
   - `[Tavily]` [Ten simple rules for funding scientific open source software](https://pmc.ncbi.nlm.nih.gov/articles/PMC9671312)
@@ -2970,11 +4941,21 @@
   - `[DuckDuckGo]` [How do we fund open source? - InfoWorldOpen Source Funding in 2026: The State of the MoneyFunding Opportunities for Open Source So...](https://www.infoworld.com/article/3557846/how-do-we-fund-open-source.html)
     > *"Oct 14, 2024 · To improve the status quo, we need greater access to technology, better training, corporate funding that allots time for contributing to open source, and continued community investment, he... May 16, 2026 · The bottom line Open source funding in 2026 amounts to more money, more concentrated, and still not enough going to the maintain..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, ücretsiz yapay zeka döneminin ekonomik olarak kesinlikle sürdürülemez olduğunu, şirketlerin yakında kullanıcıları ya tamamen ücretli aboneliklere ya da reklamlı modellere mecbur bırakacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %53.1 | BELIRSIZ: %19.3 | TUTMADI: %3.7 | KISMEN TUTTU: %23.9`
 - **Videoda Ne Demişti:** ChatGPT'ye reklam gelmesi haberini değerlendiren Utku Şen, bedava yapay zeka sunmanın imkansız bir maliyet yarattığını anlatıyor. Şirketlerin bu harcamaları karşılayabilmek için gelecekte ya tamamen paralı üyeliklere geçeceğini ya da arayüzlerde reklam göstermekten başka çaresi kalmayacağını kendi tespiti ve öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Ad-Supported AI Chat: What the Free Future Actually Looks Like - DEV Community](https://dev.to/onsen/ad-supported-ai-chat-what-the-free-future-actually-looks-like-387b)
     > *"At these numbers, a $20/month subscription model only works if a meaningful percentage of users pay. Most don't. The free tier exists to build the user base, but it's a loss leader — and loss leaders need to eventually become profitable. Advertising is the obvious answer. It's how Google Search became a $200 billion business. It's how Meta monetize..."*
   - `[Tavily]` [AI Company Bankruptcy Shows Unsustainable Business Models | Jennifer Langdon posted on the topic | LinkedIn](https://www.linkedin.com/posts/jennifer-langdon-09129789_characterais-bankruptcy-documents-show-activity-7516154638434189312-VRgu)
@@ -2986,15 +4967,29 @@
   - `[DuckDuckGo]` [The Unsustainable Economics of Generative AI: Finding a Path ...](https://corewood.io/blog/unsustainable-economics-ai/)
     > *"Apr 24, 2025 · The rush to implement generative AI features has outpaced reasonable economic considerations. Companies are building business models on technology that fundamentally loses money with every transaction."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## okta hacklendi, özel üniversite sistemi çöküyor mu -siber alemden havadisler 54. bölüm - 2022-03-25
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, büyük teknoloji firmalarının diplomasız işe alım yapması ve fahiş okul ücretleri yüzünden özel üniversite sisteminin çökeceğini, gelecekte sadece derece yapan zeki öğrencilere hitap eden köklü devlet üniversitelerinin ayakta kalacağını ve geri kalan herkesin kurslara yöneleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **6.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %61.0 | TUTTU: %10.4 | BELIRSIZ: %21.7 | TUTMADI: %7.0`
 - **Videoda Ne Demişti:** Amerika'da öğrencilerin yüz binlerce dolarlık borç batağıyla mezun olmasını ve Türkiye'deki özel üniversite fiyatlarını değerlendiren Utku Şen, dört yıl boyunca kendi başına yazılım veya siber güvenlik çalışan bir gencin diplomasız da çok rahat iş bulabileceğini anlatıyor. Özel üniversitelere yüz binlerce lira dökme devrinin bittiğini belirterek ileride özel üniversiteciliğin tamamen çöktüğü bir dünya görebileceğimizi, sadece Boğaziçi ve ODTÜ gibi çok zeki öğrencileri toplayan devlet üniversitelerinin ayakta kalacağını ve diğer insanların kurs tarzı yerlere yöneleceğini kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Would you tell your child to skip university? | Facebook](https://www.facebook.com/groups/312972372765589/posts/1892627564800054)
     > *"Parents. Educators. Leaders. This should terrify you—but not for the reason you think. 47% of tech hires now have no degree. This number is expected to grow to 75% by 2030. Source in the comment ￼Image 1: 👇Image 2: 👇 Google. IBM. Apple. Microsoft. Amazon. They don’t care about degree. They even train students without a degree in-house! They’re not..."*
   - `[Tavily]` [Why Employers No Longer Require College Degrees](https://coursecareers.com/blog-posts/why-employers-no-longer-require-college-degrees)
@@ -3004,11 +4999,21 @@
   - `[Tavily]` [As the job market tightens, workers without degrees could hit a ‘paper ceiling’](https://hechingerreport.org/no-college-degree-no-problem-not-so-fast)
     > *"In recent years, at least 26 states, along with private companies like IBM and Accenture, began stripping degree requirements and focusing hiring practices on applicants’ skills. A job seeker’s market after Covid, plus labor shortages in the public sector, boosted momentum. Seven states showed double-digit percentage increases in job listings witho..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, internetteki içerikleri izlemek için kimlik kartı yükleme uygulamasının bir Pandora'nın kutusu olduğunu, bu kapı bir kez açılırsa otoriter devletlerin bu sistemi sakıncalı video izleyen muhalifleri tespit edip hapse atmak için korkunç bir silaha dönüştüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %34.2 | BELIRSIZ: %13.4 | TUTTU: %48.2 | TUTMADI: %4.2`
 - **Videoda Ne Demişti:** Google'ın Avustralya'da yaş kısıtlamalı içerikleri izlemek isteyen kullanıcılardan kimlik doğrulaması talep etmesini eleştiren Utku Şen, çocukları koruma bahanesiyle bile olsa bu adımın çok tehlikeli olduğunu anlatıyor. İnternette kimlik onaylatma zorunluluğunun Pandora'nın kutusunu açmak olduğunu belirterek baskıcı yönetimlerin bu sistemi kullanarak belirli videoları izleyen herkesin kimliğini anında tespit edip insanları hapse tıkabileceğini kendi özgürlük ve güvenlik uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Age verification - Wikipedia](https://en.wikipedia.org/wiki/Age_verification)
     > *"Online age verification is considered controversial and criticized by privacy rights organizations, with its push in recent years causing a moral panic. Age-based online segregation requires technical and legal frameworks which enable governments to segregate and censor groups. Extending the verification frameworks beyond age or towards mandatory d..."*
   - `[Tavily]` [10 (Not So) Hidden Dangers of Age Verification | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2025/12/10-not-so-hidden-dangers-age-verification)
@@ -3020,15 +5025,29 @@
   - `[DuckDuckGo]` [Mandatory Digital Identification and the Integrity of ...](https://www.researchgate.net/publication/395382999_Mandatory_Digital_Identification_and_the_Integrity_of_Democracy_Surveillance_Exclusion_and_the_Risk_of_Authoritarian_Revival)
     > *"Sep 9, 2025 · However, empirical evidence, historical experience, and contemporary surveillance research demonstrate that compulsory digital IDs carry profound risks for democracy."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## OpenAI Haberi Yorumlamaktan Bıktım - S.A.H E77 - 2023-11-27
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, yapay zekanın işleri devraldığı bir gelecekte güçlü bir sosyal devlet ve sosyal yardım sistemi kurulmazsa, şirketlerin ucuza ürettikleri gıdaları yine yüksek kârla satacağını ve işini kaybeden insanların açlıktan öleceği bir felaket senaryosu yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.3 | KISMEN TUTTU: %23.8 | TUTMADI: %2.6 | BELIRSIZ: %64.4`
 - **Videoda Ne Demişti:** Bill Gates'in yapay zekalar yemek yaparsa haftada 3 gün çalışmaya geçebiliriz açıklamasını değerlendiren Utku Şen, sosyal yardımların bulunmadığı bir düzende yapay zekanın maliyetleri düşürmesinin halka hiçbir fayda sağlamayacağını anlatıyor. Şirketlerin kâr marjını kısmayacağını, işsiz kalan kitlelerin ise geliri olmadığı için bu ürünleri alamayıp açlıkla yüzleşeceğini ve güçlü bir sosyal devlet müdahalesi olmazsa bu dönüşümün büyük bir felakete yol açacağını kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [20+ Automation & Job Loss Statistics for 2026 | Fortunly](https://fortunly.com/statistics/automation-job-loss-statistics)
     > *"Positions that don’t require a bachelor’s degree are almost at double the risk of occupations that do. Only 24% of those jobs are likely to be automated, while occupational groups like food preparation and serving could face disruption of up to 80%. The youngest workers are at the highest risk of being displaced due to automation. (Brookings Instit..."*
   - `[Tavily]` [Senate Report Reveals AI Job Loss Crisis](https://www.cointribune.com/en/senate-report-reveals-ai-job-loss-crisis)
@@ -3040,11 +5059,21 @@
   - `[DuckDuckGo]` [Labor Shortages in Food Manufacturing: How Automation & AI ...](https://ifactoryapp.com/industries/food-manufacturing/labor-shortage-food-manufacturing-ai-automation-analytics)
     > *"Apr 17, 2026 · Facing labor shortages in your food processing plant? Discover how AI-driven analytics automation and digital work order systems increase technician efficiency and reduce operational delays."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, OpenAI'ın her yeni model lansmanı öncesinde içeride AGI geliştirildiği söylentisini kasıtlı olarak yaydığını, bunun planlı bir pazarlama taktiği olduğunu ve mevcut modellerin dünyayı kökten değiştirecek bir AGI seviyesine ulaşmaktan çok uzak olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %72.9 | TUTMADI: %1.8 | BELIRSIZ: %3.9 | KISMEN TUTTU: %21.4`
 - **Videoda Ne Demişti:** Sam Altman'ın şirkete dönüşü ve içeride gizli bir AGI bulunduğu dedikodularını yorumlayan Utku Şen, GPT-2, GPT-3 ve GPT-4 öncesinde de tıpatıp aynı söylentilerin dolaşıma sokulduğunu anlatıyor. Bunun pazar payı kapmak için yürütülen bir halkla ilişkiler ve heyecan yaratma taktiği olduğunu, sadece kelimeleri peş peşe dizen mevcut yapay zeka mimarisinin insanlığı ve dünyayı kökten değiştirecek bir noktada bulunmadığını kendi tespiti ve tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI Astra: AGI breakthrough or marketing hype? | Cybernews](https://cybernews.com/ai-news/openai-astra-model-capabilities)
     > *"Key takeaways 1. 01 OpenAI says Astra, also called GPT-6, is its most intelligent and aligned model yet. 2. 02 Astra scored 98% on FrontierMath, 99.9% on ARC-AGI-3, and 100% on ExploitBench, OpenAI claims. 3. 03 Independent experts say AGI has no clear definition, making Nvidia’s claim difficult to verify. 4. 04 Experts say Astra may mark real prog..."*
   - `[Tavily]` [AI Generated Business: The Rise of AGI and the Rush to Find a Working Revenue Model - AI Now Institute](https://ainowinstitute.org/publications/ai-generated-business)
@@ -3054,11 +5083,21 @@
   - `[Tavily]` [OpenAI's AGI Definition: Profits Over Performance | Emily Gertenbach posted on the topic | LinkedIn](https://www.linkedin.com/posts/egertenbach_ai-hype-panic-checkpoint-openai-is-releasing-activity-7501641697102278656-x7pS)
     > *"model that will achieve AGI, they just mean it's the one that they think will finally make them the most money. Also bear in mind that right now, OpenAI is NOT PROFITABLE. According to reporting by Ed Zitron, the company lost $38.5 billion in 2025. And remember: if an AI company announces they've created a model that's 'too dangerous' (Anthropic) o..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, haftalık çalışma süresinin 4 güne düşürülmesinin işverene hiçbir zarar vermeyeceğini, aksine 3 gün dinlenen çalışanların enerjisi sayesinde teknoloji sektöründe verimliliğin ciddi şekilde artacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %35.6 | TUTMADI: %2.1 | BELIRSIZ: %6.4 | TUTTU: %55.9`
 - **Videoda Ne Demişti:** Teknoloji sektöründe ve beyaz yakalı işlerde haftada 5 gün 8 saat çalışmanın insan doğasına aykırı olduğunu savunan Utku Şen, mesainin önemli kısmının zaten verimsiz geçtiğini anlatıyor. Geçmişte işçilerin mücadele ederek yıllık izin ve mesai haklarını kazanması gibi sıradaki adımın 4 gün çalışma modeli olduğunu, 4 günde ortaya çıkan işin kalitesinin düşmeyeceğini ve dinlenmiş personelin çok daha yüksek verim sunacağını kendi çalışma hayatı tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Four-Day Workweek | Pros, Cons, Arguments, Debate, Workweek, Burnout, Productivity, & Work-Life Balance | Britannica](https://www.britannica.com/procon/four-day-workweek-debate)
     > *"There are even new work schedules demanding more, not fewer, weekly hours from workers. The 996 model is designed for hyper-productivity, especially in the tech industry, and requires employees to work from 9 am to 9 pm, six days a week, for a total of 72 hours per week. This model originated in China’s tech industry and was highly controversial, b..."*
   - `[Tavily]` [Tech Companies with a 4-Day Work Week (2026) | CTAIO](https://ctaio.dev/en/companies/4-day-work-week)
@@ -3070,15 +5109,29 @@
   - `[DuckDuckGo]` [Four-Day Workweek Productivity Statistics (2026)](https://www.sci-tech-today.com/stats/four-day-workweek-productivity-statistics/)
     > *"Jul 31, 2026 · The rollout differs depending on industry and local culture, but the data keeps pointing in the same direction: the four-day workweek looks like a workable and scalable workplace innovation."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## OpenAI Matematikçilerin Ekmeğiyle Oynuyor - S.A.H E177 - 2026-10-11
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, sansürsüz modeller yüzünden kısa vadede güvenlik açıklarında büyük bir patlama yaşanacağını fakat uzun vadede yapay zekanın daha güvenli kodlar üretmesiyle sistemlerin eskisinden çok daha güvenli hale geleceğini ve hack yapmanın eskiye kıyasla zorlaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %5.5 | KISMEN TUTTU: %33.7 | TUTTU: %13.1 | BELIRSIZ: %47.7`
 - **Videoda Ne Demişti:** Güney Kore'deki banka soygununu ve sansürsüz modellerin siber saldırılarda kullanılmasını değerlendiren Utku Şen, yapay zekanın hem savunmada hem saldırıda rol alacağını anlatıyor. Kısa vadede zafiyetlerde ve hack vakalarında geçici bir patlama yaşanacağını ama uzun vadede modellerin çok daha güvenli kodlar yazması sayesinde sistemlerin eskisinden daha korunaklı olacağını kendi siber güvenlik tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI-generated Code: How to Protect Your Software From AI-generated Vulnerabilities | OX Security](https://www.ox.security/blog/ai-generated-code-how-to-protect-your-software-from-ai-generated-vulnerabilities)
     > *"This closes the gap scanning alone leaves open: a scanner flags a vulnerability after it exists, while an AINAPP prevents the risky decision from becoming code. OX Security customers using this approach saw a 70–90% reduction in newly introduced vulnerabilities. FAQs (...) How an AINAPP Secures AI-Generated Code An AINAPP is a security platform tha..."*
   - `[Tavily]` [The Security Gap in AI-Generated Code - IOActive](http://www.ioactive.com/the-security-gap-in-ai-generated-code)
@@ -3090,11 +5143,21 @@
   - `[DuckDuckGo]` [The Impact of AI-Assisted Code Generation on Software ...](https://www.researchgate.net/publication/391706149_The_Impact_of_AI-Assisted_Code_Generation_on_Software_Vulnerabilities_and_the_Role_of_AI_in_Automated_Security_Testing)
     > *"May 14, 2025 · This paper examines how AI-generated code influences the prevalence of software vulnerabilities, exploring whether these tools introduce new security risks or help mitigate existing..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zekanın açık bulmayı fazlasıyla kolaylaştırması nedeniyle metro hatları, enerji ve su şebekeleri gibi kritik altyapıların yakın zamanda hackleneceğini ve ekonomiye ciddi darbeler vurulacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.0 | BELIRSIZ: %48.2 | TUTTU: %22.5 | KISMEN TUTTU: %27.4`
 - **Videoda Ne Demişti:** Anthropic'in kritik altyapılar ve açık kaynak projeler için başlattığı güvenlik programlarını inceleyen Utku Şen, eskiden bu karmaşık sistemlerde açık bulmanın çok uzmanlık ve vakit istediğini belirtiyor. Yapay zekayla bu sürecin çok kolaylaştığını anlatıp metro veya su dağıtım ağları gibi fiziksel dünyayı yöneten dijital sistemlerin yakın gelecekte hackleneceğini kendi beklentisi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Google GTIG finds AI accelerating vulnerability discovery across enterprise and critical infrastructure attack surfaces - Industri...](https://industrialcyber.co/critical-infrastructure/google-gtig-finds-ai-accelerating-vulnerability-discovery-across-enterprise-and-critical-infrastructure-attack-surfaces)
     > *"From January through August 2026, 58% of identified AI-discovered vulnerabilities were rated Medium risk, compared with 28% among vulnerabilities not discovered by AI, while 50% of AI-discovered vulnerabilities resulted in remote code execution compared with 26% across the broader CVE ecosystem. GTIG said autonomous research agents can uncover high..."*
   - `[Tavily]` [Zero-Days at AI Speed: A Wake-Up Call for Critical Infrastructure](https://www.nozominetworks.com/blog/zero-days-at-ai-speed-a-wake-up-call-for-critical-infrastructure)
@@ -3106,11 +5169,21 @@
   - `[DuckDuckGo]` [Autonomous AI-based Cybersecurity Framework for Critical ...](https://arxiv.org/html/2507.07416v1)
     > *"Jul 10, 2025 · This paper examines cybersecurity vulnerabilities in critical infrastructure, highlighting the threat landscape, attack vectors, and the role of Artificial Intelligence (AI) in mitigating these risks."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, açık modellere yerleştirilebilen casus arka kapılar ve Amerikan ambargo riskleri yüzünden Türkiye dahil tüm ülkelerin kendi yapay zeka modelini geliştirmek zorunda kalacağını, aksi halde oluşacak teknolojik bağımlılığın gelecekte ülkelerin başına büyük dertler açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %34.2 | BELIRSIZ: %17.1 | TUTMADI: %2.1 | TUTTU: %46.6`
 - **Videoda Ne Demişti:** Açık kaynaklı yapay zeka modellerine 50 dolara arka kapı yerleştirilip hassas verilerin çalınabildiği araştırmayı ve Avrupa'nın Mistral hamlesini yorumlayan Utku Şen, devletlerin birbirine güvenemeyeceğini anlatıyor. Başka ülkelere bel bağlamanın riskli olduğunu ve teknolojik bağımlılığın uzun vadede büyük sıkıntılar yaratacağını belirterek Türkiye dahil her devletin kendi denetlediği yapay zekayı üretmek zorunda kalacağını kendi stratejik tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Is Sovereign AI?  - Cisco](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-sovereign-ai.html)
     > *"At the physical layer, sovereign AI requires that all compute, storage, and networking resources reside within national borders. This ensures that the entire data lifecycle, from ingestion and training to inference and backup, is protected from foreign subpoena or seizure. By maintaining in-country residency, organizations can eliminate the 'sovere..."*
   - `[Tavily]` [Sovereign AI Index - CNAS Reports](https://interactives.cnas.org/reports/sovereign-ai-index)
@@ -3122,11 +5195,21 @@
   - `[DuckDuckGo]` [REPORT FEBRUARY 2026 IS AI SOVEREIGNTY POSSIBLE? - Brookings](https://www.brookings.edu/wp-content/uploads/2026/02/20260217_AI_sovereignty_final.pdf)
     > *"Feb 17, 2026 · Thus, AI sovereignty presents complex trade-offs and necessitates key questions for global AI players, including the United States and China, as they seek to diffuse their AI products and..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, Photoshop gibi dev programları yapay zekayla kolayca kopyaladığını iddia eden projelerin pratikte patlayacağını ve kullanıcıların eninde sonunda Adobe gibi olgun yazılımlara geri döneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.0 | KISMEN TUTTU: %22.4 | TUTTU: %65.1 | BELIRSIZ: %10.6`
 - **Videoda Ne Demişti:** Yapay zekaya alternatif Adobe yazılımları yazdırdığını iddia eden popüler paylaşımları eleştiren Utku Şen, bu yazılımların onlarca yıllık mühendislik emeğiyle ortaya çıktığını anlatıyor. Yapay zekanın sadece kaba taslak bir kopya çıkarabildiğini fakat detaylardaki hatalar yüzünden insanların lanet edip tekrar Adobe ürünlerini kullanmaya mecbur kalacağını kendi tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [“Software is over”: Bold AI developer takes aim at Adobe with open source clones | Page 9 | Ars OpenForum](https://arstechnica.com/civis/threads/%E2%80%9Csoftware-is-over%E2%80%9D-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones.1515137/page-9)
     > *"> Illustrator has not made any serious attempt to rethink the vector graphics paradigm and is actually so far behind in usability compared to Figma and other tools that work with type and illustration. Older designers are maybe fine with it, but younger people who have worked with other tools cannot believe how hard/illogical it is to do simple dai..."*
   - `[Tavily]` [A developer used AI to build 7 free Adobe alternatives, and subscription software has a new problem](https://www.howtogeek.com/a-developer-used-ai-to-build-7-free-adobe-alternatives-and-subscription-software-has-a-new-problem)
@@ -3138,15 +5221,29 @@
   - `[DuckDuckGo]` [“Software is over”: Bold AI developer takes aim at Adobe with ...](https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/)
     > *"Oct 7, 2026 · For a while, those hoping to avoid the difficulty and expense of dealing with Adobe’s Creative Suite have been able to use several free and/or open source alternatives that replicate some or all..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Panelcilere Yazılan İddianamede Neler Var? - S.A.H E121 - 2025-04-13
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, mülakatlarda yapay zekayla kopya çekenler yüzünden online mülakat döneminin tarihe karışacağını, şirketlerin adayları eskisi gibi ofise yüz yüze çağırmaya başlayacağını ve bu durumun başka şehir veya ülkelerdeki işlere başvurmayı çok zorlaştıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %39.2 | KISMEN TUTTU: %48.1 | BELIRSIZ: %6.2 | TUTMADI: %6.5`
 - **Videoda Ne Demişti:** Mülakat sırasında yapay zekadan kopya çeken bir adayın yakalanması olayını değerlendiren Utku Şen, bu hileler yüzünden şirketlerin uzaktan mülakat yapmayı tamamen bırakacağını anlatıyor. Pandemi öncesinde olduğu gibi herkesin fiziksel olarak ofise çağrılacağı bir döneme geri dönüleceğini, bu durumun da özellikle şehir dışından ya da yurt dışından iş arayan adayların işini aşırı zorlaştıracağını kendi gelecek öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI’s next casualty… Remote Job Interviews (Why AI cheating is bringing them to an abrupt halt) - Dr John Sullivan](https://drjohnsullivan.com/articles/ai-cheating-remote-job-interviews)
     > *"This is possible today because candidates now have access to AI-driven “candidate enhancement software” (software that allows a candidate to inflate their desirability). This now means that even unsophisticated candidates can use vendor-supplied AI software to boost the hiring desirability of their resumes, cover letters, background checks, and, ye..."*
   - `[Tavily]` [How Candidates Cheat in AI Interviews (And How to Stop It) | Fabric](https://fabrichq.ai/blogs/how-candidates-cheat-in-ai-interviews-and-how-to-stop-it)
@@ -3158,15 +5255,29 @@
   - `[DuckDuckGo]` [The State of AI in Job Interviews 2026: The Year 96% of ...](https://blog.theinterviewguys.com/the-state-of-ai-in-job-interviews-2026-the-year-96-of-hiring-pros/)
     > *"Aug 16, 2026 · A candidate sits down for a remote interview, smiles into the webcam, and answers every question with eerie fluency. The recruiter on the other end is impressed, and suspicious. By the end of 2025, that suspicion had a name and a number: 81% of Big Tech interviewers said they believed candidates were cheating with AI during remote in..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## parolasız bir gelecek, teknoloji devlerinin diktatörleşmesi - siber alemden havadisler 65. bölüm - 2022-09-15
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, passkey teknolojisinin birkaç yıl içinde standartlaşacağını ve bu durumun parola yöneticisi (password manager) şirketlerini kesin olarak ciddi bir küçülmeye zorlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **8.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %7.7 | TUTMADI: %86.4 | BELIRSIZ: %4.7 | TUTTU: %1.3`
 - **Videoda Ne Demişti:** Apple'ın duyurduğu passkey sistemini ve parolasız kimlik doğrulama konseptini ele alan Utku Şen, Google ve Microsoft'un da katılımıyla bu teknolojinin 3-5 yıl içinde oturacağını anlatıyor. Parolaların ortadan kalkmasıyla birlikte 1Password veya LastPass gibi parola yöneticisi üreten firmaların iflas tehlikesiyle karşılaşacağını, tamamen yok olmasalar bile kesinlikle ciddi bir küçülmeye gitmek zorunda kalacaklarını kendi şahsi sektör öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Should You Use Passkeys Instead of Passwords? - Consumer Reports](https://www.consumerreports.org/electronics/digital-security/should-you-use-passkeys-instead-of-passwords-a1201817243)
     > *"The FIDO Alliance developed CXP in response to concerns that the current implementation of passkeys would make it prohibitive for users to switch platforms and services. Researchers from major operating system vendors like Apple, Google, Microsoft, and Samsung—as well as third-party password management services like 1Password, Dashlane, and Bitward..."*
   - `[Tavily]` [How to switch from passwords to passkeys](https://www.cnbc.com/2023/11/07/how-to-switch-from-passwords-to-passkeys.html)
@@ -3178,11 +5289,21 @@
   - `[DuckDuckGo]` [Best Password Managers With Passkeys in 2026 - Cybernews](https://cybernews.com/password-managers/passkey-password-managers/)
     > *"Oct 28, 2026 · Compare the best password managers with passkey support in 2026, including features, pricing, security, and ease of use."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, teknoloji devleri dizginlenmezse gelecekte tamamen tekel haline gelip seçim manipülasyonlarıyla istedikleri ülkede başkan indirip başkan çıkarabilecek kadar tehlikeli bir distopya yaratacaklarını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %34.1 | KISMEN TUTTU: %38.6 | TUTTU: %24.8 | TUTMADI: %2.5`
 - **Videoda Ne Demişti:** Airbnb'nin bir kullanıcıyı açıklama yapmadan ve itiraz hakkı tanımadan sistemden ömür boyu yasaklamasını ve Twitter'ın kritik gücünü değerlendiren Utku Şen, bu şirketlerin artık birer kamu hizmeti ve tekel haline geldiğini anlatıyor. Devletler bu şirketleri regüle edip tasmalarını tutmazsa teknoloji devlerinin seçim algoritmalarını manipüle ederek hükümet devirebilecek seviyeye ulaşacağını ve toplum için son derece karanlık bir distopyaya sürükleneceğimizi kendi uyarısı ve tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Conerns about democracy in the digital age | Pew Research Center](https://www.pewresearch.org/internet/2020/02/21/concerns-about-democracy-in-the-digital-age)
     > *"Robert Epstein, senior research psychologist at the American Institute for Behavioral Research and Technology, said, “As of 2015, the outcomes of upward of 25 of the national elections in the world were being determined by Google’s search engine. Democracy as originally conceived cannot survive Big Tech as currently empowered. If authorities do not..."*
   - `[Tavily]` [Tech giants' unregulated power enables political influence](https://dailyorange.com/2026/10/tech-giants-unregulated-power-enables-excessive-political-influence)
@@ -3194,11 +5315,21 @@
   - `[DuckDuckGo]` [Big Tech authoritarianism: Political synergies of an emerging ...](https://journals.sagepub.com/doi/10.1177/29768640251370968)
     > *"Aug 25, 2025 · It introduces the concept of Big Tech authoritarianism to examine how technology companies enable, enforce, and envision authoritarianism."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, Midjourney gibi yapay zeka araçlarının grafik tasarımcılığı tamamen öldürmeyeceğini ancak basit işleri bitirerek tasarımcıları yapay zekanın çizdiği işleri düzelten veya sadece üst düzey müşterilere çalışan kişilere dönüştüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %31.9 | TUTTU: %66.0 | TUTMADI: %0.3 | BELIRSIZ: %1.8`
 - **Videoda Ne Demişti:** Midjourney gibi görsel üreten yapay zekaların sanat olup olmadığını ve tasarımcıların geleceğini değerlendiren Utku Şen, izleyicilerden gelen mesleğimiz elimizden mi gidecek sorusunu yanıtlıyor. Yapay zekanın grafik tasarımcıları tamamen işsiz bırakmayacağını ancak sıfırdan çizim yerine yapay zekanın çıktısını istenilen hale getirme rolüne evrileceklerini, basit işlerin bitip sadece elit müşterilere özel işlerin kalacağını kendi mesleki tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Is AI taking over design jobs in 2026? Data, Job Risk, and What Changes Next | Humbl Design](https://humbldesign.io/blog-posts/ai-taking-over-design)
     > *"For designers, this is the important part: companies are not just replacing people. They are rewriting the skill list. Adobe’s 2025 creative trends material also points to AI becoming part of the creative process, with generative tools changing how designers explore ideas and make visuals faster. That means design jobs are shifting toward direction..."*
   - `[Tavily]` [Will AI Replace Graphic Designers? | Coursera](https://www.coursera.org/articles/will-ai-replace-graphic-designers)
@@ -3210,15 +5341,29 @@
   - `[DuckDuckGo]` [Generative Ai Graphic Designer Jobs, Employment | Indeed](https://www.indeed.com/q-generative-ai-graphic-designer-jobs.html)
     > *"14,136 Generative Ai Graphic Designer jobs available on Indeed.com. Apply to Graphic Designer, Graphic Artist, Content Writer and more!"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Paylaşımlı Ofis Sektörü Batmasın, Deepfake Yasaklansın - S.A.H E74 - 2023-11-07
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, deepfake teknolojisinin ve yapay zekanın hayatımızı faydasından çok daha kötü bir hale getireceğini, siyasi manipülasyon ve iftira kampanyalarında korkunç derecede başarılı olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %68.4 | BELIRSIZ: %3.3 | TUTMADI: %0.5 | KISMEN TUTTU: %27.8`
 - **Videoda Ne Demişti:** Scarlett Johansson'ın izinsiz deepfake reklamları ve Türkiye'de ünlülerin sesleriyle yapılan dolandırıcılıkları değerlendiren Utku Şen, hiçbir kanıt olmadan bile kitlelerin yalanlara kolayca inandığı bir dönemde deepfake videoların iftira ve manipülasyon kampanyalarını durdurulamaz hale getireceğini anlatıyor. Yasal olarak çok ağır cezalar ve yaptırımlar getirilmediği sürece deepfake ve yapay zekanın insan hayatını eskisinden çok daha kötü bir yere sürükleyeceğini kendi şahsi tezi ve uyarısı olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Deepfakes and Democracy (Theory): How Synthetic Audio-Visual Media for Disinformation and Hate Speech Threaten Core Democratic Fun...](https://pmc.ncbi.nlm.nih.gov/articles/PMC9453721)
     > *"Targeted political deepfakes undermine empowered inclusion since their victims (e.g. journalists and dissidents) often serve critical balancing functions, publicizing authorities’ misdemeanour. Their silencing impedes accountable representation. Disinformation campaigns using deepfake profile pictures are also increasingly used to suppress anti-gov..."*
   - `[Tavily]` [How campaigns can protect themselves from deepfakes, disinformation, and social media manipulation | Brookings](https://www.brookings.edu/articles/how-campaigns-can-protect-themselves-from-deepfakes-disinformation-and-social-media-manipulation)
@@ -3230,11 +5375,21 @@
   - `[DuckDuckGo]` [Deepfakes and Democracy: Threats to Election Integrity](https://politicalmarketer.com/synthetic-media-threatens-election-integrity/)
     > *"Oct 14, 2025 · Deepfakes and synthetic media threaten election integrity, voter trust, political accountability, and democracy, plus key risks and defenses."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, gelecekte geleneksel teknik hacking devrinin değişeceğini, sistemleri kırmak için teknik kod açıklarının yerini yapay zekayı ikna etmeye yarayan sözel yeteneklerin, doğaçlamanın ve felsefe bilgisinin alacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.5 | KISMEN TUTTU: %31.8 | TUTTU: %56.4 | TUTMADI: %3.3`
 - **Videoda Ne Demişti:** ChatGPT'ye duygusal baskı yapıldığında veya mantık yürütmeyle yaklaşıldığında güvenlik sınırlarını aştığını anlatan Utku Şen, geçmişteki teknik ve determinist açık bulma sürecinin yapay zekalı sistemlerde geçerliliğini yitirdiğini belirtiyor. Gelecekte açık bulmanın Sokrates tarzı soru cevapla ikna yöntemlerine benzeyeceğini, ilerleyen dönemde hackerların ağzı laf yapan, felsefe bilen ve sözel manipülasyon kabiliyeti yüksek insanlardan oluşacağını kendi öngörüsü olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Stored prompt injection: when an injection outlives the session — LLM-Hacking](https://www.llm-hacking.com/hacks/cross-session-stored-prompt-injection.md)
     > *"The takeaway from the June 2026 paper is not a new exploit but a shift in threat model: in a stateful agent, the durable artifact is the vulnerability. A single injection that reaches persistent state buys an attacker time and reach that a single-turn injection never could, and defenses designed only for the current context window will keep missing..."*
   - `[Tavily]` [Hacking EvilGPT on TryHackMe — A Complete Prompt Injection Walkthrough](https://medium.com/@aravindsv619/hacking-evilgpt-on-tryhackme-a-complete-prompt-injection-walkthrough-32f4d70779d5)
@@ -3246,15 +5401,29 @@
   - `[DuckDuckGo]` [Yapay zekâ felsefesi - Vikipedi](https://tr.wikipedia.org/wiki/Yapay_zekâ_felsefesi)
     > *"Stanford Felsefe Ansiklopedisi 'nde, bazı filozoflar, felsefenin yapay zekadaki rolünün yeterince takdir edilmediğini savunuyorlar. Fizikçi David Deutsch, felsefeyi veya onun kavramlarını anlamadan, AI gelişiminin ilerleme eksikliğinden muzdarip olacağını savunuyor."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## pyscript çıktı, pandemide elde edilen lokasyon bilgileri -siber alemden havadisler 60. bölüm - 2022-05-06
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, tarayıcıda Python çalıştırmayı sağlayan PyScript'in arkasındaki hantal yapı yüzünden aşırı yavaş çalıştığını, basit bir komutun bile saniyeler sürdüğü bu kötü performansla canlı projelerde ve prodüksiyonda asla tutmayacağını, sadece deneysel işlerle sınırlı kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %6.3 | TUTMADI: %2.1 | KISMEN TUTTU: %30.2 | TUTTU: %61.4`
 - **Videoda Ne Demişti:** Tarayıcı üzerinde Python kodu koşturan PyScript projesini deneyimleyen Utku Şen, arkadaki devasa JavaScript yorumlayıcısı nedeniyle tek bir print komutunun bile 4-5 saniyede ekrana geldiğini anlatıyor. Bu performans düşüklüğü yüzünden gerçek dünyada hiçbir işe yaramayacağını, canlı sistemlerde veya prodüksiyon ortamında kesinlikle kullanılamayacağını belirterek projenin sadece deneysel amaçlarla ya da bilgisayarında Python kurulu olmayan birine kod göstermekle sınırlı kalacağını kendi teknoloji tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [A First Look at PyScript: Python in the Web Browser – Real Python](https://realpython.com/pyscript-python-in-browser)
     > *"> Please be advised that PyScript is very alpha and under heavy development. There are many known issues, from usability to loading times, and you should expect things to change often. We encourage people to play and explore with PyScript, but at this time we do not recommend using it for production. (Source) (...) When you open your HTML file in a..."*
   - `[Tavily]` [PyScript Language: Running Python Directly in the Browser - DEV Community](https://dev.to/badass_tech-ae2025/pyscript-language-running-python-directly-in-the-browser-3odj)
@@ -3266,15 +5435,29 @@
   - `[DuckDuckGo]` [A First Look at PyScript: Python in the Web Browser](https://realpython.com/pyscript-python-in-browser/)
     > *"Jun 6, 2022 · In this tutorial, you'll learn about PyScript, a new framework that allows for running Python in the web browser with few or no code modifications and excellent performance."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Regülasyonsuz Yapay Zeka İşi Tehlikeli - S.A.H E107 - 2024-12-15
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, kuantum bilgisayarlar mevcut şifreleme algoritmalarını kıracak seviyeye gelse bile pratikte dijital güvenlik dünyasında çok bir şey değişmeyeceğini, çünkü bu cihazlara sahip olacak dev devletlerin insanları dinlemek için kuantuma muhtaç olmadan zaten casus yazılım ve arka kapı kullandığını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %26.8 | TUTMADI: %3.7 | KISMEN TUTTU: %25.0 | BELIRSIZ: %44.5`
 - **Videoda Ne Demişti:** Google Willow kuantum çipinin duyurulması ve kuantum bilgisayarların tüm şifreleri kıracağı korkusunu ele alan Utku Şen, pratikte durumun sanıldığı gibi değişmeyeceğini anlatıyor. Kuantum makinelerin yalnızca büyük devletlerin veya devasa şirketlerin elinde olacağını, bu aktörlerin de hedefledikleri kişileri takip etmek için cihazlara zararlı yazılım atarak zaten istediklerini dinleyebildiğini ve kuantum dirençli algoritmaların da geliştirilmesiyle bu paniğin gereksiz olduğunu kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Next-Generation Quantum Security: The Impact of Quantum Computing on Cybersecurity—Threats, Mitigations, and Solutions](https://www.sciencedirect.com/science/article/abs/pii/S0045790625005920)
     > *"and quantum homomorphic encryption ensure tamper-proof key exchange and secure communication. Furthermore, the framework adapts dynamically to emerging threats through real-time anomaly detection and distributed intelligence, significantly enhancing resilience. Experimental results demonstrate a 15.32 % reduction in computational overhead and a 21...."*
   - `[Tavily]` [What Is Quantum Cryptography? | NIST](https://www.nist.gov/cybersecurity-and-privacy/what-quantum-cryptography)
@@ -3286,11 +5469,21 @@
   - `[DuckDuckGo]` [A post-quantum security architecture for AI-driven ... - Springer](https://link.springer.com/article/10.1007/s11227-026-08315-w)
     > *"Feb 18, 2026 · This paper presents a comprehensive post-quantum security architecture specifically designed for AI-based surveillance systems to safeguard data confidentiality, integrity, and secure collaboration in quantum adversarial scenarios."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, devletler bağlayıcı kurallarla müdahale etmezse yapay zeka devlerinin tasmasını koparmış bir canavar gibi hareket edeceğini, kontrolsüz tekeller kurarak gelecekte topluma çok büyük zararlar vereceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.7 | TUTTU: %28.4 | KISMEN TUTTU: %28.0 | BELIRSIZ: %40.9`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin yapay zeka regülasyonlarına yönelik inovasyonu tıkıyor eleştirilerini yanıtlayan Utku Şen, regülasyonsuz bir yapay zeka dünyasının çok tehlikeli olduğunu savunuyor. Şirketlerin tek derdinin kâr etmek olduğunu, devletlerin denetim ve yaptırım uygulamaması durumunda bu devlerin insanların telifli verilerini yağmalayıp kontrolsüz tekellere dönüşeceğini ve doktorluk ya da avukatlık gibi karar mercilerine girecek yapay zekaların mutlaka katı standartlara bağlanması gerektiğini kendi temel tezi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [An Antimonopoly Approach to Governing Artificial Intelligence | Yale Law & Policy Review](https://yalelawandpolicy.org/antimonopoly-approach-governing-artificial-intelligence)
     > *"Our account of the industrial organization of AI and the drawbacks of an AI oligopoly yields five important lessons. First, the potential harms of an AI oligopoly are stable and independent of AI’s ongoing development, and so there is little reason to wait before regulating. Second, ex ante regulation ought to be seen as an essential mode of govern..."*
   - `[Tavily]` [AI monopolies - Economic Policy](https://economic-policy.org/79th-economic-policy-panel/ai-monopolies)
@@ -3302,11 +5495,21 @@
   - `[DuckDuckGo]` [Democratizing the Governance of AI: From Big Tech Monopolies ...](https://link.springer.com/chapter/10.1007/978-3-031-19149-7_10)
     > *"Jan 13, 2023 · In order to address current democratic shortages and their social consequences, reorganizing Big Tech companies according to the principles of cooperatives is one of the possible solutions we should consider."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, OpenAI Sora gibi metinden video üreten modellerin stok video sektörünü tamamen bitireceğini ve kamera çekip stok sitelerine video satanların işini doğrudan yok edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.7/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %96.6 | BELIRSIZ: %1.1 | TUTTU: %0.8 | KISMEN TUTTU: %1.6`
 - **Videoda Ne Demişti:** OpenAI'ın Sora modelinin genel kullanıma açılmasını ve video üretim yeteneklerini değerlendiren Utku Şen, bu teknolojinin stok görüntü pazarını ortadan kaldıracağını anlatıyor. Düşük bütçeli içerik üreticileri için büyük bir kolaylık sağlarken hazır stok video çekip satarak geçinen insanların ekmek teknesini tamamen batıracağını kendi teknoloji tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI killed the Sora AI video generator and you’re probably guessing the “why” wrong](https://finance.yahoo.com/sectors/technology/articles/openai-killed-sora-ai-video-091159297.html)
     > *"How Sora's fall reflects a broader industry shift Sora's shutdown isn't about one product failing. It has more to do with where AI companies are heading next. Like Anthropic, OpenAI is moving away from flashy consumer features and toward productivity tools that promise clearer revenue and long-term impact. (...) At the same time, user interest repo..."*
   - `[Tavily]` [How Sora Played Hollywood On Its Way to Dying - The Ankler](https://theankler.com/sora-is-dead-the-ai-that-ransacked)
@@ -3318,11 +5521,21 @@
   - `[DuckDuckGo]` [Why OpenAI Killed Sora: The Rise and Fall of AI Video ...](https://aieducademy.org/blog/openai-sora-death-video-ai)
     > *"Mar 31, 2026 · Learn why AI video generation failed to deliver, what competitors are doing, and what this means for the industry. In March 2026, OpenAI quietly announced it was discontinuing Sora, its much-hyped AI video generation tool."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, mevcut bulut altyapısı, şirketlere sağladığı tek fatura kolaylığı ve düşük maliyet avantajı sayesinde Amazon AWS'nin gelecekte yapay zeka pazarının en öncü ve baskın firmalarından biri olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %16.6 | TUTTU: %78.8 | BELIRSIZ: %4.1 | TUTMADI: %0.5`
 - **Videoda Ne Demişti:** Amazon'un yeni Nova yapay zeka modellerini ve ekosistemini değerlendiren Utku Şen, şirketlerin halihazırda sunucularını ve verilerini AWS üzerinde tuttuğunu anlatıyor. Yeni bir yapay zeka firmasıyla haftalarca süren bürokratik satın alma süreçlerine girmek yerine tek bir faturayla mevcut sisteme entegre olmanın devasa bir avantaj sağladığını belirterek AWS'nin yapay zeka yarışında gelecekte çok öncü bir konuma yerleşeceğini kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How to Implement AI in Your Business | AWS](https://aws.amazon.com/ai/implementation)
     > *"Recognized as a Leader in the 2026 Gartner Magic Quadrant for Cloud AI Infrastructure, AWS moves enterprise AI from proof-of-concept to production-grade with the security, governance, and monitoring your business demands. AWS offers comprehensive full-stack technical capabilities, from training and customization to inference and agentic AI that sca..."*
   - `[Tavily]` [AWS Remains $330bn Cloud Market Leader, Driven by AI Growth | Technology Magazine](https://technologymagazine.com/articles/aws-remains-330bn-cloud-market-leader-driven-by-ai-growth)
@@ -3334,15 +5547,29 @@
   - `[DuckDuckGo]` [Amazon Web Services - Build an AI-Driven Application](https://www.bing.com/aclick?ld=e898YKbcDP42_VN63vPgdkhzVUCUzub8_aQn5pXkJKiD6dZooRR5D67c4SCSjkhyPeHtvZ3wvi6BSNo4jzF856bXyt6uC85RWUPMz3rje3O15fqC4VNwLnj7yJmw2j_SdO67XKja2z0Q_h1HmiakUCMdYv_uWNtTQI4S1PYm47WOgfCiusdJPNpT8hMYhZEN7La9iNIPlaBm8vxWMkQZSHhFSTbOM&u=aHR0cHMlM2ElMmYlMmZhd3MuYW1hem9uLmNvbSUyZmFpJTJmJTNmdHJrJTNkNzJjMWZkMWMtMzMyYy00MDk3LWE2NjEtMzM3Njc3NjlkYWE4JTI2c2NfY2hhbm5lbCUzZHBzJTI2ZWZfaWQlM2Q4ZTY2MzIzOTg2YWIxZjBkMDg3MzU4YzJlODVhNjM5YSUzYUclM2FzJTI2bXNhZHNfY2FtcCUzZDQ4Nzk2ODg3NSUyNm1zYWRzX2FnJTNkMTE1MjI5MDA2ODYwNTMyNiUyNm1zYWRzX2FkJTNkNzIwMTgyOTg3MTIyNjklMjZtc2Fkc19rdyUzZGFtYXpvbiUyNTIwd2ViJTI1MjBzZXJ2aWNlcyUyNTIwYXJ0aWZpY2lhbCUyNTIwaW50ZWxsaWdlbmNlJTI1MjBzZXJ2aWNlJTI2bXNhZHNfbWF0Y2h0eXBlJTNkcCUyNm1zYWRzX25ldHdvcmslM2RvJTI2bXNhZHNfZGV2aWNlJTNkYyUyNm1zYWRzX2dlbyUzZCU3YkxvY2F0aW9uSWQlN2QlMjZtc2Nsa2lkJTNkOGU2NjMyMzk4NmFiMWYwZDA4NzM1OGMyZTg1YTYzOWE&rlid=8e66323986ab1f0d087358c2e85a639a)
     > *"AWS Pre-Trained AI Services Provide Ready-Made Intelligence for Applications & Workflows. Easily Integrated Applications That Produce Accuracy From Continuously-Learning APIs."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## REvil grubuna baskın, en iyi VPN firması, araba kill switchleri  -siber alemden havadisler 46. bölüm - 2022-01-19
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte VPN veya Tor arkasına saklansanız bile şirketlerin elindeki davranışsal veriler sayesinde yapay zekanın insanların internetteki gezinme tarzından gerçek kimliklerini kolayca açığa çıkaracağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %19.1 | TUTTU: %37.6 | KISMEN TUTTU: %41.5 | TUTMADI: %1.9`
 - **Videoda Ne Demişti:** Satranç oyuncularının oyun tarzından kimliklerini tahmin eden yapay zeka modelini değerlendiren Utku Şen, gelecekte internet anonimliğinin tamamen bitebileceğini anlatıyor. Google veya Facebook gibi devlerin yıllarca topladığı gezinme alışkanlıklarını analiz ederek anonim ağlar üzerinden bağlanan bir kullanıcının kim olduğunu korelasyon kurup şıp diye bulabileceğini ve satranç örneğinin bunun ilk adımı olduğunu kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Advanced Anomaly Detection to Identify Insider Threats | Proofpoint US](https://www.proofpoint.com/us/blog/engineering-insights/scalable-user-behavior-profiling-anomaly-detection)
     > *"The traditional modeling approach recommends dropping low variance features as these can be less informative and prone to noise. However, for modeling activity behavior, low variance features can provide a normal behavior pattern which can be helpful when it comes to identifying peer group clusters. And slight variations must not be ignored as nois..."*
   - `[Tavily]` [AI-Powered Behavioral Analytics Explained | Wiz](https://www.wiz.io/academy/detection-and-response/ai-powered-behavioral-analytics)
@@ -3354,11 +5581,21 @@
   - `[DuckDuckGo]` [1 VPN Detection API - Detect Major VPNs Globally](https://www.bing.com/aclick?ld=e8gU_LqF9VrJA5mUoV14P8lzVUCUxdVd_VmwQgJa_uXT8Wp1lKjYiPota6eBvuKQNlX2slvh2sPRVKR5Xf3LPC8qNXbXo20uR2FSr_C5X1EiCrVSgvBxJu4qZUFI1VC8exCr61YDi7U8CtMHvYjTplVvyL4AjABKG-QaNto9u3EfjF9SVB8LplOkIeniGUaNANebMGXWX37X19-j4qoxjaGRCIu3I&u=aHR0cHMlM2ElMmYlMmZwYWdlcy5kaWdpdGFsZWxlbWVudC5jb20lMmZscCUyZnZwbi1kZXRlY3Rpb24tYXBpJTJmJTNmY3JlYXRpdmUlM2QlMjZrZXl3b3JkJTNkdnBuJTI1MjBkZXRlY3Rpb24lMjUyMHNvbHV0aW9uJTI2bWF0Y2h0eXBlJTNkcCUyNm5ldHdvcmslM2RvJTI2ZGV2aWNlJTNkYyUyNnV0bV9jYW1wYWlnbiUzZEdGX0NhdGVnb3J5X1RpZXIxX1NlYXJjaCUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZHBwYyUyNnV0bV9jb250ZW50JTNkJTI2dXRtX3Rlcm0lM2RwX3ZwbiUyNTIwZGV0ZWN0aW9uJTI1MjBzb2x1dGlvbiUyNmFkZ3JvdXBpZCUzZDEzMjYwMTQwNTg3NTYxNzIlMjZtc2Nsa2lkJTNkZWE3NWNmNjNjNmRmMTUwMDQyYjhhNTk4YWI2NWZhM2I&rlid=ea75cf63c6df150042b8a598ab65fa3b)
     > *"Accurately Detect VPNs & Residential Proxies. Comprehensive Coverage of VPN Providers. 1 VPN and Proxy Detection API. Detect Fraud, Assess Security Risks, Enhance DRM and More. 1 IP Geolocation DB · Stay GDPR Compliant · Tailored to Your Business · Uncover Key Insights Types: IP Geolocation API, Detect Residential Proxy, Deep IP Intelligence, IP Fo..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, akıllı arabalara uzaktan durdurma özelliği yani kill switch koymanın büyük bir felakete yol açacağını, hem otokratik rejimlerin muhalifleri engellemek için bunu kötüye kullanacağını hem de hackerların güvenlik açığı bularak seyir halindeki arabaları sabote edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %37.2 | TUTMADI: %8.6 | KISMEN TUTTU: %16.1 | TUTTU: %38.1`
 - **Videoda Ne Demişti:** Akıllı arabalara polisin uzaktan müdahale edebileceği acil durum kapatma düğmeleri yerleştirilmesi tartışmasını eleştiren Utku Şen, bu sistemlerin Pandora'nın kutusunu açmak anlamına geldiğini belirtiyor. Otokratik yönetimlerin bu yetkiyi muhalifleri durdurmak için kullanacağını ve hackerların da bu arka kapıyı sömürerek insanların canına kastedebileceğini vurgulayarak arabalara asla böyle bir mekanizma konulmaması gerektiğini kendi uyarısı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Kill Switch: Why Connected Cars Can Be Killing Machines](https://consumerwatchdog.org/sites/default/files/2019-07/KILL%20SWITCH%20%207-29-19.pdf)
     > *"more sophisticated attack. However, the additional hardware and software in the gateway unit also create more opportunity for hackers to ﬁnd vulnerabilities. Anatomy of a Remote Car Hack A dangerous remote hack requires two components: a means of accessing the vehicle’s internal systems from afar, and a means of taking control once inside. Neither..."*
   - `[Tavily]` [Connected and Autonomous Cars: Security Risks from Chinese Components | American Enterprise Institute - AEI](https://www.aei.org/research-products/report/connected-and-autonomous-cars-security-risks-from-chinese-components)
@@ -3370,11 +5607,21 @@
   - `[DuckDuckGo]` [Pulling the plug: Why the AI kill switch might be a dead end](https://www.techtarget.com/cybersecurity/news/366651197/Pulling-the-plug-Why-the-AI-kill-switch-might-be-a-dead-end)
     > *"Sep 25, 2026 · The AI kill switch may become a requirement for advanced systems, but many experts are questioning whether it will work. Read what experts have to say."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, devletlerin çocuk istismarını bahane ederek uçtan uca şifrelemeyi delme çabalarına şimdiden karşı çıkılmazsa, ileride aynı argümanla insanların evlerine kamera koymaya ve beyinlerine çip takmaya kadar gidileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %16.2 | BELIRSIZ: %48.4 | KISMEN TUTTU: %28.5 | TUTTU: %7.0`
 - **Videoda Ne Demişti:** İngiliz hükümetinin uçtan uca şifrelemeyi kaldırmak için çocuk pornografisini bahane eden PR kampanyaları yürütmesini sert bir dille eleştiren Utku Şen, bu söylemin insanları köşeye sıkıştırmak için kullanıldığını anlatıyor. Bugün bu bahaneyle şifrelemenin delinmesine izin verilirse yarın bir gün aynı mantıkla evlerin içine kamera koymayı veya beyinlere çip takmayı bile meşrulaştıracaklarını belirterek toplumun şimdiden tavır alması gerektiğini kendi tehlike senaryosu olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Briefly: End-to-End Encryption](http://globalchildexploitationpolicy.org/content/gpp-ncmec/us/en/policy-advocacy/end-to-end-encryption.html)
     > *"E2EE is often promoted as a pro-privacy measure to protect user communications from unintended and unauthorized access. Calls to oppose E2EE, create child sexual exploitation exceptions, or adopt additional technological solutions or other strategies to counter child sexual exploitation are often met with “slippery-slope” arguments. E2EE proponents..."*
   - `[Tavily]` [Apple's Plan to "Think Different" About Encryption Opens a Backdoor to Your Private Life | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/apples-plan-think-different-about-encryption-opens-backdoor-your-private-life)
@@ -3386,15 +5633,29 @@
   - `[DuckDuckGo]` [Encryption Backdoors: From Child Safety To Houthis - CEPA](https://cepa.org/article/encryption-backdoors-from-child-safety-to-houthis/)
     > *"Apr 11, 2025 · As governments force tech companies to provide backdoors into their products, the Signal chat scandal shows that errors can be damaging. The Signal messaging app touts itself as a “state-of-the-art end-to-end encryption” that “keeps your conversations secure.”"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Robot Sandığınız Şey İnsan Olabilir - S.A.H E142 - 2025-11-02
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka modellerinin bağlam penceresi sorunu çözüldüğünde kodlardaki güvenlik açıklarında dramatik bir düşüş yaşanacağını ve sistemlerin çok daha güvenli hale geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %11.1 | BELIRSIZ: %16.5 | KISMEN TUTTU: %44.4 | TUTTU: %27.9`
 - **Videoda Ne Demişti:** OpenAI'ın kod tabanlarında zafiyet arayan yapay zeka ajanını değerlendiren Utku Şen, şu an büyük projelerde modellerin kafasının karıştığını anlatıyor. Ancak bağlam penceresi (context window) kısıtlaması aşıldığı anda yazılımlardaki güvenlik açıklarının neredeyse yüzde 95'inin tespit edilip kapatılacağını ve zafiyetlerde çok ciddi bir düşüş yaşanacağını kendi tezi ve tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AgenticVM: Agentic AI for Adaptive Software Vulnerability Management](https://arxiv.org/html/2605.01739v1)
     > *"data from sources such as the National Vulnerability Database and the European Union Vulnerability Database. Across multiple evaluation scenarios, AgenticVM reduces raw scanner outputs into compact, actionable queues, achieving up to 98% alert reduction (e.g., from 3,983 findings to 82 high-priority items), while predicting missing CVSS attributes..."*
   - `[Tavily]` [Vulnerability Scanning in Agentic AI: Enterprise Guide | Augment Code](https://www.augmentcode.com/guides/vulnerability-scanning-agentic-ai)
@@ -3406,11 +5667,21 @@
   - `[DuckDuckGo]` [Yapay Zeka Analizi - AI or Human Text? Free Check](https://www.bing.com/aclick?ld=e8D_5c46nCwITxd_QKgTq3zTVUCUzWrm-oqOZ_I-FdtQEVs625bWBApVADLLoHTARtGzhzjNmgReeY2XN6GktqW5AFqfNrUHo-kQNS_vMFaI3sQMLPnAZMyC3MqJ0tH6wzZ7APmTO6Fwd4W-x1vFEB68ArZz1JDDlpqcBlz4g7Bp-jWUNtZuFDSTUmDpr4Q_2-PYASM2kuAG7J4SInIIttidxLDWU&u=aHR0cHMlM2ElMmYlMmZ0ZXh0Z3VhcmQuYWklMmYlM2Z1dG1fc291cmNlJTNkNTI0MTY5OTYxJTI2dXRtX2NhbXBhaWduaWQlM2Q1MjQxNjk5NjElMjZ1dG1fbWVkaXVtJTNkMTMyMDUxNjMxOTMxMTY1NSUyNnV0bV9jb250ZW50JTNkJTI2a2V5d29yZCUzZHlhcGF5JTI1MjB6ZWthJTI1MjBhbmFsaXppJTI2Yl9waHlzJTNkMTM4MDcyJTI2Yl9pbnQlM2QlMjZzb3VyY2UlM2RiaW5nJTI2dHJhZmZpY3NvdXJjZSUzZFNlYXJjaCUyNnV0bV9jYW1wYWlnbiUzZFBfVEVYVEdVQVJEX0JJTkdfV1dfQU5ZXzMwLjA0LjIwMjZfRC5TVFIlMjZtc2Nsa2lkJTNkNzE0MWEwNzE2NDRlMTFiMWVjOTFjYThhMGIxYmU0NzM&rlid=7141a071644e11b1ec91ca8a0b1be473)
     > *"Yapay Zeka Analizi: Guaranteed free AI detection on every single scan. Rated 1 free AI detector — high-precision scanning with zero cost and no signup."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Microsoft ve Google gibi devlerin yapay zeka tabanlı kod tarayıcıları entegre etmesiyle geleneksel statik kod analizi (SAST) yazılımlarının biteceğini ve küçük siber güvenlik şirketlerinin piyasadan silineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %58.4 | BELIRSIZ: %11.6 | TUTMADI: %16.0 | TUTTU: %14.0`
 - **Videoda Ne Demişti:** Yapay zekalı ajanların hiçbir karmaşık derleme veya ortam konfigürasyonu istemeden metin üzerinden tüm zafiyetleri insan gibi bulacağını anlatan Utku Şen, geleneksel kod analiz araçlarının fena halde dezavantajlı duruma düşeceğini belirtiyor. GitHub Enterprise gibi platformlara bu modelleri ekleyecek olan Microsoft gibi devlerin dünyanın en büyük siber güvenlik sağlayıcılarına dönüşeceğini ve küçük güvenlik firmalarının rekabet edemeyip batacağını kendi sektör öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [DryRun Security Finds Over 80% of Large Language Model Application Risks Go Undetected by Traditional Code Scanners](https://finance.yahoo.com/news/dryrun-security-finds-over-80-140000623.html)
     > *"Traditional SAST Falls Short: Legacy code scanners miss LLM-specific vulnerabilities because they were never designed to inspect model orchestration and tool use. They were inherently designed for traditional application flaws like SQL injection, but not for semantic vulnerabilities found in LLM-powered systems. This technology gap proves AI-native..."*
   - `[Tavily]` [Fusion SAST Tool: SAST Tool for Enterprise Code Security | Checkmarx](https://checkmarx.com/cxsast-source-code-scanning)
@@ -3422,11 +5693,21 @@
   - `[DuckDuckGo]` [10 Best AI Code Security Tools in 2026 (Tested & Compared)](https://corgea.com/learn/best-ai-code-security-tools)
     > *"The best AI code security tools in 2026 do different jobs: some use AI inside detection to find logic and authorization flaws, while others apply it after a traditional scan to triage alerts, explain findings, or draft a fix. This guide compares 10 tools on AI-native detection, false-positive handling, auto-fix, coverage across SAST, SCA, secrets,..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, prompt injection saldırılarını engelleyecek hiçbir güvenlik kalkanı bulunmadığı için yapay zekalı internet tarayıcılarının 2000'li yıllardaki güvensiz vahşi batı ortamını geri getireceğini ve kullanıcıların hesaplarının çalınacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %5.5 | KISMEN TUTTU: %36.8 | TUTMADI: %3.5 | TUTTU: %54.2`
 - **Videoda Ne Demişti:** OpenAI Atlas gibi yapay zekalı tarayıcıları değerlendiren Utku Şen, girilen web sayfalarında gizlenen kötü niyetli komutların yapay zekayı anında ele geçirebileceğini anlatıyor. Günümüzde bu saldırıları durduracak hiçbir savunma mekanizması olmadığını belirterek bu tarayıcıları kullananların e-postalarını ve hesaplarını çaldıracağını, internetin 2000'lerin başındaki virüslü ve güvensiz günlerine geri döndüğünü kendi uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Is Perplexity Comet Safe? LayerX Finds a Prompt Injection Attack Vector | Akamai](https://www.akamai.com/blog/security/cometjacking-how-one-click-can-turn-perplexitys-comet-ai-browser-against-you)
     > *"For years, attackers focused on tricking users into giving up their credentials through phishing pages. But with agentic browsers, they no longer need the user’s password—they just need to hijack the agent that is already logged in. The browser itself becomes a potential insider threat. The risk moves from passive data theft to active command execu..."*
   - `[Tavily]` [AI Browsers Are Stealing Your Data (Prompt Injection Explained)](https://www.youtube.com/watch?v=ys7Vcdv4GKw&vl=en)
@@ -3438,11 +5719,21 @@
   - `[DuckDuckGo]` [Prompt enjeksiyonu nedir? Yapay zekâ (AI) nasıl manipüle ...](https://www.kaspersky.com.tr/resource-center/threats/prompt-injection)
     > *"Prompt enjeksiyonu (prompt injection), kötü amaçlı yazılım kullanmadan dili kullanarak yapay zekâ (AI) araçlarını ele geçirmeye çalışan artan bir güvenlik tehdididir. Nasıl çalıştığını, risklerini ve kendinizi nasıl koruyacağınızı öğrenin."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, Google'ın dışarıdan APK yüklemeyi zorlaştırmak için getirdiği geliştirici lisansı kuralının korsan ve zararlı yazılımları durdurmaya kesinlikle yetmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %27.2 | TUTMADI: %6.6 | KISMEN TUTTU: %22.7 | TUTTU: %43.5`
 - **Videoda Ne Demişti:** Android tarafında sideloading işlemlerine zorunlu geliştirici lisansı şartı getirilmesini yorumlayan Utku Şen, saldırganların çalıntı kimliklerle veya farklı ülkelerden bu lisansları çok kolay temin edebileceğini anlatıyor. Zaten resmi Google Play Store içinde bile sık sık virüslü uygulamalar çıktığını hatırlatarak bu yeni kuralın APK üzerinden yayılan virüsleri öldürmeyeceğini kendi teknik çıkarımı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Google’s New Android Developer Verification Will Increase Device Security Risk for Power Users](https://blog.enterprisemanagement.com/googles-new-android-developer-verification-will-increase-device-security-risk-for-power-users)
     > *"Google says that this constitutes a necessary step to combat the rising tide of malware and financial fraud, citing internal research. The research suggests that apps sideloaded from the internet are over 50 times more likely to contain malware than those from the Google Play Store. The company argues that this verification process is akin to an 'I..."*
   - `[Tavily]` [Google details new 24-hour process to sideload unverified Android apps - Ars Technica](https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps)
@@ -3454,15 +5745,29 @@
   - `[DuckDuckGo]` [Android Developer Verification Explained: What Changes for ...](https://techietory.com/android-developer-verification-sideloading-changes/)
     > *"Oct 8, 2026 · Android developer verification is live. See how the 24-hour advanced flow works, what ADB skips, and how to keep sideloading safely. Read the guide."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Sam Altman'a Molotof Kokteyli Şoku - S.A.H E159 - 2026-04-12
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, yapay zekanın kaynak kodlardaki zafiyetleri daha yazım aşamasında yakalaması sayesinde sızma testi uzmanlarına olan ihtiyacın düşeceğini ve 2030 yılına kadar siber güvenlik sektöründe iş hacminin daralacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.5 | BELIRSIZ: %41.3 | KISMEN TUTTU: %40.9 | TUTMADI: %8.4`
 - **Videoda Ne Demişti:** Anthropic'in Glasswing projesini ve MitOS modelini değerlendiren Utku Şen, modellerin monolit projelerdeki bağlam sorununu aşmasıyla birlikte kodlama anında zafiyetlerin çoğunun tespit edileceğini anlatıyor. Eskiden 10 kişilik ekibin iki haftada yaptığı işi ileride 5 kişinin bir haftada yapacağını, insan kontrolü tamamen kalkmasa bile 2030 yılına kadar siber güvenlik uzmanlarına olan talebin hissedilir derecede azalacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Pen testing & Cybersecurity with AI Pentest: EC-Council](https://www.eccouncil.org/cybersecurity-exchange/penetration-testing/ai-and-cybersecurity-in-penetration-testing)
     > *"Faster vulnerability discovery: AI capabilities analyze vast amounts of data at incredible speed, thus allowing pen testers to identify vulnerabilities more quickly and reducing the time required for comprehensive testing (Ticong, 2024). (...) The reconnaissance phase is crucial for gathering information about the target system or network. Traditio..."*
   - `[Tavily]` [Why AI Penetration Testing is Just Expensive Vulnerability Scanning | Edgescan](https://www.edgescan.com/why-ai-penetration-testing-is-just-expensive-vulnerability-scanning)
@@ -3474,11 +5779,21 @@
   - `[DuckDuckGo]` [AI-Powered Vulnerability Detection and Patch Management in ...](https://www.mdpi.com/2504-4990/8/1/19)
     > *"Jan 15, 2026 · This review provides a comprehensive evaluation of AI-powered strategies including machine learning, deep learning, and large language models for identifying cybersecurity vulnerabilities and supporting automated patching."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka sayesinde hem yetenekli hackerların hem de 15 yaşındaki acemilerin eline inanılmaz bir güç geçtiğini ve artık açık kaynaklı projelerde patır patır sıfır gün açığı aranıp bulunacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.9 | TUTTU: %79.1 | KISMEN TUTTU: %17.2 | BELIRSIZ: %2.8`
 - **Videoda Ne Demişti:** George Hotz'un yapay zekanın zero-day açıklarını bulma becerisini küçümseyen açıklamalarını eleştiren Utku Şen, bugüne kadar açık kaynak projelerde az açık bulunmasının tek sebebinin kimsenin detaylı bakmaması olduğunu belirtiyor. Artık güçlü modellerin herkesin eline geçmesiyle birlikte genç yaştaki meraklıların bile açık kaynak projelere dalıp seri şekilde zero-day avına çıkacağı yeni bir dönemin başladığını kendi öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Art of finding zero day vulnerabilities using Open Source AI](https://medium.com/bugbountywriteup/art-of-finding-zero-day-vulnerabilities-using-open-source-ai-e26eaaf323cb)
     > *"In this article I am gonna share how I used an Opensource AI model finetuned for finding vulnerabilities called codeastra-7B to idenify zero day vulnerabilities in various opensource project such as apache pulsar , apache airflow , apache cocoon , tensorflow , imagemagik etc and how to build a framwork which combines both static analysis tools such..."*
   - `[Tavily]` [Anthropic's new AI model finds and exploits zero-days across every major OS and browser - Help Net Security](https://www.helpnetsecurity.com/2026/04/08/anthropic-claude-mythos-preview-identify-vulnerabilities)
@@ -3490,11 +5805,21 @@
   - `[DuckDuckGo]` [GitHub - skyla643/AI-ZERO-DETECT-SYST: This project is an AI ...](https://github.com/skyla643/AI-ZERO-DETECT-SYST)
     > *"By leveraging advanced AI models, real-time monitoring, and automated response mechanisms, this system aims to detect and neutralize threats before they can exploit unknown vulnerabilities in your infrastructure."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zeka yüzünden kitlesel işsizliğe sürüklenen ve çaresiz kalan insanların gelecekte teknoloji patronlarını ve şirketlerini doğrudan hedef almaya başlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.6 | TUTTU: %59.7 | BELIRSIZ: %4.6 | KISMEN TUTTU: %35.1`
 - **Videoda Ne Demişti:** Sam Altman'ın evine molotof kokteyli atılması sonrasında yaptığı duygu sömürüsünü eleştiren Utku Şen, insanların emeği üzerinden zenginleşip kitleleri işsiz bırakan yöneticilerin tepki görmemesinin imkansız olduğunu anlatıyor. Şirketlerin işsiz kalanlar için temel gelir ya da vergilendirme çözümleri düşünmemesi halinde, aç kalan binlerce insanın içinden çıkan kişilerin teknoloji liderlerinin kapısına dayanıp saldıracağını kendi toplumsal analizi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Graduation Season Becomes Stage for Anti-AI Backlash as Tech Executives Face Student Jeers](https://keepingupwith.ai/articles/graduation-season-becomes-stage-for-anti-ai-backlash-as-tech-executives-face-stu)
     > *"Graduation Season Becomes Stage for Anti-AI Backlash as Tech Executives Face Student Jeers | keepingupwith.ai. Graduation Season Becomes Stage for Anti-AI Backlash as Tech Executives Face Student Jeers. University graduates are booing corporate leaders during commencement speeches, signaling generational frustration with AI adoption and job market..."*
   - `[Tavily]` [The AI Backlash Has Tech Executives Fearing for Their Lives | World News](https://www.hindustantimes.com/world-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-101784174175708.html)
@@ -3506,11 +5831,21 @@
   - `[DuckDuckGo]` [Siber güvenlikte yeni tehdit: Yapay zekâ destekli saldırılar](https://www.dw.com/tr/siber-güvenlikte-yeni-tehdit-yapay-zekâ-destekli-saldırılar/a-79563916)
     > *"Oct 12, 2026 · İki şirketin yöneticileri Dario Amodei ve Sam Altman, şirketleri arasındaki sert rekabete rağmen yapay zeka geliştirme hızının topluca yavaşlatılması çağrısında bulundu."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, uçtan uca şifreli uygulamalarda şifrelemenin kendisinin kırılmayacağını, gelecekte bir arka kapı veya sızıntı olacaksa bunun yapay zeka botları, bildirim verileri ya da harici kütüphaneler üzerinden yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.4 | KISMEN TUTTU: %14.4 | BELIRSIZ: %66.2 | TUTTU: %17.1`
 - **Videoda Ne Demişti:** FBI'ın iPhone bildirim kayıtlarını inceleyerek silinmiş Signal mesajlarını ortaya çıkarmasını değerlendiren Utku Şen, şifreli mesajlaşma protokollerinin doğrudan kırılamayacağını anlatıyor. Güvenliğin delineceği noktaların doğrudan algoritma değil, mesajları şifreleme öncesinde gören yapay zeka asistanları, işletim sisteminin sakladığı bildirim kalıntıları ya da projeye sonradan eklenen üçüncü parti kriptografi kütüphaneleri olacağını kendi teknik şüphesi ve tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Is an Encryption Backdoor? - Internet Society](https://www.internetsociety.org/blog/2025/05/what-is-an-encryption-backdoor)
     > *"An encryption backdoor is a type of exceptional access that a platform gives third parties—such as law enforcement and government officials—to the content of encrypted communications. This can exist as a “middle box,” which decrypts the data at a central server, then re-crypts it and sends it to the intended recipient. This is significantly less se..."*
   - `[Tavily]` [Governments continue losing efforts to gain backdoor access to secure communications - UMBC: University of Maryland, Baltimore Cou...](https://umbc.edu/stories/governments-continue-losing-efforts-to-gain-backdoor-access-to-secure-communications)
@@ -3522,15 +5857,29 @@
   - `[DuckDuckGo]` [Uçtan uca şifreleme hakkında | WhatsApp Help Center](https://faq.whatsapp.com/820124435853543/?locale=tr_TR)
     > *"WhatsApp, uçtan uca şifrelenmiş mesajların içeriğini hiçbir şekilde göremez ve uçtan uca şifrelenmiş aramaları dinleyemez. Bunun nedeni, WhatsApp üzerinden gönderilen ve alınan mesajların şifreleme ve şifre çözümleme işlemlerinin tamamen sizin cihazınızda gerçekleşmesidir."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Sam Altman, Fransız Devrimine Bir Bakmalı - S.A.H E154 - 2026-02-22
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın kaynak kod analizini devralmasıyla 2030 yılına doğru siber güvenlik sektörünün daralacağını, eskiden 10 kişinin yaptığı işi gelecekte 5 kişinin yapacağını ve değişime ayak uyduramayan uzmanların eleneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %10.2 | TUTTU: %9.5 | BELIRSIZ: %29.9 | KISMEN TUTTU: %50.4`
 - **Videoda Ne Demişti:** Claude Code Security gibi araçların kaynak kod üzerinden zafiyet bulma yeteneklerini değerlendiren Utku Şen, gelecekte işlerin tamamen yok olmayacağını ama eskiden 10 uzmanın gerektiği yerde artık 5 kişinin yeteceğini, 2030'lara doğru siber güvenlik sektöründe ciddi bir daralma yaşanacağını ve yapay zekaya direnenlerin sektör dışı kalacağını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [AI can't fix cybersecurity's hiring problem - Help Net Security](https://www.helpnetsecurity.com/2026/07/22/cybersecurity-workforce-trends-report)
     > *"Nearly three-quarters of organizations said AI has influenced team composition. The most common changes were workflow automation and reduced manual analysis, with relatively few organizations reporting workforce reductions. Employers are adding AI-focused cybersecurity roles, including AI security engineers, AI governance analysts and AI/ML securit..."*
   - `[Tavily]` [Will AI Replace Cybersecurity Jobs? - KORE1](https://www.kore1.com/will-ai-replace-cybersecurity)
@@ -3540,11 +5889,21 @@
   - `[Tavily]` [AI Won't Wipe Out Entry-Level Cybersecurity Jobs](https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs)
     > *"Across the Cybersecurity Workforce Study data, respondents viewed AI far more often as an opportunity than a threat. Instead of reducing cybersecurity functions, participants indicated that AI will create the need for new types of roles. Specifically, 73% said AI will create more specialized cybersecurity skills, and 72% said that AI would create a..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, teknoloji elitlerinin insanları böcek gibi görüp on milyonlarca kişiyi yapay zekayla işsiz bırakarak köşeye sıkıştırması halinde Fransız Devrimi benzeri bir halk patlaması yaşanacağını ve bu gidişatın oligarklar için çok kötü biteceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %21.3 | TUTMADI: %8.3 | TUTTU: %7.1 | BELIRSIZ: %63.3`
 - **Videoda Ne Demişti:** Sam Altman'ın insan yetiştirmenin de maliyetli ve enerji tüketen bir süreç olduğunu söylediği röportajı eleştiren Utku Şen, Silikon Vadisi patronlarındaki tanrı kompleksini ele alıyor. Kediyi çok köşeye sıkıştırırsan tırmalar diyerek tarihin tekerrürden ibaret olduğunu hatırlatıyor ve kitleleri çaresiz bırakan bu kibirli tavrın Fransız Devrimi gibi radikal bir toplumsal tepkiyle sonuçlanacağını kendi analizi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Anti-AI Backlash is Building Against Tech Oligarchs Playing God - Joel Kotkin](https://joelkotkin.com/the-anti-ai-backlash-is-building-against-tech-oligarchs)
     > *"Even people obsessed about their devices believe the tech overlords have overreached, enticing the enmity of Right, Left and pretty much everyone in between. Globally, trust in tech firms has been heading down for years, and is particularly low in Japan, France, and the US. In America, notes Pew, barely 10 per cent of people – Republican, Democrat..."*
   - `[Tavily]` [US voters reject AI data centres: Could the backlash spread to France? • FRANCE 24 English](https://www.youtube.com/watch?v=TI9ZTGWt5O8)
@@ -3556,11 +5915,21 @@
   - `[DuckDuckGo]` [The Anti-AI Backlash is Building Against Tech Oligarchs ...](https://www.civitasinstitute.org/research/the-anti-ai-backlash-is-building-against-tech-oligarchs-playing-god)
     > *"Even people obsessed about their devices believe the tech overlords have overreached, enticing the enmity of Right, Left and pretty much everyone in between. Globally, trust in tech firms has been heading down for years, and is particularly low in Japan, France, and the US."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, doğrudan çip içine gömülü çalışan özel yapay zeka modellerinde seneye Çinli firmaların çok daha iyilerini piyasaya süreceğini ve bu sayede dünyanın nükleer santral kadar enerji yakan aşırı pahalı Nvidia GPU bağımlılığından kurtulabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.9 | BELIRSIZ: %68.2 | KISMEN TUTTU: %18.6 | TUTMADI: %3.3`
 - **Videoda Ne Demişti:** Taalas firmasının Llama modelini doğrudan donanıma gömdüğü aşırı hızlı çipini inceleyen Utku Şen, her iş için devasa bulut modelleri kullanmanın gereksiz olduğunu anlatıyor. Seneye Çinlilerin bu gömülü çip mimarisinin çok daha iyisini üreteceğini ve bu gelişimin sektörü pahalı Nvidia sistemlerine ve devasa enerji tüketimine mahkum olmaktan kurtarabileceğini kendi teknolojik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Taalas Launches Hardcore Chip With ‘Insane’ AI Inference Performance - Cambrian AI Research](https://cambrian-ai.com/taalas-launches-hardcore-chip-with-insane-ai-inference-performance)
     > *"Instead of using software to program (compile) and execute on a GPU or an ASIC such as a Google TPU, Taalas hardwires the model and its weights into a “Hardcore” ASIC (HC1) embedding the entire model into a bespoke application-specific chip. This strategy is both an advantage and a potential market hurdle, as I explore in this article. (...) The AI..."*
   - `[Tavily]` [How Taalas “prints” LLM onto a chip? | Hacker News](https://news.ycombinator.com/item?id=47103661)
@@ -3572,15 +5941,29 @@
   - `[DuckDuckGo]` [AMD Taalas Acquisition: Model-Specific AI Chips Explained ...](https://www.spheron.network/blog/amd-taalas-acquisition-model-specific-ai/)
     > *"Aug 15, 2026 · AMD signed a definitive agreement on August 6, 2026 to acquire Taalas, a Toronto-based startup that builds AI inference chips with a model's weights physically etched into the silicon rather than loaded from memory."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Sanayi Devrimi Gibi Bir Dönemin Başındayız - S.A.H E75 - 2023-11-14
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yakaya takılan ve ele projeksiyon yansıtan 700 dolarlık giyilebilir yapay zeka cihazının asla tutmayacağını ve bu girişimin batmamasının imkansız olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %97.3 | BELIRSIZ: %0.3 | TUTMADI: %0.2 | KISMEN TUTTU: %2.2`
 - **Videoda Ne Demişti:** Humane AI Pin cihazının tanıtımını ve 700 dolarlık fiyatını eleştiren Utku Şen, göğüste ağır bir kamera taşımanın ve ele görüntü yansıtmanın aşırı mantıksız olduğunu anlatıyor. Telefon ve akıllı saatler varken bu ürünün hiçbir pratik fayda sunamayacağını belirterek bu girişimin başarılı olmasının veya batmamasının kendisini çok şaşırtacağını kendi net tahmini olarak söylüyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The AI Pin is shutting down—but was it really a failure? Humane’s wearable is being sold off to HP for $116M, and this is the end...](https://www.linkedin.com/posts/marilynika_the-ai-pin-is-shutting-downbut-was-it-really-activity-7298434201563844609-I5p1)
     > *"You are generalising, market forces don't take prisoners, only casualties! Humane’s AI Pin was fundamentally flawed in execution. The interaction model was unintuitive, the value proposition unclear, and it failed to meet real consumer needs. If it had been a true stepping stone, we would already see others building on its ideas successfully, but s..."*
   - `[Tavily]` [Humane AI pin startup shuts down, sells to HP for $116M after burning through $230M in investor cash - Tech Startups](https://techstartups.com/2025/02/19/humane-ai-pin-startup-shuts-down-sells-to-hp-for-116m-after-burning-through-230m-in-investor-cash)
@@ -3592,11 +5975,21 @@
   - `[DuckDuckGo]` [Humane Inc. - Wikipedia](https://en.wikipedia.org/wiki/Humane_Inc.)
     > *"In February 2025, Humane announced it had stopped selling the AI Pin and existing devices would no longer connect to the company’s servers after 12:00 AM San Francisco time on February 28. (38)"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, sadece OpenAI API'sini alıp üzerine süsleme yaparak kurulan yapay zeka startuplarının çökmeye mahkum olduğunu, kendi modeline ve altyapısına sahip olmayan girişimlerin piyasadan silineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.7 | TUTTU: %69.5 | BELIRSIZ: %2.1 | KISMEN TUTTU: %26.8`
 - **Videoda Ne Demişti:** OpenAI'ın özel GPT mağazası hamlesini değerlendiren Utku Şen, sadece OpenAI üzerine kurgulanan wrapper iş modelinin çok riskli olduğunu anlatıyor. OpenAI tek bir yeni özellikle bu şirketleri anında oyun dışı bırakabileceği için kendi modelini geliştirmeyen ve tüm kontrolü elinde tutmayan startupların batmasının kaçınılmaz olduğunu kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI GPT Store Is Not the End of Thin-Wrapper GPT Startups](https://www.thealgorithmicbridge.com/p/openai-gpt-store-is-not-the-end-of)
     > *"In 2021, the generative AI industry was non-existent. Jasper, like OpenAI but on a different level, created a tiny new market it went on to dominate (that’s pretty much Peter Thiel’s advice to startups). That was possible for a wrapper startup back then but once the market expanded and reached a critical mass, succeeding with a similar offer became..."*
   - `[Tavily]` [The Graveyard of AI Startups: Startups That Forgot to Build Real Value - DEV Community](https://dev.to/dev_tips/the-graveyard-of-ai-startups-startups-that-forgot-to-build-real-value-5ad9)
@@ -3608,11 +6001,21 @@
   - `[DuckDuckGo]` [The AI Wrapper Trap: Why 90% of AI Startups Are Building ...](https://vikasmalpani.com/ai-wrapper-trap/)
     > *"Apr 17, 2026 · Dozens of venture-backed startups watched their entire product get shipped as a feature by their own API provider. Chatbase, Humata, MagicForm, MindPal, CustomGPT.ai. Every one of them was a “chat with your docs” app with a polished UI and a Stripe integration."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, sosyal medyadaki güzellik filtrelerinin tıpkı 1950'lerdeki sigara çılgınlığı gibi ileride büyük bir felaket olarak anılacağını ve şirketler parayı seçtiği için bu filtreleri ancak devletlerin veya Avrupa Birliği'nin yasal olarak yasaklayabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %35.1 | TUTTU: %52.9 | TUTMADI: %5.3 | BELIRSIZ: %6.7`
 - **Videoda Ne Demişti:** Zuckerberg'in gençlerin psikolojisini bozan Instagram güzellik filtrelerini kaldırmayı reddetmesini eleştiren Utku Şen, kâr hırsı yüzünden teknoloji şirketlerinin etik davranmayacağını belirtiyor. Bu durumu 50'li yıllarda zararları bilinmeden her yerde serbestçe içilen sigaralara benzeterek gelecekte bugünlere dehşetle bakılacağını ve bu filtreleri ancak Avrupa Birliği veya devletlerin kanun çıkararak durdurabileceğini kendi öngörüsü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Instagram Removes Cosmetic Surgery Filters Following Self-Harm Concerns - Business Insider](https://www.businessinsider.com/instagram-cosmetic-surgery-filters-removed-2019-10)
     > *"Instagram has removed the ability for users to add cosmetic surgery filters to their photos, citing body image and mental health concerns. The filters mimic surgeries like facelifts and Botox injections. A spokesperson for Facebook, Instagram's parent company, told Insider it was 're-evaluating its policies,' because it wanted it's Augmented Realit..."*
   - `[Tavily]` [Instagram chief defends youth mental health decisions at trial](https://www.investing.com/news/stock-market-news/instagrams-leader-to-testify-in-court-on-app-design-youth-mental-health-4499152)
@@ -3624,11 +6027,21 @@
   - `[DuckDuckGo]` [How Meta's Filter Ban for Minors Could Look in Practice | Allure](https://www.allure.com/story/meta-beauty-filter-ban-teens)
     > *"Sep 2, 2026 · Meta has banned certain beauty filters for minors as a part of its $18 billion settlement. There's a few different ways it could play out."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, yapay zekanın akılda kalıcı orijinal melodiler üretmeyi matematiksel olarak tanımlayamadığı için başaramayacağını ve üst düzey bestecilerle rekabet edebilmesine en az yirmi yıl olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %20.0 | TUTTU: %34.5 | BELIRSIZ: %39.6 | TUTMADI: %5.9`
 - **Videoda Ne Demişti:** Yapay zekanın müzik üretim yeteneklerini ele alan Utku Şen, jenerik veya düşük kaliteli parçalar üretilse bile insanın kulağına hoş gelen vurucu melodilerin formülünün çıkarılamadığını anlatıyor. Bu yüzden üst seviye bestecilerin yerini almasına en az 20 yıl olduğunu ve gerçek anlamda akılda kalıcı yeni melodiler çıkaramayacağını kendi müzik ve teknoloji tezi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What are the creative boundaries of using AI in songwriting? - Sonarworks Blog](https://www.sonarworks.com/blog/learn/what-are-the-creative-boundaries-of-using-ai-in-songwriting)
     > *"The technology also faces limitations with unconventional or experimental music. AI training on existing music means it tends to reproduce familiar patterns rather than push creative boundaries or challenge musical conventions. Technical limitations include difficulty processing polyphonic sources, handling excessive reverberation, or working with..."*
   - `[Tavily]` [AI and the Spectrum of Creation: A Case Study in Songwriting](https://practicespace.substack.com/p/ai-creativity-and-the-spectrum-of)
@@ -3640,15 +6053,29 @@
   - `[DuckDuckGo]` [Artificial Melodies: Investigating the Limits of AI in ...](https://openreview.net/pdf?id=68aI3ddh2l)
     > *"Only 30.90% of AI-generated songs closely resembled those written by humans, suggesting that while AI can replicate human songwriting vocabulary, it falls short in generating discourses that align with human musical expressions."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## sansür yasası, jack ve elon musk'ın mesajlaşmaları- siber alemden havadisler 68. bölüm - 2022-10-07
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Twitter'ın tıpkı Facebook'un son dönemleri gibi miadını doldurmak üzere olduğunu ve düzgün bir alternatifi çıktığı anda insanların patır patır Twitter'dan kaçacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %28.8 | TUTMADI: %17.2 | BELIRSIZ: %7.2 | KISMEN TUTTU: %46.8`
 - **Videoda Ne Demişti:** Jack Dorsey ile Elon Musk arasındaki mesajlaşmaları ve yeni bir platform ihtiyacını değerlendiren Utku Şen, Twitter'ın artık son demlerini yaşadığını anlatıyor. Tıpkı Facebook gibi berbat bir yere dönüştüğünü belirterek eli yüzü düzgün bir alternatif ortaya çıktığı anda insanların patır patır Twitter'ı terk edeceğini kendi sosyal medya öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Twitter, Facebook Look Weak to VCs, so They're Funding Alternatives - Business Insider](https://www.businessinsider.com/social-media-twitter-facebook-alternatives-funding-rises-vcs-2022-10?r=musktwitter)
     > *"Meanwhile Bluesky, a decentralized social media protocol backed by former Twitter CEO Jack Dorsey, saw 30,000 new users sign up just 48 hours after opening its waitlist. And there may be room for even more young social media companies to rise. With the expected exodus of not just users but also talent from Twitter, some venture capitalists see this..."*
   - `[Tavily]` [Twitter, Facebook Look Weak to VCs, so They're Funding Alternatives - Business Insider](https://www.businessinsider.com/social-media-twitter-facebook-alternatives-funding-rises-vcs-2022-10)
@@ -3660,11 +6087,21 @@
   - `[DuckDuckGo]` [Twitter'dan ayrılmak isteyenler için 5 alternatif platform](https://anadoludabugun.com.tr/bilim-ve-teknoloji/twitterdan-ayrilmak-isteyenler-icin-5-alternatif-platform/176423)
     > *"Oct 1, 2026 · Twitter’ın satışıyla birlikte birçok kullanıcının yeni platform arayışında olduğunu ifade eden sosyal medya uzmanı Alaattin Çağıl, 5 sosyal medya platformunun Twitter’a alternatif olabileceğini söyledi"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, sansür ve dezenformasyon yasasının herkese uygulanmayacağını, iktidarın elinde cepte duran bir silah gibi tutulup sadece sosyal medyada fazla sivrilenlerin kafasına indirilmek için kullanılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %13.9 | TUTMADI: %0.9 | TUTTU: %84.7 | BELIRSIZ: %0.5`
 - **Videoda Ne Demişti:** Meclisten geçen dezenformasyon yasasını inceleyen Utku Şen, yalan haber tanımının tamamen yoruma açık olduğunu ve yasanın bir kılıf olarak hazırlandığını anlatıyor. Bu düzenlemenin herkese yönelik genel bir uygulama olmayacağını, tıpkı geçmişteki benzer yasalar gibi cepte bekletilip sadece sosyal medyada öne çıkan veya birilerinin ayağına basan kişileri susturmak amacıyla kullanılacağını kendi analizi ve tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Inside Turkey’s Lawfare: How Turkey uses its disinformation law against journalists - Committee to Protect Journalists](https://cpj.org/2026/10/inside-turkeys-lawfare-how-turkey-uses-its-disinformation-law-against-journalists)
     > *"He said the disinformation law particularly targeted journalists active on social media, who tend to be less pro-government than traditional media, often identifying themselves as pro-opposition. “I believe that (the authorities) wanted to rupture this opposition influence in social media and either punish or intimidate the influential names and jo..."*
   - `[Tavily]` [Turkish high court upholds disputed disinformation law. The opposition wanted it annuled](https://finance.yahoo.com/news/turkish-high-court-upholds-disputed-144211689.html)
@@ -3676,15 +6113,29 @@
   - `[DuckDuckGo]` [Turkey’s “Fake News” Bill: Targeting Disinformation or ...](https://fordhamilj.org/blog/turkeys-fake-news-bill-targeting-disinformation-or-dissent/)
     > *"Nov 9, 2022 · Turkey’s Parliament passed new legislation on October 13th, criminalizing the spread of “fake information,” and giving the government authority to jail journalists and social media users for up to three years for violations. (1)"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## savaş, hacking ve yaptırımlar, yerli yazılım ve ordu -siber alemden havadisler 51. bölüm - 2022-03-03
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte gelişen çeviri teknolojileri sayesinde dil bariyeri kavramının hayatımızdan tamamen çıkacağını ve farklı dilleri konuşan insanların aralarındaki engellerin teknolojiyle bütünüyle kalkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.1 | BELIRSIZ: %3.0 | TUTTU: %69.8 | KISMEN TUTTU: %26.2`
 - **Videoda Ne Demişti:** Mark Zuckerberg'in herkesin ana diliyle küresel iletişim kurabilmesini sağlayacak evrensel bir yapay zeka çeviri sistemi geliştirdiklerini duyurmasını değerlendiren Utku Şen, Zuckerberg'in vizyonerliğini övüyor. Gelecekte dil bariyeri meselesinin teknoloji sayesinde insanların hayatından kesinlikle çıkacağına inandığını, arada kurulacak teknolojik bağlarla dil engelinin tarihe karışacağını kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [A new AI-powered speech translation system for Hokkien pioneers a new approach for a primarily oral language](https://ai.meta.com/blog/ai-translation-hokkien)
     > *"The open sourced translation system is part of Meta’s Universal Speech Translator (UST) project, which is developing new AI methods that we hope will eventually allow real-time speech-to-speech translation across all extant languages, even primarily spoken ones. We believe spoken communication can help break down barriers and bring people together..."*
   - `[Tavily]` [SeamlessM4T: How Meta’s AI is redefining translation - Parola Analytics](https://parolaanalytics.com/parolanews/seamlessm4t-how-metas-ai-is-redefining-translation)
@@ -3696,15 +6147,29 @@
   - `[DuckDuckGo]` [Seamless Communication - AI at Meta](https://ai.meta.com/research/seamless-communication/)
     > *"We believe in the power of collaboration and open research to break down communication barriers. To enable our fellow researchers to build upon this work, we’re publicly releasing the full suite of Seamless Communication models, along with metadata, data and tools."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Seneye Bu Zamanlar Piyasa Yerine Oturur - S.A.H E161 - 2026-05-10
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, teknoloji sektöründe yüzde 30 ila 40 civarında bir işten çıkarma dalgası daha görüleceğini fakat seneye bu zamanlar piyasanın yerine oturup bir platoya ulaşacağını, 2027 yazında ayakta kalanların en azından sonraki 5 yıl boyunca işini koruyacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %42.7 | TUTMADI: %20.5 | KISMEN TUTTU: %29.8 | TUTTU: %7.0`
 - **Videoda Ne Demişti:** Cloudflare ve Coinbase gibi devlerin yapay zekayı gerekçe göstererek toplu işten çıkarmalar yapmasını değerlendiren Utku Şen, yapay zeka sayesinde 100 kişilik işin 60 kişiyle yapılabilir hale geldiğini anlatıyor. Sektörde bir süre daha işten çıkarmaların süreceğini ama modellerin pahalı olması, halüsinasyon riskleri ve insan gözetimi ihtiyacı yüzünden bu sürecin sonsuza kadar gitmeyeceğini belirtiyor. Seneye bu zamanlar tablonun netleşeceğini, 2027 yazında teknoloji sektöründe hayatta kalanların 2032 yazında da yerini koruyacağını kendi eğitimli tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Job Displacement Statistics 2026: Layoffs | Uvik Software](https://uvik.net/blog/ai-job-displacement-statistics)
     > *"The short answer: AI is not eliminating software engineering. It is splitting the market in two. Entry-level tech jobs are shrinking fast. New-grad hiring at the largest tech companies is down more than 50% since 2019 (SignalFire). Demand for senior engineers holds or grows: 71% of the 2025-2026 rebound in software job postings came from senior rol..."*
   - `[Tavily]` [Tech sector continues to shed workers amid AI shift](https://www.ciodive.com/news/IT-sector-hires-comptia-august/829851)
@@ -3716,11 +6181,21 @@
   - `[DuckDuckGo]` [Tech Layoffs 2026: 170,000 Cut — Is AI to Blame?](https://techjournal.org/tech-layoffs-2026-ai-spending)
     > *"Jul 27, 2026 · Tech Layoffs in 2026: Is AI Really to Blame? Tech firms cut 170,000 jobs in 2026 while spending billions on AI. The real numbers, which companies cut most, and whether AI is truly the cause."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zeka sayesinde şu an güvenlik açığı bulmada büyük bir patlama yaşansa da birkaç sene içinde yazılımlardaki açıkların yüzde 99 oranında azalacağını ve siber güvenliğin odak noktasının uygulama güvenliğinden tedarik zinciri gibi farklı alanlara kayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %8.9 | TUTTU: %8.4 | BELIRSIZ: %58.9 | KISMEN TUTTU: %23.9`
 - **Videoda Ne Demişti:** Linux çekirdeğindeki CopyFail açığının yapay zekayla kaynak kod tarayan bir firma tarafından bulunmasını ele alan Utku Şen, geçmişteki tezini yineliyor. Şu an modeller sayesinde açık kaynakta ve ticari yazılımlarda rekor sayıda açık çıktığını fakat bu açıkların kapatılması ve yapay zekanın zamanla çok daha güvenli kod yazmasıyla zafiyetlerin birkaç seneye neredeyse tamamen biteceğini, siber güvenliğin yok olmayacağını ama odağın tedarik zinciri saldırıları gibi yeni alanlara kayacağını kendi tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Vulnerability: Security Program Guide for CISOs | CSA](https://cloudsecurityalliance.org/artifacts/the-ai-vulnerability-storm)
     > *"| High | Threat Detection Dependent on Lagging Intelligence_CVE- and KEV-based intelligence structurally outpaced by AI discovery rates_ | Threat intelligence has been falling behind AI-accelerated vulnerability discovery for over a year. Mythos widens the gap further. The CVE system may not scale to AI-generated discovery rates, and novel vulnerab..."*
   - `[Tavily]` [AI Vulnerability Discovery and the Case for Systems Security Engineering](https://www.icitech.org/post/ai-vulnerability-discovery-and-the-case-for-systems-security-engineering)
@@ -3732,11 +6207,21 @@
   - `[DuckDuckGo]` [Real Time Application Security - Gain Deep Code-Level Insights](https://www.bing.com/aclick?ld=e8wQrbg_899xIqlqEm4-no1jVUCUzXNueZdoG9iy6nXAJ8hrfmXxquDC_iWHReMH3RIMRNvn2MJapgJ4tKZmmspgo7Vr-2lxJTyjj7AUJPsbmh4ODqlJv8kuNpB4odb3d60Uab7CM3k6niw2b5qI41TwHiBQYcd6Kjt9ljTRdSPiQ4dvMTpVAtnHM6487pR_pNQHb7StXhzUNt8CKBN4f0TxfTW7w&u=aHR0cHMlM2ElMmYlMmZtb25pdG9yLmx1bmlvLmFpJTJmdjMuMCUyZnRlbXBsYXRlJTNmYWNjaWQlM2QxNjg5NiUyNnVybGRlY29kZSUzZDElMjZrdyUzZGFwcHNlYyUyNm10JTNkcCUyNm53JTNkbyUyNmNwbiUzZDQyODMyOTI0MCUyNmRldmklM2RjJTI2ZGV2bSUzZCUyNmxvY3AlM2QxMzgwNzIlMjZsb2NpJTNkJTI2cGwlM2QlMjZjciUzZCUyNmFkcCUzZCUyNnNhZHQlM2QlMjZ1cmwlM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5kYXRhZG9naHEuY29tJTI1MkZkZyUyNTJGc2VjdXJpdHklMjUyRmFwcGxpY2F0aW9uLXNlY3VyaXR5LW1hbmFnZW1lbnQlMjUyRiUyNTNGdXRtX3NvdXJjZSUyNTNEYmluZyUyNTI2dXRtX21lZGl1bSUyNTNEcGFpZC1zZWFyY2glMjUyNnV0bV9jYW1wYWlnbiUyNTNEZGctc2VjdXJpdHktbmEtYXBwc2VjJTI1MjZ1dG1fa2V5d29yZCUyNTNEYXBwc2VjJTI1MjZ1dG1fbWF0Y2h0eXBlJTI1M0RwJTI1MjZpZ2FhZyUyNTNEMTI5NzQyNDg3NjM4NTgyNiUyNTI2aWdhYXQlMjUzRCUyNTI2aWdhY20lMjUzRDQyODMyOTI0MCUyNTI2aWdhY3IlMjUzRCUyNTI2aWdha3clMjUzRGFwcHNlYyUyNTI2aWdhbXQlMjUzRHAlMjUyNmlnYW50JTI1M0RvJTI1MjZ1dG1fY2FtcGFpZ25pZCUyNTNENDI4MzI5MjQwJTI1MjZ1dG1fYWRncm91cGlkJTI1M0QxMjk3NDI0ODc2Mzg1ODI2JTI2bXNjbGtpZCUzZDJmMGJkYTI0NDcyMDE5YTliNjI0YjBkZjM1NmI4NDQx&rlid=2f0bda24472019a9b624b0df356b8441)
     > *"Detect OWASP Attacks Out Of The Box, Including SSRFs, SQL Injections, XSS Attacks, & More. Align DevOps & Security Teams w/ Full Observability Data In 1 Platform. Watch A Demo Today"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, veri zehirleme ve eleştirel düşünce eksikliği yüzünden önümüzdeki 10 yıl içinde yapay zekanın her söylediğinin sorgulanmadan doğru kabul edildiği bir noktaya gelineceğini ve modellerin iplerini tutanların tarihi baştan yazacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %16.2 | TUTMADI: %1.1 | BELIRSIZ: %58.6 | KISMEN TUTTU: %24.1`
 - **Videoda Ne Demişti:** İnternetteki sahte bir bilginin Wikipedia üzerinden yapay zeka modellerinin eğitim setine kalıcı olarak sızdırılabilmesini ve toplumun Grok gibi araçlara körü körüne inanmasını eleştiren Utku Şen, insanların sorgulama kapasitesinin düşüklüğüne değiniyor. Önümüzdeki 10 yıl içinde yapay zekanın her dediğinin sorgulanmaz bir doğru haline geleceğini, modelleri yönetenlerin geçmişteki savaşları ve suçları istedikleri gibi unutturup manipüle edeceğini ve tarihin yapay zekayla yeniden yazılacağını kendi tehlike öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Exposing Pravda: How pro-Kremlin forces are poisoning AI models and rewriting Wikipedia - Atlantic Council](https://www.atlanticcouncil.org/blogs/new-atlanticist/exposing-pravda-how-pro-kremlin-forces-are-poisoning-ai-models-and-rewriting-wikipedia)
     > *"This strategy, in a likely attempt to evade global sanctions on Russian news outlets, is now poisoning AI tools and Wikipedia. By posing as authoritative sources on Wikipedia and reliable news outlets cited by popular large language models (LLMs), Russian tropes are rewriting the story of Russia’s war in Ukraine. The direct consequence is the expos..."*
   - `[Tavily]` [AI and the Holocaust: rewriting history? The impact of artificial](https://www.unesco.org/en/articles/ai-and-holocaust-rewriting-history-impact-artificial-intelligence-understanding-holocaust)
@@ -3748,15 +6233,29 @@
   - `[DuckDuckGo]` [En İyi Yapay Zeka Yeniden Yazma Aracı | DocTranslator](https://doctranslator.com/tr/ai-rewriter)
     > *"Yapay Zeka yeniden yazma aracı, metninizi yeniden yazmak, iyileştirmek ve yeniden ifade etmek için yapay zekayı kullanır. Orijinal anlamı ve bağlamı korurken yazılarınızın alternatif sürümlerini oluşturur, kaliteyi ve yaratıcılığı artırmanıza yardımcı olur."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 8. bölüm | 2. yarıda konuk: @denizalpim - 2021-03-06
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, şirketlerin yerel ağlardan bulut tabanlı kimlik sistemlerine geçmesiyle birlikte klasik Active Directory sistem yöneticilerinin 10 yıl sonra iş bulmasının çok zorlaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %6.3 | KISMEN TUTTU: %23.6 | BELIRSIZ: %61.6 | TUTTU: %8.6`
 - **Videoda Ne Demişti:** Okta'nın Auth0 firmasını 6,5 milyar dolara satın almasını ve modern girişimlerin yerel şirket ağı yerine bulut kimlik servislerine yönelmesini değerlendiren Utku Şen, artık taranabilir yerel Active Directory ağlarının devrinin kapandığını anlatıyor. Bulut tabanlı yetkilendirme pazarının inanılmaz büyüyeceğini belirterek, mevcut Active Directory sistem yöneticilerinin kendilerini bulut mimarilerine uyarlamaması halinde 10 yıl sonra iş bulmakta çok zorlanacağını kendi sektörel gelecek öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Migrate Off Active Directory with Okta | MSP Guide - ZeroTek](https://zerotek.com/blog/okta-active-directory-integration-migrate-off-ad-msps)
     > *"Modern MSPs live in a hybrid reality where some clients still cling to legacy tech like on premises Active Directory (AD), while also expecting frictionless access to cloud apps. If you’ve got customers like this, the fastest way to simplify their digital identities, close security gaps, and future-proof your stack is to integrate Okta with on-prem..."*
   - `[Tavily]` [The Benefits of Migrating from ADFS to Okta | Okta](https://www.okta.com/resources/whitepapers/the-benefits-of-migrating-from-adfs-to-okta)
@@ -3768,11 +6267,21 @@
   - `[DuckDuckGo]` [Active Directory integration - Okta Documentation](https://help.okta.com/en-us/Content/Topics/Directory/ad-agent-main.htm)
     > *"Integrate your existing Active Directory (AD) instance with Okta to simplify and centralize user management and share user credentials with other integrated cloud and on-premises applications."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, kripto paraların geleneksel bankacılık düzenindeki adaletsizlikleri çözemeyeceğini, devrimsel bir değişim yaratmayıp sadece mevcut finansal problemleri dijitale taşıyacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.1 | BELIRSIZ: %5.1 | KISMEN TUTTU: %31.7 | TUTTU: %60.1`
 - **Videoda Ne Demişti:** Kripto paraların geleneksel banka düzenini yıkacağı ve finansal sistemi tamamen değiştireceği yönündeki iddiaları ele alan Utku Şen, bu paraların mal ve hizmet alımında harcanmak yerine bir zenginleşme ve spekülasyon aracına dönüştüğünü anlatıyor. Birileri kazanırken diğerlerinin kaybetmek zorunda olduğu mevcut ekonomik döngünün aynen devam ettiğini vurgulayarak, kripto paraların gelecekte ticarette kullanılsa bile dünyadaki hiçbir temel soruna merhem olamayacağını ve sistemi yalnızca dijitalleştireceğini kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Impact of Cryptocurrency on Traditional Banking Systems](https://usrij.com/wp-content/uploads/2024/07/dandachiaghiad@gmail.com-1.pdf)
     > *"inclusion by providing access to banking services for underbanked populations. This digital initiative enables vulnerable and excluded customers in low and middle-income countries to participate in the financial system. 2. Reduced Barriers: Cryptocurrencies can lower barriers to entry for financial services by offering alternative payment systems t..."*
   - `[Tavily]` [The Decentralisation Dilemma: Cryptocurrency’s Impact on Financial Inclusion and Wealth Disparity (2020–2025) | OxJournal](https://www.oxjournal.org/the-decentralisation-dilemma)
@@ -3784,15 +6293,29 @@
   - `[DuckDuckGo]` [A Comprehensive Study on Cryptocurrency's Impact on ...](https://rjwave.org/jaafr/papers/JAAFR2606807.pdf)
     > *"This comprehensive analysis examines the evolving impact of cryptocurrency adoption on traditional banking systems through June 2026, incorporating recent developments including Central Bank Digital Currencies (CBDCs), enhanced regulatory frameworks, and institutional integration."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 10. bölüm - 2021-03-21
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Avrupa Birliği'nin uçtan uca şifrelemeyi yasaklaması halinde otokratik ülkelerin bunu örnek alıp kendi ülkelerinde şifrelemeyi tamamen yasaklayacağını ve bunun muhaliflerin fişlenmesi gibi büyük felaketlere yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %6.3 | BELIRSIZ: %19.9 | TUTMADI: %57.3 | KISMEN TUTTU: %16.5`
 - **Videoda Ne Demişti:** Avrupa Parlamentosunda uçtan uca şifrelemeye arka kapı koyma ve şifrelemeyi kaldırma oylamalarını değerlendiren Utku Şen, AB gibi hukuk devletlerinde bu çok büyük sorun yaratmasa bile üçüncü dünya ülkelerinin bunu meşru bir bahane olarak kullanacağını anlatıyor. Otokratik rejimlerin 'Avrupa'da bile yasak' diyerek şifreli iletişimi yasaklayacağını ve bunun muhaliflerin fişlenmesine kadar varan felaketlere yol açacağını kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Tell the EU: Don’t Break Encryption with “Chat Control” - Mozilla Foundation](https://www.mozillafoundation.org/en/campaigns/tell-the-eu-dont-break-encryption-with-chat-control)
     > *"Even if scanning starts with one type of content (like CSAM), it sets a dangerous precedent: the scope can easily be expanded to monitor other kinds of conversations. And once encryption is weakened, the risks multiply — hackers can steal sensitive data, abusers can track vulnerable people, and authoritarian regimes can spy on journalists, activist..."*
   - `[Tavily]` [Securing Encryption in Europe - Public Attitudes Stand in Contrast to EU Policy - Center for Democracy and Technology](https://cdt.org/insights/securing-encryption-in-europe-public-attitudes-stand-in-contrast-to-eu-policy)
@@ -3804,11 +6327,21 @@
   - `[DuckDuckGo]` [European law enforcement against end-to-end encryption](https://incyber.org/en/article/european-law-enforcement-against-end-to-end-encryption/)
     > *"May 9, 2024 · Its widespread use could hinder the detection of illegal activity on instant messaging services. On April 21, 2024, law enforcement from 32 European countries expressed their concerns over the rollout of end-to-end encryption by instant messaging apps."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, NFT'lerin aslında tek bir sunucuya ve web sitesine bağlı son derece kırılgan yapılar olduğunu, siteler kapandığında yatırımların çöpe gideceğini ve hatta site sahiplerinin eseri alanlara şantaj yapabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %22.7 | TUTMADI: %0.6 | TUTTU: %75.0 | BELIRSIZ: %1.6`
 - **Videoda Ne Demişti:** NFT çılgınlığını ve teknik altyapısını ele alan Utku Şen, NFT'lerin sanıldığı gibi blockchainde sonsuza kadar kalıcı olmadığını ve aslında tek bir web sitesinin sunucusundaki dosyalardan ibaret olduğunu anlatıyor. Bu siteler kapandığı anda milyonlarca dolarlık NFT'lerin buharlaşacağını, ayrıca site yöneticilerinin 'bize para vermezseniz siteyi kapatırız' diyerek eser sahiplerine şantaj bile yapabileceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Demystifying Web3 Centralization: The Case of Off-Chain NFT ...](https://fc23.ifca.ai/preproceedings/156.pdf)
     > *"security risks of centraliza-tion in the booming Web3 ecosystem. We focus on players around NFTs, one of the ecosystem’s most important parts, and perform a systematic study of the architecture-level vulnerabilities induced by centralized entities. Our results con-firm that centralization increases the overall attack surface by a wide margin. (...)..."*
   - `[Tavily]` [NFT Thefts Reveal Security Risks in Coupling Private Keys & Digital Assets](https://www.darkreading.com/vulnerabilities-threats/nft-thefts-reveal-security-risks-in-coupling-private-keys-digital-assets)
@@ -3820,15 +6353,29 @@
   - `[DuckDuckGo]` [Hidden Risks: The Centralization of NFT Metadata and What It ...](https://link.springer.com/chapter/10.1007/978-3-031-87775-9_13)
     > *"Apr 30, 2025 · Through a comprehensive analysis of the top-selling NFTs on the OpenSea marketplace, the study shows that a considerable proportion of metadata is hosted on centralized servers, rendering it susceptible to censorship, unauthorized modifications, and data loss due to server outages or breaches."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 11. bölüm - 2021-03-27
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, LinkedIn'in aşırı hantal yapısı ve berbat algoritması yüzünden artık asla toparlanamayacağını, Reddit veya Discord tarzı sade ve temiz bir rakip çıktığı anda LinkedIn'i 6 ay içinde yerle bir edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %95.9 | TUTTU: %0.7 | BELIRSIZ: %2.1 | KISMEN TUTTU: %1.3`
 - **Videoda Ne Demişti:** Microsoft'un şirket alımlarını ve LinkedIn'in mevcut durumunu değerlendiren Utku Şen, LinkedIn'in profil karmaşası ve alakasız akış algoritması yüzünden çarşamba pazarına döndüğünü anlatıyor. Platformun artık toparlanamayacak kadar kötüleştiğini belirterek Silikon Vadisi'nden çıkacak sade ve kullanıcı odaklı yeni nesil bir platformun LinkedIn'i 6 ayda silebileceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Ask HN: Why isn't there competition to LinkedIn yet? | Hacker News](https://news.ycombinator.com/item?id=46360146)
     > *"Once enough people join, we can launch our own open feed that connects directly to the people you follow. No need for the big platforms at all. You pull updates straight from their sites in real time and move freely without losing your content or your audience. It reuses the network effects we already have while giving you true ownership and indepe..."*
   - `[Tavily]` [LinkedIn just got its first real competitor in 20 years.](https://www.linkedin.com/posts/charlie-hills_linkedin-just-got-its-first-real-competitor-activity-7369942433570164736-18Ek)
@@ -3840,11 +6387,21 @@
   - `[DuckDuckGo]` [The 10 Best LinkedIn Alternatives for Hiring and ... - Upwork](https://www.upwork.com/resources/best-linkedin-alternatives)
     > *"Nov 5, 2026 · Our guide covers the 10 best LinkedIn alternatives, what they're built for, who they serve best, and why they're worth considering alongside (or instead of) LinkedIn. Not every platform is built for every kind of hire, and that's a good thing."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın müzik üretimi alanında hızla ilerlediğini ve yaklaşık 10 yıl sonra yapay zekaların baştan sona eksiksiz müzik albümleri çıkaracağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %41.9 | TUTMADI: %1.2 | KISMEN TUTTU: %49.7 | BELIRSIZ: %7.2`
 - **Videoda Ne Demişti:** Google'ın geliştirdiği yapay zeka tabanlı davul ritmi aracını deneyen Utku Şen, yapay zekanın müzik üretimine doğru adım adım yaklaştığını anlatıyor. Özellikle rap gibi kalıpları belirgin müzik türlerinin yapay zekayla çok rahat yapılabileceğini vurgulayarak 10 sene sonra yapay zekaların doğrudan müzik albümü çıkaracağı bir döneme girileceğini kendi gelecek tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The World's First Album Composed and Produced by an AI Has Been Unveiled](https://futurism.com/the-worlds-first-album-composed-and-produced-by-an-ai-has-been-unveiled)
     > *"Amper is an artificially intelligent music composer, producer, and performer. The AI was developed by a team of professional musicians and technology experts, and it’s the the very first AI to compose and produced an entire music album. The album is called I AM AI, and the featured single is set to release on August 21, 2017. Check out the song “Br..."*
   - `[Tavily]` [The Future of AI Music Generation has Landed](https://www.youtube.com/watch?v=zqj3-ZDagA0&vl=en)
@@ -3856,15 +6413,29 @@
   - `[DuckDuckGo]` [Artificial intelligence in music - Wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence_in_music)
     > *"Music software utilizes artificial intelligence (AI) to generate, classify, or recommend music. (1) Similar to its applications in other fields, AI in music simulates complex human cognitive processes. A prominent feature is the capability of an AI algorithm to learn from historical data, such as in computer accompaniment technology, where the AI l..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 13. bölüm - 2021-04-10
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, önümüzdeki 10-15 yıl içinde VR teknolojisinin aşırı gerçekçi bir sanal dünyaya dönüşeceğini, fiziksel iş toplantılarının tamamen tarihe karışacağını ve insanların Matrix benzeri bir evrende buluşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **7.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %2.8 | BELIRSIZ: %71.0 | TUTMADI: %4.8 | KISMEN TUTTU: %21.3`
 - **Videoda Ne Demişti:** VR gözlükle poker oynama deneyimini ve beyin dalgalarıyla oyun oynatan sistemleri anlatan Utku Şen, gelecekte iş toplantılarına fiziksel olarak gitme devrinin biteceğini söylüyor. Takacaksın gözlüğü hepimiz bir Matrix'in içindeyiz diyerek önümüzdeki 10-15 yıl içinde gerçek dünyayla yarışacak aşırı gerçekçi bir sanal dünyanın kurulacağını kendi gelecek vizyonu olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Are AR and VR the future of Virtual Meetings for Business?](https://blog.rgbsi.com/ar-vr-virtual-meetings-for-business)
     > *"Virtual meetings with VR require two things: a platform to host the meeting on and hardware like glasses to experience the 3D environment. As opposed to traditional meetings with video conferencing technology, VR enables a more personal experience for remote teams. Personnel can have meetings that more closely resemble in-person meetings, collectiv..."*
   - `[Tavily]` [Virtual Meetings are the future of business meetings! | Arthur](https://arthur.digital/blog/virtual-meetings-is-the-future-of-business-meetings)
@@ -3876,11 +6447,21 @@
   - `[DuckDuckGo]` [Will Virtual Reality Replace Physical Meetings in the Future?](https://globaldefenseventure.com/will-virtual-reality-replace-physical-meetings-in-the-future/)
     > *"The question is not whether virtual reality will replace physical meetings. The question is: Are you ready to lead the transformation, or will you wait until it’s too late?"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, düşünce gücüyle cihaz kontrol etme ve felçlileri hayata bağlama teknolojisinin gelecekte kesinlikle hayatımıza gireceğini fakat bu imkandan sadece aşırı zenginlerin faydalanabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %62.5 | TUTTU: %7.7 | TUTMADI: %3.4 | KISMEN TUTTU: %26.4`
 - **Videoda Ne Demişti:** Brown Üniversitesi'nin ve Neuralink'in beyin arayüzü çalışmalarını değerlendiren Utku Şen, 30 yıl sonra insanların oturdukları yerden hayatlarını idame ettirebileceklerini anlatıyor. Ancak küresel aşı dağıtımındaki adaletsizlik gibi bu teknolojinin de aşırı pahalı olacağını belirterek felçli bir insanı hayata bağlayacak sistemlerin sadece zenginlerin ulaşabileceği pahalı oyuncaklar olarak kalacağını kendi gelecek tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What do neuroscientists really think about brain-computer interfaces (BCIs)?](https://www.youtube.com/watch?v=B6N1xlWZ4QQ)
     > *"(13:08) don't want there to be a future where only people who are have the money or only people who have B been born into the right family have access to this (13:16) kind of life-saving Technology this is this kind of thing that even though it will be expensive practically I believe should genuinely be accessible for (13:24) anyone who needs it re..."*
   - `[Tavily]` [The Potential of Brain–Computer Interface Technologies in Low-and Middle-Income Countries Global Health Perspective - IEEE Pulse](https://www.embs.org/pulse/articles/the-potential-of-brain-computer-interface-technologies-in-low-and-middle-income-countries-global-health-perspective)
@@ -3892,11 +6473,21 @@
   - `[DuckDuckGo]` [Beyin-bilgisayar arayüzü - Vikipedi](https://tr.wikipedia.org/wiki/Beyin-bilgisayar_arayüzü)
     > *"Günümüzde çok çeşitli beyin - bilgisayar arayüzü uygulamaları bulunmaktadır. Bu uygulamalar başlıca kelime işleyiciler, uyarlanmış web tarayıcıları, tekerlekli sandalye ve nöro protezlerin kullanımı olarak sayılabilir."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, fiziksel sinemaya gitme devrinin gelecekte tamamen yok olacağını, film şirketlerinin korsan kayıplarını telafi etmek için dijitalde film başına bilet satma modeline geçmek zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %90.1 | BELIRSIZ: %5.5 | KISMEN TUTTU: %3.8 | TUTTU: %0.6`
 - **Videoda Ne Demişti:** Odadaki insan sayısını kamerayla sayıp ona göre film bileti kesen Venue adlı cihazı inceleyen Utku Şen, sinema salonlarının gelecekte tamamen kapanacağını anlatıyor. Streaming platformlarının korsan yüzünden sinemalar kadar kâr getiremediğini belirterek film şirketlerinin ayakta kalabilmek için aylık abonelik yerine yeni filmlere özel dijital bilet kesme sistemine mecburen evrileceğini kendi sektör öngörüsü olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will Movie Theaters Survive the Streaming Era? | Debate](https://www.youtube.com/watch?v=ipuxmBJcMN8&vl=en)
     > *"(1:13) theater, a cinema, that's got a 100red years of habit going for it. But is streaming in the process of sending that (1:22) habit to extinction? Is the big screen movie experience on its way to becoming obsolete? Or is there just something so (1:30) unique and timeless about that experience that there's no way it's going to go away? Well, we..."*
   - `[Tavily]` [Can the Movie Theater Possibly Survive Coronavirus?](https://time.com/5806060/coronavirus-movie-theaters-streaming)
@@ -3908,11 +6499,21 @@
   - `[DuckDuckGo]` [Future of Film: Theaters Evolve or Face Extinction](https://thenarrativepost.com/future-of-film-theaters-evolve-or-face-extinction/)
     > *"Mar 29, 2026 · While some predicted the demise of movie theaters in the face of streaming services, they’re proving remarkably resilient, albeit in a significantly altered form."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 4. Utku, eski kafalı vizyonu ve kendini güncelleyememesi yüzünden Oracle'ın çağın gerisinde kaldığını ve önümüzdeki 10 yıl içinde piyasadan tamamen silinebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.4/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %94.5 | BELIRSIZ: %3.0 | KISMEN TUTTU: %1.7 | TUTTU: %0.9`
 - **Videoda Ne Demişti:** Google ile Oracle arasındaki 10 yıllık Java telif davasında mahkemenin Google'ı haklı bulmasını değerlendiren Utku Şen, Oracle'ın çok hantal ve eski kafalı bir şirket olduğunu anlatıyor. Kendini yenileyemeyen bu tür moruk firmaların geride kalmaya mahkum olduğunu belirterek 10 sene sonra aramızda Oracle diye bir firmanın kalmayabileceğini kendi şirket tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Strange Fall of Oracle | How a $300 Billion AI Deal Changed Everything?](https://www.youtube.com/watch?v=5PyTHJGkYWk)
     > *"(8:18) So when Oracle's older customers stayed due to the complexity and cost of data migration, new companies started building in cloud. And this was proven (8:26) to be such a disaster for Oracle that by 2016, by the time Oracle started taking cloud seriously, its new software (8:33) license sales had fallen by 15% in just one year. and its total..."*
   - `[Tavily]` [Oracle slumps as gloomy forecasts, soaring spending fan AI bubble worries | Reuters](https://www.reuters.com/business/oracle-shares-drop-12-europe-after-forecasts-miss-wall-st-targets-2025-12-11)
@@ -3924,11 +6525,21 @@
   - `[DuckDuckGo]` [Oracle (ORCL) Stock Plunges 19% in Worst Weekly Decline Since ...](https://blockonomi.com/oracle-orcl-stock-plunges-19-in-worst-weekly-decline-since-dot-com-era/)
     > *"Jun 27, 2026 · Oracle (ORCL) stock plummeted 19% this week—its worst since 2001—as investors worry about $130B debt and AI infrastructure costs. 71% of analysts still bullish."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 5. Utku, Signal'in geliştirdiği gizli kripto para gönderme özelliğinin suçluların para trafiğini tamamen görünmez kılarak devletlerin başını çok ağrıtacağını ve bu yüzden birçok ülkede doğrudan yasaklanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **6.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %12.5 | KISMEN TUTTU: %9.7 | BELIRSIZ: %13.8 | TUTMADI: %63.9`
 - **Videoda Ne Demişti:** Signal'in MobileCoin üzerinden gizli kripto para transferi geliştirme planını ele alan Utku Şen, suçluları yakalamanın en temel yolunun para takibi olduğunu anlatıyor. Gerçek anlamda iz bırakmayan gizli bir para aktarımının suç ve uyuşturucu dünyasına yarayacağını belirterek devletlerin bu duruma kesinlikle izin vermeyeceğini ve özelliğin pek çok ülkede yasaklanacağını kendi siber güvenlik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Signal adopts MobileCoin, a crypto project linked to its own creator Moxie Marlinspike – Amy Castor](https://amycastor.com/2021/04/07/signal-adopts-mobilecoin-a-crypto-project-linked-to-its-own-creator-moxie-marlinspike)
     > *"Security expert Bruce Schneier thinks it’s an incredibly bad idea that “muddies the morality of the product, and invites all sorts of government investigative and regulatory meddling: by the IRS, the SEC, FinCEN, and probably the FBI.” He thinks the two apps—crypto and secure communications—should remain separate. In his mind, this is going to ruin..."*
   - `[Tavily]` [How Signal is playing with fire - by Casey Newton](https://www.platformer.news/how-signal-is-playing-with-fire)
@@ -3940,11 +6551,21 @@
   - `[DuckDuckGo]` [MobileCoin - Wikipedia](https://en.wikipedia.org/wiki/MobileCoin)
     > *"The integration of MobileCoin wallets into the popular security focused messenger app Signal received criticism. Security expert Bruce Schneier, who previously praised the app, stated that this would bloat the app and attract unwanted attention from the financial authorities."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 6. Utku, NFT teknolojisinin arkasında gerçek bir merkeziyetsizlik olmadığını, tek bir web sitesine bağımlı bu hantal yapısıyla gelecekte hiçbir varlık gösteremeyeceğini ve tamamen çökeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %60.7 | KISMEN TUTTU: %31.9 | TUTMADI: %4.0 | BELIRSIZ: %3.4`
 - **Videoda Ne Demişti:** İzleyicilerden gelen NFT sorusunu yanıtlayan Utku Şen, NFT'lerin blockchainde sonsuza kadar durduğu iddiasının palavra olduğunu ve tek bir sunucu çöktüğünde her şeyin yok olacağını anlatıyor. Mevcut yapısıyla NFT'lerin son derece anlamsız bir teknoloji olduğunu belirterek bu haliyle hiçbir geleceğe sahip olamayacağını kendi teknoloji tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Whatever happened to NFTs?](https://uk.finance.yahoo.com/news/nft-tokens-memes-tech-ethereum-blockchain-digital-141150386.html)
     > *"According to Nicolai Sondergaard, the downfall wasn't due to a flaw in the underlying tech, but rather how it was used. 'They became memeified… traded for pure speculation. Many were fully unaware of what NFTs could be used for aside from minting a collection of pixels,' Sondergaard said. The pattern reflects a broader trend in tech cycles that whe..."*
   - `[Tavily]` [NFT bubble has truly burst, but do they have a future?](https://www.dw.com/en/nft-sale-has-the-market-bubble-truly-burst-but-do-they-have-a-future/a-67599615)
@@ -3956,15 +6577,29 @@
   - `[DuckDuckGo]` [What Happened to NFTs? The Crash, Survivors and 2026 Market ...](https://www.webopedia.com/crypto/learn/what-happened-to-nfts/)
     > *"May 4, 2026 · Broadly speaking, the NFT boom unraveled under several pressures that intersected at the worst possible time. NFTs surged initially because buyers believed the next digital collectible could replicate Bitcoin’s ascent."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 14. bölüm - 2021-04-18
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, insan hayatının giderek kıymetlenmesi yüzünden 20 yıl içinde asker ölümlerinin toplumlarca kesinlikle kabul edilemez hale geleceğini, bu yüzden çatışma ve polis görevlerinin tamamen robotlara devredileceğini ve ilk aşamada otonom yapay zeka yerine robotları uzaktan yöneten oyuncuların (gamer) sahaya sürüleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %57.3 | TUTMADI: %2.5 | KISMEN TUTTU: %35.5 | TUTTU: %4.7`
 - **Videoda Ne Demişti:** Amerika'da test edilen polis köpek robotlarını ve Boston Dynamics'in askeri çalışmalarını değerlendiren Utku Şen, insan hayatının medeniyet geliştikçe çok daha değerli hale geldiğini anlatıyor. Gelecekte bir askerin bile ölmesine tahammül edilemeyeceğini belirterek önümüzdeki 20 yıl içinde çatışmaların ve toplumsal müdahalelerin robotlara devredileceğini, gelişmiş yapay zeka henüz riskli olduğu için ilk etapta oyun oynar gibi robotları joystick veya klavyeyle uzaktan kontrol eden eğitimli oyuncuların kullanılacağını kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Police 'Robot Dogs’ Raise Concerns as More Departments Adopt Them](https://www.governing.com/resilience/police-robot-dogs-raise-concerns-as-more-departments-adopt-them)
     > *"Some larger police forces also deploy military-grade robots such as PackBots, originally developed by iRobot Corp. These portable machines can be teleoperated, using actuators to handle weapons or inspect suspicious packages, and can communicate with suspects during hostage situations via an onboard audio system. They have long been used in disaste..."*
   - `[Tavily]` [PoliceOne: How teleoperated robotics will change patrol response – Missouri Sheriffs' Association](https://mosheriffs.com/2024/06/policeone-how-teleoperated-robotics-will-change-patrol-response)
@@ -3976,11 +6611,21 @@
   - `[DuckDuckGo]` [Teleoperation - Wikipedia](https://en.wikipedia.org/wiki/Teleoperation)
     > *"Teleoperation (or remote operation) is the operation of a system or machine at a distance, e.g. with a remote control device or program. It is most commonly associated with robotics and mobile robots, but can be applied to a range of other circumstances."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, ses tanıma teknolojisinin henüz çok ilkel olduğunu fakat yaklaşık 10 sene sonra cihazların her söyleneni kusursuz anlayacağını, çağrı merkezleri ve randevu alma işlerinin tamamen yapay zeka robotlarına devredileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **7.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %71.2 | TUTTU: %4.6 | TUTMADI: %1.7 | KISMEN TUTTU: %22.6`
 - **Videoda Ne Demişti:** Microsoft'un ses tanıma firması Nuance'ı satın almasını ele alan Utku Şen, Siri veya Alexa gibi mevcut sistemlerin henüz yetersiz kaldığını anlatıyor. Ancak yaklaşık 10 yıl sonra bu teknolojinin oturacağını, insanların restoran rezervasyonu yapmaktan su tesisatçısı çağırmaya kadar her türlü telefon görüşmesini robotlarla tereddütsüz halledebileceğini ve çağrı merkezlerinin tamamen otomatik hale geleceğini kendi vizyonu ve tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Microsoft buys Nuance Communications in a $16 billion deal](https://www.cnbc.com/2021/04/12/microsoft-buys-nuance-communications-in-16-billion-deal.html)
     > *"Nuance would be aligned with the part of Microsoft's business that serves businesses and governments. Nuance derives revenue by selling tools for recognizing and transcribing speech in doctor office visits, customer-service calls and voicemails. In its announcement, Microsoft said Nuance's technology will be used to augment Microsoft's cloud produc..."*
   - `[Tavily]` [Microsoft in advanced talks to buy speech-recognition company Nuance](https://www.cnbc.com/2021/04/11/microsoft-in-advanced-talks-to-buy-speech-recognition-company-nuance.html)
@@ -3992,11 +6637,21 @@
   - `[DuckDuckGo]` [Foundry Tools for Call Center Overview - Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/call-center-overview)
     > *"Mar 23, 2026 · Foundry Tools for Language and Speech can help you realize partial or full automation of telephony-based customer interactions, and provide accessibility across multiple channels."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, Rus güvenlik şirketlerinin istihbarata arka kapı ve açık servis etmesi sebebiyle Rusya'dan küresel çapta tutunabilecek bir siber güvenlik şirketinin çıkmasının artık imkansıza yakın olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %28.1 | BELIRSIZ: %12.5 | KISMEN TUTTU: %21.0 | TUTTU: %38.5`
 - **Videoda Ne Demişti:** Positive Technologies şirketinin Rus istihbaratına destek verdiği gerekçesiyle ABD tarafından yaptırım listesine alınmasını inceleyen Utku Şen, Rusya'nın bu tarz hamlelerle kendi girişimcilik dünyasını baltaladığını anlatıyor. Dünyanın artık her Rus firmasına istihbarat aparatı gözüyle bakacağını belirterek Rusya'dan dünya çapında güvenilir bir siber güvenlik devinin çıkmasının artık neredeyse imkansız hale geldiğini kendi sektörel çıkarımı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Russia’s Cybersecurity Companies Shrug Off Sanctions - CEPA](https://cepa.org/article/russias-cybersecurity-companies-shrug-off-sanctions)
     > *"A good example of a thriving Russian cybersecurity company is Positive Technologies. Launched in 2002, Positive Technologies grew into a global leader in testing for network vulnerabilities, publishing well-regarded research. The company organized hacker competitions such as the Positive Hack Days, used by the FSB and military intelligence to recru..."*
   - `[Tavily]` [The $1 billion Russian cyber company that the US says hacks for Moscow | MIT Technology Review](https://www.technologyreview.com/2021/04/15/1022895/us-sanctions-russia-positive-hacking)
@@ -4008,15 +6663,29 @@
   - `[DuckDuckGo]` [Positive Technologies - Wikipedia](https://en.wikipedia.org/wiki/Positive_Technologies)
     > *"Positive Technologies is a Russian information security research company and a global leader in cybersecurity. (2)(3) They are the organizer of Positive Hack Days (PHDays). The Company was founded in 2002 by Yury Maksimov, Dmitry Maksimov and Eugene Kireev."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 15. bölüm - 2021-04-24
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Thodex skandalı sonrasında hükümetin yapacağı yasal düzenlemenin iyi niyetli olmayacağını, pastadan büyük payı devlete alacak ağır adımlar atılacağını ve bu durumun Türk yatırımcıları yerli kripto para borsalarından kaçıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %24.6 | BELIRSIZ: %36.6 | TUTMADI: %11.7 | TUTTU: %27.2`
 - **Videoda Ne Demişti:** Thodex borsasının batması ve arkasından gelen mağduriyetleri değerlendiren Utku Şen, devletin bu krizleri bahane ederek sert adımlar atacağını anlatıyor. Hükümetin iyi niyetli davranmayıp pastanın büyük dilimini kendisine alacak bir düzenleme kurgulayacağını, bunun da Türk kripto para borsalarında işlem yapan yatırımcıları kaçıracağını kendi şahsi piyasa tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Turkey Closer to New Legislation After Recent Cryptoasset Exchange Failures Plague Consumers | Evertas](https://evertas.com/news/turkey-closer-to-new-legislation-after-recent-cryptoasset-exchange-failures-plague-consumers)
     > *"In April 2021, Turkish cryptoasset exchange Thodex suspended trading and went offline amid reports that its CEO had fled to Albania. Later the same month, cryptoasset exchange Vebitcoin ceased operations citing financial dire straits. Turkish consumers were left in the lurch, as many had moved to trading in cryptoassets as a hedge against the volat..."*
   - `[Tavily]` [CEO of collapsed crypto exchange Thodex found dead in Turkish prison - Turkish Minute](https://turkishminute.com/2025/11/01/ceo-of-collapsed-crypto-exchange-thodex-found-dead-in-turkish-prison)
@@ -4028,11 +6697,21 @@
   - `[DuckDuckGo]` [Thodex - Wikipedia](https://en.wikipedia.org/wiki/Thodex)
     > *"'It is suspected that he helped the Turkish cryptocurrency businessman, the 34-year-old is arrested by the police, here is how the authorities fell in his footsteps'."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Çinli üreticilerin kendi işletim sistemlerine geçmesiyle telefonlara sistem seviyesinde arka kapılar konacağını, uçtan uca şifrelemenin çöpe gideceğini ve Çin'in bu dinleme verilerini hükümetlere koz olarak satacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %6.8 | KISMEN TUTTU: %39.4 | BELIRSIZ: %22.6 | TUTTU: %31.3`
 - **Videoda Ne Demişti:** Huawei baz istasyonlarının Hollanda'da yaptığı gizli dinleme iddialarını ele alan Utku Şen, Türkiye'nin ekonomik şartlar yüzünden Çin telefonu cenneti haline geldiğini anlatıyor. Çin menşeli üreticilerin kendi işletim sistemlerini yazmasıyla sistemin altına arka kapı koyacaklarını, Signal veya WhatsApp uçtan uca şifrelemesinin hiçbir hükmünün kalmayacağını ve Çin'in toplanan bu vatandaş verilerini ticari pazarlıklarda ya da hükümetlere satarak kullanacağını kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Leak confirms GrapheneOS & Motorola partnership for non-Pixel hardware - Page 4 - News - Privacy Guides Community](https://discuss.privacyguides.net/t/leak-confirms-grapheneos-motorola-partnership-for-non-pixel-hardware/35840?page=4)
     > *"Considering the United States’ privileged access to big tech, history of utilizing backdoors, and suspicious incidents which indicate potential of widespread backdoors across popular computers (such as iPhones), This is FUD. There is no law mandating backdoors, unlike in China where the law is very vague. They can access unencrypted data, but can’t..."*
   - `[Tavily]` [Chinese Company Installs Backdoor on Android Devices - LoginTC](https://www.logintc.com/blog/chinese-company-installs-backdoor-on-android-devices)
@@ -4044,11 +6723,21 @@
   - `[DuckDuckGo]` [Securing Communications: Open Source Encryption vs Chinese ...](https://linuxsecurity.com/features/combating-chinese-telecom-hacking-encryption-open-source-apps)
     > *"Dec 16, 2024 · In this article, we delve into the unique challenges presented by Chinese Telecom hacking and explore how open-source encryption applications like Signal, Wire, Jami, and Element can combat this threat."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, otonom araçların yaygınlaşmasıyla birlikte motor sporları haricinde şoförlük diye bir mesleğin gelecekte tamamen ortadan kalkacağını ve herkesin cepten taksi çağıracağı bir düzene geçileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %7.8 | TUTMADI: %4.0 | BELIRSIZ: %38.4 | KISMEN TUTTU: %49.8`
 - **Videoda Ne Demişti:** Tesla'nın otopilot kazasını ve sürücüsüz araç teknolojilerini değerlendiren Utku Şen, gelecekte ulaşımın tamamen otonom hale geleceğini anlatıyor. Araba yarışları gibi sporlar dışında klasik şoförlük mesleğinin tarihe karışacağını, insanların akıllı cihazlarından tek tıkla sürücüsüz taksi çağıracağı bir geleceğin kurulacağını kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [4 Million Driving Jobs at Risk from Autonomous Vehicles: Report](https://www.insurancejournal.com/news/national/2017/03/27/445638.htm)
     > *"Email This Subscribe to Newsletter Article 20 Comments As many as four million truck, bus, delivery and taxi driving jobs could be lost if fully autonomous vehicle technology is adopted in a short period of time, according to a new report. (...) According to the CGPS report, of the nation’s 4.1 million driving jobs, 77 percent are delivery and heav..."*
   - `[Tavily]` [PROFESSIONAL PHV DRIVERS SINGAPORE:Grab, Gojek,Tada n Ryde | Autonomous vehicles could impact various jobs beyond PHV drivers, car...](https://www.facebook.com/groups/196663252089618/posts/1299446608477938)
@@ -4060,11 +6749,21 @@
   - `[DuckDuckGo]` [Autonomous vehicles and employment: An urban futures ...](https://www.sciencedirect.com/science/article/pii/S0264275121001013)
     > *"Jul 1, 2021 · By 2035, 75% of the total global light-duty-vehicles sales will refer to self-driving vehicles (Bansal et al., 2016) meaning that professional driving jobs will need to go down."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 4. Utku, VPN yazılımlarındaki açıkların kurumsal ağları savunmasız bırakması yüzünden klasik iç ağ mimarisinin tamamen yok olacağını, gelecekte her şeyin bulut tabanlı sıfır güven (Zero Trust) sistemlerine geçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %37.0 | TUTMADI: %1.3 | KISMEN TUTTU: %56.4 | BELIRSIZ: %5.2`
 - **Videoda Ne Demişti:** Pulse Secure gibi kurumsal VPN servislerinde çıkan uzaktan kod çalıştırma açıklarını inceleyen Utku Şen, tek bir VPN kapısı kırıldığında bütün iç ağın ele geçirilmesinin mimari bir hata olduğunu anlatıyor. Yeni nesil şirketlerin artık fiziksel bir ağ veya yerel sunucu kurmadığını belirterek, gelecekte saldırganların içeri sızabileceği klasik kurumsal ağ modellerinin tamamen kalkacağını ve kimlik bazlı erişim denetimlerinin şart olacağını kendi siber güvenlik tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The End of VPNs: Why Zero Trust Architecture Is Making Them Obsolete](https://medium.com/@sohail_saifii/the-end-of-vpns-why-zero-trust-architecture-is-making-them-obsolete-87afa55a6e0c)
     > *"Third-party access presents another major concern. 93% of respondents worry about backdoor vulnerabilities introduced by third-party VPN connections. With traditional VPNs, granting vendor access means giving them broad network privileges. With ZTNA, they get access only to specific applications they need. The Technical Superiority Beyond security,..."*
   - `[Tavily]` [Why VPNs and Firewalls Can’t Build a Zero Trust Architecture | Zscaler](https://www.zscaler.com/blogs/product-insights/why-vpns-and-firewalls-can-t-build-zero-trust-architecture)
@@ -4076,15 +6775,29 @@
   - `[DuckDuckGo]` [Zero Trust Architecture - Zero Trust Security Models](https://www.bing.com/aclick?ld=e8BlOstgEXTzELh0Q2gqNKxTVUCUwQgJjBKklRzuJq-SyFYK6Rd5Rk-FElI6-6ncw1O55b-4Z25DEoE0nJOJNcRWrtOelEsNfq_oQQOA27LBa7x7KImnqeHbU_q-plPzW_zROyOJDDRM2IQa9aYjpX_0fC6V0i03QpUJndniFkOP2HhV5Xj6481PBSNHKyOCmE7KfjRw&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZmEtZ3VpZGUtdG8tZW1icmFjaW5nLWEtemVyby10cnVzdC1zZWN1cml0eS1tb2RlbC5odG1sJTNmdXRtX2NhbXBhaWduJTNkYmluZ19lbWVhX0hBTV9lbl9zZWFyY2hfZ2VuZXJpY19zZWN1cml0eSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jb250ZW50JTNkRW1jZ1pyb1Ryc3RTdGd5X0VCJTI2dXRtX3Rlcm0lM2R6ZXJvJTI1MjB0cnVzdCUyNTIwbW9kZWwlMjZkZXZpY2UlM2RjJTI2X2J0JTNkNzE4MTIxNDAyODMzMTklMjZfYm0lM2RwJTI2bXNjbGtpZCUzZGFkMzkxMDA5ZjE4YTFhOTkyYTA4N2FmMjZjM2I1YjQw&rlid=ad391009f18a1a992a087af26c3b5b40)
     > *"Find out why security experts are using the zero-trust model for organizational security. Modernize your security strategy approach to survive the era of remote work and beyond. See Resources · Protect Your Business · Check Pricing · Extensible Data Platform"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 17. bölüm - 2021-05-08
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yaklaşık 10 yıl sonra 4K VR teknolojisinin gelişmesiyle insanların fiziksel olarak toplanıp toplantı yapmasının hiçbir anlamı kalmayacağını, iş dünyasının sanal masalara taşınacağını ve bu sanal toplantılara yönelik siber casusluk sızmalarının büyük bir tehdit haline geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %11.3 | TUTMADI: %0.9 | BELIRSIZ: %42.3 | KISMEN TUTTU: %45.5`
 - **Videoda Ne Demişti:** VR ortamında poker oynama deneyimini ve uzaktan çalışma düzenini değerlendiren Utku Şen, düşük çözünürlüklü grafiklerin bile şimdiden güçlü bir gerçeklik hissi verdiğini anlatıyor. Yaklaşık 10 yıl içinde 4K VR teknolojisi çıktığında insanların fiziksel olarak bir araya gelip toplantı yapmasına gerek kalmayacağını, şirketlerin sanal ortamda toplanacağını ve fiziksel olarak sızılamayan kritik toplantılara sanal dünyada sızılabilmesi yüzünden siber güvenliğin çok daha hayati bir boyuta taşınacağını kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Virtual reality headsets are vulnerable to hackers | UCR News | UC Riverside](https://news.ucr.edu/articles/2023/08/08/virtual-reality-headsets-are-vulnerable-hackers)
     > *"For instance, if you take a break from a virtual game to check your Facebook messages by air typing the password on a virtual keyboard generated by the headset, the spyware could capture your password. Similarly, spies could potentially interpret your body movements to gain access to your actions during a virtual meeting in which confidential infor..."*
   - `[Tavily]` [VR Meetings for Business: Use Cases & Benefits](https://glue.work/vr-meeting)
@@ -4096,15 +6809,29 @@
   - `[DuckDuckGo]` [Siber Güvenlik Etkinlikleri ve Webinarları 2026| Lostar](https://lostar.com.tr/siber-guvenlik-etkinlikleri/)
     > *"Lostar siber güvenlik etkinlikleri, yaklaşan ve geçmiş webibar içeriklerini inceleyin. Ücretsiz çevrimiçi etkinliklere katılın."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 18. bölüm - 2021-05-15
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, kripto paraların geleneksel bankacılığı bitireceği iddiasının bir hayal olduğunu, Bitcoin'in bankacılık sistemini kesinlikle öldürmeyeceğini ve iki yapının da gelecekte yan yana varlığını sürdüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %8.9 | TUTTU: %87.0 | TUTMADI: %1.1 | BELIRSIZ: %2.9`
 - **Videoda Ne Demişti:** Kripto para savunucularının 'Bitcoin bankaların ve ATM'lerin harcadığı elektriği telafi edecek, klasik bankacılığı bitirecek' tezine karşı çıkan Utku Şen, Thodex ve Mt. Gox gibi krizlerin de kanıtladığı üzere kripto borsalarının mecburen devlet denetimli bankalara dönüştüğünü anlatıyor. Gerçekçi bakıldığında Bitcoin'in geleneksel bankacılığı asla yok edemeyeceğini, hem bankacılık düzeninin hem de kripto sisteminin gelecekte beraber yaşamaya devam edeceğini kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will Bitcoin replace money in the future? - KBS](https://www.kbs.edu.au/blog/study-business/will-bitcoin-replace-money-future)
     > *"According to Cointelegraph, Bitcoin is designed as an alternative to the existing financial system which means governments and banks are not incentivised to facilitate Bitcoin adoption. However, there are countries like El Salvador that are beginning to use the bitcoin lightning network for daily transactions. This is a ‘layer 2’ network built on t..."*
   - `[Tavily]` [How is Bitcoin changing the traditional financial system?](https://21bitcoin.app/en/blog/how-is-bitcoin-changing-the-traditional-financial-system)
@@ -4116,15 +6843,29 @@
   - `[DuckDuckGo]` [Will Bitcoin Replace Traditional Banking? - Blockchain Council](https://www.blockchain-council.org/cryptocurrency/will-bitcoin-replace-traditional-banking/)
     > *"Mar 27, 2025 · Explore the potential of Bitcoin replacing traditional banking, examining its benefits, challenges, and the evolving role of decentralized finance."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 19. bölüm - 2021-05-22
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Valve'ın güvenlik açıklarını umursamaz tavrının eninde sonunda patlayacağını, kötü niyetli birilerinin CS:GO'daki uzaktan kod çalıştırma açığını kullanarak binlerce oyuncuya fidye yazılımı bulaştıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %76.5 | KISMEN TUTTU: %9.4 | TUTTU: %5.3 | BELIRSIZ: %8.9`
 - **Videoda Ne Demişti:** CS:GO oyun motorunda uzaktan kod çalıştırma (RCE) açığı bulan araştırmacıların Valve tarafından aylarca görmezden gelinmesini eleştiren Utku Şen, şirketin bu gevşekliğinin büyük bir felaketle sonuçlanacağını anlatıyor. Şimdilik iyi niyetli kişilere denk gelindiğini ama illaki bir gün kötü niyetli hackerların bu açığı yakalayacağını belirterek binlerce oyuncunun bilgisayarına fidye yazılımı (ransomware) bulaştırılacağını kendi siber güvenlik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [CS:GO, Valve Source games vulnerable to hacking using Steam invites](https://www.bleepingcomputer.com/news/security/cs-go-valve-source-games-vulnerable-to-hacking-using-steam-invites)
     > *"Here's another one where RCE is also achieved after connecting to a malicious server. Software engineer Bien Pham says that they reported it to Valve last year on April 2 and the company ignored them. It is unclear if all the videos show demonstration of the same remote code execution bug. (...) Secret Club has published multiple videos showcasing..."*
   - `[Tavily]` [Exploring Counter-Strike: Global Offensive Attack Surface](https://synacktiv.com/publications/exploring-counter-strike-global-offensive-attack-surface)
@@ -4136,15 +6877,29 @@
   - `[DuckDuckGo]` [CS:GO, Valve Source games vulnerable to hacking using Steam ...GitHub - Y0ung-DST/CSGO_RCE_WRITEUP_AND_POC: CS:GO RCE WriteupValve...](https://www.bleepingcomputer.com/news/security/cs-go-valve-source-games-vulnerable-to-hacking-using-steam-invites/)
     > *"Apr 12, 2021 · Secret Club has published multiple videos showcasing exploits of RCE bugs in CS:GO from multiple researchers claiming that Valve ignored them for long periods, from five months to a... One of the factors contributing to Counter-Strike Global Offensive’s (herein “CS:GO”) massive popularity is the ability for anyone to host their own c..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 21. bölüm - 2021-06-05
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, ekonomik şartlar yüzünden Türkiye'deki insanların yüzde 90'ının Çin üretimi telefonlara mecbur kalacağını ve ekonominin düzelmemesi halinde ülkenin 5-10 yıl içinde fiilen bir Çin sömürgesine dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %52.1 | TUTTU: %7.9 | TUTMADI: %17.7 | KISMEN TUTTU: %22.3`
 - **Videoda Ne Demişti:** Huawei'in kendi işletim sistemi HarmonyOS'u çıkarmasını ve Türkiye'deki ekonomik krizi değerlendiren Utku Şen, iPhone veya Samsung fiyatlarının uçtuğunu anlatıyor. Vatandaşların mecburen ucuz Çin telefonlarına yöneleceğini belirterek 5-10 sene içinde halkın yüzde 90'ının Çin telefonu kullanacağını ve bu durumun uzun vadede Türkiye'yi adeta bir Çin sömürgesi haline getireceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [9.4K views · 27 reactions | What happens if China "turns off the tap"? MPs are warning the UK remains dangerously exposed to China...](https://www.facebook.com/skynews/videos/what-happens-if-china-turns-off-the-tapmps-are-warning-the-uk-remains-dangerousl/1693714159048986)
     > *"0:00 / 1:14 What happens if China 'turns off the tap'? MPs are warning the UK remains dangerously exposed to China's dominance of critical minerals, which are used in everything from smartphones to F-35 fighter jets. Tom Cheshire explains why Britain's dependence on Chinese supply chains is becoming a national security concern. Join Sky News Defenc..."*
   - `[Tavily]` [(PDF) Huawei, 5G and China as a Security Threat](https://ccdcoe.org/uploads/2019/03/CCDCOE-Huawei-2019-03-28-FINAL.pdf)
@@ -4156,11 +6911,21 @@
   - `[DuckDuckGo]` [China’s 5G Mobile Technology in Asia: US Security Concerns ...](https://www.jstor.org/stable/resrep49233)
     > *"market of the US, of removing Chinese communications equipment for national security reasons. While America's wealthier allies have followed the US in banning the PRC from building out new networks, less developed nations have less readily accepted"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Çin telefonlarının kendi işletim sistemleriyle uçtan uca şifrelemeyi tamamen çöpe atacağını ve Çin'in bu cihazlardan topladığı Türk vatandaşlarına ait tüm mesajlaşma verilerini ileride imtiyazlar karşılığında Türkiye'ye satacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **7.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %1.9 | KISMEN TUTTU: %10.0 | TUTMADI: %13.7 | BELIRSIZ: %74.4`
 - **Videoda Ne Demişti:** Huawei telefonların Android yerine kendi işletim sistemi HarmonyOS'a geçmesini ele alan Utku Şen, sisteme konulacak ekran görüntüsü alma gibi basit arka kapılarla WhatsApp veya Signal şifrelemesinin hiçbir işe yaramayacağını anlatıyor. Çin'in topladığı bu vatandaş verilerini Amerika gibi saklamayacağını vurgulayarak ileride Türk hükümetiyle pazarlık yapıp çeşitli imtiyazlar koparmak karşılığında bu dinleme ve yazışma verilerini Türkiye'ye vereceğini veya satacağını kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Moolenaar, Krishnamoorthi Urge Action to Block CCP-Controlled Operating System HarmonyOS | Select Committee on the CCP](https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-krishnamoorthi-urge-action-block-ccp-controlled-operating-system)
     > *"HarmonyOS could contain backdoors and vulnerabilities designed to facilitate espionage. Moreover, in the context of mobile devices, the use of HarmonyOS will correspond with the use of the Huawei app store – giving the CCP veto power over a device user’s download decisions and the ability to access sensitive code. (...) Regarding the letter, Chairm..."*
   - `[Tavily]` [Black Hat Europe 2025 | Offensive Testing Of HarmonyOS NEXT Applications With Harm0nyz3r & DVHA](https://www.youtube.com/watch?v=4xfSTNgy8UE)
@@ -4172,11 +6937,21 @@
   - `[DuckDuckGo]` [HarmonyOS 2 Security Technical White Paper - HUAWEI](https://consumer.huawei.com/content/dam/huawei-cbg-site/common/campaign/privacy/whitepaper/harmonyos-2-security-technical-white-paper-v2.0.pdf)
     > *"In addition to protecting static data (such as code and read-only data segments), this technology also protects some dynamic data by using the Write-Rare protection mechanism, which safeguards data that is mostly read but seldom modified in the kernel."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, Huawei'in geliştirdiği HarmonyOS işletim sisteminin saat ve televizyonda çalışsa bile bilgisayar tarafında asla tutmayacağını ve hiçbir varlık gösteremeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %47.5 | TUTMADI: %33.5 | BELIRSIZ: %10.4 | TUTTU: %8.6`
 - **Videoda Ne Demişti:** HarmonyOS'un tüm cihazlarda ortak çalışacağı iddialarını değerlendiren Utku Şen, mobil ve akıllı ev aletlerinde kullanılabileceğini ama masaüstü bilgisayarlarda hiçbir karşılığı olmayacağını anlatıyor. Windows ve macOS dominasyonunun yanında HarmonyOS üzerinde ne doğru düzgün ofis programı ne tarayıcı ne de oyun çalıştırılabileceğini belirterek bilgisayar dünyasında tutunabilmesi için daha 40 fırın ekmek yemesi gerektiğini kendi teknoloji tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [From phones to PCs, Huawei’s HarmonyOS hits nearly a billion devices](https://finance.yahoo.com/news/phones-pcs-huawei-harmonyos-hits-230500799.html)
     > *"HarmonyOS remains minor on desktops and business laptops, but its growth trajectory stands out. Analysts note that a tenfold increase from a small base demonstrates momentum in segments where cost-sensitive consumers and regional adoption favor Huawei's platform. 'The supply-driven downturn in 2026 will not affect all PC platforms equally,' said Ki..."*
   - `[Tavily]` [Huawei's long-awaited Windows challenger will likely come to PCs this year — HarmonyOS Next makes the transition from phones to de...](https://www.tomshardware.com/software/operating-systems/huawei-long-awaited-windows-challenger-will-likely-come-to-pcs-this-year)
@@ -4188,15 +6963,29 @@
   - `[DuckDuckGo]` [Huawei's HM650 Desktop Claims 100% Domestic Parts, but ...](https://xenospectrum.com/en/huawei-hm650-enterprise-adoption/)
     > *"Nov 10, 2026 · Huawei is extending the combination of in-house CPU and OS that it has so far pursued in laptops to business desktop PCs. However, the 100% figure refers to the share of parts made in China."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 22. bölüm - 2021-06-12
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, uzaktan çalışma tartışmalarının sadece bir başlangıç olduğunu, 10 ila 30 yıl içinde tüm dünyanın günde 5 saat çalışma ve 3 gün hafta sonu tatili düzenine evrileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `TUTTU: %3.9 | BELIRSIZ: %61.8 | KISMEN TUTTU: %32.7 | TUTMADI: %1.6`
 - **Videoda Ne Demişti:** Apple çalışanlarının ofise dönmeyi reddetmesi ve uzaktan çalışma modellerini değerlendiren Utku Şen, günde 8 saat çalışmanın ve 2 günlük hafta sonunun artık günümüz dünyasında fazla ve verimsiz kaldığını anlatıyor. Sanayi devriminde 16 saatten 8 saate geçiş gibi yeni bir kırılmanın eşiğinde olunduğunu belirterek, önümüzdeki 10, 20 veya 30 yıl içinde bütün dünyanın cuma günlerinin de tatil olduğu 3 gün hafta sonu ve günde 5 saatlik esnek çalışma modeline geçeceğini kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Future of Work: Remote, Asynchronous, with a 4-day work week - EU Remote Jobs](https://euremotejobs.com/the-future-of-work-remote-asynchronous-with-a-4-day-work-week)
     > *"Many companies have started to test a 4-day work week model already. 4 Day Work Week, a not-for-profit community that advocates and encourages employers to support the idea of a 4-day week, learned that 63% of businesses found it easier to attract and retain talent with a 4 day work week. Image source: Business Insider, Jan 2022 Top 10 remote 4-day..."*
   - `[Tavily]` [The rise of the 4-day workweek](https://www.apa.org/monitor/2025/01/rise-of-4-day-workweek)
@@ -4208,15 +6997,29 @@
   - `[DuckDuckGo]` [Do Four-Day Workweeks Work? What The Research Actually Shows](https://www.forbes.com/advisor/business/four-day-workweek-statistics/)
     > *"Sep 22, 2026 · Four-day workweeks are gaining traction. We analyzed 75 studies to uncover what the research says about productivity, well-being and the future of work."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 23. bölüm - 2021-06-19
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, ABD ile Rusya arasındaki siber saldırıların diplomatik müzakerelerle çözülemeyeceğini, tarafların sürekli birbirini hacklediği bu sürecin Soğuk Savaş dönemindeki gibi yıllarca sürecek bir siber it dalaşı olarak devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %69.7 | TUTMADI: %1.7 | BELIRSIZ: %12.6 | KISMEN TUTTU: %16.1`
 - **Videoda Ne Demişti:** Biden ile Putin'in bir araya gelip siber saldırıları ve siber savaşı durdurma konusunu görüşmesini değerlendiren Utku Şen, geçmişte Obama döneminde de benzer kırmızı hat uyarıları yapılmasına rağmen hiçbir şeyin değişmediğini anlatıyor. Taraflardan biri siber saldırıya askeri karşılık verme gibi aşırı sert ve caydırıcı bir adım atmadıkça bu meselenin diplomasiyle çözülemeyeceğini belirterek, iki ülkenin birbirini aralıksız hacklediği bu durumun Soğuk Savaş dönemindeki ajan savaşları gibi yıllarca it dalaşı şeklinde süreceğini kendi şahsi siber güvenlik tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Biden-Putin summit reveals about future of cyber attacks | World Economic Forum](https://www.weforum.org/stories/cybersecurity/joe-biden-vladimir-putin-summit-cybersecurity)
     > *"The summit between US President Joe Biden and Russian President Vladimir Putin in Geneva, Switzerland, on 16 June brought together two superpowers that play a significant role in the global cyber arena. Biden brought up the recent attacks on the Colonial Pipeline in the US and said he would take action against any Russian cyber attacks. Putin denie..."*
   - `[Tavily]` [Biden and Putin speak after Geneva summit](https://www.cnbc.com/2021/06/16/biden-and-putin-speak-after-geneva-summit.html)
@@ -4228,15 +7031,29 @@
   - `[DuckDuckGo]` [2021 Russia–United States summit - Wikipedia](https://en.wikipedia.org/wiki/2021_Russia–United_States_summit)
     > *"After the summit, Biden told reporters he 'warned' Putin about the consequences of any future ransomware attacks, and that 'human rights violations' were undermining Russia's 'international status'."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 24. bölüm - 2021-06-26
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, önümüzdeki 5 ila 15 yıl içinde önce Avrupa Birliği ve gelişmiş ülkelerin ardından da tüm dünyanın haftada 4 gün çalışma ve günde 5-6 saat mesai düzenine kesin olarak geçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %3.8 | KISMEN TUTTU: %32.1 | TUTMADI: %5.6 | BELIRSIZ: %58.5`
 - **Videoda Ne Demişti:** Japonya'nın şirketlere 4 gün çalışma teşviki vermesini ve pandeminin uzaktan çalışmayı normalleştirmesini değerlendiren Utku Şen, sanayi devriminde 16 saatten 8 saate geçiş gibi yeni bir kırılma yaşandığını anlatıyor. Önümüzdeki 5 ila 15 yıl içinde haftalık çalışmanın mutlaka 4 güne ineceğini, cuma gününün tatil olacağını ve günlük mesainin de 5-6 saate düşeceğini, şirketlerin de çalışan memnuniyetinin verimliliği artırdığını bizzat görerek bu modeli benimseyeceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [47 Four Day Workweek Statistics You Should Know About | 4dayweek.io](https://4dayweek.io/blog/statistics)
     > *"Offering a reduced-hour workweek without cutting salaries is a bold move that U.S. or other U.S. companies are taking. While the number is still relatively small, it represents a significant shift towards prioritizing work-life balance and employee well-being. Trends & Predictions 38. Experts predict that by 2026, 80% of businesses, will have adopt..."*
   - `[Tavily]` [What the four-day workweek means for the future of employment | World Economic Forum](https://www.weforum.org/stories/jobs-and-the-future-of-work/what-the-four-day-workweek-means-for-the-future-of-employment)
@@ -4248,11 +7065,21 @@
   - `[DuckDuckGo]` [Four-Day Workweek Statistics: Key Trends & Data](https://founderreports.com/four-day-workweek-statistics/)
     > *"Apr 2, 2026 · Explore the latest four-day workweek statistics on productivity, burnout, hiring, and adoption—based on real data from global trials and studies."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Amerika'da gündeme gelen fidye ödemelerinin vergiden düşülmesi fikrinin yasalaşması halinde şirketlerin kendi kendilerine danışıklı fidye saldırıları düzenleyip devasa vergi kaçıracağını ve fidye yazılımı ekonomisini çığırından çıkaracağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %5.2 | BELIRSIZ: %53.4 | TUTTU: %1.8 | TUTMADI: %39.7`
 - **Videoda Ne Demişti:** Amerika'da şirketlerin ödediği fidye paralarını vergiden düşebilmesine yönelik tartışmaları ele alan Utku Şen, böyle bir kararın büyük bir felaket doğuracağını anlatıyor. Şirketlerin yedeklerini kenara koyup kendilerine bilerek fidye yazılımı bulaştırarak milyonlarca dolar vergi kaçıracağını, şirketlerin cebinden para çıkmadığı için fidyeleri patır patır ödeyeceğini ve bu durumun fidye yazılımı ekonomisini inanılmaz büyüterek sistemi tamamen kontrolden çıkaracağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Hit by a Ransomware Attack? Your Payment May be Deductible - SecurityWeek](https://www.securityweek.com/hit-ransomware-attack-your-payment-may-be-deductible)
     > *"The companies that pay ransomware demands directly are well within their rights to claim a deduction, tax experts said. To be tax deductible, businesses expenses should be considered ordinary and necessary. Companies have long been able to deduct losses from more traditional crimes, such as robbery or embezzlement, and experts say ransomware paymen..."*
   - `[Tavily]` [Theft Loss Tax Deduction: IRS Rules & Common Scams | Cherry Bekaert](https://www.cbh.com/insights/articles/irs-theft-loss-rules-for-5-common-scams)
@@ -4264,11 +7091,21 @@
   - `[DuckDuckGo]` [Ransomware Payment | Are They Tax Deductable | Taylor Gast](https://www.michiganitlaw.com/are-ransomware-payments-tax-deductible)
     > *"Nov 13, 2017 · An alternative to an ordinary and necessary business expense would be to deduct a ransomware payment as a theft loss. Under Tax Code section 165 (a), an expense is deductible for any theft loss sustained that is not compensated by insurance or some other means."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, GitHub'ın tüm DevOps adımlarını kendi bünyesine toplamasıyla birlikte Jira gibi dev proje yönetimi araçlarını gelecekte tamamen işe yaramaz hale getirip piyasadan silebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %89.9 | BELIRSIZ: %5.9 | TUTTU: %0.2 | KISMEN TUTTU: %4.1`
 - **Videoda Ne Demişti:** GitHub'ın Jira ve Trello benzeri yeni Issues ve proje yönetimi panolarını inceleyen Utku Şen, platformun tüm yazılım geliştirme döngüsünü kendi içinde çözmeye odaklandığını anlatıyor. Yıllar içinde bu sistemin daha da geliştirileceğini belirterek şirketlerin artık harici araçlara ihtiyaç duymayacağını ve GitHub'ın tek başına Jira gibi yazılımları gelecekte çöpe attırıp gereksiz kılabileceğini kendi sektör öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Jira vs GitHub Issues | Atlassian](https://www.atlassian.com/software/jira/comparison/jira-vs-github)
     > *"Jira logo GitHub Issues is used for project planning. Jira fulfills the advanced needs of software teams and comes with the power and flexibility that agile teams need to ship value to customers faster. DevOps toolchain settings screen in Jira Software Give your developers the best of the best Jira is the backbone of your Open DevOps workflow (...)..."*
   - `[Tavily]` [What is the best practice for handling Issues and Status of Deployment? · community · Discussion 170318 · GitHub](https://github.com/orgs/community/discussions/170318)
@@ -4280,11 +7117,21 @@
   - `[DuckDuckGo]` [GitHub - actions/importer-issue-ops: GitHub Actions Importer ...](https://github.com/actions/importer-issue-ops)
     > *"The GitHub Actions Importer IssueOps repository demonstrates the functionality necessary to run GitHub Actions Importer commands through Actions and Issues, allowing you to migrate your CI/CD workflows without needing to install software on your local machine."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, yeni duyurulan MITRE D3FEND çerçevesinin henüz yolun başında olmasına rağmen gelecekte defansif güvenlik ve mavi takım uzmanlarının bir numaralı başvuru kaynağı haline geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.6 | BELIRSIZ: %7.8 | KISMEN TUTTU: %33.8 | TUTTU: %55.8`
 - **Videoda Ne Demişti:** Saldırı tekniklerini listeleyen MITRE ATT&CK çerçevesinin savunma tarafındaki karşılığı olarak yayımlanan MITRE D3FEND'i inceleyen Utku Şen, tespit ve sıkılaştırma adımlarının çok başarılı kategorize edildiğini anlatıyor. Henüz yeni bir proje olmasına rağmen ilerleyen dönemde defansif siber güvenlikte çalışan herkesin kesin olarak başvuracağı en temel rehberlerden biri olacağını kendi sektör tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [MITRE D3FEND Matrix: A Framework for Cyber Defensive Techniques](https://www.deepwatch.com/glossary/mitre-d3fend-matrix)
     > *"The MITRE D3FEND Matrix is a knowledge graph and structured framework that catalogs cybersecurity defensive techniques and maps them to the digital artifacts and adversary attack methods they are designed to counter. Developed by MITRE Corporation with funding from the National Security Agency (NSA), D3FEND provides a complementary counterpart to t..."*
   - `[Tavily]` [What Is MITRE D3FEND? | Splunk](https://www.splunk.com/en_us/blog/learn/mitre-defend.html)
@@ -4296,15 +7143,29 @@
   - `[DuckDuckGo]` [D3FEND Matrix | MITRE D3FEND™](https://d3fend.mitre.org/)
     > *"D3FEND is a knowledge base of cybersecurity countermeasure techniques. In the simplest sense, it is a catalog of defensive cybersecurity techniques and their relationships to offensive/adversary techniques. The primary goal of the initial D3FEND release is to help standardize the vocabulary used to describe defensive cybersecurity technology functi..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 25. bölüm - 2021-07-05
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, haftada 4 gün çalışma modelinin dünyada kaçınılmaz bir standart haline geldiğini ve tıpkı uzaktan çalışmada olduğu gibi Türkiye'deki şirketlerin de eninde sonunda bu düzene mecbur kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %28.3 | KISMEN TUTTU: %53.0 | TUTMADI: %8.2 | TUTTU: %10.6`
 - **Videoda Ne Demişti:** İzlanda'da yapılan haftada 4 gün çalışma denemelerinin başarısını değerlendiren Utku Şen, mevcut 5 gün 8 saatlik çalışma düzeninin verimsiz ve gereksiz olduğunu anlatıyor. Devletler yasa çıkarmasa bile büyük küresel şirketlerin bu modele geçeceğini, dünyanın akışına hiçbir şirketin direnemeyeceğini belirterek birkaç yıl veya on yıl sürse bile Türkiye'nin de eninde sonunda haftada 4 gün çalışmaya geçeceğini kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What the four-day workweek means for the future of employment | World Economic Forum](https://www.weforum.org/stories/jobs-and-the-future-of-work/what-the-four-day-workweek-means-for-the-future-of-employment)
     > *"It is not just individual organizations like ours that are adopting a four-day workweek, countries such as Japan, Ireland, and Iceland have also implemented the four-day workweek on a significant scale. In addition, the world’s largest economy, the US, has also seen its momentum growing, with nearly a hundred members of the US Congress recently end..."*
   - `[Tavily]` [The Four-Day Work Week Learnings from Companies at ...](https://mgaleg.maryland.gov/cmte_testimony/2024/fin/1Z7cJqwZB-VALczY9QJ8VbrhD_VYDlf_z.pdf)
@@ -4316,11 +7177,21 @@
   - `[DuckDuckGo]` [Countries With 4-Day Work Weeks in 2026: Complete Global Guide](https://www.4dayjob.com/blog/countries-with-4-day-work-week)
     > *"Countries With 4-Day Work Weeks in 2026: Complete Global Guide 🌍 Quick Summary While no country has made the 4-day work week mandatory nationwide, several countries are leading the global movement through government trials, legislation, and widespread private-sector adoption."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Avrupa Birliği baskısıyla Apple'ın harici uygulama mağazalarına izin vermesi halinde denetimsiz marketler yüzünden iPhone güvenliğinin tamamen çökeceğini ve telefonların zararlı yazılımlarla dolacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.9 | KISMEN TUTTU: %19.0 | TUTTU: %5.6 | TUTMADI: %66.5`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin Apple'a yönelik antitröst baskılarını ve alternatif uygulama mağazası zorunluluğunu inceleyen Utku Şen, Apple'ın komisyonları düşürmesi gerektiğini ama harici marketlere asla izin vermemesi gerektiğini savunuyor. Dışarıdan açılacak üçüncü parti mağazaların denetlenemeyeceğini belirterek, profilime kim baktı tarzı tuzak uygulamalar üzerinden milyonlarca cihaza virüs bulaşacağını ve iPhone ekosisteminin güvenliğinin yerle bir olacağını kendi siber güvenlik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [App Sideloading Risks for iOS Users](https://alluresecurity.com/blog/sideloading-risk)
     > *"Outdated versions of legitimate applications persist on third-party stores long after security vulnerabilities have been patched in official releases, exposing users who install these versions to known exploits that attackers can target with precision. Modified applications take legitimate apps and inject additional code—advertising networks, data..."*
   - `[Tavily]` [Building a Trusted Ecosystem for Millions of Apps - A threat ...](https://www.apple.com/privacy/docs/Building_a_Trusted_Ecosystem_for_Millions_of_Apps_A_Threat_Analysis_of_Sideloading.pdf)
@@ -4332,11 +7203,21 @@
   - `[DuckDuckGo]` [AI Driven Cyber Security - AI Cybersecurity Guide](https://www.bing.com/aclick?ld=e8LRk_oXWvpFpcc5vJsOtNMTVUCUyfCwYWPlFdRQXmjaJ6Rka-lax9uq8Hp9_eZm-X-_KKtij22DzsarQC4XgaZemNvU46fauWRLZNsIADLJctAQ9Wt-CLcT2rbY0eSJGGVS90nN8QZz5rJ0F_tPZJUHapjKaJnLGVWCpACRRP1fpin_dlhd5Et44nh003xDvSW7RZzA&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZmFyY2hpdGVjdGluZy1hLXNjYWxhYmxlLXNlY3VyaXR5LWRhdGEtZmFicmljLWZvci10aGUtYWktZXJhLmh0bWwlM2Z1dG1fY2FtcGFpZ24lM2RiaW5nX2VtZWFfSEFNX2VuX3NlYXJjaF9nZW5lcmljX3NlY3VyaXR5JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2RFU0dBSUVyYV9XUF9WMiUyNnV0bV90ZXJtJTNkYWklMjUyMGluJTI1MjBjeWJlcnNlY3VyaXR5JTI2ZGV2aWNlJTNkYyUyNl9idCUzZDcxNTM3MjYzNDMyMzkwJTI2X2JtJTNkcCUyNm1zY2xraWQlM2Q1MzhlNWJmNmExNWUxMTEwZjRjZjMxMGQxMmE2ZjMzYw&rlid=538e5bf6a15e1110f4cf310d12a6f33c)
     > *"Explore five building blocks for a scalable security data platform. Download now. Learn how security leaders are modernizing SOC data platforms for the AI era."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, fidye yazılımı sektörünü bitirmenin tek yolunun hackerlara para ödemeyi tamamen kesmek olduğunu, para akışı durduğunda bu suç modelinin kâr getirmeyip kendiliğinden çökeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %18.7 | KISMEN TUTTU: %44.7 | TUTTU: %9.4 | BELIRSIZ: %27.2`
 - **Videoda Ne Demişti:** Kaseya tedarik zinciri üzerinden REvil grubunun yüzlerce şirkete fidye yazılımı bulaştırıp 50 milyon dolar istemesini ele alan Utku Şen, şirketlerin fidyeyi asla ödememesi gerektiğini vurguluyor. Para ödendikçe bu ekonominin büyüdüğünü anlatırken, ödemeler kesilirse şirketlerin bir iki yıl veri kaybı yüzünden büyük sıkıntı çekeceğini ama hackerlar para kazanamadığı için fidye yazılımı sektörünün tamamen ortadan kalkacağını kendi sektörel çözümü ve tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [International legal responses to ransomware: toward a ban on payments? | International Cybersecurity Law Review | Springer Nature...](https://link.springer.com/article/10.1365/s43439-025-00167-z)
     > *". Accessed 4 Sept 2025')). Stopping that flow could keep more money in the legitimate economy and avoid funding of other illicit activities (some ransomware gangs reinvest in other crimes or, in cases like North Korea’s, fund weapons programs). But if a ban leads to more data being destroyed or leaked, the losses might still manifest in other ways..."*
   - `[Tavily]` [Ransomware legislative proposals: reducing payments to cyber criminals and increasing incident reporting (accessible) - GOV.UK](https://www.gov.uk/government/consultations/ransomware-proposals-to-increase-incident-reporting-and-reduce-payments-to-criminals/ransomware-legislative-proposals-reducing-payments-to-cyber-criminals-and-increasing-incident-reporting-accessible)
@@ -4348,11 +7229,21 @@
   - `[DuckDuckGo]` [The Path to Banning Ransomware Payments](https://www.centerforcybersecuritypolicy.org/insights-and-research/the-path-to-banning-ransomware-payments)
     > *"Dec 18, 2023 · Organizations attacked by a ransomware gang face a stark choice of whether to pay or not. For years there have been discussions on how to stop the payments, but these have been too extreme and now is the time for a reasonable scenario to ban ransomware payments."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 4. Utku, Microsoft sertifikasını kötüye kullanarak Windows çekirdeğine zararlı yazılım sokan Çinli şirketlerin bu pervasızlıkları yüzünden yakında küresel çapta topyekun boykot edileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **6.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %11.5 | TUTTU: %2.2 | KISMEN TUTTU: %20.7 | TUTMADI: %65.6`
 - **Videoda Ne Demişti:** Netfilter isimli Çin menşeli bir sürücünün Microsoft dijital sertifikası alarak sistemlere truva atı bulaştırmasını değerlendiren Utku Şen, Çinli firmaların bu agresif ve sorumsuz hareketlerinin bardağı taşırdığını anlatıyor. Microsoft'un bu şirketlerle çalışmayı tamamen kesebileceğini belirterek, bu tür pervasız hamleler yüzünden yakında bütün Çinli teknoloji firmalarının küresel bir boykotla karşı karşıya kalacağını kendi piyasa tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Huawei equipment poses 'significant' security risks, UK says](https://www.cnbc.com/2019/03/28/huawei-equipment-poses-significant-security-risks-uk-says.html)
     > *"The U.S. and China are racing to implement 5G technology, and American intelligence officials have urged allies to boycott Huawei from providing infrastructure for the new networks citing security risks. The U.S. has also accused Huawei of violating American sanctions on Iran and stealing trade secrets, which the company also denies. (...) Last yea..."*
   - `[Tavily]` [2020 in Review: Chinese Companies Suffer as Global Technology Tensions Intensify | Council on Foreign Relations](https://www.cfr.org/articles/2020-review-chinese-companies-suffer-global-technology-tensions-intensify)
@@ -4364,15 +7255,29 @@
   - `[DuckDuckGo]` [Criticism of Huawei - Wikipedia](https://en.wikipedia.org/wiki/Criticism_of_Huawei)
     > *"The Chinese multinational information technology and consumer electronics company Huawei has faced numerous criticisms for various aspects of its operations, particularly in regards to cybersecurity, intellectual property, and human rights violations."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 28. bölüm - 2021-08-02
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, önümüzdeki 5 ila 15 yıl içinde başta Batı Avrupa olmak üzere tüm dünyanın haftada 4 gün çalışma ve günde 6 saatlik mesai modeline kesin olarak geçeceğini, bu dönüşümün en son Türkiye'ye geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.1 | TUTTU: %4.5 | KISMEN TUTTU: %28.5 | BELIRSIZ: %64.9`
 - **Videoda Ne Demişti:** İzlanda'nın haftalık çalışma gününü 4 güne indirmesi haberini değerlendiren Utku Şen, haftada 5 gün 8 saat çalışmanın insan doğasına aykırı ve verimsiz olduğunu savunuyor. Şirketlerin 4 gün ve 6 saatlik modelin çalışan verimliliğini artırdığını bizzat göreceğini belirterek, önümüzdeki 5 ila 15 yıl içinde önce Batı Avrupa ülkelerinin ardından büyük Amerikan şirketlerinin ve en sonunda Türkiye'nin bu modele mecburen geçeceğini kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What the four-day workweek means for the future of employment | World Economic Forum](https://www.weforum.org/stories/jobs-and-the-future-of-work/what-the-four-day-workweek-means-for-the-future-of-employment)
     > *"It is not just individual organizations like ours that are adopting a four-day workweek, countries such as Japan, Ireland, and Iceland have also implemented the four-day workweek on a significant scale. In addition, the world’s largest economy, the US, has also seen its momentum growing, with nearly a hundred members of the US Congress recently end..."*
   - `[Tavily]` [The Four-Day Work Week Learnings from Companies at ...](https://mgaleg.maryland.gov/cmte_testimony/2024/fin/1Z7cJqwZB-VALczY9QJ8VbrhD_VYDlf_z.pdf)
@@ -4384,11 +7289,21 @@
   - `[DuckDuckGo]` [Countries With 4-Day Work Weeks in 2026: Complete Global Guide](https://www.4dayjob.com/blog/countries-with-4-day-work-week)
     > *"Countries With 4-Day Work Weeks in 2026: Complete Global Guide 🌍 Quick Summary While no country has made the 4-day work week mandatory nationwide, several countries are leading the global movement through government trials, legislation, and widespread private-sector adoption."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, insanların tüm dijital verilerini toplayıp suç ve terör eylemlerini önceden kestiren yapay zeka sistemlerinin imkansız görünse bile 15-20 yıl içinde kesinlikle gerçeğe dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %66.7 | TUTTU: %7.3 | TUTMADI: %1.2 | KISMEN TUTTU: %24.8`
 - **Videoda Ne Demişti:** Pentagon'un tehditleri önceden haber veren yapay zeka denemesini değerlendiren Utku Şen, küresel metadataları toplayıp analiz etmenin çok zor olduğunu anlatıyor. Ancak atom bombası veya radara yakalanmayan uçaklar gibi zor projelerin tarihte başarıldığını hatırlatarak, bilim insanlarının çabasıyla 15 ila 20 yıl sonra bu tür önleyici yapay zeka sistemlerinin mutlaka hayatımıza gireceğini kendi gelecek öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Pentagon Wants AI to Predict Events Before They Occur - IEEE Spectrum](https://spectrum.ieee.org/predictive-ai-pentagon)
     > *"Though such an idea came long before its time, today's machine learning technologies are now capable of detecting subtle patterns in seemingly random data and could start making accurate predictions about adversaries in the near-term. Amidst the wellspring of enthusiasm for AI-enabled decision tools, U.S. defense leaders are hoping to deflect any c..."*
   - `[Tavily]` [AI in US Warfare: Pentagon Pushes AI into Classified Combat, Algorithms Near Kill Chain | WION](https://www.youtube.com/watch?v=ljljYPvdqis)
@@ -4400,11 +7315,21 @@
   - `[DuckDuckGo]` [Pentagon rakiplerinin hamlelerini önceden görebilmek için ...](https://www.indyturk.com/node/395086/pentagon-rakiplerinin-hamlelerini-önceden-görebilmek-için-yapay-zeka-deneyleri-yapıyor)
     > *"Aug 4, 2021 · ABD Savunma Bakanlığı (Pentagon), rakiplerin hamlelerini önceden tahmin edebilmek için son teknoloji bulut ağlarını ve yapay zeka sistemlerini kullanmayı hedefliyor."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, sosyal medyada dezenformasyona hapis cezası getiren düzenlemenin yalan haberleri durduramayacağını, iktidarın elinde muhalifleri susturacak bir silaha dönüşeceğini ve dolar tahmini yapanların bile hapse gireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.9 | TUTTU: %82.7 | BELIRSIZ: %1.5 | KISMEN TUTTU: %14.9`
 - **Videoda Ne Demişti:** Almanya modeli adı altında gündeme gelen sosyal medyada dezenformasyona 1 ila 5 yıl hapis cezası tasarısını ele alan Utku Şen, bu yöntemle dezenformasyonla mücadele edilemeyeceğini anlatıyor. Hükümetin elinde bu kanunun korkunç bir silaha evrileceğini belirterek, ileride 'dolar 10 lira olacak' diye tweet atanların veya afet anında yanlış bilgi paylaşanların dezenformasyon bahanesiyle doğrudan hapse atılacağını kendi siyasi ve hukuki tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Inside Turkey’s Lawfare: How Turkey uses its disinformation law against journalists - Committee to Protect Journalists](https://cpj.org/2026/10/inside-turkeys-lawfare-how-turkey-uses-its-disinformation-law-against-journalists)
     > *"Istanbul, October 5, 2026—Turkish authorities have weaponized the country’s disinformation law to stifle independent reporting by repeatedly detaining and arresting journalists on charges of spreading false information based on the vague tenets of this poorly conceived legislation. This tactic fits into a global pattern of using legal systems and i..."*
   - `[Tavily]` [Turkey’s New Disinformation Law: An Alarming Trend Towards Cyber-Authoritarianism - Stiftung Wissenschaft und Politik](https://www.swp-berlin.org/en/publication/turkeys-new-disinformation-law-an-alarming-trend-towards-cyber-authoritarianism)
@@ -4416,15 +7341,29 @@
   - `[DuckDuckGo]` [Inside Turkey’s Lawfare: How Turkey uses its disinformation ...](https://cpj.org/2026/10/inside-turkeys-lawfare-how-turkey-uses-its-disinformation-law-against-journalists/)
     > *"Oct 5, 2026 · Istanbul, October 5, 2026—Turkish authorities have weaponized the country’s disinformation law to stifle independent reporting by repeatedly detaining and arresting journalists on charges of spreading false information based on the vague tenets of this poorly conceived legislation."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 29. bölüm - 2021-08-09
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Apple'ın çocuk istismarını önleme bahanesiyle getirdiği tarama sisteminin birkaç yıl içinde terörizm ve siyasi takibe genişletileceğini ve uçtan uca şifrelemenin adım adım tamamen ortadan kaldırılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **8.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %85.3 | BELIRSIZ: %11.6 | TUTTU: %0.9 | KISMEN TUTTU: %2.2`
 - **Videoda Ne Demişti:** Apple'ın iCloud ve iMessage üzerinde çocuk istismarı içeren fotoğrafları tarayacağını duyurmasını değerlendiren Utku Şen, videoya özellikle not düşerek 3-5 yıl içinde bu kapının sonuna kadar açılacağını anlatıyor. Bir sonraki adımda sistemin terörizm bahanesiyle genişletileceğini, ardından baskıcı rejimlerin muhalif avına kadar gideceğini belirterek devlet baskılarına dayanamayan teknoloji devlerinin uçtan uca şifrelemeyi yıllar içinde tamamen bitireceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Apple's Plan to "Think Different" About Encryption Opens a Backdoor to Your Private Life | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2021/08/apples-plan-think-different-about-encryption-opens-backdoor-your-private-life)
     > *"Since the detection of a “sexually explicit image” will be using on-device machine learning to scan the contents of messages, Apple will no longer be able to honestly call iMessage “end-to-end encrypted.” Apple and its proponents may argue that scanning before or after a message is encrypted or decrypted keeps the “end-to-end” promise intact, but t..."*
   - `[Tavily]` [The Broken Promise of Apple’s Announced Forbidden-photo Reporting System – And How To Fix It | Center for Reliable Information Sys...](https://www.bu.edu/riscs/2021/08/10/apple-csam)
@@ -4436,15 +7375,29 @@
   - `[DuckDuckGo]` [Apple’s CSAM curbing features: A backdoor to privacy?](https://www.igeeksblog.com/apple-csam-prevention-features-for-child-safety/)
     > *"Sep 7, 2026 · More recently, Apple’s new features to curb the circulation of Child Sex Abuse Material (CSAM) has landed the company in a controversy. The critics are accusing Apple of devising a method that has the potential to undermine the privacy of millions."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 30. bölüm - 2021-08-16
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yazılım geliştirmenin artık yerel bilgisayarlardan çıkıp tamamen tarayıcı üzerinden buluta bağlanılan bir dünyaya evrildiğini ve kötü niyetli hackerların da GitHub'ın bu ücretsiz bulut sanal makinelerini zararlı yazılım testleri için suistimal edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.3 | KISMEN TUTTU: %6.4 | TUTTU: %92.8 | BELIRSIZ: %0.5`
 - **Videoda Ne Demişti:** GitHub'ın tarayıcı üzerinden sanal makineyle kod yazıp çalıştırmaya imkan tanıyan Codespaces ve github.dev özelliklerini değerlendiren Utku Şen, artık yerel bilgisayarlarda geliştirme yapma döneminin geride kaldığını ve dünyanın tarayıcı tabanlı bulut sistemlerine doğru gittiğini anlatıyor. Ayrıca arkada 16-32 GB RAM gibi güçlü makinelerin verilmesini kötü amaçlı yazılım geliştirenlerin de kendi zararlı projelerini ayağa kaldırmak ve test etmek için kesinlikle kullanacağını kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Abusing a GitHub Codespaces Feature For Malware Delivery | Trend Micro (US)](https://www.trendmicro.com/en_us/research/23/a/abusing-github-codespaces-for-malware-delivery.html)
     > *"We investigated the services offered by this cloud IDE and found that one of its features for code development and collaboration – sharing forwarded ports publicly – can be abused by malicious actors to create a malware file server using a legitimate GitHub account. In the process, these abused environments will not be flagged as malicious or suspi..."*
   - `[Tavily]` [Attackers Can Abuse GitHub Codespaces for Malware Delivery - SecurityWeek](https://www.securityweek.com/attackers-can-abuse-github-codespaces-malware-delivery)
@@ -4454,11 +7407,21 @@
   - `[Tavily]` [GitHub Codespaces · Cloud Development Environment · GitHub · GitHub](https://github.com/features/codespaces)
     > *"GitHub Codespaces run on a various VM-based compute options hosted by GitHub.com, which you can configure from 2 core machines up to 32 core machines. Connect to your codespaces from the browser or locally using an IDE like Visual Studio Code or IntelliJ. How do I use Codespaces? There are a number of entry points to spin up a Codespaces environmen..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Apple'ın iCloud taraması için getirdiği 'bir fotoğrafın birden fazla ülkede suç sayılması' kuralının büyük bir açık barındırdığını ve otoriter ülkelerin bir araya gelerek eşcinsellik gibi gerekçelerle Apple'dan insan avlamak için veri koparacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **3.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %14.1 | TUTMADI: %35.8 | BELIRSIZ: %20.5 | TUTTU: %29.7`
 - **Videoda Ne Demişti:** Apple'ın iCloud fotoğraflarını tarama planındaki geri adımlarını ve birden fazla devletin suç sayması kuralını ele alan Utku Şen, bu düzenlemenin felaketle sonuçlanabileceğini anlatıyor. Batılı veya demokratik ülkeler zorunlu tutulmazsa üçüncü dünya ülkelerinin ve baskıcı rejimlerin birleşip eşcinsellik gibi unsurları suç sayarak Apple'dan muhaliflerin verilerini isteyeceğini belirterek sistemin korkunç şekilde suistimal edileceğini ve Apple'ın başına inanılmaz bir dert aldığını kendi şahsi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Apple will reject demands to use CSAM system for surveillance](https://www.cnbc.com/2021/08/09/apple-will-reject-demands-to-use-csam-system-for-surveillance-.html)
     > *"It continued: 'Let us be clear, this technology is limited to detecting CSAM stored in iCloud and we will not accede to any government's request to expand it.' Some cryptographers are worried about what could happen if a country such as China were to pass a law saying the system also has to include politically sensitive images. Apple CEO Tim Cook h..."*
   - `[Tavily]` [Apple’s New ‘Child Safety’ Plan for iPhones Isn’t So Safe | American Civil Liberties Union](https://www.aclu.org/news/privacy-technology/apples-new-child-safety-plan-for-iphones-isnt-so-safe)
@@ -4470,15 +7433,29 @@
   - `[DuckDuckGo]` [How Authoritarians Can Exploit Apple’s Child Safety ...](https://securingdemocracy.org/how-authoritarians-can-exploit-apples-child-safety-initiatives/)
     > *"Aug 24, 2021 · Apple continues to face intense criticism of their CSAM detection system because the unintended consequences of creating such a system may have grave consequences for minority groups and individuals speaking out against discrimination and authoritarian regimes."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 31. bölüm - 2021-08-23
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, sanal gerçekliğin (VR) gelecekte kesinlikle patlayacağını, 4K kalitesine ulaşıldığında insanların gerçek hayatı bırakıp bağımlı gibi VR içinde yaşayacağını ve Mark Zuckerberg'in 5-6 yıl sonra bu teknolojiden devasa para kazanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %56.0 | BELIRSIZ: %31.2 | TUTTU: %2.1 | KISMEN TUTTU: %10.7`
 - **Videoda Ne Demişti:** Facebook'un VR toplantı aracı Horizon Workrooms duyurusunu ve Oculus yatırımlarını değerlendiren Utku Şen, Apple veya Google'ın aksine Zuckerberg'in yıllardır inatla bu işi kovaladığını anlatıyor. 4K çözünürlüğe ulaşıldığında insanların gerçek dünyadan kopup sanal gerçeklikte yaşayacağını, bu teknolojinin tutup tutmayacağını sorgulamadığını bile belirterek Zuckerberg'in 5-6 sene sonra VR sayesinde büyük kazanacağını kendi teknoloji tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Mark Zuckerberg to Investors: Expect Nothing From the Metaverse](https://finance.yahoo.com/news/mark-zuckerberg-investors-expect-nothing-162700610.html)
     > *"The most pointed moment came when Zuckerberg was asked for a timeline for actual returns from the Reality Labs segment of the company, which houses virtual reality (VR) hardware maker Oculus and the virtual space Horizon Worlds. 'I expect this to be later this decade,' said Zuckerberg of the timeline for metaverse adoption. '… This is laying the gr..."*
   - `[Tavily]` [Mark Zuckerberg: Metaverse Is 'Not the Majority of What We're Doing' - Business Insider](https://www.businessinsider.com/mark-zuckerberg-metaverse-not-majority-were-doing-facebook-meta-focus-2022-11?r=US&IR=T)
@@ -4490,11 +7467,21 @@
   - `[DuckDuckGo]` [What Mark Zuckerberg’s metaverse U-turn means for the future ...](https://theconversation.com/what-mark-zuckerbergs-metaverse-u-turn-means-for-the-future-of-virtual-reality-273659)
     > *"Jan 20, 2026 · Mark Zuckerberg’s vision for the metaverse was meant to reimagine how we interact with each other and the world, providing us with an immersive world where we could seamlessly combine..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Türkiye'de duyurulan Ulusal Yapay Zeka Stratejisi'nin hiçbir somut sonuç vermeyeceğini, yapay zekayla uğraşan yetişmiş beyinlerin ülkeyi terk etmesi yüzünden bu planın da birkaç ay içinde tamamen unutulup gideceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %5.1 | TUTMADI: %26.7 | TUTTU: %30.8 | KISMEN TUTTU: %37.4`
 - **Videoda Ne Demişti:** Hükümetin açıkladığı Ulusal Yapay Zeka Stratejisi belgesini ele alan Utku Şen, daha önce ortaya atılan 1 milyon yazılımcı gibi projelerin unutulduğunu anlatıyor. Yapay zeka alanındaki nitelikli insan gücünün Türkiye'yi terk ettiğini veya gitme planı yaptığını vurgulayarak, insan gücü olmadan hiçbir şey üretilemeyeceğini ve bu strateji belgesinin de 3 ay sonra kimse tarafından hatırlanmayacağını kendi gelecek çıkarımı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Turkey's $10bn AI strategy depends on reversing brain drain | AGBI](https://www.agbi.com/analysis/ai/2026/06/turkey-ai-strategy-depends-on-reversing-chronic-brain-drain)
     > *"President Recep Tayyip Erdoğan unveiled in June a strategy to channel more than $10 billion of public and private investment into Turkey’s AI ecosystem by 2030, including a target of at least one gigawatt of data centre capacity. (...) The government’s plans to invest in artificial intelligence and data centre infrastructure, combined with private-..."*
   - `[Tavily]` [Turkey’s National Artificial Intelligence Strategy](https://www.setav.org/en/turkeys-national-artificial-intelligence-strategy)
@@ -4506,15 +7493,29 @@
   - `[DuckDuckGo]` [Ulusal Yapay Zekâ Stratejisi (UYZS) 2021-2025 - MEB](https://sgb.meb.gov.tr/meb_iys_dosyalar/2022_07/25145919_Ulusal_Yapay_Zeka_Stratejisi_UYZS_2021-2025.pdf)
     > *"Tüm ülkelerin yapay zekânın potansiyel kazanımlarına yönelik ciddi adımlar attığı bir dönemdeyiz. Ancak, sosyoekonomik gelişme açısından birçok fırsat barındıran yapay zekâ teknolojileri, kimi belirsizlikleri ve riskleri de gündeme getirmektedir."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 34. bölüm - 2021-09-22
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, akıllı gözlükler geliştikçe alternatif bir artırılmış gerçeklik evreni kurulacağını ve bazı insanların gerçek dünyayla bağını tamamen koparıp bu sanal evrene bağımlı hale geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %7.6 | TUTMADI: %14.7 | KISMEN TUTTU: %29.8 | BELIRSIZ: %47.9`
 - **Videoda Ne Demişti:** Xiaomi ve Ray-Ban akıllı gözlüklerini değerlendiren Utku Şen, bu teknolojilerin ileride Pokémon Go benzeri alternatif bir gerçeklik katmanı yaratacağını anlatıyor. İnsanların gözlüğü takıp sanal varlıklarla dolu bir evrende yaşayacağını, hayatın sıkıcılığından kaçmak için bu dünyaya sığınacağını ama alkol gibi bazılarının bu yeni sanal evrene tamamen bağımlı olup gerçek dünyadan kopacağını kendi gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Future of the Metaverse | Imagining the Internet | Elon University](https://www.elon.edu/u/imagining/surveys/xiv-2022/future-of-metaverse-web3-2040)
     > *"“Another issue is intrusiveness: The current generation of goggles, unlike a smartphone or smartwatch, or smart glasses, interferes with daily life. Instead of tackling these basic issues head on, Meta is attempting to bring Oculus headsets to the mass market via brute force: attempting to unload them by the truckload at Costco, and spending huge s..."*
   - `[Tavily]` [What Do Consumers Really Want in Smart Glasses? - IEEE Spectrum](https://spectrum.ieee.org/two-visions-for-smart-glasses)
@@ -4526,11 +7527,21 @@
   - `[DuckDuckGo]` [Top Augmented Reality Trends to Watch in 2027 - Analytics Insight](https://www.analyticsinsight.net/augmentedvirtual-reality/top-augmented-reality-trends-to-watch-in-2027-ai-smart-glasses)
     > *"Sep 7, 2026 · From AI smart glasses to spatial computing, discover the biggest augmented reality trends expected to shape technology, business, and everyday experiences in 2027."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, sanal gerçekliğin (VR) kesinlikle geleceğin teknolojisi olduğunu ve yazılımcıların mutlaka VR uygulama geliştirmeyi öğrenmesi gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %39.4 | BELIRSIZ: %11.8 | TUTMADI: %5.8 | KISMEN TUTTU: %43.1`
 - **Videoda Ne Demişti:** Facebook'un sanal gerçeklik toplantı ortamı Horizon Workrooms'u ve VR uygulamaları geliştiren tasarımcıları ele alan Utku Şen, sanal gerçeklikte devasa bir gelecek olduğunu vurguluyor. Takipçilerine mutlaka bu alana girip uygulama geliştirmeyi öğrenmelerini tavsiye ederek VR dünyasının teknoloji dünyasını şekillendireceğini kendi kişisel vizyonu olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [VR Developer Career Path from Beginner to Expert | MoldStud](https://moldstud.com/articles/p-explore-the-vr-developer-career-ladder-from-beginner-to-expert)
     > *"As you progress, acquiring advanced skills in user experience design and understanding hardware integrations will be increasingly valuable. According to LinkedIn, jobs in VR are growing, with over 6,000 positions open for skilled professionals. The shift towards a more interactive and immersive experience necessitates continuous learning and adapta..."*
   - `[Tavily]` [Job Outlook for Virtual Reality Developers | Future Trends - JobzMall](https://www.jobzmall.com/careers/virtual-reality-developer/outlook)
@@ -4542,15 +7553,29 @@
   - `[DuckDuckGo]` [Yazılım Geliştirme İle Sanal Gerçeklik Uygulamaları | Yazdev](https://yazdev.com.tr/yazilim-gelistirme-ile-sanal-gerceklik-uygulamalari/)
     > *"Sanal Gerçeklik, yazılım geliştirme ile güçlü bir şekilde birleşerek, farklı sektörlerde devrim yaratan uygulamalar oluşturur. Bu teknolojinin geleceği, daha fazla etkileşimli ve gerçekçi deneyimler sunmaya yöneliktir."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 35. bölüm - 2021-10-05
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, ekonomik şartlar yüzünden Türkiye'de halkın Çin malı telefonlara mecbur kalacağını, bu telefonlardaki işletim sistemi arka kapılarıyla toplanan vatandaş verilerini Çin'in ileride imtiyaz koparmak için Türkiye ile pazarlıkta kullanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %32.9 | TUTMADI: %8.3 | TUTTU: %4.5 | BELIRSIZ: %54.2`
 - **Videoda Ne Demişti:** Litvanya'nın Çin telefonlarındaki sansür ve arka kapı uyarılarını değerlendiren Utku Şen, Türkiye'deki ekonomik kriz yüzünden halkın mecburen Huawei ve Xiaomi gibi cihazlara yöneldiğini anlatıyor. Huawei'in kendi işletim sistemini çıkarmasıyla sistem seviyesinde arka kapılar konacağını, uçtan uca şifrelemenin anlamsızlaşacağını ve Çin'in topladığı bu konuşma ile mesajlaşma verilerini gelecekte çeşitli imtiyazlar karşılığında Türk hükümetine sunarak pazarlık unsuru yapacağını kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Lithuania Urges Users to Ditch Chinese Smartphone Over ‘Built-In Censorship Tool’](https://www.voanews.com/a/lithuania-urges-users-to-ditch-chinese-smartphone-over-built-in-censorship-tool-/6252994.html)
     > *"The Lithuanian Ministry of Defense analyzed three popular Chinese-made phones currently sold in Europe: the Xiaomi Mi 10T 5G, the Huawei P40 5G, the OnePlus 8T 5G. It reported finding a censorship tool built into the Xiaomi phone that can block certain search terms, including 'Long live Taiwan’s independence,” 'Free Tibet,' 'Democratic Movement,' a..."*
   - `[Tavily]` [Lithuanian government warns about secret censorship features in Xiaomi phones | The Record from Recorded Future News](https://therecord.media/lithuanian-government-warns-about-secret-censorship-features-in-xiaomi-phones)
@@ -4562,11 +7587,21 @@
   - `[DuckDuckGo]` [Lithuania says built-in cybersecurity risks found in Chinese ...](https://www.cbsnews.com/news/lithuania-china-cybersecurity-risks-chinese-xiaomi-huawei-smartphones/)
     > *"Sep 22, 2021 · Military cybersecurity agency says investigation found four major cybersecurity risks on Huawei and Xiaomi devices, including content filtering and data exporting capabilities."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Türkiye'deki şirketlerin düşük maaş vermeye ve yan hakları kısmaya devam etmesi durumunda ülkede çalıştıracak siber güvenlik uzmanı bulamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %11.7 | TUTMADI: %47.5 | BELIRSIZ: %12.6 | KISMEN TUTTU: %28.3`
 - **Videoda Ne Demişti:** Siber güvenlik sektöründeki maaş araştırmasının sonuçlarını inceleyen Utku Şen, çalışanların yüzde 76'sının yurtdışına gitmeyi düşündüğünü anlatıyor. Şirketlerin uzmanlara hak ettiği maaşları ve yan hakları vermemesi durumunda yakın gelecekte Türkiye'de istihdam edilecek nitelikli siber güvenlik personeli kalmayacağını kendi sektörel öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Brain Drain from Turkey: The Case of Professionals Abroad](https://docs.iza.org/dp2617.pdf)
     > *"and most people I know would return immediately if they knew the situation (was) more stable and predictable, and that they knew they would be financially secure. 2. I think the main factor (in not returning) is, lack of good jobs, lack of opportunities. People move away and they get treated so much better professionally and they get used to the sa..."*
   - `[Tavily]` [Turkey’s graduate brain drain rises as Germany overtakes US as top destination - Turkish Minute](https://www.turkishminute.com/2026/10/23/turkeys-graduate-brain-drain-rises-as-germany-overtakes-us-as-top-destination)
@@ -4578,11 +7613,21 @@
   - `[DuckDuckGo]` [Cybersecurity Workforce Statistics in Turkey (2026)](https://data.stateglobe.com/turkey/cybersecurity-workforce-statistics)
     > *"Salaries have risen steadily, averaging ₺215,000 annually, incentivizing more tech graduates to specialize in cybersecurity. The digital security sector continues to strengthen with nearly 18,000 new certifications earned this year, indicating a focus on skill development."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, YouTube'un aşı karşıtı içerikleri toptan yasaklamasının ters tepeceğini ve bu sansürün uzun vadede aşı karşıtlarını daha da güçlendireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.3 | BELIRSIZ: %63.7 | TUTMADI: %5.6 | KISMEN TUTTU: %21.3`
 - **Videoda Ne Demişti:** YouTube'un aşı karşıtı bütün videoları ve kanalları platformdan silme kararını ele alan Utku Şen, bu kişileri doğrudan yasaklamanın ellerine mağduriyet kozu vereceğini ve haklı oldukları algısını pekiştireceğini anlatıyor. İçerikleri tamamen silmek yerine sadece algoritma önerilerinden çıkarmanın yeterli olacağını belirterek, toptan sansürün uzun vadede aşı karşıtı hareketleri daha da besleyip güçlendireceğini kendi kişisel tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Coronavirus: YouTube bans misleading Covid-19 vaccine videos](https://www.bbc.com/news/technology-54541517)
     > *"Unpaid posts or comments that discourage people from getting a vaccination are also still permitted. Earlier in the year, Facebook's public policy manager Jason Hirsch told Reuters the company believed users should be able to express personal anti-vaccine views. He said that more aggressive censorship could push people hesitant about vaccines towar..."*
   - `[Tavily]` [YouTube bans high-profile anti-vaccine accounts](https://www.cnbc.com/2021/09/29/youtube-bans-high-profile-anti-vaccine-accounts.html)
@@ -4592,15 +7637,29 @@
   - `[Tavily]` [YouTube Cracks Down on Anti-Vaccine Content, 2 Major Spreaders Remain - Business Insider](https://www.businessinsider.com/youtube-covid-vaccine-crackdown-disinformation-dozen-christiane-northrup-kelly-brogan-2021-9)
     > *"The Google-owned platform announced expanded guidelines in a blog post on Wednesday morning. In addition to targeting vaccine misinformation related to COVID-19 vaccines, the post states, the platform will now remove content that makes false claims about any vaccine shots. YouTube terminated the channels of four anti-vaccine activists, including Ro..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 37. bölüm - 2021-11-03
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Metaverse ve sanal gerçeklik teknolojisini asıl patlatacak itici gücün dijital seks olacağını, internetin yayılmasında olduğu gibi bu yeni çağda da insanların IoT bağlantılı cihazlarla sanal cinselliğe geçeceğini ve bu dönüşümün kaçınılmaz olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %58.9 | KISMEN TUTTU: %11.8 | TUTMADI: %26.7 | TUTTU: %2.5`
 - **Videoda Ne Demişti:** Facebook'un Meta dönüşümünü ve Metaverse vizyonunu değerlendiren Utku Şen, insanların şu an dalga geçtiğini ama ileride bu teknolojiyi asıl büyütecek şeyin sanal seks olacağını anlatıyor. Özellikle klip alın diyerek internetin ilk döneminde pornografinin patlama yaratması gibi Metaverse dünyasının da akıllı seks oyuncakları ve sanal evren entegrasyonuyla cinselliği tamamen dijitale taşıyacağını kendi iddialı gelecek tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Exploring the Confluence of IoT and Metaverse: Future Opportunities and Challenges](https://www.mdpi.com/2624-831X/4/3/18)
     > *"Image 6: Basic workflow of augmented reality (AR) devices including communication links, data analytics, and cloud computing.Image 7: Global augmented reality (AR) sales and marketing revenue, including geographical sales distribution and end-user applications. (a) Technology adoption as per the geographical location, (b) age and gender distributio..."*
   - `[Tavily]` [The Metaverse in 2040 | Pew Research Center](https://www.pewresearch.org/internet/2022/06/30/the-metaverse-in-2040)
@@ -4612,11 +7671,21 @@
   - `[DuckDuckGo]` [Metaverse technologies and human behavior: Insights into ...](https://www.sciencedirect.com/science/article/pii/S2451958825001277)
     > *"Aug 1, 2025 · This study explores the role of metaverse technologies, including virtual reality (VR) and augmented reality (AR), in shaping cognitive, emotional, and social processes and applies the Theory, Context, Characteristics, Methodology (TCCM) framework to synthesize insights from existing research."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Metaverse ve sanal gerçekliğin tıpkı 90'lardaki internet devrimi gibi dünyayı öncesi ve sonrası diye ikiye ayıracağını, şu an hantal olan gözlüklerin küçülüp normalleşeceğini ve iş toplantılarından günlük hayata kadar her şeyin bu evrene taşınacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %16.3 | TUTTU: %1.7 | TUTMADI: %57.6 | BELIRSIZ: %24.3`
 - **Videoda Ne Demişti:** Mark Zuckerberg'in Meta vizyonunu ve VR yatırımlarını ele alan Utku Şen, şu an insanların içerik yok diye dalga geçtiğini ama 90'larda internet ilk çıktığında da tek tük web sitesi olduğunu hatırlatıyor. Zamanla e-ticaret ve iletişimin internete taşınması gibi sanal gerçekliğin de hayatın merkezine oturacağını, cihazların sadece bir gözlük boyutuna ineceğini ve dünyanın Metaverse öncesi ile sonrası olarak kökten değişeceğini kendi teknoloji vizyonu olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Future of the Metaverse | Imagining the Internet | Elon University](https://www.elon.edu/u/imagining/surveys/xiv-2022/future-of-metaverse-web3-2040)
     > *"Ben Rutt, a Baltimore-based psychologist specializing in cognitive behavioral therapy, said, “The shift to the metaverse will occur much like our shift to the internet in the 1990s. People will react in one of four ways: “Early Adopters will embrace the metaverse.They will rush to take advantage of all its features. Their level of engagement with t..."*
   - `[Tavily]` [Metaverse: Survey on future of internet and its innovative applications](https://ceur-ws.org/Vol-3868/Paper3.pdf)
@@ -4628,15 +7697,29 @@
   - `[DuckDuckGo]` [Metaverse beyond the hype: Empirically assessing the future ...](https://www.sciencedirect.com/science/article/pii/S0040162526000119)
     > *"Apr 1, 2026 · Considering the renewed interest by big tech companies in metaverses and the investment in relevant technologies, it is important to reflect on the current state of play and assess the socio-economic impact that such transformative technologies could have."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 39. bölüm - fbi'dan gelen sahte mailler ve beyin implantları - 2021-11-15
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, şirketlerde yerel ağa domain controller kurup bilgisayar yönetme devrinin bittiğini, ileride şirketlerin klasik sistem yöneticisi aramayacağını ve Windows adminlerin işsiz kalmamak için acilen bulut sistemlerine adapte olması gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %17.4 | TUTMADI: %13.2 | KISMEN TUTTU: %55.5 | BELIRSIZ: %14.0`
 - **Videoda Ne Demişti:** Apple'ın şirketler için cihaz yönetimi sistemi getirmesini ve start-up'larda Mac kullanımının yaygınlaşmasını değerlendiren Utku Şen, tek bir sunucuya domain controller kurup yüz bilgisayarı kontrol etme devrinin kapandığını anlatıyor. Şirketlerin artık Okta veya Azure AD gibi bulut çözümlerine geçtiğini belirterek, yakın gelecekte yerel domain controller yapılarının aranmayacağını ve klasik Windows sistem yöneticilerinin kendilerini hızla bulut teknolojilerine uyarlaması gerektiğini kendi sektör öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Migrating an On-Premises Active Directory to Alibaba Cloud - Alibaba Cloud Community](https://www.alibabacloud.com/blog/migrating-an-on-premises-active-directory-to-alibaba-cloud_599070)
     > *"By M Muzaffer Azam Microsoft Active Directory can be extended and migrated to Alibaba Cloud by using the Active Directory Native Replication Service and replicating Directory Service to an Alibaba Cloud ECS Instance as an additional domain controller. Prerequisites Create an Alibaba Cloud account and associate payment method Create Landing Zone on..."*
   - `[Tavily]` [Recommendations to migrate on-prem domain controllers to Microsoft Entra ID - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/2224608/recommendations-to-migrate-on-prem-domain-controll)
@@ -4648,15 +7731,29 @@
   - `[DuckDuckGo]` [Migrate on-premise DC 2019 to Azure Cloud? How can I start ...](https://learn.microsoft.com/en-us/answers/questions/1692200/migrate-on-premise-dc-2019-to-azure-cloud-how-can)
     > *"Jun 5, 2024 · To migrate an on-premise Windows Server 2019 Domain Controller to Azure Cloud, you'll need to follow several steps, starting with syncing your on-premise Active Directory to Azure Active Directory."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 40. bölüm - hacklenen hackerlar ve grevdeki amazon işçileri - 2021-11-22
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Z kuşağının yaşam tarzı yüzünden dünyadaki istihbarat kurumlarının katı yapılarından vazgeçeceğini, ömür boyu ajanlık devrinin bitip NSA gibi birkaç yıl çalışıp ayrılınan esnek modellere dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %6.3 | BELIRSIZ: %52.7 | KISMEN TUTTU: %26.3 | TUTMADI: %14.7`
 - **Videoda Ne Demişti:** İngiliz dış istihbarat servisi MI6'in Z kuşağı için iş ilanı sitesi açmasını değerlendiren Utku Şen, gençlerin sürekli sosyal medyada olduğunu ve eski usul ömür boyu gizlilik içeren katı kurallarla çalıştırılamayacağını anlatıyor. İstihbarat teşkilatlarının gençlere hitap etmek için kabuk değiştirmek zorunda kaldığını belirterek, Kuzey Kore gibi kapalı rejimler haricinde dünyadaki tüm gizli servislerin Amerika'daki NSA örneğinde olduğu gibi insanların 5-10 yıl görev yapıp ayrılabildiği bir kariyer modeline evrileceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [New Cognyte Report Examines How Gen Z & Alpha Are Reshaping Crime](https://finance.yahoo.com/news/cognyte-report-examines-gen-z-140000304.html)
     > *"This is not simply a cultural shift, it is a structural one, changing how crimes occur and pushing law enforcement to rethink investigations, prevention and digital preparedness. The report offers a clear, timely view of that shift – and why agencies need to adjust now. (...) Law enforcement leaders and investigators Cybercrime, digital forensics a..."*
   - `[Tavily]` [Cognyte (CGNT) releases report on Gen Z, Gen Alpha crime shift | CGNT Stock News](https://www.stocktitan.net/news/CGNT/new-cognyte-report-examines-how-gen-z-alpha-are-reshaping-yxqloeasge9l.html)
@@ -4668,15 +7765,29 @@
   - `[DuckDuckGo]` [Recruiting Gen Z: Strategies to Attract and Retain 2026](https://www.assesscandidates.com/recruiting-gen-z-talent/)
     > *"Sep 15, 2025 · Explore the benefits, impacts, and challenges of recruiting Gen Z in the workforce. Discover top strategies to attract, engage, and retain Gen Z in 2026."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 43. bölüm - log4j açığı ve türkiye'nin devlet destekli hacker grubu - 2021-12-20
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, dünyadaki tüm gelişmiş ülkelerin ve kurumsal şirketlerin er ya da geç haftada 4 gün çalışma modeline kesinlikle geçeceğini, bir sonraki adımda ise günlük mesainin 6 saate ineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %26.8 | TUTTU: %14.6 | KISMEN TUTTU: %55.5 | TUTMADI: %3.1`
 - **Videoda Ne Demişti:** Hacker News'te bir yazılımcının günde yalnızca birkaç saat çalıştığını itiraf etmesini ve teknoloji sektöründeki mesai düzenini değerlendiren Utku Şen, günde 8 saat çalışmanın insan doğasına aykırı ve verimsiz olduğunu anlatıyor. Dünyanın yavaş yavaş bu yöne kaydığını belirterek, bir noktada bütün gelişmiş ülkelerin ve büyük şirketlerin cuma gününün de tatil olduğu haftada 4 gün çalışma düzenine kesin olarak geçeceğini, ardından 8 saatlik mesailerin de 6 saate çekileceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What the four-day workweek means for the future of employment | World Economic Forum](https://www.weforum.org/stories/jobs-and-the-future-of-work/what-the-four-day-workweek-means-for-the-future-of-employment)
     > *"It is not just individual organizations like ours that are adopting a four-day workweek, countries such as Japan, Ireland, and Iceland have also implemented the four-day workweek on a significant scale. In addition, the world’s largest economy, the US, has also seen its momentum growing, with nearly a hundred members of the US Congress recently end..."*
   - `[Tavily]` [The Four-Day Work Week Learnings from Companies at ...](https://mgaleg.maryland.gov/cmte_testimony/2024/fin/1Z7cJqwZB-VALczY9QJ8VbrhD_VYDlf_z.pdf)
@@ -4688,15 +7799,29 @@
   - `[DuckDuckGo]` [Countries With 4-Day Work Weeks in 2026: Complete Global Guide](https://www.4dayjob.com/blog/countries-with-4-day-work-week)
     > *"Countries With 4-Day Work Weeks in 2026: Complete Global Guide 🌍 Quick Summary While no country has made the 4-day work week mandatory nationwide, several countries are leading the global movement through government trials, legislation, and widespread private-sector adoption."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler 44. bölüm - çin'den alibaba cloud'a dayak, matrix ve hacker kültürü - 2021-12-28
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, altyapılar buluta taşındıkça eski nesil network güvenliğinin önemini yitirdiğini ama kodun ve yazılımın her zaman var olacağını belirterek uygulama güvenliğinin siber güvenliğin önü en açık alanı olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %6.5 | TUTTU: %46.8 | TUTMADI: %2.4 | KISMEN TUTTU: %44.4`
 - **Videoda Ne Demişti:** İzleyicilerden gelen uygulama güvenliğinin geleceği sorusunu yanıtlayan Utku Şen, eskiden şirketlerin domain controller ve yerel Active Directory kurma zorunluluğunun artık yerini Okta ve Azure gibi bulut servislerine bıraktığını anlatıyor. Ancak sunucu, mobil veya bulut fark etmeksizin yazılımın ve kodun asla bitmeyeceğini, bu nedenle uygulama güvenliğinin siber güvenlik sektöründeki en parlak ve önü en açık alan olacağını kendi sektör tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Cloud Modernization Talent: Key Roles for Migration Success](https://spectraforce.com/blogs/cloud-modernization-talent-key-roles-for-migration)
     > *"Cloud security engineers oversee identity and access management, encryption, secrets and vaults, security assessments, threat and vulnerability management, compliance and security control, and automation. This is one of the reasons why they are in high demand. The U.S. Bureau of Labor Statistics projects that information security analyst positions..."*
   - `[Tavily]` [Is Cloud Security a Good Career Path? | Jessup University](https://jessup.edu/blog/engineering-technology/is-cloud-security-a-good-career)
@@ -4708,11 +7833,21 @@
   - `[DuckDuckGo]` [Cybersecurity Careers: Future Trends, Skills, And Opportunities](https://www.ituonline.com/blogs/the-future-of-cybersecurity-careers-trends-skills-and-opportunities/)
     > *"Jun 7, 2026 · The future of cybersecurity careers is being shaped by cloud adoption, AI, automation, and tighter regulation. The strongest opportunities are in cloud security, identity and access management, application security, threat hunting, and governance."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, uzaktan çalışma modelinin geçici bir heves olmadığını, artık modern hayatın kalıcı bir parçası haline geldiğini ve en az 20 yıl boyunca bu şekilde devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %29.7 | BELIRSIZ: %29.1 | TUTMADI: %0.8 | TUTTU: %40.4`
 - **Videoda Ne Demişti:** Çalışma kültüründeki dönüşümü ve uzaktan çalışma düzenini değerlendiren Utku Şen, insanların ileride ofislere dönüp dönmeyeceği tartışmalarına değiniyor. Kendisine göre remote çalışmanın artık geri döndürülemez şekilde hayatımıza yerleştiğini ve en az bir 20 yıl boyunca bu düzenin aynen süreceğini kendi şahsi gelecek tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What’s the future of remote work? Here’s what researchers say - Binghamton News](https://www.binghamton.edu/news/story/6004/remote-work-best-practices-business-new-research)
     > *"This trend could easily continue for a decade or longer as the younger workforce becomes more entrenched, Sayama says, potentially clashing with the viewpoints of older managerial generations. However, one avenue he’s exploring is how the emergence of artificial intelligence (AI) systems might enhance or exploit virtual work environments. (...) Whe..."*
   - `[Tavily]` [Remote Work Statistics & Trends – Forbes Advisor](https://www.forbes.com/advisor/business/remote-work-statistics)
@@ -4724,11 +7859,21 @@
   - `[DuckDuckGo]` [The Future of Remote Work: 2026 Trends & Predictions](https://nomad-magazine.com/articles/future-of-remote-work-trends-predictions-2026/)
     > *"May 29, 2026 · Successful remote work requires a particular mindset. It demands discipline, independence, and strong planning and organisational skills. Several clear trends are shaping the future of remote work. The most prominent is the rise of the hybrid model."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, Almanya ve Belçika'nın geri adım atmasıyla birlikte Avrupa Birliği ülkelerinde uzun süre hiçbir hükümetin uçtan uca şifrelemeye arka kapı koymaya cesaret edemeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %0.9 | TUTMADI: %98.4 | TUTTU: %0.2 | BELIRSIZ: %0.4`
 - **Videoda Ne Demişti:** Belçika'nın uçtan uca şifreli mesajlaşma uygulamalarına arka kapı getiren yasa tasarısını geri çekmesini ve Almanya'nın da şifreli haberleşmeyi insan hakkı ilan etmesini değerlendiren Utku Şen, iki kritik ülkenin vazgeçmesiyle bu tartışmanın kapandığını anlatıyor. Bu iki büyük ülkenin tutumu yüzünden Avrupa Birliği içinde uzun bir süre hiçbir devletin uçtan uca şifrelemeyi delmeye ve arka kapı zorlamaya cesaret edemeyeceğini kendi politik öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Potential EU law sparks global concerns over end-to-end encryption for messaging apps  | CyberScoop](https://cyberscoop.com/potential-eu-law-sparks-global-concerns-encryption-privacy)
     > *"The European Union will vote Oct. 14 on a legislative proposal from the Danish Presidency known as Chat Control — a law that would require mass scanning of user devices, for abusive or illegal material. Over the weekend, Signal warned that Germany — a longtime opponent and bulwark against the proposal — may now move to vote in favor, giving the mea..."*
   - `[Tavily]` [After Years of Controversy, the EU’s Chat Control Nears Its Final Hurdle: What to Know | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2025/12/after-years-controversy-eus-chat-control-nears-its-final-hurdle-what-know)
@@ -4740,15 +7885,29 @@
   - `[DuckDuckGo]` [EU Pushes for Backdoors in End-to-End Encryption](https://www.bankinfosecurity.com/eu-pushes-for-backdoors-in-end-to-end-encryption-a-27920)
     > *"Apr 3, 2025 · The European Commission is pushing for law enforcement backdoors into end-to-end encryption while calling for deeper intelligence sharing and cooperation to strengthen member states'..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 1. Bölüm - 2021-01-15
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yazılım dünyasında gidişatın no-code araçlarına doğru kaydığını ve gelecekte insanların artık klasik C sözdizimiyle kod yazmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %10.5 | TUTTU: %24.4 | KISMEN TUTTU: %50.8 | BELIRSIZ: %14.3`
 - **Videoda Ne Demişti:** İzleyicilerden gelen no-code ve low-code sistemleri hakkındaki soruyu yanıtlayan Utku Şen, bu konuda muhafazakar davranmamak gerektiğini anlatıyor. Yazılım geliştirmenin bu yöne doğru evrildiğini belirterek gelecekte hala oturup C sözdizimiyle kod yazılacağına hiç ihtimal vermediğini ve bu dönüşüme açık olmak gerektiğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will the future of software revolution be no-code platforms? Can you share your views? - Quora](https://www.quora.com/Will-the-future-of-software-revolution-be-no-code-platforms-Can-you-share-your-views)
     > *"No-Code platforms, of course, take the code away from programming. But what they don’t take away is the LOGIC behind the coding. The element of conditionals, loops, structures, etc. remain. No-Code platforms are also aimed at a certain segment of the market. Our platform, for example, is aimed to business applications, therefore, completely useless..."*
   - `[Tavily]` [What is your opinion on the 'future of software is no code'? - Quora](https://www.quora.com/What-is-your-opinion-on-the-future-of-software-is-no-code)
@@ -4760,15 +7919,29 @@
   - `[DuckDuckGo]` [No‑Code Building - Base44 - Code-Free App Creation](https://www.bing.com/aclick?ld=e8u32Y7BBPwHHP9Ib-doyPzzVUCUyv-Xd5lmmfXfQ6jnPs97OWmNbKz-6HGIa0MbkIJUU73pE4AMJIuq8VAZxBgr4igVw6j8MFClvY-pDB45KPkK3EUF1yER09JphJXHTGSvB3dSiIeIyk6lhFuwBcTCbDQa4f8PiVsDkVZjoyT1yxciBfCi1rTLGBBhC9pTLmuGiccskTG61NN-SrsDOQRS9bJ6s&u=aHR0cHMlM2ElMmYlMmZiYXNlNDQuY29tJTJmbHAtZW4lMmZidWlsZGVyJTNmdXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkNTA2MjUwOTk5JTVlMTI3NjUzNDc4NTk3OTk4MyU1ZXNlYXJjaCUyNTIwLSUyNTIwYmluZyUyNTIwcmVzdCUyNmV4cGVyaW1lbnRfaWQlM2RubyUyNTIwY29kZSUyNTIwYXBwJTI1MjBidWlsZGVyJTVlYiU1ZSU1ZSUyNm1zY2xraWQlM2RkMzdmNzVjMDAwY2QxODMwN2FlNzFmM2I5ODBlZTdhYw&rlid=d37f75c000cd18307ae71f3b980ee7ac)
     > *"Turn your vision into reality. Base44 handles the tech, you focus on the idea. Go from idea to app in minutes. The best app builder without coding"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 3. bölüm - 2021-01-30
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, büyük şirketlerin uzaktan çalışmaya geçmesiyle paylaşımlı ofis sektörünün büyük bir patlama yaşayacağını fakat mantar gibi türeyecek kalitesiz işletmelerin sektörü baltalayabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %17.4 | TUTTU: %40.3 | KISMEN TUTTU: %38.5 | TUTMADI: %3.8`
 - **Videoda Ne Demişti:** Koç Grubu'nun 35 bin çalışanını evden çalışma modeline geçirmesini ve evden çalışmanın psikolojik zorluklarını değerlendiren Utku Şen, büyük firmaların bu adımlarıyla birlikte her yerin paylaşımlı ofisle dolacağını anlatıyor. Sektörün ciddi şekilde patlayacağını öngörürken, geçmişte hızla yayılıp kalitesizlik yüzünden biten korku evleri gibi kalitesiz paylaşımlı ofislerin piyasayı vurabileceğini kendi şahsi iş ve sektör tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [5 ways coworking spaces boost remote work productivity](https://www.meshcowork.com/blog/5-ways-coworking-spaces-boost-remote-work-productivity)
     > *"Research shows that only 27% of people rate their productivity as excellent when working from home, compared to 45% in coworking spaces (5)."*
   - `[Tavily]` [Coworking Spaces Offer a Post-Pandemic Office Alternative](https://sloanreview.mit.edu/article/coworking-spaces-offer-a-post-pandemic-office-alternative)
@@ -4780,11 +7953,21 @@
   - `[DuckDuckGo]` [Professional Coworking Space - Regus™ Coworking](https://www.bing.com/aclick?ld=e8zm7RlmFfH2pMfkvs-HnYtDVUCUw-HXYhJqpiLwJTUhbzyIMhX14qNC-spB49u7KhB3PHc8E9KrxmbaCUeK-uTH9hpMyi5H_bcRWywUgkX-piAGqCtVnsLeQHOCmpjGpC3BGVgVEOBvMIEF0vNW_OkDek8-oLMv50_QRvAzq7c0E8GVdYepgQRU9P-_ba_zyxUrhUuQ&u=aHR0cHMlM2ElMmYlMmZhZC5kb3VibGVjbGljay5uZXQlMmZzZWFyY2hhZHMlMmZsaW5rJTJmY2xpY2slM2ZsaWQlM2Q0MzcwMDA4MzI4Mzk4MTY5MyUyNmRzX3Nfa3dnaWQlM2Q1ODcwMDAwOTAxNDE3MjcxNSUyNmRzX2FfY2lkJTNkODAzNTE1MzQxNyUyNmRzX2FfY2FpZCUzZDIzNTgyMTU3MzExJTI2ZHNfYV9hZ2lkJTNkMTk3MTUwNTkwMDA3JTI2ZHNfYV9saWQlM2Rrd2QtMTA0MDMyNzU1NyUyNiUyNmRzX2VfYWRpZCUzZDgyMzk1MDY4ODc0MDY3JTI2ZHNfZV90YXJnZXRfaWQlM2Rrd2QtODIzOTYzNTIwMTQwNDclM2Fsb2MtMTgyJTI2JTI2ZHNfZV9uZXR3b3JrJTNkbyUyNmRzX3VybF92JTNkMiUyNmRzX2Rlc3RfdXJsJTNkaHR0cHMlM2ElMmYlMmZ3d3cucmVndXMuY29tJTJmZW4tZ2IlMmZ0dXJrZXklMmZjb3dvcmtpbmclM2ZnY2xpZCUzZGNjN2RiNmYyZDk5ZTEzM2I1MWRjZGMwOTQwYmZmOGM1JTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZjdXN0X3NvdXJjZSUzZGJpbmclMjZjdXN0X21lZGl1bSUzZGNwYyUyNmN1c3Rfc291cmNlX3BsYXRmb3JtJTNkTUlDUk9TT0ZUJTI2Y3VzdF9jYW1wYWlnbiUzZFRSJTJiJTI1M0UlMmJFTiUyYiUyNTNFJTJiT0YlMmIlMjUzRSUyYlNNJTJiJTI1M0UlMmJOYXRpb253aWRlJTJiJTI1M0UlMmIyMDI1X1RfJTI2Y3VzdF9hZGdyb3VwJTNkQ293b3JraW5nJTI2Y3VzdF90ZXJtJTNkY293b3JraW5nJTI2bXNjbGtpZCUzZGNjN2RiNmYyZDk5ZTEzM2I1MWRjZGMwOTQwYmZmOGM1JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVFIlMjUyMCUyNTNFJTI1MjBFTiUyNTIwJTI1M0UlMjUyME9GJTI1MjAlMjUzRSUyNTIwU00lMjUyMCUyNTNFJTI1MjBOYXRpb253aWRlJTI1MjAlMjUzRSUyNTIwMjAyNV9UXyUyNnV0bV90ZXJtJTNkY293b3JraW5nJTI2dXRtX2NvbnRlbnQlM2RDb3dvcmtpbmc&rlid=cc7db6f2d99e133b51dcdc0940bff8c5)
     > *"Contact Us Today - We Will Find a Suitable & Professional Workspace For Your Budget. No Set-Up Costs, Capital Investment or Hassle. Work The Easy Way with Regus View Solutions · Download Our App · Simple Pricing · Flexible Solutions"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, devletin internet trafiğini denetleyemeyeceği ve sansür uygulayamayacağı için Elon Musk sansür taleplerini kabul edip anlaşmadıkça Starlink'in Türkiye'de resmi olarak çalışmasına izin verilmeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %77.6 | KISMEN TUTTU: %8.5 | BELIRSIZ: %11.0 | TUTMADI: %3.0`
 - **Videoda Ne Demişti:** Starlink uydu internetinin Türkiye'ye gelme ihtimalini değerlendiren Utku Şen, doğrudan uyduya bağlanan bir sistemde servis sağlayıcıların derin paket incelemesi yapamayacağını ve siteleri engelleyemeyeceğini anlatıyor. Devletin denetim ve sansür altyapısını devre dışı bırakacak böyle bir sisteme izin vermeyeceğini belirterek, Elon Musk hükümetin istediği siteleri engelleme şartını kabul edip anlaşmadığı sürece Starlink'in Türkiye'de açılmayacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Starlink Expansion: Why Have Several Countries Restricted or Rejected the Satellite Internet Service? 🌐🛰️ Starlink, Elon Musk’s sa...](https://www.facebook.com/awanticlassesofficial/videos/starlink-expansion-why-have-several-countries-restricted-or-rejected-the-satelli/1987664155255599)
     > *"and compliance requirements before satellite internet services can operate commercially. A lack of approval or delayed rollout does not necessarily mean a country has permanently rejected Starlink. starlink elonmusk spacex satelliteinternet technologynews (...) Starlink Expansion: Why Have Several Countries Restricted or Rejected the Satellite Inte..."*
   - `[Tavily]` [10 Facts About Censorship in Turkey - Business Insider](https://www.businessinsider.com/10-facts-about-censorship-in-turkey-2014-3)
@@ -4796,11 +7979,21 @@
   - `[DuckDuckGo]` [Starlink Legal](https://starlink.com/legal)
     > *"Starlink delivers fast, reliable internet at home and on the go. Seamlessly stream, video call, game and more with high-speed connectivity even in the most rural and remote places."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, yapay zeka tabanlı siber güvenlik ve ağ izleme araçlarının günümüzde pratikte hiçbir işe yaramadığını, bu teknolojinin gerçekten faydalı olabilmesi için en az 10 sene geçmesi gerektiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **7.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %4.4 | BELIRSIZ: %6.9 | TUTMADI: %76.8 | KISMEN TUTTU: %11.8`
 - **Videoda Ne Demişti:** Yapay zeka tabanlı izleme girişimlerinin neden battığını anlatan bir makaleyi inceleyen Utku Şen, UEBA ve yapay zekalı IDS gibi sistemlerin pratikte çuvalladığını ve eski usul kurallı sistemlerin çok daha başarılı çalıştığını anlatıyor. Kağıt üzerindeki vaatlerin sahada patladığını vurgulayarak, mevcut yapay zeka iddialarının biraz traş olduğunu ve bu teknolojinin gerçekten işe yarar seviyeye gelmesi için belki bir on sene daha geçmesi gerektiğini kendi sektörel tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [User & Entity Behavior Analytics (UEBA) - ESP on CB Insights](https://www.cbinsights.com/esp/enterprise-tech/cybersecurity/user-&-entity-behavior-analytics-(ueba))
     > *"The user & entity behavior analytics (UEBA) market, sometimes called user behavior analytics (UBA), leverages behavioral analytics technology to identify insider and cyber threats by looking for unusual activity. This tech helps security teams reduce noise, prioritize high fidelity alerts, and enable fast and precise response to potential cyberatta..."*
   - `[Tavily]` [User & Entity Behavior Analytics (UEBA) - ESP on CB Insights](https://www.cbinsights.com/esp/enterprise-tech/cybersecurity/user-%26-entity-behavior-analytics-(ueba))
@@ -4812,11 +8005,21 @@
   - `[DuckDuckGo]` [Cybersecurity threat detection based on a UEBA framework ...](https://arxiv.org/html/2505.11542v2)
     > *"Oct 30, 2025 · In this study, we introduce the first implementation of an explainable UEBA-based anomaly detection framework that leverages Deep Autoencoders in combination with Doc2Vec to process both numerical and textual features."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, GameStop krizinde serbest piyasa masalının çöktüğünü, mevcut kapitalist düzenin sürdürülemez olduğunu ve Amerika dahil bütün dünyanın eninde sonunda sosyal demokrasiye geçmek zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %3.7 | TUTMADI: %39.4 | BELIRSIZ: %56.7 | TUTTU: %0.2`
 - **Videoda Ne Demişti:** GameStop hisselerinde küçük yatırımcılar kazanınca hisse satışlarının zorla durdurulmasını eleştiren Utku Şen, serbest piyasa kurallarının sadece zenginleri korumak için işletildiğini anlatıyor. İnsanların evsiz ve aç gezdiği bu adaletsiz sistemin bu şekilde devam edemeyeceğini belirterek, 10-20 yıl veya 50 yıl sürse bile başta Amerika olmak üzere tüm dünyanın eninde sonunda sosyal demokrasiye geçiş yapacağını kendi gelecek tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [7: Capital markets regulation in the age of social media: an analysis of the GameStop incident under the EU Market Abuse Regulatio...](https://www.elgaronline.com/edcollchap-oa/book/9781803929996/chapter7.xml)
     > *"market in a certain direction. This could be seen either as a desirable democratic expression of the people's will or as activists ganging up to manipulate the financial markets. (...) To this point, the analysis covered a typical form of market manipulation (scalping) in a new environment (social media). But the even less researched aspect of the..."*
   - `[Tavily]` [Social informedness and investor sentiment in the GameStop short squeeze](https://pmc.ncbi.nlm.nih.gov/articles/PMC10203679)
@@ -4828,15 +8031,29 @@
   - `[DuckDuckGo]` [GameStop short squeeze - Wikipedia](https://en.wikipedia.org/wiki/GameStop_short_squeeze)
     > *"In January 2021, a short squeeze of the stock of the American video game retailer GameStop and other securities took place, causing major financial consequences for certain hedge funds and large losses for short sellers."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 4. bölüm - 2021-02-06
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, Kubernetes güvenliğinin önümüzdeki yıllarda çok daha popüler ve kritik bir alan haline geleceğini, bu alanda yetişmiş uzman bulmanın zorluğu nedeniyle sürecin kaçınılmaz olarak ürünleşip otomatiğe bağlanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.1 | KISMEN TUTTU: %5.8 | BELIRSIZ: %0.8 | TUTTU: %93.3`
 - **Videoda Ne Demişti:** Rapid7'ın Kubernetes güvenliği geliştiren Alcide firmasını 50 milyon dolara satın almasını değerlendiren Utku Şen, bu alanda derinlemesine uzmanlaşmanın çok zor ve nadir olduğunu anlatıyor. Bu nedenle Kubernetes güvenliğinin ilerleyen yıllarda çok büyük bir trend olacağını ve tecrübeli uzman açığını kapatmak için sürecin mecburen yazılımlarla otomatize edileceğini kendi siber güvenlik öngörüsü olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Kubernetes adoption, security, and market trends report 2024](https://www.redhat.com/en/resources/kubernetes-adoption-security-market-trends-overview)
     > *"Chart: Do you have a DevSecOps initiative in your organization? The top answers are, Yes–it’s in an early state, with DevOps and security collaborating on joint policies and workflows at 48%, Yes–it’s in an advanced stage, where we’re integrating and automating security throughout the life cycle at 42%, and No–DevOps and security remain separate, w..."*
   - `[Tavily]` [Using ARMO Kubescape to scale kubernetes security adoption across an enterprise - DEV Community](https://dev.to/turjachaudhuri/using-armo-kubescape-to-scale-kubernetes-security-adoption-across-an-enterprise-5gio)
@@ -4848,15 +8065,29 @@
   - `[DuckDuckGo]` [Automation, The Future Of SOC - The Essential Guide To SOAR](https://www.bing.com/aclick?ld=e8wy9mMmg-eaMgHK3rAc56WzVUCUxKjZGDA60wVLt6dk4klu3B44XZrf5w6s28U_YlU9ENLYWYOAhvHRRHzNDZX48IY10Z5TDBud80K8yrLXU_OMMWStXT3a_fJu5Djx-4e7AiDrIGNKYNleSW0SFN4cBUJ81dUQMvOBj_vA9Y9QR0Vrpnee8IRvaaHMCzssDRO8PFSlQzGJSwlg-W6yqNw-tlik4&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZnRoZS1lc3NlbnRpYWwtZ3VpZGUtdG8tc29hci5odG1sJTNmdXRtX2NhbXBhaWduJTNkYmluZ19lbWVhX0hBTV9lbl9zZWFyY2hfZ2VuZXJpY19zZWN1cml0eSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jb250ZW50JTNkRXNzR3VpZGV0b1NPQVJfRUIlMjZ1dG1fdGVybSUzZHNlY3VyaXR5JTI1MjBvcmNoZXN0cmF0aW9uJTI1MjBhbmQlMjUyMGF1dG9tYXRpb24lMjZkZXZpY2UlM2RjJTI2X2J0JTNkNzIwMTgyOTg3MzcwMTklMjZfYm0lM2RwJTI2bXNjbGtpZCUzZGY0Yzg5NWJjYmMwZjFhZDA2NjdkZmY0NzI1YzU0OWY0&rlid=f4c895bcbc0f1ad0667dff4725c549f4)
     > *"Uncover how security orchestration, automation & response improve operational efficiencies. Download your free essential guide to security orchestration, automation & response Best in the security information & event management business - eWEEK"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 6. bölüm - 2021-02-19
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, dev şirketlerin uzaktan çalışmaya geçmesiyle birlikte çalışma hayatının paylaşımlı ofislere kayacağını, fahiş ofis kiralarının düşeceğini ve geleneksel kurumsal emlak sektörünün ciddi bir darbe alacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %23.1 | TUTTU: %73.9 | BELIRSIZ: %2.1 | TUTMADI: %0.8`
 - **Videoda Ne Demişti:** Spotify ve Salesforce gibi devlerin uzaktan çalışma modeline geçişini değerlendiren Utku Şen, gelecekte isteyenin evden isteyenin paylaşımlı ofisten çalışacağı esnek bir düzenin oturacağını anlatıyor. Her tarafta yeni paylaşımlı ofislerin açılarak bu sektörün canlanacağını, büyük firmaların plazaları boşaltmasıyla birlikte ofis kiralarının düşeceğini ve klasik emlak sektörünün darbe yiyeceğini kendi gelecek tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Impact of Remote Work on Commercial Real Estate Markets – TBH Land](https://tbh.land/impact-of-remote-work-on-commercial-real-estate-markets)
     > *"The rise of remote work has also bolstered the co-working space industry. Companies are increasingly turning towards flexible office solutions to accommodate their evolving workforce needs. Providers like WeWork and Regus are thriving as businesses seek to minimize fixed costs. The ability to scale office space up or down provides options that trad..."*
   - `[Tavily]` [How Remote Work is Shaping Commercial Real Estate](https://www.barkettrealty.com/blog/remote-work-commercial-real-estate-)
@@ -4868,11 +8099,21 @@
   - `[DuckDuckGo]` [Coworking Space Stats 2026: More Productive | Stealth Agents](https://stealthagents.com/research/remote-work-coworking-space-statistics-2026)
     > *"Jun 15, 2026 · The latest remote work coworking space statistics for 2026: membership growth, desk costs, employer stipends, productivity impact, and wellbeing"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Python'un web ve yüksek performans tarafında zayıf kaldığını, giderek daha da kan kaybedip sadece yapay zeka ve bilimsel işlerle sınırlı kalacağını, Go dilinin ise en az 6-7 yıl sektörü sırtlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %37.5 | BELIRSIZ: %1.9 | KISMEN TUTTU: %55.0 | TUTTU: %5.5`
 - **Videoda Ne Demişti:** Yazılımcıların hangi dili öğrenmesi gerektiği üzerine konuşan Utku Şen, Python'un artık günümüz şartlarında zayıf kaldığını ve zamanla daha da gerileyeceğini anlatıyor. Python'un artık sadece makine öğrenmesi ve veri işleme gibi bilimsel işlerle sınırlı kalması gerektiğini savunurken, web geliştirmede ve yüksek trafikli sistemlerde Go dilinin önümüzdeki en az altı yedi sene boyunca sektörü domine edeceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why Go Is Quietly Replacing Python in Backend — And No One's Talking About It - DEV Community](https://dev.to/yash_sonawane25/why-go-is-quietly-replacing-python-in-backend-and-no-ones-talking-about-it-4p4o)
     > *"Coming from Python, this feels limiting. But in production, at 3 AM, when something breaks — you want boring. You want code that reads like a newspaper, not a riddle. Go's philosophy is radical: there should be one obvious way to do things. Python says the same thing ('There should be one obvious way to do it'), but Python has 14 web frameworks. Go..."*
   - `[Tavily]` [Switching From Python to Go: What Python Developers Should Know](https://levelupgo.dev/blog/python-to-go)
@@ -4884,11 +8125,21 @@
   - `[DuckDuckGo]` [Will Go Overtake Python? A Look into the Future of Programming](https://learngolanguage.com/will-go-overtake-python-a-look-into-the-future-of-programming/)
     > *"Sep 16, 2024 · While Go is rapidly gaining traction in cloud computing and DevOps, it is unlikely to replace Python in fields like data science or machine learning anytime soon."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, Türkiye'nin ordudan telekom altyapısına kadar her alanda Huawei ve Çin teknolojisine bağımlı hale geldiğini, bu vahim hatanın önümüzdeki 10-15 yıl içinde ülkenin başına çok büyük dertler açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.7 | KISMEN TUTTU: %26.6 | TUTTU: %11.9 | BELIRSIZ: %57.9`
 - **Videoda Ne Demişti:** Çin menşeli cihazlardaki arka kapıları ve güvenlik açıklarını ele alan Utku Şen, Türkiye'deki tüm modemlerin, baz istasyonlarının ve hatta askeri altyapının Çin teknolojisi tarafından adeta esir alındığını anlatıyor. Batılı devletlerin güvenlik sebebiyle Huawei ekipmanlarını yasakladığını hatırlatarak, ileride Çin ile yaşanabilecek olası bir krizde bu teknolojik bağımlılığın ağır bedelini önümüzdeki 10-15 yıl boyunca çok sert çekeceğimizi kendi siber güvenlik ve jeopolitik tezi olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Chinese Telecom Infrastructure in the U.S. Creates Security Risks - 3GIMBALS](https://3gimbals.com/insights/chinese-telecom-infrastructure-in-the-u-s-national-security-risks-and-supply-chain-threats)
     > *"Finally, there’s the risk of sabotage or disruption. If Chinese telecom infrastructure is deeply embedded in U.S. critical networks, from 5G cellular systems to electrical grid communications, could Beijing leverage it to cause outages or degradation during a conflict? Security experts have labeled Huawei a potential Trojan horse—a seemingly benign..."*
   - `[Tavily]` [(PDF) Huawei, 5G and China as a Security Threat](https://ccdcoe.org/uploads/2019/03/CCDCOE-Huawei-2019-03-28-FINAL.pdf)
@@ -4900,15 +8151,29 @@
   - `[DuckDuckGo]` [A Concise Guide to Huawei’s Cybersecurity Risks and the ...](https://www.nbr.org/publication/a-concise-guide-to-huaweis-cybersecurity-risks-and-the-global-responses/)
     > *"Oct 3, 2019 · Huawei Technologies Co. Ltd., a Chinese telecommunications company with global revenues of over $100 billion and products ranging from smartphones to advanced 5G network equipment, has faced growing criticism from security experts and governments regarding cybersecurity and espionage risks."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## siber alemden havadisler - 7. bölüm - 2021-02-26
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, fiziksel elektronik mağazacılığı döneminin kapandığını, dev kiralar ödeyen teknoloji marketlerinin e-ticaret siteleriyle rekabet edemeyip batacağını ve geleceğin artırılmış gerçeklik (AR) destekli mağazacılığa kayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **6.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %2.0 | BELIRSIZ: %9.7 | TUTMADI: %62.5 | KISMEN TUTTU: %25.8`
 - **Videoda Ne Demişti:** Fry's Electronics'in iflas edip kapanmasını değerlendiren Utku Şen, insanların ürünleri mağazada inceleyip internetten ucuza sipariş ettiğini anlatıyor. Media Markt gibi devlerin bile yüksek dükkan kiraları yüzünden bir süre sonra e-ticaretle rekabet edemeyip kapanacağını, klasik mağazacılığın biteceğini ve ürünlerin telefon kamerasıyla masaya konup incelendiği artırılmış gerçeklik mağazacılığının geleceğini kendi teknoloji öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Augmented Reality (AR) in Retail Market Report 2026](https://www.researchandmarkets.com/reports/6076452/augmented-reality-ar-in-retail-market-report)
     > *"Tariffs have affected the ar in retail market by increasing the cost of imported ar hardware such as smart glasses, sensors, cameras, and display components. Retailers in north america and asia pacific have faced higher deployment costs for in-store ar solutions due to reliance on global electronics supply chains. These added costs have slowed phys..."*
   - `[Tavily]` [The Future of Retail: AI Innovation, Augmented Reality, and the Decline of Sustainability as a Selling Point - SAFE Futures](https://safefutures.mmu.ac.uk/2025/02/25/the-future-of-retail-ai-innovation-augmented-reality-and-the-decline-of-sustainability-as-a-selling-point)
@@ -4920,11 +8185,21 @@
   - `[DuckDuckGo]` [Elektronik Alışveriş Deneyimi ve Artırılmış Gerçeklik ...](https://www.researchgate.net/publication/371436702_Elektronik_Alisveris_Deneyimi_ve_Artirilmis_Gerceklik_Kosullu_Surec_Analizi_Ornegi)
     > *"Jan 1, 2023 · Elektronik Alışveriş Deneyimi ve Artırılmış Gerçeklik: Koşullu Süreç Analizi Örneği January 2023 DOI: 10.37609/akya.2632 ISBN: 9786253992033"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, VMware vCenter'daki kritik güvenlik açığının kolay kapatılamayacağını, firmaların habersizliği ve korsan yazılım kullanımı yüzünden bu açığın devasa bir fidye yazılımı (ransomware) dalgasına yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.5 | KISMEN TUTTU: %28.2 | TUTMADI: %6.5 | TUTTU: %56.8`
 - **Videoda Ne Demişti:** VMware vCenter üzerinde çıkan uzaktan kod çalıştırma açığını inceleyen Utku Şen, çoğu firmanın bu tip gelişmelerden haberdar bile olmadığını ve yazılımı lisanssız kullandıkları için isteseler de yama yapamayacaklarını anlatıyor. Bu açık yüzünden savunmasız kalan binlerce şirketin kesin olarak hackleneceğini belirterek sektörde çok büyük bir fidye yazılımı patlamasının yaşanacağını kendi güvenlik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [CVE-2026-59310: CISA Warns VMware vCenter RCE Exploited by Ransomware](https://aviatrix.ai/threat-research-center/cisa-critical-vmware-vcenter-rce-cve-2026-59310-ransomware-gangs)
     > *"Attackers exploited CVE-2026-59310, a critical directory traversal vulnerability in VMware vCenter Syslog server, to achieve unauthenticated remote code execution. After gaining initial access, they escalated privileges within the vCenter environment, moved laterally across virtualized infrastructure, established persistent command and control thro..."*
   - `[Tavily]` [VMware vCenter vulnerability exploited by ransomware groups | Henry Wong, CISM, CISSP, CDPSE, CEH posted on the topic | LinkedIn](https://www.linkedin.com/posts/henry-wong-ny_cisa-critical-vmware-rce-flaw-now-exploited-activity-7506023318848860160-AYqv)
@@ -4936,15 +8211,29 @@
   - `[DuckDuckGo]` [CVE-2026-59310 VMware vCenter RCE Analysis & Mitigation ...](https://valicyber.com/resources/cve-2026-59310-analysis/)
     > *"CVE-2026-59310, a critical VMware vCenter Server remote code execution vulnerability, demonstrates this reality. Although Broadcom released a patch on July 29, 2026, attackers began exploiting the flaw within just five days, ultimately deploying ransomware against ESXi environments worldwide."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Siber Alemden Havadisler Geri Döndü! - S.A.H E71 - 2023-10-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, tamamen uzaktan çalışmanın tıpkı geçmişte zararları bilinmeden içilen sigara çılgınlığı gibi büyük bir hata olduğunu, yıllar sonra geriye bakıldığında yol açtığı sosyal izolasyon ve akıl sağlığı tahribatı yüzünden insanların dehşete düşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %4.5 | TUTTU: %61.9 | KISMEN TUTTU: %32.1 | TUTMADI: %1.5`
 - **Videoda Ne Demişti:** Dropbox'ın yüzde 90 uzaktan çalışma modeline geçmesini değerlendiren Utku Şen, insanların evlere kapanmasının yarattığı sosyal izolasyonun insan doğasına aykırı olduğunu anlatıyor. Tıpkı 1950'lerde her yerde içilip sonradan zararı anlaşılan sigaralar gibi, gelecekte de toplumun dönüp bakarak uzaktan çalışmanın ömrü kısaltan ve insanları depresyona sokan yıkıcı bir yanlış olduğunu anlayacağını kendi şahsi şüphesi ve tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Working from home works against mental health | Harvard FAS](https://current.fas.harvard.edu/stories/working-home-works-against-mental-health)
     > *"A large body of literature correlates this type of isolation with negative health outcomes. Indeed, some studies equate the dangers of isolation with smoking or unchecked high blood pressure. The rise of remote work, Pallais’ paper concludes, explains about one-third of the generalized increase in isolation and mental distress found between 2011 an..."*
   - `[Tavily]` [Prolonged Social Isolation and Loneliness are Equivalent to Smoking 15 Cigarettes A Day | Extension](https://extension.unh.edu/blog/2022/05/prolonged-social-isolation-loneliness-are-equivalent-smoking-15-cigarettes-day)
@@ -4956,11 +8245,21 @@
   - `[DuckDuckGo]` [Home alone: Remote work, isolation, and mental health](https://pubmed.ncbi.nlm.nih.gov/42241533/)
     > *"Jun 4, 2026 · We found that remote work increases time spent alone, worsens mental well-being across multiple measures, and increases the use of mental health services and prescriptions."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Avrupa Birliği ve İngiltere gibi Batılı ülkelerin uçtan uca şifrelemeyi delmesi durumunda, üçüncü dünya ülkelerindeki baskıcı rejimlerin bunu meşru bir bahane olarak kullanacağını ve kendi vatandaşlarını mahkeme kararı olmadan fişlemek ve şantaj yapmak için kitlesel dinleme başlatacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %41.4 | KISMEN TUTTU: %27.9 | TUTTU: %27.0 | TUTMADI: %3.8`
 - **Videoda Ne Demişti:** Avrupa Birliği ve İngiltere'nin terörü engelleme bahanesiyle WhatsApp ve Signal gibi uygulamalardaki uçtan uca şifrelemeyi kaldırma çabalarını sertçe eleştiren Utku Şen, bunun küresel bir zincirleme felakete yol açacağını anlatıyor. Batılı devletlerin bu kapıyı açması halinde otoriter rejimlerin bakın Batı bile dinliyor diyerek kendi vatandaşlarını hiçbir hukuki sınırlama olmadan fişleyeceğini ve şantaj amacıyla dinleyeceğini kendi jeopolitik çıkarımı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The EARN IT Act: How to Ban End-to-End Encryption Without Actually Banning It](https://cyberlaw.stanford.edu/blog/2020/01/earn-it-act-how-ban-end-end-encryption-without-actually-banning-it)
     > *"- Analysis: Encryption, particularly end-to-end encryption, is likely to be targeted as being contrary to “best practices” for preventing CSAM, because if a provider cannot “see” the contents of files on its service due to encryption, it is harder to detect CSAM files. - The commission would include at least 4 law enforcement reps, 4 tech industry..."*
   - `[Tavily]` [The Vital Role of End-to-End Encryption | American Civil Liberties Union](https://www.aclu.org/news/privacy-technology/the-vital-role-of-end-to-end-encryption)
@@ -4972,15 +8271,29 @@
   - `[DuckDuckGo]` [Encryption ban proposal in the United Kingdom - Wikipedia](https://en.wikipedia.org/wiki/Encryption_ban_proposal_in_the_United_Kingdom)
     > *"In July 2016, newly appointed home secretary Amber Rudd confirmed the proposed Investigatory Powers Bill would grant any Secretary of State the powers to force communication service providers to remove or disable end-to-end encryption."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Siber Güvenlikte Paradigma Değişikliğinin Zamanı Geldi - S.A.H E180 - 2026-11-08
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Avrupa'daki altyapı ve market hacklenmelerinin sadece bir başlangıç olduğunu, yakında günlük hayatı doğrudan felç edecek seviyede çok daha büyük sıfır gün saldırıları beklediğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %9.1 | TUTMADI: %4.7 | BELIRSIZ: %80.3 | TUTTU: %5.9`
 - **Videoda Ne Demişti:** Avrupa'da süpermarket soğutucularının ve kan bankalarının hacklenmesini değerlendiren Utku Şen, eski sistemlerin kolayca güncellenemediğini anlatıyor. Yaşananların henüz ufak çaplı olduğunu belirterek yakında hayatı doğrudan sekteye uğratacak çok daha büyük bir zero-day açığıyla devasa saldırılar geleceğini kendi şahsi beklentisi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Critical infrastructure faces 30 percent surge in cyber attacks, KnowBe4 report highlights - Industrial Cyber](https://industrialcyber.co/critical-infrastructure/critical-infrastructure-faces-30-percent-surge-in-cyber-attacks-knowbe4-report-highlights)
     > *"It also recognized that Europe’s power grid is under a ‘cyberattack deluge,’ inundated by thousands of attacks since Russia’s invasion of Ukraine. Leonard Birnbaum, chief executive of E.ON, one of Europe’s largest utilities, said last November that “the crooks are becoming better by the day,” adding “I am worried now and I will be even more worried..."*
   - `[Tavily]` [We Are in the Middle of Hybrid Warfare: EU’s Critical Infrastructure Is Under Cyber Attack Every Day](https://www.youtube.com/watch?v=r7lqISIIu0I)
@@ -4992,11 +8305,21 @@
   - `[DuckDuckGo]` [2026 European cold chain hacks - Wikipedia](https://en.wikipedia.org/wiki/2026_European_cold_chain_hacks)
     > *"'European supermarkets cyberattack: Europe under cyberattack: Who is behind the supermarket fridge hacks? Sweden, Belgium, Luxembourg and Estonia hit as attacks follow the same pattern seen in France'. The Economic Times. Gregory, James (2 November 2026). 'Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack'. BBC."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yazılımcıların şirket bilgisayarlarını kişisel cihazları gibi kullandığı rahatlık devrinin tamamen kapanması gerektiğini, aksi halde tek bir kütüphane indirmeyle bile dev şirketlerin hacklenmeye devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %10.2 | KISMEN TUTTU: %37.0 | BELIRSIZ: %38.8 | TUTTU: %14.1`
 - **Videoda Ne Demişti:** Binance'in Kuzey Koreli hackerlar tarafından sahte mülakat ödevi koduyla hacklenmesi olayını inceleyen Utku Şen, yazılımcıların şirket bilgisayarlarında dilediği kütüphaneyi kurup kişisel işlerini gördüğü eski alışkanlıkların sürdürülemez olduğunu anlatıyor. Geçici yetki anahtarlarının bile dakikalar içinde şirketi ele geçirmeye yettiğini belirterek şirket bilgisayarlarının dışarıya tamamen kapatılıp bir kale gibi izole edilmesi gerektiğini kendi güvenlik tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Top 7 Security Risks in 2026 and How to Protect Your Devices | HP® Official Site](https://www.hp.com/us-en/tech-takes/security/checklist/top-security-risks-protection-guide.html)
     > *"Immediate Actions Enable Multi-Factor Authentication (MFA) on email, banking, and cloud accounts Change home Wi-Fi passwords frequently Keep operating systems, apps, and firmware updated Monthly Habits Check for software and firmware updates on all devices Delete unused apps, plugins, and browser extensions Review app permissions and privacy settin..."*
   - `[Tavily]` [Security Risks of Using Corporate Devices for Personal Use | Proofpoint US](https://www.proofpoint.com/us/security-awareness/post/employees-take-risks-when-using-corporate-devices-personal-tasks)
@@ -5008,11 +8331,21 @@
   - `[DuckDuckGo]` [10 cyber security risks in software development and how to ...](https://devtalents.com/cyber-security-during-software-development/)
     > *"Feb 10, 2023 · Now that we have explored the 10 most common cyber security threats, let us take a look at how developers can mitigate them and ensure top cyber security for their software development projects."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın zafiyet bulma hızı yüzünden açık kaynaklı yazılım kullanmanın ve bunları internete açmanın tarihte ilk kez devasa bir güvenlik riskine dönüştüğünü söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.1 | KISMEN TUTTU: %21.6 | TUTTU: %71.9 | BELIRSIZ: %4.4`
 - **Videoda Ne Demişti:** JP Morgan CISO'sunun dışarıya kapalı sistemler vurgusunu yorumlayan Utku Şen, önünde giriş paneli olsa bile açık kaynaklı yazılımların kaynak kodunun ortada olmasının artık büyük tehlike yarattığını anlatıyor. Saldırganların yapay zeka desteğiyle bu kodları inceleyip giriş panelini aşan kod yürütme açıkları bulabileceğini, bu yüzden açık kaynak kodlu sistemleri internete açık tutmanın tarihte ilk kez ciddi bir sorun haline geldiğini kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How AI Broke Open Source Security: End-of-Life Software Is the Most Exposed](https://www.herodevs.com/blog-posts/how-ai-broke-open-source-security-end-of-life-most-exposed)
     > *"AI is finding vulnerabilities. Google's 'Big Sleep' agent caught its first real-world bug in October 2024, a buffer underflow in SQLite. By July 2025 it had pre-empted an in-the-wild zero-day before threat actors could exploit it. Anthropic's Claude Opus 4.6 found 22 Firefox bugs in two weeks (shipped in Firefox 148), a successor model later report..."*
   - `[Tavily]` [12 reactions | What if AI could find open-source vulnerabilities before attackers do? Anthropic's OSS Scanner aims to use AI to id...](https://www.facebook.com/secweekly/posts/what-if-ai-could-find-open-source-vulnerabilities-before-attackers-doanthropics-/1653780950006556)
@@ -5024,11 +8357,21 @@
   - `[DuckDuckGo]` [Açık kaynaklı yazılım geliştirirken veya kullanırken ortaya ...](https://www.kaspersky.com.tr/blog/open-source-vulnerabilities-in-ai-era/14465/)
     > *"Apr 17, 2026 · Yapay zeka alanında yaşanan patlama ve açık kaynak bileşenlere olan bağımlılığın artması, şirketlerin güvenlik yükünü nasıl artırıyor ve bu konuda neler yapabilirsiniz?"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, şirketlerin basit işler için bile en pahalı yapay zeka modellerine para saçma hatasından döneceğini ve maliyetleri düşürmek için açık kaynaklı yerel modellere yöneleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %6.1 | TUTMADI: %0.2 | BELIRSIZ: %1.4 | TUTTU: %92.2`
 - **Videoda Ne Demişti:** Revolut bankasının kendi donanımını alıp açık kaynaklı GLM modelini kendi bünyesinde çalıştırmasını ve pahalı ticari modelleri bırakmasını değerlendiren Utku Şen, işlerin yüzde 80'inin açık modellerle çözülebileceğini belirtiyor. Şirketlerin her iş için milyonlarca dolar harcamasının anlamsız olduğunu ve firmaların artık bu gereksiz harcamaları kısmaya başlayacağını kendi sektörel tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Pulse: tech companies move to open AI models - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-pulse-tech-companies-move-to-open-ai-models)
     > *"Basically, what used to cost Pinterest $100 to run on a closed, frontier model, they now spend $8 on by using open models on owned or rented inference! AT&T: 56% savings by swapping Claude for open models With 100,000 employees, AT&T is a big spender on AI. The telco giant cut its AI bill by 56% while measuring a 2% decrease in the quality of AI’s..."*
   - `[Tavily]` [Amazon CTO: Companies Are Ditching Expensive AI for Cheaper Open-Source Models — BigGo Finance](https://finance.biggo.com/news/36015075-c3c4-455e-a717-7ac1ca8cf4b1)
@@ -5040,15 +8383,29 @@
   - `[DuckDuckGo]` [89% of Companies Adopt Open-Source AI, Cutting Costs and ...](https://scalebytech.com/89-of-companies-adopt-open-source-ai-cutting-costs-and-fueling-growth)
     > *"May 22, 2025 · Two-thirds of surveyed firms report that launching AI projects with open models is noticeably less expensive than relying on proprietary offerings. Almost half of all participants point to these economic gains as a principal factor in their decision-making."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Silikon Vadisi Senin İyiliğini Düşünmez - S.A.H E97 - 2024-07-28
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Silikon Vadisi devlerinin vadettiği evrensel temel gelirin büyük bir tuzak olduğunu, gelecekte insanların mülk edinme hakkının tamamen elinden alınarak her şeyi bu şirketlerden kiralamak zorunda kalacağı bir mülksüzleştirme distopyasına sürüklendiğimizi söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %10.4 | TUTMADI: %5.6 | TUTTU: %1.7 | BELIRSIZ: %82.3`
 - **Videoda Ne Demişti:** Sam Altman'ın evrensel temel gelir (UBI) dağıtma deneyini ve büyük şirketlerin yapay zekayla işsizlik yaratmasını eleştiren Utku Şen, gelecekte dünyayı 3-4 dev tekel şirketin yöneteceğini anlatıyor. İnsanların yapay zeka yüzünden işsiz bırakılıp verilen sadaka kıvamındaki temel gelirle yine aynı şirketlerin fahiş fiyatlı ürünlerini almaya ve kiralık konteyner evlerde yaşamaya mecbur bırakılacağını, kimsenin hiçbir şeye sahip olamayacağını ve devletlerin bile bu şirketlerin tasmasını tutamayacağını kendi distopya tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI's Sam Altman Has a New Idea for a Universal Basic Income - Business Insider](https://www.businessinsider.com/openai-sam-altman-universal-basic-income-idea-compute-gpt-7-2024-5)
     > *"Altman has long supported a universal basic income — a recurring cash payment, no strings attached, made to all adults in a given population regardless of their wealth and employment status. Altman, like many others in the tech industry, sees universal basic income as a safety net for people as AI threatens their jobs. (...) OpenAI CEO Sam Altman h..."*
   - `[Tavily]` [Sam Altman Falls Out of Love With Universal Basic Income - Business Insider](https://www.businessinsider.com/sam-altman-ubi-universal-basic-income-view-changes-2026-4)
@@ -5060,11 +8417,21 @@
   - `[DuckDuckGo]` [Here's what a Sam Altman-backed basic income experiment foundSam Altman falls out of love with universal basic incomeSam Altman's...](https://www.cbsnews.com/news/sam-altman-universal-basic-income-study-open-research/)
     > *"Jul 23, 2024 · A recent study on basic income, backed by OpenAI founder Sam Altman, shows that giving low-income people guaranteed paydays with no strings attached can lead to their working slightly less... Apr 30, 2026 · Sam Altman once spent $14 million of his own money to study universal basic income. Now, the OpenAI CEO says he's not sold on it..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Kuzey Koreli casusların şirketlere sahte kimlikle sızması yüzünden uzaktan çalışma modelinin tamamen çökeceğini, şirketlerin yüz yüze görmediği kimseyi işe almayacağını ve Asyalı çalışanlara karşı büyük bir ayrımcılık başlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **7.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %9.2 | TUTTU: %1.1 | TUTMADI: %72.9 | KISMEN TUTTU: %16.8`
 - **Videoda Ne Demişti:** KnowBe4 şirketine sahte kimlikle giren ve bilgisayara zararlı yazılım yüklemeye çalışan Kuzey Koreli çalışan vakasını değerlendiren Utku Şen, bu tarz sahtekarlıkların uzaktan çalışmayı bitireceğini anlatıyor. Şirketlerin artık uzaktan kimseyi işe almaya cesaret edemeyip herkesi ofise çağıracağını ve Asya kökenli adaylara şüpheyle yaklaşılarak ciddi bir ayrımcılık yapılacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Privacy, Cyber & Data Strategy / Immigration Advisory | North Korean IT Remote Worker Fraud Scheme Data Security and Employment La...](https://www.alston.com/en/insights/publications/2025/01/north-korea-it-fraud-scheme-data-security-law)
     > *"Minute Read The recent indictment of 14 North Korean nationals for fraudulently obtaining remote IT jobs with U.S.-based companies underscores the importance of vigilant hiring practices. Our Privacy, Cyber & Data Strategy and Immigration teams offer actionable steps businesses can take to avoid worker fraud schemes while complying with federal and..."*
   - `[Tavily]` [25K views · 542 reactions | If your company has hired remote IT workers, there's a chance your business helped fund the North Kore...](https://www.facebook.com/FBIAtlanta/videos/if-your-company-has-hired-remote-it-workers-theres-a-chance-your-business-helped/1396415665907075)
@@ -5076,11 +8443,21 @@
   - `[DuckDuckGo]` [North Korean IT Workers: How to Catch Fake Applicants Early](https://www.socure.com/blog/north-korean-it-workers-remote-hiring-scam)
     > *"Aug 14, 2026 · North Korean IT workers are trained operatives who use stolen or fabricated identities to land remote jobs at Western companies, then funnel their wages back to the DPRK regime. They walk through the front door of your hiring funnel, armed with credentials that pass a basic background check."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, tüm dünyanın tek bir merkezi yapay zekaya bağlanmasının CrowdStrike benzeri küresel çöküşlere yol açacağını, gelecekte mutfak aletlerinden otopark makinelerine kadar her cihazın içinde internete bağlı olmadan çalışan bağımsız yerel modeller olacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %55.0 | BELIRSIZ: %9.6 | KISMEN TUTTU: %34.4 | TUTMADI: %1.0`
 - **Videoda Ne Demişti:** Meta'nın Llama 3.1 modelini ve açık kaynak yapay zekanın önemini anlatan Utku Şen, tüm dünyanın OpenAI gibi tek bir şirketin bulutuna bağlanmasının büyük felaketler doğuracağını belirtiyor. Bir şirket çöktüğünde tüm dünyanın durmaması ve fahiş zam yapıldığında kimsenin rehin kalmaması için mutfaktaki robottan otopark bilet makinelerine kadar her yerde internete çıkmadan çalışan bağımsız, donanıma gömülü yapay zekaların bulunacağı bir geleceğe gidileceğini kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Edge AI: Where intelligence makes real time decisions without relying on cloud](https://www.persistent.com/blogs/edge-ai-when-intelligence-comes-home)
     > *"Today, edge systems already handle perception and detection. What is emerging now is the ability to reason and decide locally, using small, efficient models running directly on devices – often operating offline, with the cloud playing a secondary role. This shows up most clearly in environments with hard constraints: (...) Listen to this article Wh..."*
   - `[Tavily]` [How AI is Changing Edge Computing](https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/how-ai-is-changing-edge-computing)
@@ -5092,15 +8469,29 @@
   - `[DuckDuckGo]` [Architecting offline-first generative AI applications for ...](https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/)
     > *"Jul 22, 2026 · In this post, we walk through a reference architecture for building and deploying a generative AI application at the edge using AWS services."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Tamam Bu Sefer Dinleniyoruz - S.A.H E135 - 2025-08-31
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, gelecekte fidye yazılımlarının ve virüslerin içinde doğrudan hiçbir zararlı kod bulunmayacağını, sadece zararlı kod yazdıracak promptlar barındıracağını ve şirket ağına sızdıktan sonra ortama göre kendi zararlı kodunu üreterek güvenlik sistemlerini atlatacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.8 | TUTTU: %49.0 | BELIRSIZ: %20.6 | KISMEN TUTTU: %26.6`
 - **Videoda Ne Demişti:** PromptLock isimli deneysel yapay zekalı fidye yazılımını inceleyen Utku Şen, bu projenin geleceğe ışık tuttuğunu anlatıyor. İlk başta zararlı kod barındırmayan ama içinde lokal yapay zekaya kod yazdıran promptlar bulunan yazılımların şirket ağlarına sızdırılacağını, saldırı tespit ve antivirüs sistemlerine yakalanmadan şirketin dosyalarını şifreleyip sileceğini kendi gelecek öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The future is here: AI-borne ransomware has arrived | RL Blog](https://www.reversinglabs.com/blog/ai-borne-ransomware-has-arrived)
     > *"Dubbed PromptLock by ESET and discovered by ESET researcher Anton Cherepanov, the ransomware is believed to be the first AI-borne malware. The malicious program contains embedded prompts that it sends to an open weights LLM, gpt-oss:20b, to generate Lua scripts. Although the prompts are static, the generated scripts can vary with each execution. Th..."*
   - `[Tavily]` [ESET discovers PromptLock, the first AI-powered ransomware | ESET](https://www.eset.com/us/about/newsroom/research/eset-discovers-promptlock-the-first-ai-powered-ransomware)
@@ -5112,11 +8503,21 @@
   - `[DuckDuckGo]` [ESET discovers PromptLock, the first AI-powered ransomware](https://www.eset.com/us/about/newsroom/research/eset-discovers-promptlock-the-first-ai-powered-ransomware/)
     > *"Aug 27, 2025 · BRATISLAVA — August 27, 2025 — ESET researchers have uncovered a new type of ransomware that leverages generative artificial intelligence (GenAI) to execute attacks. Named PromptLock, the malware runs a locally accessible AI language model to generate malicious scripts in real time."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, görsel ve kodlama yapay zekaları sayesinde hiç kodlama bilmeyen insanların bile birkaç komutla uygulama geliştirebileceğini ve yakında inanılmaz bir mobil uygulama ile startup patlaması yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %5.6 | KISMEN TUTTU: %17.8 | TUTTU: %75.7 | TUTMADI: %0.8`
 - **Videoda Ne Demişti:** Gemini'ın yeni görsel modelini ve Claude Code gibi ajanları değerlendiren Utku Şen, kendisinin hiç Swift bilmeden sıfırdan bir iOS mobil uygulaması geliştirdiğini anlatıyor. İnsanların aklındaki niş fikirleri artık kod yazma engeline takılmadan hayata geçirebileceğini belirterek yakında piyasada çok büyük bir uygulama ve girişim patlaması görüleceğini kendi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [PYMNTS | AI Startup Create Raises $8.5 Million to Build the ‘Shopify for Apps’](https://www.pymnts.com/startups/2025/ai-startup-create-raises-8-5-million-to-build-the-shopify-for-apps)
     > *"“The vibe coding space is exploding, but everyone hits the same wall with AI coding tools — amazing demo, dead end,” said Dhruv Amin, Create’s co-founder and CEO, in the release. “We’re the first to ship beautiful mobile apps straight to the App Store. … Just describe what you want and it works.” (...) PYMNTS IntelligenceThe Prompt EconomyNewswireE..."*
   - `[Tavily]` [The 6 most exciting AI vibe coding tools from startups in Y Combinator's summer cohort Demo Day | Business Insider Africa](https://africa.businessinsider.com/news/the-6-most-exciting-ai-vibe-coding-tools-from-startups-in-y-combinators-summer-cohort/nt4qp6j)
@@ -5128,11 +8529,21 @@
   - `[DuckDuckGo]` [Top AI Tools for Mobile App Development in 2026 - xicom.biz](https://www.xicom.biz/blog/top-ai-tools-for-mobile-app-development/)
     > *"Sep 15, 2026 · AI-powered development tools are redefining how applications are built and maintained properly. Here you can go through some top AI tools along with their pricing details and authentic use cases. So, select the tools confidently and streamline your mobile development strategy."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, internette kullanıcı adına gezinen yapay zeka ajanlarının ve tarayıcıların web sayfalarındaki gizli komutlara kanarak kullanıcının Instagram ve e-posta gibi hesaplarını fark ettirmeden saldırganlara teslim edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %2.2 | TUTMADI: %0.6 | TUTTU: %83.1 | KISMEN TUTTU: %14.1`
 - **Videoda Ne Demişti:** Perplexity Comet gibi yapay zekalı tarayıcıların web sitelerindeki prompt injection saldırılarına karşı savunmasız olduğunu anlatan Utku Şen, eskiden link tıklamayla yapılan saldırıların yerini artık yapay zeka manipülasyonunun aldığını belirtiyor. Gezinilen sayfada yer alan gizli talimatların ajanı kandırarak şifre sıfırlama linklerini saldırgana iletebileceğini anlatıp yapay zeka ajanlarını hayata bu kadar dahil etmenin büyük güvenlik açıkları doğuracağını kendi uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Hiding Prompts in Plain Sight: A New AI Security Risk](https://auth0.com/blog/prompt-injection-ai-browser)
     > *"Indirect prompt injections pose a greater threat, particularly with the rise of agentic AI and agentic browsers. Unlike a chatbot or AI that requires a human back and forth, agentic systems and agentic browsers are fully or semi-autonomous. This means that when an indirect prompt injection occurs, it is often too late by the time a human notices wh..."*
   - `[Tavily]` ["Indirect prompt injection is not an isolated issue, but a systemic challenge facing the entire category of AI-powered browsers."...](https://www.linkedin.com/posts/pete-shimshock_unseeable-prompt-injections-in-screenshots-activity-7386819950524452865-p1yd)
@@ -5144,15 +8555,29 @@
   - `[DuckDuckGo]` [Indirect Prompt Injection: Enterprise Risks & Defense | Akamai](https://www.akamai.com/resources/white-paper/indirect-prompt-injection)
     > *"Discover how indirect prompt injection exploits GenAI and LLMs, and learn how browser-level security protects enterprise workflows against silent AI threats."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## teşkilattaki hack sahnesi, airtag ile gizli servis binası bulmak -siber alemden havadisler 48. bölüm - 2022-02-01
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Steam'in Nintendo Switch'e alternatif olarak çıkardığı el konsolu Steam Deck'in piyasada tutmayacağını ve beklenen ilgiyi göremeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %0.9 | BELIRSIZ: %0.2 | TUTTU: %0.3 | TUTMADI: %98.6`
 - **Videoda Ne Demişti:** Valve'ın el konsolu Steam Deck duyurusunu değerlendiren Utku Şen, cihaz teoride tüm Steam kütüphanesini çalıştıracak olsa bile piyasada tutacağını zannetmediğini ve oyunculardan pek ilgi görmeyeceğini kendi şahsi teknoloji tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Steam Deck Price Increase 2026: Sales Drop 82%](https://shattered.io/steam-deck-price-hike-sales-drop-2026)
     > *"Does Steam Deck still lead the handheld gaming PC market? By installed base, yes. IDC data cited by the research site ShaneTheGamer put the Steam Deck at 48 percent of tracked handheld gaming PC shipments in 2024, ahead of ROG Ally, Legion Go and MSI Claw combined. Whether that lead holds after a year of weak new sales is an open question. Will Val..."*
   - `[Tavily]` [Steam Deck has sold ~4 million units lifetime so far (handheld PC market at 6 million overall) - IDC Estimates | Famiboards](https://famiboards.com/threads/steam-deck-has-sold-4-million-units-lifetime-so-far-handheld-pc-market-at-6-million-overall-idc-estimates.12706)
@@ -5164,11 +8589,21 @@
   - `[DuckDuckGo]` [Steam Deck Sales And Adoption Statistics 2026](https://coopboardgames.com/statistics/steam-deck-sales-and-adoption/)
     > *"Jul 11, 2026 · Valve has sold an estimated 4.95 million Steam Decks by mid-2026, helping it capture 48% of the handheld gaming PC market and pushing Linux on Steam to a record 5.33% share."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, siber güvenlik sektöründe OSCP gibi sertifikaların devrinin artık kapanmaya yaklaştığını ve işe alımlarda bu belgelerin önemini yitirdiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.7/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %1.8 | KISMEN TUTTU: %0.8 | TUTMADI: %97.1 | TUTTU: %0.3`
 - **Videoda Ne Demişti:** İzleyicilerden gelen sertifika sorusunu ve sektördeki işe alım süreçlerini değerlendiren Utku Şen, Almanya'ya taşınmadan önce girdiği mülakatlarda kendisine bir kez bile sertifika sorulmadığını belirterek siber güvenlikte sertifika devrinin artık bitmeye yaklaştığını kendi sektör tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Cybersecurity Job Market Statistics and Trends (2026)](https://app.stationx.net/articles/cybersecurity-job-market-statistics)
     > *"Globally, ISC2 reports the cybersecurity workforce grew to 5.5 million in 2024, but the growth rate slowed to its lowest level on record (ISC2 2024). This paradox — record-high absolute numbers coupled with slowing growth — reflects tightening budgets and hiring freezes across the technology sector. CyberSeek data shows US openings increasing year-..."*
   - `[Tavily]` [What Companies Demand for Entry-level Cybersecurity Jobs - ERIC](https://files.eric.ed.gov/fulltext/EJ1246234.pdf)
@@ -5180,11 +8615,21 @@
   - `[DuckDuckGo]` [Cybersecurity Certification Demand: 2026 Hiring Trends ...](https://programs.com/resources/cybersecurity-certification-demand/)
     > *"Jun 3, 2026 · We analyzed 2,694 unique, deduplicated cybersecurity job postings and tracked mentions of 20 major certifications, including CISSP, CISM, CISA, CEH, Security+, CCSP, OSCP, and CRISC."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, bulut oyunculuğunun ileride oyun dünyasında pek çok şeyi kökten değiştireceğini ama altyapı ve gecikme sorunları yüzünden bu dönüşümün en az 5 ila 10 yıl süreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %38.1 | KISMEN TUTTU: %35.3 | TUTMADI: %16.7 | TUTTU: %9.9`
 - **Videoda Ne Demişti:** GeForce Now deneyimini ve bulut oyunculuğunu ele alan Utku Şen, Almanya'daki 500 megabitlik internetinde bile akıcılık ve takılma sorunları yaşadığını anlatıyor. Bulut oyunculuğun gelecekte oyun dünyasını kesinlikle değiştireceğini fakat bu dönüşümün yakın zamanda değil en az 5-10 yıllık bir sürede gerçekleşeceğini kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Cloud Gaming Market Size, Trends, Global Report - 2035](https://www.marketresearchfuture.com/reports/cloud-gaming-market-1368)
     > *"| | | | | --- --- | | Restraint | ~% Impact on CAGR | Geographic Relevance | Impact Timeline | | Last-mile latency and jitter variability | -4.3 | Global, rural-weighted | Medium-term (2–4 yr) | | Content licensing and title fragmentation | -3.5 | Global | Long-term (≥4 yr) | | GPU cost per concurrent user | -3.1 | Global | Short-term (≤2 yr) | | M..."*
   - `[Tavily]` [Cloud Gaming Market Growth, Trends & Outlook 2033](https://www.marknteladvisors.com/research-library/global-cloud-gaming-market.html)
@@ -5196,15 +8641,29 @@
   - `[DuckDuckGo]` [Cloud Gaming Statistics 2026: Market Size, Revenue, Users ...](https://axis-intelligence.com/cloud-gaming-statistics/)
     > *"Jul 3, 2026 · According to Axis Intelligence Research’s analysis combining ITU connectivity data and MarketsandMarkets market sizing, each 10-percentage-point increase in 5G population coverage correlates with approximately 6–8% cloud gaming revenue growth in that region, with a 12–18 month adoption lag."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## twitter'a eski CISO darbesi, tübitak hacklendi mi? - siber alemden havadisler 63. bölüm - 2022-09-02
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, teknoloji şirketlerinin çocuk istismarını önleme bahanesiyle başlattığı bulut taramalarının kurbağayı kaynar suda yavaş yavaş ısıtmaya benzediğini, devletler bu şirketleri dizginlemezse işin ileride Putin fotoğrafı veya patron karikatürü saklayanları internetten tamamen yasaklamaya kadar varacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %6.6 | BELIRSIZ: %41.0 | KISMEN TUTTU: %37.8 | TUTMADI: %14.6`
 - **Videoda Ne Demişti:** Google Drive ve Apple'ın çocuk istismarı gerekçesiyle kullanıcıların bulut dosyalarını taramasını ve çocuğunun tıbbi fotoğrafını doktora yollayan bir babanın hesabının kapatılmasını değerlendiren Utku Şen, bunun sadece ilk adım olduğunu anlatıyor. Şirketlerin kurbağayı ısıtma taktiği uyguladığını belirterek yarın terörizm, bir sonraki gün ise Putin fotoğrafı veya Jeff Bezos karikatürü bahane edilerek insanların hiçbir hak arayamadan bütün internetten men edilebileceği distopik bir geleceğe sürüklendiğimizi ve devletlerin şirketlerin tasmasını acilen tutması gerektiğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Happens When Google Bans Your Account | Metadata Fixer](https://metadatafixer.com/learn/google-account-banned-how-to-protect-photos)
     > *"The math is simple: Google is scanning more aggressively, penalties are more severe, and your legal recourse is effectively zero. The only protection that actually works is having your data somewhere else before it happens. How to Protect Your Google Photos Before It's Too Late (...) Yes. Every photo that auto-backs up to Google Photos is scanned f..."*
   - `[Tavily]` [Google Photos Is BANNING Parents — Protect Your Account Before It's Too Late (2026)](https://www.youtube.com/watch?v=i1mPw_oAJg8)
@@ -5216,15 +8675,29 @@
   - `[DuckDuckGo]` [Google fotoğraflar hesabımı nasıl kapatabilirim?](https://support.google.com/photos/thread/215833140/google-fotoğraflar-hesabımı-nasıl-kapatabilirim?hl=tr)
     > *"May 15, 2023 · Google fotoğraflar hesabımı nasıl kapatabilirim? Telefonumu sıfırlamam gerektiği için google fotoğraflardan fotoğraf ve videoları yedekledim. Herhangi bir şey silinmesin diye..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Twitter'ı Güney Asya Lobisi Yönetiyor - S.A.H E146 - 2025-12-07
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın içi tamamen boş fakat kusursuz bir dille yazılmış sahte güvenlik raporları ve yanıltıcı içerikler üreterek gelecekte başımıza çok büyük bela açacağını, insanların bu süslü ifadelere kanıp yalanları doğru sanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %84.3 | KISMEN TUTTU: %13.4 | TUTMADI: %0.3 | BELIRSIZ: %2.0`
 - **Videoda Ne Demişti:** WhatsApp'ta var olmayan bir güvenlik açığı hakkında yazılmış popüler bir tweet'i ve açık kaynak geliştiricilerine gelen hayali zafiyet raporlarını inceleyen Utku Şen, yapay zekanın bu konuda ileride büyük dertler yaratacağını anlatıyor. Metinler kof olmasına rağmen son derece profesyonel göründüğü için teknik olmayan kişilerin bunlara kolayca aldanacağını ve sahte teknik iddiaların doğru kabul edileceği bir dezenformasyon dönemine girildiğini kendi uyarısı ve tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI hallucinations and their risk to cybersecurity operations - Help Net Security](https://www.helpnetsecurity.com/2025/05/19/ai-hallucinations-risk-cybersecurity-operations)
     > *"Another concern is the potential for AI to produce fake threat intelligence. These reports, if taken at face value, can divert attention from actual threats, allowing real vulnerabilities to go unaddressed. The risk is compounded when AI outputs are not cross-verified with reliable sources. Strategies to mitigate AI hallucinations (...) “If a compa..."*
   - `[Tavily]` [LLM Hallucination & Misinformation | OWASP LLM09:2025](https://www.a10networks.com/glossary/llm-hallucination)
@@ -5236,15 +8709,29 @@
   - `[DuckDuckGo]` [LLM Misinformation: The Security Risk of Hallucinations](https://safeguard.sh/resources/blog/llm-misinformation-security-risks-of-hallucinated-outputs)
     > *"Jul 20, 2026 · It is one small example of a much bigger pattern: hallucinated LLM output no longer just misleads a chatbot user — it flows into codebases, legal filings, vulnerability reports, and customer-facing systems, where it behaves like injected misinformation with real operational consequences."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Türkiye'de Hacker Dizisi Yok Ama Kliplerimiz Var - S.A.H E92 - 2024-04-29
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, GitHub'ın yorum alanına yüklenen dosyalara verdiği resmi görünümlü bağlantı açığının kapatılmaması halinde saldırganların güvenilir kurumların adını kullanarak çok büyük çaplı zararlı yazılım yayma dalgası başlatacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %75.7 | KISMEN TUTTU: %20.2 | BELIRSIZ: %2.7 | TUTMADI: %1.3`
 - **Videoda Ne Demişti:** GitHub'da herhangi bir kullanıcının büyük şirketlerin deposuna dosya yüklediğinde doğrudan o kurumun resmi bağlantısı gibi duran bir URL verilmesini inceleyen Utku Şen, bu açığı bilmeyen herkesin tuzağa düşeceğini anlatıyor. Durumun ciddiyetine dikkat çekerek bu sistem açığının hackerlar tarafından devasa boyutlarda zararlı yazılım ve virüs dağıtmak için kullanılacağını kendi güvenlik uyarısı olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Protection Highlight: Confronting the malicious abuse of GitHub](https://www.broadcom.com/support/security-center/protection-bulletin/protection-highlight-confronting-the-malicious-abuse-of-github)
     > *"Attack Chain Email contains a github.com project URL and a password -> Redirects to a project page with a password protected archive -> DLL -> .exe -> Final payload Example URL structure: hxxps(:)//github(.)com/(user_project)/(repo_name)/files/(file_id)/2023(.)COMPLETE(.)TAX(.)ORGANIZER(.)pdf(.)zip Image 1 Figure 1: Preview of email with embedded G..."*
   - `[Tavily]` [Malvertising campaign leads to info stealers hosted on GitHub | Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2025/03/06/malvertising-campaign-leads-to-info-stealers-hosted-on-github)
@@ -5256,11 +8743,21 @@
   - `[DuckDuckGo]` [How do you report malware hosted as GitHub attachments?](https://github.com/orgs/community/discussions/150549)
     > *"Feb 2, 2025 · I have a bunch of direct links to malware payloads hosted on Github for an active malware campaign, I only have the links, I do not know who uploaded them, which issue or whatever they were attached to, I only have the direct links to the files for example:"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Meta'nın Llama yapay zekasını WhatsApp'a bir sohbet botu olarak entegre edip uygun bir fiyatla sunması halinde ChatGPT'nin pazardaki liderliğini ve tahtını çok fena sarsacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %19.5 | TUTMADI: %1.2 | TUTTU: %78.0 | BELIRSIZ: %1.3`
 - **Videoda Ne Demişti:** Meta'nın yeni Llama modelinin açık kaynaklı başarısını değerlendiren Utku Şen, her yaş grubunun ayrı bir yapay zeka uygulaması kullanamayacağını fakat herkesin telefonunda WhatsApp olduğunu anlatıyor. Meta'nın bu modeli WhatsApp'a gömerek aylık 10 dolar gibi düşük bir ücretle ya da basit sürümünü ücretsiz sunması halinde inanılmaz bir kitle yakalayacağını ve ChatGPT'nin tahtını fena sallayabileceğini kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Meta releases early versions of its Llama 3 AI model](https://finance.yahoo.com/news/meta-releases-early-versions-llama-160000792.html)
     > *"The models will be integrated into virtual assistant Meta AI, which the company is pitching as the most sophisticated of its free-to-use peers. The assistant will be given more prominent billing within Meta's Facebook, Instagram, WhatsApp and Messenger apps as well as a new standalone website that positions it to compete more directly with Microsof..."*
   - `[Tavily]` [Meta releases early versions of its Llama 3 AI model](https://finance.yahoo.com/news/meta-releases-early-versions-llama-160228478.html)
@@ -5272,15 +8769,29 @@
   - `[DuckDuckGo]` [How to build your own multi-modal WhatsApp chatbot with Llama 4](https://dev.meta.ai/llama/resources/videos/build-multi-modal-whatsapp-chatbot-with-llama-4)
     > *"Nov 4, 2025 · This tutorial will walk you through the process of integrating your services with a WhatsApp chatbot, using Llama 4 to handle multiple use-cases. To achieve this setup, we’ve built an end to end recipe that enables you to build your own AI assistant on WhatsApp, using Llama 4’s native multimodal capabilities."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Türkiye'deki Mobbing Pandemisi - S.A.H E167 - 2026-06-28
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, yapay zekanın hızla gelişmesiyle birlikte prompt injection saldırılarının ileride büyük ölçüde çözüleceğini ve şirketlerin korkularını yenerek modelleri çok daha hassas ve kritik sistemlere emanet edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.1/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %7.3 | KISMEN TUTTU: %1.7 | TUTMADI: %90.9 | TUTTU: %0.1`
 - **Videoda Ne Demişti:** Bir geliştiricinin yapay zeka asistanını 2000 kişiye hackletmeye çalışmasını ve modellerin prompt injection direncini inceleyen Utku Şen, geçmişteki basit kandırma yöntemlerinin artık işe yaramadığını anlatıyor. Modellerin güvenlik konusunda her geçen yıl daha iyiye gittiğini belirterek ilerleyen yıllarda bu güvenlik açığının büyük oranda çözüleceğini ve yapay zekanın kritik alanlardaki kullanımının ciddi şekilde artacağını kendi güvenlik tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Prompt Injection and Enterprise AI: The Attack Surface Most Security Teams Aren’t Monitoring | Airia](https://airia.com/blog/prompt-injection-and-enterprise-ai-the-attack-surface-most-security-teams-arent-monitoring)
     > *"This isn’t a bug that can be patched. OpenAI has publicly acknowledged prompt injection as a “frontier security challenge,” one their research teams have been working on for years without a definitive solution. The problem is architectural, not incidental. Why Traditional Security Tools Don’t See It (...) Key Takeaways: Prompt injection exploits in..."*
   - `[Tavily]` [How Prompt Injection Detection Works: Key Steps For Enterprise AI Security Teams - BlackFog](https://www.blackfog.com/prompt-injection-detection)
@@ -5292,11 +8803,21 @@
   - `[DuckDuckGo]` [Prompt Injection Vulnerability Statistics 2026: Alarming AI ...](https://techrt.com/prompt-injection-vulnerability-statistics/)
     > *"May 20, 2026 · Explore Prompt Injection Vulnerability Statistics with fresh AI threat data, attack trends, and security insights."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, Çin'in modelleri olgunluğa eriştiği anda açık kaynak yapay zeka dağıtmayı bırakacağını ve Amerikan kısıtlamaları yüzünden Avrupa ülkeleri dahil her devletin kendi yapay zekasını üretmek zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %20.2 | KISMEN TUTTU: %45.0 | TUTMADI: %10.0 | BELIRSIZ: %24.9`
 - **Videoda Ne Demişti:** Amerika'nın yeni çıkan gelişmiş modelleri sadece kendi kurumlarına açmasını ve yapay zeka yarışındaki ayrışmayı değerlendiren Utku Şen, artık her ülkenin kendi başının çaresine bakacağı bir döneme girildiğini anlatıyor. Çin'in şu anki açık kaynak politikasını yeterince güçlendiğinde terk edeceğini ve başka seçeneği kalmayan devletlerin bağımsız kalabilmek için kendi yapay zekalarına yatırım yapmaya mecbur olacağını kendi stratejik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [CNAS Insights | A Closing Door on Open Weights? Implications for AI Sovereignty | CNAS](https://www.cnas.org/publications/cnas-insights/cnas-insights-a-closing-door-on-open-weights-implications-for-ai-sovereignty)
     > *"Beijing is taking notice. Despite President Xi Jinping’s embrace of open-weight models in remarks at the World AI Conference earlier this July, the Chinese government has begun laying the groundwork for a more restrictive approach. On October 16, China’s Ministry of Commerce and Ministry of Science and Technology announced draft export controls for..."*
   - `[Tavily]` [Assessing Sovereign AI: A Two-Pronged Framework | Center for Security and Emerging Technology](https://cset.georgetown.edu/article/assessing-sovereign-ai-a-two-pronged-framework)
@@ -5308,11 +8829,21 @@
   - `[DuckDuckGo]` [The openness paradox: Open-source AI and China's quest for ...](https://journals.sagepub.com/doi/10.1177/29768640251376497)
     > *"Sep 8, 2025 · This article argues that the contradiction is only apparent, as China strategically repurposes open-source to reinforce its “cyber sovereignty” doctrine and digital authoritarian practices, advance technological self-reliance, and export its model of digital governance."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, yapay zeka kaynaklı işten çıkarma dalgası Türkiye'ye geldiğinde çalışanlara düzgün tazminatlar verilmezse ülkede insanların canına kıyacağı çok büyük bir toplumsal yıkım yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %2.9 | BELIRSIZ: %83.4 | TUTMADI: %6.6 | KISMEN TUTTU: %7.1`
 - **Videoda Ne Demişti:** Garanti BBVA'daki işten çıkarmaları ve Türkiye'deki mobbing ortamını değerlendiren Utku Şen, Batı'daki gibi insanların kenarda birikmiş parası olmadığını ve maaşı kesilince doğrudan açlıkla karşı karşıya kaldığını anlatıyor. Yapay zeka kaynaklı toplu işten çıkarmalar başladığında şirketlerin çalışanlara güvence vermemesi durumunda büyük bir toplumsal çöküş yaşanacağını belirterek devletin acilen yasa çıkarması gerektiğini kendi uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why AI hasn’t triggered mass layoffs — yet — Harvard Gazette](https://news.harvard.edu/gazette/story/2026/09/why-ai-hasnt-triggered-mass-layoffs-yet)
     > *"Along with Karen Dynan, also of the Kennedy School, and Louise Sheiner of the Brookings Institution, this spring Elmendorf wrote a National Bureau of Economic Research working paper that examines four possible scenarios for AI’s impact on the economy. The scenarios range from a moderate boost to GDP with little reduction in the number of workers to..."*
   - `[Tavily]` [AI's Impact on the U.S. Economy 2026: Jobs, GDP & Tech…](https://dwuconsulting.com/dwu-ai/ai-revolution-us-economy)
@@ -5324,11 +8855,21 @@
   - `[DuckDuckGo]` [Artificial Intelligence: Intensifying or mitigating unemployment?](https://www.sciencedirect.com/science/article/pii/S0160791X24003038)
     > *"Dec 1, 2024 · In medium term, AI's positive and negative effects balance out as industries restructure and new jobs emerge. AI reduces unemployment in the long run, except during the COVID-19. China-specific suggestions are formulated to mitigate potential AI-induced unemployment crisis."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, yapay zeka yüzünden kilitlenen çip arzının faturasının son kullanıcıya çıkacağını ve yakında oyun konsollarından bilgisayarlara kadar tüm tüketici elektroniğine fena zamlar geleceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **9.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %7.3 | BELIRSIZ: %1.0 | TUTMADI: %0.3 | TUTTU: %91.4`
 - **Videoda Ne Demişti:** Nvidia tekelini ve şirketlerin kendi çiplerini üretme çabalarını değerlendiren Utku Şen, çip üreticilerinin kapasitelerini yıllar sonrasına kadar yapay zekaya sattığını anlatıyor. Apple'ın donanımlarına yaptığı fiyat artışlarının daha başlangıç olduğunu belirterek PlayStation ve bilgisayarlar dahil tüm tüketici cihazlarının yakında zamlanacağını kendi piyasa tahmini olarak söylüyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI chip demand driving memory chip shortage, higher device prices](https://www.youtube.com/watch?v=qq7bUAJO5a4)
     > *"The growing demand for artificial intelligence (AI) chips has resulted in a memory chip crunch, with the shortage impacting corporate profits and increasing the prices of consumer devices at a time when inflation concerns are already high. For example, Apple has raised the prices of its high-end computers by about US$100 to US$400. Mehdi Hosseini,..."*
   - `[Tavily]` [The memory crisis is driving up the cost of consumer electronics, and prices may never come down](https://finance.yahoo.com/technology/article/the-memory-crisis-is-driving-up-the-cost-of-consumer-electronics-and-prices-may-never-come-down-163444837.html)
@@ -5340,15 +8881,29 @@
   - `[DuckDuckGo]` [Rise in memory chip costs puts pressure on electronics retailers](https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html)
     > *"Jun 26, 2026 · AI demand is contributing to a memory chip shortage. As a result, the prices of some consumer electronics are beginning to rise. Apple announced it's raising its prices on MacBooks and iPads ..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## uber hacklendi, ukrayna savaşı ve botlar, ethereum merge'ü - siber alemden havadisler 66. bölüm - 2022-09-23
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, süresi 2 ile 10 yıl arasında değişse bile haftada 4 gün çalışma ve günde 6 saat mesai düzeninin eninde sonunda kesin olarak hayatımıza gireceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.3 | TUTTU: %12.5 | KISMEN TUTTU: %37.2 | BELIRSIZ: %48.0`
 - **Videoda Ne Demişti:** Haftada 4 gün çalışmanın yaşam maliyetini ve masrafları azaltacağına dair uzman görüşlerini değerlendiren Utku Şen, günde 8 saat çalışmanın verimsiz olduğunu ve kimsenin 8 saat aralıksız çalışmadığını anlatıyor. Mesai süresinin 6 saate inmesi gerektiğini belirterek, şirketleri zorladıkça bu dönüşümün hızlanacağını ve 2 sene sonra da olsa 10 sene sonra da olsa haftada 4 gün çalışma modelinin eninde sonunda mutlaka benimseneceğini kendi gelecek öngörüsü olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What the four-day workweek means for the future of employment | World Economic Forum](https://www.weforum.org/stories/jobs-and-the-future-of-work/what-the-four-day-workweek-means-for-the-future-of-employment)
     > *"It is not just individual organizations like ours that are adopting a four-day workweek, countries such as Japan, Ireland, and Iceland have also implemented the four-day workweek on a significant scale. In addition, the world’s largest economy, the US, has also seen its momentum growing, with nearly a hundred members of the US Congress recently end..."*
   - `[Tavily]` [The Four-Day Work Week Learnings from Companies at ...](https://mgaleg.maryland.gov/cmte_testimony/2024/fin/1Z7cJqwZB-VALczY9QJ8VbrhD_VYDlf_z.pdf)
@@ -5360,11 +8915,21 @@
   - `[DuckDuckGo]` [Countries With 4-Day Work Weeks in 2026: Complete Global Guide](https://www.4dayjob.com/blog/countries-with-4-day-work-week)
     > *"Countries With 4-Day Work Weeks in 2026: Complete Global Guide 🌍 Quick Summary While no country has made the 4-day work week mandatory nationwide, several countries are leading the global movement through government trials, legislation, and widespread private-sector adoption."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, insanların balon veya dolandırıcılık olarak görmesine katılmadığını belirterek NFT konseptinin ileride hayatımızda önemli bir yer edineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %43.6 | TUTMADI: %11.0 | TUTTU: %27.5 | BELIRSIZ: %17.9`
 - **Videoda Ne Demişti:** Kripto para piyasasını ve NFT ekosistemini değerlendiren Utku Şen, piyasada hızlı para kazanmak için çıkarılan çöp projeler bulunsa da NFT'nin toptan bir aldatmaca olduğuna inanmadığını anlatıyor. Büyük galerilere veya Spotify gibi aracılara muhtaç kalmadan bağımsız müzisyenlerin ve ressamların doğrudan para kazanabilmesi için devrimsel bir potansiyel taşıdığını vurgulayarak, NFT teknolojisinin ileride hayatımızda önemli bir yer tutacağını kendi şahsi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [NFT 2.0: Beyond Art and Collectibles – The Future of Utility NFTs](https://medium.com/@my8334905/nft-2-0-beyond-art-and-collectibles-the-future-of-utility-nfts-ecbbfd11149a)
     > *"Artists, musicians, and content creators can benefit from utility NFTs to automate royalties and manage intellectual property rights. Automated Royalty Payments: Smart contracts ensure creators earn royalties every time their work is resold. IP Licensing: NFTs can serve as digital proof of licensing agreements. Challenges in Scaling Utility NFTs Wh..."*
   - `[Tavily]` [Experts believe NFTs have a future beyond the art world | World Economic Forum](https://www.weforum.org/stories/emerging-technologies/experts-believe-nfts-could-have-a-future-beyond-the-art-world)
@@ -5376,15 +8941,29 @@
   - `[DuckDuckGo]` [NFTs and Digital Art: Market Shift to Utility in 2026](https://www.blockchain-council.org/nft/nfts-and-digital-art/)
     > *"Apr 10, 2026 · Explore how NFTs and digital art evolved by 2026: collector adoption, galleries, utility NFTs, provenance, IP challenges, and what comes next."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Veri Güvenliğinin Afrikası - S.A.H E118 - 2025-03-16
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Google'ın algoritma değişikliği yüzünden Türkiye'de bağımsız haber sitelerinin batacağını, ülkede ücretli haber aboneliği kültürü olmadığı için medyanın tamamen tek sesliliğe döneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.5/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %35.2 | TUTTU: %29.7 | TUTMADI: %6.7 | KISMEN TUTTU: %28.4`
 - **Videoda Ne Demişti:** Google'ın haber sitelerini arama sonuçlarında geriye atması tartışmasını değerlendiren Utku Şen, yurt dışındaki gibi paralı haber aboneliği modelinin Türkiye'de kültürel ve ekonomik olarak asla çalışmayacağını anlatıyor. Devlet destekli sitelerin fonlarla ayakta kalacağını fakat bağımsız medyanın yok olup gideceğini ve bu gidişatın Türkiye'yi tamamen tek sesli bir medya ortamına sürükleyeceğini kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Google Has Its Hand Around the Throat of the Independent Media and It's Squeezing Harder and Harder](https://futurism.com/artificial-intelligence/google-independent-media-journalism-choking-search-ai-overview)
     > *"For anybody concerned with the state of media, 2024 is an important year. It’s when Google first introduced its AI Overviews at the top of search results, functionally pushing legitimate news sites further down in order to prioritize engagement with the buzzy tech. Given that Google has a near-total monopoly on web search, the pivot toward AI is fu..."*
   - `[Tavily]` [How Google is killing independent sites like ours - HouseFresh](https://housefresh.com/david-vs-digital-goliaths)
@@ -5396,11 +8975,21 @@
   - `[DuckDuckGo]` [Google, your algorithm changes are killing independent media](https://dispatcheseurope.com/terry-boyd-google-your-algorithm-changes-are-killing-independent-media/)
     > *"Oct 12, 2022 · It just happened again earlier this month: Google changes its algorithm regularly, supposedly to give users a better experience. In other words, so users don’t get fed cheesy clickbait sites when they search for, say, info about healthcare. We get that."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Manus gibi otonom yapay zeka ajanlarının arka planda aşırı derecede kaynak ve para yaktığını, yolda saçmalama ihtimali de yüksek olduğu için bu servislerin son kullanıcıya çok pahalıya çıkacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.6/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %21.9 | BELIRSIZ: %1.6 | TUTTU: %75.8 | TUTMADI: %0.7`
 - **Videoda Ne Demişti:** Manus isimli yapay zeka ajanını inceleyen Utku Şen, modelin verilen görevleri çözmek için dakikalarca uğraşıp ekran görüntüleri alarak ve siteleri gezerek devasa bir işlem gücü tükettiğini anlatıyor. Sürecin ortasında bir yerde saçmalarsa tüm o harcanan paranın boşa gideceğini belirterek bu tip ajan servislerinin kesinlikle ucuza sunulamayacağını ve çok pahalıya patlayacağını kendi teknoloji tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Exclusive: At Least Three Top-Tier VCs in Silicon Valley Have Reached Out to Manus AI](https://genaiassembling.substack.com/p/exclusive-at-least-three-top-tier)
     > *"NVIDIA founder and CEO Jensen Huang noted during his GTC 2025 keynote that the inference workloads powering many AI agents require over 100 times the compute of traditional large language model queries. While Manus doesn’t train its own models, it uses Anthropic’s Claude 3.5, one of the most expensive APIs in the market. Running this kind of system..."*
   - `[Tavily]` [Manus AI Review 2026: Features, Pricing, 7 Alternatives](https://www.taskade.com/blog/manus-ai-review)
@@ -5412,15 +9001,29 @@
   - `[DuckDuckGo]` [Manus AI Pricing 2026: Plans, Credits, and Cost Reality](https://www.layer3labs.io/guides/manus-ai-pricing)
     > *"Oct 25, 2026 · Manus AI Cost Range and Quick Summary Reported Manus AI pricing runs from $0 on the Free tier to $200 per month for the highest Pro subscription, with Team plans starting at $20 per seat monthly. Entry-level paid access costs $20 per month on Pro and provides 4,000 monthly credits. Manus is expensive because credits pay for autonomou..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## web3 sıkıntıları, leetcode adil mi, haftada 4 gün çalışma - siber alemden havadisler 45. bölüm - 2022-01-11
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, Python'ın modern sistemlerin hız ve çok çekirdek ihtiyaçlarını karşılayamadığı için artık miadını doldurduğunu ve önümüzdeki 5-6 yıl içinde popülaritesinin giderek düşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **6.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %1.4 | TUTMADI: %63.9 | BELIRSIZ: %33.5 | KISMEN TUTTU: %1.2`
 - **Videoda Ne Demişti:** Python kurucusunun Python 4 sürümünün gelmeyeceğini açıklamasını değerlendiren Utku Şen, dilin tek çekirdekli eski sistemler döneminde tasarlandığını ve hız olarak yeni dillerin gerisinde kaldığını anlatıyor. Bu nedenle önümüzdeki 5-6 yıllık süreçte Python'ın gitgide geriye düşeceğini, yeni bir ana sürüm çıkarmak için kimsede motivasyon kalmayacağını, hatta Python sözdizimini kullanan ama Go hızında çalışan yeni bir dil çıkarsa onun piyasayı kasıp kavuracağını kendi kişisel tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Popularity - Wikipedia](https://en.wikipedia.org/wiki/Popularity)
     > *"Race (edit) (...) Perceived popularity or social status (edit) (...) Sociometric popularity or likeability (edit)"*
   - `[Tavily]` [How algorithmic popularity bias hinders or promotes quality | Scientific Reports](https://www.nature.com/articles/s41598-018-34203-2)
@@ -5432,11 +9035,21 @@
   - `[DuckDuckGo]` [Python ile Zaman Serileri Tahmin Yöntemleri - Medium](https://medium.com/@mervegunak/python-ile-zaman-serileri-tahmin-yöntemleri-4eeb784d4562)
     > *"Nov 27, 2022 · Şimdilik amacım, ileri düzey bir elektrik tüketim tahmini yapmaktan ziyade zaman serileri tahmin yöntemlerini basit şekilde Python ile nasıl uygulamaya dökeriz göstermeye çalışmak."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, büyük şirketlerin ve Batı dünyasının haftada 4 gün çalışmaya mutlaka adapte olacağını, Türkiye'nin de 5-6 yıl gecikmeyle buna geçeceğini ve sonraki adımda mesainin 4-5 saate ineceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.2 | BELIRSIZ: %41.8 | KISMEN TUTTU: %43.2 | TUTMADI: %5.8`
 - **Videoda Ne Demişti:** Bolt firmasının haftada 4 gün çalışma denemesini ve iş dünyasındaki mesai sürelerini değerlendiren Utku Şen, günde 8 saat odaklanarak çalışmanın insan doğasına aykırı olduğunu anlatıyor. Geçmişte işçi mücadeleleriyle 16 saatten 8 saate inildiğini hatırlatarak, bir noktadan sonra büyük firmaların ve Batı dünyasının haftada 4 gün çalışma düzenine kesinlikle geçeceğini, Türkiye'nin de 5-6 yıl sonra bunu takip edeceğini ve ilerleyen süreçte günlük mesainin 4-5 saate kadar düşeceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Four-Day Workweek Statistics: Key Trends & Data](https://founderreports.com/four-day-workweek-statistics)
     > *"Autonomy’s analysis of multiple global pilots found that firms adopting a four-day week with no pay cut typically reported productivity increases near 20%, though this relied on redesigning processes, shortening meetings, and measuring outputs instead of hours. Buffer, the social media management platform, reported a 22% increase in productivity af..."*
   - `[Tavily]` [Four-day workweek movement growing, but is it realistic?](https://finance.yahoo.com/news/four-day-workweek-movement-growing-140100827.html)
@@ -5448,11 +9061,21 @@
   - `[DuckDuckGo]` [Four-Day Workweek Statistics: Key Trends & Data](https://founderreports.com/four-day-workweek-statistics/)
     > *"Apr 2, 2026 · Explore the latest four-day workweek statistics on productivity, burnout, hiring, and adoption—based on real data from global trials and studies."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın yanlış kaynaklardan beslenip insan hayatını tehlikeye atabilecek öneriler yapması yüzünden gelecekte mutlaka Yapay Zeka Hukuku adında bir alan doğacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.4/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %14.8 | TUTTU: %84.0 | TUTMADI: %0.1 | BELIRSIZ: %1.1`
 - **Videoda Ne Demişti:** Amazon Alexa'nın internetteki bir akımı örnek alarak küçük bir çocuğa prize bozuk para sokma meydan okuması önermesini ele alan Utku Şen, yapay zekanın iyi ile kötüyü ayırt edecek bir bilinci olmadığını anlatıyor. İnsanlığın bu tip kontrolsüz risklerin önüne geçmek zorunda olduğunu belirterek, 20 veya 50 yıl sonra da olsa ileride kesinlikle Yapay Zeka Hukuku adında yeni bir yasal düzenleme ve uzmanlık alanının ortaya çıkacağını kendi öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Navigating the Power of Artificial Intelligence in the Legal Field | Published in Houston Law Review](https://houstonlawreview.org/article/137782-navigating-the-power-of-artificial-intelligence-in-the-legal-field)
     > *"As national regulation is being considered, the legal field needs to develop a framework that allows for an advancement of the benefits of AI, for example, helping firms maintain an economic advantage in the field, while still upholding the ethical requirements the legal field demands. The questions presented by AI RMP provide a starting point for..."*
   - `[Tavily]` [How Is AI Impacting the Legal Profession?](https://law.vanderbilt.edu/master-legal-studies/articles/how-is-ai-impacting-the-legal-profession)
@@ -5464,15 +9087,29 @@
   - `[DuckDuckGo]` [Navigating AI laws and regulations across practice areas](https://legal.thomsonreuters.com/blog/navigating-ai-laws-and-regulations-across-practice-areas/)
     > *"Jul 28, 2025 · As law firms and businesses adopt new AI systems and uses, the legal framework must evolve, and professionals must ensure that safeguards are in place. Below is a broad overview of the latest AI laws and regulations internationally and in the US."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Askerleri Sevmeli Miyiz? - S.A.H E83 - 2024-01-22
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, robot asker üretmenin insandan çok daha pahalı olması yüzünden uzun yıllar yine insan askerlerin ölüme gönderileceğini, ileride robot askerler devreye girse bile bunları sadece zengin ülkelerin kullanıp fakir ülkelerin yine insan kaybetmeye devam edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %22.5 | TUTMADI: %2.4 | BELIRSIZ: %50.0 | TUTTU: %25.1`
 - **Videoda Ne Demişti:** OpenAI ile Pentagon arasındaki işbirliğini ve orduların yapay zekaya yönelmesini değerlendiren Utku Şen, kapitalist sistemde bir robot askerin canının maalesef insandan çok daha kıymetli görüldüğünü anlatıyor. Maliyetler ucuzlayana kadar aktif çatışmalarda insanların canının tehlikeye atılacağını, robot asker dönemi başlasa bile gelişmiş ülkelerin robotları sahaya sürerken dezavantajlı ülkelerin insan feda edeceğini ve savaş romantizminin gerçekçi olmadığını kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Ethics of Robots in War](https://www.armyupress.army.mil/Journals/NCO-Journal/Archives/2024/February/The-Ethics-of-Robots-in-War)
     > *"While human casualties create governmental pressure and indiscriminate deaths are possible, the opposite is also true. Using robots logically removes human Soldiers from the battlefield, automatically reducing casualties. Also, robots would adhere to doctrine without emotional interference (Wagner, A., 2017). (...) According to Penn State ethicist..."*
   - `[Tavily]` [America Is Now Building Humanoid AI Robot Soldiers for War](https://www.youtube.com/watch?v=Qm64Vm-lf80)
@@ -5484,11 +9121,21 @@
   - `[DuckDuckGo]` [The Rise of AI Soldiers: How Autonomous Weapons Change Warfare](https://www.sciencenewstoday.org/the-rise-of-ai-soldiers-how-autonomous-weapons-change-warfare)
     > *"Dec 30, 2025 · Autonomous weapons, often described as “AI soldiers,” are reshaping the nature of warfare in ways that challenge long-standing assumptions about human control, ethical responsibility, and the limits of machines."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, günde 8 saat ve haftada 5 gün çalışmanın hiçbir gereği olmadığını, çalışma hayatının kaçınılmaz olarak haftada 4 gün ve günde 6 saate ineceğini, hatta sonraki nesillerin bunu 3 güne kadar düşüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %32.6 | BELIRSIZ: %52.4 | TUTTU: %7.4 | TUTMADI: %7.6`
 - **Videoda Ne Demişti:** Bloomberg'in uzaktan çalışmanın verimliliği düşürmediğini gösteren araştırmasını yorumlayan Utku Şen, ofiste de evde de insanların günde en fazla 4 saat odaklanabildiğini anlatıyor. Geçmişteki işçi mücadeleleriyle izin ve tazminat haklarının kazanılması gibi, bu neslin de çalışma süresini 4 güne ve 6 saate indireceğini, teknolojinin gelişmesiyle bir sonraki neslin haftada 3 gün çalışmaya geçeceğini kendi toplumsal tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Exploring the 4 Day Work Week: A Path to Improve Productivity and Employee Wellbeing | AllOne Health®](https://allonehealth.com/exploring-the-4-day-work-week-a-path-to-improve-productivity-and-employee-wellbeing)
     > *"For HR leaders contemplating a transition to a four-day workweek, a strategic approach is essential. Use these six considerations for help navigating the shift: 1. Change the Mindset Emphasize productivity outcomes rather than hours worked. Traditional metrics like time spent in the office and immediate responsiveness can misrepresent employee valu..."*
   - `[Tavily]` [The Shift to a Four Day Work Week: Measuring the Impact on Productivity and Well-Being](https://www.outcomesoverhours.com/the-shift-to-a-four-day-work-week-measuring-the-impact-on-productivity-and-well-being)
@@ -5500,11 +9147,21 @@
   - `[DuckDuckGo]` [Do Four-Day Workweeks Work? What The Research Actually Shows](https://www.forbes.com/advisor/business/four-day-workweek-statistics/)
     > *"Sep 22, 2026 · Four-day workweeks are gaining traction. We analyzed 75 studies to uncover what the research says about productivity, well-being and the future of work."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, gelecekte doktorluk gibi hayati rollere girecek yapay zekaların mutlaka açık kaynak olması gerektiğini, kapalı modellerde dev şirketlerin arkada kendi ideolojilerine göre gizli ayarlamalar yaparak insanları manipüle edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %49.9 | TUTMADI: %5.4 | TUTTU: %18.5 | KISMEN TUTTU: %26.2`
 - **Videoda Ne Demişti:** Mark Zuckerberg'in genel yapay zeka (AGI) hedeflerini ve Meta'nın açık kaynak modellerini değerlendiren Utku Şen, insan hayatını doğrudan etkileyecek modellerin eğitim verisinin ve kodunun şeffaf olmasının şart olduğunu belirtiyor. Kapalı kaynak yazılımlarda şirketlerin arkada kendi çıkarlarına ve dünya görüşlerine göre modelleri manipüle edebileceğini, bunun da toplum için büyük bir tehlike yaratacağını kendi uyarısı olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How open-source software shapes AI policy | Brookings](https://www.brookings.edu/articles/how-open-source-software-shapes-ai-policy)
     > *"Similarly, open-source AI tools can enable the broader and better use of ethical AI. Open-source tools like OSS like IBM’s AI Fairness 360, Microsoft’s Fairlearn, and the University of Chicago’s Aequitas ease technical barriers to detecting and mitigating AI bias. There are also open-source tools for interpretable and explainable AI, such as IBM’s..."*
   - `[Tavily]` [Reducing bias in AI models through open source](https://www.redhat.com/en/blog/reducing-bias-ai-models-through-open-source)
@@ -5516,15 +9173,29 @@
   - `[DuckDuckGo]` [AI and machine learning bias has dangerous implicationsNavigating Bias in AI with Open-Source Toolkits | AltaMLOpen-Source AI Algo...](https://opensource.com/article/18/1/how-open-source-can-fight-algorithmic-bias)
     > *"One of the best ways to fight algorithmic bias is by vetting the training data fed into machine learning models themselves. As researchers at Microsoftpoint out, this can take many forms. The data itself might have a skewed distribution—for instance, programmers may have more data about United States-born citizens than immigrants, and about rich me..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Hackerlar İlk Defa Sahneye Çıktı - S.A.H E179 - 2026-10-25
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, şu an bir sıfır gün zafiyeti patlaması yaşansa da gelecekte uygulama güvenliği tarafında kodlama açığı diye bir şeyin kalmayacağını ve zafiyetlerin zamanla sıfıra yaklaşacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %10.3 | TUTMADI: %5.6 | KISMEN TUTTU: %25.2 | BELIRSIZ: %58.8`
 - **Videoda Ne Demişti:** PHP ve Node.js gibi popüler teknolojilerde ardı ardına çıkan uzaktan kod çalıştırma açıklarını yorumlayan Utku Şen, sektördeki meslektaşlarının aksine gelecekte kod kaynaklı açıkların tamamen biteceğini anlatıyor. İnsan hataları veya oltalama saldırıları hariç olmak üzere, yapay zekanın gelişimiyle uygulama güvenliğindeki açıkların sıfıra yakınsayacağını en zafiyetli günlerde bile savunduğu temel tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Margin of Safety 71: Vuln-zero might not mean what you hope - Forgepoint Capital](https://forgepointcap.com/perspectives/margin-of-safety-71-vuln-zero-might-not-mean-what-you-hope)
     > *"Last week, Jason Clinton of Anthropic warned that while (very) rough times are ahead, we’ll eventually get to a vuln-zero world when AI-powered code analysis has ferreted out the world’s accumulated software vulnerabilities and commoditized small model capability prevents future introduction (see his tweet here). While we agree with much of his pre..."*
   - `[Tavily]` [AI Application Security (AI AppSec) | ZeroPath | ZeroPath](https://zeropath.com/solutions/ai-appsec)
@@ -5536,11 +9207,21 @@
   - `[DuckDuckGo]` [AI Cybersecurity Guide - AI Driven Cyber Security](https://www.bing.com/aclick?ld=e8FAqxi7ptvlex8nGXGphzUDVUCUwxMVKV6ZlNIXZKktH-3eyDNl8uULymXfvUWEdS5Y-0fx_p53WrC1VQCWw8IHGRSVNVshQkNMcwoAPjPRHdQgcXyCN2WWzgahcmAq0sJC5sP0yfWRxm7JmKHYRA827CoV8V4vBIslpr9_QfHq9gCGJhCGFd5fwq14ov53iDkYealt8zpG7Opg6hRqARICfQp-o&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZmFyY2hpdGVjdGluZy1hLXNjYWxhYmxlLXNlY3VyaXR5LWRhdGEtZmFicmljLWZvci10aGUtYWktZXJhLmh0bWwlM2Z1dG1fY2FtcGFpZ24lM2RiaW5nX2VtZWFfSEFNX2VuX3NlYXJjaF9nZW5lcmljX3NlY3VyaXR5JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2RFU0dBSUVyYV9XUF9WMiUyNnV0bV90ZXJtJTNkYWklMjUyMGluJTI1MjBjeWJlcnNlY3VyaXR5JTI2ZGV2aWNlJTNkYyUyNl9idCUzZDcxNTM3MjYzNDMyMzkwJTI2X2JtJTNkcCUyNm1zY2xraWQlM2RmYzdmY2Q4Mzc2YmIxNDJjNzBjYmE3NzhmZTcyYjdmOQ&rlid=fc7fcd8376bb142c70cba778fe72b7f9)
     > *"Learn how security leaders are modernizing SOC data platforms for the AI era. Learn how to improve SecOps efficacy across diverse platforms, tools and environments. Leaders in security information & event management - CSO Online"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, Anthropic ve Meta gibi devlerin öne sürdüğü evrensel temel gelir fikrinin büyük bir tuzak olduğunu, yapay zekanın işsiz bırakacağı kitlelerin tepkisini önlemek için pastanın yüzde 95'ini cebe atıp insanlara sadece karın doyuracak kadar kırıntı vereceklerini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %4.3 | TUTTU: %14.2 | BELIRSIZ: %55.1 | KISMEN TUTTU: %26.3`
 - **Videoda Ne Demişti:** Anthropic'in gelirinin yüzde beşini halk yararına kurulacak bir fona aktarma kararını ve Silikon Vadisi'nin evrensel temel gelir (UBI) vaatlerini değerlendiren Utku Şen, insanların buna kanmaması gerektiğini belirtiyor. Şirketlerin tüm insanlığın emeğini yağmalayıp trilyon dolarlık servetler kurduğunu ve insanları işsiz bıraktıktan sonra sadece açlıktan ölmeyecek kadar bir sadakayla işin içinden sıyrılmaya çalıştıklarını kendi sert eleştirisi ve tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI, universal basic income, and power: symbolic violence in the tech elite's narrative](https://pmc.ncbi.nlm.nih.gov/articles/PMC11891208)
     > *"actually entrench existing inequalities rather than alleviate them. By framing UBI as a necessary response to AI-induced unemployment, the AI elites are effectively shifting the focus away from the need for more equitable distribution of power and resources. Those who control AI technologies continue to benefit disproportionately, while those who a..."*
   - `[Tavily]` [18K views · 413 reactions | A $20,000-a-year UBI is not a serious policy solution to AI job loss. It's managed poverty with better...](https://www.facebook.com/NickHanauer/videos/a-20000-a-year-ubi-is-not-a-serious-policy-solution-to-ai-job-loss-its-managed-p/3129779133898879)
@@ -5552,11 +9233,21 @@
   - `[DuckDuckGo]` [Universal Basic Income Could Help Tackle AI-Driven Inequality ...](https://www.ibtimes.com/universal-basic-income-ai-inequality-funding-3809275)
     > *"Nov 2, 2026 · Universal Basic Income (UBI), a regular payment made to people regardless of employment status, is one proposed answer. It could help households manage change while supporting consumer..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, bilgisayarda yerel olarak çalışabilen doğal ve gerçek zamanlı ses modellerinin Cambly ve Preply gibi yabancı dil pratiği satan şirketleri kamyonun altına atarak batıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %38.0 | KISMEN TUTTU: %39.0 | TUTTU: %14.2 | TUTMADI: %8.8`
 - **Videoda Ne Demişti:** Jack Dorsey'in şirketi Block'un duyurduğu gecikmesiz full-duplex ses modelini ve Mistral'in ses çalışmalarını değerlendiren Utku Şen, bu modellerin dil öğrenme alanında çığır açacağını anlatıyor. İnsanların evlerinde kimseden çekinmeden bedavaya dilediği kadar konuşma pratiği yapabileceğini belirterek bu gelişmenin Cambly ve Preply gibi platformları piyasadan sileceğini kendi teknoloji tahmini olarak söylüyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Voice AI Is Heading to the Classroom](https://edunewsletter.openai.com/p/voice-ai-is-heading-to-the-classroom)
     > *"OpenAI just introduced three new realtime voice models in the API: one for voice reasoning, one for live translation, and one for live transcription. That may sound like developer infrastructure, because it is. Students and teachers are not likely to “use the API” directly. But they may soon feel the impact through the education products built on t..."*
   - `[Tavily]` [Best Text to Speech API for Language Learning (2026)](https://inworld.ai/resources/best-voice-ai-for-language-learning-apps)
@@ -5566,11 +9257,21 @@
   - `[Tavily]` [Realtime Voice AI in the Enterprise: Overcoming Latency with Native Audio Models - deepsense.ai](https://deepsense.ai/blog/realtime-voice-ai-in-the-enterprise-overcoming-latency-with-native-audio-models)
     > *"The new paradigm utilizes native multimodal models. In a real-time pipeline, a single model handles audio input, reasoning, and audio output in one continuous stream. No intermediate text translation is required for the model to “understand” or “speak.” This drastically reduces latency and allows the model to pick up on vocal nuances, making the in..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, dünya genelinde tırmanan siber gerilim ve sıfır gün patlaması ortamında, yıllardır güncellenmeyen elektrik ve su şebekesi gibi eski sistemlerin en büyük tehlike altında olduğunu ve yakında çok ciddi problemler yaşayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %67.4 | KISMEN TUTTU: %20.2 | BELIRSIZ: %10.7 | TUTMADI: %1.7`
 - **Videoda Ne Demişti:** Siber dünyada büyük bir zero-day kazanının kaynadığını ve daha fazla sistemi vuracak yeni açıkların yolda olduğunu anlatan Utku Şen, bankaların ve e-ticaret sitelerinin hemen yama yapabildiğini fakat altyapı sistemlerinin haftalarca hatta aylarca yamasız kaldığını belirtiyor. Bu yüzden elektrik ve su gibi kritik altyapıların önümüzdeki süreçte çok ciddi saldırılarla başının ağrıyacağını kendi tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Zero Day: The Silent Threat to Global Infrastructure Resilience - EIS](https://eiscouncil.org/zero-day-the-silent-threat-to-global-infrastructure-resilience)
     > *"Legacy Systems: Power grids, water treatment plants, railways, and airports often run on legacy systems that were never designed to be connected to the Internet. Yet today, they are — making them easy targets. Complex Supply Chains: A Zero-Day in a single software component can cascade across industries. Think about the software update that runs ac..."*
   - `[Tavily]` [(TLP:CLEAR) Critical Zero Day Vulnerabilities in SAP NetWeaver Servers, One Actively Exploited - WaterISAC](https://www.waterisac.org/tlpclear-critical-zero-day-vulnerabilities-sap-netweaver-servers-one-actively-exploited)
@@ -5582,15 +9283,29 @@
   - `[DuckDuckGo]` [80+ Zero-Day Exploit Statistics (March – 2026)](https://www.brightdefense.com/resources/zero-day-exploit-statistics/)
     > *"Mar 25, 2026 · Zero-day exploitation hit 90 confirmed cases in 2025, up 15% from the prior year, with nearly half of all attacks targeting enterprise infrastructure. For the first time, commercial surveillance vendors outpaced nation-state espionage groups as the leading source of attributed zero-day exploitation."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Olaylarını Takip Etmekte Zorlanıyoruz - S.A.H E76 - 2023-11-20
 
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 1. Utku, yapay zekalı robotların insanların cinsel ve fizyolojik ihtiyaçlarını karşılaması sayesinde insan ilişkilerinin bozulmayacağını, aksine insanların birbirine yalan söylemesine gerek kalmayacağı için gerçek insan ilişkilerinin kalitesinin ve duygusal derinliğinin artacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **5.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %31.8 | KISMEN TUTTU: %13.9 | TUTMADI: %51.8 | TUTTU: %2.5`
 - **Videoda Ne Demişti:** Yapay zeka sevgili uygulamalarını ve ileride ortaya çıkabilecek insansı robotlarla romantik ilişkileri değerlendiren Utku Şen, kitlelerin bu teknolojinin insan ilişkilerini mahvedeceğinden korktuğunu anlatıyor. Kendi şahsi tezi olarak insanların içgüdüsel ihtiyaçlarını robotlarla gidermesi durumunda, başka bir insana sadece gerçek duygusal yakınlık için yöneleceğini ve bunun insan ilişkilerini çok daha kaliteli ve samimi hale getireceğini savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The impacts of companion AI on human relationships: risks, benefits, and design considerations | AI & SOCIETY | Springer Nature Li...](https://link.springer.com/article/10.1007/s00146-025-02318-6)
     > *"')). Given people are having less sex (Willingham 2022), companion AI may help improve human romantic relationships by easing stress related to one partner’s unmet sexual needs. (...) ')). Companion AI are typically customisable, their name, persona, disposition, background, and, in some cases, avatar and voice are set by the user. This customisati..."*
   - `[Tavily]` [Secret Soulmates - Wheatley Institute](https://wheatley.byu.edu/Secret-Soulmates-AI-Romantic-Companions-and-Real-Life-Relationships)
@@ -5602,11 +9317,21 @@
   - `[DuckDuckGo]` [AI chatbots and digital companions are reshaping emotional ...](https://www.apa.org/monitor/2026/01-02/trends-digital-ai-relationships-emotional-connection)
     > *"Jan 1, 2026 · “The single biggest AI safety concern kids and teens face right now is the surging use of AI companions, which they’re turning to in remarkable numbers for advice, companionship, and romance,” said Bruce Reed, Common Sense Media’s head of AI."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, yapay zeka pazarında şu an çok kritik bir köşe kapmaca dönemi yaşandığını, bu başlangıç evresinde standartları ve normları oturtmayı başaran şirketin önümüzdeki 5 ila 10 yıl boyunca sektörü tek başına domine edip götüreceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **6.1/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %29.3 | TUTTU: %5.5 | BELIRSIZ: %61.0 | TUTMADI: %4.1`
 - **Videoda Ne Demişti:** OpenAI yönetimindeki liderlik krizini ve Sam Altman'ın ürünleri hızla piyasaya sürüp pazar kapma stratejisini değerlendiren Utku Şen, rakipler henüz sendelerken öne geçmenin hayati olduğunu anlatıyor. Şu anki başlangıç aşamasında endüstri standardını belirleyen firmanın önümüzdeki 5-10 seneyi tamamen garantiye alacağını kendi sektör öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [One chart shows how AI will drive another decade of US stock market dominance](https://finance.yahoo.com/news/one-chart-shows-how-ai-will-drive-another-decade-of-us-stock-market-dominance-143042242.html)
     > *"Others have a more sanguine view of the AI superpower's dominance, though. In a recent research note detailing why the S&P 500 (^GSPC) could average more than 10% annual returns over the next decade, DataTrek Research co-founder Nicholas Colas pointed to the US being at the forefront of AI adoption and well positioned to dominate amid the technolog..."*
   - `[Tavily]` [Who will win the AI race for market domination? | Esade - Do Better](https://dobetter.esade.edu/en/who-win-AI-race-market)
@@ -5618,11 +9343,21 @@
   - `[DuckDuckGo]` [Topic: Artificial intelligence (AI) market leaders - Statista](https://www.statista.com/topics/13788/artificial-intelligence-ai-market-leaders/)
     > *"The AI market in 2025 is dominated by a select few companies that combine the top of human ingenuity with deep technological expertise. Leading the pack are Nvidia, Microsoft, Alphabet..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, yönetim kurulunun güvenmiyoruz diyerek kovduğu Sam Altman'ı geri alması halinde şirket içi güven ortamının darmadağın olacağını ve bu geri adımın OpenAI firmasına çok büyük zarar vereceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **9.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %1.8 | KISMEN TUTTU: %3.9 | BELIRSIZ: %4.5 | TUTMADI: %89.9`
 - **Videoda Ne Demişti:** OpenAI yönetim kurulunun Sam Altman'ı görevden almasını yorumlayan Utku Şen, şirketin geri adım atarak onu tekrar CEO yapması durumunda aynı ekibin sağlıklı bir şekilde devam edemeyeceğini belirtiyor. Kovulduktan sonra geri dönmenin şirket içi dengeleri altüst edeceğini ve OpenAI'a çok büyük zarar vereceğini kendi kurumsal analizi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI reinstates Sam Altman as its chief executive : NPR](https://www.npr.org/2023/11/22/1214621010/openai-reinstates-sam-altman-as-its-chief-executive)
     > *"Later Monday, an estimated 97% of OpenAI's employees had signed a letter stating that the board had jeopardized the mission of OpenAI. The letter demanded the board be dissolved and that Altman and another co-founder, Greg Brockman, be reinstated. Otherwise, all of them would quit in protest. (...) OpenAI said late Tuesday it had reinstated Sam Alt..."*
   - `[Tavily]` [OpenAI has 'full confidence' in CEO Sam Altman after investigation, reinstates him to board | Courthouse News Service](https://www.courthousenews.com/openai-has-full-confidence-in-ceo-sam-altman-after-investigation-reinstates-him-to-board)
@@ -5634,15 +9369,29 @@
   - `[DuckDuckGo]` [sam altman'ın openai ceo'luğuna geri dönmesi - ekşi sözlük](https://eksisozluk.com/sam-altmanin-openai-ceoluguna-geri-donmesi--7746093)
     > *"Jun 6, 2026 · sam altman ile openai arasında, altman'ın ceo olarak görevine geri dönmesi hususunda anlaşmaya varıldığı biraz önce duyuruldu. sam altman'ın geri dönmesiyle birlikte yönetim kurulunda da önemli değişiklikler olacağı açıklandı. taraflar, ayrıntıları görüştüklerini açıkladı."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Psikolojimizi Bozacak - S.A.H E138 - 2025-09-29
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, boyna takılan yapay zekalı arkadaşlık kolyesi Friend gibi cihazların asla tutmayacağını, bu tarz girişimlerin harcadıkları AR-GE parasıyla batıp gideceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %4.8 | BELIRSIZ: %12.2 | KISMEN TUTTU: %14.5 | TUTTU: %68.6`
 - **Videoda Ne Demişti:** Friend isimli yapay zekalı kolyeyi ve New York metrosunu donatan yalnızlık odaklı reklam kampanyasını eleştiren Utku Şen, cihazın hiçbir mantıklı temeli olmadığını anlatıyor. Eğer bu ürün tutarsa kanalı kapatıp gidecek kadar iddialı olduğunu belirterek insanların boynuna kamera takıp yapay zekayla konuşmayacağını ve girişimin hüsranla batacağını kendi net teknoloji tahmini olarak söylüyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why AI necklaces and pins will always fail - by Mike Elgan](https://www.machinesociety.ai/p/why-ai-necklaces-and-pins-will-always)
     > *"Yes, some people do wear necklaces or pins. But these are fashion accessories changed often and very light. Industry: Don’t waste your time on necklaces or pins. Nobody will wear them. It’s a non-starter. There are two superior hardware platforms for AI wearables that everyone will prefer. The Humane AI Pin, Limitless Pendant, Plaud NotePin, Rewind..."*
   - `[Tavily]` [Why Friend AI Necklace Will Fail: The Visual Dominance Effect | Mia Silverio posted on the topic | LinkedIn](https://www.linkedin.com/posts/miasilverio_the-friend-ai-necklace-will-flop-because-activity-7386858048096579584-Ebh0)
@@ -5654,11 +9403,21 @@
   - `[DuckDuckGo]` [Friend (product) - Wikipedia](https://en.wikipedia.org/wiki/Friend_(product))
     > *"The Friend wearable AI companion has been subject to criticism and debate relating to the ethical design of AI companions, and AI in relation to loneliness and mental health."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekalı sevgili ve arkadaş botlarının insan psikolojisini mahvedeceğini, insanları gerçek ilişki kurma çabasından kopararak derin bir mutsuzluğa ve yalnızlığa hapsedeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.1 | BELIRSIZ: %7.0 | KISMEN TUTTU: %37.3 | TUTTU: %54.6`
 - **Videoda Ne Demişti:** Yapay zekanın sevgili ya da arkadaş olarak pazarlanmasını ve yalnız insanların buna yönlendirilmesini değerlendiren Utku Şen, bu yola girenlerin gerçek insanlarla bağ kurma arayışını tamamen bırakacağını anlatıyor. İnsan beyninin karşısındakinin gerçek bir insan olmadığını bilinçdışı olarak her zaman bileceğini ve her dediğini onaylayan bir botun kimseyi mutlu edemeyeceğini kendi psikolojik tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Mental Health Impacts of AI Companions: Triangulating Social Media Quasi-Experiments, User Perspectives, and Relational Lens | Pro...](https://dl.acm.org/doi/10.1145/3772318.3790558)
     > *"> “I would say most people whom I have tried to introduce AI chatbots have always had a negative response.” –P7 As the human–AICC relationship deepens, an intense psychological reliance develops—particularly during the Relationship Escalation and Bonding stages— that can introduce new risks. Several participants observed that extended engagement wi..."*
   - `[Tavily]` [Minds in Crisis: How the AI Revolution is Impacting Mental Health](https://www.mentalhealthjournal.org/articles/minds-in-crisis-how-the-ai-revolution-is-impacting-mental-health.html)
@@ -5670,11 +9429,21 @@
   - `[DuckDuckGo]` [Hidden Mental Health Dangers of Artificial Intelligence Chatbots](https://www.psychologytoday.com/us/blog/urban-survival/202509/hidden-mental-health-dangers-of-artificial-intelligence-chatbots)
     > *"Oct 2, 2025 · Emerging research and case reports reveal hidden dangers of AI chatbots, including emotional manipulation, worsening loneliness, and social isolation. A new study found that many AI..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, sosyal medyadaki yapay zeka üretimi kısa videoların ve kaydırmalı akışların korkunç bir mental pislik yarattığını, 20-30 yıl sonra insanların bugüne tıpkı 1960'lardaki sigara çılgınlığı gibi dehşetle bakacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **7.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %2.6 | BELIRSIZ: %79.4 | TUTTU: %5.2 | KISMEN TUTTU: %12.8`
 - **Videoda Ne Demişti:** Meta'nın yapay zeka üretimi kısa videolar için Vibes isimli bir özellik geliştirmesini eleştiren Utku Şen, TikTok ve Reels gibi formatların insan beynini uyuşturucu gibi mahvettiğini anlatıyor. Tıpkı 1960'larda doktor tavsiyesiyle içilen sigaralara bugün nasıl şaşkınlıkla bakılıyorsa, 20-30 sene sonra da insanların bu dönemin sentetik video ve sosyal medya kirliliğine dehşetle bakacağını kendi toplumsal tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Depictions of Depression in Generative AI Video Models: Mixed Methods Study of OpenAI's Sora 2.](https://pubmed.ncbi.nlm.nih.gov/42735385)
     > *"App-generated videos exhibited a pronounced recovery bias: 78% (39/50) featured narrative arcs progressing from depressive states toward resolution compared with 14% (7/50) of API outputs. This divergence was reinforced across channels. App videos brightened over time (mean slope 2.90, SD 2.43 per second vs -0.18, SD 1.24 per second for the API, Co..."*
   - `[Tavily]` [How Social Media and AI Chatbots Are Reshaping Youth Mental Health, and What Congress Can Do About It • Bipartisan Policy Center](https://bipartisanpolicy.org/article/how-social-media-and-ai-chatbots-are-reshaping-youth-mental-health-and-what-congress-can-do-about-it)
@@ -5686,15 +9455,29 @@
   - `[DuckDuckGo]` [How to Make Mental Health Videos With AI | FluxNote](https://fluxnote.io/blog/how-to-make-mental-health-videos-with-ai-2026)
     > *"May 1, 2026 · In this guide, we'll explore how you can leverage AI video generators to create compelling mental health content, from scripting to final export, in a matter of minutes."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Sanat Yapmasın da Ne Yapıyorsa Yapsın - S.A.H E94 - 2024-05-19
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın sağlık sektöründe çok önemli bir yer tutacağını ve randevu bulmanın zor olduğu ilk doktor muayenelerinde şikayetleri dinleyip ön teşhis koyma işini büyük oranda devralacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %10.2 | TUTTU: %35.3 | KISMEN TUTTU: %53.8 | TUTMADI: %0.7`
 - **Videoda Ne Demişti:** GPT-4o modelinin akıcı konuşma yeteneğini ve kendi çektiği doktor simülasyonu videosunu anlatan Utku Şen, Türkiye'de ve Avrupa'da ilk muayeneler için randevu almanın haftalar sürdüğünü belirtiyor. İlk muayenede konuşulan şeylerin genelde standart olduğunu ve karşılıklı konuşabilen yapay zekanın hastayı dinleyip ön değerlendirme yaparak sağlık sistemindeki bu büyük yükü çözeceğini kendi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Integrating AI-based triage in primary care: a qualitative study of Swedish healthcare professionals’ experiences applying normali...](https://pmc.ncbi.nlm.nih.gov/articles/PMC12584356)
     > *"been implemented, particularly in primary care, to assist with tasks like medical history-taking, referrals, digital examinations, diagnosis, and treatment (40, 41). Nurses usually perform the initial triage and health guidance. After reading the triage forms and messages pre-filled by patients, they assess the patient’s need for health guidance an..."*
   - `[Tavily]` [GP Triage bringing Assistive AI to primary care](https://www.youtube.com/watch?v=H5z7lWJY0pA)
@@ -5706,11 +9489,21 @@
   - `[DuckDuckGo]` [Artificial Intelligence for Triage in Primary Care: A Scoping ...](https://www.sciencedirect.com/science/article/pii/S1386505626005095)
     > *"To map artificial intelligence (AI) systems developed for triage in primary care and describe their characteristics, performance and clinical applicability. A scoping review was conducted in accordance with PRISMA-ScR."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, GPT-4o sonrasında Duolingo hisselerinde yaşanan çöküşün yersiz bir panik satışı olduğunu, yapay zekanın mevcut haliyle Duolingo'yu batıramayacağını ve şirketin yapay zekayı kendi altyapısına katarak kesinlikle toparlayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %7.0 | TUTTU: %67.9 | KISMEN TUTTU: %19.1 | TUTMADI: %5.9`
 - **Videoda Ne Demişti:** GPT-4o tanıtımı sonrası Duolingo hisselerinin sert düşüşünü değerlendiren Utku Şen, dilde pratik yapılsa bile müfredat, seviye takibi ve oyunlaştırma olmadan sadece sohbet botuyla dil öğrenilemeyeceğini anlatıyor. Duolingo'nun batmayacağını, güçlü altyapısını yapay zekayla besleyip piyasada kalacağını ve hisselerdeki düşüşün geçici bir panik olduğunu kendi piyasa tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why Duolingo's Stock is Crashing & How It Might Recover](https://www.youtube.com/watch?v=VHV5eJM6vlE&vl=en-US)
     > *"In this video, I break down Duolingo’s latest Q4 update, the CFO transition, and why investors are so divided right now. Bulls argue the sell-off is an overreaction given strong user growth, AI-powered features like Duolingo Max, and the company’s unmatched ability to build daily learning habits. Bears worry about valuation, AI competition, margin..."*
   - `[Tavily]` [Why Duolingo Stock Plunged 10% This Week](https://finance.yahoo.com/markets/stocks/articles/why-duolingo-stock-plunged-10-155400022.html)
@@ -5722,11 +9515,21 @@
   - `[DuckDuckGo]` [Duolingo hissesi toparlandı: büyüme yavaşlarken kazanımlar ...](https://invezz.com/tr/haber/2026/07/28/duolingo-hissesi-toparlandi-buyume-yavaslarken-kazanimlar-korunur-mu/)
     > *"Jul 28, 2026 · Duolingo hisse fiyatı, yapay zeka araçlarının yol açabileceği bozulma endişeleri ve yatırımcıların dönüşüm stratejisini izlemesi nedeniyle bu yıl düşüş gösterdi."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, tıpkı 1950'lerde zararları bilinmeden tüketilen sigara gibi, insanlığın ilerleyen yıllarda sosyal medya platformlarının yarattığı zihinsel tahribat konusunda büyük bir aydınlanma yaşayacağını ve devletlerin bu bağımlılık yapıcı özellikleri regüle etmek zorunda kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.2/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %22.8 | KISMEN TUTTU: %34.5 | TUTMADI: %1.1 | TUTTU: %41.7`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin Facebook ve Instagram'ın bağımlılık yapıcı özelliklerine karşı yasal adım atma hazırlığını yorumlayan Utku Şen, sosyal medyanın insanlığa çok ciddi zararlar verdiğini anlatıyor. Geçmişte zararı bilinmeyen sigara gibi gelecekte bu platformların yarattığı zihinsel yıkımın netleşeceğini ve kapatılmasalar bile devletlerin devreye girerek algoritmaları ve bağımlılık yaratan tarafları törpüleyeceğini kendi toplumsal tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Social Media vs Smoking: Where the Analogy Works and Fails | Sander van der Linden posted on the topic | LinkedIn](https://www.linkedin.com/posts/sander-van-der-linden-156a08203_opinion-there-is-a-better-way-to-get-kids-activity-7465105555427086339-GmDf)
     > *"the benefits (and it is worth paying attention to increasing mental health case numbers from clinicians at the frontlines) but that's still very different from the smoking case. Smoking is also physically addictive in ways that social media may not be. Where I think the analogy works better is in suggesting that social media companies often behave..."*
   - `[Tavily]` [Georgetown Law Technology Review](https://georgetownlawtechreview.org/should-social-media-go-the-way-of-cigarettes-addressing-evidence-of-consumer-harm/GLTR-10-2023)
@@ -5738,11 +9541,21 @@
   - `[DuckDuckGo]` [Scrolling vs. Smoking: Exploring the Complexities of Social ...](https://ojs.stanford.edu/ojs/index.php/intersect/article/view/3363)
     > *"Apr 9, 2025 · But what if that app was just as harmful as a smoking habit? In this project, the biochemical aspects of social media addiction will be explored and compared directly to the highly known nicotine addiction."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, freelance çizerlerin aksine müzik endüstrisinin neredeyse tamamını elinde tutan dev plak şirketlerinin yapay zeka şirketleriyle sert bir kafa tokuşturmaya gireceğini ve yapay zeka şirketlerinin masaya oturup anlaşmaktan başka çaresi kalmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.8/10**)
 - **Olasılık Dağılımı:** `TUTTU: %78.0 | KISMEN TUTTU: %19.4 | BELIRSIZ: %1.2 | TUTMADI: %1.4`
 - **Videoda Ne Demişti:** Sony Music'in telifli müziklerinin yapay zeka eğitiminde kullanılmasına izin vermeyeceğini açıklamasını değerlendiren Utku Şen, çizerlerin örgütsüz olduğu için haklarını koruyamadığını anlatıyor. Ancak Sony ve Universal gibi dev plak şirketlerinin müzik dünyasını domine ettiğini belirterek yapay zeka firmalarının bu devlerle kafa tokuşturacağını, ya anlaşma imzalayacaklarını ya da bu müzikleri asla kullanamayacaklarını kendi sektör öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [U.S. record labels are suing AI music generators, alleging copyright infringement](https://www.cnbc.com/2024/06/25/us-record-labels-are-suing-ai-music-generators-alleging-copyright-infringement.html)
     > *"Just last month, Sony Music Group — which owns well-known labels such as Columbia Records, RCA Records and Epic Records — issued letters warning hundreds of companies not to train AI models on its content without permission. And last year, Universal Music Group and other music publishers, including Concord and ABKCO, filed a lawsuit against the AI..."*
   - `[Tavily]` [As AI Marches on Music Industry, Record Labels Counter With $350M Lawsuits In Assertive Move](https://finance.yahoo.com/news/ai-marches-music-industry-record-221705211.html)
@@ -5754,15 +9567,29 @@
   - `[DuckDuckGo]` [RIAA v. Udio: The US Record Labels' AI Copyright Lawsuit ...](https://www.aimusicpreneur.com/knowledge-base/legal/riaa-udio-copyright-case/)
     > *"Nov 3, 2026 · Sony, Universal and Warner sued Udio for training AI on copyrighted recordings. Universal and Warner settled, Sony fights on. Status and full timeline."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Sürücüleri Savunacağız, Sosyal Medyayı Ne Yapacağız? - S.A.H E73 - 2023-10-31
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, siber güvenlikte yapay zekanın özellikle olay müdahalesi alanını hızla ele geçireceğini, insanların rutin işleri bırakıp sadece modelleri denetleyen üst seviye pozisyonlara geçeceğini ve eskiden 5 kişinin yaptığı işi 1 kişinin yapabilir hale gelmesiyle sektörde işten çıkarmalar ve daralma yaşanabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %59.1 | TUTTU: %12.5 | BELIRSIZ: %20.9 | TUTMADI: %7.5`
 - **Videoda Ne Demişti:** Microsoft Security Copilot'ın duyurulmasını ve siber güvenlikte yapay zeka kullanımını değerlendiren Utku Şen, incident response gibi log analizi ve tersine mühendislik gerektiren alanların yapay zekaya çok uygun olduğunu anlatıyor. Bir iki sene içinde bu sistemlerin çok ileri seviyeye geleceğini, insanların sadece yapay zekayı süpervize edeceğini ve normalde 5 kişilik bir ekibin yapacağı işi tek bir kişinin yapabilmesi yüzünden sektörde ciddi bir küçülme ve işsizlik görülebileceğini kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI-Powered Incident Response: Transforming Cybersecurity](https://cyble.com/knowledge-hub/ai-powered-incident-response)
     > *"2. Incident Response Automation Incident response automation streamlines the process of investigating, containing, and mitigating threats. AI-powered systems can: Correlate security alerts to detect ongoing attacks. Automate workflows to ensure timely response. Reduce the workload on security analysts by handling repetitive tasks. 3. AI-Driven Thre..."*
   - `[Tavily]` [Incident Response Jobs in Hyderabad — IT & Cybersecurity](https://cybersechire.com/jobs/in/incident-response/hyderabad)
@@ -5774,11 +9601,21 @@
   - `[DuckDuckGo]` [Will AI Replace Cybersecurity Jobs in 2026? - Spiceworks](https://www.spiceworks.com/ai/ais-double-edged-impact-on-cybersecurity-jobs/)
     > *"Apr 8, 2026 · Knowledge of cybersecurity frameworks, incident response, and real-time monitoring systems is also required. A valuable emerging skill is AI engineering strategy."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, sosyal medyanın yarattığı zihinsel yıkım ve bağımlılık sarmalına devletlerin yasal müdahalesi dışında hiçbir çözüm bulunamayacağını, kişiselleştirilmiş algoritmaların yasaklanıp kronolojik akışın zorunlu tutulacağını ve 20 yıl sonra bu döneme tıpkı 1950'lerdeki sigara çılgınlığı gibi dehşetle bakılacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.0/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %37.7 | KISMEN TUTTU: %50.4 | TUTTU: %5.7 | TUTMADI: %6.2`
 - **Videoda Ne Demişti:** Instagram'a açılan bağımlılık davalarını ve sosyal medyanın dopamin mekanizmasını bozmasını ele alan Utku Şen, insanların kendi iradesiyle bu bağımlılıktan kurtulamayacağını anlatıyor. Tek çözümün devlet müdahalesi olduğunu belirterek kişiye özel keşfet algoritmalarının bitirilip kronolojik akışın zorunlu tutulabileceğini ve 20 sene sonra insanların bu günlere tıpkı geçmişte doktorların önerdiği sigara reklamlarına baktığı gibi şaşkınlık ve dehşetle bakacağını kendi toplumsal tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Case for Mandating Finer-Grained Control Over Social Media Algorithms | TechPolicy.Press](https://techpolicy.press/the-case-for-mandating-finergrained-control-over-social-media-algorithms)
     > *"But new bills in Europe, the US Congress, California and other states have mandated a more limited solution, focused on the use of personalized data. Platforms must give users a choice of content streams not based on likes, location, or user history — which might mean a chronological feed, or one that isn’t personalized but still algorithmic. (...)..."*
   - `[Tavily]` [Fixing the Feeds: A Policy Roadmap for Algorithms That Put People First – Knight-Georgetown Institute](https://kgi.georgetown.edu/research-and-commentary/fixing-the-feeds-a-policy-roadmap-for-algorithms-that-put-people-first)
@@ -5790,11 +9627,21 @@
   - `[DuckDuckGo]` [Australia Unveils ‘My Feed, My Way’ Law to Give Social Media ...](https://political.org/2026/09/08/australia-unveils-my-feed-my-way-law-to-give-social-media-users-algorithm-opt-out-rights/)
     > *"Sep 8, 2026 · The proposed “My Feed, My Way” initiative would require social media platforms to notify all new and existing users — offering them a choice between an algorithm-curated feed or a chronological feed showing only accounts they follow."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, trafikteki bütün arabaların direksiyonu yapay zekaya devredilirse trafik kazalarının yüzde 95 oranında azalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %20.5 | KISMEN TUTTU: %32.1 | BELIRSIZ: %41.0 | TUTTU: %6.4`
 - **Videoda Ne Demişti:** San Francisco'da bir yayaya çarpan Cruise otonom taksisinin trafikten men edilmesini yorumlayan Utku Şen, trafikteki asıl tehlikenin makas atan, alkollü araba kullanan ve şov yapan insanlar olduğunu anlatıyor. Tek bir kaza yüzünden sürücüsüz araçlara önyargıyla yaklaşılmasını eleştirerek bütün arabaları yapay zekanın sürmesi durumunda kazaların yüzde 95 oranında bıçak gibi kesileceğini kendi şahsi tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Waymo’s driverless cars crash less often than people](https://www.iihs.org/news/detail/waymos-driverless-cars-crash-less-often-than-people)
     > *"Per vehicle mile traveled (VMT), Waymo’s driverless vehicles deployed in San Francisco, Phoenix, Los Angeles and Austin were involved in 68% fewer crashes than human drivers, researchers found. The sample was restricted to crashes that a person would typically report to the police. (...) Waymo vehicles traveled about 50 million miles in driverless..."*
   - `[Tavily]` [https://aei.ewapub.com/article/view/15481.pdf](https://aei.ewapub.com/article/view/15481.pdf)
@@ -5804,15 +9651,29 @@
   - `[Tavily]` [Self-Driving Car Accident Statistics (2026) | KNR](https://www.knrlegal.com/car-accident-lawyer/self-driving-car-accident-statistics)
     > *"Reducing car accidents by over 30% is impressive, especially the impact AVs can have on drunk driving and distracted driving accidents. But the development of self-driving cars needs to account for road conditions and possible obstructions, Ohio traffic laws, and mechanical failures like a flat tire that could still cause an accident. Self-Driving..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## yapay zeka ve poker,  serbest birakilan hackerler, bitcoin -siber alemden havadisler 47. bölüm - 2022-01-25
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekayla yapılan ses dublajlarının usta aktörlerin ses tonundaki duyguyu ve derinliği asla yakalayamayacağını, ortaya ruhsuz işler çıkacağını ve iyiyle kötü aktör arasındaki farkı sileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **3.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %26.4 | BELIRSIZ: %19.4 | TUTTU: %34.6 | TUTMADI: %19.6`
 - **Videoda Ne Demişti:** Filmlerdeki aktörlerin sesini yapay zekayla analiz edip her dilde kendi sesiyle sentetik dublaj yapma teknolojisini değerlendiren Utku Şen, Robert De Niro gibi iyi oyuncuların sesine kattığı duygu ve rengi yapay zekanın asla veremeyeceğini anlatıyor. Bu tarz sentetik seslerin son derece yapay ve tatsız kalacağını, ayrıca iyi oyuncuyla kötü oyuncuyu birbirinden ayıran o ince çizgiyi ortadan kaldıracağını kendi şahsi tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Voice actors push back as AI threatens dubbing industry](https://www.youtube.com/watch?v=e4XvOxo2p3g)
     > *"'The voices sound relatively real, let's put it that way. What doesn't work is the emotion that the voices convey, the nuances that are simply there in a human voice. I can say the same sentence in a completely different way, I communicate exactly the same content, but I can easily evoke completely different emotions with nuances, with emphasis, wi..."*
   - `[Tavily]` [AI in dubbing: Balancing innovation and artistry in voice acting | Tongues Translation Services LLC posted on the topic | LinkedIn](https://www.linkedin.com/posts/tongues-translation-services_the-rise-of-ai-in-dubbing-has-sparked-a-heated-activity-7361345827572797440-LKpe)
@@ -5824,11 +9685,21 @@
   - `[DuckDuckGo]` [Ai Video Dubbing Tools Vs Professional Voice Actors Which ...](https://workrigpro.com/more/ai-video-dubbing-tools-vs-professional-voice-actors-which-preserves-emotional-nuance-better)
     > *"Sep 4, 2026 · As AI dubbing tools surge in capability and accessibility, many production teams face a high-stakes trade-off: speed and scalability versus authenticity and emotional fidelity."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, arkasındaki devasa sermaye ve yatırımlar yüzünden Avrupa Birliği'nin Bitcoin'i birdenbire yasaklayamayacağını, en fazla önümüzdeki 10 yıllık süreçte kullanımı kademeli düşürme yoluna gidebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.2/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %3.0 | TUTTU: %81.9 | BELIRSIZ: %6.1 | KISMEN TUTTU: %9.0`
 - **Videoda Ne Demişti:** Avrupa Birliği'nin iklime ve çevreye zarar veren yüksek enerji tüketimli kripto paraları yasaklama tartışmalarını ele alan Utku Şen, Bitcoin'in üzerinde dönen paranın büyüklüğüne dikkat çekiyor. AB'nin birden çıkıp Bitcoin'i doğrudan yasaklayamayacağını, bunun yerine en fazla 10 sene içinde kullanımını kademeli olarak azaltacaklarını duyurabileceğini kendi politik ve ekonomik tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Bitcoin, proof-of-work ban removed from European Union’s MiCA](https://finance.yahoo.com/news/bitcoin-proof-ban-removed-european-015722457.html)
     > *"The European Parliament member in charge of spearheading the bill known as the Markets in Crypto Assets (MiCA) legislation,Stefan Berger, confirmed the removal of the language on Tuesday. The bill seeks to establish broad oversight of the crypto industry, such as introducing a licensing scheme for service providers and laying out rules for stableco..."*
   - `[Tavily]` [France Stuns Europe: Could Lawmakers Adopt Bitcoin and Ban Digital Euro?](https://finance.yahoo.com/news/france-stuns-europe-lawmakers-adopt-214542537.html?fr=sycsrp_catchall)
@@ -5840,15 +9711,29 @@
   - `[DuckDuckGo]` [European Union Cryptocurrency Regulation 2026: Laws and Licensing](https://cryptoregulations.net/european-union)
     > *"Trilogue negotiations on the digital euro regulation are under way, and the Commission said on November 9 that it aims for agreement by the end of the year, a 12-month pilot is envisaged from the second half of 2027, with possible first issuance in 2029, according to the European Parliament."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Yoktan İdeoloji Üretebilir Mi? - S.A.H E162 - 2026-05-17
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Google'ın Gemini için özel geliştirdiği dizüstü bilgisayarının Mac'ler karşısında hiçbir şansının olmadığını, yapay zeka ajanlarının mevcut bilgisayarlara kurulan yazılımlarla da çalışabilmesi yüzünden aşırı ucuz olup mucize yaratmadıkça bu cihazın tutmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %4.4 | KISMEN TUTTU: %15.9 | TUTTU: %31.0 | BELIRSIZ: %48.7`
 - **Videoda Ne Demişti:** Google Book isimli Gemini odaklı dizüstü bilgisayar duyurusunu değerlendiren Utku Şen, Google'ın elinde Chrome OS gibi yetersiz bir sistem varken Mac'lerle rekabet edemeyeceğini anlatıyor. Kendi Mac'inde Claude ajanının tüm sistemi rahatça kontrol edebildiğini göstererek yapay zeka için özel bir bilgisayar almaya gerek olmadığını belirtiyor ve Google Book'un ağzıyla kuş tutup inanılmaz ucuz olmadıkça piyasada varlık gösteremeyeceğini kendi şahsi teknoloji tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Googlebook Doesn’t Make Any Sense](https://www.inc.com/jason-aten/the-googlebook-doesnt-make-any-sense/91346080)
     > *"All of that might seem reasonable if there were evidence that people want Gemini in their laptops badly enough to pay a premium for it. So far, I haven’t seen any. We know this because Microsoft already tried this exact experiment. Copilot+ PCs landed with a massive marketing push, a suite of AI-native features, and a direct pitch that AI baked int..."*
   - `[Tavily]` [Google Book Statistics for 2026: Sales Predictions, User Forecasts & Googlebook Market Opportunity | Swif](https://www.swif.ai/blog/googlebook-statistics)
@@ -5860,11 +9745,21 @@
   - `[DuckDuckGo]` [Googlebook repeats Pixelbook's biggest mistake, and Gemini ...](https://www.xda-developers.com/the-googlebook-repeats-pixelbooks-biggest-mistake-and-gemini-wont-save-it/)
     > *"May 21, 2026 · So far, all signs point to the fact that Google wants Gemini to be the centerpiece while building out an Android ecosystem, much like Apple's walled garden."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, teknoloji sektöründe işten çıkarmaların artarak devam edeceğini fakat bu kıyımın en fazla yüzde 30 ila 40 seviyelerinde kalacağını ve asla yüzde 50 gibi devasa oranlara ulaşmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %5.6 | BELIRSIZ: %30.0 | KISMEN TUTTU: %13.4 | TUTTU: %50.9`
 - **Videoda Ne Demişti:** GitLab'in yeni işten çıkarma kararını ve yapay zekanın sektöre etkilerini ele alan Utku Şen, yapay zekanın tehditleri ve güvenlik açıklarını da artırdığını anlatıyor. Saldırganlar da yapay zeka kullandığı için şirketlerin insan gücüne hala ihtiyaç duyduğunu belirterek işten çıkarmaların bir süre daha artacağını ama en fazla yüzde 30-40 bandında kalıp yüzde 50 seviyelerine asla çıkmayacağını kendi tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Tech Layoffs Outpace 2025 As Big Companies Shift Spending To AI](https://news.crunchbase.com/layoffs/2026-layoff-numbers-rise-ai-shift-orcl-meta-amzn)
     > *"Artificial intelligence has become a much more common explanation for layoff decisions, noted Roger Lee, founder of Layoffs.fyi. AI was cited in 33% of tech layoff events this year, up from just 1% in 2024. His tracker attributes 92,913 layoffs globally, or 72% of this year’s total, to AI. (...) Tech layoffs in 2026 are outpacing last year’s tempo,..."*
   - `[Tavily]` [The Tech Layoffs are About to Reverse](https://www.youtube.com/watch?v=wLGOxxGBs_U)
@@ -5876,11 +9771,21 @@
   - `[DuckDuckGo]` [AI Job Displacement Statistics 2026: Under 1% of Layoffs](https://axis-intelligence.com/ai-job-displacement-statistics/)
     > *"Oct 29, 2026 · AI-cited cuts hit 120,136 in 2026, yet equal just 0.84% of U.S. layoffs (ADVR). Where displacement really shows: entry-level hiring, -19%. Free CSV. AI Job Displacement Statistics 2026 update."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 3. Utku, mahremiyet gereği verileri buluta göndermeyip yerel işleyen insansı robotların en az 10 bin dolara mal olacağını fakat hasta ve yaşlı bakımında insan tutmaktan çok daha ucuza geleceği için ailelerin ve sigortaların bu maliyeti rahatlıkla karşılayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **5.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %12.8 | TUTMADI: %7.0 | BELIRSIZ: %51.3 | KISMEN TUTTU: %28.9`
 - **Videoda Ne Demişti:** Figure AI firmasının işçi insansı robotunu ve ev içi yardım senaryolarını değerlendiren Utku Şen, evdeki görüntülerin internete gitmemesi için robotun güçlü bir yerel donanımla gelmesi gerektiğini anlatıyor. Böyle bir sistemin 10 bin dolardan aşağı çıkamayacağını fakat yaşlı veya hasta birine insan bakıcı tutmanın yarattığı güven ve maliyet yükü düşünüldüğünde ailelerin ve sigortaların bu parayı seve seve vererek robotlara yöneleceğini kendi gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Humanoid Robots in Elderly Care (2026) | RoboZaps Blog](https://blog.robozaps.com/b/humanoid-robots-in-elderly-care)
     > *"The cost barrier remains significant. Paro costs approximately $6,000 per unit. Pepper robots were $20,000–$25,000 before the manufacturer's bankruptcy. Full-size humanoid robots like Fourier's GR-3 will likely cost significantly more. For nursing homes operating on thin margins and families on fixed incomes, these prices are prohibitive without go..."*
   - `[Tavily]` [Robots in elderly care: Lessons from Japan's aging population](https://sinolytics.de/global-business-news/blog/geolytics/robots-elderly-care-lessons-from-japan)
@@ -5890,11 +9795,21 @@
   - `[Tavily]` [Humanoid Robot–Assisted Support for Health Care in Older Adults: Systematic Scoping Review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12978656)
     > *"Implementation challenges intersect both perspectives, as even technically proficient systems demand substantial care protocol modifications and extensive personnel training , with economic viability assessments challenging the utility of specific design implementations . Determinants of User Experiences and Outcomes (...) workload , others report..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 4. Utku, OpenAI ve Anthropic gibi devlerin sadece Fortune 500 şirketlerine odaklanacağını, şirketlerin ise yapay zekayı nasıl kullanacağını bilememesi yüzünden orta ve küçük ölçekli firmalara yapay zeka entegrasyonu kuran danışmanlık girişimleri için devasa bir pazar doğacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.4/10**)
 - **Olasılık Dağılımı:** `TUTTU: %63.5 | TUTMADI: %1.4 | BELIRSIZ: %9.4 | KISMEN TUTTU: %25.7`
 - **Videoda Ne Demişti:** OpenAI ve Anthropic'in şirketlere ileri seviye mühendis göndererek yapay zeka kurma hamlelerini inceleyen Utku Şen, çoğu şirketin lisans satın almasına rağmen bu araçları nasıl verimli kullanacağını bilmediğini anlatıyor. Büyük yapay zeka firmalarının sadece dev holdinglere gideceğini belirterek hastane, tekstil veya hukuk bürosu gibi orta ölçekli işletmelerin süreçlerine yapay zeka entegre eden yerel girişimlerin önünde devasa bir kazanç kapısı olduğunu kendi iş öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Inside the AI startups reinventing consulting: 'It's not as good as McKinsey, but it's instant'](https://finance.yahoo.com/news/inside-ai-startups-reinventing-consulting-093601558.html?fr=sycsrp_catchall)
     > *"Xavier AI, which bills itself as the world's first AI strategy consultant, is raising a seed round expected to close in the coming weeks, cofounder Joao Filipe told Business Insider. 'I would say the whole AI environment is competitive, but the opportunity is massive — it is more about finding the kind of investors with the right fit and background..."*
   - `[Tavily]` [A New Wave of AI-Powered Consulting Startups Is Emerging - Business Insider](https://www.businessinsider.com/ai-consulting-startups-2025-10)
@@ -5906,15 +9821,29 @@
   - `[DuckDuckGo]` [Artificial Intelligence (AI) Consulting Market 2026 | 2035](https://www.businessresearchinsights.com/market-reports/artificial-intelligence-ai-consulting-market-109569)
     > *"Nov 4, 2026 · This report covers the artificial intelligence (AI) consulting market by type, application and region, with analysis of trends, drivers, restraints, opportunities and challenges."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka Şirketlerinden Yavaşlama Çağrıları - S.A.H E173 - 2026-09-13
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, ABD ile Çin arasındaki yapay zeka rekabetinin Soğuk Savaş devrindeki nükleer silahlanma yarışına dönüştüğünü, toplumsal çöküş ve kitlesel işsizlik risklerine rağmen iki süper gücün asla masaya oturup yapay zekayı sınırlandırma veya yavaşlatma konusunda anlaşamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %56.2 | BELIRSIZ: %30.6 | TUTMADI: %3.4 | KISMEN TUTTU: %9.8`
 - **Videoda Ne Demişti:** OpenAI ve Anthropic'in yapay zekayı yavaşlatma çağrılarını değerlendiren Utku Şen, Soğuk Savaş döneminde nükleer başlıkların karşılıklı anlaşmalarla azaltıldığını hatırlatıyor. Fakat yapay zekada durumun farklı olduğunu belirterek ABD ile Çin'in oturup ortak bir denetim veya sınırlandırma anlaşması yapmasını hiç beklemediğini, rakibe üstünlük sağlamak uğruna her iki tarafın da bu yarışı sonuna kadar sürdüreceğini kendi jeopolitik tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI and the Arms Race: Part II | American Enterprise Institute - AEI](https://www.aei.org/commentary/ai-and-the-arms-race-part-ii)
     > *"This strategy justifies the Trump administration’s measure to slow down China’s AI development. Withholding advanced chips, stopping “unauthorized distillation,” and preventing “model weight theft” are denial, not arms control. They depend on what the United States does, not on what Beijing promises. As nuclear theorists discussed during the Cold W..."*
   - `[Tavily]` [Can the Cold War Teach Us How to Slow Down AI?](https://time.com/article/2026/06/23/ai-slowdown-cold-war-verification)
@@ -5926,11 +9855,21 @@
   - `[DuckDuckGo]` [Artificial Intelligence Cold War - Wikipedia](https://en.wikipedia.org/wiki/Artificial_Intelligence_Cold_War)
     > *"The Artificial Intelligence Cold War (AI Cold War) is a narrative in which geopolitical tensions between the United States and China could lead to a Second Cold War waged in the area of artificial intelligence technology rather than in the areas of nuclear capabilities or ideology. (1)"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, Meta'nın Muse gibi sadece rezervasyon yapma veya bilet alma gibi dar görevlere odaklanan kişisel asistanlarının yüksek fiyatla sunulması durumunda piyasada asla tutmayacağını, insanların her ufak iş için ayrı bir ajana para saçmayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **3.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %33.1 | KISMEN TUTTU: %14.6 | TUTTU: %14.4 | TUTMADI: %37.8`
 - **Videoda Ne Demişti:** Meta'nın duyurduğu Muse isimli kişisel asistan uygulamasını inceleyen Utku Şen, hem kod yazabilen hem her türlü işi gören kapsamlı modeller varken sadece sinema bileti almak gibi günlük işler için ayrı bir ajana bütçe ayrılmayacağını anlatıyor. Muse'un çok pahalıya çıkacağı söylentilerine değinerek bu kadar dar kapsamlı bir asistanın yüksek fiyat etiketiyle kullanıcı bulamayacağını ve başarısız olacağını kendi şahsi teknoloji tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Meta Muse AI Agent Launches at $20-$100/Month (2026)](https://shattered.io/meta-muse-ai-agent-launch-2026)
     > *"The gap between $2 and $100 a month across these products shows how unsettled this market still is. Nobody has agreed on what a personal agent should cost, because nobody has agreed on what one is actually worth to an average user yet. Grok 4.5’s entry-level pricing undercuts Muse’s Power tier by a wide margin, while GPT-6 Astra sits closer to it...."*
   - `[Tavily]` [Meta Launches Muse Code, Its First AI Coding Agent to Take on Claude and Codex - Memeburn](https://memeburn.com/meta-launches-muse-code-its-first-ai-coding-agent)
@@ -5942,15 +9881,29 @@
   - `[DuckDuckGo]` [What I Got Wrong About Meta’s Muse, And The Deeper Threat To ...](https://www.bigtechnology.com/p/what-i-got-wrong-about-metas-muse)
     > *"Sep 25, 2026 · When Meta introduced its Muse personal agent earlier this month, I thought it would fail for two reasons: First, privacy concerns would limit people’s willingness to connect it with services like Gmail, thus limiting its utility."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zeka, Siber Güvenliğe Yavaştan Etki Etmeye Başladı - S.A.H E114 - 2025-02-16
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın sadece konteynerlerle sınırlı kalmayıp tüm zafiyet yönetimini devralacağını, önemsiz açıkları eleyerek 5 kişilik güvenlik ekiplerini 3 kişiye düşüreceğini ve siber güvenlik sektöründe işsizlik yaratacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.8 | BELIRSIZ: %9.5 | KISMEN TUTTU: %43.5 | TUTTU: %45.1`
 - **Videoda Ne Demişti:** Nvidia'nın Morpheus isimli yapay zekalı konteyner zafiyeti önceliklendirme projesini inceleyen Utku Şen, bu yaklaşımın gelecekte tüm zafiyet yönetim sistemlerine yayılacağını anlatıyor. Bir yapay zekanın gerçekten kritik olan açıkları belirleyip önemsizleri elemesi durumunda şirketlerin 5 kişilik uygulama güvenliği takımları yerine 3 kişiyle çalışabileceğini, bunun da siber güvenlik sektöründe iş yükünü azaltıp işsizliğe yol açacağını ve bu sorunu ürünleştiren ilk girişimin çok büyük paralar kazanacağını kendi öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will AI Replace Cybersecurity Jobs? What Professionals Should Know](https://redbudcyber.com/will-ai-replace-cybersecurity-jobs)
     > *"Routine vulnerability scanning and reporting increasingly shifts toward automated systems. AI tools can execute scans, correlate findings with threat intelligence, generate reports, and even draft remediation recommendations without human intervention. Professionals whose roles center primarily on running scans and producing templated reports will..."*
   - `[Tavily]` [Will AI Replace Cyber Security Analyst Jobs? | JobZone Risk](https://jobzonerisk.com/roles/cyber-security-analyst)
@@ -5962,11 +9915,21 @@
   - `[DuckDuckGo]` [Will AI Replace Cybersecurity Jobs? A Reality Check - EC-Council](https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/will-ai-replace-cybersecurity-jobs/)
     > *"Sep 3, 2026 · Will AI replace cybersecurity jobs? Explore how AI is reshaping security roles, the skills professionals need, and why human expertise still matters."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın sağlıkta ilk muayene ve triyaj görevini üstlenerek basit vakaları eleyeceğini, hastanelerdeki yığılmanın yüzde 80'ini ortadan kaldırıp randevu krizini çözeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %45.2 | TUTTU: %29.1 | BELIRSIZ: %22.6 | TUTMADI: %3.1`
 - **Videoda Ne Demişti:** Reddit'te bir kullanıcının tahlillerini büyük resimde değerlendiremeyen doktorlar yüzünden geliştirdiği Open Health projesini değerlendiren Utku Şen, Türkiye'de ve Avrupa'da randevu bulma çilesinin arkasında gereksiz hastane ziyaretleri olduğunu anlatıyor. Hastaların semptomlarını dinleyip basit ilaçları ve adımları önerecek bir yapay zekanın hastaların yüzde 80'ini baştan eleyeceğini, böylece doktorların sadece kritik yüzde 20'lik kesime odaklanarak küresel randevu krizini çözeceğini kendi sağlık tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How Conversational AI Cuts Patient Wait Times by 47% in Healthcare Teams](https://www.linkedin.com/pulse/how-conversational-ai-cuts-patient-wait-times-47-healthcare-teams-scvqc)
     > *"• AI-powered triage systems achieve 95% accuracy in predicting critical care needs while reducing mis-triage rates by up to 8.9% compared to traditional methods. • Automated intake and scheduling cut visit times by 37.5% (from 20 to 12.5 minutes) while reducing no-show rates by an impressive 50.7%. • Call center volumes decrease by 30-35% as AI cha..."*
   - `[Tavily]` [AI triage to cut NHS waiting lists by 70% • healthcare-in-europe.com](https://healthcare-in-europe.com/en/news/sword-ai-triage-nhs-waiting-lists.html)
@@ -5978,15 +9941,29 @@
   - `[DuckDuckGo]` [Sağlık Randevu Asistanı – Hastane ve Klinik AI Çözümü](https://zanthex.ai/saglik-randevu-botu)
     > *"Hastane, klinik ve poliklinik için yapay zeka randevu asistanı. 7/24 otomatik randevu alma, doktor müsaitliği kontrolü, KVKK uyumlu hasta yönetimi. Hemen ücretsiz deneyin!"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zekalı Hackerlar Mümkün Mü? - S.A.H E99 - 2024-08-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın pentester ihtiyacını canlı sistemleri tarayarak değil kaynak kod analizi yaparak azaltacağını ve kodları derinlemesine inceleyen modeller çıktığında zafiyetlerin yüzde 90'ının doğrudan yakalanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %4.9 | TUTTU: %59.2 | BELIRSIZ: %7.7 | KISMEN TUTTU: %28.2`
 - **Videoda Ne Demişti:** Xbow isimli yapay zekalı otonom sızma testi aracını inceleyen Utku Şen, çalışan web uygulamasına dışarıdan istek atarak açık arayan DAST yöntemlerinin insan aklı gerektiren mantık hatalarını yakalayamayacağını anlatıyor. 2019 yılında yazdığı kehanet yazısına atıfta bulunarak yapay zekanın asıl devrimi kaynak kod analizinde yapacağını ve kodun içindeki açıkları yakalayarak insan pentesterlara olan rağbeti ciddi şekilde kıracağını kendi güvenlik tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The “AI Can’t Replace Pentesters” Take is Outdated. Here’s What’s Actually Happening.](https://medium.com/@hungry.soul/the-ai-cant-replace-pentesters-take-is-outdated-here-s-what-s-actually-happening-3048e3a22ada)
     > *"Think about it. A senior pentester reviewing source code can maybe cover a few thousand lines per day with real depth. An AI agent can ingest an entire codebase, build a mental model of the data flow, identify every point where user input touches a sensitive operation, cross-reference against known vulnerability patterns across every language and f..."*
   - `[Tavily]` [SEC543: AI-Assisted Source Code Analysis and Exploitation for Penetration Testers | SANS Institute](https://www.sans.org/cyber-security-courses/ai-source-code-analysis-exploitation-pentesters)
@@ -5998,11 +9975,21 @@
   - `[DuckDuckGo]` [GitHub - rivian/ai-sast: AI-powered SAST accelerator built to ...](https://github.com/rivian/ai-sast)
     > *"AI-SAST is an AI-driven static application security testing tool. Run it in your repository on your runners—PR scan on pull requests, full scan on demand. Your code never runs on ai-sast infrastructure."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Grok gibi modellerle sansürsüz sahte görsel üretme kabiliyetinin kontrolsüzce herkese açılması yüzünden dezenformasyonun çığırından çıkacağını ve internetteki yalanların geri dönülmez toplumsal felaketlere yol açacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.8/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %4.6 | KISMEN TUTTU: %46.2 | TUTTU: %47.9 | TUTMADI: %1.3`
 - **Videoda Ne Demişti:** İngiltere'deki göçmen karşıtı olayları ve Elon Musk'ın kontrolündeki X'in yeni çıkan sansürsüz Grok 2 modelini değerlendiren Utku Şen, toplumun büyük kısmının yapay zeka üretimi sahte fotoğrafları ayırt edemediğini anlatıyor. Sosyal medyadaki yapay zeka destekli troll ağlarının gergin durumdaki kitleleri yalan haberlerle kolayca galeyana getirebileceğini belirterek bu kontrolsüzlüğün çok büyük felaketler doğuracağını kendi uyarısı olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Grok AI Reportedly Generates Offensive and Violent Images Without Proper Safeguards (2024) – AI Incident 762](https://airisk.mit.edu/ai-incidents/762-grok-ai-reportedly-generates-offensive-and-violent)
     > *"xAI's Grok-2 image generation tool was released on the X platform with minimal safety guardrails, allowing users to generate offensive, violent, and sexually explicit deepfakes of public figures and copyrighted characters. The lack of content moderation and absence of watermarking on generated images raised significant concerns regarding misinforma..."*
   - `[Tavily]` [xAI Grok 2.0 and FLUX.1: Features, Benchmarks, and Concerns](https://www.ultralytics.com/blog/xai-launches-grok-2-0-with-flux-1-integration)
@@ -6014,11 +10001,21 @@
   - `[DuckDuckGo]` [In the News: Grok AI and Image Abuse: An Online Safety Risk](https://www.goodformedia.org/learn/in-the-news/grok-ai-image-abuse)
     > *"Regulators in California and the UK are investigating Grok AI, amid inappropriate images being generated without consent. This raises urgent questions about online safety, platform responsibility, and how AI tools are being released without adequate protections."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, şirket içi iletişimin neredeyse tamamen Slack'e kayması yüzünden hackerların ileride Slackdump benzeri araçları kullanarak ele geçirdikleri bilgisayarlardan devasa kurumsal sırları toplayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %1.2 | TUTMADI: %0.6 | TUTTU: %89.1 | KISMEN TUTTU: %9.0`
 - **Videoda Ne Demişti:** Kullanıcı bilgisayarındaki yerel oturum verilerini çeken Slackdump aracını inceleyen Utku Şen, şirketlerde artık e-posta trafiğinin bittiğini ve en kritik kurumsal sırların Slack kanallarında konuştuğunu anlatıyor. Saldırganların da bu madenin farkında olduğunu belirterek ileride sızdıkları bilgisayarlarda bu tarz araçları çalıştırıp çok büyük veriler elde edeceklerini kendi siber güvenlik öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [How Hackers Weaponize Slack: Lessons From Real Slack Dump Attacks | Horizon3](https://horizon3.ai/attack-research/n0-attack-paths/how-hackers-weaponize-slack-lessons-from-real-slack-dump-attacks)
     > *"Let’s take a look at one real-world example of a Slack Dump achieved by NodeZero and the chain of weaknesses it used to exfiltrate high-value business data. Attack chain analysis: 3 critical steps > For CISOs reporting to the board, the Slack Dump scenario isn’t just about tokens—it’s about reputational, legal, and competitive risk. When your inter..."*
   - `[Tavily]` [Slackdump | Hacker News](https://news.ycombinator.com/item?id=41272213)
@@ -6030,15 +10027,29 @@
   - `[DuckDuckGo]` [How Hackers Weaponize Slack: Lessons From Real Slack Dump ...](https://horizon3.ai/attack-research/n0-attack-paths/how-hackers-weaponize-slack-lessons-from-real-slack-dump-attacks/)
     > *"May 20, 2025 · Let’s take a look at one real-world example of a Slack Dump achieved by NodeZero and the chain of weaknesses it used to exfiltrate high-value business data. For CISOs reporting to the board, the Slack Dump scenario isn’t just about tokens—it’s about reputational, legal, and competitive risk."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zekanın İnsanlığa Faydası Ne? - S.A.H E139 - 2025-10-06
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın sunduğu gerçek fayda ile şirketlerin piyasa değerleri arasında büyük bir uçurum oluştuğunu, büyük devrim vaatleri yerine sosyal medyada tüketilecek basit video araçlarına tıkanılması yüzünden yapay zeka hisselerinde belirgin bir düşüş ve piyasa düzeltmesi yaşanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **7.4/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %5.6 | KISMEN TUTTU: %16.0 | TUTTU: %74.4 | TUTMADI: %4.0`
 - **Videoda Ne Demişti:** OpenAI'ın sağlık veya hukuk alanında devrim yapma vaatlerini yerine getiremeyip sosyal medyada paylaşılan Sünger Bob videoları gibi içeriklere odaklanmasını eleştiren Utku Şen, firmaların vizyon olarak tıkandığını belirtiyor. Yapay zekanın yarattığı gerçek etkinin 1 birim olmasına rağmen hisselerin 3-4 birim şiştiğini, bu aşırı abartılı beklentilerin karşılığı olmadığını ve piyasada bir düzeltmeyle hisselerde düşüş yaşanacağını kendi şahsi piyasa tahmini olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI bubble - Wikipedia](https://en.wikipedia.org/wiki/AI_bubble)
     > *"In October 2025, the Bank of England warned of the growing risks of a global market correction due to a possible overvaluation of leading AI tech firms in the stock market, such as OpenAI, which more than tripled its value from $157 billion in October 2024 to $500 billion the following year. The bank also warned that those valuations could fall fur..."*
   - `[Tavily]` [AI valuation fears grip investors as tech bubble concerns heighten](https://www.cnbc.com/2025/11/07/ai-valuation-fears-grip-investors-as-tech-bubble-concerns-heighten.html)
@@ -6050,15 +10061,29 @@
   - `[DuckDuckGo]` [US Tech Stock Correction Warning: ECB Economists Flag AI ...](https://intellectia.ai/blog/us-tech-stock-correction-ecb-warning-2026)
     > *"Aug 18, 2026 · ECB economists warn a US tech stock correction is 'likely' as AI-driven valuations reach dot-com era extremes. Learn what this means for investors and how to prepare."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yapay Zekaya Güven Olmaz - S.A.H E164 - 2026-06-07
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın kod inceleme ve güvenlik açığı yakalamada çok olgunlaşması yüzünden geleneksel kaynak kodda zafiyet arama yazılımı satan güvenlik firmalarının hızla diklemesine batışa geçeceğini ve bu şirketlere artık hiçbir ihtiyaç kalmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.6/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %12.4 | TUTTU: %2.4 | TUTMADI: %39.2 | KISMEN TUTTU: %46.1`
 - **Videoda Ne Demişti:** Alibaba'nın açık kaynak olarak yayınladığı büyük dil modellerine dayalı kod inceleme projesini değerlendiren Utku Şen, kaynak kod analizinin artık tamamen yapay zekaya devredildiğini anlatıyor. Modellerin hem hatalı kodları hem de güvenlik açıklarını rahatlıkla yakalayabildiğini belirterek geleneksel statik kod analizi ve zafiyet tarama ürünü satan güvenlik şirketlerinin hızla batacağını ve bu araçların devrinin kapandığını kendi şahsi sektör tahmini olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI SAST: What It Is and How It Works (2026 Guide) | Corgea](https://corgea.com/learn/ai-sast)
     > *"| Traditional SAST | AI SAST | DAST | --- | What it analyzes | Source code, bytecode, or binaries at rest | Source code at rest, with semantic context | A running application via HTTP requests | | How it detects | Rules, patterns, taint tracking | LLM reasoning plus program analysis, then verification | Sending payloads and observing responses | |..."*
   - `[Tavily]` [Why AI-Generated Code Needs Runtime Validation, Not Just SAST](https://www.invicti.com/blog/web-security/why-ai-generated-code-needs-runtime-validation-not-just-sast)
@@ -6070,11 +10095,21 @@
   - `[DuckDuckGo]` [Role of AI in Cyber Security - AI Cybersecurity Guide](https://www.bing.com/aclick?ld=e8QjJWuZze-IneDyMgBVTPATVUCUxWV-DZKrX2gaqdbx0UmiKj1wHXut1UJLCaOKRRlIBvUOJ-ugZBJ3rjW25fHVKS55jyIG7AH2ZGYqRANjA8TVPMCY7FsguQoMIzKZrG6cFDos_7_ot0SdOrO_TaFhBVuxkz5Of4BmwRiy2MJ2nngr8xalvBohr8ERvb1bjDD6zeFW4WhwMtXHWwn9_dlwWu5bE&u=aHR0cHMlM2ElMmYlMmZ3d3cuc3BsdW5rLmNvbSUyZmVuX3VzJTJmZm9ybSUyZmFyY2hpdGVjdGluZy1hLXNjYWxhYmxlLXNlY3VyaXR5LWRhdGEtZmFicmljLWZvci10aGUtYWktZXJhLmh0bWwlM2Z1dG1fY2FtcGFpZ24lM2RiaW5nX2VtZWFfSEFNX2VuX3NlYXJjaF9nZW5lcmljX3NlY3VyaXR5JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NvbnRlbnQlM2RFU0dBSUVyYV9XUF9WMiUyNnV0bV90ZXJtJTNkYWklMjUyMGluJTI1MjBjeWJlcnNlY3VyaXR5JTI2ZGV2aWNlJTNkYyUyNl9idCUzZDcxNTM3MjYzNDMyMzkwJTI2X2JtJTNkcCUyNm1zY2xraWQlM2RiMDQ2NDI5NTkwN2YxM2NmMWE0NzI4NmUxZTQ3ZWU1ZQ&rlid=b0464295907f13cf1a47286e1e47ee5e)
     > *"Learn how security leaders are modernizing SOC data platforms for the AI era. See why 96% of organizations use or deploy SIEM for SecOps. Get the ESG whitepaper. Scalable Solutions · Actionable Strategies"*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın berberlik veya insani ilişki gerektiren alanlar hariç neredeyse tüm sektörlere gireceğini fakat avukatlık gibi beşeri bağ ve adliye takibi gerektiren meslekleri tamamen yok edemeyeceğini, sadece dilekçe ve emsal karar araştırma gibi rutin işleri hızlandıracağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %0.6 | TUTTU: %83.4 | BELIRSIZ: %2.1 | KISMEN TUTTU: %13.9`
 - **Videoda Ne Demişti:** Yapay zekanın Stanford hukuk profesörlerinden daha iyi performans gösterdiği deneyi yorumlayan Utku Şen, bu yeteneklerin artık inkar edilemeyeceğini anlatıyor. Yine de savcılık takibi ve insani temas gerektiren avukatlık gibi mesleklerin tamamen ortadan kalkmayacağını, yapay zekanın sadece dosya inceleme ve emsal arama gibi amelelik işlerini üstleneceğini kendi mesleki tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Will AI Render Lawyers Obsolete? - New York State Bar Association](https://nysba.org/will-ai-render-lawyers-obsolete)
     > *"Crucially, legal advice depends on professional judgment and the establishment of interpersonal trust. AI cannot replicate the essential role of a lawyer who advocates in court, negotiates deals face-to-face, and counsels clients through crises where experience, human insight and empathy are indispensable.(_edn9) (...) While the practice of law is..."*
   - `[Tavily]` [AI won't replace lawyers, but it will. | Jonathan Merel - LinkedIn](https://www.linkedin.com/posts/jonathanmerel_ai-wont-replace-lawyers-but-it-will-the-activity-7285787929027723264-MZ2S)
@@ -6086,11 +10121,21 @@
   - `[DuckDuckGo]` [The impact of artificial intelligence on legal practice ...](https://www.tandfonline.com/doi/full/10.1080/09695958.2026.2725559)
     > *"Oct 6, 2026 · ABSTRACT The rapid advancement of Artificial Intelligence (AI) has renewed debates about its implications for the legal profession, professional responsibility, and legal service delivery. Rather than replacing lawyers, AI is positioned as a complementary tool that automates repetitive and administrative tasks, enabling practitioners..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, bulut yapay zeka servislerine veri gizliliği nedeniyle duyulan güvensizlik yüzünden şirketlerin günün sonunda ofislerine kendi donanımlarını alıp temel ve orta seviye işleri yerel açık kaynak modellerle çözmeye mecbur kalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **6.0/10**)
 - **Olasılık Dağılımı:** `TUTTU: %60.2 | KISMEN TUTTU: %27.1 | BELIRSIZ: %11.0 | TUTMADI: %1.7`
 - **Videoda Ne Demişti:** Uber'in mühendislerine koyduğu yapay zeka bütçesini ve şirketlerin yüksek harcamalarını ele alan Utku Şen, her iş için en pahalı modelleri kullanmanın gereksiz olduğunu anlatıyor. Şirketlerin üçüncü taraf bulut servislerine şirket içi hassas verileri göndermekten çekindiğini belirterek günün sonunda kurumların kendi içlerine cihazlar yerleştirip açık kaynak modelleri yerelde koşturacağı bir modele geçeceklerini kendi altyapı öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [LLM.co Launches Open Source Model Download Hub to Simplify Access to Private and Self-Hosted AI | Markets Insider](https://markets.businessinsider.com/news/stocks/llm-co-launches-open-source-model-download-hub-to-simplify-access-to-private-and-self-hosted-ai-1035825700)
     > *"-- The new download hub provides a structured directory of models suitable for local and private infrastructure, including variants designed for mobile devices, on-premise servers, and enterprise environments. The page is designed to simplify discovery and accelerate deployment for organizations seeking to reduce reliance on public AI APIs and main..."*
   - `[Tavily]` [Best Local AI Tools in 2026: 10 Free & Enterprise Picks](https://iternal.ai/best-local-ai-tools-enterprise)
@@ -6102,15 +10147,29 @@
   - `[DuckDuckGo]` [Guide to Top 10 Open Source Chatbots for Local Deployment](https://intuitionlabs.ai/articles/open-source-chatbots-local-deployment)
     > *"Aug 12, 2026 · This guide surveys open-source chatbot projects relevant to local deployment, while distinguishing currently self-hostable options from legacy references. It covers technical architectures, deployment models, capabilities, adoption, and verifiable real-world impact."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yaratıcı Öğrencileri Eleyen Bir Sistem Var - S.A.H E96 - 2024-06-16
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, OpenAI'ın sunucularını Apple'a bedavaya veya zararına kullandırmayı göze almasının uzun vadede ChatGPT'yi yapay zeka pazarının mutlak kralı ve tekeli yapacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `BELIRSIZ: %8.0 | TUTTU: %49.1 | KISMEN TUTTU: %39.6 | TUTMADI: %3.3`
 - **Videoda Ne Demişti:** Apple ile OpenAI arasındaki işbirliğinde herhangi bir para alışverişi olmamasını değerlendiren Utku Şen, OpenAI'ın zarar etmeyi bile göze alarak Apple ekosistemine girmesinin arkasındaki motivasyonu anlatıyor. Teknoloji dünyasında kullanıcıyı ilk başta kendine alıştıranın pazarı kapacağını belirterek Apple ortaklığının uzun vadede ChatGPT'yi sektörün tartışmasız lideri ve kralı haline getireceğini kendi stratejik tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Elon Musk's xAI sues Apple and OpenAI over ChatGPT exclusivity on iOS devices, accuses them of 'thwarting competition and innovati...](https://finance.yahoo.com/news/elon-musks-xai-sues-apple-211547975.html)
     > *"Thus Apple has teamed up with OpenAI, which the lawsuit claims has established its own monopoly in the field of generative AI chatbots, leaving Musk's xAI unable to gain 'more than a few percent of the market despite accolades about its superior features.' 'Just like Apple, OpenAI has incentive to protect its monopoly by thwarting competition and i..."*
   - `[Tavily]` [Elon Musk Sues Apple, OpenAI Over iPhone AI 'Monopoly'](https://finance.yahoo.com/news/elon-musk-sues-apple-openai-090103647.html)
@@ -6122,11 +10181,21 @@
   - `[DuckDuckGo]` [Musk Sues Apple and OpenAI Over ChatGPT Integration Monopoly ...](https://iemlabs.com/blogs/musk-sues-apple-and-openai-over-chatgpt-integration-monopoly-claims/)
     > *"Jun 15, 2026 · Exclusive access to user data: integrating ChatGPT into iOS would allow OpenAI to access to a massive volume of requests, creating an insurmountable advantage over competitors. Musk believes this partnership stifles competition and reduces the diversity of tools available to consumers."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Meta'nın açık kaynaklı Llama yapay zekasını Android telefonlara ücretsiz sokması veya WhatsApp içerisine entegre etmesi halinde ChatGPT'nin tahtını çok ciddi şekilde sallayabileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %10.4 | TUTMADI: %0.5 | BELIRSIZ: %2.2 | TUTTU: %86.8`
 - **Videoda Ne Demişti:** Yapay zeka pazarındaki rekabeti ve pusuda bekleyen rakipleri değerlendiren Utku Şen, teknoloji dünyasında erken davranıp norm haline gelenin pazarı ele geçirdiğini anlatıyor. Meta'nın Samsung gibi üreticilerle anlaşıp Llama'yı Android cihazlara bedava dağıtması veya WhatsApp'a doğrudan gömmesi durumunda ChatGPT'nin tahtının ciddi anlamda sallanacağını kendi gelecek tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Meta releases early versions of its Llama 3 AI model](https://finance.yahoo.com/news/meta-releases-early-versions-llama-160000792.html)
     > *"The models will be integrated into virtual assistant Meta AI, which the company is pitching as the most sophisticated of its free-to-use peers. The assistant will be given more prominent billing within Meta's Facebook, Instagram, WhatsApp and Messenger apps as well as a new standalone website that positions it to compete more directly with Microsof..."*
   - `[Tavily]` [Meta AI in WhatsApp: What It Is and How to Use It (2026)](https://www.roklo.ai/blog/meta-ai-in-whatsapp)
@@ -6138,15 +10207,29 @@
   - `[DuckDuckGo]` [Meta AI vs ChatGPT on WhatsApp: a complete comparison ...](https://en.androidayuda.com/applications/general/Meta-AI-vs-ChatGPT-on-WhatsApp--which-is-better/)
     > *"We compare Meta AI and ChatGPT on WhatsApp: integration, features, limitations, and privacy. Discover which AI is right for your chats."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yeni Bir Dönem Bangır Bangır Geliyor - S.A.H E109 - 2025-01-12
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, Meta ve Twitter'ın yöneldiği topluluk notları sisteminin geleceğinin hiç parlak olmadığını, sıradan insanların teyit eğitimi ve objektifliği bulunmadığı için bu sistemin ideolojik gruplar tarafından suistimal edilip tıkanacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.1/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %27.7 | TUTTU: %19.0 | KISMEN TUTTU: %31.1 | BELIRSIZ: %22.2`
 - **Videoda Ne Demişti:** Meta'nın profesyonel doğrulama kurumlarıyla çalışmayı bırakıp Twitter benzeri topluluk notları modeline geçmesini değerlendiren Utku Şen, teyitçilerin aksine sıradan kullanıcıların doğrulama eğitimi ve objektiflik kaygısı taşımadığını anlatıyor. Sisteme dahil olan kişilerin ideolojik yaklaşımlarla gerçek dışı veya taraflı notlar yazacağını belirterek topluluk notları sisteminin geleceğinin kesinlikle parlak olmadığını kendi teknoloji tezi olarak açıklıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Trust the crowd: Crowdsourced fact-checking is as effective at reducing confidence in misinformation as expert fact-checking](https://pmc.ncbi.nlm.nih.gov/articles/PMC13189315)
     > *"Community Notes involves laypeople identifying X posts with misinformation and creating a note containing a fact-check. These appear on the post when a diverse group of X users have agreed that the fact-check was helpful. Research has highlighted that belief in the accuracy of crowdsourced fact-checks tends to occur when there is collective agreeme..."*
   - `[Tavily]` [The trust-consensus paradox: why decentralized fact-checking faces challenges on polarizing topics - Institute for Strategic Dialo...](https://www.isdglobal.org/digital-dispatch/the-trust-consensus-paradox-why-decentralized-fact-checking-faces-challenges-on-polarizing-topics)
@@ -6158,15 +10241,29 @@
   - `[DuckDuckGo]` [Crowdsourced Fact-Checking or Biased Commentary? Analyzing ...](https://dl.acm.org/doi/10.1145/3701716.3717533)
     > *"May 23, 2025 · In the video, we give an overview of why crowd-sourced fact-checking and the identification of bias on social media is relevant, what Community Notes are and what measures are taken to ensure their legibility."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yerli ve Milli Hayal Kırıklıkları - S.A.H E79 - 2023-12-18
 
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 1. Utku, devlet eliyle ve kamu desteğiyle ChatGPT'ye rakip yerli yapay zeka çıkarma girişiminin tutmayacağını, batma korkusu ve girişimcilik ruhu olmadığı için sürekli para yakıp başarısız taklitlerden öteye gidemeyeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %12.0 | TUTTU: %48.9 | TUTMADI: %8.1 | BELIRSIZ: %31.0`
 - **Videoda Ne Demişti:** Selçuk Bayraktar'ın ChatGPT rakibi yerli yapay zeka başlatma duyurusunu değerlendiren Utku Şen, devlet destekli sermayeyle küresel çapta inovasyon çıkamayacağını anlatıyor. Başarılı bir girişim için kurucunun batma korkusu ve kazanma hırsı taşıması gerektiğini, Turkcell'in arama motoru ya da mesajlaşma klonları gibi bu modellerin de sadece para tüketeceğini ve beyin göçünün zirve yaptığı bir ortamda ticari olarak dünya devleriyle rekabet etmenin imkansıza yakın olduğunu kendi temel tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Why artificial intelligence is creating fundamental challenges for competition policy](https://www.bruegel.org/policy-brief/why-artificial-intelligence-creating-fundamental-challenges-competition-policy)
     > *"AI start-ups and big-tech firms. It examines possible policy responses to these bottlenecks and shows how, in some parts of the value chain, there are no clear-cut solutions because competition authorities are caught between conflicting policy objectives. In particular, exponentially growing AI model training costs constitute an increasingly high m..."*
   - `[Tavily]` [As nations battle for AI dominance, state funds pile $60B into startups - PitchBook](https://pitchbook.com/news/articles/as-nations-battle-for-ai-dominance-state-backed-funds-pile-60b-into-startups)
@@ -6178,11 +10275,21 @@
   - `[DuckDuckGo]` [CSET - Promoting AI Innovation Through Competition](https://cset.georgetown.edu/wp-content/uploads/CSET-Promoting-AI-Innovation-Through-Competition.pdf)
     > *"By understanding the specific mechanisms through which competition and innovation in the AI market may be undermined, government leaders can better tailor policy interventions to promote a diversified, contestable, and competitive AI market."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, Mistral gibi açık kaynak modellerin yayılmasıyla birlikte yapay zeka pazarında kızışacak yarışın ChatGPT tekelini kıracağını ve geliştiricilere sunulan pahalı API fiyatlarını aşağı çekeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **5.9/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.0 | BELIRSIZ: %1.1 | KISMEN TUTTU: %38.9 | TUTTU: %59.0`
 - **Videoda Ne Demişti:** Mistral'in modelini torrent üzerinden açık kaynak olarak dağıtmasını ve piyasadaki servislerin fiyat rekabetine girişmesini değerlendiren Utku Şen, OpenAI'ın tekelleşmesinin sektöre zarar verdiğini anlatıyor. Açık kaynak modeller sayesinde alternatif servislerin çoğalacağını, bu rekabet dalgasının ChatGPT'nin tahtını sallayarak el yakan API fiyatlarını zorunlu olarak ucuzlatacağını kendi piyasa öngörüsü olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI open models have benefits. So why aren’t they more widely used? | MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/ai-open-models-have-benefits-so-why-arent-they-more-widely-used)
     > *"Open models achieve about 90% of the performance of closed models when they are released, but they can quickly close that gap — and the price of running inference is 87% less on open models. Nagle and co-author Daniel Yue at the Georgia Institute of Technology found that optimal reallocation of demand from closed to open models could cut average ov..."*
   - `[Tavily]` [Is open source AI losing its cost advantage? The Information’s Stephanie Palazzolo explains why developers are using fewer open so...](https://www.facebook.com/gettheinformation/posts/is-open-source-ai-losing-its-cost-advantagethe-informations-stephanie-palazzolo-/1733256558803333)
@@ -6194,15 +10301,29 @@
   - `[DuckDuckGo]` [AI Model Costs 2026: US Frontier vs Chinese Open Source](https://digitalinasia.com/ai-model-cost-tracker/)
     > *"Sep 3, 2026 · API prices for current AI models from OpenAI, Anthropic, Google, DeepSeek, Alibaba and Z.ai, per million tokens, with peak, promotional and deployment conditions."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Yüz Tanıma Sistemi ile Hava Atan Bakanlarımız - S.A.H E86 - 2024-02-19
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, Apple'ın Vision Pro ile fena çuvalladığını, 4 bin dolarlık astronomik fiyatı ve ağırlığı yüzünden insanların saatlerce kafasında tutamayacağını, Meta'nın Oculus ekosistemi karşısında hiçbir şansının olmadığını söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **3.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %10.6 | TUTTU: %31.3 | BELIRSIZ: %35.8 | KISMEN TUTTU: %22.3`
 - **Videoda Ne Demişti:** Apple Vision Pro'yu ve Mark Zuckerberg'in Oculus karşılaştırmasını değerlendiren Utku Şen, VR başlıklarının günde en fazla bir saat takılabildiğini ve iş için saatlerce kafada tutulacak bir hafiflikte olmadığını anlatıyor. Normal bir gözlük formuna girmedikçe bu cihazların günlük hayatta çalışmayacağını belirterek Apple'ın 4 bin dolarlık etiketiyle ve oyun ekosisteminden yoksun haliyle Oculus karşısında tutunamayıp çuvalladığını kendi teknoloji tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (4 Kaynak)</summary>
+
   - `[Tavily]` [Apple tries to distance itself from Meta, competition: Don’t call it a headset](https://finance.yahoo.com/news/apple-tries-to-distance-itself-from-meta-competition-dont-call-it-a-headset-201352368.html)
     > *"At $3,499, the Vision Pro is far more expensive than Meta's Quest Pro, $999, and Quest 3, $499, and easily eclipses Sony's (SONY) $549 PlayStation VR2 and HTC's $1,249 Vive Pro 2. In fact, Apple's pricing scheme is only matched by Microsoft's Hololens 2, which costs $3,500. Apple is positioning its headset as a premium device that's less a high-pri..."*
   - `[Tavily]` [Meta announces new Quest 3 VR headset as Apple competition looms](https://www.cnbc.com/2023/09/27/meta-announces-new-quest-3-vr-headset-as-apple-competition-looms-.html)
@@ -6212,11 +10333,21 @@
   - `[Tavily]` [Apple Vision Pro and Meta Quest Have Different Visions of Future - Business Insider](https://www.businessinsider.com/apple-vision-pro-vs-meta-quest-different-visions-2023-6)
     > *"Apple this week revealed its new Vision Pro mixed-reality headset, and comparisons were instantly drawn with Meta's own Quest headset. My colleague Nich Carlson wrote for example that Apple kicked Meta's butt. Then the price of Apple's headset, at $3,499, has been compared with the $500 cost of the Quest headset. And there are lots of product revie..."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, yapay zekanın basit ritimler ve hazır akorlar yazabilse de akılda kalıcı bir melodi yaratamayacağını, hangi melodinin hit olacağını matematiksel olarak asla ayırt edemeyeceği için gerçek müzisyenlerin yerini alamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %42.7 | TUTTU: %12.6 | KISMEN TUTTU: %21.2 | BELIRSIZ: %23.5`
 - **Videoda Ne Demişti:** Yapay zeka müzik üreticilerini ve kendisine gönderilen örnekleri inceleyen Utku Şen, modellerin arka plan beatleri veya reklamlar için jenerik stok müzikler üretebileceğini anlatıyor. Fakat akılda kalıcı bir melodinin matematiksel bir formülü olmadığını ve insanların bunu sadece duyarak hissettiğini belirterek yapay zekanın hangi melodinin tutup hangisinin tutmayacağını bilemeyeceğini, dolayısıyla gerçek şarkı üretiminde insanın yerini alamayacağını kendi sanat ve teknoloji tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The Problem with AI-Generated Music - The Cornell Daily Sun](https://www.cornellsun.com/article/2024/12/the-problem-with-ai-generated-music)
     > *"The threat that artificial intelligence poses for the average person actually has a much larger effect that one would expect. AI music tends to fall flat of creativity as it wasn’t fabricated from a person's perspective, but a technological one. If the music industry shifted to primarily AI generated work then most of the music produced would feel..."*
   - `[Tavily]` [AI and the Sound of Music | Yale Law Journal](https://yalelawjournal.org/essay/ai-and-the-sound-of-music)
@@ -6228,11 +10359,21 @@
   - `[DuckDuckGo]` [Ücretsiz Yapay Zeka Destekli Müzik Oluşturucu: Çevrimiçi ...](https://www.adobe.com/tr/products/firefly/features/ai-music-generator.html)
     > *"Yapay zeka destekli müzik oluşturucu, yüklediğiniz video ve sesi akıllı bir şekilde analiz ederek hissini, stilini ve amacını anlar ve ardından otomatik olarak özel müzik istemleri oluşturur."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 3. Utku, yapay zekanın sözleşme inceleme gibi işleri insanlardan 60 kat hızlı yaparak süreci inanılmaz hızlandıracağını fakat insani temas ve adliye dinamikleri yüzünden avukatları asla işsiz bırakamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **8.6/10**)
 - **Olasılık Dağılımı:** `TUTTU: %85.8 | KISMEN TUTTU: %12.7 | TUTMADI: %0.4 | BELIRSIZ: %1.0`
 - **Videoda Ne Demişti:** Yapay zeka ile avukatların sözleşme hata tespitinde yarıştırıldığı araştırmayı değerlendiren Utku Şen, modellerin bir saatlik işi bir dakikada aynı başarıyla bitirdiğini anlatıyor. Hukuk için özel eğitilmiş modellerin çok daha güçleneceğini belirtse de mahkeme salonu taktikleri ve insani ilişkiler gereği yapay zekanın avukatlık mesleğini bitiremeyeceğini, sadece işleri muazzam hızlandıracağını kendi mesleki öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [AI Impact On The Legal Profession](https://flexstaffrecruit.com/ai-impact-on-the-legal-profession)
     > *"AI impact on the legal profession will be most noticeable on repetitive, time-consuming legal work. Document review, contract analysis, discovery, and even drafting standard legal forms can now be assisted by AI. For example, e-discovery platforms use machine learning to sift through millions of emails and files, identifying relevant documents far..."*
   - `[Tavily]` [Adapt or Be Automated: AI’s Impact on Junior Lawyers](https://barkergilmore.com/blog/adapt-or-be-automated-what-junior-lawyers-need-to-know-about-ais-impact-on-their-careers)
@@ -6244,15 +10385,29 @@
   - `[DuckDuckGo]` [AI in law: contract automation and legal analytics.](https://newo.ai/insights/ai-in-law-contract-automation-and-legal-analytics)
     > *"Oct 14, 2025 · Discover how AI transforms contract drafting, review, and analysis. Learn how artificial intelligence streamlines legal contract management."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Çin Yapınca Kötü de Amerika Yapınca İyi Mi? - S.A.H E89 - 2024-03-18
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, tıpkı 50'li yıllarda doktorların önerdiği sigaraların sonradan zararları anlaşılınca yasaklanması gibi sosyal medyanın da gelecekte benzer bir kader yaşayacağını ve insanların ileride geriye dönüp bu negatif ortama nasıl katlandıklarına hayret edeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.6/10**)
 - **Olasılık Dağılımı:** `TUTMADI: %1.1 | KISMEN TUTTU: %7.3 | BELIRSIZ: %86.1 | TUTTU: %5.5`
 - **Videoda Ne Demişti:** TikTok yasağı ve Twitter ile Instagram'ın insan psikolojisine verdiği zararları değerlendiren Utku Şen, eski sigara reklamlarını örnek veriyor. Tıpkı sigaranın zararları anlaşıldıktan sonra reklamlarının yasaklanması gibi 50 ya da 100 yıl sonra insanların geçmişe bakıp bu kadar negatif basan sosyal medyalarda insanların nasıl yaşadığına şaşıracağını ve bu platformların yarattığı tahribatın ileride çok daha net anlaşılacağını kendi tezi olarak anlatıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [WHY REGULATING SOCIAL MEDIA LIKE BIG TOBACCO ...](https://ndlawreview.org/wp-content/uploads/2022/05/NDL409_McKay_05_09.pdf)
     > *"yet to be strong, causal evidence that social media is so harmful that the government need intervene to protect adolescent Americans. Nevertheless, these social media companies—and the potential harms of their products—deserve further scrutiny and research. Lawmakers must remember that the tobacco regulatory scheme evolved over decades—and is still..."*
   - `[Tavily]` ["Up in Smoke: Why Regulating Social Media like Big Tobacco Won’t Work (" by Ian McKay](https://scholarship.law.nd.edu/ndlr/vol97/iss4/9)
@@ -6264,11 +10419,21 @@
   - `[DuckDuckGo]` [Sosyal Medyanın Zararları ve Görünmeyen Tehlikeleri](https://psikiyatrirehberi.com.tr/sosyal-medyanin-zararlari-gorunmeyen-tehlikeleri-ve-cozum-rehberi)
     > *"Dec 15, 2025 · Ancak bu sınırsız bağlantı gücü, beraberinde ciddi psikolojik, sosyolojik ve fiziksel sorunları da getirdi. Sosyal medyanın zararları, artık sadece bireysel bir sorun değil, toplumsal bir halk sağlığı meselesi olarak kabul edilmektedir."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zekanın kısa vadede yazılımcıların işini kesinlikle ellerinden alamayacağını, sadece işleri hızlandıran bir destek aracı olarak kalıp en fazla 10 kişilik bir ekibi 6-7 kişiye düşürebileceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.9/10**)
 - **Olasılık Dağılımı:** `TUTTU: %48.8 | BELIRSIZ: %5.4 | TUTMADI: %1.0 | KISMEN TUTTU: %44.8`
 - **Videoda Ne Demişti:** Devin adlı yapay zeka yazılımcı duyurusunu ve sektördeki iş kaybetme korkularını değerlendiren Utku Şen, yazılımcılığın sadece oturup kod yazmaktan ibaret olmadığını belirtiyor. Problem çözme, insan ikna etme ve bütçe yönetimi gibi insani karar süreçlerinde yapay zekanın yer alamayacağını vurgulayarak, yapay zekanın kısa vadede işleri kapmayacağını ve olsa olsa 10 kişilik kadroları 6 veya 7 kişiye indiren bir katalizör olarak kalacağını kendi sektörel tahmini olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Is the “AI developer”a threat to jobs – or a marketing stunt? - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-ai-developer)
     > *"Devin is spreading a lot of fear about job security. Even though Devin is not readily available to use, reactions to the possibility of a colleague that’s an “AI developer” makes the potential impact of AI tools very clear. Cognition AI is positioning Devin as a possible replacement for an engineer, and more, and so is Magic.dev, which claims its a..."*
   - `[Tavily]` [A Clip Seemingly of the CEO Behind AI Engineer Devin Is Going Viral - Business Insider](https://www.businessinsider.com/clip-ceo-cognition-ai-engineer-devin-math-competition-going-viral-2024-3)
@@ -6280,15 +10445,29 @@
   - `[DuckDuckGo]` [Devin AI: Separating Hype from Reality in Software EngineeringSorry Devin You Can't Replace our Jobs - DEV CommunityDevin AI Expla...](https://codewithghazi.substack.com/p/devin-ai-separating-hype-reality-software-engineering)
     > *"Mar 26, 2024 · It's crucial to separate the hype from the practical implications. So, will Devin revolutionize software engineering as we know it? It's a question that sparks debate and speculation. While AI can automate certain tasks and streamline processes, it's unlikely to replace the need for skilled engineers entirely. Mar 24, 2024 · Despite..."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Çok Fazla AI Modeli Var Ya - S.A.H E120 - 2025-04-06
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın siber güvenlikte asıl devrimi kod incelemede yapacağını, açıkların yüzde 90'ından fazlasının daha yazım aşamasında çözülmesiyle birlikte pentester ihtiyacının ciddi şekilde azalacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **5.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %31.3 | KISMEN TUTTU: %54.6 | TUTMADI: %2.9 | BELIRSIZ: %11.2`
 - **Videoda Ne Demişti:** Pentester Lab üzerindeki güvenlik açıklarını yapay zeka modelleriyle analiz eden Utku Şen, yapay zekanın güvenlikteki asıl oyun değiştirici etkisinin kod inceleme alanında olacağını anlatıyor. Modeller geliştikçe güvenlik açıklarının yüzde 90-95'inin daha kodlama aşamasında yakalanacağını belirterek sızma testlerinin tamamen bitmeyeceğini ama eskiden 20 uzmanın yaptığı işin gelecekte 6-7 pentester ile çözülebileceğini kendi sektörel gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [The “AI Can’t Replace Pentesters” Take is Outdated. Here’s What’s Actually Happening.](https://medium.com/@hungry.soul/the-ai-cant-replace-pentesters-take-is-outdated-here-s-what-s-actually-happening-3048e3a22ada)
     > *"Think about it. A senior pentester reviewing source code can maybe cover a few thousand lines per day with real depth. An AI agent can ingest an entire codebase, build a mental model of the data flow, identify every point where user input touches a sensitive operation, cross-reference against known vulnerability patterns across every language and f..."*
   - `[Tavily]` [How to Hire a Penetration Tester: What to Look For](https://codeant.ai/blogs/how-to-hire-a-penetration-tester)
@@ -6300,15 +10479,29 @@
   - `[DuckDuckGo]` [Debug Code With AI - Grok Build by SpaceXSI](https://www.bing.com/aclick?ld=e8Rc4ZXuVP7RK30SwWj3EENzVUCUz9xaAz5bop8zIZ5w2S7KgpEbOx37weMRd97OKvlZpCs8kcc2ykXTAIs7Xlk6co8aWIPP_hQryXr-rN7AsynenQ_Jlqmxi1lU-yrEUR9XHUrOAcRb869Y7VyWzUpqhup__YsR4_oLoIB1Ze-GcHP2kw0Pm0bjliho0kIZMcFx659nlyscNSxTY42Dmm0hSQNX8&u=aHR0cHMlM2ElMmYlMmZ4LmFpJTJmYnVpbGQlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2Q0ODkyODI0MjIlMjZ1dG1fY29udGVudCUzZDEyMzI1NTQyMjkxMzE0NjMlMjZ1dG1fdGVybSUzZGFpJTI1MjBhc3Npc3RlZCUyNTIwZGVidWdnaW5nJTI2dXRtX3NvdXJjZSUzZGJpbmdfcGFpZCUyNnV0bV9tZWRpdW0lM2RwYWlkJTI2dXRtX2NhbXBhaWduJTNkZ3Jva2J1aWxkX3dlYl9wdXJjaGFzZV9zZWFyY2hfbmJfZW5fbWlkZGxlZWFzdF9leGFjdHBocmFzZV9tYXhjb252X25vbmJyYW5kJTI2dXRtX3Rlcm0lM2RhaSUyNTIwYXNzaXN0ZWQlMjUyMGRlYnVnZ2luZyUyNnV0bV9jb250ZW50JTNkNzcwMzQ3ODQ4NjQ2NjAlMjZjY19tc2Nsa2lkJTNkYWVhNzdlMjIxYmY1MWE3MTJkNjUxNGQ5YTcxOTFlOTclMjZtc2Nsa2lkJTNkYWVhNzdlMjIxYmY1MWE3MTJkNjUxNGQ5YTcxOTFlOTc&rlid=aea77e221bf51a712d6514d9a7191e97)
     > *"Grok Build reads your code, finds the bug and proposes a fix you can review. Spend less time chasing bugs and more time shipping. Try Grok Build today. Debug, Refactor, Write · Built for Developers · Start in Minutes · AI Coding Agent"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Çöp de Değil, Mucize de Değil - S.A.H E163 - 2026-05-31
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zekanın yaratacağı iş kaybının en fazla yüzde 30 veya 40 civarında kalacağını, çok hata yapması ve yüksek maliyeti yüzünden insan mühendislerin yerini tamamen alamayacağını söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **3.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %37.3 | BELIRSIZ: %22.8 | TUTMADI: %4.9 | TUTTU: %35.0`
 - **Videoda Ne Demişti:** Yapay zeka harcamalarının maliyetine değip değmediği tartışmalarını ele alan Utku Şen, yapay zekanın ne çöp ne de mucize olduğunu anlatıyor. Yapay zekanın iş gücünde yüzde 30 ila 40 arasında bir kayba yol açabileceğini ama daha fazlasının olmayacağını, çünkü modellerin çok hata yaptığını ve insan denetimi olmadan tek başına güvenilemeyecek kadar masraflı olduğunu kendi şahsi tezi olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Job loss, navigating future with AI](https://www.youtube.com/watch?v=JqJYSObx6C8)
     > *"(1:32) in some cases. according to indeed, there are 30% less software engineering jobs listed this year compared to 2020. I think (1:40) any company right now that is not using AI in some way shape or form to program and code is missing out on massive, efficiencies. your existing (1:49) coders and programmers and Engineers have a breadth of knowle..."*
   - `[Tavily]` [Why 80% of developers will be unemployable in 2 years | Muhammed Umar posted on the topic | LinkedIn](https://www.linkedin.com/posts/umar482_why-80-developers-will-be-unemployable-in-activity-7376177752267468800-O1cF)
@@ -6320,11 +10513,21 @@
   - `[DuckDuckGo]` [AI Job Loss Statistics 2026: Real Data, Not Headlines](https://axis-intelligence.com/ai-job-loss-statistics/)
     > *"6 days ago · Stanford HAI’s 2026 AI Index confirmed the first measurable sector-specific displacement: software developers aged 22–25 saw employment fall nearly 20% year-over-year, while overall developer employment held stable — the entry pipeline is contracting, not the total workforce."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTTU" markdown="1">
+
 ### 2. Utku, yapay zeka modelleri yüzünden sektörde ciddi bir güvenlik açığı patlaması yaşanacağını, bunun siber güvenlik uzmanlarının iş yükünü ilk etapta fırlatacağını fakat zaman geçtikçe bu açıkların azalarak normale döneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tuttu">TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %35.5 | BELIRSIZ: %16.3 | TUTTU: %47.2 | TUTMADI: %1.0`
 - **Videoda Ne Demişti:** Antropic'in zafiyet bulma projesini ve yapay zekanın kod açıklarını yakalama yeteneğini değerlendiren Utku Şen, mevcut dönemde büyük bir zafiyet patlaması beklediğini anlatıyor. Bu durumun siber güvenlik sektöründeki iş yükünü ciddi şekilde artıracağını ancak zaman geçtikçe açıkların çözülmesiyle bu yükün yavaş yavaş azalacağını kendi sektörel öngörüsü olarak vurguluyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Vulnerability Discovery and Exploitation Trends in the AI Era | Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era)
     > *"GTIG expects that vulnerability discovery and exploitation will continue to grow in the short to medium term. To counter the increased risk from rapid vulnerability discovery and exploitation, organizations must transition from unprioritized mass-patching to threat-intelligence-driven triage, combining targeted edge-defense with automated, agentic..."*
   - `[Tavily]` [What is AI Workload Security? Threats & Protection Guide | IBM](https://www.ibm.com/think/topics/ai-workload-security)
@@ -6336,11 +10539,21 @@
   - `[DuckDuckGo]` [Top Cybersecurity Trends of 2026: AI, Zero Trust & Quantum ...](https://www.eccu.edu/blog/cybersecurity-trends-2026/)
     > *"Dec 16, 2025 · Explore the top cybersecurity trends of 2026, including AI-driven defense, Zero Trust frameworks, ransomware evolution, and quantum-safe cryptography shaping the future of digital security."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 3. Utku, YouTube'un yapay zeka videolarıyla dolmasının platformun değerini bitireceğini, kullanıcıların sıkılıp kaçacağını ve sadece organik insan içeriği sunan yeni bir video platformu çıkarsa herkesin oraya geçeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.3/10**)
 - **Olasılık Dağılımı:** `TUTTU: %6.3 | BELIRSIZ: %38.2 | KISMEN TUTTU: %12.2 | TUTMADI: %43.2`
 - **Videoda Ne Demişti:** YouTube'un yapay zeka içeriklerine etiket zorunluluğu getirmesini ele alan Utku Şen, baştan sona yapay zekaya yaptırılan samimiyetsiz videoların interneti çöplüğe çevirdiğini anlatıyor. Ana sayfadaki her içerik yapay zekaya dönerse insanların bu platforma girmeyi bırakacağını ve sadece gerçek insanların ürettiği organik içerikleri barındıran alternatif bir platform çıkarsa kullanıcıların topluca oraya göç edeceğini kendi gelecek tahmini olarak belirtiyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [YouTube Purges AI Slop Channels While Pushing Creator AI](https://mediacopilot.ai/youtube-purging-ai-slop-channels-creators-ai-tools)
     > *"Mohan has called generative AI “the biggest game-changer for YouTube since the original revelation that ordinary folk wanted to watch each other’s videos.” The company is betting on AI as a creative tool while cracking down on AI as a content farm. Why this matters for publishers YouTube’s crackdown signals that platforms are starting to draw quali..."*
   - `[Tavily]` [The truth behind YouTube's crackdown on AI-Generated content](https://www.youtube.com/watch?v=l3p7CPZx9-I)
@@ -6352,11 +10565,21 @@
   - `[DuckDuckGo]` [YouTube’s AI content crackdown in 2026: What changed, who is ...](https://scalelab.com/en/why-youtube-is-cracking-down-on-ai-generated-content-in-2026)
     > *"Apr 3, 2026 · Every creator who has used AI is panicking now. YouTube is demonetizing thousands of channels for uploading AI content. But it is not all doom and gloom."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 4. Utku, 20 yıl sonra cumhurbaşkanı adayı olacak kişilerin geçmişteki tüm dijital ayak izi ve yapay zeka yazışmalarının yabancı istihbaratların elinde olacağını, liderlerin tüm psikolojik zayıflıkları bilindiği için çok kolay yıpratılacakları tehlikeli bir döneme girildiğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **8.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %12.2 | TUTMADI: %1.1 | TUTTU: %4.3 | BELIRSIZ: %82.4`
 - **Videoda Ne Demişti:** 20 yıllık sohbet geçmişini analiz eden bir geliştiricinin blog yazısını değerlendiren Utku Şen, internete bırakılan dijital izlerin asla silinmediğini anlatıyor. Özellikle yapay zekayla yapılan en mahrem yazışmaların da sisteme katılmasıyla, 20 sene sonra ülke yönetimine aday olacak kişilerin tüm psikolojik zaaflarının yabancı istihbarat servislerince bilineceğini ve adayların bu verilerle kolayca yıpratılabileceği tehlikeli bir geleceğin bizi beklediğini kendi tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [What Your Digital Footprint Reveals and Who is Watching](https://bipartisanpolicy.org/article/digital-footprint)
     > *"warrants circumvent constitutional checks on police surveillance, creating a virtual dragnet of our religious practices, political affiliations, sexual orientation, and more.” In a notable robbery case, a federal district court in Virginia ruled the use of a geofence warrant violated Fourth Amendment rights. The New York State Senate introduced the..."*
   - `[Tavily]` [AI-Powered Surveillance Is Turning the United States into a Digital Police State. Now is the Time to Stop It. - ACLU of Massachuse...](https://www.aclum.org/publications/ai-powered-surveillance-is-turning-the-united-states-into-a-digital-police-state-now-is-the-time-to-stop-it)
@@ -6368,15 +10591,29 @@
   - `[DuckDuckGo]` [The Techno-Political Horizon: Digital Sovereignty, Artificial ...](https://link.springer.com/chapter/10.1007/978-3-031-99579-8_19)
     > *"Oct 1, 2025 · How are emerging technologies—especially AI, digital currency, and surveillance infrastructure—reshaping the distribution of power in American and global politics, and what new risks and opportunities do they pose for democratic governance?"*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Şaka Maka AGI Geliyor Galiba - S.A.H E122 - 2025-04-27
 
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 1. Utku, teknoloji tekellerinin önü kesilmezse 50 yıl içinde dünyada sadece 2-3 dev şirketin kalacağını, bunların devletlerden daha güçlü hale gelip kendi ordularını ve polis güçlerini kuracağı distopik bir geleceğe gidildiğini söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **9.1/10**)
 - **Olasılık Dağılımı:** `TUTTU: %1.9 | KISMEN TUTTU: %4.1 | TUTMADI: %3.2 | BELIRSIZ: %90.8`
 - **Videoda Ne Demişti:** Meta'ya açılan tekel davasını ve büyük teknoloji devlerinin rakiplerini yutmasını değerlendiren Utku Şen, tekelleşmenin engellenmemesi halinde Amazon veya Meta gibi şirketlerin devletleri bile aşacağını anlatıyor. Bu şirketlerin Harvard gibi köklü üniversiteleri satın alıp itiraz edenleri kendi özel polisleriyle susturacağı ve silahlı ordular kuracağı distopik bir düzenin 50 sene sonra karşımıza çıkabileceğini kendi iddialı gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Are we headed toward a cyberpunk-style corporate dystopia?](https://medium.com/beyond-voting/are-we-headed-toward-a-cyberpunk-style-corporate-dystopia-57dea5b7ddb4)
     > *"Big tech has the unceasing march of technological innovation on their side, along with the need to continually innovate to remain competitive. The government is a monopoly with no competition, and instead of focusing on innovation, they focus on the immediate political needs of the day, often forced to play the game of us vs them politics to stay i..."*
   - `[Tavily]` [Big Tech and the US Digital-Military-Industrial Complex - Intereconomics](https://www.intereconomics.eu/contents/year/2025/number/2/article/big-tech-and-the-us-digital-military-industrial-complex.html)
@@ -6388,11 +10625,21 @@
   - `[DuckDuckGo]` [Megacorporation - Wikipedia](https://en.wikipedia.org/wiki/Megacorporation)
     > *"In the Titanfall franchise, which contains Apex Legends, a megacorporation named Interstellar Manufacturing Corporation (IMC) dominates the entire mining and manufacturing industry across the Frontier (galaxy) based on Earth, well as maintaining private military contractors to suppress dissidents."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="TUTMADI" markdown="1">
+
 ### 2. Utku, OpenAI'ın terminalde çalışan yeni yapay zeka kodlama aracının 2025 dünyasında asla tutmayacağını, kimsenin komut satırından kod yazmakla uğraşmayacağını ve harcanan mesainin tamamen boşa gittiğini söylüyor.
+
 - **Sonuç:** <span class="badge-tutmadi">TUTMADI</span> (Güven Skoru: **4.5/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %20.7 | TUTMADI: %45.2 | BELIRSIZ: %18.8 | TUTTU: %15.4`
 - **Videoda Ne Demişti:** OpenAI'ın komut satırı üzerinden çalışan yeni yapay zeka kodlama aracını ele alan Utku Şen, 2025 yılında herkes Cursor ve Windsurf gibi görsel araçlar kullanırken terminale dönmenin hiçbir mantığı olmadığını anlatıyor. Bu tarz bir aracı neredeyse hiçbir geliştiricinin kullanmayacağını ve projeye harcanan emeğe yazık olduğunu belirterek bu ürünün piyasada kesinlikle tutmayacağını kendi şahsi teknoloji görüşü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [OpenAI debuts Codex CLI, an open source coding tool for terminals](https://finance.yahoo.com/news/openai-debuts-codex-cli-open-170000647.html)
     > *"Codex CLI won't go that far. But it will integrate OpenAI's models, eventually including o3 and o4-mini, with the clients that process code and computer commands, otherwise known as command-line interfaces. It's also open source, OpenAI says. '(Codex CLI is) a lightweight, open source coding agent that runs locally in your terminal,' an OpenAI spok..."*
   - `[Tavily]` [OpenAI debuts Codex CLI, an open source coding tool for terminals | TechCrunch](https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals)
@@ -6404,15 +10651,29 @@
   - `[DuckDuckGo]` [OpenAI API ile komut tasarımı için en iyi uygulamalar](https://help-lb.openai.com/tr-tr/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api)
     > *"Komut yazma ipuçları için genellikle başlamak için en iyi yer OpenAI’ın resmi komut tasarımı kılavuzudur. Aşağıda iyi çalıştığını gördüğümüz bazı komut biçimlerini sunuyoruz, ancak görevinize daha uygun olabilecek farklı biçimleri de keşfetmekten çekinmeyin."*
 
+</details>
+
+</div>
+
+</div>
+
 ---
+
+<div class="episode-group" markdown="1">
 
 ## Şirketlerden Ortak Siber Güvenlik Bildirisi - S.A.H E171 - 2026-08-30
 
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 1. Utku, yapay zeka yüzünden şu an ciddi bir güvenlik açığı ve siber saldırı patlaması yaşanacağını, zamanla açıkların azalarak bir platoya oturacağını ve hem saldırı hem de savunmanın aşırı sofistike bir alana dönüşeceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **4.7/10**)
 - **Olasılık Dağılımı:** `TUTTU: %31.8 | BELIRSIZ: %18.0 | TUTMADI: %3.7 | KISMEN TUTTU: %46.6`
 - **Videoda Ne Demişti:** Büyük teknoloji şirketlerinin ortak siber güvenlik bildirisini değerlendiren Utku Şen, yapay zekanın kodlardaki zafiyetleri ve exploitleri çok hızlı üretmesi yüzünden şu an büyük bir kaos ve zafiyet patlaması sürecine girdiğimizi anlatıyor. Zaman içinde yapay zekanın daha az açık barındıran kod üretmeye başlamasıyla bu zafiyetlerin azalıp bir platoya oturacağını, o aşamadan sonra hem siber saldırı yapmanın hem de savunmanın aşırı sofistike bir iş haline geleceğini kendi sektörel gelecek tezi olarak savunuyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [Impact of AI on cyber threat from now to 2027 | National Cyber Security Centre](https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027)
     > *"Assuming a lag, or no change to cyber security mitigations, there is a realistic possibility of critical systems becoming more vulnerable to advanced threat actors by 2027. Keeping pace with 'frontier AI' capabilities will almost certainly be critical to cyber resilience for the decade to come. Proliferation of AI-enabled cyber tools will highly li..."*
   - `[Tavily]` [Claude Mythos and the AI Cybersecurity Wake-Up Call | Bain & Company](https://www.bain.com/insights/claude-mythos-and-ai-cybersecurity-wake-up-call)
@@ -6424,11 +10685,21 @@
   - `[DuckDuckGo]` [AI-Powered Vulnerability Detection and Patch ... - MDPI](https://www.mdpi.com/2504-4990/8/1/19)
     > *"Jan 15, 2026 · This review provides a comprehensive evaluation of AI-powered strategies including machine learning, deep learning, and large language models for identifying cybersecurity vulnerabilities and supporting automated patching."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="BELIRSIZ" markdown="1">
+
 ### 2. Utku, teknoloji sektöründeki neredeyse her türlü pozisyonda yapay zeka nedeniyle yüzde 30 ila 40 civarında bir işten çıkarma ve istihdam kaybı yaşanmasının kaçınılmaz olduğunu söylüyor.
+
 - **Sonuç:** <span class="badge-belirsiz">BELİRSİZ</span> (Güven Skoru: **4.2/10**)
 - **Olasılık Dağılımı:** `KISMEN TUTTU: %36.1 | BELIRSIZ: %42.0 | TUTMADI: %4.3 | TUTTU: %17.6`
 - **Videoda Ne Demişti:** Meta'nın çalışanlarının büyük kısmını işten çıkarıp yapay zekayla değiştirme planı yaptığına dair haberleri ele alan Utku Şen, yapay zekanın şu an henüz tüm çalışanların yerini alacak olgunlukta olmadığını belirtiyor. Buna rağmen teknoloji sektörünün genelinde hemen hemen her pozisyonda yüzde 30 ile 40 arasında bir iş gücü kaybı ve işten çıkarma dalgası yaşanmamasının imkansız olduğunu kendi şahsi gelecek öngörüsü olarak paylaşıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [2026 Ai Layoffs Statistics | 120+ Verified Facts](https://gitnux.org/ai-layoffs-statistics)
     > *"While AI layoffs in 2023–24 are 30% higher than those in non-AI tech roles (with a 12% layoff rate vs 8% overall in 2024), the cuts vary wildly by sector: fintech AI laid off 15% fewer workers than pure AI startups, healthcare AI cut 2,100 jobs (vs 10,000 in consumer AI), self-driving AI lost 4,500 (double robotics’ 1,200), gaming AI roles dropped..."*
   - `[Tavily]` [AI Layoffs Just Fell 97%. That's Not Good News.](https://www.youtube.com/watch?v=vuQOdqXiPbI)
@@ -6440,11 +10711,21 @@
   - `[DuckDuckGo]` [US job cuts plunge 40%: Why AI is still putting workers on ...](https://www.financialexpress.com/world-news/us-news/us-job-cuts-plunge-40-why-ai-is-still-putting-workers-on-the-chopping-block/4362187/)
     > *"Oct 15, 2026 · US job cuts fell 40% in 2026’s first half, but AI drove 101,743 layoffs as hiring stayed cautious. See what it means for workers."*
 
+</details>
+
+</div>
+
+<div class="claim-card" data-status="KISMEN TUTTU" markdown="1">
+
 ### 3. Utku, kaynak kodda açık tarayan geleneksel statik ve dinamik güvenlik tarama araçlarının miadını doldurduğunu ve bir yapay zeka aboneliği karşısında hepsinin çöpe döneceğini söylüyor.
+
 - **Sonuç:** <span class="badge-kismen">KISMEN TUTTU</span> (Güven Skoru: **6.5/10**)
 - **Olasılık Dağılımı:** `TUTTU: %9.3 | KISMEN TUTTU: %64.7 | BELIRSIZ: %11.3 | TUTMADI: %14.7`
 - **Videoda Ne Demişti:** Yapay zekanın uygulama güvenliğindeki etkisini anlatan Utku Şen, eski usul kaynak kod tarama ve dinamik test araçlarını ankesörlü telefona, yapay zeka modellerini ise iPhone'a benzetiyor. Şirketlerin pahalı geleneksel tarama araçlarını çöpe atıp süreçlerini yapay zeka modelleriyle dönüştürmekten başka çaresi kalmayacağını kendi kişisel tezi olarak aktarıyor.
-- **İncelenen Web Kanıtları:**
+
+<details class="evidence-details" markdown="1">
+<summary>İncelenen Web Kanıtları (5 Kaynak)</summary>
+
   - `[Tavily]` [SAST vs DAST: Claude Code Outperforms Traditional Tools in Benchmark Study | Andy Cao posted on the topic | LinkedIn](https://www.linkedin.com/posts/andymcao_is-it-the-end-of-sast-and-dast-ai-generated-activity-7437931545447002113-ep_8)
     > *"Is it the end of SAST and DAST? AI-generated code is often free of the syntactic patterns that traditional SAST rules are built to match, while the vulnerabilities that remain are often business logic and workflow flaws that DAST struggles to detect. In part 2 of our benchmark study, we go deeper into what each scanner actually caught across three..."*
   - `[Tavily]` [What Is AI SAST? Smarter Static Security Testing | Cycode](https://cycode.com/blog/ai-sast)
@@ -6455,6 +10736,12 @@
     > *"TL,DR AI-generated code changes three things simultaneously: it increases the volume of findings, removes code provenance, and slows triage. Traditional SAST was built for human-authored code and post-commit review, so it breaks at each of those points. A formal verification study of 3,500 code artifacts found a mean vulnerability rate of 55.8% acr..."*
   - `[DuckDuckGo]` [Yapay Zeka ile Güvenlik Açığı Taraması: Yöntemler ve Araçlar](https://guncelkod.com/articles/genel-diger/yapay-zeka-ile-guvenlik-acigi-taramasi-yontemler-ve-araclar)
     > *"Yapay zeka ile güvenlik açığı taraması nasıl yapılır? SAST/DAST sınırları, LLM tabanlı kod analizi ve DevSecOps entegrasyonu hakkında teknik rehber."*
+
+</details>
+
+</div>
+
+</div>
 
 ---
 
