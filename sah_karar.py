@@ -353,9 +353,10 @@ def write_reports(state):
 
     sayac = {"TUTTU": 0, "KISMEN TUTTU": 0, "TUTMADI": 0, "BELIRSIZ": 0}
 
+    # Videoları yayınlanma tarihine göre kronolojik (2021'den 2026'ya) sırala
     sorted_videos = sorted(
         state["videos"].items(),
-        key=lambda item: natural_sort_key(item[1].get("title", ""))
+        key=lambda item: (item[1].get("publish_date") or "1970-01-01", natural_sort_key(item[1].get("title", "")))
     )
 
     for vid_id, vdata in sorted_videos:
@@ -366,7 +367,7 @@ def write_reports(state):
         if not claims:
             continue
 
-        arsiv.append(f'<div class="episode-group" markdown="1">\n\n## {title}{date_str}\n\n')
+        arsiv.append(f'<div class="episode-group" data-date="{vdate or "1970-01-01"}" markdown="1">\n\n## {title}{date_str}\n\n')
 
         for idx, c in enumerate(claims, 1):
             karar = c.get("karar")
@@ -441,12 +442,19 @@ def write_reports(state):
     total_claims = sum(sayac.values())
     ozet_ust = (
         f'<div class="filter-container">\n'
-        f'  <div class="filter-bar">\n'
-        f'    <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü ({total_claims})</button>\n'
-        f'    <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu ({sayac["TUTTU"]})</button>\n'
-        f'    <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen ({sayac["KISMEN TUTTU"]})</button>\n'
-        f'    <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı ({sayac["TUTMADI"]})</button>\n'
-        f'    <button class="filter-btn filter-btn-belirsiz" data-filter="BELIRSIZ">Belirsiz ({sayac["BELIRSIZ"]})</button>\n'
+        f'  <div class="filter-header">\n'
+        f'    <div class="filter-bar">\n'
+        f'      <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü ({total_claims})</button>\n'
+        f'      <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu ({sayac["TUTTU"]})</button>\n'
+        f'      <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen ({sayac["KISMEN TUTTU"]})</button>\n'
+        f'      <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı ({sayac["TUTMADI"]})</button>\n'
+        f'      <button class="filter-btn filter-btn-belirsiz" data-filter="BELIRSIZ">Belirsiz ({sayac["BELIRSIZ"]})</button>\n'
+        f'    </div>\n'
+        f'    <div class="sort-bar">\n'
+        f'      <span class="sort-label">Sırala:</span>\n'
+        f'      <button class="sort-btn active" data-sort="asc">Kronolojik (Eski &rarr; Yeni)</button>\n'
+        f'      <button class="sort-btn" data-sort="desc">En Yeni İlk</button>\n'
+        f'    </div>\n'
         f'  </div>\n'
         f'  <div id="filter-count" class="filter-count">Gösterilen: {total_claims} / {total_claims} Tahmin</div>\n'
         f'</div>\n\n'
