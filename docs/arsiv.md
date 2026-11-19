@@ -6,7 +6,7 @@
 
 <div class="filter-container">
   <div class="filter-bar">
-    <button class="filter-btn active" data-filter="ALL">Tümü (370)</button>
+    <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü (370)</button>
     <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu (150)</button>
     <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen (77)</button>
     <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı (45)</button>

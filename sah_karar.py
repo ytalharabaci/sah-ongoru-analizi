@@ -25,8 +25,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # ==================== 2. DOSYA VE HIZ AYARLARI ====================
 STATE_FILE      = "sah_hibrit_checkpoint.json"
-RAPOR_VITRIN    = "sah_ben_demistim_vitrin.md"
-RAPOR_TUM_ARSIV = "sah_tum_kararlar.md"
+RAPOR_DOSYASI   = "docs/arsiv.md"
 
 SLEEP_NOTEBOOKLM = 5    # NotebookLM oturum koruması (sn)
 SLEEP_DDG_MIN    = 1.5  # Aynı videonun ardışık iddiaları arası mikro bekleme (sn)
@@ -448,7 +447,7 @@ def write_reports(state):
         f"Belirsiz: **{sayac['BELIRSIZ']}**\n\n"
         f'<div class="filter-container">\n'
         f'  <div class="filter-bar">\n'
-        f'    <button class="filter-btn active" data-filter="ALL">Tümü ({total_claims})</button>\n'
+        f'    <button class="filter-btn filter-btn-all active" data-filter="ALL">Tümü ({total_claims})</button>\n'
         f'    <button class="filter-btn filter-btn-tuttu" data-filter="TUTTU">Tuttu ({sayac["TUTTU"]})</button>\n'
         f'    <button class="filter-btn filter-btn-kismen" data-filter="KISMEN TUTTU">Kısmen ({sayac["KISMEN TUTTU"]})</button>\n'
         f'    <button class="filter-btn filter-btn-tutmadi" data-filter="TUTMADI">Tutmadı ({sayac["TUTMADI"]})</button>\n'
@@ -461,9 +460,8 @@ def write_reports(state):
     os.makedirs("docs", exist_ok=True)
     arsiv_content = arsiv[0] + ozet_ust + "".join(arsiv[1:])
 
-    for p in ["docs/arsiv.md", RAPOR_TUM_ARSIV]:
-        with open(p, "w", encoding="utf-8") as f:
-            f.write(arsiv_content)
+    with open(RAPOR_DOSYASI, "w", encoding="utf-8") as f:
+        f.write(arsiv_content)
 
 
 async def main():
@@ -549,8 +547,7 @@ async def main():
 
     write_reports(state)
     print("\nTüm videolar ve iddialar başarıyla işlendi!")
-    print(f"- Vitrin Raporu: {RAPOR_VITRIN}")
-    print(f"- Tüm Arşiv Raporu: {RAPOR_TUM_ARSIV}")
+    print(f"- Tahminler Raporu: {RAPOR_DOSYASI}")
 
 
 if __name__ == "__main__":
